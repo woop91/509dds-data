@@ -1,0 +1,29 @@
+{
+  "$comment": "Massachusetts DDS-Det vs population-peer states (6-8M population), FY 2020-2024. Source: SSA-SA-FYWL.csv. Population peer set = states within roughly +/-1.5M of MA's ~7M.",
+  "peer_set_rationale": "States with populations close to MA (6-8M range) chosen for apples-to-apples workforce/workload comparison. Avoids distortion from comparing MA to CA (39M) or RI (1M).",
+  "peer_states": ["MA", "TN", "AZ", "IN", "MD", "VA", "WA", "MO", "WI"],
+  "fy_2024_snapshot": {
+    "MA": {"adult_receipts": 37055, "adult_filing_rate": 0.88, "adult_fav_pct": 36.07, "all_det": 35844, "all_fav": 14399, "fav_pct": 40.17},
+    "AZ": {"adult_receipts": 40572, "adult_filing_rate": 0.94, "adult_fav_pct": 29.71, "all_det": 41876, "all_fav": 14046, "fav_pct": 33.54},
+    "IN": {"adult_receipts": 44934, "adult_filing_rate": 1.16, "adult_fav_pct": 37.04, "all_det": 42770, "all_fav": 16529, "fav_pct": 38.65},
+    "MD": {"adult_receipts": 26628, "adult_filing_rate": 0.74, "adult_fav_pct": 37.68, "all_det": 27535, "all_fav": 12063, "fav_pct": 43.81},
+    "MO": {"adult_receipts": 42318, "adult_filing_rate": 1.23, "adult_fav_pct": 39.45, "all_det": 45546, "all_fav": 19364, "fav_pct": 42.52},
+    "TN": {"adult_receipts": 49446, "adult_filing_rate": 1.22, "adult_fav_pct": 30.91, "all_det": 62901, "all_fav": 21202, "fav_pct": 33.71},
+    "VA": {"adult_receipts": 42174, "adult_filing_rate": 0.84, "adult_fav_pct": 41.36, "all_det": 48046, "all_fav": 21006, "fav_pct": 43.72},
+    "WA": {"adult_receipts": 37726, "adult_filing_rate": 0.81, "adult_fav_pct": 35.49, "all_det": 36229, "all_fav": 14041, "fav_pct": 38.76},
+    "WI": {"adult_receipts": 30266, "adult_filing_rate": 0.90, "adult_fav_pct": 38.02, "all_det": 42091, "all_fav": 17353, "fav_pct": 41.23}
+  },
+  "ma_5year_trend_2020_2024": {
+    "fav_pct": [45.82, 42.95, 46.76, 43.19, 40.17],
+    "fav_pct_change_pts": -5.65,
+    "context": "Steepest decline among peer set",
+    "adult_beneficiaries": [272352, 258303, 244699, 233435, 224106],
+    "beneficiary_change_pct": -17.7
+  },
+  "national_processing_time_days": {
+    "$comment": "National only; SSA does not publish state breakouts in open data.",
+    "fy_2016": 110, "fy_2017": 111, "fy_2018": 111, "fy_2019": 120,
+    "fy_2020": 131, "fy_2021": 165, "fy_2022": 184, "fy_2023": 217,
+    "fy_2024": 231, "fy_2025": 226
+  }
+}

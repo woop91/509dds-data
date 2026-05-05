@@ -1,0 +1,175 @@
+{
+  "$comment": "DDS-Det operational statistics for Massachusetts. DDS-Det = Disability Determination Services (a division of MassAbility/MRC), NOT Department of Developmental Services (DDS-Dev). Year column uses federal FY (Oct-Sep). Source: SSA-SA-FYWL.csv (federal FY workload), MA annual reports, MRC Section 9F reports. Cells marked PRR require Public Records Request to MassAbility. Cells marked TBD require future data release.",
+  "schema": {
+    "year": "integer (federal FY)",
+    "metric": "string",
+    "value": "number | string ('PRR' | 'TBD')",
+    "unit": "'cases' | 'percent' | 'usd' | 'count'",
+    "source": "string",
+    "confidence": "'authoritative' | 'computed' | 'estimated'"
+  },
+  "metrics": {
+    "total_receipts": {
+      "label": "Total Claim Receipts",
+      "unit": "cases",
+      "values": {
+        "2013": 86400, "2014": 83691, "2015": 86232, "2016": 91337,
+        "2017": 79557, "2018": 86058, "2019": 75330, "2020": 63712,
+        "2021": "PRR", "2022": 64276, "2023": 60048, "2024": 60305, "2025": "TBD"
+      },
+      "source": "MassAbility/MRC Section 9F reports"
+    },
+    "total_dispositions": {
+      "label": "Total Claim Dispositions",
+      "unit": "cases",
+      "values": {
+        "2013": 85854, "2014": 86190, "2015": 85508, "2016": 91657,
+        "2017": 87054, "2018": 83977, "2019": 76620, "2020": 65163,
+        "2021": "PRR", "2022": "PRR", "2023": 58859, "2024": 60453, "2025": "TBD"
+      }
+    },
+    "initial_claims_filed": {
+      "label": "Initial Claims Filed (Adult+Child)",
+      "unit": "cases",
+      "values": {
+        "2013": 57906, "2014": 52993, "2015": 52503, "2016": 48430,
+        "2017": 45614, "2018": 43776, "2019": 44306, "2020": 38976,
+        "2021": 33137, "2022": 36426, "2023": 38120, "2024": 42535, "2025": "TBD"
+      },
+      "source": "SSA-SA-FYWL.csv (federal FY)"
+    },
+    "initial_claims_disposed": {
+      "label": "Initial Claims Disposed",
+      "unit": "cases",
+      "values": {
+        "2013": 58020, "2014": 56716, "2015": 56343, "2016": 48954,
+        "2017": 46955, "2018": 44321, "2019": 42724, "2020": 38565,
+        "2021": 31341, "2022": 27880, "2023": 34877, "2024": 38512, "2025": 49445
+      }
+    },
+    "pct_allowed": {
+      "label": "% Allowed (Favorable Determination Rate)",
+      "unit": "percent",
+      "values": {
+        "2013": 40.9, "2014": 40.1, "2015": 40.6, "2016": 41.2,
+        "2017": 41.3, "2018": 41.1, "2019": 42.9, "2020": 45.8,
+        "2021": 42.95, "2022": 57.0, "2023": 43.19, "2024": 44.0, "2025": "TBD"
+      },
+      "_note_2022": "MA report value 57% diverges from SSA FYWL 46.76% — verify against original Section 9F"
+    },
+    "cdr_receipts": {
+      "label": "Continuing Disability Review Receipts",
+      "unit": "cases",
+      "values": {
+        "2013": 8968, "2014": 11402, "2015": 16301, "2016": 30682,
+        "2017": 17031, "2018": 26673, "2019": 16478, "2020": 12115,
+        "2021": 9289, "2022": "PRR", "2023": "PRR", "2024": "PRR", "2025": "TBD"
+      }
+    },
+    "cdr_dispositions": {
+      "label": "Continuing Disability Review Dispositions",
+      "unit": "cases",
+      "values": {
+        "2013": 7848, "2014": 9150, "2015": 18616, "2016": 23595,
+        "2017": 22539, "2018": 27510, "2019": 19684, "2020": 12890,
+        "2021": "PRR", "2022": 16998, "2023": 14842, "2024": 13776, "2025": "TBD"
+      }
+    },
+    "ce_purchased": {
+      "label": "Consultative Examinations Purchased",
+      "unit": "count",
+      "values": {
+        "2013": 20534, "2014": 20644, "2015": 21719, "2016": 21281,
+        "2017": 19688, "2018": 17573, "2019": 17117, "2020": 10233,
+        "2021": "PRR", "2022": 10006, "2023": 14467, "2024": 14467, "2025": "TBD"
+      }
+    },
+    "ce_rate": {
+      "label": "Consultative Examination Rate",
+      "unit": "percent",
+      "_note": "Computed as ce_purchased / total_dispositions",
+      "values": {
+        "2013": 23.9, "2014": 24.0, "2015": 24.5, "2016": 23.7,
+        "2017": 22.6, "2018": 20.9, "2019": 22.3, "2020": 15.7,
+        "2021": "PRR", "2022": "PRR (need total_dispositions)", "2023": 24.58, "2024": 23.93, "2025": "TBD"
+      }
+    },
+    "mer_purchased": {
+      "label": "Medical Evidence of Record Purchased",
+      "unit": "count",
+      "values": {
+        "2013": 77472, "2014": 78473, "2015": 80373, "2016": 79476,
+        "2017": 77926, "2018": 74706, "2019": 67694, "2020": 55338,
+        "2021": "PRR", "2022": 39569, "2023": 52335, "2024": 52335, "2025": "TBD"
+      }
+    },
+    "mer_rate": {
+      "label": "Medical Evidence of Record Rate",
+      "unit": "percent",
+      "_note": "Computed as mer_purchased / total_dispositions",
+      "values": {
+        "2013": 90.2, "2014": 91.0, "2015": 90.8, "2016": 88.5,
+        "2017": 89.5, "2018": 89.0, "2019": 88.4, "2020": 84.9,
+        "2021": "PRR", "2022": "PRR (need total_dispositions)", "2023": 88.92, "2024": 86.57, "2025": "TBD"
+      }
+    },
+    "dds_accuracy": {
+      "label": "DDS Accuracy of Decisions (state)",
+      "unit": "percent",
+      "values": {
+        "2013": 97.5, "2014": 96.7, "2015": 97.3, "2016": 98.6,
+        "2017": 96.2, "2018": 96.4, "2019": 96.9, "2020": 95.2,
+        "2021": 95.9, "2022": 95.2, "2023": 98.0, "2024": 97.0, "2025": 95.9
+      },
+      "source_2007_2022": "DDS-Net-Accuracy.csv (federal QA review)",
+      "source_2023_2025": "MA annual reports"
+    },
+    "federal_accuracy_standard": {
+      "label": "Federal Accuracy of Decision Standard",
+      "unit": "percent",
+      "values": {
+        "2013": 90.0, "2014": 90.0, "2015": 90.6, "2016": 90.6,
+        "2017": 90.6, "2018": 90.6, "2019": 90.6, "2020": 90.6,
+        "2021": 90.6, "2022": 90.6, "2023": 95.0, "2024": 95.0, "2025": 95.0
+      },
+      "_note": "Standard raised to 95% in 2023 per MRC Annual Report"
+    },
+    "cost_per_case": {
+      "label": "Cost Per Case",
+      "unit": "usd",
+      "values": {
+        "2013": 516.74, "2014": 524.69, "2015": 550.10, "2016": 549.34,
+        "2017": 571.63, "2018": 568.79, "2019": 613.50, "2020": 695.47,
+        "2021": 817.36, "2022": 741.39, "2023": 826.31, "2024": 1071.0, "2025": "TBD"
+      }
+    },
+    "dds_total_budget": {
+      "label": "DDS-Det Operating Budget",
+      "unit": "usd",
+      "values": {
+        "2013": "PRR", "2014": "PRR", "2015": "PRR", "2016": "PRR",
+        "2017": "PRR", "2018": "PRR", "2019": "PRR", "2020": "PRR",
+        "2021": "PRR", "2022": "PRR", "2023": 48635926, "2024": 50806437, "2025": 42300750
+      }
+    },
+    "pct_federal_funding": {
+      "label": "% Federal Funding (constant by SSA program)",
+      "unit": "percent",
+      "values": {
+        "2013": 100, "2014": 100, "2015": 100, "2016": 100,
+        "2017": 100, "2018": 100, "2019": 100, "2020": 100,
+        "2021": 100, "2022": 100, "2023": 100, "2024": 100, "2025": 100
+      }
+    },
+    "homeless_cases": {
+      "label": "Homeless Cases (count of claims processed for homeless individuals)",
+      "unit": "count",
+      "_note": "Renamed from 'Houseless Favorable %' — should be a count, not a rate. The 22% in MA's 2023 report was a rate, not a count.",
+      "values": {
+        "2013": "PRR", "2014": "PRR", "2015": "PRR", "2016": "PRR",
+        "2017": "PRR", "2018": "PRR", "2019": "PRR", "2020": "PRR",
+        "2021": "PRR", "2022": "PRR", "2023": "PRR (rate-only published: 22%)", "2024": "PRR", "2025": "PRR"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$comment": "Vocational Disability Examiner headcount in Massachusetts DDS-Det (the SSA-claim adjudication division within MassAbility/MRC). Source: CTHRU (cthru.data.socrata.com, dataset rxhc-k6iz, chris='MRC'). Methodology: count of payroll records per calendar year; differs from SSA SAOR FTE-authorized counts. CTHRU is calendar year (Jan-Dec); SSA federal FY (Oct-Sep) values may differ slightly. CTHRU update lag: ~6+ months after CY end. CY 2024 not yet published as of 2026-05.",
+  "department_filter": "chris='MRC'",
+  "title_filter_pattern": "upper(position_title) like '%DISAB EXAMINER%'",
+  "year_type": "calendar",
+  "by_grade": {
+    "2010": {"A_B": 170, "C": 44, "D": 32, "I": null, "II": null, "III": null, "IV": null, "total": 246},
+    "2011": {"A_B": 154, "C": 60, "D": 28, "total": 242},
+    "2012": {"A_B": 124, "C": 53, "D": 30, "total": 207},
+    "2013": {"A_B": 130, "C": 44, "D": 24, "total": 198},
+    "2014": {"A_B": 170, "C": 71, "D": 26, "total": 267},
+    "2015": {"A_B": 140, "C": 84, "D": 25, "total": 249},
+    "2016": {"A_B": 98, "C": 69, "D": 22, "I": 112, "II": 62, "III": 22, "total_raw": 385, "total_corrected_estimate": 200, "_note": "reclassification year — both old (A/B/C/D) and new (I/II/III) titles in payroll concurrently"},
+    "2017": {"I": 107, "II": 79, "III": 22, "total": 208},
+    "2018": {"I": 86, "II": 72, "III": 21, "total": 179},
+    "2019": {"I": 92, "II": 71, "III": 44, "IV": 25, "total": 232},
+    "2020": {"I": 77, "II": 44, "III": 22, "IV": 22, "total": 165},
+    "2021": {"I": 88, "II": 39, "III": 17, "IV": 24, "total": 168},
+    "2022": {"I": 83, "II": 38, "III": 11, "IV": 21, "total": 153},
+    "2023": {"I": 73, "II": 33, "III": 7, "IV": 16, "total": 129}
+  },
+  "trend_summary": {
+    "vde_total_2019_to_2023": "232 -> 129 (-44%)",
+    "vde_iii_decline": "44 (2019) -> 7 (2023) — senior examiner pipeline collapse"
+  }
+}

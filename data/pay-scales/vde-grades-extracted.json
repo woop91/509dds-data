@@ -1,0 +1,45 @@
+{
+  "$comment": "Vocational Disability Examiner pay extracted from SEIU 509 Unit 8 salary charts. Bi-weekly rates in USD. Annual estimate = bi-weekly * 26. VDE I = Grade 20, VDE II = Grade 21, VDE III = Grade 23 (per CBA 2024-2026 Article on Job Codes). Each Jan/Jul effective date = ~2% across-the-board increase.",
+  "source_unit": "Unit 8 SEIU Local 509 Social/Rehabilitative",
+  "rate_basis": "bi-weekly",
+  "vde_grade_mapping": {
+    "Vocational Disability Examiner I": 20,
+    "Vocational Disability Examiner II": 21,
+    "Vocational Disability Examiner III": 23,
+    "Chief Vocational Disability Examiner": "job code 20-947"
+  },
+  "salary_charts": {
+    "2024-07-14": {
+      "grade_20": {"step_1": 2613.60, "step_5": 2942.63, "step_10": 3412.95, "step_12": 3550.86, "annual_est_max": 92322},
+      "grade_21": {"step_1": 2735.03, "step_5": 3085.10, "step_10": 3586.36, "step_12": 3731.27, "annual_est_max": 97013},
+      "grade_23": {"step_1": 3017.77, "step_5": 3398.33, "step_10": 3942.25, "step_12": 4101.50, "annual_est_max": 106639}
+    },
+    "2025-01-12": {
+      "grade_20": {"step_1": 2665.87, "step_5": 3001.48, "step_10": 3481.21, "step_12": 3621.88, "annual_est_max": 94169},
+      "grade_21": {"step_1": 2789.73, "step_5": 3146.80, "step_10": 3658.09, "step_12": 3805.90, "annual_est_max": 98953},
+      "grade_23": {"step_1": 3078.13, "step_5": 3466.30, "step_10": 4021.10, "step_12": 4183.53, "annual_est_max": 108772}
+    },
+    "2025-07-13": {
+      "grade_20": {"step_1": 2719.19, "step_5": 3061.51, "step_10": 3550.83, "step_12": 3694.32, "annual_est_max": 96052},
+      "grade_21": {"step_1": 2845.52, "step_5": 3209.74, "step_10": 3731.25, "step_12": 3882.02, "annual_est_max": 100933},
+      "grade_23": {"step_1": 3139.69, "step_5": 3535.63, "step_10": 4101.52, "step_12": 4267.20, "annual_est_max": 110947}
+    },
+    "2026-01-11": {
+      "grade_20": {"step_1": 2773.57, "step_5": 3122.74, "step_10": 3621.85, "step_12": 3768.21, "annual_est_max": 97973},
+      "grade_21": {"step_1": 2902.43, "step_5": 3273.93, "step_10": 3805.88, "step_12": 3959.66, "annual_est_max": 102951},
+      "grade_23": {"step_1": 3202.48, "step_5": 3606.34, "step_10": 4183.55, "step_12": 4352.54, "annual_est_max": 113166}
+    },
+    "2026-07-12": {
+      "grade_20": {"step_1": 2829.04, "step_5": 3185.19, "step_10": 3694.29, "step_12": 3843.57, "annual_est_max": 99933},
+      "grade_21": {"step_1": 2960.48, "step_5": 3339.41, "step_10": 3882.00, "step_12": 4038.85, "annual_est_max": 105010},
+      "grade_23": {"step_1": 3266.53, "step_5": 3678.47, "step_10": 4267.22, "step_12": 4439.59, "annual_est_max": 115429}
+    }
+  },
+  "cthru_actual_paid_2023": {
+    "$comment": "Average paid annual_rate from CTHRU CY 2023 — pre-2024-07 increase rates",
+    "VDE_I":   {"n": 73, "avg": 76809, "min": 41436, "max": 82871},
+    "VDE_II":  {"n": 33, "avg": 78558, "min": 28985, "max": 87082},
+    "VDE_III": {"n": 7,  "avg": 91569, "min": 91569, "max": 91569},
+    "VDE_IV":  {"n": 16, "avg": 95204, "min": 89314, "max": 95722}
+  }
+}

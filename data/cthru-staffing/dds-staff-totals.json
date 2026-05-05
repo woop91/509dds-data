@@ -1,0 +1,25 @@
+{
+  "$comment": "DDS-Det division total staff counts (Disability Determination Services within MassAbility/MRC). Source: CTHRU. Includes: all VDE grades, Medical Consultants, Medical Review Examiner, Review Examiner, Asst Commissioner DDS, Regional Director DDS, Director Hearings Unit, Dir QA DDS, Dir Training DDS, Director A&F DDS, Fiscal Director DDS, Hearings Director.",
+  "department_filter": "chris='MRC'",
+  "year_type": "calendar",
+  "data": {
+    "2010": {"vde_total": 246, "medical_consultants": 95, "dds_division_total": 365, "mrc_agency_total": 1128},
+    "2011": {"vde_total": 242, "medical_consultants": 89, "dds_division_total": 351, "mrc_agency_total": 1037},
+    "2012": {"vde_total": 207, "medical_consultants": 94, "dds_division_total": 325, "mrc_agency_total": 1023},
+    "2013": {"vde_total": 198, "medical_consultants": 97, "dds_division_total": 318, "mrc_agency_total": 1016},
+    "2014": {"vde_total": 267, "medical_consultants": 89, "dds_division_total": 375, "mrc_agency_total": 1106},
+    "2015": {"vde_total": 249, "medical_consultants": 93, "dds_division_total": 367, "mrc_agency_total": 1110},
+    "2016": {"vde_total": 385, "medical_consultants": 87, "dds_division_total": 495, "mrc_agency_total": 1546, "_note": "reclassification year — counts inflated"},
+    "2017": {"vde_total": 208, "medical_consultants": 85, "dds_division_total": 319, "mrc_agency_total": 1116},
+    "2018": {"vde_total": 179, "medical_consultants": 80, "dds_division_total": 280, "mrc_agency_total": 1014},
+    "2019": {"vde_total": 232, "medical_consultants": 81, "dds_division_total": 332, "mrc_agency_total": 1110},
+    "2020": {"vde_total": 165, "medical_consultants": 82, "dds_division_total": 266, "mrc_agency_total": 940},
+    "2021": {"vde_total": 168, "medical_consultants": 77, "dds_division_total": 266, "mrc_agency_total": 993},
+    "2022": {"vde_total": 153, "medical_consultants": 73, "dds_division_total": 249, "mrc_agency_total": 1080},
+    "2023": {"vde_total": 129, "medical_consultants": 55, "dds_division_total": 200, "mrc_agency_total": 805}
+  },
+  "comparison_dds_dev_separate_agency": {
+    "$comment": "Department of Developmental Services (DMR chris code) — different agency, NOT in 509 scope. Listed only for disambiguation/sanity check.",
+    "2023_dmr_headcount": 5515
+  }
+}

@@ -1,0 +1,789 @@
+{
+  "$schema": "https://509dds.com/schemas/labor-rights/agencies-v1.json",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-04",
+  "scrapedFrom": "Firecrawl, May 2026",
+  "audience": "SEIU Local 509 DDS chapter — MA state public employees (SSDI/SSI claims examiners)",
+  "disclaimer": "Reference information only, not legal advice. Each fact cites a source markdown file in this directory. Verify deadlines against current agency websites before relying on them.",
+  "agencies": [
+    {
+      "id": "ma-dlr",
+      "name": "Massachusetts Department of Labor Relations",
+      "abbreviation": "DLR",
+      "jurisdiction": "ma",
+      "category": "labor-relations",
+      "primaryFor509dds": true,
+      "useFor": [
+        "public-sector unfair labor practice charges",
+        "refusal to bargain",
+        "unilateral changes to wages/hours/working conditions",
+        "interference with union activity",
+        "retaliation for protected activity",
+        "duty of fair representation charges",
+        "representation petitions"
+      ],
+      "primaryStatute": "M.G.L. c. 150E",
+      "additionalStatutes": ["M.G.L. c. 150A (private sector)"],
+      "contact": {
+        "phones": [
+          { "office": "Boston (Main)", "display": "(617) 626-7132", "tel": "+16176267132" },
+          { "office": "Worcester", "display": "(508) 762-3374", "tel": "+15087623374" }
+        ],
+        "email": "efile.dlr@mass.gov",
+        "url": "https://www.mass.gov/orgs/department-of-labor-relations",
+        "addresses": [
+          { "office": "Boston (Main)", "street": "Lafayette City Center, 2 Avenue de Lafayette", "city": "Boston", "state": "MA", "zip": "02111-1750" },
+          { "office": "Worcester", "street": "Mercantile Center, 100 Front Street, Suite 310", "city": "Worcester", "state": "MA", "zip": "01608" }
+        ],
+        "publicAccess": "Officer of the Day — Thursdays 1pm–5pm (general inquiries; not legal advice)"
+      },
+      "filingDeadlines": [
+        {
+          "id": "dlr-ulp-charge",
+          "claim": "Charge of Prohibited Practice (ULP)",
+          "statute": "M.G.L. c. 150E § 11(a)",
+          "deadline": "6 months",
+          "deadlineDays": 180,
+          "trigger": "from the date the Charging Party knew or should have known of the alleged prohibited practice",
+          "extensionGrounds": "good cause shown",
+          "source": { "file": "sub-01-dlr-ulp-procedures.md", "line": 103 }
+        },
+        {
+          "id": "dlr-150a-6a-charge",
+          "claim": "Union-membership-discharge charge",
+          "statute": "M.G.L. c. 150A § 6A",
+          "deadline": "15 days",
+          "deadlineDays": 15,
+          "trigger": "after notice that union has requested discharge for failure to maintain union membership",
+          "source": { "file": "sub-01-dlr-ulp-procedures.md", "line": 105 }
+        },
+        {
+          "id": "dlr-cerb-appeal",
+          "claim": "Appeal of Hearing Officer dismissal to CERB",
+          "statute": "DLR procedures",
+          "deadline": "10 days",
+          "deadlineDays": 10,
+          "trigger": "from receipt of dismissal decision",
+          "source": { "file": "sub-01-dlr-ulp-procedures.md", "line": 262 }
+        },
+        {
+          "id": "dlr-judicial-review",
+          "claim": "Judicial review of CERB decision (Appeals Court)",
+          "statute": "DLR procedures",
+          "deadline": "30 days",
+          "deadlineDays": 30,
+          "trigger": "from receipt of CERB decision",
+          "source": { "file": "sub-01-dlr-ulp-procedures.md", "line": 619 }
+        }
+      ],
+      "sourceFiles": {
+        "landing": "01-ma-dlr.md",
+        "subpages": [
+          "sub-01-dlr-ulp-procedures.md",
+          "sub-01-dlr-prohibited-practices.md"
+        ]
+      }
+    },
+    {
+      "id": "ma-mcad",
+      "name": "Massachusetts Commission Against Discrimination",
+      "abbreviation": "MCAD",
+      "jurisdiction": "ma",
+      "category": "discrimination",
+      "primaryFor509dds": true,
+      "useFor": [
+        "disability discrimination and failure to accommodate",
+        "pregnancy discrimination and accommodation",
+        "religious accommodation",
+        "race, color, national origin discrimination",
+        "sex/sexual orientation/gender identity discrimination",
+        "age discrimination (40+)",
+        "retaliation for protected discrimination complaints"
+      ],
+      "primaryStatute": "M.G.L. c. 151B",
+      "contact": {
+        "phones": [
+          { "office": "Boston", "display": "(617) 994-6000", "tel": "+16179946000" },
+          { "office": "Boston (TTY)", "display": "(617) 994-6196", "tel": "+16179946196" },
+          { "office": "Worcester", "display": "(508) 453-9630", "tel": "+15084539630" }
+        ],
+        "email": "mcad@mass.gov",
+        "url": "https://www.mass.gov/orgs/massachusetts-commission-against-discrimination",
+        "addresses": [
+          { "office": "Boston", "street": "One Ashburton Place, Suite 601", "city": "Boston", "state": "MA", "zip": "02108" }
+        ],
+        "filingPortal": "https://www.mass.gov/mcad-complaints-of-discrimination",
+        "dualFiling": "automatically dual-files with EEOC if federal laws apply — do not file with both"
+      },
+      "filingDeadlines": [
+        {
+          "id": "mcad-discrimination-complaint",
+          "claim": "Complaint of Discrimination",
+          "statute": "M.G.L. c. 151B; 804 CMR 1.04(4)",
+          "deadline": "300 days",
+          "deadlineDays": 300,
+          "trigger": "from the last discriminatory act",
+          "extensionGrounds": "case-by-case (continuing violation, late discovery, incompetence)",
+          "source": { "file": "sub-02-mcad-deadline.md", "line": 55 }
+        },
+        {
+          "id": "mcad-cba-tolling",
+          "claim": "Tolling for CBA grievants",
+          "statute": "M.G.L. c. 151B (case law)",
+          "deadline": "300 days",
+          "deadlineDays": 300,
+          "trigger": "from when employee knew/should have known the grieved matter would support a discrimination claim",
+          "note": "CRITICAL: rescues otherwise time-barred claims when discrimination basis emerges from CBA grievance process",
+          "source": { "file": "sub-02-mcad-deadline.md", "line": 63 }
+        },
+        {
+          "id": "mcad-lopc-appeal",
+          "claim": "Appeal of lack-of-probable-cause finding",
+          "deadline": "10 days",
+          "deadlineDays": 10,
+          "trigger": "from receipt of investigative disposition",
+          "source": { "file": "sub-02-mcad-case-process.md", "line": 89 }
+        }
+      ],
+      "sourceFiles": {
+        "landing": "02-ma-mcad.md",
+        "subpages": [
+          "sub-02-mcad-deadline.md",
+          "sub-02-mcad-file-complaint.md",
+          "sub-02-mcad-case-process.md",
+          "sub-02-mcad-adr.md"
+        ]
+      }
+    },
+    {
+      "id": "ma-ago-fairlabor",
+      "name": "Massachusetts AG Fair Labor Division",
+      "abbreviation": "AGO Fair Labor",
+      "jurisdiction": "ma",
+      "category": "wages",
+      "primaryFor509dds": true,
+      "useFor": [
+        "unpaid wages and timing of pay",
+        "earned sick time violations",
+        "overtime not paid",
+        "unauthorized payroll deductions",
+        "vacation payout disputes",
+        "child labor violations",
+        "wage theft tips (anonymous OK)"
+      ],
+      "primaryStatute": "M.G.L. c. 149 §§ 148, 148C, 150",
+      "additionalStatutes": ["M.G.L. c. 151 (minimum wage/overtime)"],
+      "contact": {
+        "phones": [
+          { "office": "Fair Labor Hotline", "display": "(617) 727-3465", "tel": "+16177273465", "hours": "Mon–Fri 10am–4pm" },
+          { "office": "AGO Main", "display": "(617) 727-2200", "tel": "+16177272200" }
+        ],
+        "url": "https://www.mass.gov/ago/fairlabor",
+        "filingPortal": "https://www.mass.gov/how-to/file-a-workplace-complaint",
+        "anonymousFiling": true
+      },
+      "filingDeadlines": [
+        {
+          "id": "wage-act-civil-suit",
+          "claim": "Wage Act civil suit (c. 149 § 148)",
+          "statute": "M.G.L. c. 149 § 150",
+          "deadline": "3 years",
+          "deadlineDays": 1095,
+          "trigger": "from the violation",
+          "remedies": "MANDATORY triple damages, court costs, and attorney's fees",
+          "source": { "file": "00-ma-labor-law-reference.md", "section": "§3" }
+        }
+      ],
+      "sourceFiles": {
+        "landing": "03-ma-ago-fairlabor.md",
+        "subpages": [
+          "sub-03-ago-file-workplace-complaint.md",
+          "sub-cue-report-workplace-violation.md",
+          "sub-ago-earned-sick-time.md",
+          "sub-ma-sick-leave-overview.md"
+        ]
+      }
+    },
+    {
+      "id": "ma-dls",
+      "name": "Massachusetts Department of Labor Standards",
+      "abbreviation": "DLS",
+      "jurisdiction": "ma",
+      "category": "safety",
+      "primaryFor509dds": true,
+      "useFor": [
+        "public-sector workplace safety hazards",
+        "unsafe equipment or conditions",
+        "missing PPE or safety training",
+        "indoor air quality issues",
+        "workplace violence concerns (public sector)",
+        "retaliation for safety reporting (public sector)"
+      ],
+      "primaryStatute": "MA Public Sector OSHA State Plan",
+      "contact": {
+        "phones": [
+          { "office": "WSHP intake", "display": "(508) 616-0461 ext. 1", "tel": "+15086160461" },
+          { "office": "DLS general", "display": "(617) 626-6975", "tel": "+16176266975" }
+        ],
+        "emails": [
+          { "purpose": "WSHP intake", "address": "safepublicworkplacemailbox@mass.gov" },
+          { "purpose": "general feedback", "address": "DLS.feedback@mass.gov" }
+        ],
+        "url": "https://www.mass.gov/orgs/department-of-labor-standards",
+        "filingPortal": "https://www.mass.gov/forms/public-sector-workplace-complaint-submission",
+        "addresses": [
+          { "office": "Boston", "street": "100 Cambridge Street, Suite 500", "city": "Boston", "state": "MA", "zip": "02114" }
+        ]
+      },
+      "filingDeadlines": [
+        {
+          "id": "dls-public-safety-complaint",
+          "claim": "Public-sector workplace safety complaint",
+          "deadline": "less than 6 months",
+          "deadlineDays": 180,
+          "trigger": "from the hazard occurring (DLS cannot issue violations for incidents older than 6 months)",
+          "source": { "file": "10-osha.md", "line": 15 }
+        },
+        {
+          "id": "dls-whistleblower",
+          "claim": "Public-sector workplace whistleblower retaliation",
+          "deadline": "30 days",
+          "deadlineDays": 30,
+          "trigger": "after adverse action by employer",
+          "note": "DLS administers the MA public-sector whistleblower program separately from safety complaints",
+          "source": { "file": "sub-04-dls-wshp-main.md", "line": 38 }
+        }
+      ],
+      "sourceFiles": {
+        "landing": "04-ma-dls.md",
+        "subpages": [
+          "sub-04-dls-wshp-main.md",
+          "sub-04-dls-wshp-info.md",
+          "sub-04-dls-report-public-worksite-accident.md"
+        ]
+      }
+    },
+    {
+      "id": "ma-dia",
+      "name": "Massachusetts Department of Industrial Accidents",
+      "abbreviation": "DIA",
+      "jurisdiction": "ma",
+      "category": "workers-comp",
+      "primaryFor509dds": true,
+      "useFor": [
+        "workplace injury claims",
+        "Independent Medical Exam disputes",
+        "modified-duty/return-to-work disputes",
+        "retaliation for filing workers' comp claim",
+        "coordination with FMLA/PFML/ADA"
+      ],
+      "primaryStatute": "M.G.L. c. 152",
+      "contact": {
+        "phones": [
+          { "office": "Boston (Main)", "display": "(617) 727-4900", "tel": "+16177274900", "hours": "8:30am–5pm" },
+          { "office": "Worcester", "display": "(508) 753-2072", "tel": "+15087532072" },
+          { "office": "Springfield", "display": "(413) 784-1133", "tel": "+14137841133" },
+          { "office": "Lawrence", "display": "(978) 683-6420", "tel": "+19786836420" },
+          { "office": "Fall River", "display": "(508) 676-3406", "tel": "+15086763406" }
+        ],
+        "email": "Info2@mass.gov",
+        "url": "https://www.mass.gov/orgs/department-of-industrial-accidents",
+        "addresses": [
+          { "office": "Boston (Main)", "street": "Lafayette City Center, 2 Avenue de Lafayette", "city": "Boston", "state": "MA", "zip": "02111-1750" }
+        ]
+      },
+      "sourceFiles": {
+        "landing": "05-ma-dia.md"
+      }
+    },
+    {
+      "id": "ma-csc",
+      "name": "Massachusetts Civil Service Commission",
+      "abbreviation": "CSC",
+      "jurisdiction": "ma",
+      "category": "civil-service",
+      "primaryFor509dds": true,
+      "useFor": [
+        "discipline appeals (suspension, demotion, termination)",
+        "bypass appeals (denied promotion/appointment)",
+        "layoff out of seniority order",
+        "classification disputes",
+        "civil service exam appeals"
+      ],
+      "primaryStatute": "M.G.L. c. 31",
+      "contact": {
+        "phones": [
+          { "office": "Main", "display": "(617) 979-1900", "tel": "+16179791900" }
+        ],
+        "email": "cschelp@mass.gov",
+        "url": "https://www.mass.gov/csc/",
+        "filingPortal": "https://www.mass.gov/how-to/file-an-appeal-with-the-civil-service-commission",
+        "addresses": [
+          { "office": "Boston", "street": "100 Cambridge Street, Suite 200", "city": "Boston", "state": "MA", "zip": "02114" }
+        ],
+        "hearingLocations": ["Boston (Saltonstall Bldg)", "Springfield", "Lowell", "North Dartmouth"]
+      },
+      "filingDeadlines": [
+        {
+          "id": "csc-pre-hearing-window",
+          "claim": "Pre-hearing conference scheduled within",
+          "deadline": "60 days",
+          "deadlineDays": 60,
+          "trigger": "of CSC receiving the appeal",
+          "source": { "file": "sub-06-csc-appeals-process.md", "line": 36 }
+        },
+        {
+          "id": "csc-full-hearing-window",
+          "claim": "Full hearing held within",
+          "deadline": "45–90 days",
+          "deadlineDaysMin": 45,
+          "deadlineDaysMax": 90,
+          "trigger": "after pre-hearing conference",
+          "source": { "file": "sub-06-csc-appeals-process.md", "line": 72 }
+        },
+        {
+          "id": "csc-reconsideration",
+          "claim": "Motion for reconsideration",
+          "deadline": "10 days",
+          "deadlineDays": 10,
+          "trigger": "from receipt of order/decision",
+          "note": "Does NOT toll the 30-day judicial review clock",
+          "source": { "file": "sub-06-csc-appeals-process.md", "line": 163 }
+        },
+        {
+          "id": "csc-judicial-review",
+          "claim": "Judicial review (Superior Court)",
+          "statute": "G.L. c. 31 § 44 / G.L. c. 30A § 14",
+          "deadline": "30 days",
+          "deadlineDays": 30,
+          "trigger": "from receipt of order/decision",
+          "source": { "file": "sub-06-csc-appeals-process.md", "line": 165 }
+        }
+      ],
+      "sourceFiles": {
+        "landing": "06-ma-csc.md",
+        "subpages": [
+          "sub-06-csc-appeals-process.md",
+          "sub-06-csc-self-represented-guide.md"
+        ]
+      }
+    },
+    {
+      "id": "ma-ethics",
+      "name": "Massachusetts State Ethics Commission",
+      "abbreviation": "Ethics Commission",
+      "jurisdiction": "ma",
+      "category": "ethics",
+      "primaryFor509dds": false,
+      "useFor": [
+        "conflict of interest law violations",
+        "gifts and gratuities",
+        "post-employment restrictions",
+        "financial disclosure issues"
+      ],
+      "primaryStatute": "M.G.L. c. 268A",
+      "contact": {
+        "phones": [
+          { "office": "Main", "display": "(617) 371-9500", "tel": "+16173719500" },
+          { "office": "Legal Division", "display": "(617) 723-5851", "tel": "+16177235851" },
+          { "office": "Enforcement Division", "display": "(617) 723-4086", "tel": "+16177234086" }
+        ],
+        "url": "https://www.mass.gov/ethics/",
+        "addresses": [
+          { "office": "Boston", "street": "1 Ashburton Place, 6th floor, Room 619", "city": "Boston", "state": "MA", "zip": "02108" }
+        ]
+      },
+      "sourceFiles": {
+        "landing": "07-ma-ethics.md"
+      }
+    },
+    {
+      "id": "eeoc",
+      "name": "U.S. Equal Employment Opportunity Commission",
+      "abbreviation": "EEOC",
+      "jurisdiction": "federal",
+      "category": "discrimination",
+      "primaryFor509dds": false,
+      "useFor": [
+        "federal Title VII discrimination claims",
+        "ADA disability discrimination/accommodation",
+        "ADEA age discrimination",
+        "GINA genetic info discrimination",
+        "Equal Pay Act claims",
+        "federal-sector employee EEO complaints"
+      ],
+      "primaryStatute": "Title VII / ADA / ADEA / GINA / EPA",
+      "contact": {
+        "phones": [
+          { "office": "Main", "display": "1-800-669-4000", "tel": "+18006694000" }
+        ],
+        "url": "https://www.eeoc.gov/filing-charge-discrimination",
+        "filingPortal": "https://publicportal.eeoc.gov/Portal/Login.aspx"
+      },
+      "filingDeadlines": [
+        {
+          "id": "eeoc-charge-base",
+          "claim": "Charge of Discrimination (states without parallel state law)",
+          "deadline": "180 days",
+          "deadlineDays": 180,
+          "trigger": "from the discriminatory act",
+          "source": { "file": "sub-08-eeoc-how-to-file.md", "line": 34 }
+        },
+        {
+          "id": "eeoc-charge-extended-ma",
+          "claim": "Charge of Discrimination (Massachusetts — extended via 151B parity)",
+          "deadline": "300 days",
+          "deadlineDays": 300,
+          "trigger": "from the discriminatory act",
+          "note": "Extended because MCAD enforces same conduct under c. 151B; filing with MCAD auto-dual-files with EEOC",
+          "source": { "file": "sub-08-eeoc-how-to-file.md", "line": 34 }
+        },
+        {
+          "id": "eeoc-federal-counselor",
+          "claim": "Federal-sector EEO Counselor contact",
+          "deadline": "45 days",
+          "deadlineDays": 45,
+          "trigger": "from the discriminatory act",
+          "appliesTo": "federal employees and applicants only",
+          "source": { "file": "sub-08-eeoc-federal-sector.md", "line": 37 }
+        },
+        {
+          "id": "eeoc-federal-formal",
+          "claim": "Federal-sector formal complaint after counselor notice",
+          "deadline": "15 days",
+          "deadlineDays": 15,
+          "trigger": "from receiving notice from EEO Counselor",
+          "appliesTo": "federal employees and applicants only",
+          "source": { "file": "sub-08-eeoc-federal-sector.md", "line": 41 }
+        },
+        {
+          "id": "eeoc-federal-hearing-request",
+          "claim": "Federal-sector hearing request",
+          "deadline": "30 days",
+          "deadlineDays": 30,
+          "trigger": "from receiving notice of hearing rights",
+          "source": { "file": "sub-08-eeoc-federal-sector.md", "line": 57 }
+        },
+        {
+          "id": "eeoc-federal-civil-action",
+          "claim": "Federal-sector civil action in federal district court",
+          "deadline": "90 days",
+          "deadlineDays": 90,
+          "trigger": "from receiving final agency or EEOC decision",
+          "source": { "file": "sub-08-eeoc-federal-sector.md", "line": 82 }
+        }
+      ],
+      "sourceFiles": {
+        "landing": "08-eeoc.md",
+        "subpages": [
+          "sub-08-eeoc-how-to-file.md",
+          "sub-08-eeoc-after-you-file.md",
+          "sub-08-eeoc-remedies.md",
+          "sub-08-eeoc-federal-sector.md"
+        ]
+      }
+    },
+    {
+      "id": "us-dol-whd",
+      "name": "U.S. Department of Labor — Wage and Hour Division",
+      "abbreviation": "DOL WHD",
+      "jurisdiction": "federal",
+      "category": "wages",
+      "primaryFor509dds": false,
+      "useFor": [
+        "federal minimum wage and overtime (FLSA)",
+        "FMLA leave eligibility/retaliation",
+        "child labor (federal)",
+        "MSPA (migrant/seasonal worker) protections"
+      ],
+      "primaryStatute": "Fair Labor Standards Act / FMLA",
+      "contact": {
+        "phones": [
+          { "office": "Main", "display": "1-866-487-9243", "tel": "+18664879243" }
+        ],
+        "url": "https://www.dol.gov/agencies/whd",
+        "filingPortal": "https://www.dol.gov/agencies/whd/contact/complaints"
+      },
+      "sourceFiles": {
+        "landing": "09-dol-whd.md",
+        "subpages": ["sub-09-dol-whd-complaints.md"]
+      }
+    },
+    {
+      "id": "osha",
+      "name": "U.S. Occupational Safety and Health Administration",
+      "abbreviation": "OSHA",
+      "jurisdiction": "federal",
+      "category": "safety",
+      "primaryFor509dds": false,
+      "useFor": [
+        "private-sector workplace safety hazards",
+        "whistleblower retaliation under 25+ federal statutes (SOX, AIR21, ERA, FRSA, etc.)",
+        "anonymous safety complaints"
+      ],
+      "primaryStatute": "OSH Act + various whistleblower statutes",
+      "contact": {
+        "phones": [
+          { "office": "Main", "display": "800-321-6742", "tel": "+18003216742" }
+        ],
+        "url": "https://www.osha.gov/workers/file_complaint.html",
+        "filingPortals": [
+          { "purpose": "safety/health", "url": "https://www.osha.gov/form/osha7" },
+          { "purpose": "whistleblower", "url": "https://www.osha.gov/whistleblower/WBComplaint" }
+        ],
+        "anonymousFiling": "safety complaints only — NOT whistleblower"
+      },
+      "filingDeadlines": [
+        {
+          "id": "osha-safety-complaint",
+          "claim": "Safety/health complaint",
+          "deadline": "less than 6 months",
+          "deadlineDays": 180,
+          "trigger": "from the hazard occurring (no violations issued past 6 months)",
+          "source": { "file": "10-osha.md", "line": 15 }
+        },
+        {
+          "id": "osha-whistleblower",
+          "claim": "Whistleblower retaliation complaint",
+          "deadline": "30–180 days",
+          "deadlineDaysMin": 30,
+          "deadlineDaysMax": 180,
+          "trigger": "after adverse action; varies by underlying statute",
+          "source": { "file": "10-osha.md", "line": 17 }
+        }
+      ],
+      "sourceFiles": {
+        "landing": "10-osha.md"
+      }
+    },
+    {
+      "id": "nlrb",
+      "name": "National Labor Relations Board",
+      "abbreviation": "NLRB",
+      "jurisdiction": "federal",
+      "category": "labor-relations",
+      "primaryFor509dds": false,
+      "useFor": [
+        "private-sector unfair labor practice charges",
+        "private-sector representation petitions",
+        "Section 7 protected concerted activity"
+      ],
+      "primaryStatute": "National Labor Relations Act",
+      "note": "Massachusetts state public employees are covered by c. 150E (DLR), NOT NLRA — file with DLR, not NLRB. NLRB precedent is sometimes persuasive at DLR.",
+      "contact": {
+        "phones": [
+          { "office": "Main", "display": "1-844-762-6572", "tel": "+18447626572" }
+        ],
+        "url": "https://www.nlrb.gov/",
+        "filingPortal": "https://apps.nlrb.gov/chargeandpetition/"
+      },
+      "filingDeadlines": [
+        {
+          "id": "nlrb-ulp-charge",
+          "claim": "ULP charge (private sector)",
+          "statute": "NLRA § 10(b)",
+          "deadline": "6 months",
+          "deadlineDays": 180,
+          "trigger": "from the violation",
+          "source": { "statutory": "NLRA § 10(b); see sub-11-nlrb-investigate-charges.md for general guidance" }
+        },
+        {
+          "id": "nlrb-dismissal-appeal",
+          "claim": "Appeal of dismissal to Office of Appeals",
+          "deadline": "14 days",
+          "deadlineDays": 14,
+          "trigger": "from dismissal",
+          "source": { "file": "sub-11-nlrb-investigate-charges.md", "line": 43 }
+        }
+      ],
+      "sourceFiles": {
+        "landing": "11-nlrb.md",
+        "subpages": [
+          "sub-11-nlrb-investigate-charges.md",
+          "sub-11-nlrb-employee-rights.md",
+          "sub-11-nlrb-employer-union-obligations.md",
+          "sub-11-nlrb-protected-concerted-activity.md"
+        ]
+      }
+    },
+    {
+      "id": "ma-dfml",
+      "name": "Massachusetts Department of Family and Medical Leave (DFML)",
+      "abbreviation": "DFML",
+      "jurisdiction": "ma",
+      "category": "leave",
+      "primaryFor509dds": true,
+      "useFor": [
+        "PFML application (own serious health condition, family care, bonding, military)",
+        "PFML appeals",
+        "PFML retaliation",
+        "private-plan exemption questions"
+      ],
+      "primaryStatute": "M.G.L. c. 175M",
+      "contact": {
+        "phones": [
+          { "office": "Contributions/exemptions", "display": "(617) 466-3950", "tel": "+16174663950" }
+        ],
+        "url": "https://www.mass.gov/orgs/department-of-family-and-medical-leave",
+        "filingPortal": "https://www.mass.gov/how-to/how-to-apply-for-paid-family-and-medical-leave-pfml"
+      },
+      "benefits": {
+        "maxWeeksPerYear": 26,
+        "ownMedicalLeaveMaxWeeks": 20,
+        "familyCareMaxWeeks": 12,
+        "bondingMaxWeeks": 12,
+        "serviceMemberCareMaxWeeks": 26,
+        "militaryExigencyMaxWeeks": 12,
+        "maxWeeklyBenefit2026": 1230.39,
+        "maxWeeklyBenefit2025": 1170.64,
+        "source": { "file": "sub-dfml-pfml-overview.md", "lines": [144, 181] }
+      },
+      "sourceFiles": {
+        "landing": "sub-dfml-org.md",
+        "subpages": [
+          "sub-dfml-pfml-overview.md",
+          "sub-dfml-pfml-how-to-apply.md"
+        ]
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "weingarten-meeting",
+      "title": "I'm being investigated or disciplined",
+      "shortTitle": "Investigation / discipline meeting",
+      "summary": "If a meeting could lead to discipline, you have the right to ask for union representation (Weingarten right).",
+      "primaryAgency": "ma-dlr",
+      "alsoSee": ["ma-csc"],
+      "applicableStatutes": ["M.G.L. c. 150E", "Cleveland Bd. of Educ. v. Loudermill, 470 U.S. 532 (1985)", "NLRB v. J. Weingarten, Inc., 420 U.S. 251 (1975)"],
+      "urgency": "immediate",
+      "memberGuideAnchor": "discipline",
+      "stewardCheatsheetAnchor": "weingarten-rights"
+    },
+    {
+      "id": "discrimination",
+      "title": "I think I'm being discriminated against",
+      "summary": "Unfair treatment based on disability, race, sex, religion, age, pregnancy, or other protected class.",
+      "primaryAgency": "ma-mcad",
+      "alsoSee": ["eeoc"],
+      "applicableStatutes": ["M.G.L. c. 151B", "Title VII", "ADA", "ADEA"],
+      "urgency": "300-days",
+      "memberGuideAnchor": "discrimination"
+    },
+    {
+      "id": "wage-issue",
+      "title": "My pay is wrong or my sick time was denied",
+      "summary": "Unpaid wages, late pay, missing overtime, denied earned sick time, vacation payout disputes.",
+      "primaryAgency": "ma-ago-fairlabor",
+      "alsoSee": ["us-dol-whd"],
+      "applicableStatutes": ["M.G.L. c. 149 §§ 148, 148C, 150", "M.G.L. c. 151", "FLSA"],
+      "urgency": "3-years",
+      "memberGuideAnchor": "wages"
+    },
+    {
+      "id": "unsafe-workplace",
+      "title": "My workplace is unsafe",
+      "summary": "Unsafe equipment, missing PPE, hazardous conditions, indoor air quality, workplace violence.",
+      "primaryAgency": "ma-dls",
+      "alsoSee": ["osha"],
+      "applicableStatutes": ["MA Public Sector OSHA State Plan", "OSH Act"],
+      "urgency": "less-than-6-months",
+      "memberGuideAnchor": "safety"
+    },
+    {
+      "id": "workplace-injury",
+      "title": "I got hurt at work",
+      "summary": "Workplace injury, IME disputes, modified-duty, return-to-work conflicts, workers' comp retaliation.",
+      "primaryAgency": "ma-dia",
+      "alsoSee": ["ma-dfml"],
+      "applicableStatutes": ["M.G.L. c. 152"],
+      "urgency": "report-immediately",
+      "memberGuideAnchor": "injury"
+    },
+    {
+      "id": "leave-needed",
+      "title": "I need to take leave",
+      "summary": "Paid family/medical leave, FMLA, military-family leave, bonding leave, accommodation-related leave.",
+      "primaryAgency": "ma-dfml",
+      "applicableStatutes": ["M.G.L. c. 175M", "FMLA"],
+      "urgency": "apply-30-days-ahead",
+      "memberGuideAnchor": "leave"
+    },
+    {
+      "id": "unilateral-change",
+      "title": "Management changed something without bargaining",
+      "summary": "Schedule, workload, remote-work, evaluation, or technology changes imposed without bargaining.",
+      "primaryAgency": "ma-dlr",
+      "applicableStatutes": ["M.G.L. c. 150E § 10"],
+      "urgency": "6-months",
+      "memberGuideAnchor": "unilateral"
+    },
+    {
+      "id": "retaliation",
+      "title": "I was punished for speaking up",
+      "summary": "Adverse action after a complaint, accommodation request, leave, safety report, union activity, or whistleblower disclosure.",
+      "primaryAgency": null,
+      "alsoSee": ["ma-dlr", "ma-mcad", "ma-dls", "osha", "ma-ago-fairlabor", "ma-dfml", "ma-dia"],
+      "applicableStatutes": ["c. 150E", "c. 151B", "c. 149 § 185 (whistleblower)", "c. 175M", "c. 152", "FMLA", "FLSA"],
+      "urgency": "potentially-30-days",
+      "note": "Retaliation deadlines vary by underlying claim — some are as short as 30 days. Always assume short and call steward immediately.",
+      "memberGuideAnchor": "retaliation"
+    },
+    {
+      "id": "civil-service-appeal",
+      "title": "I want to appeal a civil service decision",
+      "summary": "Discipline, bypass, layoff, classification, or examination appeals for civil-service-covered employees.",
+      "primaryAgency": "ma-csc",
+      "applicableStatutes": ["M.G.L. c. 31"],
+      "urgency": "type-specific-some-10-days",
+      "memberGuideAnchor": "civilservice"
+    },
+    {
+      "id": "duty-of-fair-representation",
+      "title": "The union isn't representing me fairly",
+      "summary": "Union conduct that is arbitrary, discriminatory, or in bad faith — Duty of Fair Representation charge.",
+      "primaryAgency": "ma-dlr",
+      "applicableStatutes": ["M.G.L. c. 150E"],
+      "urgency": "6-months",
+      "memberGuideAnchor": "dfr",
+      "note": "Bar to win is high; usually exhaust internal chapter remedies first."
+    }
+  ],
+  "crossCuttingConcepts": [
+    {
+      "id": "weingarten-rights",
+      "name": "Weingarten Rights",
+      "summary": "Right to union representation at any investigatory interview that could reasonably lead to discipline.",
+      "appliesTo": "all bargaining-unit employees",
+      "source": "NLRB v. J. Weingarten, Inc., 420 U.S. 251 (1975); applied to MA public sector via DLR precedent under c. 150E"
+    },
+    {
+      "id": "loudermill-rights",
+      "name": "Loudermill Due Process",
+      "summary": "Notice and opportunity to respond before serious discipline for public employees with property interest in their job.",
+      "appliesTo": "most civil-service positions and CBA-covered employees with just-cause clauses",
+      "source": "Cleveland Bd. of Educ. v. Loudermill, 470 U.S. 532 (1985)"
+    },
+    {
+      "id": "duty-of-fair-representation",
+      "name": "Duty of Fair Representation",
+      "summary": "Union must represent bargaining-unit members fairly — not arbitrarily, discriminatorily, or in bad faith.",
+      "appliesTo": "every member of a bargaining unit",
+      "source": "M.G.L. c. 150E; established case law"
+    },
+    {
+      "id": "past-practice",
+      "name": "Past Practice",
+      "summary": "Established workplace practices can bind the employer even when not written in the CBA.",
+      "appliesTo": "schedules, leave approvals, overtime distribution, remote work, office assignments, workload",
+      "useFor": "proving CBA term meaning, blocking unilateral changes, supporting refusal-to-bargain ULPs"
+    },
+    {
+      "id": "anti-retaliation",
+      "name": "Cross-Statute Anti-Retaliation",
+      "summary": "Almost every workplace law has its own anti-retaliation provision — adverse action after protected activity often becomes a separate, sometimes stronger claim.",
+      "appliesTo": "any worker who engaged in protected activity (filing, complaining, requesting accommodation, taking leave, participating in union activity)",
+      "criticalNote": "Deadlines vary by statute and some are very short (30 days for some). File or notify steward immediately on suspicion."
+    }
+  ]
+}

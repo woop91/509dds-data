@@ -27,7 +27,7 @@ For the master DDS Statistics table, the year column is **federal FY** (verified
 | DDS Accuracy | DDS-Net-Accuracy.csv (federal QA) | 2007–2022 | Plus 2023–2025 from MA reports |
 | Federal Accuracy Standard | SSA program docs / MA reports | All years | 90% (1990s) → 90.6% (2010s) → 95% (2023+) |
 | Cost Per Case | MA Section 9F reports | 2013–2024 (gaps) | Methodology may differ between years (per-disposition vs per-case) |
-| DDS Total Budget | MA Annual Report fiscal tables | 2023–2025 | PRR for earlier years |
+| DDS Total Budget (state-level) | MA Annual Report fiscal tables | 2023–2025 | PRR for earlier years. **Note: SSA-side per-state DDS budget allocations are structurally unpublished — see "DDS budget visibility" below.** |
 | % Federal Funding | SSA program documentation | All years | 100% by statute |
 | Homeless Cases (count) | MA Section 9F reports | None publicly available | PRR — count, not rate |
 | VDE / DDS Staff | CTHRU payroll | 2010–2023 | Calendar year basis; SAOR FTE counts may differ |
@@ -104,6 +104,28 @@ If the gap is filled via (a) or (b), write into `data/pay-scales/vde-annual-sala
 
 ### DDS-Det Division Total Staff
 Sum of CTHRU records matching all DDS-titled position patterns (VDE all grades, Medical Consultants, Medical Review Examiner, Review Examiner, Asst Commissioner DDS, Regional Director DDS, Director Hearings Unit, Dir QA DDS, Dir Training DDS, Director A&F DDS, Fiscal Director DDS, Hearings Director).
+
+## DDS budget visibility (federal vs state)
+
+Per-state DDS budget allocations are **not published** by SSA. Verified by the
+FY25 Congressional Justification extract at
+[`data/ssa/budget/cj-fy25-extracted.md`](../data/ssa/budget/cj-fy25-extracted.md):
+
+- SSA's CJ publishes DDS funding at the **national level only** (FY25:
+  13,555 work-years, ~$2.6B total)
+- ODD (Office of Disability Determinations) further allocates these funds to
+  individual DDSs, but those internal allocations are not in any public
+  congressional or annual-report document
+- State-level operating budgets that *are* published (e.g., MA Annual Report)
+  show the state's total DDS spending — but that's the state's own fiscal
+  reporting, not a federal allocation breakdown
+
+**Implication for the master statistics table:** cells under
+`dds_total_budget_per_state_year` for years/states where there's no MA Annual
+Report equivalent are not retrievable via web fetch *or* state PRR — they would
+require a federal FOIA to SSA. This is a stronger gate than the PRR templates
+in `prr-templates/` are designed for. Until/unless a federal FOIA is filed,
+treat these cells as **structurally unavailable**, not "PRR-pending."
 
 ## Known data quality flags
 

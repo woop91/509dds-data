@@ -1,5 +1,5 @@
 {
-  "$comment": "DDS-Det operational statistics for Massachusetts. DDS-Det = Disability Determination Services (a division of MassAbility/MRC), NOT Department of Developmental Services (DDS-Dev). Year column uses federal FY (Oct-Sep). Source: SSA-SA-FYWL.csv (federal FY workload), MA annual reports, MRC Section 9F reports. Cells marked PRR require Public Records Request to MassAbility. Cells marked TBD require future data release.",
+  "$comment": "DDS-Det operational statistics for Massachusetts. DDS-Det = Disability Determination Services (a division of MassAbility/MRC), NOT Department of Developmental Services (DDS-Dev). Year column uses federal FY (Oct-Sep). Source: SSA-SA-FYWL.csv (federal FY workload), MA annual reports, MRC Section 9F reports. Cells marked PRR require Public Records Request to MassAbility. Cells marked TBD require future data release. NOTE (2026-05-05): per-state DDS budget allocations from SSA/ODD are structurally unpublished — confirmed via FY25 Congressional Justification extract. State-level budget cells where no MA Annual Report figure exists are not retrievable via state PRR; they would require a federal FOIA to SSA. See docs/methodology.md > 'DDS budget visibility'.",
   "schema": {
     "year": "integer (federal FY)",
     "metric": "string",

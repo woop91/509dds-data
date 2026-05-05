@@ -34,9 +34,11 @@ Open data, source documents, and analysis for **SEIU Local 509's Disability Dete
 
 | Tier | Sources | Confidence |
 |---|---|---|
-| **Authoritative** | SSA-SA-FYWL.csv, DDS-Net-Accuracy.csv, MA annual reports, SEIU 509 CBA, mass.gov RA process pages | Verified against primary publication |
-| **Computed** | CE Rate, MER Rate, annual VDE pay max, DDS-Only Total Staff | Derived arithmetically from authoritative inputs |
-| **PRR-pending** | DDS budget pre-FY23, homeless case counts, Total Receipts/Dispositions for some years | Awaiting Public Records Request — see [`prr-templates/`](prr-templates/) |
+| **Authoritative** | SSA-SA-FYWL.csv, DDS-Net-Accuracy.csv, MA annual reports, SEIU 509 CBA, mass.gov RA process pages, OHO ALJ disposition CSV | Verified against primary publication |
+| **Computed** | CE Rate, MER Rate, annual VDE pay max, DDS-Only Total Staff, per-state ALJ allowance rate | Derived arithmetically from authoritative inputs |
+| **Browser-fetch pending** | SSA Annual Statistical Supplement Table 5.A1.5, DI ASR sect01c/03/05, BLS OEWS state files, GAO/CBPP PDFs | Bot-blocked from automated fetchers — see [`data/MANUAL-FETCH-NEEDED.md`](data/MANUAL-FETCH-NEEDED.md) |
+| **PRR-pending** | Homeless case counts, Total Receipts/Dispositions for some years | Awaiting Public Records Request — see [`prr-templates/`](prr-templates/) |
+| **Structurally unavailable** | Per-state DDS budget allocations | SSA publishes DDS budget at national level only (FY25 total: 13,555 work-years). No public document breaks this down by state — verified via FY25 Congressional Justification extract at [`data/ssa/budget/cj-fy25-extracted.md`](data/ssa/budget/cj-fy25-extracted.md). Only obtainable via federal FOIA, not state PRR. |
 
 See [`docs/methodology.md`](docs/methodology.md) for full sourcing methodology and known data caveats.
 

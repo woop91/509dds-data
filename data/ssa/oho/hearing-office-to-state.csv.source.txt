@@ -1,0 +1,4 @@
+Source: scripts/build-oho-state-aggregates.js (curated mapping)
+Built: 2026-05-05T15:46:30.964Z
+Rows: 167 offices + 1 header
+Notes: NHC = National Hearing Center (virtual, nationwide). SPECIAL = Special Review Cadre (virtual workgroup, no geographic home). Mapping reflects each OHO office's physical site location, not the claimant's state of residence (cases are routed by region, not strict state).

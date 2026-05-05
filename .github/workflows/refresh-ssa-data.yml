@@ -1,0 +1,87 @@
+name: Refresh SSA datasets
+
+# SSA publishes annual updates to its public DDS workload CSVs around early
+# November (after the end of federal FY in late Sept). This workflow runs
+# automatically each Nov 15 to fetch fresh copies, and can also be run
+# manually via workflow_dispatch any time.
+#
+# If SSA's CDN blocks the GitHub Actions runner IPs (Azure egress), the
+# job will fail and an artifact will be saved with the response body for
+# debugging. Switch to firecrawl by adding FIRECRAWL_API_KEY to repo
+# secrets if that happens.
+
+on:
+  schedule:
+    # 15:00 UTC on November 15 = 10:00 AM ET — well after most overnight CDN cache cycles
+    - cron: '0 15 15 11 *'
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manual refresh (optional)'
+        required: false
+        default: 'manual refresh'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Fetch SSA CSVs
+        env:
+          UA: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+        run: |
+          set -e
+          mkdir -p data/ssa
+          declare -a urls=(
+            "https://www.ssa.gov/disability/data/SSA-SA-FYWL.csv|data/ssa/ssa-sa-fywl-all-states-2001-2024.csv"
+            "https://www.ssa.gov/data/DDS-Net-Accuracy.csv|data/ssa/dds-net-accuracy-by-state-2007-2022.csv"
+            "https://www.ssa.gov/data/fy16-onwards-CDP-Time-Monthly.csv|data/ssa/cdp-time-monthly-fy16-fy26.csv"
+          )
+          for entry in "${urls[@]}"; do
+            url="${entry%%|*}"
+            dest="${entry##*|}"
+            tmp="$(mktemp)"
+            echo "Fetching $url"
+            http_code=$(curl -sL -A "$UA" -w "%{http_code}" -o "$tmp" --max-time 90 "$url" || echo "000")
+            if [ "$http_code" != "200" ]; then
+              echo "::warning::HTTP $http_code for $url — skipping"
+              continue
+            fi
+            # sanity check — first line should be CSV-ish (commas, no HTML)
+            if head -1 "$tmp" | grep -qiE '<html|<!doctype'; then
+              echo "::warning::Got HTML response for $url (likely bot-block); skipping"
+              cp "$tmp" "${dest}.error.html"
+              continue
+            fi
+            mv "$tmp" "$dest"
+            echo "Saved $dest ($(wc -c < "$dest") bytes)"
+          done
+
+      - name: Detect changes + commit if any
+        run: |
+          set -e
+          if [ -z "$(git status --porcelain data/ssa/)" ]; then
+            echo "No changes — SSA datasets are unchanged from last run."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ssa/
+          git commit -m "data: refresh SSA datasets (auto, $(date -u +%Y-%m-%d))"
+          git push
+
+      - name: Upload error artifacts (if any)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ssa-fetch-errors
+          path: data/ssa/*.error.html
+          if-no-files-found: ignore
+          retention-days: 30

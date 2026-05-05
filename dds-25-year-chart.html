@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Massachusetts DDS-Det — 25-year statistics</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --ink-soft: #555;
+    --bg: #fafaf7;
+    --card: #ffffff;
+    --rule: #e8e4d8;
+    --accent: #b91c1c;
+    --accent-2: #1d4ed8;
+    --accent-3: #047857;
+    --accent-4: #c2410c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Public Sans', -apple-system, system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.5;
+  }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  header { border-bottom: 2px solid var(--ink); padding-bottom: 1rem; margin-bottom: 2rem; }
+  header h1 {
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    letter-spacing: -0.01em;
+    margin: 0 0 0.25rem;
+    text-transform: uppercase;
+  }
+  header .sub { color: var(--ink-soft); font-size: 0.95rem; }
+  header .meta { color: var(--ink-soft); font-size: 0.8rem; margin-top: 0.5rem; }
+  header .meta a { color: var(--accent-2); }
+
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  .kpi {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--accent);
+    padding: 0.85rem 1rem;
+  }
+  .kpi .num { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 1.7rem; line-height: 1; }
+  .kpi .lab { color: var(--ink-soft); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; margin-top: 0.35rem; }
+  .kpi.up   { border-left-color: var(--accent-3); }
+  .kpi.down { border-left-color: var(--accent); }
+
+  .chart-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 1.25rem;
+  }
+  .chart-card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    padding: 1rem 1rem 0.5rem;
+  }
+  .chart-card h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 0 0 0.15rem;
+    letter-spacing: 0.01em;
+  }
+  .chart-card .blurb { color: var(--ink-soft); font-size: 0.82rem; margin-bottom: 0.75rem; }
+  .chart-card .canvas-wrap { position: relative; height: 280px; }
+  .chart-card .src { color: var(--ink-soft); font-size: 0.7rem; margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px dashed var(--rule); }
+
+  .full { grid-column: 1 / -1; }
+
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--ink-soft); font-size: 0.8rem; }
+  footer code { background: #f1ede0; padding: 0 4px; border-radius: 2px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Massachusetts DDS-Det · 25-year statistics</h1>
+  <div class="sub">Disability Determination Services — operational metrics, FY 2001 – FY 2025</div>
+  <div class="meta">
+    Sources: SSA-SA-FYWL.csv (federal FY workload, all states), MA Section 9F annual reports, CTHRU payroll, DDS-Net-Accuracy.csv, CDP-Time-Monthly.csv ·
+    Data: <a href="https://github.com/Woop91/509dds-data">github.com/Woop91/509dds-data</a> ·
+    Generated 2026-05-04
+  </div>
+</header>
+
+<div class="kpi-row">
+  <div class="kpi down"><div class="num">−26%</div><div class="lab">Beneficiaries since 2014 peak</div></div>
+  <div class="kpi down"><div class="num">−5.6 pts</div><div class="lab">Favorable rate since FY20</div></div>
+  <div class="kpi down"><div class="num">+110%</div><div class="lab">National processing time FY16→FY24</div></div>
+  <div class="kpi down"><div class="num">−44%</div><div class="lab">VDE headcount 2019→2023</div></div>
+  <div class="kpi down"><div class="num">+107%</div><div class="lab">Cost per case 2013→2024</div></div>
+  <div class="kpi down"><div class="num">−16.7%</div><div class="lab">DDS-Det budget FY24→FY25</div></div>
+</div>
+
+<div class="chart-grid">
+
+  <div class="chart-card full">
+    <h2>SSA disability beneficiaries in Massachusetts (age 18–64)</h2>
+    <div class="blurb">Caseload of currently enrolled MA adults receiving SSDI/SSI benefits. Peaked at 304,168 in FY 2014; down to 224,106 in FY 2024 — a 26% decline that drives the falling claim volume seen in the next chart.</div>
+    <div class="canvas-wrap"><canvas id="benefits"></canvas></div>
+    <div class="src">Source: SSA-SA-FYWL.csv · column "SSA Disability Beneficiaries age 18-64"</div>
+  </div>
+
+  <div class="chart-card">
+    <h2>Adult claim receipts vs determinations</h2>
+    <div class="blurb">New claims filed (receipts) and decisions issued (determinations). Volumes mirror beneficiary trend — both have collapsed from FY 2010 peak.</div>
+    <div class="canvas-wrap"><canvas id="claims"></canvas></div>
+    <div class="src">Source: SSA-SA-FYWL.csv</div>
+  </div>
+
+  <div class="chart-card">
+    <h2>Favorable determination rate</h2>
+    <div class="blurb">Share of decisions that grant benefits. Steady ~45% through FY 2009, fell to a 40% floor in 2012, recovered briefly during COVID, now back at the floor.</div>
+    <div class="canvas-wrap"><canvas id="favRate"></canvas></div>
+    <div class="src">Source: SSA-SA-FYWL.csv · "Favorable Determination Rate" (all) and "Adult Favorable Determination Rate"</div>
+  </div>
+
+  <div class="chart-card full">
+    <h2>National processing time (days) — 19-year view</h2>
+    <div class="blurb">SSA does not publish state-level processing times. The national trend was stable at ~100–115 days for nearly a decade (FY08–FY18), then more than doubled. FY16's 110-day average was historically normal; FY24's 231 days is the anomaly. FY26 (through April) is partial.</div>
+    <div class="canvas-wrap"><canvas id="cdp"></canvas></div>
+    <div class="src">Sources: SSA Combined-Disability-Processing-Time.csv (FY08–FY15) + fy16-onwards-CDP-Time-Monthly.csv (FY16–FY26 partial)</div>
+  </div>
+
+  <div class="chart-card">
+    <h2>Cost per case (USD)</h2>
+    <div class="blurb">MassAbility's reported cost-per-case rose from $516 in FY 2013 to $1,071 in FY 2024 — a +107% jump, mostly post-2019 (staffing collapse + slower throughput).</div>
+    <div class="canvas-wrap"><canvas id="cost"></canvas></div>
+    <div class="src">Source: MA Section 9F annual reports (2013–2024 published; 2025 TBD)</div>
+  </div>
+
+  <div class="chart-card full">
+    <h2>VDE headcount by grade (CTHRU payroll)</h2>
+    <div class="blurb">Vocational Disability Examiners (Grades 20/21/23) per Comptroller payroll. Senior pipeline (VDE III, Grade 23) shrank from 44 to 7 — a collapse of the experienced workforce. Note: CTHRU is a payroll-records count and runs higher than SSA SAOR FTE figures.</div>
+    <div class="canvas-wrap"><canvas id="vde"></canvas></div>
+    <div class="src">Source: CTHRU MA Comptroller payroll · `chris='MRC'` filter · 2024–2025 data not yet released (~12mo lag)</div>
+  </div>
+
+  <div class="chart-card">
+    <h2>DDS accuracy of decisions (federal QA)</h2>
+    <div class="blurb">Federal Quality Assurance review of MA DDS decisions. Standard raised from 90.6% to 95% in 2023 — MA has held above the new bar but with less margin than before.</div>
+    <div class="canvas-wrap"><canvas id="accuracy"></canvas></div>
+    <div class="src">Source: DDS-Net-Accuracy.csv (FY 2007–2022) + MA annual reports (2023–2025)</div>
+  </div>
+
+  <div class="chart-card">
+    <h2>DDS-Det operating budget (USD)</h2>
+    <div class="blurb">Only FY 2023–FY 2025 is currently published (pre-FY23 pending PRR). FY 2024 → FY 2025 is a $8.5M cut (−16.7%) on top of the staffing collapse.</div>
+    <div class="canvas-wrap"><canvas id="budget"></canvas></div>
+    <div class="src">Source: MA legislative budget docs · pre-FY23 pending PRR (issue #1)</div>
+  </div>
+
+  <div class="chart-card full">
+    <h2>National continuing disability reviews processed</h2>
+    <div class="blurb">CDRs are recurring eligibility checks for existing beneficiaries — work that flows through every state DDS. National volume peaked at 2.29M cases in FY18, dropped 35% by FY20 (COVID + staffing), and has not recovered. Full Medical Reviews (the most labor-intensive subset) tell the same story. Splits the workload picture: even with new claim volume falling, total DDS load includes this CDR backlog.</div>
+    <div class="canvas-wrap"><canvas id="cdr"></canvas></div>
+    <div class="src">Source: SSA Periodic-Continuing-Disability-Reviews.csv (national, FY13–FY22 — last updated 2023-05-22)</div>
+  </div>
+
+</div>
+
+<footer>
+  <strong>Disambiguation:</strong> "DDS" here means <em>Disability Determination Services</em> — a division of MassAbility (formerly MRC) that adjudicates SSDI/SSI claims for SSA. <strong>Not</strong> the Department of Developmental Services (a separate MA agency).<br>
+  PRR-pending and TBD cells tracked in <a href="https://github.com/Woop91/509dds-data/issues/1">issue #1</a>. Verification gaps in <a href="https://github.com/Woop91/509dds-data/issues/2">#2</a> &amp; <a href="https://github.com/Woop91/509dds-data/issues/3">#3</a>.
+</footer>
+
+</div>
+
+<script>
+const ssa = [
+  {year:2001,beneficiaries:216137,adult_receipts:38787,all_determinations:43574,all_favorable:19780,fav_rate:45.39,adult_fav_rate:44.81},
+  {year:2002,beneficiaries:220844,adult_receipts:40828,all_determinations:46368,all_favorable:20950,fav_rate:45.18,adult_fav_rate:44.40},
+  {year:2003,beneficiaries:226543,adult_receipts:45279,all_determinations:50181,all_favorable:22869,fav_rate:45.57,adult_fav_rate:44.92},
+  {year:2004,beneficiaries:232985,adult_receipts:45119,all_determinations:51907,all_favorable:23526,fav_rate:45.32,adult_fav_rate:44.76},
+  {year:2005,beneficiaries:239240,adult_receipts:44697,all_determinations:50982,all_favorable:23516,fav_rate:46.13,adult_fav_rate:45.26},
+  {year:2006,beneficiaries:246012,adult_receipts:44017,all_determinations:49083,all_favorable:22418,fav_rate:45.67,adult_fav_rate:44.84},
+  {year:2007,beneficiaries:253585,adult_receipts:43552,all_determinations:53825,all_favorable:24930,fav_rate:46.32,adult_fav_rate:45.51},
+  {year:2008,beneficiaries:260860,adult_receipts:44516,all_determinations:50640,all_favorable:23347,fav_rate:46.10,adult_fav_rate:45.06},
+  {year:2009,beneficiaries:269587,adult_receipts:50303,all_determinations:51729,all_favorable:23919,fav_rate:46.24,adult_fav_rate:45.00},
+  {year:2010,beneficiaries:280466,adult_receipts:51243,all_determinations:59915,all_favorable:26179,fav_rate:43.69,adult_fav_rate:42.33},
+  {year:2011,beneficiaries:287722,adult_receipts:43830,all_determinations:54922,all_favorable:23399,fav_rate:42.60,adult_fav_rate:40.89},
+  {year:2012,beneficiaries:295353,adult_receipts:51167,all_determinations:57668,all_favorable:23160,fav_rate:40.16,adult_fav_rate:39.26},
+  {year:2013,beneficiaries:301662,adult_receipts:50078,all_determinations:56806,all_favorable:23262,fav_rate:40.95,adult_fav_rate:40.12},
+  {year:2014,beneficiaries:304168,adult_receipts:45976,all_determinations:55589,all_favorable:22264,fav_rate:40.05,adult_fav_rate:38.93},
+  {year:2015,beneficiaries:302864,adult_receipts:45396,all_determinations:51016,all_favorable:20728,fav_rate:40.63,adult_fav_rate:39.48},
+  {year:2016,beneficiaries:299480,adult_receipts:41374,all_determinations:46691,all_favorable:19221,fav_rate:41.17,adult_fav_rate:39.44},
+  {year:2017,beneficiaries:292439,adult_receipts:39461,all_determinations:45731,all_favorable:18870,fav_rate:41.26,adult_fav_rate:38.86},
+  {year:2018,beneficiaries:288035,adult_receipts:37868,all_determinations:43008,all_favorable:17664,fav_rate:41.07,adult_fav_rate:38.36},
+  {year:2019,beneficiaries:280447,adult_receipts:38508,all_determinations:41550,all_favorable:17818,fav_rate:42.88,adult_fav_rate:40.33},
+  {year:2020,beneficiaries:272352,adult_receipts:34178,all_determinations:37461,all_favorable:17166,fav_rate:45.82,adult_fav_rate:43.61},
+  {year:2021,beneficiaries:258303,adult_receipts:29228,all_determinations:31341,all_favorable:13460,fav_rate:42.95,adult_fav_rate:40.41},
+  {year:2022,beneficiaries:244699,adult_receipts:32079,all_determinations:26548,all_favorable:12413,fav_rate:46.76,adult_fav_rate:44.21},
+  {year:2023,beneficiaries:233435,adult_receipts:33285,all_determinations:33303,all_favorable:14385,fav_rate:43.19,adult_fav_rate:40.02},
+  {year:2024,beneficiaries:224106,adult_receipts:37055,all_determinations:35844,all_favorable:14399,fav_rate:40.17,adult_fav_rate:36.07},
+];
+
+const years = ssa.map(d => d.year);
+
+const cdpTime = {
+  2008:106, 2009:101, 2010:111, 2011:110, 2012:102, 2013:108, 2014:110, 2015:114,
+  2016:110, 2017:111, 2018:111, 2019:120, 2020:131,
+  2021:165, 2022:184, 2023:217, 2024:231, 2025:226, 2026:194
+};
+
+const cdrProcessed = {
+  2013: {total: 1575515, fmr: 426224},
+  2014: {total: 1674713, fmr: 522834},
+  2015: {total: 1971812, fmr: 794392},
+  2016: {total: 2107139, fmr: 847556},
+  2017: {total: 2257140, fmr: 865424},
+  2018: {total: 2286326, fmr: 886142},
+  2019: {total: 1939167, fmr: 700480},
+  2020: {total: 1492926, fmr: 453380},
+  2021: {total: 1615561, fmr: 503537},
+  2022: {total: 1506195, fmr: 583236}
+};
+
+const costPerCase = {
+  2013:516.74, 2014:524.69, 2015:550.10, 2016:549.34, 2017:571.63,
+  2018:568.79, 2019:613.50, 2020:695.47, 2021:817.36, 2022:741.39,
+  2023:826.31, 2024:1071.00
+};
+
+const vdeByGrade = {
+  2018: {grade20: 95, grade21: 71, grade23: 35},
+  2019: {grade20: 117, grade21: 71, grade23: 44},
+  2020: {grade20: 102, grade21: 67, grade23: 35},
+  2021: {grade20: 92, grade21: 53, grade23: 25},
+  2022: {grade20: 88, grade21: 47, grade23: 14},
+  2023: {grade20: 90, grade21: 32, grade23: 7}
+};
+
+const accuracy = {
+  2007:97.6, 2008:97.5, 2009:96.9, 2010:97.2, 2011:96.7, 2012:97.4,
+  2013:97.5, 2014:96.7, 2015:97.3, 2016:98.6, 2017:96.2, 2018:96.4,
+  2019:96.9, 2020:95.2, 2021:95.9, 2022:95.2, 2023:98.0, 2024:97.0, 2025:95.9
+};
+
+const accuracyStandard = {
+  2007:90.6, 2008:90.6, 2009:90.6, 2010:90.6, 2011:90.6, 2012:90.6,
+  2013:90.0, 2014:90.0, 2015:90.6, 2016:90.6, 2017:90.6, 2018:90.6,
+  2019:90.6, 2020:90.6, 2021:90.6, 2022:90.6, 2023:95.0, 2024:95.0, 2025:95.0
+};
+
+const budget = {
+  2023:48635926, 2024:50806437, 2025:42300750
+};
+
+const baseLine = {
+  borderWidth: 2,
+  pointRadius: 2,
+  pointHoverRadius: 5,
+  tension: 0.25,
+};
+
+const baseOpts = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: {
+    legend: { position: 'bottom', labels: { font: { size: 11 } } },
+    tooltip: { mode: 'index', intersect: false }
+  },
+  interaction: { mode: 'index', intersect: false },
+  scales: {
+    x: { grid: { color: '#f0ecdf' } },
+    y: { grid: { color: '#f0ecdf' }, beginAtZero: false }
+  }
+};
+
+new Chart(document.getElementById('benefits'), {
+  type: 'line',
+  data: {
+    labels: years,
+    datasets: [{
+      label: 'Adult disability beneficiaries (MA)',
+      data: ssa.map(d => d.beneficiaries),
+      borderColor: '#b91c1c',
+      backgroundColor: 'rgba(185,28,28,0.1)',
+      fill: true,
+      ...baseLine
+    }]
+  },
+  options: { ...baseOpts, scales: { ...baseOpts.scales, y: { ...baseOpts.scales.y, ticks: { callback: v => (v/1000).toFixed(0) + 'k' } } } }
+});
+
+new Chart(document.getElementById('claims'), {
+  type: 'line',
+  data: {
+    labels: years,
+    datasets: [
+      { label: 'Adult receipts', data: ssa.map(d => d.adult_receipts), borderColor: '#1d4ed8', ...baseLine },
+      { label: 'All determinations', data: ssa.map(d => d.all_determinations), borderColor: '#c2410c', ...baseLine },
+      { label: 'All favorable', data: ssa.map(d => d.all_favorable), borderColor: '#047857', ...baseLine }
+    ]
+  },
+  options: { ...baseOpts, scales: { ...baseOpts.scales, y: { ...baseOpts.scales.y, ticks: { callback: v => (v/1000).toFixed(0) + 'k' } } } }
+});
+
+new Chart(document.getElementById('favRate'), {
+  type: 'line',
+  data: {
+    labels: years,
+    datasets: [
+      { label: 'All favorable rate (%)', data: ssa.map(d => d.fav_rate), borderColor: '#b91c1c', ...baseLine },
+      { label: 'Adult favorable rate (%)', data: ssa.map(d => d.adult_fav_rate), borderColor: '#1d4ed8', borderDash: [4,3], ...baseLine }
+    ]
+  },
+  options: { ...baseOpts, scales: { ...baseOpts.scales, y: { ...baseOpts.scales.y, ticks: { callback: v => v + '%' }, suggestedMin: 35, suggestedMax: 50 } } }
+});
+
+new Chart(document.getElementById('cdp'), {
+  type: 'line',
+  data: {
+    labels: Object.keys(cdpTime),
+    datasets: [{
+      label: 'National processing time (days)',
+      data: Object.values(cdpTime),
+      borderColor: '#c2410c',
+      backgroundColor: 'rgba(194,65,12,0.12)',
+      fill: true,
+      ...baseLine
+    }]
+  },
+  options: { ...baseOpts, scales: { ...baseOpts.scales, y: { ...baseOpts.scales.y, ticks: { callback: v => v + 'd' } } } }
+});
+
+new Chart(document.getElementById('cost'), {
+  type: 'line',
+  data: {
+    labels: Object.keys(costPerCase),
+    datasets: [{
+      label: 'Cost per case ($)',
+      data: Object.values(costPerCase),
+      borderColor: '#047857',
+      backgroundColor: 'rgba(4,120,87,0.12)',
+      fill: true,
+      ...baseLine
+    }]
+  },
+  options: { ...baseOpts, scales: { ...baseOpts.scales, y: { ...baseOpts.scales.y, ticks: { callback: v => '$' + v.toLocaleString() } } } }
+});
+
+const vdeYears = Object.keys(vdeByGrade);
+new Chart(document.getElementById('vde'), {
+  type: 'bar',
+  data: {
+    labels: vdeYears,
+    datasets: [
+      { label: 'VDE I (Grade 20)', data: vdeYears.map(y => vdeByGrade[y].grade20), backgroundColor: '#1d4ed8' },
+      { label: 'VDE II (Grade 21)', data: vdeYears.map(y => vdeByGrade[y].grade21), backgroundColor: '#c2410c' },
+      { label: 'VDE III (Grade 23)', data: vdeYears.map(y => vdeByGrade[y].grade23), backgroundColor: '#b91c1c' }
+    ]
+  },
+  options: { ...baseOpts, scales: { ...baseOpts.scales, x: { ...baseOpts.scales.x, stacked: true }, y: { ...baseOpts.scales.y, stacked: true, beginAtZero: true } } }
+});
+
+new Chart(document.getElementById('accuracy'), {
+  type: 'line',
+  data: {
+    labels: Object.keys(accuracy),
+    datasets: [
+      { label: 'MA accuracy (%)', data: Object.values(accuracy), borderColor: '#047857', ...baseLine },
+      { label: 'Federal standard (%)', data: Object.values(accuracyStandard), borderColor: '#b91c1c', borderDash: [4,3], ...baseLine }
+    ]
+  },
+  options: { ...baseOpts, scales: { ...baseOpts.scales, y: { ...baseOpts.scales.y, ticks: { callback: v => v + '%' }, suggestedMin: 88, suggestedMax: 100 } } }
+});
+
+new Chart(document.getElementById('budget'), {
+  type: 'bar',
+  data: {
+    labels: Object.keys(budget),
+    datasets: [{
+      label: 'DDS-Det budget ($M)',
+      data: Object.values(budget).map(v => v/1e6),
+      backgroundColor: ['#1d4ed8', '#047857', '#b91c1c']
+    }]
+  },
+  options: { ...baseOpts, scales: { ...baseOpts.scales, y: { ...baseOpts.scales.y, ticks: { callback: v => '$' + v + 'M' }, beginAtZero: true } } }
+});
+
+const cdrYears = Object.keys(cdrProcessed);
+new Chart(document.getElementById('cdr'), {
+  type: 'bar',
+  data: {
+    labels: cdrYears,
+    datasets: [
+      { label: 'Mailers + other (total − FMR)', data: cdrYears.map(y => (cdrProcessed[y].total - cdrProcessed[y].fmr)/1e6), backgroundColor: '#1d4ed8' },
+      { label: 'Full medical reviews (FMR)', data: cdrYears.map(y => cdrProcessed[y].fmr/1e6), backgroundColor: '#b91c1c' }
+    ]
+  },
+  options: { ...baseOpts, scales: { ...baseOpts.scales, x: { ...baseOpts.scales.x, stacked: true }, y: { ...baseOpts.scales.y, stacked: true, beginAtZero: true, ticks: { callback: v => v.toFixed(1) + 'M' } } } }
+});
+</script>
+
+</body>
+</html>

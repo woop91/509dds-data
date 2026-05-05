@@ -1,0 +1,1100 @@
+{
+  "MA": {
+    "2010": {
+      "adult_receipts": 51243,
+      "all_det": 59915,
+      "all_fav": 26179,
+      "fav_rate": 43.69,
+      "adult_fav_rate": 42.33,
+      "beneficiaries": 280466
+    },
+    "2011": {
+      "adult_receipts": 43830,
+      "all_det": 54922,
+      "all_fav": 23399,
+      "fav_rate": 42.6,
+      "adult_fav_rate": 40.89,
+      "beneficiaries": 287722
+    },
+    "2012": {
+      "adult_receipts": 51167,
+      "all_det": 57668,
+      "all_fav": 23160,
+      "fav_rate": 40.16,
+      "adult_fav_rate": 39.26,
+      "beneficiaries": 295353
+    },
+    "2013": {
+      "adult_receipts": 50078,
+      "all_det": 56806,
+      "all_fav": 23262,
+      "fav_rate": 40.95,
+      "adult_fav_rate": 40.12,
+      "beneficiaries": 301662
+    },
+    "2014": {
+      "adult_receipts": 45976,
+      "all_det": 55589,
+      "all_fav": 22264,
+      "fav_rate": 40.05,
+      "adult_fav_rate": 38.93,
+      "beneficiaries": 304168
+    },
+    "2015": {
+      "adult_receipts": 45396,
+      "all_det": 51016,
+      "all_fav": 20728,
+      "fav_rate": 40.63,
+      "adult_fav_rate": 39.48,
+      "beneficiaries": 302864
+    },
+    "2016": {
+      "adult_receipts": 41374,
+      "all_det": 46691,
+      "all_fav": 19221,
+      "fav_rate": 41.17,
+      "adult_fav_rate": 39.44,
+      "beneficiaries": 299480
+    },
+    "2017": {
+      "adult_receipts": 39461,
+      "all_det": 45731,
+      "all_fav": 18870,
+      "fav_rate": 41.26,
+      "adult_fav_rate": 38.86,
+      "beneficiaries": 292439
+    },
+    "2018": {
+      "adult_receipts": 37868,
+      "all_det": 43008,
+      "all_fav": 17664,
+      "fav_rate": 41.07,
+      "adult_fav_rate": 38.36,
+      "beneficiaries": 288035
+    },
+    "2019": {
+      "adult_receipts": 38508,
+      "all_det": 41550,
+      "all_fav": 17818,
+      "fav_rate": 42.88,
+      "adult_fav_rate": 40.33,
+      "beneficiaries": 280447
+    },
+    "2020": {
+      "adult_receipts": 34178,
+      "all_det": 37461,
+      "all_fav": 17166,
+      "fav_rate": 45.82,
+      "adult_fav_rate": 43.61,
+      "beneficiaries": 272352
+    },
+    "2021": {
+      "adult_receipts": 29228,
+      "all_det": 31341,
+      "all_fav": 13460,
+      "fav_rate": 42.95,
+      "adult_fav_rate": 40.41,
+      "beneficiaries": 258303
+    },
+    "2022": {
+      "adult_receipts": 32079,
+      "all_det": 26548,
+      "all_fav": 12413,
+      "fav_rate": 46.76,
+      "adult_fav_rate": 44.21,
+      "beneficiaries": 244699
+    },
+    "2023": {
+      "adult_receipts": 33285,
+      "all_det": 33303,
+      "all_fav": 14385,
+      "fav_rate": 43.19,
+      "adult_fav_rate": 40.02,
+      "beneficiaries": 233435
+    },
+    "2024": {
+      "adult_receipts": 37055,
+      "all_det": 35844,
+      "all_fav": 14399,
+      "fav_rate": 40.17,
+      "adult_fav_rate": 36.07,
+      "beneficiaries": 224106
+    }
+  },
+  "AZ": {
+    "2010": {
+      "adult_receipts": 41145,
+      "all_det": 44347,
+      "all_fav": 13924,
+      "fav_rate": 31.4,
+      "adult_fav_rate": 28.63,
+      "beneficiaries": 195775
+    },
+    "2011": {
+      "adult_receipts": 37722,
+      "all_det": 43753,
+      "all_fav": 13136,
+      "fav_rate": 30.02,
+      "adult_fav_rate": 26.96,
+      "beneficiaries": 202236
+    },
+    "2012": {
+      "adult_receipts": 28449,
+      "all_det": 36047,
+      "all_fav": 11453,
+      "fav_rate": 31.77,
+      "adult_fav_rate": 29.61,
+      "beneficiaries": 208289
+    },
+    "2013": {
+      "adult_receipts": 34115,
+      "all_det": 34464,
+      "all_fav": 10521,
+      "fav_rate": 30.53,
+      "adult_fav_rate": 28.7,
+      "beneficiaries": 211779
+    },
+    "2014": {
+      "adult_receipts": 34692,
+      "all_det": 38057,
+      "all_fav": 10776,
+      "fav_rate": 28.32,
+      "adult_fav_rate": 25.87,
+      "beneficiaries": 212516
+    },
+    "2015": {
+      "adult_receipts": 39175,
+      "all_det": 43150,
+      "all_fav": 11687,
+      "fav_rate": 27.08,
+      "adult_fav_rate": 24.58,
+      "beneficiaries": 213312
+    },
+    "2016": {
+      "adult_receipts": 40092,
+      "all_det": 45115,
+      "all_fav": 11845,
+      "fav_rate": 26.26,
+      "adult_fav_rate": 23.83,
+      "beneficiaries": 212620
+    },
+    "2017": {
+      "adult_receipts": 36300,
+      "all_det": 42267,
+      "all_fav": 11533,
+      "fav_rate": 27.29,
+      "adult_fav_rate": 24.41,
+      "beneficiaries": 210674
+    },
+    "2018": {
+      "adult_receipts": 37186,
+      "all_det": 39848,
+      "all_fav": 11166,
+      "fav_rate": 28.02,
+      "adult_fav_rate": 25.12,
+      "beneficiaries": 208882
+    },
+    "2019": {
+      "adult_receipts": 36027,
+      "all_det": 38901,
+      "all_fav": 12057,
+      "fav_rate": 30.99,
+      "adult_fav_rate": 28.04,
+      "beneficiaries": 207628
+    },
+    "2020": {
+      "adult_receipts": 29920,
+      "all_det": 32628,
+      "all_fav": 11311,
+      "fav_rate": 34.67,
+      "adult_fav_rate": 31.68,
+      "beneficiaries": 204844
+    },
+    "2021": {
+      "adult_receipts": 34341,
+      "all_det": 30948,
+      "all_fav": 9726,
+      "fav_rate": 31.43,
+      "adult_fav_rate": 28.9,
+      "beneficiaries": 196295
+    },
+    "2022": {
+      "adult_receipts": 25991,
+      "all_det": 27172,
+      "all_fav": 9519,
+      "fav_rate": 35.03,
+      "adult_fav_rate": 32.37,
+      "beneficiaries": 186606
+    },
+    "2023": {
+      "adult_receipts": 35547,
+      "all_det": 35729,
+      "all_fav": 12377,
+      "fav_rate": 34.64,
+      "adult_fav_rate": 31.29,
+      "beneficiaries": 180588
+    },
+    "2024": {
+      "adult_receipts": 40572,
+      "all_det": 41876,
+      "all_fav": 14046,
+      "fav_rate": 33.54,
+      "adult_fav_rate": 29.71,
+      "beneficiaries": 176625
+    }
+  },
+  "IN": {
+    "2010": {
+      "adult_receipts": 62743,
+      "all_det": 75354,
+      "all_fav": 25103,
+      "fav_rate": 33.31,
+      "adult_fav_rate": 32.9,
+      "beneficiaries": 253586
+    },
+    "2011": {
+      "adult_receipts": 63158,
+      "all_det": 75860,
+      "all_fav": 23707,
+      "fav_rate": 31.25,
+      "adult_fav_rate": 30.46,
+      "beneficiaries": 263840
+    },
+    "2012": {
+      "adult_receipts": 61317,
+      "all_det": 71564,
+      "all_fav": 21655,
+      "fav_rate": 30.26,
+      "adult_fav_rate": 29.52,
+      "beneficiaries": 273492
+    },
+    "2013": {
+      "adult_receipts": 60222,
+      "all_det": 69566,
+      "all_fav": 20819,
+      "fav_rate": 29.93,
+      "adult_fav_rate": 29.19,
+      "beneficiaries": 280206
+    },
+    "2014": {
+      "adult_receipts": 59052,
+      "all_det": 64632,
+      "all_fav": 19845,
+      "fav_rate": 30.7,
+      "adult_fav_rate": 29.97,
+      "beneficiaries": 282481
+    },
+    "2015": {
+      "adult_receipts": 55723,
+      "all_det": 65872,
+      "all_fav": 20451,
+      "fav_rate": 31.05,
+      "adult_fav_rate": 29.94,
+      "beneficiaries": 284307
+    },
+    "2016": {
+      "adult_receipts": 49640,
+      "all_det": 57106,
+      "all_fav": 17612,
+      "fav_rate": 30.84,
+      "adult_fav_rate": 29.53,
+      "beneficiaries": 282925
+    },
+    "2017": {
+      "adult_receipts": 46382,
+      "all_det": 52503,
+      "all_fav": 15720,
+      "fav_rate": 29.94,
+      "adult_fav_rate": 28.66,
+      "beneficiaries": 279506
+    },
+    "2018": {
+      "adult_receipts": 44427,
+      "all_det": 50147,
+      "all_fav": 15099,
+      "fav_rate": 30.11,
+      "adult_fav_rate": 28.57,
+      "beneficiaries": 276290
+    },
+    "2019": {
+      "adult_receipts": 45681,
+      "all_det": 53888,
+      "all_fav": 17154,
+      "fav_rate": 31.83,
+      "adult_fav_rate": 30.41,
+      "beneficiaries": 273433
+    },
+    "2020": {
+      "adult_receipts": 45764,
+      "all_det": 43754,
+      "all_fav": 14648,
+      "fav_rate": 33.48,
+      "adult_fav_rate": 31.94,
+      "beneficiaries": 268194
+    },
+    "2021": {
+      "adult_receipts": 42573,
+      "all_det": 51597,
+      "all_fav": 16184,
+      "fav_rate": 31.37,
+      "adult_fav_rate": 30.25,
+      "beneficiaries": 260071
+    },
+    "2022": {
+      "adult_receipts": 41601,
+      "all_det": 46425,
+      "all_fav": 15939,
+      "fav_rate": 34.33,
+      "adult_fav_rate": 33.04,
+      "beneficiaries": 251573
+    },
+    "2023": {
+      "adult_receipts": 41761,
+      "all_det": 42038,
+      "all_fav": 14137,
+      "fav_rate": 33.63,
+      "adult_fav_rate": 31.76,
+      "beneficiaries": 242828
+    },
+    "2024": {
+      "adult_receipts": 44934,
+      "all_det": 42770,
+      "all_fav": 16529,
+      "fav_rate": 38.65,
+      "adult_fav_rate": 37.04,
+      "beneficiaries": 238086
+    }
+  },
+  "MD": {
+    "2010": {
+      "adult_receipts": 34521,
+      "all_det": 43693,
+      "all_fav": 16330,
+      "fav_rate": 37.37,
+      "adult_fav_rate": 35.68,
+      "beneficiaries": 172769
+    },
+    "2011": {
+      "adult_receipts": 46140,
+      "all_det": 47591,
+      "all_fav": 15828,
+      "fav_rate": 33.26,
+      "adult_fav_rate": 31.1,
+      "beneficiaries": 180101
+    },
+    "2012": {
+      "adult_receipts": 51053,
+      "all_det": 56022,
+      "all_fav": 16682,
+      "fav_rate": 29.78,
+      "adult_fav_rate": 27.78,
+      "beneficiaries": 186541
+    },
+    "2013": {
+      "adult_receipts": 41610,
+      "all_det": 48317,
+      "all_fav": 14673,
+      "fav_rate": 30.37,
+      "adult_fav_rate": 28.47,
+      "beneficiaries": 191794
+    },
+    "2014": {
+      "adult_receipts": 41646,
+      "all_det": 46594,
+      "all_fav": 14465,
+      "fav_rate": 31.04,
+      "adult_fav_rate": 29.15,
+      "beneficiaries": 193555
+    },
+    "2015": {
+      "adult_receipts": 37339,
+      "all_det": 41186,
+      "all_fav": 13705,
+      "fav_rate": 33.28,
+      "adult_fav_rate": 30.53,
+      "beneficiaries": 195282
+    },
+    "2016": {
+      "adult_receipts": 31116,
+      "all_det": 39633,
+      "all_fav": 13143,
+      "fav_rate": 33.16,
+      "adult_fav_rate": 29.58,
+      "beneficiaries": 194621
+    },
+    "2017": {
+      "adult_receipts": 34686,
+      "all_det": 37212,
+      "all_fav": 12293,
+      "fav_rate": 33.04,
+      "adult_fav_rate": 28.95,
+      "beneficiaries": 193259
+    },
+    "2018": {
+      "adult_receipts": 36337,
+      "all_det": 35064,
+      "all_fav": 11517,
+      "fav_rate": 32.85,
+      "adult_fav_rate": 28.95,
+      "beneficiaries": 191269
+    },
+    "2019": {
+      "adult_receipts": 34177,
+      "all_det": 38433,
+      "all_fav": 13613,
+      "fav_rate": 35.42,
+      "adult_fav_rate": 31.82,
+      "beneficiaries": 189787
+    },
+    "2020": {
+      "adult_receipts": 30785,
+      "all_det": 29761,
+      "all_fav": 11625,
+      "fav_rate": 39.06,
+      "adult_fav_rate": 35.5,
+      "beneficiaries": 185357
+    },
+    "2021": {
+      "adult_receipts": 27000,
+      "all_det": 26313,
+      "all_fav": 10235,
+      "fav_rate": 38.9,
+      "adult_fav_rate": 35.16,
+      "beneficiaries": 177522
+    },
+    "2022": {
+      "adult_receipts": 28947,
+      "all_det": 19929,
+      "all_fav": 9234,
+      "fav_rate": 46.33,
+      "adult_fav_rate": 42.99,
+      "beneficiaries": 169681
+    },
+    "2023": {
+      "adult_receipts": 30538,
+      "all_det": 20077,
+      "all_fav": 9557,
+      "fav_rate": 47.6,
+      "adult_fav_rate": 42.65,
+      "beneficiaries": 162242
+    },
+    "2024": {
+      "adult_receipts": 26628,
+      "all_det": 27535,
+      "all_fav": 12063,
+      "fav_rate": 43.81,
+      "adult_fav_rate": 37.68,
+      "beneficiaries": 157363
+    }
+  },
+  "MO": {
+    "2010": {
+      "adult_receipts": 66216,
+      "all_det": 74851,
+      "all_fav": 24443,
+      "fav_rate": 32.66,
+      "adult_fav_rate": 31.67,
+      "beneficiaries": 274905
+    },
+    "2011": {
+      "adult_receipts": 74154,
+      "all_det": 80816,
+      "all_fav": 27055,
+      "fav_rate": 33.48,
+      "adult_fav_rate": 32.69,
+      "beneficiaries": 283323
+    },
+    "2012": {
+      "adult_receipts": 73489,
+      "all_det": 84955,
+      "all_fav": 28159,
+      "fav_rate": 33.15,
+      "adult_fav_rate": 32.52,
+      "beneficiaries": 292998
+    },
+    "2013": {
+      "adult_receipts": 66878,
+      "all_det": 75048,
+      "all_fav": 25177,
+      "fav_rate": 33.55,
+      "adult_fav_rate": 32.64,
+      "beneficiaries": 299053
+    },
+    "2014": {
+      "adult_receipts": 57663,
+      "all_det": 65827,
+      "all_fav": 22051,
+      "fav_rate": 33.5,
+      "adult_fav_rate": 32.67,
+      "beneficiaries": 300268
+    },
+    "2015": {
+      "adult_receipts": 63237,
+      "all_det": 65053,
+      "all_fav": 22833,
+      "fav_rate": 35.1,
+      "adult_fav_rate": 33.89,
+      "beneficiaries": 299142
+    },
+    "2016": {
+      "adult_receipts": 61619,
+      "all_det": 71949,
+      "all_fav": 23483,
+      "fav_rate": 32.64,
+      "adult_fav_rate": 31.27,
+      "beneficiaries": 295552
+    },
+    "2017": {
+      "adult_receipts": 56128,
+      "all_det": 61380,
+      "all_fav": 21446,
+      "fav_rate": 34.94,
+      "adult_fav_rate": 33.4,
+      "beneficiaries": 289701
+    },
+    "2018": {
+      "adult_receipts": 53562,
+      "all_det": 57717,
+      "all_fav": 20846,
+      "fav_rate": 36.12,
+      "adult_fav_rate": 34.4,
+      "beneficiaries": 286658
+    },
+    "2019": {
+      "adult_receipts": 54358,
+      "all_det": 55114,
+      "all_fav": 22063,
+      "fav_rate": 40.03,
+      "adult_fav_rate": 38.51,
+      "beneficiaries": 282926
+    },
+    "2020": {
+      "adult_receipts": 49860,
+      "all_det": 52429,
+      "all_fav": 21657,
+      "fav_rate": 41.31,
+      "adult_fav_rate": 39.71,
+      "beneficiaries": 276103
+    },
+    "2021": {
+      "adult_receipts": 41812,
+      "all_det": 48283,
+      "all_fav": 18480,
+      "fav_rate": 38.27,
+      "adult_fav_rate": 36.32,
+      "beneficiaries": 266029
+    },
+    "2022": {
+      "adult_receipts": 38331,
+      "all_det": 42792,
+      "all_fav": 17923,
+      "fav_rate": 41.88,
+      "adult_fav_rate": 39.65,
+      "beneficiaries": 256905
+    },
+    "2023": {
+      "adult_receipts": 41524,
+      "all_det": 43150,
+      "all_fav": 18438,
+      "fav_rate": 42.73,
+      "adult_fav_rate": 39.91,
+      "beneficiaries": 248349
+    },
+    "2024": {
+      "adult_receipts": 42318,
+      "all_det": 45546,
+      "all_fav": 19364,
+      "fav_rate": 42.52,
+      "adult_fav_rate": 39.45,
+      "beneficiaries": 242212
+    }
+  },
+  "TN": {
+    "2010": {
+      "adult_receipts": 76279,
+      "all_det": 85409,
+      "all_fav": 21997,
+      "fav_rate": 25.75,
+      "adult_fav_rate": 24.86,
+      "beneficiaries": 324396
+    },
+    "2011": {
+      "adult_receipts": 75371,
+      "all_det": 92568,
+      "all_fav": 22921,
+      "fav_rate": 24.76,
+      "adult_fav_rate": 23.8,
+      "beneficiaries": 336813
+    },
+    "2012": {
+      "adult_receipts": 72288,
+      "all_det": 83836,
+      "all_fav": 21539,
+      "fav_rate": 25.69,
+      "adult_fav_rate": 24.97,
+      "beneficiaries": 348659
+    },
+    "2013": {
+      "adult_receipts": 66708,
+      "all_det": 76584,
+      "all_fav": 19577,
+      "fav_rate": 25.56,
+      "adult_fav_rate": 24.91,
+      "beneficiaries": 353396
+    },
+    "2014": {
+      "adult_receipts": 58184,
+      "all_det": 68822,
+      "all_fav": 18218,
+      "fav_rate": 26.47,
+      "adult_fav_rate": 25.32,
+      "beneficiaries": 353868
+    },
+    "2015": {
+      "adult_receipts": 60241,
+      "all_det": 65711,
+      "all_fav": 17896,
+      "fav_rate": 27.23,
+      "adult_fav_rate": 25.82,
+      "beneficiaries": 353384
+    },
+    "2016": {
+      "adult_receipts": 52919,
+      "all_det": 62467,
+      "all_fav": 17328,
+      "fav_rate": 27.74,
+      "adult_fav_rate": 25.98,
+      "beneficiaries": 350742
+    },
+    "2017": {
+      "adult_receipts": 49634,
+      "all_det": 58661,
+      "all_fav": 16834,
+      "fav_rate": 28.7,
+      "adult_fav_rate": 26.73,
+      "beneficiaries": 344061
+    },
+    "2018": {
+      "adult_receipts": 48985,
+      "all_det": 51202,
+      "all_fav": 14820,
+      "fav_rate": 28.94,
+      "adult_fav_rate": 26.58,
+      "beneficiaries": 341162
+    },
+    "2019": {
+      "adult_receipts": 46888,
+      "all_det": 49703,
+      "all_fav": 16604,
+      "fav_rate": 33.41,
+      "adult_fav_rate": 31.13,
+      "beneficiaries": 335961
+    },
+    "2020": {
+      "adult_receipts": 39433,
+      "all_det": 40389,
+      "all_fav": 15689,
+      "fav_rate": 38.84,
+      "adult_fav_rate": 36.98,
+      "beneficiaries": 328836
+    },
+    "2021": {
+      "adult_receipts": 31231,
+      "all_det": 41235,
+      "all_fav": 14471,
+      "fav_rate": 35.09,
+      "adult_fav_rate": 32.96,
+      "beneficiaries": 313586
+    },
+    "2022": {
+      "adult_receipts": 35793,
+      "all_det": 35229,
+      "all_fav": 13701,
+      "fav_rate": 38.89,
+      "adult_fav_rate": 36.87,
+      "beneficiaries": 299240
+    },
+    "2023": {
+      "adult_receipts": 44930,
+      "all_det": 44397,
+      "all_fav": 16305,
+      "fav_rate": 36.73,
+      "adult_fav_rate": 34.15,
+      "beneficiaries": 289728
+    },
+    "2024": {
+      "adult_receipts": 49446,
+      "all_det": 62901,
+      "all_fav": 21202,
+      "fav_rate": 33.71,
+      "adult_fav_rate": 30.91,
+      "beneficiaries": 283303
+    }
+  },
+  "VA": {
+    "2010": {
+      "adult_receipts": 49282,
+      "all_det": 60154,
+      "all_fav": 23330,
+      "fav_rate": 38.78,
+      "adult_fav_rate": 39.18,
+      "beneficiaries": 274052
+    },
+    "2011": {
+      "adult_receipts": 56738,
+      "all_det": 67084,
+      "all_fav": 23631,
+      "fav_rate": 35.23,
+      "adult_fav_rate": 34.9,
+      "beneficiaries": 280424
+    },
+    "2012": {
+      "adult_receipts": 57756,
+      "all_det": 62246,
+      "all_fav": 22781,
+      "fav_rate": 36.6,
+      "adult_fav_rate": 36.37,
+      "beneficiaries": 287369
+    },
+    "2013": {
+      "adult_receipts": 54151,
+      "all_det": 53292,
+      "all_fav": 20368,
+      "fav_rate": 38.22,
+      "adult_fav_rate": 38.11,
+      "beneficiaries": 289089
+    },
+    "2014": {
+      "adult_receipts": 37104,
+      "all_det": 51400,
+      "all_fav": 19161,
+      "fav_rate": 37.28,
+      "adult_fav_rate": 37.42,
+      "beneficiaries": 292440
+    },
+    "2015": {
+      "adult_receipts": 45913,
+      "all_det": 51522,
+      "all_fav": 19596,
+      "fav_rate": 38.03,
+      "adult_fav_rate": 37.67,
+      "beneficiaries": 293790
+    },
+    "2016": {
+      "adult_receipts": 42558,
+      "all_det": 48556,
+      "all_fav": 18872,
+      "fav_rate": 38.87,
+      "adult_fav_rate": 38.34,
+      "beneficiaries": 293982
+    },
+    "2017": {
+      "adult_receipts": 45557,
+      "all_det": 52507,
+      "all_fav": 21316,
+      "fav_rate": 40.6,
+      "adult_fav_rate": 39.68,
+      "beneficiaries": 293017
+    },
+    "2018": {
+      "adult_receipts": 36462,
+      "all_det": 43703,
+      "all_fav": 18398,
+      "fav_rate": 42.1,
+      "adult_fav_rate": 41.12,
+      "beneficiaries": 291008
+    },
+    "2019": {
+      "adult_receipts": 42942,
+      "all_det": 44188,
+      "all_fav": 19342,
+      "fav_rate": 43.77,
+      "adult_fav_rate": 42.45,
+      "beneficiaries": 286359
+    },
+    "2020": {
+      "adult_receipts": 39975,
+      "all_det": 44668,
+      "all_fav": 19363,
+      "fav_rate": 43.35,
+      "adult_fav_rate": 42.23,
+      "beneficiaries": 282221
+    },
+    "2021": {
+      "adult_receipts": 43438,
+      "all_det": 37926,
+      "all_fav": 16732,
+      "fav_rate": 44.12,
+      "adult_fav_rate": 42.83,
+      "beneficiaries": 272140
+    },
+    "2022": {
+      "adult_receipts": 42458,
+      "all_det": 45707,
+      "all_fav": 18867,
+      "fav_rate": 41.28,
+      "adult_fav_rate": 39.7,
+      "beneficiaries": 261785
+    },
+    "2023": {
+      "adult_receipts": 34488,
+      "all_det": 40922,
+      "all_fav": 17300,
+      "fav_rate": 42.28,
+      "adult_fav_rate": 40.21,
+      "beneficiaries": 252808
+    },
+    "2024": {
+      "adult_receipts": 42174,
+      "all_det": 48046,
+      "all_fav": 21006,
+      "fav_rate": 43.72,
+      "adult_fav_rate": 41.36,
+      "beneficiaries": 249765
+    }
+  },
+  "WA": {
+    "2010": {
+      "adult_receipts": 50362,
+      "all_det": 54545,
+      "all_fav": 22015,
+      "fav_rate": 40.36,
+      "adult_fav_rate": 38.31,
+      "beneficiaries": 233154
+    },
+    "2011": {
+      "adult_receipts": 54661,
+      "all_det": 59392,
+      "all_fav": 22916,
+      "fav_rate": 38.58,
+      "adult_fav_rate": 36.53,
+      "beneficiaries": 242890
+    },
+    "2012": {
+      "adult_receipts": 55412,
+      "all_det": 61979,
+      "all_fav": 23291,
+      "fav_rate": 37.58,
+      "adult_fav_rate": 35.63,
+      "beneficiaries": 252149
+    },
+    "2013": {
+      "adult_receipts": 51118,
+      "all_det": 56539,
+      "all_fav": 21257,
+      "fav_rate": 37.6,
+      "adult_fav_rate": 35.61,
+      "beneficiaries": 258425
+    },
+    "2014": {
+      "adult_receipts": 47757,
+      "all_det": 51670,
+      "all_fav": 19698,
+      "fav_rate": 38.12,
+      "adult_fav_rate": 35.79,
+      "beneficiaries": 260667
+    },
+    "2015": {
+      "adult_receipts": 46818,
+      "all_det": 52280,
+      "all_fav": 19788,
+      "fav_rate": 37.85,
+      "adult_fav_rate": 35.47,
+      "beneficiaries": 261454
+    },
+    "2016": {
+      "adult_receipts": 43226,
+      "all_det": 48946,
+      "all_fav": 18844,
+      "fav_rate": 38.5,
+      "adult_fav_rate": 36.25,
+      "beneficiaries": 260789
+    },
+    "2017": {
+      "adult_receipts": 45653,
+      "all_det": 48483,
+      "all_fav": 19116,
+      "fav_rate": 39.43,
+      "adult_fav_rate": 36.97,
+      "beneficiaries": 255718
+    },
+    "2018": {
+      "adult_receipts": 47588,
+      "all_det": 49230,
+      "all_fav": 18705,
+      "fav_rate": 38.0,
+      "adult_fav_rate": 35.64,
+      "beneficiaries": 252162
+    },
+    "2019": {
+      "adult_receipts": 43087,
+      "all_det": 47185,
+      "all_fav": 18303,
+      "fav_rate": 38.79,
+      "adult_fav_rate": 36.17,
+      "beneficiaries": 245862
+    },
+    "2020": {
+      "adult_receipts": 37012,
+      "all_det": 35210,
+      "all_fav": 14831,
+      "fav_rate": 42.12,
+      "adult_fav_rate": 39.42,
+      "beneficiaries": 237464
+    },
+    "2021": {
+      "adult_receipts": 24897,
+      "all_det": 27499,
+      "all_fav": 10866,
+      "fav_rate": 39.51,
+      "adult_fav_rate": 37.19,
+      "beneficiaries": 225571
+    },
+    "2022": {
+      "adult_receipts": 25669,
+      "all_det": 29946,
+      "all_fav": 12316,
+      "fav_rate": 41.13,
+      "adult_fav_rate": 37.85,
+      "beneficiaries": 214372
+    },
+    "2023": {
+      "adult_receipts": 33163,
+      "all_det": 27507,
+      "all_fav": 11454,
+      "fav_rate": 41.64,
+      "adult_fav_rate": 37.91,
+      "beneficiaries": 204404
+    },
+    "2024": {
+      "adult_receipts": 37726,
+      "all_det": 36229,
+      "all_fav": 14041,
+      "fav_rate": 38.76,
+      "adult_fav_rate": 35.49,
+      "beneficiaries": 199148
+    }
+  },
+  "WI": {
+    "2010": {
+      "adult_receipts": 44468,
+      "all_det": 47154,
+      "all_fav": 18059,
+      "fav_rate": 38.3,
+      "adult_fav_rate": 37.42,
+      "beneficiaries": 203509
+    },
+    "2011": {
+      "adult_receipts": 41757,
+      "all_det": 51873,
+      "all_fav": 18180,
+      "fav_rate": 35.05,
+      "adult_fav_rate": 33.72,
+      "beneficiaries": 209516
+    },
+    "2012": {
+      "adult_receipts": 43082,
+      "all_det": 45210,
+      "all_fav": 16769,
+      "fav_rate": 37.09,
+      "adult_fav_rate": 35.38,
+      "beneficiaries": 217284
+    },
+    "2013": {
+      "adult_receipts": 28580,
+      "all_det": 40011,
+      "all_fav": 14786,
+      "fav_rate": 36.95,
+      "adult_fav_rate": 35.04,
+      "beneficiaries": 222450
+    },
+    "2014": {
+      "adult_receipts": 34454,
+      "all_det": 35803,
+      "all_fav": 13710,
+      "fav_rate": 38.29,
+      "adult_fav_rate": 36.1,
+      "beneficiaries": 224145
+    },
+    "2015": {
+      "adult_receipts": 35442,
+      "all_det": 42410,
+      "all_fav": 15266,
+      "fav_rate": 36.0,
+      "adult_fav_rate": 32.9,
+      "beneficiaries": 225224
+    },
+    "2016": {
+      "adult_receipts": 35549,
+      "all_det": 41159,
+      "all_fav": 14305,
+      "fav_rate": 34.76,
+      "adult_fav_rate": 31.81,
+      "beneficiaries": 223972
+    },
+    "2017": {
+      "adult_receipts": 33011,
+      "all_det": 39134,
+      "all_fav": 14367,
+      "fav_rate": 36.71,
+      "adult_fav_rate": 34.12,
+      "beneficiaries": 223089
+    },
+    "2018": {
+      "adult_receipts": 31568,
+      "all_det": 36093,
+      "all_fav": 13283,
+      "fav_rate": 36.8,
+      "adult_fav_rate": 33.72,
+      "beneficiaries": 221405
+    },
+    "2019": {
+      "adult_receipts": 32211,
+      "all_det": 36708,
+      "all_fav": 14662,
+      "fav_rate": 39.94,
+      "adult_fav_rate": 36.77,
+      "beneficiaries": 219858
+    },
+    "2020": {
+      "adult_receipts": 32555,
+      "all_det": 33866,
+      "all_fav": 13785,
+      "fav_rate": 40.7,
+      "adult_fav_rate": 37.55,
+      "beneficiaries": 216146
+    },
+    "2021": {
+      "adult_receipts": 30411,
+      "all_det": 29544,
+      "all_fav": 11200,
+      "fav_rate": 37.91,
+      "adult_fav_rate": 34.5,
+      "beneficiaries": 207699
+    },
+    "2022": {
+      "adult_receipts": 28278,
+      "all_det": 24021,
+      "all_fav": 10330,
+      "fav_rate": 43.0,
+      "adult_fav_rate": 39.86,
+      "beneficiaries": 197475
+    },
+    "2023": {
+      "adult_receipts": 28250,
+      "all_det": 32400,
+      "all_fav": 14126,
+      "fav_rate": 43.6,
+      "adult_fav_rate": 40.4,
+      "beneficiaries": 191423
+    },
+    "2024": {
+      "adult_receipts": 30266,
+      "all_det": 42091,
+      "all_fav": 17353,
+      "fav_rate": 41.23,
+      "adult_fav_rate": 38.02,
+      "beneficiaries": 189085
+    }
+  }
+}

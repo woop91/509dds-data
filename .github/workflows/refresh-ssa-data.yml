@@ -43,6 +43,8 @@ jobs:
             "https://www.ssa.gov/disability/data/SSA-SA-FYWL.csv|data/ssa/ssa-sa-fywl-all-states-2001-2024.csv"
             "https://www.ssa.gov/data/DDS-Net-Accuracy.csv|data/ssa/dds-net-accuracy-by-state-2007-2022.csv"
             "https://www.ssa.gov/data/fy16-onwards-CDP-Time-Monthly.csv|data/ssa/cdp-time-monthly-fy16-fy26.csv"
+            "https://www.ssa.gov/data/Combined-Disability-Processing-Time.csv|data/ssa/cdp-time-monthly-fy08-fy15.csv"
+            "https://www.ssa.gov/data/Periodic-Continuing-Disability-Reviews.csv|data/ssa/periodic-cdr-fy13-fy22.csv"
           )
           for entry in "${urls[@]}"; do
             url="${entry%%|*}"

@@ -8,10 +8,10 @@ Open data, source documents, and analysis for **SEIU Local 509's Disability Dete
 
 | Folder | Contents |
 |---|---|
-| [`data/ssa/`](data/ssa/) | SSA public datasets — all-state initial claims (2001–2024), federal QA accuracy review (2007–2022), processing time (FY16–FY26), OIG staffing audit |
+| [`data/ssa/`](data/ssa/) | SSA public datasets — all-state initial claims (2001–2024), federal QA accuracy review (2007–2022), processing time (FY08–FY26), national CDRs processed (FY13–FY22), CDR backlog (FY14–FY18), OIG staffing audit |
 | [`data/ma-annual-reports/`](data/ma-annual-reports/) | MassAbility / MRC annual reports as markdown — FY23, FY24, FY25 + State Rehabilitation Council reports FY22–FY24 |
 | [`data/contract/`](data/contract/) | SEIU Local 509 Units 8 & 10 Collective Bargaining Agreement 2024–2026 (full text) |
-| [`data/pay-scales/`](data/pay-scales/) | Unit 8 salary charts — 5 effective dates from 2024-07-14 through 2026-07-12 + VDE-grade-extracted JSON |
+| [`data/pay-scales/`](data/pay-scales/) | Unit 8 salary charts (5 effective dates 2024-07-14 → 2026-07-12), VDE-grade-extracted JSON, **per-employee VDE annual salary + overtime CY 2010–2023** (`vde-annual-salary-by-employee.csv`) with year/grade aggregates and outliers (`vde-annual-salary-aggregates.json`) |
 | [`data/cthru-staffing/`](data/cthru-staffing/) | MA Comptroller payroll headcount (CTHRU): VDE counts by grade by year, DDS division totals |
 | [`data/ra-process/`](data/ra-process/) | Reasonable Accommodation: state Executive Branch process, application page, MassAbility DDS info, MOD guidance, DLC self-advocacy guide |
 | [`data/labor-rights/`](data/labor-rights/) | Labor rights filing & reference: 12 enforcement agencies (DLR, MCAD, AGO Fair Labor, DLS, DIA, CSC, Ethics, EEOC, DOL WHD, OSHA, NLRB, DFML), 24 filing deadlines, member guide + steward cheat sheet + statute index, queryable [`agencies.json`](data/labor-rights/agencies.json) extract |
@@ -27,6 +27,8 @@ Open data, source documents, and analysis for **SEIU Local 509's Disability Dete
 - **MA favorable rate: −5.6 pts** from FY20 (45.82%) to FY24 (40.17%) — steepest decline among population-peer states (TN, IN, MD, VA, WA, MO, WI)
 - **National processing time: +110%** from FY16 (110 days) to FY24 (231 days), per SSA — backdrop for state-level pain
 - **DDS-Det budget cut: −16.7%** from FY24 ($50.8M) to FY25 ($42.3M)
+- **Overtime collapse 2023**: agency-wide VDE overtime fell from $954,171 (2022) to $42,645 (2023) — 96% reduction; max single-person OT $13,358 → $534 (per CTHRU; CY 2023 itself is incomplete in CTHRU — 2-week snapshot only — but the OT-zeroing pattern is the anchor metric)
+- **2015 OT blitz**: every single-year top-10 OT earner across 2010–2023 occurred in 2015 (max $23,017 — Steven Monis, Grade C). Suggests a pre-reclass backlog clearance push.
 
 ## Sources & confidence levels
 
@@ -55,6 +57,9 @@ Most sources are static (annual reports, CBAs). The auto-updating sources:
 | `ssa-sa-fywl-all-states-2001-2024.csv` | Annual, ~Nov | https://www.ssa.gov/disability/data/SSA-SA-FYWL.csv |
 | `dds-net-accuracy-by-state-2007-2022.csv` | Annual | https://www.ssa.gov/data/DDS-Net-Accuracy.csv |
 | `cdp-time-monthly-fy16-fy26.csv` | Monthly | https://www.ssa.gov/data/fy16-onwards-CDP-Time-Monthly.csv |
+| `cdp-time-monthly-fy08-fy15.csv` | Static (historical) | https://www.ssa.gov/data/Combined-Disability-Processing-Time.csv |
+| `periodic-cdr-fy13-fy22.csv` | Annual (last update 2023-05-22) | https://www.ssa.gov/data/Periodic-Continuing-Disability-Reviews.csv |
+| `periodic-cdr-backlog-fy14-fy18.csv` | Static (frozen 2018) | https://www.ssa.gov/data/Periodic-CDR-Case-Backlog.csv |
 | CTHRU payroll | Quarterly (CY+12mo lag) | https://cthru.data.socrata.com/resource/rxhc-k6iz.json?$where=chris='MRC' |
 
 For 509dds.com integration: schedule the Vercel cron to re-fetch SSA CSVs annually each November and CTHRU quarterly. Both endpoints accept browser-UA requests via Firecrawl.

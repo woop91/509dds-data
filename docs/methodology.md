@@ -65,6 +65,43 @@ Annual estimate = Bi-weekly rate × 26 pay periods
 ```
 Verified against CTHRU CY 2023 actual paid amounts (see `data/pay-scales/vde-grades-extracted.json`).
 
+### Per-Employee VDE Annual Salary (CTHRU 2010–2023)
+File: `data/pay-scales/vde-annual-salary-by-employee.csv`
+Aggregates: `data/pay-scales/vde-annual-salary-aggregates.json`
+
+Pulled from CTHRU dataset `rxhc-k6iz` with filter `chris='MRC' AND upper(position_title) LIKE '%DISAB EXAMINER%'`.
+
+**Key methodology point**: `rxhc-k6iz` is a *per-pay-period snapshot* table, not an annual roll-up. Each (employee, year) typically has multiple rows — one per pay period the snapshot caught. To produce per-employee annual figures we **dedupe to the latest `service_end_date` per (year, employee)**. The latest snapshot's `pay_year_to_date` ≈ that employee's W-2 earnings for the year (regular + overtime + other + buyout).
+
+Field meanings:
+- `annual_rate` — scheduled annualized base rate at last snapshot. Independent of how much they actually got paid.
+- `pay_base_actual` — regular pay actually paid YTD as of last snapshot.
+- `pay_overtime_actual` — overtime pay actually paid YTD.
+- `pay_other_actual` — stipends, differentials, etc.
+- `pay_buyout_actual` — vacation/comp-time buyouts.
+- `pay_total_actual` = sum of the four above.
+
+Outlier detection in aggregates JSON uses Tukey IQR fences (Q1−1.5·IQR, Q3+1.5·IQR) plus an unconditional top-5 list per metric per year.
+
+### CY 2023 incompleteness flag (CRITICAL)
+The latest CTHRU snapshot date in the public dataset for VDE-MRC records is **2023-01-14**. CY 2023's `pay_total_actual` and overtime sums therefore reflect only ~2 weeks of pay, not a full year. Compare 2023 to prior years using `annual_rate` only; `actual_paid` and OT figures for 2023 are NOT comparable. The aggregates JSON marks this with `year_data_completeness[year].approximates_full_year=false`.
+
+### Pre-2010 gap (no public per-employee data)
+Per-employee MA state payroll data is **not publicly available for years 2001–2009.** Verified across:
+- MA Comptroller CTHRU (starts CY 2010)
+- MassOpenBooks (sources from Comptroller; same start)
+- OpenTheBooks (sources from CTHRU)
+- Massachusetts Almanac salary index (no pre-2010 link present)
+- Wayback Machine on mass.gov payroll URLs (no archived predecessor)
+
+Three options to address the gap (pick one — there is no fourth):
+
+- **(a) PRR** — file a MA Public Records Request with the Office of the Comptroller for archival HRCMS extracts. Slow (weeks-to-months), may incur fees. Yields per-employee historical data comparable to CTHRU columns.
+- **(b) Wayback / CBA scrape (chart-based, not actual paid)** — pull old SEIU 509 Unit 8 salary chart PDFs from the Wayback Machine and reconstruct *scheduled* (contract) rates. Note: chart-based, **not actual paid**. Cannot produce overtime data. Cannot show step-progression for any individual person.
+- **(c) Declare the gap acceptable** — accept that pre-2010 individual VDE pay is not knowable without a PRR and proceed with 2010–2023 only.
+
+If the gap is filled via (a) or (b), write into `data/pay-scales/vde-annual-salary-by-employee-2001-2009.csv` with the same column layout, plus a `source` column noting `PRR-2026-XX` or `CBA-YYYY-YYYY-Appendix-A`.
+
 ### DDS-Det Division Total Staff
 Sum of CTHRU records matching all DDS-titled position patterns (VDE all grades, Medical Consultants, Medical Review Examiner, Review Examiner, Asst Commissioner DDS, Regional Director DDS, Director Hearings Unit, Dir QA DDS, Dir Training DDS, Director A&F DDS, Fiscal Director DDS, Hearings Director).
 

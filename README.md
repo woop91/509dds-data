@@ -52,10 +52,10 @@ Most sources are static (annual reports, CBAs). The auto-updating sources:
 
 | Dataset | Update cadence | Source URL |
 |---|---|---|
-| `ssa-sa-fywl-all-states-2001-2024.csv` | Annual, ~Nov | https://www.ssa.gov/disability/data/SSA-SA-FYWL.csv |
-| `dds-net-accuracy-by-state-2007-2022.csv` | Annual | https://www.ssa.gov/data/DDS-Net-Accuracy.csv |
-| `cdp-time-monthly-fy16-fy26.csv` | Monthly | https://www.ssa.gov/data/fy16-onwards-CDP-Time-Monthly.csv |
-| CTHRU payroll | Quarterly (CY+12mo lag) | https://cthru.data.socrata.com/resource/rxhc-k6iz.json?$where=chris='MRC' |
+| `ssa-sa-fywl-all-states.csv` | Annual, ~Nov | https://www.ssa.gov/disability/data/SSA-SA-FYWL.csv |
+| `dds-net-accuracy-by-state.csv` | Annual | https://www.ssa.gov/data/DDS-Net-Accuracy.csv |
+| `cdp-time-monthly.csv` | Monthly (auto-fetched on the 15th) | https://www.ssa.gov/data/fy16-onwards-CDP-Time-Monthly.csv |
+| `cthru-staffing/cthru-vde-annual-summary.json` | Quarterly (CY+12mo lag) | https://cthru.data.socrata.com/resource/rxhc-k6iz.json |
 
 For 509dds.com integration: schedule the Vercel cron to re-fetch SSA CSVs annually each November and CTHRU quarterly. Both endpoints accept browser-UA requests via Firecrawl.
 

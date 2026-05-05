@@ -24,7 +24,11 @@ The Commonwealth's centralized HR service center — handles benefits, payroll, 
 | Phone | **(617) 204-3652** |
 | Role | Agency ADA Coordinator, MassAbility |
 
-> ⚠ **Verification note (2026-05-04):** The official Massachusetts Office on Disability (MOD) ADA Coordinator listing dated March 10, 2026 (`EB ADA Coordinator Listing 26-03-10.csv`) does **not** contain a MassAbility / MRC / Rehabilitation Commission entry as of this date. The agency may have been omitted from the public directory after the September 2024 MRC→MassAbility rebrand and not yet re-listed. Alicia Ingraham's role as MassAbility's Agency ADA Coordinator is from internal sources and **should be confirmed by MassAbility HR or MOD before relying on this contact for a formal filing**.
+> ⚠ **Verification note (2026-05-04):** Exhaustive search of the official Massachusetts Office on Disability (MOD) ADA Coordinator listing dated March 10, 2026 ([`ada-coordinator-listing-2026-03-10.csv`](ada-coordinator-listing-2026-03-10.csv), 93 entries) confirms **zero matches** for any of: `MassAbility`, `MRC`, `Mass Rehab`, `Rehabilitation Commission`, `Rehabilitation`, `Disability Determination`, `Determination Services`. EOHHS contains 12 listed sub-agencies (DCF, DDS-Dev, DMH, DPH, DTA, DYS, EOAI, EOHHS umbrella, MCB, MCDHH, MassHealth, ORI) — **MassAbility is not among them**.
+>
+> Most likely cause: the agency was removed from the public listing after the September 2024 MRC→MassAbility rebrand and has not yet been re-added. Alicia Ingraham's role as Agency ADA Coordinator is sourced from internal MassAbility information and is plausible (consistent role, area-code matches EOHHS leadership offices), but **cannot be corroborated against the authoritative MOD directory until the agency is re-listed**.
+>
+> Recommended actions: (1) confirm with MassAbility HR directly before relying on this contact for a formal filing; (2) someone with MassAbility internal access should email MOD (`MOD@mass.gov` or via mass.gov contact form) requesting the agency be re-added to the public coordinator listing under its current name.
 
 ### How to verify
 

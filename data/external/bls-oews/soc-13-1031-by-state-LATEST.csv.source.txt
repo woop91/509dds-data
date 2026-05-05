@@ -1,0 +1,7 @@
+Source: Bureau of Labor Statistics (BLS) Occupational Employment and Wage Statistics (OEWS)
+URL: https://www.bls.gov/oes/current/oes131031.htm (occupation page)
+     https://www.bls.gov/oes/tables.htm (data download center)
+Fetched: 2026-05-05
+Latest Year: 2024 (May 2024 OEWS estimates)
+Description: State-level wage and employment estimates for SOC 13-1031 (Claims Adjusters, Examiners, and Investigators)
+Row Count: 51 (50 states + DC)

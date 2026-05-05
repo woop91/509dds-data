@@ -1,0 +1,6 @@
+Source: Bureau of Labor Statistics (BLS) Standard Occupational Classification (SOC)
+URL: https://www.bls.gov/soc/2010/soc_13-1031.htm
+Fetched: 2026-05-05
+SOC Code: 13-1031
+Title: Claims Adjusters, Examiners, and Investigators
+Description: Official BLS duty description and related SOC codes

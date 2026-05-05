@@ -1,0 +1,9 @@
+Source: Bureau of Labor Statistics (BLS) Occupational Employment and Wage Statistics (OEWS)
+URL: https://www.bls.gov/oes/current/oes131041.htm (SOC 13-1041)
+     https://www.bls.gov/oes/current/oes211093.htm (SOC 21-1093)
+Fetched: 2026-05-05
+Latest Year: 2024 (May 2024 OEWS estimates)
+Occupations:
+  - SOC 13-1041: Compliance Officers
+  - SOC 21-1093: Social and Human Service Assistants
+Row Count: 102 (51 states/DC × 2 occupations)

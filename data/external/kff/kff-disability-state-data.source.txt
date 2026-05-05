@@ -1,0 +1,7 @@
+Source URL: https://www.kff.org/state-category/health-status/disability/
+Fetch Date: 2026-05-05
+Data Year: 2023-2025 (varies by metric)
+Coverage: All 50 states + DC
+File Type: HTML tables
+Row Count: 50+ rows with multiple metrics
+Notes: KFF State Health Facts includes Medicaid enrollees by eligibility group and disability prevalence data.

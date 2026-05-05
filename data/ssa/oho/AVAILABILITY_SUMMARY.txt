@@ -1,0 +1,59 @@
+# OHO DATASETS AVAILABILITY SUMMARY (as of 2026-05-05)
+
+## Available Reports (All FY2025 YTD: 09/28/2024 - 09/26/2025)
+
+1. ALJ DISPOSITION DATA (03_ALJ_Disposition_Data)
+   - 600+ individual ALJs across 150+ offices
+   - Fields: 9 (Judge name, Office, Total/Partial/Full Dispositions, Awards, Denials)
+   - Archive: Monthly FY2011-FY2025
+   - Export: HTML table + XML
+   - State aggregation: YES (via office mapping)
+
+2. HEARING OFFICE WORKLOAD DATA (02_HO_Workload_Data)
+   - 150+ hearing offices
+   - Fields: 5 (Office, Receipts, Dispositions, Pending, Processing Time)
+   - Archive: Monthly FY2011-FY2025
+   - Export: HTML table + XML
+   - **TIME-SERIES NOTE: Year-aggregated only in standard reports**
+
+3. AVERAGE WAIT TIME UNTIL HEARING HELD (01_NetStat_Report)
+   - 150+ hearing offices
+   - Fields: 4 (Office, Code, Months to hearing, Period)
+   - Archive: Monthly FY2011-FY2025
+   - Export: HTML table + XML
+   - **TIME-SERIES: YES - monthly granularity**
+
+4. ALJ DISPOSITIONS PER DAY RANKING (04_Disposition_Per_Day_Per_ALJ_Ranking_Report)
+   - 150+ offices ranked
+   - Fields: 4 (Rank, Office, Region, Dispositions/ALJ/Day)
+   - Archive: Monthly FY2011-FY2025
+   - Export: HTML table + XML
+   - Note: Office-level averages, not individual ALJ performance
+
+5. HEARING OFFICE PROCESSING TIME RANKING (05_Average_Processing_Time_Report)
+   - 150+ offices ranked
+   - Fields: 4 (Rank, Office, Region, Avg Days)
+   - Archive: Monthly FY2011-FY2025
+   - Export: HTML table + XML
+   - **TIME-SERIES: YES - monthly ranking data**
+
+## ADDITIONAL AVAILABLE REPORTS
+- 06_Hearings_Held_InPerson_Video_Report: In-person vs video hearing counts
+- 07_AC_Requests_For_Review: Appeals Council request dispositions
+- 08_National_New_Court_Cases_and_Remands: Court action statistics
+- Pending_Hearing_Requests_By_ElectronicFormat_Paper: Case format distribution
+
+## DATA EXTRACTION STATUS
+✓ Discovered: All 5 primary datasets
+✓ Field mapping: Complete (see FIELD_DEFINITIONS.txt)
+✓ Archive availability: Confirmed FY2011-FY2025 monthly
+✗ Full extraction: Blocked by JavaScript-rendering + access restrictions
+  - Method: HTML tables render via JavaScript (DataTables library)
+  - Alternative: XML exports available but access-restricted
+  - Solution: Use browser automation (Playwright/Selenium) or SSA API if available
+
+## HEARING OFFICE TO STATE MAPPING
+155+ offices mapped to states (critical for state-level aggregation)
+Maintained in: hearing-office-to-state.csv
+
+States with highest office count: CA (8), NY (7), PA (6), TX (5), FL (4)

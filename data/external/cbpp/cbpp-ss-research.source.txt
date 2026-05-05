@@ -1,0 +1,7 @@
+Source URL: https://www.cbpp.org/research/social-security/
+Fetch Date: 2026-05-05
+Data Year: 2024-2025 (varies by report)
+Coverage: All 50 states + DC (target)
+File Type: PDF factsheets + data tables
+Row Count: Variable by state; typically 10-15 metrics per state
+Notes: CBPP publishes comprehensive state factsheets with SSDI and SSI beneficiary counts, average benefits, percentage of working-age population, child enrollment statistics, and county-level breakouts. Request blocked by Cloudflare; manual retrieval required.

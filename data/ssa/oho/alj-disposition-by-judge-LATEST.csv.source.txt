@@ -1,0 +1,6 @@
+Source URL: https://www.ssa.gov/appeals/DataSets/03_ALJ_Disposition_Data.html
+Fetched: 2026-05-05T15:27:01.076Z
+Extraction tool: scripts/extract-oho-alj-table.js (regex over rendered HTML)
+Rows: 1439 ALJ rows + 1 header
+Columns: 9
+Header: Judge | Office | Total Dispositions | Total ALJ Dispositions Across All Offices | Decisions | Awards | Denials | Fully Favorable | Partially Favorable

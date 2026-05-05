@@ -1,0 +1,191 @@
+{
+  "fetchedAt": "2026-05-05T15:27:29.457Z",
+  "tool": "playwright-1.59.1",
+  "targetCount": 22,
+  "okCount": 14,
+  "failCount": 8,
+  "totalBytes": 744516,
+  "results": [
+    {
+      "url": "https://www.ssa.gov/policy/docs/statcomps/supplement/2025/supplement25.xlsx",
+      "status": 403,
+      "ok": false,
+      "bytes": 0,
+      "ms": 1434,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\ssa\\asss-2025-supplement-full.xlsx"
+    },
+    {
+      "url": "https://www.ssa.gov/policy/docs/statcomps/supplement/2024/supplement24.xlsx",
+      "status": 403,
+      "ok": false,
+      "bytes": 0,
+      "ms": 1195,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\ssa\\asss-2024-supplement-full.xlsx"
+    },
+    {
+      "url": "https://www.ssa.gov/policy/docs/statcomps/di_asr/2024/sect01c.xlsx",
+      "status": 403,
+      "ok": false,
+      "bytes": 0,
+      "ms": 1084,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\ssa\\di-asr-2024-sect01c-disabled-workers-by-state.xlsx"
+    },
+    {
+      "url": "https://www.ssa.gov/policy/docs/statcomps/di_asr/2024/sect03.xlsx",
+      "status": 403,
+      "ok": false,
+      "bytes": 0,
+      "ms": 451,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\ssa\\di-asr-2024-sect03-state-adjudication.xlsx"
+    },
+    {
+      "url": "https://www.ssa.gov/policy/docs/statcomps/di_asr/2024/sect05.xlsx",
+      "status": 403,
+      "ok": false,
+      "bytes": 0,
+      "ms": 442,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\ssa\\di-asr-2024-sect05-allowance-rates.xlsx"
+    },
+    {
+      "url": "https://www.bls.gov/oes/special-requests/oesm24st.zip",
+      "status": 403,
+      "ok": false,
+      "bytes": 0,
+      "ms": 311,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\external\\bls-oews\\oesm24st.zip"
+    },
+    {
+      "url": "https://www.bls.gov/oes/special-requests/oesm23st.zip",
+      "status": 403,
+      "ok": false,
+      "bytes": 0,
+      "ms": 51,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\external\\bls-oews\\oesm23st.zip"
+    },
+    {
+      "url": "https://www.bls.gov/oes/special-requests/oesm22st.zip",
+      "status": 403,
+      "ok": false,
+      "bytes": 0,
+      "ms": 83,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\external\\bls-oews\\oesm22st.zip"
+    },
+    {
+      "url": "https://www.bls.gov/oes/current/oes131031.htm",
+      "status": 403,
+      "ok": true,
+      "bytes": 1304,
+      "ms": 2135,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\external\\bls-oews\\oes131031-national-current.html"
+    },
+    {
+      "url": "https://www.ssa.gov/appeals/DataSets/",
+      "status": 403,
+      "ok": true,
+      "bytes": 218,
+      "ms": 2200,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\ssa\\oho\\oho-datasets-index.html"
+    },
+    {
+      "url": "https://www.ssa.gov/appeals/DataSets/03_ALJ_Disposition_Data.html",
+      "status": 200,
+      "ok": true,
+      "bytes": 624060,
+      "ms": 3817,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\ssa\\oho\\03-alj-disposition.tables.json",
+      "tables": 1
+    },
+    {
+      "url": "https://www.ssa.gov/appeals/DataSets/05_eFile_Office_Wait_Times.html",
+      "status": 404,
+      "ok": true,
+      "bytes": 1747,
+      "ms": 3181,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\ssa\\oho\\05-office-wait-times.tables.json",
+      "tables": 0
+    },
+    {
+      "url": "https://www.ssa.gov/appeals/DataSets/01_NetStat_Report.html",
+      "status": 200,
+      "ok": true,
+      "bytes": 34558,
+      "ms": 3399,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\ssa\\oho\\01-netstat-report.tables.json",
+      "tables": 1
+    },
+    {
+      "url": "https://www.ssa.gov/appeals/DataSets/02_HOTS_HOCALC.html",
+      "status": 404,
+      "ok": true,
+      "bytes": 1735,
+      "ms": 3334,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\ssa\\oho\\02-hots-hocalc.tables.json",
+      "tables": 0
+    },
+    {
+      "url": "https://www.ssa.gov/appeals/DataSets/04_Hearing_Wait_Time.html",
+      "status": 404,
+      "ok": true,
+      "bytes": 1741,
+      "ms": 3218,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\ssa\\oho\\04-hearing-wait-time.tables.json",
+      "tables": 0
+    },
+    {
+      "url": "https://www.cbpp.org/research/social-security/social-security-disability-insurance",
+      "status": 200,
+      "ok": true,
+      "bytes": 67590,
+      "ms": 2569,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\external\\cbpp\\cbpp-ssdi-overview.html"
+    },
+    {
+      "url": "https://www.cbpp.org/research/social-security/social-security-disability-insurance-0",
+      "status": 403,
+      "ok": true,
+      "bytes": 5168,
+      "ms": 2118,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\external\\cbpp\\cbpp-ssdi-explainer.html"
+    },
+    {
+      "url": "https://www.cbpp.org/research/social-security/policy-basics-supplemental-security-income",
+      "status": 403,
+      "ok": true,
+      "bytes": 5169,
+      "ms": 2103,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\external\\cbpp\\cbpp-ssi-basics.html"
+    },
+    {
+      "url": "https://www.gao.gov/products/gao-22-103815",
+      "status": 403,
+      "ok": true,
+      "bytes": 309,
+      "ms": 2236,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\oversight\\gao\\gao-22-103815-medical-consultants.html"
+    },
+    {
+      "url": "https://www.gao.gov/products/gao-17-625",
+      "status": 403,
+      "ok": true,
+      "bytes": 306,
+      "ms": 2046,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\oversight\\gao\\gao-17-625-expedited-processing.html"
+    },
+    {
+      "url": "https://www.gao.gov/products/gao-15-19",
+      "status": 403,
+      "ok": true,
+      "bytes": 305,
+      "ms": 2057,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\oversight\\gao\\gao-15-19-enhanced-policies.html"
+    },
+    {
+      "url": "https://www.gao.gov/products/gao-09-149",
+      "status": 403,
+      "ok": true,
+      "bytes": 306,
+      "ms": 2117,
+      "out": "C:\\Users\\deskc\\Documents\\509dds-data\\data\\oversight\\gao\\gao-09-149-medical-evidence.html"
+    }
+  ]
+}

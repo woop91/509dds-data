@@ -1,0 +1,21 @@
+# Playwright helper install (data-fetch tooling, not part of the dataset)
+scripts/.npm/
+
+# Firecrawl scratch outputs (raw API responses retained for debugging)
+.firecrawl/
+.firecrawl-scratch-*/
+search-*.json
+gao-urls-found.txt
+
+# Manifest is regenerated each fetch; keep latest committed but ignore prior
+# (uncomment to start ignoring after first commit):
+# data/fetch-manifest-*.json
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor scratch
+*.swp
+*.swo
+*~

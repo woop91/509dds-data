@@ -1,0 +1,6 @@
+Source URL: https://www.kff.org/state-category/health-status/disability/
+Fetch Date: 2026-05-05
+Last Updated: Based on page content
+Coverage: All 50 states + DC
+Data Format: HTML tables (may contain Medicaid disability enrollment by state)
+Notes: KFF state policy center disability section with state-level health data

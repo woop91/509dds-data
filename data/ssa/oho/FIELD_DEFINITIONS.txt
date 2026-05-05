@@ -1,0 +1,82 @@
+# OHO DATA FIELDS REFERENCE
+Based on SSA Data Dictionary (https://www.ssa.gov/appeals/DataSets/data_dictionary.html)
+
+## 1. ALJ DISPOSITION DATA (03_ALJ_Disposition_Data)
+Fields:
+- ALJ_NM25: Administrative Law Judge Name (CHAR 25)
+- OFFICE: Office Name (CHAR 25) - owning hearing office
+- DSPN_CNT: Total Dispositions (INTEGER) - actions completed during period
+- TOTAL_ALJ_DISPOSITIONS_ACROSS_ALL_OFFICES: Sum across all offices where ALJ worked (INTEGER)
+- DCN_CNT: Decision Count (INTEGER) - fully favorable + partially favorable + unfavorable
+- TOTAW: Total Awards (INTEGER) - fully favorable + partially favorable
+- FFVRBL_DCN_CNT: Fully Favorable Decision Count (INTEGER)
+- PFVRBL_DCN_CNT: Partially Favorable Decision Count (INTEGER)
+- UFDCN_CNT: Unfavorable Decision Count (INTEGER)
+
+Period: Monthly archives available FY2011-FY2025
+Latest: FY2025 YTD (09/28/2024 - 09/26/2025)
+
+## 2. HEARING OFFICE WORKLOAD DATA (02_HO_Workload_Data)
+Fields:
+- OFFICE: Hearing Office Name (CHAR 25)
+- RECEIPTS: Count of adjusted receipts during period (INTEGER) - can be negative if transfers exceed new receipts
+- DSPN_CNT: Dispositions/completions (INTEGER)
+- PEND_END_CNT: Cases pending at end of period (INTEGER)
+- DSPN_AVGPT: Average Processing Time (SMALLINT) - calendar days from request to disposition
+
+Period: Monthly archives FY2011-FY2025
+Latest: FY2025 YTD (09/28/2024 - 09/26/2025)
+Note: Year-aggregated view only (no time-series monthly breakdown in current report)
+
+## 3. AVERAGE WAIT TIME UNTIL HEARING HELD (01_NetStat_Report)
+Fields:
+- HO_CODE: Hearing Site Unique Identifier (CHAR 4)
+- OFFICE: Hearing Office Name
+- HO_TIMES: Months from hearing request to hearing held (days/30) (INTEGER)
+- MONTH: Reporting month (DATE)
+
+Period: Monthly archives FY2011-FY2025
+Latest: FY2025 YTD
+Time-series: YES - monthly data available
+
+## 4. ALJ DISPOSITION RANKING (04_Disposition_Per_Day_Per_ALJ_Ranking_Report)
+Fields:
+- RANK: Ranking among all offices (INTEGER 1-160+)
+- OFFICE: Hearing Office Name
+- RONUM: Region Number (CHAR 2)
+- DLY_DSPN_ALJ_ACNT: Dispositions per ALJ per workday (DECIMAL 5.2)
+- WRKDAYS: Work days in period (SMALLINT) - e.g., 247 for FY2025 YTD
+
+Period: Monthly archives FY2011-FY2025
+Latest: FY2025 YTD
+Note: Office-level averages only, not individual ALJ rates
+
+## 5. HEARING OFFICE AVERAGE PROCESSING TIME RANKING (05_Average_Processing_Time_Report)
+Fields:
+- RANK: Ranking among all offices (INTEGER)
+- OFFICE: Hearing Office Name
+- RONUM: Region Number (CHAR 2)
+- DSPN_AVGPT: Average processing time in days (SMALLINT)
+
+Period: Monthly archives FY2011-FY2025
+Latest: FY2025 YTD
+Time-series: YES - monthly ranking data
+
+## REGION CODES
+01: Boston
+02: New York
+03: Philadelphia
+04: Atlanta
+05: Chicago
+06: Dallas
+07: Kansas City
+08: Denver
+09: San Francisco
+10: Seattle
+
+## DATA AVAILABILITY NOTES
+- All datasets available as JavaScript-rendered HTML tables
+- XML export available for each report (links: https://www.ssa.gov/appeals/DataSets/NN_Report.xml)
+- Monthly archives extend back to FY2011
+- No time-series monthly breakdown for workload/disposition data in main reports
+- ALJ data includes note: factors like management duties, part-time status, leave not accounted for

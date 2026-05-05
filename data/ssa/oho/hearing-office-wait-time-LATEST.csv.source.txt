@@ -1,0 +1,5 @@
+Source URL: https://www.ssa.gov/appeals/DataSets/01_NetStat_Report.html
+Fetched: 2026-05-05T15:27:07.659Z
+Extraction tool: scripts/playwright-fetch.js + inline parser
+Rows: 165 offices + 1 header
+Header: Site Code | Hearing Office | Hearing Office Times in Months

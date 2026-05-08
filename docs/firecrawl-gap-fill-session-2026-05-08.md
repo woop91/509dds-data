@@ -85,13 +85,13 @@ Per-state DDS budget allocations, SAOR data 2019–2024 by state, all-state VDE 
 
 ## Recommendations for follow-up sessions
 
-| Priority | Task | Tool | Est. credit |
-|---|---|---|---|
-| Highest | CTHRU pull dropping VDE-only filter (resolves §1 mgr-pay + §2 entirely) | Direct Socrata API query (no Firecrawl) | 0 |
-| Highest | Submit existing `prr-templates/massability-prr.md` (resolves most of §3) | Email | 0 |
-| Highest | Submit existing `prr-templates/ssa-foia.md` (resolves most of §4c) | Email | 0 |
-| High | SSA `.xlsx` + BLS `.zip` manual save (per `MANUAL-FETCH-NEEDED.md`) | User browser | 0 |
-| High | Read GAO **full PDFs** at `gao.gov/assets/{id}.pdf` for body content beyond the summaries already captured | Firecrawl scrape | ~4 cred |
-| Medium | Wayback Machine snapshots of `mass.gov/orgs/mrc/about` for 2015/2017/2019 to fill the Kinney→[?]→James gap | Firecrawl scrape on web.archive.org URLs | ~6 cred |
-| Medium | Search MRC site for FY22 Section 9F under post-rotation URLs (try `mass.gov/info-details/`) | Firecrawl map + scrape | ~5 cred |
-| Lower | Aja James full pay 2016–2024 — once VDE-only filter is dropped, this is a straightforward CTHRU lookup | Socrata API | 0 |
+| Priority | Task | Tool | Est. credit | Status |
+|---|---|---|---|---|
+| Highest | CTHRU pull dropping VDE-only filter (resolves §1 mgr-pay + §2 entirely) | Direct Socrata API query (no Firecrawl) | 0 | ✅ DONE 2026-05-08 — see `data/pay-scales/_build_mgr_pay.py`, `mgr-annual-salary-by-employee.csv`, `mgr-incumbent-timeline-dds-det.json`. Identified Patricia Roda as Asst Comm DDS 2015-2021 (silent transition), Adelaide Osborne as interim MRC Commissioner 2015-2017. Aja James full 2010-2023 pay timeline derived. |
+| Highest | Submit existing `prr-templates/massability-prr.md` (resolves most of §3) | Email | 0 | Pending user submission |
+| Highest | Submit existing `prr-templates/ssa-foia.md` (resolves most of §4c) | Email | 0 | Pending user submission |
+| High | SSA `.xlsx` + BLS `.zip` manual save (per `MANUAL-FETCH-NEEDED.md`) | User browser | 0 | Pending user manual save |
+| High | Read GAO **full PDFs** at `gao.gov/assets/{id}.pdf` for body content beyond the summaries already captured | Firecrawl scrape | ~4 cred | Not started |
+| Medium | Wayback Machine snapshots of `mass.gov/orgs/mrc/about` for 2015/2017/2019 to fill the Kinney→[?]→James gap | Firecrawl scrape on web.archive.org URLs | ~6 cred | ✅ MOOTED — gap closed via CTHRU pull (Patricia Roda identified) |
+| Medium | Search MRC site for FY22 Section 9F under post-rotation URLs (try `mass.gov/info-details/`) | Firecrawl map + scrape | ~5 cred | ⚠️ Partial — see `docs/fy22-allowance-rate-reconciliation.md`. SSA-side number (46.76%) verified; MA-side (57%) still requires FY22 MRC Annual Report from Wayback or PRR or malegislature.gov archive. |
+| Lower | Aja James full pay 2016–2024 — once VDE-only filter is dropped, this is a straightforward CTHRU lookup | Socrata API | 0 | ✅ DONE — full 2010-2023 timeline in `data/pay-scales/_raw_cthru_aja_james_full.json` and synthesized in `data/cthru-staffing/leadership-research/aja-james-leadership-timeline.md` |

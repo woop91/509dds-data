@@ -1,0 +1,1321 @@
+{
+  "$comment": "DDS-Det leadership incumbent timeline 2010-2023, derived from CTHRU rxhc-k6iz manager-tier pull. Each role lists every person who held it in each year, with their annual_rate, actual_paid, and snapshot date. When more than one person appears in a year, that signals a mid-year transition; the snapshot dates show when each held the role. 2023 entries are partial-year (~2-week snapshot only).",
+  "source": {
+    "dataset": "https://cthru.data.socrata.com/resource/rxhc-k6iz.json",
+    "filter": "chris='MRC' AND (bargaining_group_no='M99' OR upper(position_title) LIKE '%COMMISSIONER%' OR upper(position_title) LIKE '%DIRECTOR%' OR upper(position_title) LIKE '%MEDICAL CONSULT%' OR upper(position_title) LIKE '%REVIEW EXAM%')",
+    "pulled": "2026-05-08",
+    "raw_rows": 2555
+  },
+  "title_normalizer": {
+    "ASST COMMISSIONER DDS": "Asst Comm DDS",
+    "AST COMM DDS": "Asst Comm DDS",
+    "ASST. COMM VOCATIONAL REHAB.": "Asst Comm VR",
+    "ASST COMM VOCATIONAL REHAB": "Asst Comm VR",
+    "ASST COMMISSIONER COMMUNITY LIVING": "Asst Comm CL",
+    "ASST. COMM. COMMUNITY LIVING": "Asst Comm CL",
+    "DIR., QUALITY ASSURANCE, DDS": "Director QA DDS",
+    "DIR QUALITY ASSURANCE DDS": "Director QA DDS",
+    "FISCAL DIRECTOR DDS": "Fiscal Director DDS",
+    "REGIONAL DIRECTOR, DDS": "Regional Director DDS",
+    "REGIONAL DIRECTOR DDS": "Regional Director DDS",
+    "COMMISSIONER": "Commissioner MRC",
+    "DEPUTY COMMISSIONER": "Deputy Commissioner MRC",
+    "TRAINING DIRECTOR": "Training Director",
+    "DIR OF TRAINING": "Training Director",
+    "HEARINGS DIRECTOR": "Hearings Director",
+    "DIRECTOR OF HEARINGS UNIT": "Hearings Director",
+    "DIR OF HEARINGS UNIT": "Hearings Director"
+  },
+  "headline_findings": {
+    "asst_comm_dds_predecessor_chain": [
+      "Barbara Kinney (2008 per MRC AR 2012, observed in CTHRU 2010 \u2192 Jan 2015)",
+      "Patricia Roda (2015 \u2192 March 2021 \u2014 silent transition, no public press release found)",
+      "Aja James (March 7, 2021 \u2192 present per mass.gov press release 2021-02-25)"
+    ],
+    "mrc_commissioner_chain": [
+      "Charles Carr (observed CTHRU 2010 \u2192 March 2015)",
+      "Adelaide Osborne (2015 \u2192 February 2017 \u2014 interim/acting; not previously identified in firecrawl results)",
+      "Toni Wolf (2017 \u2192 present)"
+    ],
+    "deputy_commissioner_chain": [
+      "Kasper Goshgarian (2010 \u2192 2017)",
+      "Kathleen Biebel (2018 \u2192 present)"
+    ],
+    "director_qa_dds_chain": [
+      "Brian Miles (2010 \u2192 2013)",
+      "Kristine Robbins (2013 \u2192 present)"
+    ],
+    "fiscal_director_dds_chain": [
+      "Luis Mancebo (2010 \u2192 present, single incumbent across full 14-year span)"
+    ]
+  },
+  "by_role": {
+    "Asst Comm DDS": {
+      "2010": [
+        {
+          "name": "Barbara Kinney",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 108631.57,
+          "actual_paid": 105289.02,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2010-12-18"
+        }
+      ],
+      "2011": [
+        {
+          "name": "Barbara Kinney",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 111890.517,
+          "actual_paid": 110135.69,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2011-12-17"
+        }
+      ],
+      "2012": [
+        {
+          "name": "Barbara Kinney",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 115247.233,
+          "actual_paid": 113439.79,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2012-12-15"
+        }
+      ],
+      "2013": [
+        {
+          "name": "Barbara Kinney",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 119315.46,
+          "actual_paid": 116968.46,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2013-12-14"
+        }
+      ],
+      "2014": [
+        {
+          "name": "Barbara Kinney",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 123830.059,
+          "actual_paid": 121225.49,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2014-12-13"
+        }
+      ],
+      "2015": [
+        {
+          "name": "Barbara Kinney",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 123830.059,
+          "actual_paid": 61916.57,
+          "overtime_paid": 3810.16,
+          "snapshot_through": "2015-01-24"
+        },
+        {
+          "name": "Patricia Roda",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 110932.12,
+          "actual_paid": 102786.73,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2015-12-26"
+        }
+      ],
+      "2016": [
+        {
+          "name": "Patricia Roda",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 113150.762,
+          "actual_paid": 113662.83,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2016-12-24"
+        }
+      ],
+      "2017": [
+        {
+          "name": "Patricia Roda",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 114848.024,
+          "actual_paid": 114652.19,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2017-12-23"
+        }
+      ],
+      "2018": [
+        {
+          "name": "Patricia Roda",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 117156.469,
+          "actual_paid": 118221.83,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2018-12-22"
+        }
+      ],
+      "2019": [
+        {
+          "name": "Patricia Roda",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 121889.59,
+          "actual_paid": 122684.09,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2019-12-21"
+        }
+      ],
+      "2020": [
+        {
+          "name": "Patricia Roda",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 121889.59,
+          "actual_paid": 121889.63,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2020-12-19"
+        }
+      ],
+      "2021": [
+        {
+          "name": "Aja James",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 116366.241,
+          "actual_paid": 94435.6,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2021-12-18"
+        },
+        {
+          "name": "Patricia Roda",
+          "raw_title": "Asst Commissioner DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 121889.59,
+          "actual_paid": 23440.31,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2021-03-27"
+        }
+      ],
+      "2022": [
+        {
+          "name": "Aja James",
+          "raw_title": "Ast Comm DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 125674.966,
+          "actual_paid": 46403.07,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2022-12-17"
+        }
+      ],
+      "2023": [
+        {
+          "name": "Aja James",
+          "raw_title": "Ast Comm DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 125674.966,
+          "actual_paid": 9667.32,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2023-01-14"
+        }
+      ]
+    },
+    "Director QA DDS": {
+      "2010": [
+        {
+          "name": "Brian Miles",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 81883.69,
+          "actual_paid": 80348.44,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2010-12-18"
+        }
+      ],
+      "2011": [
+        {
+          "name": "Brian Miles",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 84340.201,
+          "actual_paid": 83017.55,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2011-12-17"
+        }
+      ],
+      "2012": [
+        {
+          "name": "Brian Miles",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 86870.407,
+          "actual_paid": 85508.03,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2012-12-15"
+        }
+      ],
+      "2013": [
+        {
+          "name": "Brian Miles",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 8687.041,
+          "actual_paid": 74575.99,
+          "overtime_paid": 2672.94,
+          "snapshot_through": "2013-12-14"
+        },
+        {
+          "name": "Kristine Robbins",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 77691.64,
+          "actual_paid": 11952.55,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2013-12-14"
+        }
+      ],
+      "2014": [
+        {
+          "name": "Kristine Robbins",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 80434.155,
+          "actual_paid": 78851.87,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2014-12-13"
+        }
+      ],
+      "2015": [
+        {
+          "name": "Kristine Robbins",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 80434.155,
+          "actual_paid": 83527.72,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2015-12-26"
+        }
+      ],
+      "2016": [
+        {
+          "name": "Kristine Robbins",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 82042.838,
+          "actual_paid": 82414.08,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2016-12-24"
+        }
+      ],
+      "2017": [
+        {
+          "name": "Kristine Robbins",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 83273.481,
+          "actual_paid": 83131.48,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2017-12-23"
+        }
+      ],
+      "2018": [
+        {
+          "name": "Kristine Robbins",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 84947.278,
+          "actual_paid": 85719.82,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2018-12-22"
+        }
+      ],
+      "2019": [
+        {
+          "name": "Kristine Robbins",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 88379.148,
+          "actual_paid": 88230.17,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2019-12-21"
+        }
+      ],
+      "2020": [
+        {
+          "name": "Kristine Robbins",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 88379.148,
+          "actual_paid": 88379.15,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2020-12-19"
+        }
+      ],
+      "2021": [
+        {
+          "name": "Kristine Robbins",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 92400.399,
+          "actual_paid": 93830.65,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2021-12-18"
+        }
+      ],
+      "2022": [
+        {
+          "name": "Kristine Robbins",
+          "raw_title": "Dir., Quality Assurance, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 97075.867,
+          "actual_paid": 68422.53,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2022-12-17"
+        }
+      ]
+    },
+    "Fiscal Director DDS": {
+      "2010": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 71725.67,
+          "actual_paid": 70380.83,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2010-12-18"
+        }
+      ],
+      "2011": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 73877.44,
+          "actual_paid": 72718.79,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2011-12-17"
+        }
+      ],
+      "2012": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 76093.763,
+          "actual_paid": 74900.34,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2012-12-15"
+        }
+      ],
+      "2013": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 78779.873,
+          "actual_paid": 77230.23,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2013-12-14"
+        }
+      ],
+      "2014": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 81560.803,
+          "actual_paid": 79956.49,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2014-12-13"
+        }
+      ],
+      "2015": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 81560.803,
+          "actual_paid": 84697.89,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2015-12-26"
+        }
+      ],
+      "2016": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 83192.019,
+          "actual_paid": 83568.49,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2016-12-24"
+        }
+      ],
+      "2017": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 84439.899,
+          "actual_paid": 84295.96,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2017-12-23"
+        }
+      ],
+      "2018": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 86137.141,
+          "actual_paid": 86920.53,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2018-12-22"
+        }
+      ],
+      "2019": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 92675.293,
+          "actual_paid": 93966.53,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2019-12-21"
+        }
+      ],
+      "2020": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 92675.293,
+          "actual_paid": 92675.28,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2020-12-19"
+        }
+      ],
+      "2021": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 96892.018,
+          "actual_paid": 98391.7,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2021-12-18"
+        }
+      ],
+      "2022": [
+        {
+          "name": "Luis Mancebo",
+          "raw_title": "Fiscal Director DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 101381.635,
+          "actual_paid": 74208.35,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2022-12-17"
+        }
+      ]
+    },
+    "Regional Director DDS": {
+      "2010": [
+        {
+          "name": "Lori Stevens",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 77340.11,
+          "actual_paid": 75889.9,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2010-12-18"
+        },
+        {
+          "name": "Luz Espino",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 74813.44,
+          "actual_paid": 73410.71,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2010-12-18"
+        }
+      ],
+      "2011": [
+        {
+          "name": "Lori Stevens",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 83643.313,
+          "actual_paid": 41644.63,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2011-12-17"
+        },
+        {
+          "name": "Luz Espino",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 77057.843,
+          "actual_paid": 75849.32,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2011-12-17"
+        }
+      ],
+      "2012": [
+        {
+          "name": "Eileen Daley",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 80116.387,
+          "actual_paid": 61122.03,
+          "overtime_paid": 5.91,
+          "snapshot_through": "2012-12-15"
+        },
+        {
+          "name": "Luz Espino",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 79369.578,
+          "actual_paid": 78124.85,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2012-12-15"
+        }
+      ],
+      "2013": [
+        {
+          "name": "Eileen Daley",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 82944.495,
+          "actual_paid": 81312.9,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2013-12-14"
+        },
+        {
+          "name": "Luz Espino",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 82171.325,
+          "actual_paid": 80554.96,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2013-12-14"
+        }
+      ],
+      "2014": [
+        {
+          "name": "Eileen Daley",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 86082.908,
+          "actual_paid": 84272.36,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2014-12-13"
+        },
+        {
+          "name": "Luz Espino",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 85280.482,
+          "actual_paid": 83486.67,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2014-12-13"
+        }
+      ],
+      "2015": [
+        {
+          "name": "Eileen Daley",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 86082.908,
+          "actual_paid": 89393.83,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2015-12-26"
+        },
+        {
+          "name": "Luz Espino",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 85280.482,
+          "actual_paid": 88560.51,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2015-12-26"
+        }
+      ],
+      "2016": [
+        {
+          "name": "Eileen Daley",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 87804.566,
+          "actual_paid": 88201.88,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2016-12-24"
+        },
+        {
+          "name": "Luz Espino",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 86986.092,
+          "actual_paid": 87379.66,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2016-12-24"
+        }
+      ],
+      "2017": [
+        {
+          "name": "Eileen Daley",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 89121.634,
+          "actual_paid": 62715.02,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2017-06-10"
+        },
+        {
+          "name": "Kelly Forss",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 89623.56,
+          "actual_paid": 41364.75,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2017-12-23"
+        },
+        {
+          "name": "Luz Espino",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 86986.092,
+          "actual_paid": 39947.07,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2017-01-21"
+        },
+        {
+          "name": "Matthew Dichard",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 91428.48,
+          "actual_paid": 49230.71,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2017-12-23"
+        }
+      ],
+      "2018": [
+        {
+          "name": "Kelly Forss",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 89623.56,
+          "actual_paid": 90054.49,
+          "overtime_paid": 8.02,
+          "snapshot_through": "2018-12-22"
+        },
+        {
+          "name": "Matthew Dichard",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 93266.192,
+          "actual_paid": 90527.22,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2018-12-22"
+        }
+      ],
+      "2019": [
+        {
+          "name": "Kelly Forss",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 93244.352,
+          "actual_paid": 93088.51,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2019-12-21"
+        }
+      ],
+      "2020": [
+        {
+          "name": "Kelly Forss",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 93244.352,
+          "actual_paid": 93244.34,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2020-12-19"
+        }
+      ],
+      "2021": [
+        {
+          "name": "Kelly Forss",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 97486.97,
+          "actual_paid": 98995.87,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2021-12-18"
+        }
+      ],
+      "2022": [
+        {
+          "name": "Kelly Forss",
+          "raw_title": "Regional Director, DDS",
+          "bargaining_group_no": "M99",
+          "annual_rate": 101922.629,
+          "actual_paid": 72093.53,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2022-12-17"
+        }
+      ]
+    },
+    "Training Director": {
+      "2010": [
+        {
+          "name": "Kenneth Nicosia",
+          "raw_title": "Dir of Training",
+          "bargaining_group_no": "M99",
+          "annual_rate": 77063.05,
+          "actual_paid": 75618.17,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2010-12-18"
+        }
+      ],
+      "2011": [
+        {
+          "name": "Kenneth Nicosia",
+          "raw_title": "Dir of Training",
+          "bargaining_group_no": "M99",
+          "annual_rate": 79374.942,
+          "actual_paid": 78130.13,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2011-12-17"
+        }
+      ],
+      "2012": [
+        {
+          "name": "Kenneth Nicosia",
+          "raw_title": "Dir of Training",
+          "bargaining_group_no": "M99",
+          "annual_rate": 81756.19,
+          "actual_paid": 80473.97,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2012-12-15"
+        }
+      ],
+      "2013": [
+        {
+          "name": "Kenneth Nicosia",
+          "raw_title": "Dir of Training",
+          "bargaining_group_no": "M99",
+          "annual_rate": 84642.183,
+          "actual_paid": 82977.23,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2013-12-14"
+        }
+      ],
+      "2014": [
+        {
+          "name": "Kenneth Nicosia",
+          "raw_title": "Dir of Training",
+          "bargaining_group_no": "M99",
+          "annual_rate": 87849.128,
+          "actual_paid": 85990.56,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2014-12-13"
+        }
+      ],
+      "2015": [
+        {
+          "name": "Kenneth Nicosia",
+          "raw_title": "Dir of Training",
+          "bargaining_group_no": "M99",
+          "annual_rate": 87849.128,
+          "actual_paid": 91227.9,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2015-12-26"
+        }
+      ],
+      "2016": [
+        {
+          "name": "Kenneth Nicosia",
+          "raw_title": "Dir of Training",
+          "bargaining_group_no": "M99",
+          "annual_rate": 9750.0,
+          "actual_paid": 73164.87,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2016-12-24"
+        }
+      ],
+      "2017": [
+        {
+          "name": "Kenneth Nicosia",
+          "raw_title": "Training Director",
+          "bargaining_group_no": "M99",
+          "annual_rate": 39000.0,
+          "actual_paid": 9650.0,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2017-12-23"
+        }
+      ],
+      "2018": [
+        {
+          "name": "Kenneth Nicosia",
+          "raw_title": "Training Director",
+          "bargaining_group_no": "M99",
+          "annual_rate": 39000.0,
+          "actual_paid": 4500.0,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2018-03-03"
+        }
+      ]
+    },
+    "Hearings Director": {
+      "2010": [
+        {
+          "name": "Thomas Collins",
+          "raw_title": "Dir of Hearings Unit",
+          "bargaining_group_no": "M99",
+          "annual_rate": 84001.38,
+          "actual_paid": 82062.86,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2010-12-18"
+        }
+      ],
+      "2011": [
+        {
+          "name": "Thomas Collins",
+          "raw_title": "Dir of Hearings Unit",
+          "bargaining_group_no": "M99",
+          "annual_rate": 86521.421,
+          "actual_paid": 85164.4,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2011-12-17"
+        }
+      ],
+      "2012": [
+        {
+          "name": "Thomas Collins",
+          "raw_title": "Dir of Hearings Unit",
+          "bargaining_group_no": "M99",
+          "annual_rate": 89117.064,
+          "actual_paid": 87719.37,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2012-12-15"
+        }
+      ],
+      "2015": [
+        {
+          "name": "Kathleen Shea",
+          "raw_title": "Dir of Hearings Unit",
+          "bargaining_group_no": "M99",
+          "annual_rate": 86150.74,
+          "actual_paid": 89464.27,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2015-12-26"
+        }
+      ],
+      "2016": [
+        {
+          "name": "Kathleen Shea",
+          "raw_title": "Dir of Hearings Unit",
+          "bargaining_group_no": "M99",
+          "annual_rate": 87873.755,
+          "actual_paid": 88271.42,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2016-12-24"
+        }
+      ],
+      "2017": [
+        {
+          "name": "Kathleen Shea",
+          "raw_title": "Dir of Hearings Unit",
+          "bargaining_group_no": "M99",
+          "annual_rate": 89191.861,
+          "actual_paid": 89039.85,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2017-12-23"
+        }
+      ],
+      "2018": [
+        {
+          "name": "Kathleen Shea",
+          "raw_title": "Dir of Hearings Unit",
+          "bargaining_group_no": "M99",
+          "annual_rate": 90984.618,
+          "actual_paid": 86507.93,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2018-08-18"
+        },
+        {
+          "name": "Matthew Dichard",
+          "raw_title": "Director of Hearings Unit",
+          "bargaining_group_no": "M99",
+          "annual_rate": 93266.192,
+          "actual_paid": 3587.16,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2018-12-22"
+        }
+      ],
+      "2019": [
+        {
+          "name": "Matthew Dichard",
+          "raw_title": "Director of Hearings Unit",
+          "bargaining_group_no": "M99",
+          "annual_rate": 97034.147,
+          "actual_paid": 96870.59,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2019-12-21"
+        }
+      ],
+      "2020": [
+        {
+          "name": "Matthew Dichard",
+          "raw_title": "Director of Hearings Unit",
+          "bargaining_group_no": "M99",
+          "annual_rate": 97034.147,
+          "actual_paid": 97034.14,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2020-12-19"
+        }
+      ],
+      "2021": [
+        {
+          "name": "Matthew Dichard",
+          "raw_title": "Director of Hearings Unit",
+          "bargaining_group_no": "M99",
+          "annual_rate": 112100.852,
+          "actual_paid": 54913.75,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2021-12-18"
+        }
+      ],
+      "2022": [
+        {
+          "name": "Matthew Dichard",
+          "raw_title": "Hearings Director",
+          "bargaining_group_no": "M99",
+          "annual_rate": 106737.56,
+          "actual_paid": 57680.8,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2022-12-17"
+        }
+      ]
+    },
+    "Commissioner MRC": {
+      "2010": [
+        {
+          "name": "Charles Carr",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 115000.0,
+          "actual_paid": 111765.66,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2010-12-18"
+        }
+      ],
+      "2011": [
+        {
+          "name": "Charles Carr",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 118450.0,
+          "actual_paid": 116410.12,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2011-12-17"
+        }
+      ],
+      "2012": [
+        {
+          "name": "Charles Carr",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 122003.5,
+          "actual_paid": 113336.0,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2012-12-15"
+        }
+      ],
+      "2013": [
+        {
+          "name": "Charles Carr",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 126310.224,
+          "actual_paid": 123825.54,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2013-12-14"
+        }
+      ],
+      "2014": [
+        {
+          "name": "Charles Carr",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 130768.974,
+          "actual_paid": 128196.67,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2014-12-13"
+        }
+      ],
+      "2015": [
+        {
+          "name": "Adelaide Osborne",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 125000.0,
+          "actual_paid": 87699.17,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2015-12-26"
+        },
+        {
+          "name": "Charles Carr",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 130768.974,
+          "actual_paid": 40563.89,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2015-03-21"
+        }
+      ],
+      "2016": [
+        {
+          "name": "Adelaide Osborne",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 125000.0,
+          "actual_paid": 124999.96,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2016-12-24"
+        }
+      ],
+      "2017": [
+        {
+          "name": "Adelaide Osborne",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 125000.0,
+          "actual_paid": 39377.43,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2017-02-04"
+        },
+        {
+          "name": "Toni Wolf",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 140000.0,
+          "actual_paid": 61923.08,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2017-12-23"
+        }
+      ],
+      "2018": [
+        {
+          "name": "Toni Wolf",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 140000.0,
+          "actual_paid": 140000.0,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2018-12-22"
+        }
+      ],
+      "2019": [
+        {
+          "name": "Toni Wolf",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 150654.0,
+          "actual_paid": 148885.73,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2019-12-21"
+        }
+      ],
+      "2020": [
+        {
+          "name": "Toni Wolf",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 150654.0,
+          "actual_paid": 150654.09,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2020-12-19"
+        }
+      ],
+      "2021": [
+        {
+          "name": "Toni Wolf",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 157508.757,
+          "actual_paid": 159946.7,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2021-12-18"
+        }
+      ],
+      "2022": [
+        {
+          "name": "Toni Wolf",
+          "raw_title": "Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 160658.932,
+          "actual_paid": 115708.34,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2022-12-17"
+        }
+      ]
+    },
+    "Deputy Commissioner MRC": {
+      "2010": [
+        {
+          "name": "Kasper Goshgarian",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 116147.38,
+          "actual_paid": 112880.75,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2010-12-18"
+        }
+      ],
+      "2011": [
+        {
+          "name": "Kasper Goshgarian",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 119631.801,
+          "actual_paid": 117755.57,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2011-12-17"
+        }
+      ],
+      "2012": [
+        {
+          "name": "Kasper Goshgarian",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 123220.755,
+          "actual_paid": 121288.18,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2012-12-15"
+        }
+      ],
+      "2013": [
+        {
+          "name": "Kasper Goshgarian",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 127570.448,
+          "actual_paid": 125061.05,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2013-12-14"
+        }
+      ],
+      "2014": [
+        {
+          "name": "Kasper Goshgarian",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 132721.105,
+          "actual_paid": 130749.66,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2014-12-13"
+        }
+      ],
+      "2015": [
+        {
+          "name": "Kasper Goshgarian",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 132721.105,
+          "actual_paid": 137825.86,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2015-12-26"
+        }
+      ],
+      "2016": [
+        {
+          "name": "Kasper Goshgarian",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 135375.527,
+          "actual_paid": 135988.22,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2016-12-24"
+        }
+      ],
+      "2017": [
+        {
+          "name": "Kasper Goshgarian",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 137406.16,
+          "actual_paid": 73753.68,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2017-12-23"
+        }
+      ],
+      "2018": [
+        {
+          "name": "Kasper Goshgarian",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 42900.0,
+          "actual_paid": 91894.16,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2018-12-22"
+        },
+        {
+          "name": "Kathleen Biebel",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 131999.92,
+          "actual_paid": 105599.93,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2018-12-22"
+        }
+      ],
+      "2019": [
+        {
+          "name": "Kathleen Biebel",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 137332.717,
+          "actual_paid": 137103.24,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2019-12-21"
+        }
+      ],
+      "2020": [
+        {
+          "name": "Kathleen Biebel",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 137332.717,
+          "actual_paid": 137332.68,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2020-12-19"
+        }
+      ],
+      "2021": [
+        {
+          "name": "Kathleen Biebel",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 143581.355,
+          "actual_paid": 145803.78,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2021-12-18"
+        }
+      ],
+      "2022": [
+        {
+          "name": "Kathleen Biebel",
+          "raw_title": "Deputy Commissioner",
+          "bargaining_group_no": "M99",
+          "annual_rate": 146452.982,
+          "actual_paid": 105477.1,
+          "overtime_paid": 0.0,
+          "snapshot_through": "2022-12-17"
+        }
+      ]
+    }
+  }
+}

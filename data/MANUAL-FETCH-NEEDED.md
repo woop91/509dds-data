@@ -36,16 +36,18 @@ listed path. None of this is gated — it's standard public data, just bot-block
 - [ ] `data/external/bls-oews/oesm22st.zip`  
   https://www.bls.gov/oes/special-requests/oesm22st.zip
 
-## GAO — disability program reports — RESOLVED 2026-05-08 via Firecrawl
+## GAO — disability program reports — FULLY RESOLVED 2026-05-08 via Firecrawl
 
-Product-page HTML (executive summary + recommendations + linked PDF URL) captured to
-`data/oversight/gao/*.md`. For full PDF body content, scrape the underlying
-`gao.gov/assets/{report-id}.pdf` URLs — Firecrawl's PDF parser returns full report text.
+Each report has TWO captures: the product-page HTML (executive summary + recommendations + abstract) and the full PDF body (with figures, tables, footnotes, policy citations preserved). Both are useful — the product page is faster to skim, the full PDF is needed for verbatim quotation in bargaining context.
 
-- [x] `data/oversight/gao/gao-22-103815.md` (12.5KB) — captured 2026-05-08
-- [x] `data/oversight/gao/gao-17-625.md` (18.7KB) — captured 2026-05-08
-- [x] `data/oversight/gao/gao-15-19.md` (19.8KB) — captured 2026-05-08
-- [x] `data/oversight/gao/gao-09-149.md` (12.5KB) — captured 2026-05-08
+| Report | Product-page (`*.md`) | Full PDF body (`*-full.md`) |
+|---|---|---|
+| GAO-09-149 — Medical evidence collection | 12.5KB | **131KB** |
+| GAO-15-19 — SSA enhanced policies | 19.8KB | **95KB** |
+| GAO-17-625 — Expedited disability processing | 18.7KB | **120KB** |
+| GAO-22-103815 — Medical consultants screening/training | 12.5KB | **63KB** |
+
+PDF parsing is service-side ~50 credits per report (vs ~1 credit for HTML); the full bodies are higher-fidelity than the product pages and warranted whenever specific text needs to be cited.
 
 ## CBPP — SSDI/SSI policy explainers — RESOLVED 2026-05-08 via Firecrawl
 

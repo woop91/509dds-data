@@ -1,0 +1,19 @@
+{
+  "state": "WI",
+  "salary_schedule_url": "https://dpm.wi.gov/Documents/BCER/Compensation/2025-27%20Comp%20Plan.pdf",
+  "effective_date": "2025-08-10",
+  "fiscal_year": "Biennium 2025-27",
+  "bargaining_status": "non-represented post-Wisconsin Act 10 (2011); compensation set by Legislature, not bargained",
+  "step_basis": "discretionary; pay range min/max with $1.00 service-anniversary differentials at 5/7/10 yrs",
+  "class_codes": {
+    "49201": {
+      "title": "Disability Determination Specialist"
+    },
+    "49220": {
+      "title": "Disability Determination Supervisor"
+    }
+  },
+  "source_pdf": "wi.pdf",
+  "extraction_status": "partial",
+  "notes": "229-page Compensation Plan PDF parsed; class codes 49201 and 49220 located by string search. Mapping the codes to a specific pay range and dollar amounts requires cross-referencing the 'Compensation Plan Schedule' tables which are spread across multiple grids (NOREP, Schedule 07, etc.). Manual cross-walk recommended for bargaining-grade evidence; market-rate estimate from ZipRecruiter (Apr 2026): mean ~$60,202; range $48,400-$65,600."
+}

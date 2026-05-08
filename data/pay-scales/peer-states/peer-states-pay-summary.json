@@ -1,0 +1,226 @@
+{
+  "$comment": "Cross-state pay summary for state DDS examiners and first-line supervisors. Peer set is the same population-peer group used in docs/peer-states-comparison.json (states within ~6-8M population). All annual figures are USD. Data quality varies — see 'data_quality' field per state. Supervisor figure for MA is from CTHRU actual-paid 2023 (Chief VDE chart-rate equivalent not yet extracted into pay-scales/); peer states are scheduled/contracted rates from official PDFs.",
+  "generated": "2026-05-08",
+  "peer_population_set": ["MA", "TN", "AZ", "IN", "MD", "VA", "WA", "MO", "WI"],
+  "role_scope": "examiners + first-line supervisors",
+  "tier1_bls_oews": {
+    "status": "deferred",
+    "reason": "BLS HTML 403's WebFetch + curl; Wayback rate-limited (429); firecrawl out of credits. Need api.bls.gov registered key for series-ID pull.",
+    "fallback": "Per-state class-spec data below carries the bargaining-table value without BLS."
+  },
+  "states": {
+    "MA": {
+      "agency": "MRC (Massachusetts Rehabilitation Commission), Disability Determination Services",
+      "examiner": {
+        "title": "Vocational Disability Examiner I/II/III (VDE)",
+        "class_codes": "Grades 20 / 21 / 23 (BU 08 SEIU 509)",
+        "scheduled_rate_source": "SEIU 509 Unit 8 contract chart effective 2026-07-12",
+        "annual_min": 73555,
+        "annual_max": 115429,
+        "notes": "Step 1 Grade 20 → Step 12 Grade 23 (FY2027). Bi-weekly chart-rate × 26."
+      },
+      "supervisor": {
+        "title": "Chief Vocational Disability Examiner / VDE IV",
+        "class_codes": "BU 8 job code 20-947",
+        "scheduled_rate_source": "CTHRU actual-paid CY 2023 (chart-rate not yet extracted)",
+        "annual_min": 89314,
+        "annual_max": 95722,
+        "annual_avg": 95204,
+        "notes": "n=16 in CTHRU 2023; pre-July-2024 contract increase. Update to scheduled rate is a follow-up data task."
+      },
+      "bargaining_status": "SEIU 509 Local 509 Unit 8 (Social/Rehabilitative); active CBA",
+      "data_quality": "high (own-data)",
+      "sources": [
+        "data/pay-scales/effective-2026-07-12.md",
+        "data/pay-scales/vde-grades-extracted.json",
+        "data/pay-scales/vde-annual-salary-aggregates.json"
+      ]
+    },
+    "MD": {
+      "agency": "Maryland State Department of Education (MSDE), DORS, Disability Determination Services Branch",
+      "examiner": {
+        "title": "Disability Claims Examiner I",
+        "class_codes": "5260 / Grade 14 ASTD",
+        "scheduled_rate_source": "MD DBM Standard Salary Schedule effective 2025-07-01",
+        "annual_min": 62220,
+        "annual_max": 96790,
+        "step_count": 24
+      },
+      "supervisor": {
+        "title": "Disability Claims Examiner Supervisor",
+        "class_codes": "5263 / Grade 19 STD",
+        "scheduled_rate_source": "MD DBM Standard Salary Schedule effective 2025-07-01",
+        "annual_min": 85963,
+        "annual_max": 133951,
+        "step_count": 24
+      },
+      "bargaining_status": "AFSCME representation; supervisor is in AFSCME Maryland Supervisors Union (Unit S)",
+      "data_quality": "high (full step grid extracted)",
+      "sources": ["MD/scheduled-rates.json", "MD/research-notes.md"]
+    },
+    "VA": {
+      "agency": "Virginia Department for Aging and Rehabilitative Services (DARS), Disability Determination Services",
+      "examiner": {
+        "title": "DDS Analyst — Trainee 1 / Journey / Junior",
+        "class_codes": "ARSD0134 / ARSD0315 / ARSD0436 (Pay Band 4)",
+        "scheduled_rate_source": "DHRM Classified Salary Structure effective 2025-06-10 + DARS DDS internal salary model",
+        "annual_min": 54106,
+        "annual_max": 117360,
+        "annual_max_nova": 149707,
+        "starting_salary_trainee_1": 54106,
+        "starting_salary_journey": 64190,
+        "starting_salary_junior": 69479,
+        "notes": "VA pay bands are wide; 'starting salary' rows are the actual hiring rate. NoVA area pays meaningfully higher max."
+      },
+      "supervisor": {
+        "title": "DDS Supervisor — Line Unit",
+        "class_codes": "ARSD0252 (Pay Band 5)",
+        "scheduled_rate_source": "DHRM Classified Salary Structure effective 2025-06-10",
+        "annual_min": 57733,
+        "annual_max": 148455,
+        "annual_max_nova": 190130,
+        "starting_salary": 105212
+      },
+      "bargaining_status": "no collective bargaining for VA state employees",
+      "data_quality": "high (band ranges + DDS-internal starting salaries)",
+      "sources": ["VA/scheduled-rates.json", "VA/research-notes.md"]
+    },
+    "WA": {
+      "agency": "Washington Department of Social and Health Services (DSHS), Division of Disability Determination Services (DDDS)",
+      "examiner": {
+        "title": "DDS Adjudicator 1 / 2 / 3",
+        "class_codes": "956 (in-training) / 955 (journey) / 954 (senior)",
+        "pay_grades": "Salary Range 46 / 52 / 56",
+        "scheduled_rate_source": "OFM General Service Salary Schedule (Represented) effective 2025-07-01",
+        "annual_min": 49428,
+        "annual_max": 84984,
+        "step_count": 13,
+        "notes": "Adj 1 Range 46: $49,428–$66,372. Adj 2 Range 52: $57,252–$76,968. Adj 3 Range 56: $63,252–$84,984. Step M is a premium step."
+      },
+      "supervisor": {
+        "title": "DDS Adjudicator 5 (lead/expert)",
+        "class_codes": "953",
+        "pay_grades": "Salary Range — manual lookup needed; Range 62 candidate",
+        "scheduled_rate_source": "OFM General Service Salary Schedule effective 2025-07-01",
+        "annual_min_if_range_62": 73284,
+        "annual_max_if_range_62": 98520,
+        "notes": "Class 953 → range mapping not directly verified; OFM class-spec page URL has rotted. Range 62 is the most common assignment for this tier in OFM data."
+      },
+      "bargaining_status": "WFSE General Government CBA 2025-27 (3% 2025, 2% 2026); supervisors covered, not WMS-excluded",
+      "data_quality": "high for examiner; supervisor pay range needs class-to-range confirmation",
+      "sources": ["WA/scheduled-rates.json", "WA/research-notes.md"]
+    },
+    "WI": {
+      "agency": "Wisconsin Department of Health Services (DHS), Disability Determination Bureau (DDB)",
+      "examiner": {
+        "title": "Disability Determination Specialist",
+        "class_codes": "49201",
+        "pay_grades": "TBD — class code located in 2025-27 Comp Plan but pay-range cross-walk not extracted",
+        "scheduled_rate_source": "WI 2025-27 Compensation Plan (PDF; encoded tables)",
+        "annual_min_estimate": 48400,
+        "annual_max_estimate": 65600,
+        "estimate_source": "ZipRecruiter market-rate (Apr 2026); scheduled rate is a follow-up gap"
+      },
+      "supervisor": {
+        "title": "Disability Determination Supervisor",
+        "class_codes": "49220",
+        "pay_grades": "TBD",
+        "scheduled_rate_source": "WI 2025-27 Compensation Plan (PDF; encoded tables)"
+      },
+      "bargaining_status": "non-represented post-Wisconsin Act 10 (2011); compensation set legislatively, not bargained",
+      "data_quality": "low — class codes confirmed, scheduled rates not extractable from cached PDF",
+      "sources": ["WI/scheduled-rates.json", "WI/research-notes.md"]
+    },
+    "TN": {
+      "agency": "Tennessee Department of Human Services (TDHS), Division of Rehabilitation Services, Disability Determination Services",
+      "examiner": {
+        "title": "Disability Claims Examiner",
+        "class_codes": "not publicly indexed",
+        "pay_grades": "TN AlphaCompPlan PDF — not extractable in this session",
+        "scheduled_rate_source": "Glassdoor / Salary.com market estimates",
+        "annual_min_estimate": 75813,
+        "annual_max_estimate": 79699,
+        "estimate_caveat": "third-party aggregators only"
+      },
+      "supervisor": {
+        "title": "not definitively identified",
+        "scheduled_rate_source": "estimate ~$74,705 (state-government supervisor average)"
+      },
+      "bargaining_status": "right-to-work; no collective bargaining for state employees",
+      "data_quality": "low — no authoritative scheduled-rate source",
+      "sources": ["TN/research-notes.md"]
+    },
+    "AZ": {
+      "agency": "Arizona Department of Economic Security (DES), Disability Determination Services Administration",
+      "examiner": {
+        "title": "Disability Determination Specialist",
+        "class_codes": "not publicly indexed",
+        "scheduled_rate_source": "ADOA HR salary schedules; class spec database not accessible",
+        "annual_min_estimate": 53152,
+        "annual_max_estimate": 82282,
+        "estimate_caveat": "Glassdoor aggregate; one confirmed data point at $65,885 average"
+      },
+      "supervisor": {
+        "title": "not identified",
+        "scheduled_rate_source": "TBD"
+      },
+      "bargaining_status": "no collective bargaining; merit system under Arizona State Personnel System (ASPS)",
+      "data_quality": "low",
+      "sources": ["AZ/research-notes.md"]
+    },
+    "IN": {
+      "agency": "Indiana Family and Social Services Administration (FSSA), Disability Determination Bureau (DDB)",
+      "examiner": {
+        "title": "Disability Claims Adjudicator",
+        "class_codes": "not publicly indexed",
+        "pay_grades": "Indiana broadband, estimated Grade 28-29",
+        "scheduled_rate_source": "WorkforIndiana job postings + private salary databases",
+        "annual_min_estimate": 53559,
+        "annual_max_estimate": 68777,
+        "annual_avg_estimate": 57945
+      },
+      "supervisor": {
+        "title": "not formally classified (Lead Workers reference)",
+        "scheduled_rate_source": "TBD"
+      },
+      "bargaining_status": "non-union; Indiana ended state-employee collective bargaining in 2005 (Executive Order 15-13)",
+      "data_quality": "low",
+      "sources": ["IN/research-notes.md"]
+    },
+    "MO": {
+      "agency": "Missouri Department of Elementary and Secondary Education (DESE), Office of Adult Learning and Rehabilitation Services",
+      "examiner": {
+        "title": "not located in public OA classification database",
+        "class_codes": "not located",
+        "scheduled_rate_source": "DESE internal classification; not publicly indexed",
+        "related_classifications": [
+          "MO OA #0866 Disability Program Representative — Grade 06 ($36,360–$57,792, Governor's Council on Disability, NOT DESE DDS)",
+          "MO OA #0868 Disability Program Specialist — Grade 07 ($41,208–$65,544, Governor's Council on Disability, NOT DESE DDS)"
+        ]
+      },
+      "supervisor": {
+        "title": "not located",
+        "scheduled_rate_source": "TBD"
+      },
+      "bargaining_status": "limited state-employee bargaining; specifics out of scope",
+      "data_quality": "very low — class title not located in public records",
+      "sources": ["MO/research-notes.md"]
+    }
+  },
+  "data_quality_summary": {
+    "high": ["MA", "MD", "VA", "WA"],
+    "low": ["WI", "TN", "AZ", "IN", "MO"],
+    "high_quality_observations": [
+      "MA examiner peak (VDE III max, $115,429) is the highest in the high-quality peer group except MD supervisor max ($133,951).",
+      "MA examiner entry (VDE I step 1, $73,555) is higher than MD examiner entry ($62,220) and roughly tied with WA examiner peak (Adj 3 max, $84,984) — note: comparing entry vs. peak across grades.",
+      "VA pay bands are extremely wide and most useful via 'starting salary' DDS-internal rates ($54k Trainee → $105k Supervisor)."
+    ]
+  },
+  "follow_up_data_gaps": [
+    "BLS OEWS SOC 43-4061 cross-state benchmark (api.bls.gov registered key)",
+    "MA Chief VDE chart-rate equivalent (currently using CTHRU 2023 actual-paid)",
+    "WA class 953 → salary range mapping (likely Range 62 but unconfirmed)",
+    "WI class 49201/49220 → pay range mapping (encoded PDF)",
+    "TN/AZ/IN/MO authoritative scheduled rates (require state HR direct contact or alternate document sourcing)"
+  ]
+}

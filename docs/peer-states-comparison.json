@@ -2,6 +2,11 @@
   "$comment": "Massachusetts DDS-Det vs population-peer states (6-8M population), FY 2020-2024. Source: SSA-SA-FYWL.csv. Population peer set = states within roughly +/-1.5M of MA's ~7M.",
   "peer_set_rationale": "States with populations close to MA (6-8M range) chosen for apples-to-apples workforce/workload comparison. Avoids distortion from comparing MA to CA (39M) or RI (1M).",
   "peer_states": ["MA", "TN", "AZ", "IN", "MD", "VA", "WA", "MO", "WI"],
+  "related_pay_data": {
+    "$comment": "Same peer set, salary side. Tier 2 scheduled rates extracted 2026-05-08; Tier 1 BLS OEWS still pending api.bls.gov key.",
+    "summary": "../data/pay-scales/peer-states/peer-states-pay-summary.json",
+    "readme": "../data/pay-scales/peer-states/README.md"
+  },
   "fy_2024_snapshot": {
     "MA": {"adult_receipts": 37055, "adult_filing_rate": 0.88, "adult_fav_pct": 36.07, "all_det": 35844, "all_fav": 14399, "fav_pct": 40.17},
     "AZ": {"adult_receipts": 40572, "adult_filing_rate": 0.94, "adult_fav_pct": 29.71, "all_det": 41876, "all_fav": 14046, "fav_pct": 33.54},

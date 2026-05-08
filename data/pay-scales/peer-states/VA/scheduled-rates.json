@@ -1,0 +1,100 @@
+{
+  "state": "VA",
+  "salary_schedule_url": "https://www.dhrm.virginia.gov/docs/default-source/compensationdocuments/fy26salarystructure.pdf",
+  "effective_date": "2025-06-10",
+  "fiscal_year": "FY2026",
+  "bargaining_status": "no collective bargaining for state employees",
+  "step_basis": "min/max only \u2014 VA uses pay-band ranges, not stepped grids",
+  "pay_bands": {
+    "SW": {
+      "1": {
+        "min": 28360,
+        "max": 65631
+      },
+      "2": {
+        "min": 30511,
+        "max": 80875
+      },
+      "3": {
+        "min": 33828,
+        "max": 93557
+      },
+      "4": {
+        "min": 44192,
+        "max": 117360
+      },
+      "5": {
+        "min": 57733,
+        "max": 148455
+      },
+      "6": {
+        "min": 75423,
+        "max": 189075
+      },
+      "7": {
+        "min": 98535,
+        "max": 242152
+      },
+      "8": {
+        "min": 128721,
+        "max": 311485
+      },
+      "9": {
+        "min": 168166,
+        "max": "Market"
+      }
+    },
+    "NoVA": {
+      "1": {
+        "min": 28360,
+        "max": 82460
+      },
+      "2": {
+        "min": 30511,
+        "max": 102278
+      },
+      "3": {
+        "min": 33828,
+        "max": 118766
+      },
+      "4": {
+        "min": 44192,
+        "max": 149707
+      },
+      "5": {
+        "min": 57733,
+        "max": 190130
+      },
+      "6": {
+        "min": 75423,
+        "max": 242940
+      },
+      "7": {
+        "min": 98535,
+        "max": 288676
+      },
+      "8": {
+        "min": 128721,
+        "max": 371875
+      },
+      "9": {
+        "min": 168166,
+        "max": "Market"
+      }
+    }
+  },
+  "source_pdf": "va.pdf",
+  "extraction_status": "complete",
+  "role_band_assignments": {
+    "DDS Analyst \u2014 Trainee 1 (#ARSD0134)": "Band 4 (NV 4 in NoVA)",
+    "DDS Analyst \u2014 Journey (#ARSD0315)": "Band 4 (NV 4 in NoVA)",
+    "DDS Analyst \u2014 Junior (#ARSD0436)": "Band 4 (NV 4 in NoVA)",
+    "DDS Supervisor \u2014 Line Unit (#ARSD0252)": "Band 5 (NV 5 in NoVA)"
+  },
+  "dds_internal_starting_salaries_fy26": {
+    "DDS Analyst \u2014 Trainee 1": 54106,
+    "DDS Analyst \u2014 Journey": 64190,
+    "DDS Analyst \u2014 Junior": 69479,
+    "DDS Supervisor \u2014 Line Unit": 105212
+  }
+}

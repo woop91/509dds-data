@@ -1,0 +1,6480 @@
+{
+  "schema": "long",
+  "metric_family": "total_dds_employees_by_state",
+  "source_file": "data/ssa/staffing/dds-employees-by-state-fy2010-2023.source.xlsx",
+  "extracted_at": "2026-05-08T02:29:48Z",
+  "fy_range": [
+    2010,
+    2023
+  ],
+  "rows": [
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 18268.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 17064.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 16075.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 15279.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 16966.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 16168.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 16797.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 15458.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 14750.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 14906.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 14891.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 15297.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 14571.0
+    },
+    {
+      "scope": "national",
+      "code": "Grand Total",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 15345.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 793.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 762.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 737.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 742.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 774.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 746.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 770.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 732.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 709.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 718.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 714.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 719.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 685.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 692.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 157.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 158.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 153.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 155.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 163.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 155.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 157.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 153.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 153.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 152.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 155.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 155.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 152.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 154.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 80.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 76.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 71.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 72.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 71.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 68.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 70.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 66.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 63.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 61.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 64.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 72.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 64.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 70.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 374.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 354.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 349.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 355.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 371.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 358.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 364.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 343.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 328.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 325.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 307.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 307.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 284.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 281.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 67.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 59.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 56.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 55.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 58.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 49.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 51.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 62.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 61.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 60.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 61.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 61.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 66.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 64.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 64.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 60.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 63.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 62.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 70.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 67.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 64.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 66.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 70.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 72.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 71.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 74.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 49.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 51.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 45.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 48.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 49.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 55.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 50.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 52.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 57.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 53.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 53.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 52.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 1548.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 1439.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 1372.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 1260.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 1399.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 1321.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 1400.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 1336.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 1241.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 1381.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 1306.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 1278.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 1380.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 1398.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 363.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 355.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 360.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 354.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 362.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 349.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 353.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 344.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 338.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 342.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 342.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 366.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 373.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 354.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 1011.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 925.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 857.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 777.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 886.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 829.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 911.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 861.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 784.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 925.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 845.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 781.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 886.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 922.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 174.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 159.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 155.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 129.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 151.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 143.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 136.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 131.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 119.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 114.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 119.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 131.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 121.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 122.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 1938.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 1842.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 1745.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 1696.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 1844.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 1727.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 1788.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 1627.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 1547.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 1620.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 1612.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 1671.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 1600.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 1723.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 51.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 59.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 58.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 64.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 64.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 53.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 51.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 58.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 52.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 48.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 55.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 58.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 60.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 58.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 60.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 69.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 61.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 64.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 57.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 55.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 58.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 63.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 68.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 71.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 69.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 281.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 263.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 261.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 268.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 264.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 255.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 266.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 245.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 245.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 240.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 211.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 198.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 175.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 232.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 776.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 736.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 688.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 634.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 690.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 643.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 697.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 648.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 615.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 700.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 676.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 709.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 709.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 682.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 420.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 409.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 386.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 400.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 473.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 425.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 406.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 363.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 329.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 331.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 315.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 383.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 355.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 427.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 254.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 236.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 220.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 210.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 233.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 222.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 222.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 201.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 187.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 187.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 176.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 178.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 174.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 187.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 95.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 87.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 78.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 65.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 57.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 57.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 69.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 60.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 62.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 53.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 113.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 83.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 68.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 71.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 4849.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 4585.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 4277.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 4029.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 4472.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 4295.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 4504.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 4069.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 3820.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 3643.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 3793.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 3765.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 3390.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 3568.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 435.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 477.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 440.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 405.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 453.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 426.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 453.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 430.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 396.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 466.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 437.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 421.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 396.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 415.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 1212.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 1207.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 1114.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 1059.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 1172.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 1144.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 1296.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 1152.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 1100.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 1042.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 1096.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 1063.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 883.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 903.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 645.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 567.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 551.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 530.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 574.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 543.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 540.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 516.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 497.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 457.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 452.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 442.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 400.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 375.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 462.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 421.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 394.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 355.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 432.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 411.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 414.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 376.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 339.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 333.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 331.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 360.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 371.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 416.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 357.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 320.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 298.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 280.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 285.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 289.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 287.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 270.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 259.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 247.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 269.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 257.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 221.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 201.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 686.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 638.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 588.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 542.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 639.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 606.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 641.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 561.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 524.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 432.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 522.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 563.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 503.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 557.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 452.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 426.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 394.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 383.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 424.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 420.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 412.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 352.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 328.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 311.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 306.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 273.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 253.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 264.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 600.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 529.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 498.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 475.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 493.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 456.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 461.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 412.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 377.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 355.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 380.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 386.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 363.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 437.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 2822.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 2558.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 2348.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 2255.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 2587.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 2412.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 2477.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 2237.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 2186.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 2268.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 2245.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 2296.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 2237.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 2346.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 589.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 528.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 476.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 463.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 521.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 485.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 520.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 458.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 427.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 440.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 419.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 389.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 361.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 393.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 364.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 328.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 305.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 288.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 320.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 281.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 267.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 243.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 256.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 266.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 274.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 287.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 273.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 284.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 684.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 618.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 593.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 580.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 647.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 604.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 653.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 604.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 569.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 635.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 580.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 626.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 633.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 644.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 222.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 204.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 177.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 172.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 215.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 202.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 188.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 174.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 179.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 183.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 207.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 213.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 223.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 222.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 700.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 636.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 576.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 536.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 611.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 585.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 592.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 532.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 510.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 516.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 540.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 564.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 555.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 584.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 263.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 244.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 221.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 216.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 273.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 255.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 257.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 226.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 245.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 228.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 225.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 217.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 192.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 219.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 2304.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 2117.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 1967.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 1833.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 2058.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 1969.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 2006.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 1867.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 1835.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 1860.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 1916.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 1960.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 1762.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 1949.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 310.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 283.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 256.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 249.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 317.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 316.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 320.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 291.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 268.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 288.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 283.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 344.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 346.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 380.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 333.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 291.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 276.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 252.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 287.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 269.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 254.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 240.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 245.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 276.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 267.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 263.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 252.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 272.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 107.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 92.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 91.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 80.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 102.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 96.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 101.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 92.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 91.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 81.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 108.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 123.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 115.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 137.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 276.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 253.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 246.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 234.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 278.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 291.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 296.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 269.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 253.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 266.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 275.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 295.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 256.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 255.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 1108.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 1027.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 940.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 860.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 893.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 828.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 867.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 814.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 819.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 791.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 694.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 618.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 511.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 649.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 120.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 117.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 112.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 114.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 127.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 118.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 116.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 111.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 107.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 103.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 236.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 239.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 213.0
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 191.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 50.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 46.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 51.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 52.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 50.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 52.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 55.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 53.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 78.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 69.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 65.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 811.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 759.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 734.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 687.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 776.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 744.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 773.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 714.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 684.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 700.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 677.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 710.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 711.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 741.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 157.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 152.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 148.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 140.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 151.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 155.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 168.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 156.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 151.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 149.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 158.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 175.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 190.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 203.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 136.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 113.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 110.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 111.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 126.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 106.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 98.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 86.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 86.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 66.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 57.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 67.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 74.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 67.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 421.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 402.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 386.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 352.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 400.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 386.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 412.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 387.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 361.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 400.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 383.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 387.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 375.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 382.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 97.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 92.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 90.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 84.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 99.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 97.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 95.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 85.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 86.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 85.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 79.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 81.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 72.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 89.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 409.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 404.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 382.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 388.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 413.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 399.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 420.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 394.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 388.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 399.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 391.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 413.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 414.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 436.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 146.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 153.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 139.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 146.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 157.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 144.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 156.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 150.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 152.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 180.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 168.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 187.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 195.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 203.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 57.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 56.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 49.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 48.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 52.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 51.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 43.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 46.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 45.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 33.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 40.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 31.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 30.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 31.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 31.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 28.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 29.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 28.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 27.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 28.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 48.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 43.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 46.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 42.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 43.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 41.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 38.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 43.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 46.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 46.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 45.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 98.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 94.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 92.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 94.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 104.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 104.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 108.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 104.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 95.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 84.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 82.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 91.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 90.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 94.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 25.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 27.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 27.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 25.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 25.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 27.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 2073.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 1928.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 1879.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 1780.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 1953.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 1902.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 1968.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 1817.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 1705.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 1710.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 1643.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 1855.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 1767.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 1816.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 292.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 269.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 261.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 261.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 282.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 266.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 276.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 267.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 243.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 249.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 235.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 268.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 288.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 319.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 1610.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 1483.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 1451.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 1354.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 1501.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 1481.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 1495.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 1382.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 1298.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 1291.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 1248.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 1404.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 1300.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 1289.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 59.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 58.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 58.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 56.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 53.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 51.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 51.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 50.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 55.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 46.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 49.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 112.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 118.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 109.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 111.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 114.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 102.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 146.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 117.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 110.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 116.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 110.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 128.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 133.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 159.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 721.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 670.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 634.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 609.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 690.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 653.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 691.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 665.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 635.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 607.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 594.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 630.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 625.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 676.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 30.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 28.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 27.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 30.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 29.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 33.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 29.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 33.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 35.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 29.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 31.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 79.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 77.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 77.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 75.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 81.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 86.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 88.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 84.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 79.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 75.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 77.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 76.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 77.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 93.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 205.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 181.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 166.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 159.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 195.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 181.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 191.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 181.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 162.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 155.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 158.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 168.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 187.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 198.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2010,
+      "metric": "total_dds_employees",
+      "value": 407.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2011,
+      "metric": "total_dds_employees",
+      "value": 384.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2012,
+      "metric": "total_dds_employees",
+      "value": 364.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2013,
+      "metric": "total_dds_employees",
+      "value": 345.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2014,
+      "metric": "total_dds_employees",
+      "value": 382.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2015,
+      "metric": "total_dds_employees",
+      "value": 357.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2016,
+      "metric": "total_dds_employees",
+      "value": 379.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2017,
+      "metric": "total_dds_employees",
+      "value": 371.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2018,
+      "metric": "total_dds_employees",
+      "value": 361.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2019,
+      "metric": "total_dds_employees",
+      "value": 340.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2020,
+      "metric": "total_dds_employees",
+      "value": 327.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2021,
+      "metric": "total_dds_employees",
+      "value": 351.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2022,
+      "metric": "total_dds_employees",
+      "value": 332.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2023,
+      "metric": "total_dds_employees",
+      "value": 354.0
+    }
+  ]
+}

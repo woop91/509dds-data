@@ -1,0 +1,7530 @@
+{
+  "schema": "long",
+  "metric_family": "allowance_rates_by_state",
+  "source_file": "data/ssa/allowance-rates/2018-2024.source.xlsx",
+  "extracted_at": "2026-05-08T02:29:48Z",
+  "fy_range": [
+    2018,
+    2024
+  ],
+  "rows": [
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.0
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.6
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.0
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.2
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.5
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.6
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.6
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.3
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.4
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.1
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.1
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.1
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 51.5
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.6
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.9
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.4
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 20.6
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.2
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.9
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.3
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.1
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.1
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 48.8
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.0
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.0
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.9
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.7
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.1
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.9
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.8
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.7
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.9
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.1
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.1
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 29.9
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.9
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 28.9
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.2
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.5
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.3
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.3
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.4
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.2
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 29.4
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 8.4
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 25.3
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 8.1
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 29.2
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.2
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.8
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.5
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 28.9
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.0
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 23.9
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 31.4
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.0
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.3
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.3
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.8
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 30.1
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.5
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.1
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.3
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.2
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.7
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.8
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.4
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.6
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.3
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.9
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.1
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.6
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.3
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 29.3
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.5
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.4
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.9
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 27.2
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.4
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 23.7
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.5
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.1
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.2
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.1
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.4
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 47.4
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.1
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.1
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.4
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.4
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.7
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.6
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.2
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.3
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.4
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.7
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.4
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.3
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.6
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 52.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.9
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.4
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.6
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 28.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.4
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.4
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.7
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.2
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.6
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.3
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.0
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.1
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.2
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.4
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.5
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.4
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.9
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.2
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.1
+    },
+    {
+      "scope": "state",
+      "code": "San Juan DPU",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 100.0
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 22.6
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.8
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 59.2
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 23.1
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 30.7
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 23.2
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.7
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.5
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.7
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.6
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.8
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.1
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 30.8
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.2
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPU",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 100.0
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 23.1
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.0
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.6
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2018,
+      "metric": "allowance_rate_initial_pct",
+      "value": 50.9
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2018,
+      "metric": "allowance_rate_recon_pct",
+      "value": 21.8
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.1
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.1
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.2
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.9
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.1
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.3
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.6
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.7
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.6
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.9
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.9
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 52.7
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.7
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.7
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.2
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.0
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.8
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.4
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.4
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.2
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.6
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.6
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.8
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.0
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.7
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.2
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.9
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.5
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.4
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.5
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.7
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.8
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.7
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.9
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.6
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 30.0
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.8
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.2
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.5
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.4
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.7
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.1
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.5
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.8
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 28.2
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 8.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.8
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.4
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.1
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.4
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.4
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.8
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.9
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.7
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.4
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.8
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.2
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.8
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.5
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.8
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.6
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.6
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.9
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 22.0
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.8
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.2
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.6
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.1
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.5
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.7
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 30.4
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.2
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.7
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.2
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.5
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.5
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 25.7
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.9
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.5
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.7
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.3
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.8
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 53.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.9
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 47.3
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.7
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.1
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.4
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.1
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.6
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.6
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 49.8
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.8
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.6
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.9
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.7
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 56.1
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 31.1
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.6
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.8
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.1
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.6
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.5
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.5
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.8
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.2
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.4
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.1
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 47.7
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.7
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.3
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.6
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.9
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.8
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.7
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.2
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.0
+    },
+    {
+      "scope": "state",
+      "code": "San Juan DPU",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 26.9
+    },
+    {
+      "scope": "state",
+      "code": "San Juan DPU",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 8.2
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 23.9
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.7
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 59.9
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 21.4
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.7
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 24.1
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.7
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.0
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.3
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 30.1
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.9
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 100.0
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 22.7
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 25.1
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 30.8
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.9
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 25.3
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2019,
+      "metric": "allowance_rate_initial_pct",
+      "value": 48.8
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2019,
+      "metric": "allowance_rate_recon_pct",
+      "value": 27.2
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.2
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.0
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.3
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.7
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.3
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.7
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.4
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.6
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.9
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.8
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.4
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 59.1
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.3
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.9
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.4
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.0
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.0
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.2
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.2
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.1
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.5
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 47.1
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 20.2
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.1
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.2
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.6
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.1
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.6
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.8
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.3
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.2
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.4
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.7
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.7
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.7
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.1
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.9
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.1
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.1
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.5
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.6
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.3
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.2
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 30.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 8.8
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.8
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.3
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.3
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.9
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.8
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.1
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.1
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.2
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.4
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.5
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.6
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.3
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.6
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.2
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.1
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.2
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.7
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 20.8
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.4
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.1
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.5
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.9
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.8
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.3
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 30.4
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.2
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.9
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.9
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.2
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.2
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 27.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.4
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.1
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.8
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.9
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.1
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 62.8
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 20.9
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.3
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 51.2
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.6
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.0
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.9
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 49.8
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 47.6
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.5
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 48.8
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.5
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 54.4
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 23.8
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.8
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.7
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.5
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.7
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.4
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.9
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.6
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.8
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.2
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.4
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 55.5
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.5
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.5
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.8
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.5
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.1
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.3
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.2
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.7
+    },
+    {
+      "scope": "state",
+      "code": "San Juan DPU",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 28.2
+    },
+    {
+      "scope": "state",
+      "code": "San Juan DPU",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.5
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 25.9
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.1
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 49.2
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 25.9
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.5
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 25.6
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.1
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.5
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.3
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.7
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.6
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.6
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 52.6
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 24.1
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 28.8
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.1
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.5
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.8
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2020,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.9
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2020,
+      "metric": "allowance_rate_recon_pct",
+      "value": 22.6
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.3
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.7
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.5
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.5
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.4
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.3
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.3
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.8
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.5
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.9
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.8
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 50.6
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.1
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.4
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.8
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.7
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.3
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.5
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.6
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.6
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.5
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.1
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.1
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.1
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.7
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.6
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.5
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 26.9
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.6
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.9
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.8
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.5
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.1
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.1
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 30.7
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.2
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 30.4
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.3
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.0
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.1
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.9
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.9
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.4
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.8
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.6
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 30.6
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.2
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.1
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.9
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.9
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.1
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.3
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.0
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.1
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.9
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.4
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.4
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.3
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.1
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.5
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.9
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.9
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 21.7
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.5
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.5
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.1
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.6
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.8
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.3
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 29.1
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.4
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.7
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.2
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 29.3
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.5
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 66.7
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.9
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.3
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.1
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.9
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 60.6
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.2
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.3
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 47.2
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.6
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.3
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.3
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.8
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.6
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.5
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.8
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.8
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.6
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.6
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.2
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.2
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.8
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.9
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.9
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.4
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.1
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.5
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.2
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.4
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.5
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.3
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.5
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 56.5
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.7
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.9
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.5
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.5
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.9
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.1
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "San Juan DPU",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 22.1
+    },
+    {
+      "scope": "state",
+      "code": "San Juan DPU",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 6.6
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 25.5
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.0
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.7
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 20.9
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.6
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 21.4
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.8
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 22.6
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 19.8
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.4
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 29.0
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.4
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.3
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.8
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 24.6
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.5
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.8
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.2
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2021,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.7
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2021,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.5
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.5
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.7
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.7
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.6
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.7
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 20.3
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.7
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.7
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 21.1
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.8
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 23.4
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 49.4
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 25.2
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.9
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.7
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.8
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.5
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.2
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.1
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.7
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.4
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.4
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.9
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.8
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.9
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.0
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.6
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.3
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.9
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 29.8
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.3
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.3
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.5
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.4
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.2
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.3
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.9
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.3
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.7
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.3
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.1
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.4
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.9
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.5
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.9
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.9
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.3
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.5
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.8
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.4
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.1
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.2
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.9
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.9
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.8
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.8
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.9
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.1
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.5
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.3
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.2
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.2
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.3
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.4
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.2
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.5
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.3
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 20.2
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.3
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.5
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.2
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.1
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.4
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.9
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.4
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.4
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 30.8
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.2
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.3
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.5
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.6
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 22.5
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 27.4
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.2
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.2
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.1
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.3
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 54.9
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.1
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.9
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.7
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 49.1
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.3
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.8
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.3
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.8
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.8
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 47.8
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 24.5
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.7
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.1
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.2
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.5
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.1
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.6
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.4
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.1
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.3
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.6
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.2
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.1
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.7
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.7
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.9
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.3
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.1
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 69.5
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.4
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.8
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.1
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.9
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.9
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.4
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 29.3
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.1
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.8
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 22.3
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.0
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.8
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.4
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 21.0
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 21.6
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.2
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.9
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.7
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 29.7
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.2
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 24.6
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.5
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.8
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.2
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2022,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.7
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2022,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.5
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.6
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.3
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.7
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.1
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.2
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.2
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.6
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.7
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.6
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.7
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.2
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 20.1
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 51.3
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 25.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.1
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.4
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 48.7
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.5
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.0
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.5
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.1
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.7
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.1
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.7
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.0
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.8
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.8
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.2
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.1
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.5
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.6
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 47.6
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 20.6
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.2
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.3
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.3
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.6
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 21.7
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.3
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.7
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.7
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.8
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.4
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.9
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.6
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.5
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.4
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.4
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 9.8
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.5
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.6
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.3
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.8
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.5
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.6
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.7
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.2
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.1
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.1
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.6
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.7
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.6
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.5
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.6
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.6
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.4
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.8
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.8
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.4
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.6
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 21.1
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.8
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.2
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.6
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.8
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.1
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.1
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.2
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.9
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.1
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.8
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.3
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.2
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.4
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 20.5
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 27.3
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.2
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.2
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.4
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.8
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 46.4
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.4
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.7
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.3
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 48.2
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.9
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.3
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.7
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.1
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.3
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.7
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.3
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 47.7
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.5
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.6
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.3
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.1
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.5
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.2
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 8.1
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.5
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.6
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.6
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.3
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.6
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.9
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.4
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.6
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.5
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.6
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.0
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.2
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 54.8
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.4
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.8
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.5
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.8
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.6
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.0
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.9
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.5
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 25.3
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.5
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.5
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 24.3
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.8
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 24.2
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 31.5
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.8
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 22.3
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.8
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.9
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 28.7
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.8
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 26.2
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 21.2
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.4
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2023,
+      "metric": "allowance_rate_initial_pct",
+      "value": 47.2
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2023,
+      "metric": "allowance_rate_recon_pct",
+      "value": 25.0
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.3
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.9
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.3
+    },
+    {
+      "scope": "national",
+      "code": "NATIONAL - DDS ONLY",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.9
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.4
+    },
+    {
+      "scope": "region",
+      "code": "BOSTON",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.4
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.1
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.2
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.5
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 20.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.2
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.4
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 48.6
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 22.8
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.7
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.6
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 47.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.3
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.1
+    },
+    {
+      "scope": "region",
+      "code": "NEW YORK",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.2
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.4
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.8
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.9
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.1
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.5
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.3
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.0
+    },
+    {
+      "scope": "region",
+      "code": "PHILADELPHIA",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.8
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.5
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.9
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.6
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.2
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.8
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.2
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.7
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.7
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.2
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.2
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.4
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 26.8
+    },
+    {
+      "scope": "state",
+      "code": "VA EST",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.6
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.9
+    },
+    {
+      "scope": "region",
+      "code": "ATLANTA",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.3
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 35.4
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.4
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.6
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.1
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.9
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.9
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.7
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 10.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.4
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 21.5
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.2
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.3
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.3
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.7
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.7
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "MS EST",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.6
+    },
+    {
+      "scope": "region",
+      "code": "CHICAGO",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.8
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.6
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.3
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.6
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.3
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.8
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.9
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.7
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.2
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.2
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.2
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.2
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.5
+    },
+    {
+      "scope": "region",
+      "code": "DALLAS",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.7
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.7
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.2
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.1
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 41.3
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.9
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.9
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.7
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.3
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.7
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 34.3
+    },
+    {
+      "scope": "state",
+      "code": "AR EST",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "OK EST",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.7
+    },
+    {
+      "scope": "region",
+      "code": "KANSAS CITY",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.2
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 43.9
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.2
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.8
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.2
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.5
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.4
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 47.6
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.4
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.5
+    },
+    {
+      "scope": "region",
+      "code": "DENVER",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.8
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.8
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.3
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.8
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.3
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 45.4
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.5
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.6
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.5
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.3
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 11.3
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 42.5
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 12.5
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.9
+    },
+    {
+      "scope": "region",
+      "code": "SAN FRANCISCO",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.1
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 33.5
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.3
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 19.6
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.2
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.1
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 37.9
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 17.2
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.7
+    },
+    {
+      "scope": "region",
+      "code": "SEATTLE",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 15.2
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 49.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 22.7
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.8
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 13.3
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 16.9
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 38.8
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.5
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 48.2
+    },
+    {
+      "scope": "state",
+      "code": "FEDERAL",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 25.8
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 39.1
+    },
+    {
+      "scope": "state",
+      "code": "Atlanta DPB",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 43.2
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 81.2
+    },
+    {
+      "scope": "state",
+      "code": "Chicago DPB",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 36.4
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 27.3
+    },
+    {
+      "scope": "state",
+      "code": "Kansas City DPB",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 36.4
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 40.0
+    },
+    {
+      "scope": "state",
+      "code": "New York DPB",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 50.0
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "Philadelphia DPB",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "San Francisco DPB",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 23.4
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 29.9
+    },
+    {
+      "scope": "state",
+      "code": "Dallas DPU",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 28.6
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 20.6
+    },
+    {
+      "scope": "state",
+      "code": "OCO",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 23.3
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 36.8
+    },
+    {
+      "scope": "state",
+      "code": "INTPSC",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 14.5
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2024,
+      "metric": "allowance_rate_initial_pct",
+      "value": 49.6
+    },
+    {
+      "scope": "state",
+      "code": "Guam",
+      "year": 2024,
+      "metric": "allowance_rate_recon_pct",
+      "value": 18.8
+    }
+  ]
+}

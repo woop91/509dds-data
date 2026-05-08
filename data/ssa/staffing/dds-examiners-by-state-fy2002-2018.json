@@ -1,0 +1,7985 @@
+{
+  "schema": "long",
+  "metric_family": "dds_examiners_by_state",
+  "source_file": "data/ssa/staffing/dds-examiners-by-state-fy2002-2018.source.xlsx",
+  "extracted_at": "2026-05-08T02:29:48Z",
+  "fy_range": [
+    2002,
+    2018
+  ],
+  "rows": [
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 6839.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 7002.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 6946.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 7282.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 7084.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 6927.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 7027.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 8271.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 9171.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 8212.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 7511.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 7084.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 8685.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 7932.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 8326.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 7258.0
+    },
+    {
+      "scope": "national",
+      "code": "National",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 6782.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 312.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 293.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 315.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 309.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 297.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 315.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 297.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 325.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 373.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 361.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 331.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 329.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 370.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 349.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 344.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 322.0
+    },
+    {
+      "scope": "region",
+      "code": "BOS",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 308.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 61.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 56.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 68.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 66.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 56.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 60.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 56.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 68.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 71.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 73.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 68.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 70.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 77.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 71.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 68.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 68.0
+    },
+    {
+      "scope": "state",
+      "code": "CT",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 68.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 39.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 41.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 41.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 39.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 39.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 35.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 36.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 36.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 35.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 30.0
+    },
+    {
+      "scope": "state",
+      "code": "ME",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 29.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 154.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 141.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 144.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 142.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 145.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 153.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 146.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 155.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 189.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 180.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 163.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 159.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 182.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 169.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 164.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 151.0
+    },
+    {
+      "scope": "state",
+      "code": "MA",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 142.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 25.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 22.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 22.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 30.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 27.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 22.0
+    },
+    {
+      "scope": "state",
+      "code": "NH",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 21.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 21.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 21.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 21.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 29.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 28.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 29.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 27.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 29.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 31.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 33.0
+    },
+    {
+      "scope": "state",
+      "code": "RI",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 31.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 16.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 16.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 17.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "VT",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 17.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 605.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 732.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 668.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 711.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 669.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 644.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 694.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 854.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 848.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 782.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 726.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 654.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 794.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 699.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 753.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 701.0
+    },
+    {
+      "scope": "state",
+      "code": "NYC",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 630.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 171.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 138.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 129.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 163.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 160.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 155.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 180.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 191.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 204.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 207.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 204.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 196.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 208.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 188.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 189.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 183.0
+    },
+    {
+      "scope": "state",
+      "code": "NJ",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 175.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 356.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 524.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 482.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 478.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 442.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 423.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 444.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 596.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 553.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 492.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 447.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 396.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 509.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 447.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 504.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 465.0
+    },
+    {
+      "scope": "state",
+      "code": "NY",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 406.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 78.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 70.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 57.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 70.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 67.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 66.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 70.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 67.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 91.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 83.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 75.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 62.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 77.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 64.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 60.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 53.0
+    },
+    {
+      "scope": "state",
+      "code": "PR",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 49.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 572.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 645.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 641.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 608.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 602.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 599.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 586.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 738.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 901.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 811.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 751.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 763.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 928.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 831.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 842.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 745.0
+    },
+    {
+      "scope": "state",
+      "code": "PHL",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 710.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 16.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 20.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 21.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 17.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 27.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 29.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 28.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 20.0
+    },
+    {
+      "scope": "state",
+      "code": "DE",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 22.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 8.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 13.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 8.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 8.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 13.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 13.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 30.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 20.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "DC",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 90.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 103.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 99.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 98.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 98.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 109.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 120.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 115.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 136.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 123.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 121.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 126.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 125.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 124.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 124.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 110.0
+    },
+    {
+      "scope": "state",
+      "code": "MD",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 112.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 250.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 314.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 300.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 272.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 269.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 256.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 224.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 282.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 330.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 307.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 290.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 281.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 364.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 323.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 332.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 313.0
+    },
+    {
+      "scope": "state",
+      "code": "PA",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 297.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 112.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 106.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 118.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 124.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 117.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 103.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 120.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 194.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 203.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 182.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 162.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 185.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 257.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 211.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 195.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 166.0
+    },
+    {
+      "scope": "state",
+      "code": "VA",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 145.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 93.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 94.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 90.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 91.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 92.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 92.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 92.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 100.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 119.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 100.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 93.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 86.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 99.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 89.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 95.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 81.0
+    },
+    {
+      "scope": "state",
+      "code": "WV",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 75.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 59.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 49.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 42.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 40.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 33.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 49.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 41.0
+    },
+    {
+      "scope": "state",
+      "code": "EV",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 44.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 1810.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 1804.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 1837.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 2003.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 1893.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 1771.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 1844.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 2217.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 2455.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 2236.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 1999.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 1806.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 2256.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 2091.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 2229.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 1826.0
+    },
+    {
+      "scope": "region",
+      "code": "ATL",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 1618.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 188.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 182.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 199.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 187.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 186.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 179.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 195.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 213.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 213.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 251.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 215.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 195.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 241.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 227.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 232.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 211.0
+    },
+    {
+      "scope": "state",
+      "code": "AL",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 157.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 468.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 475.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 455.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 472.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 463.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 450.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 458.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 600.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 639.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 653.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 571.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 514.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 631.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 591.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 694.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 555.0
+    },
+    {
+      "scope": "state",
+      "code": "FL",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 484.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 236.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 239.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 228.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 249.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 229.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 211.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 218.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 285.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 325.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 254.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 252.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 233.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 279.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 238.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 233.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 201.0
+    },
+    {
+      "scope": "state",
+      "code": "GA",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 209.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 178.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 178.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 180.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 211.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 203.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 192.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 229.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 249.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 255.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 229.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 209.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 173.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 237.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 213.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 221.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 176.0
+    },
+    {
+      "scope": "state",
+      "code": "KY",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 152.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 129.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 131.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 128.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 148.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 148.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 145.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 146.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 150.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 159.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 137.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 124.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 118.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 134.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 136.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 139.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 125.0
+    },
+    {
+      "scope": "state",
+      "code": "MS",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 126.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 305.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 292.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 295.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 323.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 288.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 250.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 223.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 278.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 348.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 299.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 262.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 240.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 328.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 302.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 313.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 246.0
+    },
+    {
+      "scope": "state",
+      "code": "NC",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 227.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 119.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 125.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 142.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 164.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 156.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 146.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 145.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 179.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 202.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 175.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 151.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 155.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 178.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 177.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 182.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 142.0
+    },
+    {
+      "scope": "state",
+      "code": "SC",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 124.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 187.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 182.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 210.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 249.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 220.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 198.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 230.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 263.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 274.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 214.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 196.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 163.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 218.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 197.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 206.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 162.0
+    },
+    {
+      "scope": "state",
+      "code": "TN",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 139.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 40.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 10.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 10.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 9.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 8.0
+    },
+    {
+      "scope": "state",
+      "code": "EM",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 1171.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 1189.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 1152.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 1217.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 1217.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 1170.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 1168.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 1339.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 1441.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 1241.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 1100.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 1064.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 1385.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 1225.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 1262.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 1080.0
+    },
+    {
+      "scope": "region",
+      "code": "CHI",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 1072.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 218.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 239.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 210.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 239.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 224.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 233.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 206.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 248.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 274.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 223.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 203.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 188.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 239.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 208.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 244.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 197.0
+    },
+    {
+      "scope": "state",
+      "code": "IL",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 191.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 133.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 135.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 141.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 128.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 139.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 135.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 137.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 148.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 193.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 161.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 139.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 128.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 174.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 146.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 137.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 118.0
+    },
+    {
+      "scope": "state",
+      "code": "IN",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 134.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 327.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 289.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 274.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 275.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 268.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 258.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 252.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 273.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 329.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 279.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 254.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 261.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 345.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 298.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 317.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 289.0
+    },
+    {
+      "scope": "state",
+      "code": "MI",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 265.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 67.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 78.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 74.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 80.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 79.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 79.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 79.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 87.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 112.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 95.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 80.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 78.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 111.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 99.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 86.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 77.0
+    },
+    {
+      "scope": "state",
+      "code": "MN",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 81.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 284.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 311.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 309.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 346.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 359.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 320.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 342.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 435.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 374.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 333.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 292.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 281.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 354.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 324.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 327.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 276.0
+    },
+    {
+      "scope": "state",
+      "code": "OH",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 267.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 142.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 137.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 144.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 149.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 148.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 145.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 152.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 148.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 159.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 150.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 132.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 128.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 162.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 150.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 151.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 123.0
+    },
+    {
+      "scope": "state",
+      "code": "WI",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 134.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 771.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 770.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 842.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 828.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 900.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 875.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 876.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 1044.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 1230.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 1081.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 994.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 898.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 1063.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 981.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 1031.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 923.0
+    },
+    {
+      "scope": "region",
+      "code": "DAL",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 900.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 110.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 112.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 117.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 112.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 108.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 113.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 117.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 179.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 176.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 163.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 148.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 140.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 184.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 175.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 181.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 156.0
+    },
+    {
+      "scope": "state",
+      "code": "AR",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 143.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 143.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 138.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 154.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 137.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 143.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 135.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 133.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 151.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 149.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 117.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 104.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 82.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 105.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 87.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 76.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 62.0
+    },
+    {
+      "scope": "state",
+      "code": "LA",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 62.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 43.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 38.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 46.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 47.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 46.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 42.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 50.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 51.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 45.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 41.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 33.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 51.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 46.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 55.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 42.0
+    },
+    {
+      "scope": "state",
+      "code": "NM",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 43.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 81.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 73.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 80.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 84.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 86.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 94.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 96.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 158.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 152.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 126.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 118.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 104.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 138.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 138.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 154.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 129.0
+    },
+    {
+      "scope": "state",
+      "code": "OK",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 115.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 394.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 409.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 445.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 448.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 519.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 487.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 488.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 506.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 578.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 523.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 489.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 446.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 477.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 439.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 460.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 441.0
+    },
+    {
+      "scope": "state",
+      "code": "TX",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 453.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 82.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 73.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 67.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 68.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 79.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 72.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 73.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 67.0
+    },
+    {
+      "scope": "state",
+      "code": "EA",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 61.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 0.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 42.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 27.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 25.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 29.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "EO",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 365.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 364.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 323.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 337.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 307.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 306.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 307.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 359.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 405.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 367.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 346.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 331.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 399.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 370.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 391.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 350.0
+    },
+    {
+      "scope": "state",
+      "code": "KCM",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 334.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 71.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 72.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 70.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 71.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 67.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 63.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 63.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 73.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 78.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 75.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 72.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 68.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 77.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 79.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 89.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 81.0
+    },
+    {
+      "scope": "state",
+      "code": "IA",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 79.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 54.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 64.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 61.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 63.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 60.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 61.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 58.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 59.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 65.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 48.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 47.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 52.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 64.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 46.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "KS",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 206.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 186.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 150.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 161.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 139.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 142.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 146.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 185.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 218.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 205.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 190.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 175.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 214.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 204.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 219.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 200.0
+    },
+    {
+      "scope": "state",
+      "code": "MO",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 184.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 42.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 42.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 42.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 41.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 40.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 40.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 42.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 39.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 36.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 41.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 39.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 35.0
+    },
+    {
+      "scope": "state",
+      "code": "NE",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 39.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 169.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 152.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 156.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 163.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 160.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 166.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 155.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 165.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 169.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 179.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 159.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 165.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 192.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 162.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 182.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 155.0
+    },
+    {
+      "scope": "region",
+      "code": "DEN",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 150.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 73.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 59.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 63.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 70.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 62.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 67.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 56.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 64.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 61.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 76.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 66.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 72.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 82.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 63.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 73.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 61.0
+    },
+    {
+      "scope": "state",
+      "code": "CO",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 65.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 21.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 20.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 22.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 25.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 22.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 20.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "MT",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 10.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 9.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 13.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "ND",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 20.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 22.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 20.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 16.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 17.0
+    },
+    {
+      "scope": "state",
+      "code": "SD",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 35.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 35.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 38.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 36.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 38.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 45.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 41.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 38.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 48.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 43.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 47.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 44.0
+    },
+    {
+      "scope": "state",
+      "code": "UT",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 9.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 9.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 6.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 9.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 7.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 8.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 6.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 7.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 6.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 8.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 8.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 8.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 8.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 9.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 9.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 6.0
+    },
+    {
+      "scope": "state",
+      "code": "WY",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 6.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 797.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 791.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 776.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 846.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 784.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 855.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 857.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 939.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 1005.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 853.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 828.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 805.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 970.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 937.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 990.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 879.0
+    },
+    {
+      "scope": "state",
+      "code": "SFO",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 798.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 104.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 106.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 112.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 114.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 117.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 105.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 103.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 133.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 133.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 111.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 112.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 116.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 138.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 118.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 132.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 126.0
+    },
+    {
+      "scope": "state",
+      "code": "AZ",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 109.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 647.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 635.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 614.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 685.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 612.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 685.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 687.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 733.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 795.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 667.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 648.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 617.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 753.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 752.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 768.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 692.0
+    },
+    {
+      "scope": "state",
+      "code": "CA",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 634.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 19.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 17.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 16.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 17.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 20.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 20.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 20.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 23.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 21.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 21.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "HI",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 27.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 33.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 35.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 33.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 39.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 47.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 49.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 56.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 53.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 55.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 48.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 52.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 56.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 46.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 69.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 43.0
+    },
+    {
+      "scope": "state",
+      "code": "NV",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 37.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 267.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 262.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 236.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 260.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 255.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 226.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 243.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 291.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 344.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 301.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 277.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 269.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 328.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 287.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 302.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 277.0
+    },
+    {
+      "scope": "region",
+      "code": "SEA",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 262.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 18.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 13.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 15.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 14.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 11.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 8.0
+    },
+    {
+      "scope": "state",
+      "code": "AK",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 12.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 28.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 24.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 21.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 30.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 26.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 21.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 29.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 33.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 36.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 36.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 37.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 34.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "ID",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 32.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 88.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 92.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 74.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 81.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 78.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 67.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 82.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 94.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 110.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 90.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 78.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 75.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 97.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 87.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 89.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 76.0
+    },
+    {
+      "scope": "state",
+      "code": "OR",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 65.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2002,
+      "metric": "dds_examiners_count",
+      "value": 133.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2003,
+      "metric": "dds_examiners_count",
+      "value": 131.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2004,
+      "metric": "dds_examiners_count",
+      "value": 128.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2005,
+      "metric": "dds_examiners_count",
+      "value": 134.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2006,
+      "metric": "dds_examiners_count",
+      "value": 137.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2007,
+      "metric": "dds_examiners_count",
+      "value": 127.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2008,
+      "metric": "dds_examiners_count",
+      "value": 121.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2009,
+      "metric": "dds_examiners_count",
+      "value": 152.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2010,
+      "metric": "dds_examiners_count",
+      "value": 184.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2011,
+      "metric": "dds_examiners_count",
+      "value": 168.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2012,
+      "metric": "dds_examiners_count",
+      "value": 154.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2013,
+      "metric": "dds_examiners_count",
+      "value": 146.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2014,
+      "metric": "dds_examiners_count",
+      "value": 180.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2015,
+      "metric": "dds_examiners_count",
+      "value": 155.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2016,
+      "metric": "dds_examiners_count",
+      "value": 169.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2017,
+      "metric": "dds_examiners_count",
+      "value": 161.0
+    },
+    {
+      "scope": "state",
+      "code": "WA",
+      "year": 2018,
+      "metric": "dds_examiners_count",
+      "value": 153.0
+    }
+  ]
+}

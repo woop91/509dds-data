@@ -1,0 +1,512 @@
+{
+  "schema": "long",
+  "metric_family": "initial_claims_by_title",
+  "source_file": "data/ssa/claims/initial-claims-by-title-fy2001-2019.source.xlsx",
+  "extracted_at": "2026-05-08T02:29:48Z",
+  "rows": [
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2001,
+      "metric": "initial_claims_ssdi",
+      "value": 730266.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2001,
+      "metric": "initial_claims_ssi",
+      "value": 939647.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2001,
+      "metric": "initial_claims_concurrent",
+      "value": 549045.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2001,
+      "metric": "initial_claims_total",
+      "value": 2218958.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2002,
+      "metric": "initial_claims_ssdi",
+      "value": 785767.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2002,
+      "metric": "initial_claims_ssi",
+      "value": 957623.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2002,
+      "metric": "initial_claims_concurrent",
+      "value": 628615.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2002,
+      "metric": "initial_claims_total",
+      "value": 2372005.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2003,
+      "metric": "initial_claims_ssdi",
+      "value": 831006.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2003,
+      "metric": "initial_claims_ssi",
+      "value": 998211.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2003,
+      "metric": "initial_claims_concurrent",
+      "value": 702914.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2003,
+      "metric": "initial_claims_total",
+      "value": 2532131.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2004,
+      "metric": "initial_claims_ssdi",
+      "value": 840812.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2004,
+      "metric": "initial_claims_ssi",
+      "value": 1016693.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2004,
+      "metric": "initial_claims_concurrent",
+      "value": 770560.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2004,
+      "metric": "initial_claims_total",
+      "value": 2628065.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2005,
+      "metric": "initial_claims_ssdi",
+      "value": 822484.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2005,
+      "metric": "initial_claims_ssi",
+      "value": 1005710.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2005,
+      "metric": "initial_claims_concurrent",
+      "value": 784334.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2005,
+      "metric": "initial_claims_total",
+      "value": 2612528.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2006,
+      "metric": "initial_claims_ssdi",
+      "value": 787903.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2006,
+      "metric": "initial_claims_ssi",
+      "value": 971880.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2006,
+      "metric": "initial_claims_concurrent",
+      "value": 764767.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2006,
+      "metric": "initial_claims_total",
+      "value": 2524550.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2007,
+      "metric": "initial_claims_ssdi",
+      "value": 797457.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2007,
+      "metric": "initial_claims_ssi",
+      "value": 974030.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2007,
+      "metric": "initial_claims_concurrent",
+      "value": 763722.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2007,
+      "metric": "initial_claims_total",
+      "value": 2535209.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2008,
+      "metric": "initial_claims_ssdi",
+      "value": 812867.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2008,
+      "metric": "initial_claims_ssi",
+      "value": 1013309.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2008,
+      "metric": "initial_claims_concurrent",
+      "value": 791792.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2008,
+      "metric": "initial_claims_total",
+      "value": 2617968.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2009,
+      "metric": "initial_claims_ssdi",
+      "value": 931308.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2009,
+      "metric": "initial_claims_ssi",
+      "value": 1169828.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2009,
+      "metric": "initial_claims_concurrent",
+      "value": 910301.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2009,
+      "metric": "initial_claims_total",
+      "value": 3011437.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2010,
+      "metric": "initial_claims_ssdi",
+      "value": 1034911.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2010,
+      "metric": "initial_claims_ssi",
+      "value": 1226400.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2010,
+      "metric": "initial_claims_concurrent",
+      "value": 950886.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2010,
+      "metric": "initial_claims_total",
+      "value": 3212197.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2011,
+      "metric": "initial_claims_ssdi",
+      "value": 1068895.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2011,
+      "metric": "initial_claims_ssi",
+      "value": 1264423.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2011,
+      "metric": "initial_claims_concurrent",
+      "value": 970406.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2011,
+      "metric": "initial_claims_total",
+      "value": 3303724.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2012,
+      "metric": "initial_claims_ssdi",
+      "value": 1029970.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2012,
+      "metric": "initial_claims_ssi",
+      "value": 1214054.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2012,
+      "metric": "initial_claims_concurrent",
+      "value": 899960.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2012,
+      "metric": "initial_claims_total",
+      "value": 3143984.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2013,
+      "metric": "initial_claims_ssdi",
+      "value": 1010029.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2013,
+      "metric": "initial_claims_ssi",
+      "value": 1138462.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2013,
+      "metric": "initial_claims_concurrent",
+      "value": 823784.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2013,
+      "metric": "initial_claims_total",
+      "value": 2972275.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2014,
+      "metric": "initial_claims_ssdi",
+      "value": 1007976.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2014,
+      "metric": "initial_claims_ssi",
+      "value": 1049506.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2014,
+      "metric": "initial_claims_concurrent",
+      "value": 734618.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2014,
+      "metric": "initial_claims_total",
+      "value": 2792100.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2015,
+      "metric": "initial_claims_ssdi",
+      "value": 992129.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2015,
+      "metric": "initial_claims_ssi",
+      "value": 1068853.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2015,
+      "metric": "initial_claims_concurrent",
+      "value": 683989.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2015,
+      "metric": "initial_claims_total",
+      "value": 2744971.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2016,
+      "metric": "initial_claims_ssdi",
+      "value": 961581.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2016,
+      "metric": "initial_claims_ssi",
+      "value": 1028699.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2016,
+      "metric": "initial_claims_concurrent",
+      "value": 637329.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2016,
+      "metric": "initial_claims_total",
+      "value": 2627609.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2017,
+      "metric": "initial_claims_ssdi",
+      "value": 885367.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2017,
+      "metric": "initial_claims_ssi",
+      "value": 959549.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2017,
+      "metric": "initial_claims_concurrent",
+      "value": 585342.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2017,
+      "metric": "initial_claims_total",
+      "value": 2430258.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2018,
+      "metric": "initial_claims_ssdi",
+      "value": 864414.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2018,
+      "metric": "initial_claims_ssi",
+      "value": 917033.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2018,
+      "metric": "initial_claims_concurrent",
+      "value": 559934.0
+    },
+    {
+      "scope": "national",
+      "code": "US",
+      "year": 2018,
+      "metric": "initial_claims_total",
+      "value": 2341381.0
+    }
+  ]
+}

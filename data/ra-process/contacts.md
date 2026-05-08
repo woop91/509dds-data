@@ -15,20 +15,42 @@ The Commonwealth's centralized HR service center — handles benefits, payroll, 
 
 ## II. MassAbility HR & ADA Contact Information
 
-### Agency ADA Coordinator (per user-supplied info)
+> **Designated Agency Support Team (per EOHHS ODEIA, 2026-05-06):** MassAbility separates ADA-case work from DEIA-program work across two roles. For an RA filing, contact **Stacy Hart**. For agency equity strategy or ERGs, contact **Robert Arnau**.
+
+### Agency ADA Coordinator (current — as of 2026-05-06)
 
 | Field | Value |
 |---|---|
-| Name | **Alicia S. Ingraham** |
-| Email | **alicia.ingraham@mass.gov** |
-| Phone | **(617) 204-3652** |
+| Name | **Stacy Hart** |
+| Email | **stacy.hart@mass.gov** |
+| Phone | **(857) 274-1120** |
 | Role | Agency ADA Coordinator, MassAbility |
+| Scope | Primary contact for processing accommodation requests, reviewing medical documentation, navigating the interactive process |
+| MOD-listed under | Department of Public Health (EOHHS) — see caveat below |
 
-> ⚠ **Verification note (2026-05-04):** Exhaustive search of the official Massachusetts Office on Disability (MOD) ADA Coordinator listing dated March 10, 2026 ([`ada-coordinator-listing-2026-03-10.csv`](ada-coordinator-listing-2026-03-10.csv), 93 entries) confirms **zero matches** for any of: `MassAbility`, `MRC`, `Mass Rehab`, `Rehabilitation Commission`, `Rehabilitation`, `Disability Determination`, `Determination Services`. EOHHS contains 12 listed sub-agencies (DCF, DDS-Dev, DMH, DPH, DTA, DYS, EOAI, EOHHS umbrella, MCB, MCDHH, MassHealth, ORI) — **MassAbility is not among them**.
+### DEIA Manager
+
+| Field | Value |
+|---|---|
+| Name | **Robert Arnau** |
+| Email | **robert.d.arnau@mass.gov** |
+| Role | Diversity, Equity, Inclusion, and Access (DEIA) Manager, MassAbility |
+| Scope | Support lead for broader agency-level equity strategies, organizational inclusion efforts, employee resource groups (ERGs) |
+
+> ✅ **Source (2026-05-06):** Communication from the EOHHS Office of Diversity, Equity, Inclusion & Access (ODEIA) to MassAbility announcing organizational changes to standardize ADA triage and compliance structure and ensure federal compliance and timely decision-making on disability-related accommodation requests. Stacy Hart and Robert Arnau are MassAbility's Designated Agency Support Team primary leads.
+
+### Why two roles
+
+Per EOHHS ODEIA standardization, MassAbility separates the **ADA Coordinator** (case-level: individual RA requests, medical-documentation review, the interactive process) from the **DEIA Manager** (program-level: agency equity strategy, inclusion programs, ERGs). For an RA filing, route to Stacy Hart first; DEIA-strategy or ERG questions go to Robert Arnau.
+
+### Update history
+
+- **2026-05-06** — Per EOHHS ODEIA restructuring, ADA Coordinator role assigned to **Stacy Hart**; **Robert Arnau** added as DEIA Manager. Together they form MassAbility's Designated Agency Support Team primary leads.
+- **2026-05-04** — Previous listing: Alicia S. Ingraham as Agency ADA Coordinator (`alicia.ingraham@mass.gov`, (617) 204-3652). Could not be corroborated against the MOD directory because MassAbility had not been re-listed since the Sept 2024 MRC→MassAbility rebrand.
+
+> ⚠ **MOD directory cross-check (2026-05-06):** Stacy Hart **is** present in the March 10, 2026 MOD ADA Coordinator CSV ([`ada-coordinator-listing-2026-03-10.csv`](ada-coordinator-listing-2026-03-10.csv), line 52) — but listed under **Department of Public Health (DPH)**, not MassAbility, with phone (857) 274-1120 and scope "Employees and the public". This corroborates her as a real EOHHS-internal ADA Coordinator and is consistent with the EOHHS ODEIA cross-assigning her to MassAbility under the new Designated Agency Support Team structure. Robert Arnau does not appear in the MOD CSV — DEIA Manager is a program role, not the EO-592 ADA Coordinator role MOD tracks.
 >
-> Most likely cause: the agency was removed from the public listing after the September 2024 MRC→MassAbility rebrand and has not yet been re-added. Alicia Ingraham's role as Agency ADA Coordinator is sourced from internal MassAbility information and is plausible (consistent role, area-code matches EOHHS leadership offices), but **cannot be corroborated against the authoritative MOD directory until the agency is re-listed**.
->
-> Recommended actions: (1) confirm with MassAbility HR directly before relying on this contact for a formal filing; (2) someone with MassAbility internal access should email MOD (`MOD@mass.gov` or via mass.gov contact form) requesting the agency be re-added to the public coordinator listing under its current name.
+> Of the 12 EOHHS sub-agencies in MOD (DCF, DDS-Dev, DMH, DPH, DTA, DYS, EOAI, EOHHS umbrella, MCB, MCDHH, MassHealth, ORI), **MassAbility is still missing** post-rebrand. Steward research starting at the MOD lookup page won't find Stacy Hart under MassAbility yet — they'd need to know to look under DPH or to use this contacts file. Recommended action: someone with MassAbility internal access should email **MOD@mass.gov** requesting (1) re-listing of MassAbility as a separate agency, and (2) adding Stacy Hart's MassAbility assignment to her existing entry.
 
 ### How to verify
 
@@ -80,10 +102,10 @@ If internal RA process and ODEO appeal both fail, external complaint options:
 ## IV. Sources
 
 - MassHR contact info: standard MA Comptroller / HRD published numbers
-- MassAbility ADA Coordinator: user-supplied (verification pending — see note above)
+- MassAbility ADA Coordinator (Stacy Hart) and DEIA Manager (Robert Arnau): EOHHS ODEIA communication, 2026-05-06; pending re-listing in MOD CSV
 - EOHHS fallback coordinators: official MOD listing CSV [`EB ADA Coordinator Listing 26-03-10.csv`](https://www.mass.gov/files/csv/2026-03/EB%20ADA%20Coordinator%20Listing%2026-03-10.csv)
 - ODEO + MOD: `data/ra-process/ra-application-page.md` and `ra-process-state-exec-branch.md` in this repo
 - MCAD/EEOC: `data/ra-process/disability-rights-in-employment.md` and the DLC self-advocacy guide PDF
 
-| Last verified | 2026-05-04 |
-| Next verification | When MassAbility rebrand re-listing appears in MOD CSV (recommend monthly check) |
+| Last verified | 2026-05-06 |
+| Next verification | When MassAbility re-listing appears in MOD CSV (recommend monthly check); confirm Stacy Hart + Robert Arnau land in the listing once the agency is re-added |

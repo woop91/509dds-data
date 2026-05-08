@@ -136,7 +136,14 @@ def main():
     out.append("--")
     out.append("-- Idempotent via ON CONFLICT on the unique constraint")
     out.append("-- (year, name_last, name_first, position_title, snapshot_through).")
+    out.append("--")
+    out.append("-- DEMO-ONLY: this seed honors the [No seed to prod] hard rule via the")
+    out.append("-- @demo-only / @end-demo-only markers below. The husky pre-commit gate")
+    out.append("-- (scripts/husky-pre-commit-gates.mjs) skips raw INSERTs inside this")
+    out.append("-- block when the migration is applied to the demo Supabase project.")
+    out.append("-- Prod application requires removing the markers AND explicit user OK.")
     out.append("")
+    out.append("-- @demo-only")
 
     # Insert in batches of ~500 rows for SQL parser friendliness
     BATCH = 500
@@ -195,6 +202,7 @@ def main():
         out.append("  raw_trans_no = excluded.raw_trans_no;")
         out.append("")
 
+    out.append("-- @end-demo-only")
     sql = "\n".join(out)
 
     if args.out == "-":

@@ -1,12 +1,17 @@
-# Manual-Fetch Needed (2026-05-05)
+# Manual-Fetch Needed (2026-05-05, updated 2026-05-08)
 
-These URLs return **403 Forbidden** to every automated fetcher tried in this session
+These URLs returned **403 Forbidden** to every automated fetcher tried on 2026-05-05
 (PowerShell `Invoke-WebRequest`, `curl` with browser headers + Referer, full
 Playwright Chromium with cookies). The blocking is per-path bot scoring on
 `ssa.gov`, `bls.gov`, `gao.gov`, and `cbpp.org` against direct binary downloads
 and certain HTML paths. They open fine in an interactive browser.
 
-**To complete the dataset, open each URL in your browser and save it to the
+**Update 2026-05-08:** A Firecrawl-based session ([report](../docs/firecrawl-gap-fill-session-2026-05-08.md))
+**resolved the GAO and CBPP HTML items** by routing through Firecrawl's residential-IP
+browser stack. The SSA `.xlsx` and BLS `.zip` items remain unsolved because Firecrawl
+returns text/markdown only — it cannot capture binary files even when it can reach the URL.
+
+**To complete the remaining items below, open each URL in your browser and save it to the
 listed path. None of this is gated — it's standard public data, just bot-blocked.**
 
 ## SSA — high priority
@@ -31,23 +36,21 @@ listed path. None of this is gated — it's standard public data, just bot-block
 - [ ] `data/external/bls-oews/oesm22st.zip`  
   https://www.bls.gov/oes/special-requests/oesm22st.zip
 
-## GAO — disability program reports
+## GAO — disability program reports — RESOLVED 2026-05-08 via Firecrawl
 
-- [ ] `data/oversight/gao/gao-22-103815.pdf`  
-  https://www.gao.gov/products/gao-22-103815 (look for "View Report (PDF)" link)
-- [ ] `data/oversight/gao/gao-17-625.pdf`  
-  https://www.gao.gov/products/gao-17-625
-- [ ] `data/oversight/gao/gao-15-19.pdf`  
-  https://www.gao.gov/products/gao-15-19
-- [ ] `data/oversight/gao/gao-09-149.pdf`  
-  https://www.gao.gov/products/gao-09-149
+Product-page HTML (executive summary + recommendations + linked PDF URL) captured to
+`data/oversight/gao/*.md`. For full PDF body content, scrape the underlying
+`gao.gov/assets/{report-id}.pdf` URLs — Firecrawl's PDF parser returns full report text.
 
-## CBPP — SSDI/SSI policy explainers
+- [x] `data/oversight/gao/gao-22-103815.md` (12.5KB) — captured 2026-05-08
+- [x] `data/oversight/gao/gao-17-625.md` (18.7KB) — captured 2026-05-08
+- [x] `data/oversight/gao/gao-15-19.md` (19.8KB) — captured 2026-05-08
+- [x] `data/oversight/gao/gao-09-149.md` (12.5KB) — captured 2026-05-08
 
-- [ ] `data/external/cbpp/cbpp-ssdi-explainer.html`  
-  https://www.cbpp.org/research/social-security/social-security-disability-insurance-0
-- [ ] `data/external/cbpp/cbpp-ssi-basics.html`  
-  https://www.cbpp.org/research/social-security/policy-basics-supplemental-security-income
+## CBPP — SSDI/SSI policy explainers — RESOLVED 2026-05-08 via Firecrawl
+
+- [x] `data/external/cbpp/cbpp-ssdi-explainer.md` (49KB) — captured 2026-05-08
+- [x] `data/external/cbpp/cbpp-ssi-basics.md` (19.6KB) — captured 2026-05-08
 
 ## Notes
 

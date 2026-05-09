@@ -1,0 +1,55 @@
+{
+  "state": "OR",
+  "salary_schedule_url": "https://apps.oregon.gov/DAS/Classification-Compensation/",
+  "effective_date": "2025-01-01",
+  "fiscal_year": "2025-2026",
+  "cola_effective_dates": [
+    "2025-02-01 (2.5%)",
+    "2027-01-01 (4.0% scheduled)"
+  ],
+  "bargaining_status": "SEIU Local 503 / OPEU — DHS Coalition CBA (2023-2025, expires 2025-06-30)",
+  "administering_agency": "Oregon Department of Human Services, Disability Determination Services",
+  "classes": {
+    "Disability Analyst 1": {
+      "class_code": "5926",
+      "category": "Regulation, Enforcement, and Investigation",
+      "salary_range": "Not publicly available in detail",
+      "estimated_min_annual": 50000,
+      "estimated_max_annual": 65000,
+      "market_average_2025": 77458,
+      "market_average_hourly": 37.24,
+      "step_count": "Unknown (typical: 10-12 steps for OPEU)",
+      "notes": "Entry-level position; estimates based on market data from ZipRecruiter (Aug 2025)"
+    },
+    "Disability Analyst 2": {
+      "class_code": "5927",
+      "category": "Regulation, Enforcement, and Investigation",
+      "salary_range": "Not publicly available in detail",
+      "estimated_min_annual": 60000,
+      "estimated_max_annual": 75000,
+      "step_count": "Unknown (typical: 10-12 steps for OPEU)",
+      "notes": "Advanced/experienced level; represents progression from DA1"
+    },
+    "Disability Analysis and Adjudication Manager 3": {
+      "class_code": "7193",
+      "category": "Principal, Executive, Manager and Other Unclassified Titles",
+      "salary_range": "Not publicly available in detail",
+      "estimated_min_annual": 85000,
+      "estimated_max_annual": 110000,
+      "step_count": "Unknown",
+      "notes": "First-line supervisor/manager classification; salary not confirmed"
+    }
+  },
+  "data_quality_notes": {
+    "completeness": "Partial — administrative structure and classifications confirmed; specific pay band codes and step progressions require Oregon DAS portal access or FOIA request",
+    "public_availability": "Oregon DAS Classification and Compensation system requires interactive browsing; detailed salary schedules not published in static, machine-readable format",
+    "union_contract": "SEIU Local 503 / OPEU covers DHS employees under DHS Coalition Agreement; contract documents (2023-2025 and 2025-2027 negotiations) available via SEIU 503 website"
+  },
+  "sources": [
+    "https://apps.oregon.gov/DAS/Classification-Compensation/",
+    "https://seiu503.org/contract-benefits/all-other-contracts/",
+    "https://seiu503.org/wp-content/uploads/2024/07/SEIU-Human-Services-Coalition-2023-2025.pdf",
+    "https://www.oregon.gov/das/hr/pages/central-table-bargaining-updates.aspx",
+    "https://www.oregon.gov/transparency/pages/state-salaries.aspx"
+  ]
+}

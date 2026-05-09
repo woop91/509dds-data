@@ -1,0 +1,85 @@
+{
+  "state": "NV",
+  "administering_agency": "Nevada Department of Employment, Training and Rehabilitation (DETR)",
+  "bureau": "Division of Disability Services / Bureau of Disability Adjudication",
+  "salary_schedule_url": "https://hr.nv.gov/Resources/SalarySchedule/",
+  "detr_jobs_url": "https://detr.nv.gov/",
+  "effective_date": "UNKNOWN — requires state HR confirmation",
+  "fiscal_year": "biennium 2025-2027",
+  "bargaining_status": "AFSCME Local 4041 (NSEA) — CBA ratified August 2024 (newest DDS CBA in US)",
+  "bargaining_unit": "Unit C (professional staff)",
+  "cba_legislative_basis": "Nevada Assembly Bill 271 (2019) — enabled public-sector collective bargaining",
+  "step_basis": "annual",
+  "research_quality": "LOW — no salary schedule or class specifications retrieved",
+  "retrieval_status": {
+    "salary_schedule_pdf": "FAILED — Firecrawl credits exhausted; NV HR website requires JavaScript rendering",
+    "detr_job_postings": "NOT ACCESSED — interactive search required",
+    "afscme_4041_contract_text": "NOT ACCESSED — likely behind member portal or news archive",
+    "class_specifications": "NOT RETRIEVED"
+  },
+  "classes": {
+    "Disability_Adjudicator_or_Examiner": {
+      "status": "UNVERIFIED",
+      "class_code": "UNKNOWN",
+      "pay_grade": "UNKNOWN",
+      "min_salary_annual": "UNKNOWN",
+      "max_salary_annual": "UNKNOWN",
+      "step_count": "UNKNOWN — typically 5-10 steps in modern DDS contracts",
+      "notes": "Likely title; exact grade and salary require confirmation from DETR HR"
+    },
+    "Disability_Adjudication_Supervisor": {
+      "status": "UNVERIFIED",
+      "class_code": "UNKNOWN",
+      "pay_grade": "UNKNOWN",
+      "min_salary_annual": "UNKNOWN",
+      "max_salary_annual": "UNKNOWN",
+      "step_count": "UNKNOWN",
+      "notes": "First-line supervisor; exact title and grade TBD"
+    }
+  },
+  "sources": [
+    {
+      "name": "Nevada HR Salary Schedules",
+      "url": "https://hr.nv.gov/Resources/SalarySchedule/",
+      "status": "NOT RETRIEVED",
+      "reason": "Firecrawl credits exhausted; website requires JS rendering and PDF extraction"
+    },
+    {
+      "name": "DETR Job Postings",
+      "url": "https://detr.nv.gov/",
+      "status": "HOMEPAGE ONLY",
+      "reason": "Interactive job search requires browser automation"
+    },
+    {
+      "name": "AFSCME Local 4041 / NSEA",
+      "url": "https://nvsea.com",
+      "status": "NOT ACCESSED",
+      "reason": "Contract text likely behind member login; no public summary found"
+    },
+    {
+      "name": "Nevada Public Records Act (NPRA)",
+      "url": "https://sos.nv.gov/",
+      "status": "NOT ACCESSED",
+      "reason": "CBA filing available through NPRA; requires formal request"
+    }
+  ],
+  "notes": {
+    "metadata_only": true,
+    "cba_significance": "AFSCME Local 4041 ratification in August 2024 was the first formal public-sector DDS union agreement in Nevada, following 2019 AB 271 enabling legislation. This CBA is the newest DDS-specific union agreement in the United States and provides an important precedent for Nevada's public-sector labor organizing.",
+    "context": "Unit C covers DETR professional staff including examiners. Modern DDS CBAs typically include 5-10 step pay progressions, annual step increments, and cost-of-living adjustments.",
+    "next_steps": [
+      "Contact DETR HR (https://detr.nv.gov) for current salary schedule and class specifications",
+      "Request AFSCME Local 4041 for published contract summary or August 2024 press release",
+      "File Nevada Public Records Act (NPRA) request for CBA filing with Nevada Secretary of State",
+      "Check NSEA website (https://nvsea.com) for member-accessible contract documents"
+    ]
+  },
+  "data_quality_assessment": {
+    "completeness": "INCOMPLETE — quantitative data (salaries, grades, steps) not retrieved",
+    "accuracy": "N/A — no rates to verify",
+    "timeliness": "CURRENT — research date 2026-05-08; references August 2024 CBA ratification",
+    "sources_count": 4,
+    "primary_sources_accessed": 0,
+    "research_effort": "Firecrawl credits exhausted; manual curl/grep insufficient for JS-rendered sites and PDFs"
+  }
+}

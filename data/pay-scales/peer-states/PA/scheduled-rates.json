@@ -1,0 +1,56 @@
+{
+  "state": "PA",
+  "status": "INCOMPLETE — estimates only",
+  "salary_schedule_url": "https://www.oa.pa.gov/Business/PCOMP/Documents/2023-2027%20State%20Salary%20Schedule.pdf",
+  "effective_date": "2026-05-08",
+  "fiscal_year": 2026,
+  "bargaining_status": "SEIU Local 668 (Pennsylvania Social Services Union) — Master Agreement 2023-2027",
+  "step_basis": "annual",
+  "notes": "PA OA salary schedule PDFs are behind authentication barriers; estimates derived from public job postings and BLS OEWS data. Requires official verification against PA OA PCOMP salary schedules and SEIU 668 contract appendix.",
+  "classes": {
+    "Disability Examiner I": {
+      "class_code": "≈ PA State Class 2800 series",
+      "pay_grade": "SC-09",
+      "min_estimated": 52000,
+      "max_estimated": 67000,
+      "step_count": "≈ 10",
+      "source": "BLS OEWS SOC 43-4061 + public job postings"
+    },
+    "Disability Examiner II": {
+      "class_code": "≈ PA State Class 2800 series (advanced)",
+      "pay_grade": "SC-10",
+      "min_estimated": 59000,
+      "max_estimated": 76000,
+      "step_count": "≈ 10",
+      "source": "BLS OEWS SOC 43-4061 + peer state scaling"
+    },
+    "Medical-Vocational Supervisor": {
+      "class_code": "≈ PA State Class 3100 series",
+      "pay_grade": "SC-11 to SC-12",
+      "min_estimated": 68000,
+      "max_estimated": 88000,
+      "step_count": "≈ 10",
+      "source": "Supervisor-level estimates from peer states (NY, NJ, CT)"
+    }
+  },
+  "fetch_log": [
+    {
+      "url": "https://seiu668.org/contracts-and-constitution/",
+      "timestamp": "2026-05-08T12:00:00Z",
+      "result": "HTML contract page found; no direct downloadable PDF link",
+      "status": "200 OK"
+    },
+    {
+      "url": "https://www.oa.pa.gov/Business/PCOMP/Documents/2023-2027%20State%20Salary%20Schedule.pdf",
+      "timestamp": "2026-05-08T12:00:00Z",
+      "result": "Redirects to HTML error/login page",
+      "status": "200 HTML redirect"
+    }
+  ],
+  "todo": [
+    "Contact PA DLI HR for official Disability Examiner classification + salary schedule",
+    "Request SEIU 668 Master Agreement 2023–2027 appendix (compensation schedule)",
+    "Verify PA OA SC-09 through SC-12 salary ranges via PCOMP or CTHRU system",
+    "Update min/max salary columns with verified amounts"
+  ]
+}

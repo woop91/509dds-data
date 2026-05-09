@@ -5,13 +5,20 @@
 > Massachusetts pay-scale data in `../` and to support peer comparisons used in
 > bargaining and policy memos.
 
-## Peer set
+## Peer sets — two of them
 
-Same population-peer set used in [`../../docs/peer-states-comparison.json`](../../docs/peer-states-comparison.json):
-**MA, TN, AZ, IN, MD, VA, WA, MO, WI** — states within roughly 6–8M
-population. The peer set was chosen for workload comparability (avoiding the
-distortion of comparing MA to CA at 39M or RI at 1M); we re-use it here for
-salary so that the workload and pay analyses can be cross-walked.
+This folder now holds salary data for **two distinct peer sets**:
+
+1. **Population peers** (workload-comparable): MA, TN, AZ, IN, MD, VA, WA, MO, WI
+   — states within ~6–8M population, mirroring `../../docs/peer-states-comparison.json`.
+2. **Bargaining peers** (CBA-comparable): MA, MD, WA, **NY, CA, OR, MN, NJ, CT, HI**
+   plus PA, NV, IL, MI, AK, MT, ME, VT (latter eight not yet pulled).
+   See [`_us-dds-union-landscape.md`](_us-dds-union-landscape.md) for which
+   states have confirmed DDS examiner CBAs.
+
+Use the **population set** when arguing about workload (claims processed per
+examiner). Use the **bargaining set** when arguing about pay rates and
+contract structure.
 
 ## Role scope
 
@@ -46,23 +53,38 @@ scheduled pay grades.
 | `<STATE>/research-notes.md` | Per-state agency mapping, class titles, class codes, source URLs, gaps |
 | `<STATE>/scheduled-rates.json` | Per-state machine-readable scheduled rates (where extractable) |
 | `_build_peer_scheduled_rates.py` | Reproducible parser for the four state PDFs cached at `C:/temp/pdfs/` |
+| `_us-dds-union-landscape.md` | **National 50-state DDS examiner union representation map.** Identifies the bargaining peer set (vs. the population peer set used here). |
+| `_us-dds-union-landscape-{NORTHEAST,MIDWEST-SOUTH,WEST}.md` | Regional source files behind the national landscape map |
 
 ## Comparison table — examiner pay
 
-Sorted by examiner annual maximum (high → low). MA at top for reference.
+Sorted by data quality, then by examiner annual maximum. MA at top for reference.
 "Source" column: 📄 = scheduled rate from state's official salary schedule;
-≈ = third-party estimate (Glassdoor / ZipRecruiter / job postings).
+≈ = third-party estimate (Glassdoor / ZipRecruiter / job postings); ◌ = bargaining
+unit confirmed but pay schedule blocked this session — see
+`peer-states-pay-summary.json → manual_fetch_workflow_for_blocked_states`.
 
 | State | Title | Class | Pay grade | Annual min | Annual max | Source | Bargaining |
 |---|---|---|---|---:|---:|---|---|
 | **MA** | Vocational Disability Examiner I→III | (BU 8) | Grades 20 / 21 / 23 | $73,555 | **$115,429** | 📄 SEIU 509 chart eff 2026-07-12 | SEIU 509 Local 509 Unit 8 |
 | MD | Disability Claims Examiner I | 5260 | Grade 14 ASTD | $62,220 | $96,790 | 📄 DBM std schedule eff 2025-07-01 | AFSCME |
 | WA | DDS Adjudicator 3 (senior) | 954 | Range 56 | $63,252 | $84,984 | 📄 OFM GS schedule eff 2025-07-01 | WFSE GG (CBA 2025-27) |
+| MN | Disability Examiner | 0871 | grid 14G | $51,140 | $74,174 | 📄 MMB MAPE plan eff 2025-07-01 | **MAPE Unit 214** (independent) |
 | VA | DDS Analyst — Junior | ARSD0436 | Pay Band 4 | (start) $69,479 | $117,360¹ | 📄 DHRM eff 2025-06-10 | none |
+| OR | Disability Analyst 1 / 2 | 5926 / 5927 | OPEU range | ≈$50,000 | ≈$75,000 | ≈ ZipRecruiter (codes confirmed) | SEIU 503 / OPEU |
+| NJ | Claims Adjudicator | #64947 | NJ Range/Step | ≈$53,560 | ≈$68,777 | ≈ Glassdoor (spec confirmed) | CWA Local 1036 (likely) |
+| PA | Disability Examiner I / II | TBD | est SC-09 / SC-10 | ≈$52,000 | ≈$76,000 | ≈ agent-inferred grades | SEIU 668 (PA Social Services Union) |
 | TN | Disability Claims Examiner | n/a | n/a | ≈$75,813 | ≈$79,699 | ≈ Glassdoor / Salary.com | none (right-to-work) |
+| AZ | Disability Determination Specialist | n/a | n/a | ≈$53,152 | ≈$82,282 | ≈ Glassdoor | none |
 | WI | Disability Determination Specialist | 49201 | TBD | ≈$48,400 | ≈$65,600 | ≈ ZipRecruiter | none (post-Act 10) |
 | IN | Disability Claims Adjudicator | n/a | broadband ~28-29 | ≈$53,559 | ≈$68,777 | ≈ private aggregators | none (since 2005) |
-| AZ | Disability Determination Specialist | n/a | n/a | ≈$53,152 | ≈$82,282 | ≈ Glassdoor | none |
+| **NY** | Disability Analyst Trainee/1/2 | TBD SG | TBD | — | — | ◌ PEF chart not pulled | **PEF Unit 5** (PS&T) |
+| **CA** | Disability Evaluation Analyst I/II/III | TBD | TBD | — | — | ◌ CalHR blocked | **SEIU 1000 Unit 4** |
+| **CT** | Disability Determination Examiner | TBD | est SG-21–23 | — | — | ◌ CT DAS blocked | **AFSCME 714 / SEBAC P-2** |
+| **HI** | Disability Determination Examiner | TBD | BU 13 SR | — | — | ◌ DHRD blocked | **HGEA Unit 13** |
+| **NV** | Disability Adjudicator | TBD | NV pay grade | — | — | ◌ hr.nv.gov is JS-only | **AFSCME Local 4041** (Aug 2024 — newest CBA in country) |
+| **IL** | Disability Adjudicator (multi-level) | TBD | TBD | — | — | ◌ council31.org timeout | **AFSCME Council 31** (likely RC-62) |
+| **MI** | Disability Examiner | TBD | P-grade | — | — | ◌ MDCS + SEIU 517M blocked | **SEIU Local 517M / HSS** |
 | MO | (not located in public records) | n/a | n/a | n/a | n/a | — | limited |
 
 ¹ VA pay band max is misleading on its own — VA's bands are very wide. The

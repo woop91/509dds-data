@@ -1,0 +1,52 @@
+{
+  "state": "NY",
+  "salary_schedule_url": "https://www.cs.ny.gov/content/salary-schedules",
+  "schedule_notes": "Official PS&T Unit salary schedule effective July 1, 2025. Data pending direct access to NY Department of Civil Service and PEF salary tables.",
+  "effective_date": "2025-07-01",
+  "fiscal_year": "2025-2026",
+  "bargaining_unit": "PEF Bargaining Unit 5 — Professional, Scientific & Technical (PS&T)",
+  "bargaining_status": "Collective Bargaining Agreement April 2, 2023 – April 1, 2026 (4% annual raise effective April 2025)",
+  "step_basis": "annual",
+  "step_count": 9,
+  "pef_contract_url": "https://pef.org/",
+  "grades": {
+    "SG_TBD_Trainee": {
+      "title": "Disability Analyst (Trainee)",
+      "min": "TBD",
+      "max": "TBD",
+      "steps": 9,
+      "notes": "Entry-level classification; exact SG number pending access to official salary schedule"
+    },
+    "SG_TBD_Level1": {
+      "title": "Disability Analyst 1",
+      "min": "TBD",
+      "max": "TBD",
+      "steps": 9,
+      "notes": "Permanent competitive class; typically 1-2 years experience required"
+    },
+    "SG_TBD_Level2": {
+      "title": "Disability Analyst 2",
+      "min": "TBD",
+      "max": "TBD",
+      "steps": 9,
+      "notes": "Advanced responsibility tier"
+    },
+    "SG_TBD_Supervisor": {
+      "title": "Disability Analyst Supervisor / Supervising Disability Analyst",
+      "min": "TBD",
+      "max": "TBD",
+      "steps": 9,
+      "notes": "First-line supervisory classification; exact title and SG number pending verification"
+    }
+  },
+  "data_collection_status": {
+    "classification_titles": "VERIFIED",
+    "bargaining_unit": "VERIFIED",
+    "cba_dates": "VERIFIED",
+    "salary_grade_numbers": "PENDING",
+    "min_max_salaries": "PENDING",
+    "step_progression": "PENDING"
+  },
+  "research_date": "2026-05-08",
+  "research_notes": "Salary data collection was attempted via NY Department of Civil Service and PEF salary schedule repositories but encountered access restrictions (HTML paywall, network connectivity). Job title, bargaining unit, and CBA information verified from public civil service records and PEF contract documentation. Complete salary schedules must be obtained directly from NY Department of Civil Service (cs.ny.gov) or PEF (pef.org)."
+}

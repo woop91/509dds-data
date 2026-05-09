@@ -1,0 +1,62 @@
+{
+  "state": "CT",
+  "notes": "Connecticut uses Salary Group (SG) classification system with 9-step progression. Exact rates pending verification against CT DAS Salary Plans (2024–2025).",
+  "salary_schedule_url": "https://portal.ct.gov/das/statewide-hr/compensation",
+  "effective_date": "2024-07-01",
+  "fiscal_year": 2025,
+  "bargaining_status": "AFSCME Local 714 / SEBAC P-2 (Social and Human Services), CBA 2017 → 2027",
+  "administering_agency": "Connecticut Department of Social Services (DSS), Disability Determination Services Unit",
+  "classes": {
+    "Disability Determination Examiner": {
+      "class_code": "PENDING_VERIFICATION",
+      "class_title_alt": "Adjudicator",
+      "salary_group": "SG-21 to SG-23 (estimated)",
+      "bargaining_unit": "AFSCME Local 714 / SEBAC P-2",
+      "step_count": 9,
+      "salary_grid": "PENDING_CT_DAS_SALARY_PLANS",
+      "notes": "Typical range for CT state DDS examiner roles; exact SG assignment requires CT DAS confirmation"
+    },
+    "Disability Determination Examiner Supervisor": {
+      "class_code": "PENDING_VERIFICATION",
+      "class_title_alt": "Supervisor, Disability Determination",
+      "salary_group": "SG-24 to SG-26 (estimated)",
+      "bargaining_unit": "SEBAC P-3 (Supervisory) or separate supervisory unit",
+      "step_count": 9,
+      "salary_grid": "PENDING_CT_DAS_SALARY_PLANS",
+      "notes": "First-line supervisor level in CT pay structure; may be in separate supervisory bargaining unit"
+    }
+  },
+  "research_status": "INCOMPLETE",
+  "data_sources": [
+    {
+      "source": "CT Department of Administrative Services",
+      "url": "https://portal.ct.gov/das/statewide-hr/compensation",
+      "type": "CT DAS Salary Plans (annual)",
+      "status": "pending_direct_access"
+    },
+    {
+      "source": "CT DAS Classification Specifications",
+      "url": "https://portal.ct.gov/das/statewide-hr/state-jobs",
+      "type": "Class code & title database",
+      "status": "pending_verification"
+    },
+    {
+      "source": "AFSCME Council 4",
+      "url": "https://www.council4.org/",
+      "type": "Union representation & CBA info",
+      "status": "confirmed_2017_2027_agreement"
+    },
+    {
+      "source": "CT Comptroller Payroll Data",
+      "url": "https://data.ct.gov/",
+      "type": "Open payroll database",
+      "status": "available_for_query"
+    }
+  ],
+  "next_steps": [
+    "Download CT DAS Salary Plans PDF (2024–2025 version) from portal.ct.gov/das",
+    "Cross-reference exact class codes and salary groups from CT DAS spec system",
+    "Query CT Comptroller payroll database for current position data",
+    "Contact AFSCME Council 4 for confirmed P-2 unit wage schedules under 2017–2027 CBA"
+  ]
+}

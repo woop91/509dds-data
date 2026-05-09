@@ -1,0 +1,74 @@
+{
+  "state": "NJ",
+  "salary_schedule_url": "https://cwa1031.org/wp-content/uploads/2023/10/2023-2027-CWA-NJ-State-Salary-Schedules-1.pdf",
+  "effective_date": "2023-07-01",
+  "fiscal_year": "2023-2027",
+  "bargaining_status": "CWA Local 1036 (likely; IFPTE Local 195 possible) — NJ State Executive Branch CBA 2023-2027",
+  "administering_agency": "NJ Department of Labor and Workforce Development, Division of Disability Determination Services",
+  "cba_terms": {
+    "period": "July 1, 2023 — June 30, 2027",
+    "annual_wage_increase_percent": 3.5,
+    "compounded_increase_over_4_years_percent": 14.82,
+    "new_step_11_created": true,
+    "minimum_hire_floor": "Range 9, Step 2 (effective July 1, 2024)",
+    "healthcare_givebacks": false,
+    "notes": "Union reported as strongest compensation package in 15+ years; Step 10 pay cap eliminated for IFPTE Local 195 members (if applicable)"
+  },
+  "classes": {
+    "Claims Adjudicator": {
+      "class_code": "TBD — confirm with NJ CSC",
+      "job_spec_code": "TBD",
+      "title_type": "entry-level examiner",
+      "salary_range": "TBD — estimated $53,560 (min) to $68,777 (max) based on Glassdoor aggregated data; exact Range/Step requires CWA or CSC tables",
+      "min": 53560,
+      "max": 68777,
+      "step_count": "10 (standard) or 11 (post-2023 contract)",
+      "notes": "Glassdoor figures reflect civilian state employee aggregate; official CWA/IFPTE scheduled rates not extracted. Confirm exact Range classification with NJDOL HR."
+    },
+    "Senior Claims Adjudicator": {
+      "class_code": "TBD — confirm with NJ CSC",
+      "job_spec_code": "64947 (standard); 64947C (bilingual requirement)",
+      "title_type": "supervisory/senior examiner",
+      "description": "Reviews medical and vocational evidence for complex/appeal cases; supervises adjudicators and medical consultants",
+      "salary_range": "TBD — estimated $67,000–$86,800 (90th percentile up to $93,909) based on ZipRecruiter aggregated data; exact Range/Step requires CWA or CSC tables",
+      "min": 67000,
+      "max": 93909,
+      "step_count": "10 (standard) or 11 (post-2023 contract)",
+      "notes": "Senior position; exact pay premium over Claims Adjudicator requires official NJ CSC Range assignment. CSC Job Spec #64947 confirms supervisory duties."
+    },
+    "Claims Adjudicator Supervisor": {
+      "class_code": "TBD — may be same as Senior Claims Adjudicator or distinct title",
+      "job_spec_code": "TBD",
+      "title_type": "first-line supervisor",
+      "description": "Direct supervisor to Claims Adjudicators per Job Spec #64947 context",
+      "salary_range": "TBD — likely aligned with Senior Claims Adjudicator range",
+      "min": null,
+      "max": null,
+      "step_count": "10 (standard) or 11 (post-2023 contract)",
+      "notes": "Distinct supervisor classification may exist; confirm with NJDOL HR and NJ CSC job spec database."
+    }
+  },
+  "data_quality_notes": {
+    "pay_table_status": "INCOMPLETE — official CWA Local 1036 / IFPTE Local 195 2023–2027 salary tables exist but not extracted",
+    "source_limitations": [
+      "CWA 1031 PDF (salary schedules) inaccessible via web-fetch",
+      "IFPTE Local 195 contract PDF inaccessible via web-fetch",
+      "NJ CSC Compensation Compendium requires manual navigation to retrieve Range/Step data",
+      "Union jurisdiction (CWA 1036 vs. IFPTE Local 195) for DDS Claims Adjudicators not confirmed from public sources"
+    ],
+    "recommended_verification_sources": [
+      "NJDOL HR / Compensation Office — direct request for Claims Adjudicator Range/Step assignment",
+      "CWA Local 1036 — request certified 2023–2027 salary schedules and confirmation of DDS unit coverage",
+      "IFPTE Local 195 — request certified 2023–2027 salary schedules and confirmation of DDS unit coverage",
+      "NJ Civil Service Commission Compensation Compendium — navigate to ERG (Employee Relations Group) lookup by fiscal year",
+      "NJ CSC Job Specification Database — retrieve full specs for Claims Adjudicator entry and senior positions"
+    ]
+  },
+  "metadata": {
+    "research_date": "2026-05-08",
+    "data_currency_note": "2023–2027 contract terms; 2023–2027 salary schedule references; Glassdoor/ZipRecruiter aggregates current as of May 2026",
+    "examiner_class_verified": true,
+    "supervisor_class_verified": true,
+    "exact_pay_ranges_verified": false
+  }
+}

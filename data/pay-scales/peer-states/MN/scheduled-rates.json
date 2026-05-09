@@ -1,0 +1,85 @@
+{
+  "state": "MN",
+  "administering_agency": "Minnesota Department of Employment and Economic Development (DEED)",
+  "salary_schedule_url": "https://mn.gov/mmb/employee-relations/laws-policies-and-rules/salary-plans/",
+  "contract_document": "https://mape.org/contract",
+  "effective_date": "2025-07-01",
+  "fiscal_year": "2025-2027",
+  "bargaining_status": "MAPE Unit 214 ratified; 2025-2027 contract in effect (July 1, 2025 - June 30, 2027)",
+  "step_basis": "hourly (× 2080 for annual full-time equivalent)",
+  "classes": {
+    "Disability Examiner (0871)": {
+      "class_code": "0871",
+      "class_title": "Disability Examiner",
+      "compensation_grid": "14G",
+      "compensation_code": "07L",
+      "bargaining_unit": "MAPE Unit 214",
+      "salary_range_2023_2025": {
+        "effective_date": "2023-07-01",
+        "min_hourly": 24.20,
+        "max_hourly": 35.13,
+        "min_annual": 50530,
+        "max_annual": 73081,
+        "contract_period": "2023-2025"
+      },
+      "salary_range_2025_2027_year1": {
+        "effective_date": "2025-07-01",
+        "wage_increase_percent": 1.5,
+        "min_hourly": 24.56,
+        "max_hourly": 35.66,
+        "min_annual": 51140,
+        "max_annual": 74174,
+        "contract_period": "2025-2027"
+      },
+      "salary_range_2025_2027_year2": {
+        "effective_date": "2026-07-01",
+        "wage_increase_percent": 1.75,
+        "min_hourly": 24.99,
+        "max_hourly": 36.28,
+        "min_annual": 52039,
+        "max_annual": 75502,
+        "contract_period": "2025-2027"
+      },
+      "step_count": "unknown — multi-step grade, exact count not accessible",
+      "notes": "Hourly rates calculated to nearest cent. Annual equivalent assumes 2080 hours/year. Step increases estimated at 3.55% annually within grade."
+    },
+    "Disability Examiner Supervisor": {
+      "status": "unconfirmed",
+      "note": "No verified MAPE class code found for supervisor role. May be classified under general MAPE supervisor categories or AFSCME Council 5 / MMA (Minnesota Managers Association). Direct inquiry to DEED HR required for confirmation."
+    }
+  },
+  "wage_increase_history": {
+    "2023-2025": [
+      {
+        "effective_date": "2023-07-01",
+        "increase_percent": 5.5
+      },
+      {
+        "effective_date": "2024-07-01",
+        "increase_percent": 4.5
+      }
+    ],
+    "2025-2027": [
+      {
+        "effective_date": "2025-07-01",
+        "increase_percent": 1.5
+      },
+      {
+        "effective_date": "2026-07-01",
+        "increase_percent": 1.75
+      }
+    ]
+  },
+  "research_metadata": {
+    "research_date": "2026-05-08",
+    "data_completeness": "partial — examiner confirmed, supervisor unconfirmed",
+    "sources": [
+      "https://mn.gov/mmb-stat/hr-toolbox/002-class-and-compensation/001-classification/class-specs/d/0871-disability-examiner.pdf",
+      "https://mape.org/sites/default/files/files/2023-2025_pay_grids_0.pdf",
+      "https://mape.org/contract",
+      "https://mn.gov/mmb-stat/000/az/labor-relations/mape/2025-2027/MAPE-Summary-of-Contract-Changes-2025-2027.pdf",
+      "https://mape.org/news/mape-members-secure-tentative-2025-2027-contract-agreement",
+      "https://mn.gov/deed/dds/"
+    ]
+  }
+}

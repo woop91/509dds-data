@@ -1,0 +1,61 @@
+{
+  "state": "CA",
+  "administering_agency": "California Department of Social Services (CDSS), Disability Determination Service Division (DDSD)",
+  "salary_schedule_url": "https://www.calhr.ca.gov/about-calhr/divisions-programs/personnel-management/pay-scales/ [INACCESSIBLE as of 2026-05-08]",
+  "effective_date": "[UNKNOWN — calhr.ca.gov pay scale PDFs return 404/HTML errors]",
+  "fiscal_year": "[UNKNOWN]",
+  "bargaining_status": "SEIU Local 1000, Bargaining Unit 4 (Office and Allied); CBA 2024–2027 (union confirmed; rates not yet retrieved)",
+  "step_basis": "monthly (× 12 = annual) [ASSUMED per CA civil service standard]",
+  "research_status": "INCOMPLETE — CalHR website access errors prevent retrieval of class codes and salary schedules",
+  "research_date": "2026-05-08",
+  "notes": [
+    "Disability Evaluation Analyst series expected: DEA I, DEA II, DEA III",
+    "Supervisors (DEA Supervisor or Staff Services Manager) likely excluded from SEIU; in CASE or unrepresented",
+    "CalHR eServices tool (https://eservices.calhr.ca.gov/) requires interactive web access; not accessible via automated fetch",
+    "Alternative source: CA State Controller Payroll Database (https://gcc.sco.ca.gov/) requires interactive queries",
+    "SEIU Local 1000 contract (2024–2027) confirmed to exist; specific DEA wage scales not yet extracted"
+  ],
+  "classes": {
+    "Disability Evaluation Analyst I": {
+      "class_code": "[BLOCKED: CalHR lookup unavailable]",
+      "monthly_min": null,
+      "monthly_max": null,
+      "annual_min": null,
+      "annual_max": null
+    },
+    "Disability Evaluation Analyst II": {
+      "class_code": "[BLOCKED: CalHR lookup unavailable]",
+      "monthly_min": null,
+      "monthly_max": null,
+      "annual_min": null,
+      "annual_max": null
+    },
+    "Disability Evaluation Analyst III": {
+      "class_code": "[BLOCKED: CalHR lookup unavailable]",
+      "monthly_min": null,
+      "monthly_max": null,
+      "annual_min": null,
+      "annual_max": null
+    },
+    "Disability Evaluation Analyst Supervisor (or Staff Services Manager I)": {
+      "class_code": "[BLOCKED: CalHR lookup unavailable — likely excluded from bargaining]",
+      "bargaining_unit": "Excluded (CASE or unrepresented)",
+      "monthly_min": null,
+      "monthly_max": null,
+      "annual_min": null,
+      "annual_max": null
+    }
+  },
+  "data_quality_flags": {
+    "class_codes_verified": false,
+    "pay_grades_verified": false,
+    "cba_terms_verified": true,
+    "confidence": "low"
+  },
+  "access_blockers": [
+    "CalHR pay scale PDFs (calhr.ca.gov) — HTTP 404 and HTML redirect errors",
+    "CalHR eServices interactive tool — 403 Forbidden, requires browser/session",
+    "Firecrawl credits exhausted — cannot use web scraping API",
+    "CalHR Class Spec lookup (hrnet.calhr.ca.gov) — 404 Not Found"
+  ]
+}

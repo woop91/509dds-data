@@ -1,0 +1,43 @@
+{
+  "state": "MI",
+  "data_status": "INCOMPLETE — firecrawl credits exhausted; MDCS site partially inaccessible",
+  "salary_schedule_url": "https://www.michigan.gov/mdcs/csc/compensation (access blocked)",
+  "seiu_517m_contract_url": "https://seiu517m.org/contracts/ (no direct download visible)",
+  "effective_date": "UNKNOWN",
+  "fiscal_year": "UNKNOWN",
+  "bargaining_status": "SEIU Local 517M / HSS (Human Services Support) — presumed CBA 2025-2027 (NOT VERIFIED)",
+  "step_basis": "biweekly (× 26 for annual) — presumed standard MI practice",
+  "classes": {
+    "Disability Examiner (presumed)": {
+      "data_status": "NOT FOUND",
+      "class_code": "UNKNOWN",
+      "pay_grade": "UNKNOWN (P-11? P-12?)",
+      "min": null,
+      "max": null,
+      "step_count": null,
+      "notes": "Classification and pay grade NOT YET VERIFIED against MDCS classification database"
+    },
+    "Supervisor, Disability Examination (presumed)": {
+      "data_status": "NOT FOUND",
+      "class_code": "UNKNOWN",
+      "pay_grade": "UNKNOWN",
+      "min": null,
+      "max": null,
+      "step_count": null,
+      "notes": "Supervisor classification NOT YET VERIFIED"
+    }
+  },
+  "research_blockers": [
+    "Michigan MDCS compensation page (https://www.michigan.gov/mdcs/csc/compensation/) returns 404 or Gravity Forms boilerplate",
+    "SEIU Local 517M contracts page (https://seiu517m.org/contracts/) has no direct PDF download links visible in HTML",
+    "Firecrawl out of credits — cannot scrape JS-rendered content",
+    "Michigan state website restructuring — historical pay schedule URLs no longer functional"
+  ],
+  "alternate_sources_not_yet_tried": [
+    "BLS OES SOC 43-4061 (Eligibility Interviewers) for Michigan state-level wage estimates",
+    "Michigan state job postings (Indeed, LinkedIn, StateJobs.com) for DDS salary ranges",
+    "FOIA request to MDHHS DDS for personnel files / pay schedules",
+    "Direct phone contact: Michigan Civil Service Commission compensation office"
+  ],
+  "research_date": "2026-05-08"
+}

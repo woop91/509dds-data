@@ -1,0 +1,55 @@
+{
+  "state": "HI",
+  "administering_agency": "Hawaii Department of Human Services (DHS), Disability Determination Branch (DDB)",
+  "salary_schedule_url": "https://dhrd.hawaii.gov/state-personnel-system/classes-and-pay/pay-plan-salary-schedules/ [NOT YET ACCESSED as of 2026-05-08]",
+  "effective_date": "[UNKNOWN — DHRD BU 13 salary schedule PDF not yet retrieved]",
+  "fiscal_year": "[UNKNOWN]",
+  "bargaining_status": "HGEA / AFSCME Unit 13 (Professional and Scientific); CBA biennial cycle — 2023–2025 or 2025–2027 contract current (status unclear; contract terms not yet retrieved)",
+  "pay_structure": "Annual salary, Hawaii uses Salary Range (SR) system with steps (e.g., SR-22 min/midpoint/max)",
+  "research_status": "INCOMPLETE — DHRD salary schedule and HGEA contract documents not yet accessible",
+  "research_date": "2026-05-08",
+  "notes": [
+    "Hawaii DHS Disability Determination Branch is the administering agency",
+    "Examiner class title likely: 'Disability Determination Examiner' or 'Disability Claims Examiner' [unverified]",
+    "Supervisors assumed excluded from Unit 13; likely fall under management or at-will status",
+    "DHRD website (https://dhrd.hawaii.gov/) is the authoritative source for class codes and pay schedules",
+    "HGEA (https://www.hgea.org/) union website; specific 2025–2027 CBA document not yet accessed",
+    "Hawaii state employee payroll uses SR (Salary Range) system; each SR has min/midpoint/max with step progression",
+    "CBA term status: biennial cycle — verify whether 2023–2025 or 2025–2027 contract is current",
+    "AFSCME affiliation: HGEA is an AFSCME-affiliated union in Hawaii"
+  ],
+  "classes": {
+    "Disability Determination Examiner (or Disability Claims Examiner)": {
+      "class_code": "[BLOCKED: DHRD class spec lookup unavailable]",
+      "salary_range_code": "[BLOCKED: DHRD BU 13 pay table unavailable]",
+      "annual_min": null,
+      "annual_midpoint": null,
+      "annual_max": null,
+      "step_count": null
+    },
+    "Disability Determination Examiner Supervisor (or Supervising Disability Claims Examiner)": {
+      "class_code": "[BLOCKED: DHRD class spec lookup unavailable — likely excluded from Unit 13 bargaining]",
+      "salary_range_code": "[BLOCKED: DHRD BU 13 pay table unavailable]",
+      "bargaining_unit": "Excluded (management or at-will status — unverified)",
+      "annual_min": null,
+      "annual_midpoint": null,
+      "annual_max": null,
+      "step_count": null
+    }
+  },
+  "data_quality_flags": {
+    "class_codes_verified": false,
+    "pay_grades_verified": false,
+    "class_titles_verified": false,
+    "cba_terms_verified": false,
+    "cba_current_year_verified": false,
+    "confidence": "very_low"
+  },
+  "access_blockers": [
+    "DHRD BU 13 salary schedule PDF — not yet located or accessed",
+    "DHRD class specification database — access method not yet determined",
+    "HGEA 2025–2027 CBA document — contract language and wage tables not yet accessed",
+    "Hawaii state payroll eServices — access requirements and availability unknown",
+    "Firecrawl search results — searches for 'Hawaii DHS disability examiner salary' did not return relevant DHRD/HGEA documents"
+  ]
+}

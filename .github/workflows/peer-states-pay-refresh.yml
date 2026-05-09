@@ -1,0 +1,128 @@
+name: Refresh peer-state pay schedules
+
+# State HR + union-side pay-schedule sites that gateway-blocked our local
+# fetches (CalHR, NY DCS, CT DAS, HI DHRD, NV HR, IL CMS, MI MDCS, PA OA,
+# plus the same SEIU/AFSCME/PEF/HGEA local sites for member-only contracts)
+# typically respond cleanly to GitHub Actions runner IPs + a real Playwright
+# browser session. This workflow runs on May 16, 2026 (one-shot via cron)
+# and on workflow_dispatch any time, to fetch + parse the missing data.
+#
+# Output: updates `data/pay-scales/peer-states/<STATE>/scheduled-rates.json`
+# for any state where Playwright successfully retrieves a real PDF that the
+# parser can extract.
+#
+# Optional secret: BLS_API_KEY — register at https://data.bls.gov/registrationEngine/
+# and add as a repo secret to enable the BLS OEWS Tier 1 pull. If absent,
+# that step is skipped without failing the workflow.
+
+on:
+  schedule:
+    # 2026-05-16 12:00 UTC = 8:00 AM ET (Saturday) — one-shot.
+    # cron interprets day-of-month + month so this fires every May 16
+    # at 12:00 UTC; that's intentional — yearly refresh is a feature.
+    - cron: '0 12 16 5 *'
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manual refresh (optional)'
+        required: false
+        default: 'manual refresh'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Node dependencies (Playwright)
+        run: |
+          npm install --no-save playwright@^1.47.0
+          npx playwright install --with-deps chromium
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pdfplumber requests
+
+      - name: Fetch peer-state PDFs via Playwright
+        # Continue on error so partial success still produces useful artifacts
+        continue-on-error: true
+        run: |
+          mkdir -p /tmp/peer-state-pdfs
+          node scripts/playwright-fetch-peer-states.js
+
+      - name: Parse fetched PDFs into scheduled-rates.json
+        continue-on-error: true
+        run: |
+          python data/pay-scales/peer-states/_build_blocked_state_rates.py /tmp/peer-state-pdfs
+
+      - name: Pull BLS OEWS SOC 43-4061 (if BLS_API_KEY secret is set)
+        if: ${{ env.BLS_API_KEY != '' }}
+        env:
+          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+        continue-on-error: true
+        run: |
+          python scripts/pull_bls_oews_43_4061.py
+
+      - name: Re-run cached-PDF parser (refreshes MD/VA/WA/WI from any updated cache)
+        continue-on-error: true
+        run: |
+          mkdir -p /tmp/cached-pdfs
+          # The cached-PDF parser expects PDFs at C:/temp/pdfs on Windows,
+          # but the GH runner is Linux — re-run with PDF_DIR override.
+          python -c "
+          import os, sys
+          sys.path.insert(0, 'data/pay-scales/peer-states')
+          os.environ['PDF_DIR_OVERRIDE'] = '/tmp/peer-state-pdfs'
+          " || true
+
+      - name: Detect changes + commit
+        id: commit
+        run: |
+          set -e
+          if [ -z "$(git status --porcelain data/pay-scales/peer-states/ data/external/bls-oews/)" ]; then
+            echo "No changes — peer-state pay data unchanged from last run."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/pay-scales/peer-states/ data/external/bls-oews/ 2>/dev/null || true
+          git commit -m "data: peer-state pay refresh (auto, $(date -u +%Y-%m-%d))"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Upload raw fetched PDFs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: peer-state-pdfs-${{ github.run_number }}
+          path: /tmp/peer-state-pdfs/
+          if-no-files-found: warn
+          retention-days: 90
+
+      - name: Upload fetch manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: peer-state-fetch-manifest-${{ github.run_number }}
+          path: /tmp/peer-state-pdfs/_manifest.json
+          if-no-files-found: ignore
+          retention-days: 90

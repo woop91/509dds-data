@@ -1,7 +1,9 @@
 {
-  "$comment": "Cross-state pay summary for state DDS examiners and first-line supervisors. Peer set is the same population-peer group used in docs/peer-states-comparison.json (states within ~6-8M population). All annual figures are USD. Data quality varies — see 'data_quality' field per state. Supervisor figure for MA is from CTHRU actual-paid 2023 (Chief VDE chart-rate equivalent not yet extracted into pay-scales/); peer states are scheduled/contracted rates from official PDFs.",
+  "$comment": "Cross-state pay summary for state DDS examiners and first-line supervisors. Two peer sets in scope: (1) population peers (states ~6-8M) for workload comparison; (2) bargaining peers (states with confirmed DDS examiner CBAs) for salary-comparison briefs. All annual figures are USD. Data quality varies — see 'data_quality' field per state. Supervisor figure for MA is from CTHRU actual-paid 2023 (Chief VDE chart-rate equivalent not yet extracted into pay-scales/); peer states are scheduled/contracted rates from official PDFs where extractable.",
   "generated": "2026-05-08",
   "peer_population_set": ["MA", "TN", "AZ", "IN", "MD", "VA", "WA", "MO", "WI"],
+  "peer_bargaining_set": ["MA", "MD", "WA", "NY", "CT", "PA", "MN", "CA", "NV", "NJ", "IL", "MI", "OR", "AK", "HI", "MT", "ME", "VT"],
+  "peer_bargaining_set_notes": "Per _us-dds-union-landscape.md. The 9 states with confirmed CBAs are first; the rest have likely CBAs needing class-level verification. This pull added NY, CA, OR, MN, NJ, CT, HI to the data set on top of the original population peers; remaining bargaining peers (NV, IL, MI, AK, MT, ME, VT, PA) still need their own pulls.",
   "role_scope": "examiners + first-line supervisors",
   "tier1_bls_oews": {
     "status": "deferred",
@@ -205,15 +207,221 @@
       "bargaining_status": "limited state-employee bargaining; specifics out of scope",
       "data_quality": "very low — class title not located in public records",
       "sources": ["MO/research-notes.md"]
+    },
+    "MN": {
+      "agency": "MN Department of Employment and Economic Development (DEED), Disability Determination Services Division",
+      "examiner": {
+        "title": "Disability Examiner (class 0871)",
+        "class_codes": "0871",
+        "pay_grades": "Compensation grid 14G, code 07L",
+        "scheduled_rate_source": "MMB MAPE Salary Plan, MAPE 2025-2027 contract effective 2025-07-01",
+        "annual_min": 51140,
+        "annual_max": 74174,
+        "annual_min_year2": 52039,
+        "annual_max_year2": 75502,
+        "notes": "MAPE 2025-27 wage adjustments: +1.5% (2025-07-01), +1.75% (2026-07-01)."
+      },
+      "supervisor": {
+        "title": "unconfirmed — likely AFSCME Council 5 or MMA (Minnesota Managers Association)",
+        "scheduled_rate_source": "TBD"
+      },
+      "bargaining_status": "MAPE Unit 214 (independent professional union, not AFSCME-affiliated)",
+      "data_quality": "high for examiner; supervisor pending",
+      "sources": ["MN/scheduled-rates.json", "MN/research-notes.md"]
+    },
+    "OR": {
+      "agency": "Oregon Department of Human Services (DHS), Vocational Rehabilitation Division, Disability Determination Services",
+      "examiner": {
+        "title": "Disability Analyst 1 / Disability Analyst 2",
+        "class_codes": "5926 (Analyst 1) / 5927 (Analyst 2)",
+        "pay_grades": "Oregon DAS pay grid — exact range not extractable from portal",
+        "scheduled_rate_source": "ZipRecruiter market average (Aug 2025); official OR DAS portal not directly fetchable",
+        "annual_min_estimate": 50000,
+        "annual_max_estimate": 75000,
+        "annual_avg_market_2025": 77458,
+        "estimate_caveat": "class codes are confirmed; scheduled rates estimated only"
+      },
+      "supervisor": {
+        "title": "Disability Analysis and Adjudication Manager 3",
+        "class_codes": "7193",
+        "scheduled_rate_source": "estimate only",
+        "annual_min_estimate": 85000,
+        "annual_max_estimate": 110000
+      },
+      "bargaining_status": "SEIU Local 503 / OPEU — DHS Coalition CBA (2023-2025; 2025-2027 in negotiation)",
+      "data_quality": "medium — class codes confirmed, scheduled rates estimated",
+      "sources": ["OR/scheduled-rates.json", "OR/research-notes.md"]
+    },
+    "NY": {
+      "agency": "NY Office of Temporary and Disability Assistance (OTDA), Division of Disability Determinations",
+      "examiner": {
+        "title": "Disability Analyst Trainee / Disability Analyst 1 / Disability Analyst 2",
+        "class_codes": "verified job series; specific SG numbers not extracted",
+        "pay_grades": "TBD (likely SG-14 to SG-23 based on PS&T conventions)",
+        "scheduled_rate_source": "PEF salary chart effective 2025-04 (4% raise) — gateway sites blocked automated fetch this session",
+        "estimate_caveat": "title series confirmed; PS&T salary schedule PDF not yet pulled — needs manual fetch from cs.ny.gov or PEF"
+      },
+      "supervisor": {
+        "title": "TBD — typically separate M/C exempt or supervisory unit",
+        "scheduled_rate_source": "TBD"
+      },
+      "bargaining_status": "PEF (Public Employees Federation, AFL-CIO/SEIU/AFT) Bargaining Unit 5 — Professional, Scientific & Technical, CBA 2023-04 → 2026-04 (4% raise eff 2025-04)",
+      "data_quality": "low for pay numbers, high for bargaining-unit context",
+      "sources": ["NY/scheduled-rates.json", "NY/research-notes.md"]
+    },
+    "CA": {
+      "agency": "California Department of Social Services (CDSS), Disability Determination Service Division (DDSD)",
+      "examiner": {
+        "title": "Disability Evaluation Analyst I / II / III (DEA series)",
+        "class_codes": "BLOCKED — CalHR class spec system rejected automated lookup this session",
+        "scheduled_rate_source": "CalHR Pay Scale + SEIU Local 1000 contract appendix; both gateway-blocked this session",
+        "estimate_caveat": "DEA series confirmed; class codes + monthly/annual amounts pending manual CalHR or SCO publicpay.ca.gov lookup"
+      },
+      "supervisor": {
+        "title": "DEA Supervisor or Staff Services Manager I — typically excluded from rank-and-file BU; in CASE or M/C exempt",
+        "scheduled_rate_source": "TBD"
+      },
+      "bargaining_status": "SEIU Local 1000 Bargaining Unit 4 (Office and Allied), CBA 2024-2027",
+      "data_quality": "low for pay numbers, high for bargaining-unit context",
+      "sources": ["CA/scheduled-rates.json", "CA/research-notes.md"]
+    },
+    "CT": {
+      "agency": "CT Department of Social Services (DSS), Disability Determination Services unit",
+      "examiner": {
+        "title": "Disability Determination Examiner / Adjudicator",
+        "class_codes": "PENDING_VERIFICATION",
+        "pay_grades": "CT salary group SG-21 to SG-23 (typical for P-2; not directly verified)",
+        "scheduled_rate_source": "CT DAS Salary Plans — direct PDF fetch returned HTML this session",
+        "estimate_caveat": "P-2 unit and SEBAC long-term CBA are confirmed; specific class codes and SG assignments need manual fetch from portal.ct.gov"
+      },
+      "supervisor": {
+        "title": "Disability Determination Supervisor",
+        "pay_grades": "estimated SG-24 to SG-26 (P-3 supervisory unit)",
+        "scheduled_rate_source": "TBD"
+      },
+      "bargaining_status": "AFSCME Local 714 / SEBAC P-2 (Social and Human Services), CBA 2017 → 2027",
+      "data_quality": "low for pay numbers, high for bargaining-unit context",
+      "sources": ["CT/scheduled-rates.json", "CT/research-notes.md"]
+    },
+    "HI": {
+      "agency": "Hawaii Department of Human Services (DHS), Disability Determination Branch",
+      "examiner": {
+        "title": "Disability Determination Examiner (or Disability Claims Examiner — both used)",
+        "class_codes": "BLOCKED — HI DHRD class spec lookup not directly fetchable",
+        "pay_grades": "HI BU 13 SR-(unknown) range — likely SR-22+",
+        "scheduled_rate_source": "HI DHRD Salary Schedule for BU 13 — not pulled this session",
+        "estimate_caveat": "Unit 13 coverage confirmed; specific SR range and pay table pending manual DHRD or HGEA fetch"
+      },
+      "supervisor": {
+        "title": "TBD — typically excluded from BU 13",
+        "scheduled_rate_source": "TBD"
+      },
+      "bargaining_status": "HGEA / AFSCME Unit 13 (Professional and Scientific); biennial CBA cycle, 2023-2025 or 2025-2027 currency unverified",
+      "data_quality": "very low for pay numbers; bargaining-unit context confirmed",
+      "sources": ["HI/scheduled-rates.json", "HI/research-notes.md"]
+    },
+    "NJ": {
+      "agency": "NJ Department of Labor and Workforce Development (NJDOL), Division of Disability Determination Services",
+      "examiner": {
+        "title": "Claims Adjudicator (NJ CSC Job Spec #64947)",
+        "class_codes": "Job Spec #64947 (verified); Range/Step pending CSC pay table",
+        "scheduled_rate_source": "Glassdoor aggregated estimates; CWA/IFPTE official tables not extracted",
+        "annual_min_estimate": 53560,
+        "annual_max_estimate": 68777,
+        "estimate_caveat": "third-party aggregators only"
+      },
+      "supervisor": {
+        "title": "Senior Claims Adjudicator (or Claims Adjudicator Supervisor)",
+        "annual_min_estimate": 67000,
+        "annual_max_estimate": 93909,
+        "scheduled_rate_source": "ZipRecruiter aggregate estimates"
+      },
+      "bargaining_status": "CWA Local 1036 (likely; IFPTE Local 195 possible) — NJ State Executive Branch CBA 2023-2027",
+      "data_quality": "medium for context, low for pay numbers",
+      "sources": ["NJ/scheduled-rates.json", "NJ/research-notes.md"]
+    },
+    "PA": {
+      "agency": "PA Department of Labor & Industry (DLI), Bureau of Disability Determination",
+      "examiner": {
+        "title": "Disability Examiner I / II",
+        "class_codes": "PA OA Standard Pay Schedule classes (specific codes not verified)",
+        "pay_grades": "SC-09 (Examiner I) / SC-10 (Examiner II) — agent-inferred, NOT verified against PA OA schedule",
+        "scheduled_rate_source": "Job-posting estimates only; PA OA pay schedule PDFs require login; SEIU 668 contract appendix not directly downloadable",
+        "annual_min_estimate": 52000,
+        "annual_max_estimate": 76000,
+        "estimate_caveat": "agent-inferred pay grades; needs PA OA verification"
+      },
+      "supervisor": {
+        "title": "Medical-Vocational Supervisor",
+        "pay_grades": "SC-11 to SC-12 (estimated)",
+        "annual_min_estimate": 68000,
+        "annual_max_estimate": 88000,
+        "scheduled_rate_source": "estimates only"
+      },
+      "bargaining_status": "SEIU Local 668 (Pennsylvania Social Services Union) — Master Agreement 2023-2027",
+      "data_quality": "low for pay numbers, high for bargaining-unit context",
+      "sources": ["PA/scheduled-rates.json", "PA/research-notes.md"]
+    },
+    "NV": {
+      "agency": "NV Department of Employment, Training and Rehabilitation (DETR), Bureau of Disability Adjudication",
+      "examiner": {
+        "title": "Disability Adjudicator (or Disability Examiner — class title not verified)",
+        "class_codes": "TBD — NV state HR salary schedule requires JS rendering",
+        "scheduled_rate_source": "BLOCKED — hr.nv.gov salary schedule page is JS-only; AFSCME 4041 contract behind member portal",
+        "estimate_caveat": "no quantitative data extracted"
+      },
+      "supervisor": {
+        "title": "Disability Adjudication Supervisor (presumed)",
+        "scheduled_rate_source": "TBD"
+      },
+      "bargaining_status": "AFSCME Local 4041 (NSEA), Unit C — formalized August 2024 (NEWEST DDS CBA in country, post-AB 271 of 2019)",
+      "data_quality": "very low for pay numbers; bargaining-unit context confirmed",
+      "sources": ["NV/scheduled-rates.json", "NV/research-notes.md"]
+    },
+    "IL": {
+      "agency": "Illinois Department of Human Services (IDHS), Bureau of Disability Determination Services",
+      "examiner": {
+        "title": "Disability Adjudicator (multi-level series presumed)",
+        "class_codes": "TBD — IL CMS pay plan PDFs not extracted; council31.org timed out",
+        "scheduled_rate_source": "BLOCKED — IL CMS + AFSCME Council 31 sites returned timeouts/404s",
+        "estimate_caveat": "no quantitative data extracted"
+      },
+      "supervisor": {
+        "title": "TBD",
+        "scheduled_rate_source": "TBD"
+      },
+      "bargaining_status": "AFSCME Council 31 — Master Contract 2023-2027; likely RC-62 (Human Services Professional) bargaining unit",
+      "data_quality": "very low for pay numbers; bargaining-unit context confirmed",
+      "sources": ["IL/scheduled-rates.json", "IL/research-notes.md"]
+    },
+    "MI": {
+      "agency": "Michigan Department of Health and Human Services (MDHHS), Disability Determination Services",
+      "examiner": {
+        "title": "Disability Examiner (P-grade structure presumed)",
+        "class_codes": "TBD — MI MCSC class spec lookup not directly fetchable",
+        "scheduled_rate_source": "BLOCKED — SEIU 517M contracts behind member portal; MDCS compensation pages partially unavailable",
+        "estimate_caveat": "no quantitative data extracted"
+      },
+      "supervisor": {
+        "title": "TBD",
+        "scheduled_rate_source": "TBD"
+      },
+      "bargaining_status": "SEIU Local 517M / HSS (Human Services Support) — CBA 2025-2027",
+      "data_quality": "very low for pay numbers; bargaining-unit context confirmed",
+      "sources": ["MI/scheduled-rates.json", "MI/research-notes.md"]
     }
   },
   "data_quality_summary": {
-    "high": ["MA", "MD", "VA", "WA"],
-    "low": ["WI", "TN", "AZ", "IN", "MO"],
+    "high": ["MA", "MD", "VA", "WA", "MN"],
+    "medium": ["OR", "NJ", "PA"],
+    "low": ["WI", "TN", "AZ", "IN", "MO", "NY", "CA", "CT", "HI", "NV", "IL", "MI"],
+    "low_for_pay_high_for_context": ["NY", "CA", "CT", "HI", "PA", "NV", "IL", "MI"],
     "high_quality_observations": [
       "MA examiner peak (VDE III max, $115,429) is the highest in the high-quality peer group except MD supervisor max ($133,951).",
       "MA examiner entry (VDE I step 1, $73,555) is higher than MD examiner entry ($62,220) and roughly tied with WA examiner peak (Adj 3 max, $84,984) — note: comparing entry vs. peak across grades.",
-      "VA pay bands are extremely wide and most useful via 'starting salary' DDS-internal rates ($54k Trainee → $105k Supervisor)."
+      "VA pay bands are extremely wide and most useful via 'starting salary' DDS-internal rates ($54k Trainee → $105k Supervisor).",
+      "MN examiner pay ($51k–$74k under MAPE 2025-27) is meaningfully below MA's VDE I floor ($73k) — suggesting MA's bargained rate has out-paced MN's, despite both being unionized peer states.",
+      "NY/CA/CT/HI pay numbers were not extracted this session due to gateway-site blocking; these states' bargaining-unit context (PEF, SEIU 1000, AFSCME 714, HGEA Unit 13) IS confirmed and useful for the union-density argument even without scheduled rates."
     ]
   },
   "follow_up_data_gaps": [
@@ -221,6 +429,81 @@
     "MA Chief VDE chart-rate equivalent (currently using CTHRU 2023 actual-paid)",
     "WA class 953 → salary range mapping (likely Range 62 but unconfirmed)",
     "WI class 49201/49220 → pay range mapping (encoded PDF)",
-    "TN/AZ/IN/MO authoritative scheduled rates (require state HR direct contact or alternate document sourcing)"
-  ]
+    "TN/AZ/IN/MO authoritative scheduled rates (require state HR direct contact or alternate document sourcing)",
+    "NY PEF Bargaining Unit 5 PS&T salary schedule — gateway sites cs.ny.gov + pef.org rejected automated fetch this session; needs browser-based PDF download",
+    "CA Disability Evaluation Analyst (DEA) class codes + pay scale — CalHR class spec system not directly fetchable; SEIU Local 1000 contract appendix is the alternative",
+    "CT Disability Determination Examiner class code + SG assignment — CT DAS Salary Plans page returned HTML (not PDF) on direct fetch",
+    "HI Disability Determination Examiner SR class + Unit 13 BU schedule — DHRD class spec lookup not directly fetchable; HGEA contracts page also gateway-blocked",
+    "NJ Claims Adjudicator Range/Step from CSC pay table — official CWA/IFPTE 2023-2027 salary appendix not extracted; Glassdoor estimates only currently",
+    "OR Disability Analyst 1/2 (codes 5926/5927) + DA&A Mgr 3 (7193) scheduled-rate values — DAS portal is interactive-only (no static PDF); needs browser session",
+    "Remaining bargaining peers not yet pulled: AK, MT, ME, VT (per _us-dds-union-landscape.md Tier B/C)",
+    "PA SC-09/SC-10 pay-grade assignments — agent-inferred but unverified against PA OA Standard Pay Schedule",
+    "NV state HR salary schedule (JS-only page) + AFSCME 4041 Aug 2024 contract terms",
+    "IL CMS pay plan + AFSCME Council 31 RC-62 schedule appendix (council31.org timed out, sites blocked)",
+    "MI MCSC class spec for examiner P-grade + SEIU 517M HSS schedule appendix (member portal)"
+  ],
+  "manual_fetch_workflow_for_blocked_states": {
+    "$comment": "Each state below has a known gateway URL where the missing data lives. The blocking is automation-only; a human browser session retrieves the PDFs cleanly. Capturing the URLs here so a future session can either (a) ask the user to drop the PDFs into C:/temp/pdfs/peer2/ or (b) try a different fetch path (Wayback, browser MCP, etc.).",
+    "NY": {
+      "target": "PEF PS&T Salary Schedule effective 2025-04 (4% raise)",
+      "manual_url": "https://www.cs.ny.gov/businesssuite/payinfo/salary/Compensation%20Plans/",
+      "alt_url": "https://www.pef.org/salary-charts/",
+      "notes": "Look for SG-14 / SG-18 / SG-23 candidate grades; Disability Analyst series typically maps to SG-14 → SG-23"
+    },
+    "CA": {
+      "target": "CalHR Pay Scale section for DEA I/II/III + DEA Supervisor",
+      "manual_url": "https://www.calhr.ca.gov/Pages/Pay-Scales.aspx",
+      "alt_url": "https://www.seiu1000.org/contract",
+      "alt_url_2": "https://publicpay.ca.gov (per-employee actuals)",
+      "notes": "Class codes are a 4-digit number; use the alpha index to find the DEA series"
+    },
+    "CT": {
+      "target": "CT DAS AR/AB Pay Plan with P-2 unit schedule",
+      "manual_url": "https://portal.ct.gov/das/statewide-hr/compensation-and-benefits/salary-and-pay-plans",
+      "alt_url": "https://www.council4.org/contracts",
+      "notes": "P-2 unit schedule is in the AFSCME contract appendix; SG-21/22/23 is the typical examiner range"
+    },
+    "HI": {
+      "target": "HI DHRD BU 13 Salary Schedule",
+      "manual_url": "https://dhrd.hawaii.gov/state-personnel-system/classes-and-pay/",
+      "alt_url": "https://www.hgea.org/contracts/",
+      "notes": "BU 13 uses SR (Salary Range) numbering; Disability Determination Examiner likely SR-22 to SR-24"
+    },
+    "NJ": {
+      "target": "NJ CSC pay table for Job Spec #64947 + CWA 2023-2027 salary appendix",
+      "manual_url": "https://info.csc.state.nj.us/jobspec/",
+      "alt_url": "https://cwanjstateworkers.org/",
+      "notes": "Search NJ CSC for spec 64947; CWA Local 1036 maintains the contract pay tables"
+    },
+    "OR": {
+      "target": "OR DAS Compensation Plan for Class 5926 / 5927 / 7193",
+      "manual_url": "https://apps.oregon.gov/DAS/Classification-Compensation/",
+      "alt_url": "https://seiu503.org/your-contract/",
+      "notes": "OR portal is interactive; class codes are confirmed (5926, 5927, 7193) so just need the salary range lookup for each"
+    },
+    "PA": {
+      "target": "PA OA Standard Pay Schedule (verify SC-09, SC-10, SC-11 ranges) + SEIU 668 Master Agreement Appendix",
+      "manual_url": "https://www.oa.pa.gov/Programs/PCOMP/Pages/default.aspx",
+      "alt_url": "https://seiu668.org/contracts-and-constitution/",
+      "notes": "PA OA pay schedule PDFs require login; SEIU 668 contract PDF link not exposed in HTML — may need member portal or direct request"
+    },
+    "NV": {
+      "target": "NV State HR Salary Schedule + AFSCME 4041 August 2024 CBA terms",
+      "manual_url": "https://hr.nv.gov/Resources/SalarySchedule/",
+      "alt_url": "https://nvsea.com OR https://afscme4041.org",
+      "notes": "hr.nv.gov salary page is JavaScript-rendered; AFSCME 4041 Aug 2024 contract is the newest DDS CBA in country — useful precedent context"
+    },
+    "IL": {
+      "target": "IL CMS Pay Plan + AFSCME Council 31 RC-62 contract appendix",
+      "manual_url": "https://cms.illinois.gov/employees/personnel/labor.html",
+      "alt_url": "https://council31.org/contracts/state/",
+      "notes": "council31.org timed out via curl; CMS PDFs not directly addressed; try archive.org if direct paths continue to fail"
+    },
+    "MI": {
+      "target": "MI Civil Service Commission class spec for Disability Examiner + SEIU 517M HSS contract",
+      "manual_url": "https://www.michigan.gov/mdcs",
+      "alt_url": "https://seiu517m.org/contracts/",
+      "notes": "MI MCSC class spec lookup is JS-driven; SEIU 517M contracts page lists docs but PDFs may be member-only"
+    }
+  }
 }

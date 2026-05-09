@@ -1,0 +1,51 @@
+{
+  "state": "IL",
+  "salary_schedule_url": "https://cms.illinois.gov/personnel/employeeresources/personnelpayplan.html",
+  "contract_source": "https://council31.org/contracts/state/",
+  "effective_date": "2023-2027 (AFSCME Council 31 Master Contract)",
+  "fiscal_year": "FY26 (pending update to FY27)",
+  "bargaining_status": "AFSCME Council 31 / RC-62 (Human Services Professional) — Master Contract 2023-2027",
+  "step_basis": "monthly (multiply by 12 for annual)",
+  "data_status": "INCOMPLETE — network failures prevented PDF extraction",
+  "urls_attempted": [
+    {
+      "url": "https://council31.org/contracts/state/",
+      "status": "network timeout",
+      "reason": "Firecrawl: insufficient credits; curl: connection timeout"
+    },
+    {
+      "url": "https://cms.illinois.gov/personnel/employeeresources/personnelpayplan.html",
+      "status": "partial",
+      "reason": "Page reached; detailed pay schedules in linked PDFs (not extracted)"
+    },
+    {
+      "url": "https://www.dhs.state.il.us/page.aspx?item=29765",
+      "status": "network failure",
+      "reason": "HTTPS connection failed; curl: connection timeout"
+    }
+  ],
+  "classes": {
+    "Disability Adjudicator I": {
+      "class_code": "PENDING_VERIFICATION",
+      "pay_grade": "RC-62 (estimated)",
+      "notes": "IL CMS classification system required to confirm; multi-level structure (I/II/III) typical for human services examiners"
+    },
+    "Disability Adjudicator II": {
+      "class_code": "PENDING_VERIFICATION",
+      "pay_grade": "RC-62 (estimated)",
+      "notes": "Mid-level examiner role"
+    },
+    "Disability Adjudicator III": {
+      "class_code": "PENDING_VERIFICATION",
+      "pay_grade": "RC-62 (estimated)",
+      "notes": "Senior/supervisory examiner role"
+    },
+    "Disability Determination Supervisor": {
+      "class_code": "PENDING_VERIFICATION",
+      "pay_grade": "RC-62 (estimated)",
+      "notes": "First-line supervisor; likely higher step or separate grade within RC-62"
+    }
+  },
+  "methodology": "Research halted due to network/credit barriers; documented sources for retry. AFSCME contracts typically publish full pay schedules including step progressions (5-8 steps) in appendix. Illinois maintains centralized state pay plan under CMS direction.",
+  "timestamp": "2026-05-08T00:00:00Z"
+}

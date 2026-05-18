@@ -15,6 +15,7 @@ Open data, source documents, and analysis for **SEIU Local 509's Disability Dete
 | [`data/cthru-staffing/`](data/cthru-staffing/) | MA Comptroller payroll headcount (CTHRU): VDE counts by grade by year, DDS division totals |
 | [`data/ra-process/`](data/ra-process/) | Reasonable Accommodation: state Executive Branch process, application page, MassAbility DDS info, MOD guidance, DLC self-advocacy guide |
 | [`data/labor-rights/`](data/labor-rights/) | Labor rights filing & reference: 12 enforcement agencies (DLR, MCAD, AGO Fair Labor, DLS, DIA, CSC, Ethics, EEOC, DOL WHD, OSHA, NLRB, DFML), 24 filing deadlines, member guide + steward cheat sheet + statute index, queryable [`agencies.json`](data/labor-rights/agencies.json) extract |
+| [`data/workload/`](data/workload/) | Anonymized workload evidence derived from internal management/union memos — week-by-week overtime authorizations + 18-case weekly intake caps (Boston DDS, 2025–2026) |
 | [`data/dds-statistics-master-table.json`](data/dds-statistics-master-table.json) | The filled DDS Statistics master table (operational metrics 2013–2025, with PRR/TBD cells flagged) |
 | [`docs/`](docs/) | Methodology, data dictionary, agency disambiguation, peer-state comparison |
 | [`prr-templates/`](prr-templates/) | Public Records Request templates for filling remaining gaps |

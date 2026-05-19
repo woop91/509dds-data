@@ -77,3 +77,39 @@ Repo content (READMEs, analysis, JSON extracts, PRR templates) — © SEIU Local
 
 - 509 DDS Chapter contact: see project memory
 - Repo issues / data updates: file a GitHub issue or PR
+
+## Security Tooling
+
+This repo runs three security scanners:
+
+- **Semgrep** (SAST) — CI only, on push + PR. Tiered gating: ERROR severity blocks merge, WARNING/INFO are advisory.
+- **Gitleaks** (secrets) — pre-commit hook (staged-only) + CI. Any finding blocks.
+- **Supabase Database Advisors** — N/A (this repo has no database).
+
+### Bypassing for emergencies
+
+```bash
+git commit --no-verify  # skip gitleaks pre-commit (only when justified)
+```
+
+CI bypass requires an allowlist commit with a `# why:` comment in `.gitleaks.toml` or `.semgrepignore`.
+
+### Adding an allowlist entry
+
+- Semgrep: add path or rule-id to `.semgrepignore` with a `# why:` comment.
+- Gitleaks: add path glob to `.gitleaks.toml` `[allowlist].paths`, or commit SHA to `[[allowlist.commits]]`.
+
+### Secret rotation
+
+If gitleaks fired in CI (or a real secret slipped past pre-commit), follow `docs/security/SECRET-ROTATION-RUNBOOK.md` in order.
+
+### Local scans
+
+Both scanners run via Docker (no global install needed):
+
+```bash
+npm run security:scan:gitleaks  # one-shot gitleaks detect
+npm run security:scan:semgrep   # one-shot semgrep scan
+```
+
+Pre-commit hook fires gitleaks automatically on `git commit`.

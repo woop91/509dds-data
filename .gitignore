@@ -19,3 +19,6 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Node tooling (security pre-commit hook host only)
+node_modules/

@@ -36,6 +36,11 @@ jobs:
 
       - name: Semgrep scan
         # PER-REPO: adjust --config list to match repo's stack pack (see plan Phase docs)
+        # GitHub context interpolated via env (not run:) to satisfy
+        # yaml.github-actions.security.run-shell-injection - github.base_ref
+        # could theoretically contain shell metacharacters from a fork PR.
+        env:
+          BASE_REF: ${{ github.base_ref || github.ref_name }}
         run: |
           semgrep scan \
             --config=p/security-audit \
@@ -44,7 +49,7 @@ jobs:
             --config=p/javascript \
             --config=p/python \
             --config=.semgrep.yml \
-            --baseline-commit="$(git merge-base origin/${{ github.base_ref || github.ref_name }} HEAD)" \
+            --baseline-commit="$(git merge-base "origin/$BASE_REF" HEAD)" \
             --json \
             --output=semgrep-results.json \
             --error || echo "::notice::Semgrep exited with findings - see tier check"

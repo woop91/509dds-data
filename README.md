@@ -20,6 +20,16 @@ Open data, source documents, and analysis for **SEIU Local 509's Disability Dete
 | [`docs/`](docs/) | Methodology, data dictionary, agency disambiguation, peer-state comparison |
 | [`prr-templates/`](prr-templates/) | Public Records Request templates for filling remaining gaps |
 
+## Document ingestion
+
+Use the MarkItDown wrapper before turning PDFs, Office files, or other source documents into parsed data. It writes an auditable bundle containing the original file, generated Markdown, metadata, checksum, and converter warnings.
+
+```bash
+npm run ingest:markitdown -- data/source/example.pdf --title "Example Source"
+```
+
+See [`docs/markitdown-ingestion.md`](docs/markitdown-ingestion.md).
+
 ## Headline findings
 
 - **VDE headcount: −44%** from 2019 (232) to 2023 (129) per CTHRU payroll — substantiates "unprecedented staffing vacancies" cited in MA's 2025 Annual Report

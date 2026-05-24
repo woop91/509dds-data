@@ -20,5 +20,9 @@ Thumbs.db
 *.swo
 *~
 
+# Python tooling
+__pycache__/
+*.pyc
+
 # Node tooling (security pre-commit hook host only)
 node_modules/

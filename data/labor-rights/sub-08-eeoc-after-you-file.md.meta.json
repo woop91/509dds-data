@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-08-eeoc-after-you-file",
+  "title": "What You Can Expect After You File an EEOC Charge",
+  "description": "EEOC page describing the post-filing workflow for a private-sector discrimination charge: employer notification within 10 days, optional mediation (often under 3 months), investigation (averaging ~10 months), respondent position-statement process, and possible Notice of Right to Sue — plus rules for amending a charge and prerequisites before filing suit.",
+  "path": "data/labor-rights/sub-08-eeoc-after-you-file.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "U.S. Equal Employment Opportunity Commission (EEOC)", "url": "https://www.eeoc.gov/what-you-can-expect-after-you-file-charge", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "Public domain (federal)",
+  "notes": "Private-sector charges only (federal employees: see sub-08-eeoc-federal-sector). Employer notice within 10 days; respondent position-statement requested within 30 days; EEOC must be allowed 180 days before a Title VII/ADA Right-to-Sue request (60 days for ADEA suits; EPA suits within 2 years of last discriminatory paycheck).",
+  "related": ["labor-rights/08-eeoc", "labor-rights/sub-08-eeoc-how-to-file", "labor-rights/sub-08-eeoc-federal-sector", "labor-rights/sub-08-eeoc-remedies"],
+  "tags": ["eeoc", "employment-discrimination", "charge-process", "federal", "mediation", "investigation"]
+}

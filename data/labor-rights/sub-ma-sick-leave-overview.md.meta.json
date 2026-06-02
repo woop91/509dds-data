@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-ma-sick-leave-overview",
+  "title": "Massachusetts Law About Sick Leave — Trial Court Law Libraries",
+  "description": "MA Trial Court Law Libraries research guide surveying the legal landscape of sick leave in Massachusetts: the earned sick time statute (G.L. c.149 §§148C–148D) and its regulations (940 CMR 33), selected SJC and federal cases interpreting the law (including federal preemption for airline/railroad employees), and curated secondary sources. An annotated legal bibliography rather than a plain-language how-to.",
+  "path": "data/labor-rights/sub-ma-sick-leave-overview.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Trial Court Law Libraries", "url": "https://www.mass.gov/info-details/massachusetts-law-about-sick-leave", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (law-library maintained)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "Publisher is the Trial Court Law Libraries (NOT the AGO). Notable cases: Bodge v. Commonwealth, 494 Mass. 623 (2024) — c.175M does not require employers to guarantee sick/vacation accrual during PFML leave; Mui v. Massport, 478 Mass. 710 (2018) — accrued unused sick time is not 'wages' under the Wage Act. Federal preemption for airline (ADA) and railroad (RUIA) employees. Page last updated Mar 4 2026 (in-file).",
+  "related": ["labor-rights/sub-ago-earned-sick-time", "labor-rights/sub-dfml-pfml-overview"],
+  "tags": ["sick-leave", "c.149", "law-library", "case-law", "earned-sick-time", "legal-research", "massachusetts"]
+}

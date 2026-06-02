@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-08-eeoc-how-to-file",
+  "title": "How to File a Charge of Employment Discrimination — EEOC",
+  "description": "EEOC page on how private-sector workers file a charge of employment discrimination: online via the EEOC Public Portal, in person at a field office, by phone, at a state/local Fair Employment Practices Agency (FEPA), or by mail — including dual-filing with FEPAs and the time-limit rules.",
+  "path": "data/labor-rights/sub-08-eeoc-how-to-file.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "U.S. Equal Employment Opportunity Commission (EEOC)", "url": "https://www.eeoc.gov/how-file-charge-employment-discrimination", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "Public domain (federal)",
+  "notes": "DEADLINE: 180 days from the act where no qualifying FEPA exists; 300 days where a state/local agency enforces a parallel law — Massachusetts qualifies via c.151B, so 300 days for most MA workers. Age-discrimination charges get 300 days only if a STATE (not merely local) agency enforces state age-discrimination law.",
+  "related": ["labor-rights/08-eeoc", "labor-rights/sub-08-eeoc-after-you-file", "labor-rights/sub-08-eeoc-federal-sector", "labor-rights/sub-08-eeoc-remedies"],
+  "tags": ["eeoc", "employment-discrimination", "charge-filing", "federal", "fepa", "dual-filing", "massachusetts"]
+}

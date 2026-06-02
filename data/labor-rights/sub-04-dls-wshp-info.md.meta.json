@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-04-dls-wshp-info",
+  "title": "DLS: Workplace Safety and Health Program — Detailed Information",
+  "description": "MA DLS page describing WSHP inspection operations for public-sector workplaces: inspection priority order (imminent danger, fatality/accident investigation, high-hazard by comp rates, complaints/referrals, follow-up, random programmed), the civil-citation process (up to $1,000 per violation), and site-specific targeting and employer rights/responsibilities.",
+  "path": "data/labor-rights/sub-04-dls-wshp-info.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Department of Labor Standards (DLS)", "url": "https://www.mass.gov/info-details/workplace-safety-and-health-program-information", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "Civil citations carry penalties up to $1,000 per violation with a correction due date; extensions available for diligent progress with interim protections. No explicit complaint-filing deadline; complaints/referrals are one of six ranked inspection triggers.",
+  "related": ["labor-rights/04-ma-dls", "labor-rights/sub-04-dls-wshp-main", "labor-rights/sub-04-dls-report-public-worksite-accident"],
+  "tags": ["DLS", "WSHP", "workplace-safety", "public-sector", "inspection", "civil-citation", "OSHA-state-plan"]
+}

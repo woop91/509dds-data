@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-04-dls-wshp-main",
+  "title": "DLS: Workplace Safety and Health Program (WSHP) — Main Page",
+  "description": "Main landing page for the MA WSHP, recognized as an OSHA State Plan in August 2022, enforcing occupational safety/health across public-sector workplaces (state, county, municipal, public schools, colleges, universities, quasi-government). Federal OSHA retains private-sector jurisdiction. Links to complaint filing, whistleblower protection, SafetyWorks consultation, training, and the public-employee safety poster.",
+  "path": "data/labor-rights/sub-04-dls-wshp-main.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Department of Labor Standards (DLS)", "url": "https://www.mass.gov/workplace-safety-and-health-program-wshp", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "WSHP became a full OSHA State Plan in August 2022, applying to public-sector workers including DDS/MassAbility employees. Contact (508) 616-0461 ext. 1. Includes a public-employee whistleblower-protection program for safety retaliation.",
+  "related": ["labor-rights/04-ma-dls", "labor-rights/sub-04-dls-wshp-info", "labor-rights/sub-04-dls-report-public-worksite-accident"],
+  "tags": ["DLS", "WSHP", "OSHA-state-plan", "workplace-safety", "public-sector", "whistleblower", "SafetyWorks"]
+}

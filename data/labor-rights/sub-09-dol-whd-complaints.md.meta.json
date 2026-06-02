@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-09-dol-whd-complaints",
+  "title": "How to File a Complaint — US DOL Wage and Hour Division",
+  "description": "U.S. DOL Wage and Hour Division page on the confidential complaint process for federal wage-and-hour laws (FLSA, FMLA, and others): what to gather, how to contact WHD (1-866-487-9243 or online), and the four-stage investigation (employer conference, employee interviews, record review, final conference with back-wage resolution).",
+  "path": "data/labor-rights/sub-09-dol-whd-complaints.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "U.S. Department of Labor — Wage and Hour Division (WHD)", "url": "https://www.dol.gov/agencies/whd/contact/complaints", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "Public domain (federal)",
+  "notes": "Complaints are confidential by statute (identity, nature, and existence not disclosed to the employer). No filing deadline stated on the page; FLSA back-wage claims have a 2-year SOL (3 years if willful) under 29 U.S.C. §255; FMLA retaliation within 2 years (3 if willful).",
+  "related": ["labor-rights/09-dol-whd"],
+  "tags": ["dol", "whd", "wage-and-hour", "flsa", "fmla", "complaint", "federal"]
+}

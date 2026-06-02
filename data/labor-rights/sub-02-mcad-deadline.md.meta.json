@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-02-mcad-deadline",
+  "title": "MCAD: Deadline for Filing a Complaint of Discrimination (300-Day Rule)",
+  "description": "MCAD page setting out the statute of limitations for discrimination complaints under M.G.L. c.151B: file within 300 days of the last discriminatory act. Explains three exceptions — CBA-grievance tolling (300 days from when the employee knew/should have known the grieved matter supports a discrimination claim), delayed notice, and equitable tolling for incapacity — each decided case-by-case by the Investigating Commissioner.",
+  "path": "data/labor-rights/sub-02-mcad-deadline.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Commission Against Discrimination (MCAD)", "url": "https://www.mass.gov/info-details/deadline-for-filing-a-complaint-of-discrimination-at-the-mcad", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "KEY DEADLINE: 300 days from the last discriminatory act (c.151B). CBA-grievance exception (300 days from when the employee knew/should have known the grievance supports a discrimination claim) is directly relevant to unionized DDS/MassAbility employees. Missing the period may permanently bar the claim.",
+  "related": ["labor-rights/02-ma-mcad", "labor-rights/sub-02-mcad-file-complaint", "labor-rights/sub-02-mcad-case-process"],
+  "tags": ["MCAD", "filing-deadline", "300-days", "statute-of-limitations", "discrimination", "c.151B", "CBA-tolling"]
+}

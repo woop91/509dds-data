@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-03-ago-file-workplace-complaint",
+  "title": "AGO Fair Labor Division: File a Workplace Complaint",
+  "description": "MA Attorney General's Office page on filing a workplace complaint with the Fair Labor Division — minimum wage, unpaid wages, overtime, independent-contractor misclassification, tip violations, earned sick time, meal-break violations, child labor, domestic-violence leave, prevailing wage, and employment discrimination. Complaints may be filed online, anonymously, and without documents in hand; multilingual forms available.",
+  "path": "data/labor-rights/sub-03-ago-file-workplace-complaint.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Attorney General's Office — Fair Labor Division", "url": "https://www.mass.gov/how-to/file-a-workplace-complaint", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "No explicit SOL stated; AGO may issue warnings, civil citations, criminal charges, or a private-right-of-action letter. Fair Labor Hotline: (617) 727-3465, Mon–Fri 10am–4pm. AGO jurisdiction is primarily private-sector + certain public wage claims; DDS/public employees may have overlapping but distinct remedies.",
+  "related": ["labor-rights/03-ma-ago-fairlabor", "labor-rights/sub-cue-report-workplace-violation"],
+  "tags": ["AGO", "fair-labor-division", "workplace-complaint", "wage-theft", "misclassification", "wage-and-hour", "minimum-wage", "overtime"]
+}

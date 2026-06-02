@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-08-eeoc-remedies",
+  "title": "Remedies for Employment Discrimination — EEOC",
+  "description": "EEOC page summarizing relief available when employment discrimination is found: equitable remedies (placement, reinstatement, back pay, front pay), injunctive relief, compensatory damages (out-of-pocket + emotional harm), punitive damages (malicious/reckless intentional discrimination), attorney's fees, and liquidated damages for intentional ADEA/EPA violations — including per-employer-size statutory caps.",
+  "path": "data/labor-rights/sub-08-eeoc-remedies.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "U.S. Equal Employment Opportunity Commission (EEOC)", "url": "https://www.eeoc.gov/remedies-employment-discrimination", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "Public domain (federal)",
+  "notes": "Combined compensatory + punitive caps by employer size: 15–100 employees = $50,000; 101–200 = $100,000; 201–500 = $200,000; 500+ = $300,000. ADEA/EPA intentional violations yield liquidated damages (equal to back pay) instead of compensatory/punitive.",
+  "related": ["labor-rights/08-eeoc", "labor-rights/sub-08-eeoc-after-you-file", "labor-rights/sub-08-eeoc-how-to-file"],
+  "tags": ["eeoc", "remedies", "employment-discrimination", "damages", "federal"]
+}

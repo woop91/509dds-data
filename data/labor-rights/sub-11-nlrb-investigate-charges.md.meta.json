@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-11-nlrb-investigate-charges",
+  "title": "Investigate Charges — NLRB",
+  "description": "NLRB page describing how the agency investigates unfair-labor-practice (ULP) charges under Section 8 of the NLRA: charge filing, Board-agent investigation and affidavits, Regional Director merit determination (typically 7–14 weeks), settlement efforts, complaint issuance, Administrative Law Judge hearing, and appeal to the NLRB Office of Appeals — plus Section 10(j) injunctions and make-whole remedies.",
+  "path": "data/labor-rights/sub-11-nlrb-investigate-charges.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "National Labor Relations Board (NLRB)", "url": "https://www.nlrb.gov/about-nlrb/what-we-do/investigate-charges", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "Public domain (federal)",
+  "notes": "DEADLINE: a ULP charge must be filed within 6 months of the alleged violation (NLRA §10(b)); appeal of a dismissed charge to the Office of Appeals within 2 weeks of dismissal. The NLRB cannot assess monetary penalties; remedies are make-whole (reinstatement, backpay) and notice posting.",
+  "related": ["labor-rights/11-nlrb", "labor-rights/sub-11-nlrb-employee-rights", "labor-rights/sub-11-nlrb-employer-union-obligations"],
+  "tags": ["nlrb", "nlra", "ulp", "unfair-labor-practice", "investigation", "charges", "federal"]
+}

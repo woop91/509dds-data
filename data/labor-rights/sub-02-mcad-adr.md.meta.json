@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-02-mcad-adr",
+  "title": "MCAD: Alternative Dispute Resolution (ADR) — Mediation and Conciliation",
+  "description": "MCAD page describing three ADR tracks in discrimination cases: voluntary early mediation (post-complaint, pre-determination), mandatory conciliation (post-probable-cause, required by M.G.L. c.151B), and voluntary late mediation (post-discovery). MCAD ADR is free and conducted by full-time attorney mediators.",
+  "path": "data/labor-rights/sub-02-mcad-adr.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Commission Against Discrimination (MCAD)", "url": "https://www.mass.gov/info-details/mcad-alternative-dispute-resolution-adr", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "Conciliation is mandatory under c.151B after a probable-cause finding; all parties/counsel must attend. Continuance motions filed late (1–2 weeks prior) are likely denied. Initial complaint deadline is 300 days (see sub-02-mcad-deadline).",
+  "related": ["labor-rights/02-ma-mcad", "labor-rights/sub-02-mcad-case-process", "labor-rights/sub-02-mcad-deadline"],
+  "tags": ["MCAD", "ADR", "mediation", "conciliation", "discrimination", "c.151B", "dispute-resolution"]
+}

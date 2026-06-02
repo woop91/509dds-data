@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-ago-earned-sick-time",
+  "title": "Earned Sick Time — Massachusetts Attorney General's Fair Labor Division",
+  "description": "MA Attorney General's Office page summarizing the earned sick time law (G.L. c.149 §§148C–148D): accrual (1 hour per 30 worked, up to 40 hours/year), paid vs. unpaid by employer size (11+ employees = paid), permitted uses (illness, injury, routine appointments, domestic violence, and pregnancy loss as of Nov 21 2024), employer notification/documentation rules, and posting obligations.",
+  "path": "data/labor-rights/sub-ago-earned-sick-time.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Office of the Attorney General — Fair Labor Division", "url": "https://www.mass.gov/info-details/earned-sick-time", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "Statute G.L. c.149 §§148C–148D; regulations 940 CMR 33.00. Employers with <11 employees provide UNPAID sick time. Documentation may be requested only in limited circumstances (e.g. 3+ consecutive missed workdays). Complaints to the AG Fair Labor Division: (617) 727-3465.",
+  "related": ["labor-rights/sub-ma-sick-leave-overview", "labor-rights/sub-dfml-pfml-overview", "labor-rights/03-ma-ago-fairlabor"],
+  "tags": ["earned-sick-time", "sick-leave", "c.149", "attorney-general", "fair-labor", "massachusetts"]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-01-dlr-ulp-procedures",
+  "title": "DLR: Unfair Labor Practice (Prohibited Practice) Procedures",
+  "description": "Chapter of the Massachusetts Public Employee Collective Bargaining Law Guide (DLR) explaining the procedural path for filing and litigating prohibited-practice charges under M.G.L. c.150E — pre-filing assistance, charge preparation, service, investigation, hearings, and remedies.",
+  "path": "data/labor-rights/sub-01-dlr-ulp-procedures.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Department of Labor Relations (DLR)", "url": "https://www.mass.gov/info-details/a-unfair-labor-practice-procedures", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained handbook chapter)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "KEY DEADLINE: a prohibited-practice charge must be filed within SIX MONTHS from when the Charging Party knew or should have known of the alleged practice (M.G.L. c.150E), absent good cause. Large file (~67 KB); head sampled.",
+  "related": ["labor-rights/01-ma-dlr", "labor-rights/sub-01-dlr-prohibited-practices"],
+  "tags": ["DLR", "unfair-labor-practice", "ulp-procedures", "charge-filing", "collective-bargaining", "c.150E", "six-month-deadline"]
+}

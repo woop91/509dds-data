@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-02-mcad-file-complaint",
+  "title": "MCAD: Complaints of Discrimination — How to File",
+  "description": "MCAD landing page for filing a discrimination complaint (employment, housing, public accommodations, higher-education admissions, credit, lending). Directs users to the MCAD decision-tree questionnaire that determines available filing methods; representation not required, no cost to file. Links to the case-process guide, motion procedures, and the 300-day deadline page.",
+  "path": "data/labor-rights/sub-02-mcad-file-complaint.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Commission Against Discrimination (MCAD)", "url": "https://www.mass.gov/mcad-complaints-of-discrimination", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "As of a March 2026 notice MCAD announced a forthcoming online case-management system and complaint portal. Filing deadline is 300 days from the last discriminatory act (see sub-02-mcad-deadline). May be filed without an attorney.",
+  "related": ["labor-rights/02-ma-mcad", "labor-rights/sub-02-mcad-deadline", "labor-rights/sub-02-mcad-case-process"],
+  "tags": ["MCAD", "file-complaint", "discrimination", "how-to-file", "c.151B"]
+}

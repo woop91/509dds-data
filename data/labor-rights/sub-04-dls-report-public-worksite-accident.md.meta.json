@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-04-dls-report-public-worksite-accident",
+  "title": "DLS: Report a Public Worksite Accident",
+  "description": "MA Department of Labor Standards page explaining how public-sector employers/employees report worksite accidents, injuries, and fatalities to the DLS Workplace Safety and Health Program — who qualifies as a public employee, which incidents require immediate reporting (amputations, loss of eye, hospitalization, fatalities), and the three reporting channels (phone, email, online SafetyWorks form).",
+  "path": "data/labor-rights/sub-04-dls-report-public-worksite-accident.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Department of Labor Standards (DLS)", "url": "https://www.mass.gov/how-to/report-a-public-worksite-accident", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "DEADLINE: serious incidents (amputation, loss of eye, hospitalization, fatality) require IMMEDIATE reporting. Phone (508) 616-0461 ext. 9488; email safepublicworkplace@state.ma.us; or the SafetyWorks online form.",
+  "related": ["labor-rights/04-ma-dls", "labor-rights/sub-04-dls-wshp-main", "labor-rights/sub-04-dls-wshp-info"],
+  "tags": ["DLS", "WSHP", "worksite-accident", "public-sector", "injury-reporting", "fatality", "SafetyWorks"]
+}

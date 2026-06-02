@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-11-nlrb-employer-union-obligations",
+  "title": "Employer/Union Rights and Obligations — NLRB",
+  "description": "NLRB page cataloguing reciprocal employer and union obligations under the NLRA: prohibited employer conduct (threats, surveillance, benefit promises, retaliatory discipline), prohibited union conduct (coercion, discriminatory discipline, picket-line misconduct), the duty to bargain in good faith over mandatory subjects, contract-modification notice requirements, and union-security/Beck rules in non-right-to-work states.",
+  "path": "data/labor-rights/sub-11-nlrb-employer-union-obligations.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "National Labor Relations Board (NLRB)", "url": "https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/employer-union-rights-and-obligations", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "Public domain (federal)",
+  "notes": "CONTRACT-MODIFICATION DEADLINES: written notice to the other party 60 days before expiration/proposed change; FMCS notice within 30 days of that; no strike/lockout for 60 days after notice or until expiration (whichever is later). Health-care institutions have different timelines (NLRA §§8(d)(4), 8(g)). Massachusetts is NOT a right-to-work state.",
+  "related": ["labor-rights/11-nlrb", "labor-rights/sub-11-nlrb-employee-rights", "labor-rights/sub-11-nlrb-investigate-charges"],
+  "tags": ["nlrb", "nlra", "collective-bargaining", "good-faith-bargaining", "unfair-labor-practice", "union-security", "federal"]
+}

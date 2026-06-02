@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-dfml-org",
+  "title": "Department of Family and Medical Leave (DFML) — Agency Landing Page",
+  "description": "MA DFML agency landing page: overview of the Commonwealth's Paid Family and Medical Leave (PFML) program (G.L. c.175M), portal login links, contact numbers, annual reports, and regulatory resources. Includes a notice on the IRS extension of the transition period for PFML tax-withholding (IRS Notice 2026-6).",
+  "path": "data/labor-rights/sub-dfml-org.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Department of Family and Medical Leave (DFML)", "url": "https://www.mass.gov/orgs/department-of-family-and-medical-leave", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "Agency hub page, not a substantive policy document. Apply at paidleave.mass.gov; Contact Center (833) 344-7365. Governing statute M.G.L. c.175M.",
+  "related": ["labor-rights/sub-dfml-pfml-overview", "labor-rights/sub-dfml-pfml-how-to-apply"],
+  "tags": ["dfml", "pfml", "paid-family-leave", "medical-leave", "c.175M", "agency-landing", "massachusetts"]
+}

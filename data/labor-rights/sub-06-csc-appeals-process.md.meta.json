@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-06-csc-appeals-process",
+  "title": "Civil Service Commission Appeals Process",
+  "description": "Step-by-step procedural guide from the MA Civil Service Commission covering all stages of a G.L. c.31 appeal: pre-hearing conference, full evidentiary hearing, post-hearing proposed decisions, and the Commission's final order — including continuance rules, exhibit requirements, and judicial review in Superior Court under G.L. c.30A §14.",
+  "path": "data/labor-rights/sub-06-csc-appeals-process.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Civil Service Commission", "url": "https://www.mass.gov/info-details/learn-about-the-civil-service-commission-appeals-process", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "KEY DEADLINES: pre-hearing conference within 60 days of appeal receipt; pre-hearing memo ≥ 1 week before; full hearing typically 45–90 days after pre-hearing; exhibits ≥ 2 weeks before full hearing; reconsideration within 10 days of decision; Superior Court appeal within 30 days of decision (reconsideration does NOT toll this).",
+  "related": ["labor-rights/06-ma-csc", "labor-rights/sub-06-csc-self-represented-guide"],
+  "tags": ["civil-service", "appeals", "c.31", "csc", "hearing-procedure", "massachusetts"]
+}

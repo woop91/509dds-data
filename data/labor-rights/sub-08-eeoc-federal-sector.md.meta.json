@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-08-eeoc-federal-sector",
+  "title": "Overview of Federal Sector EEO Complaint Process",
+  "description": "EEOC page describing the EEO complaint process applicable exclusively to federal employees and applicants: mandatory EEO counselor contact, formal complaint filing, agency investigation, EEOC Administrative Judge hearing, final agency order, EEOC appellate review, and exit points to file in federal district court under Title VII, the ADA, the ADEA, and the Rehabilitation Act.",
+  "path": "data/labor-rights/sub-08-eeoc-federal-sector.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "U.S. Equal Employment Opportunity Commission (EEOC)", "url": "https://www.eeoc.gov/federal-sector/overview-federal-sector-eeo-complaint-process", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "Public domain (federal)",
+  "notes": "KEY DEADLINES: EEO counselor contact within 45 days of the act; formal complaint within 15 days of counselor notice; agency has 180 days to investigate; hearing request within 30 days of agency notice; final order within 40 days of AJ decision; appeal to EEOC within 30 days; reconsideration within 30 days. NOTE: applies to FEDERAL employees — MA state DDS staff use MCAD/EEOC private-sector tracks, not this process.",
+  "related": ["labor-rights/08-eeoc", "labor-rights/sub-08-eeoc-after-you-file", "labor-rights/sub-08-eeoc-how-to-file"],
+  "tags": ["eeoc", "federal-sector", "eeo-complaint", "employment-discrimination", "federal-employees"]
+}

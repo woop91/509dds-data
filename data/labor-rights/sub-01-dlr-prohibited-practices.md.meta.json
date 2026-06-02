@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-01-dlr-prohibited-practices",
+  "title": "DLR: Prohibited Practices — Case-Law Summary (M.G.L. c.150E)",
+  "description": "Chapter of the Massachusetts Public Employee Collective Bargaining Law Guide (DLR) covering the case-law treatment of prohibited practices under M.G.L. c.150E — refusal-to-bargain, unilateral change, interference with protected rights, and employer/union unfair labor practices as adjudicated by the DLR. A large reference compiling decades of DLR decisions.",
+  "path": "data/labor-rights/sub-01-dlr-prohibited-practices.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Department of Labor Relations (DLR)", "url": "https://www.mass.gov/info-details/f-prohibited-practices", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained handbook chapter)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "CONSUMPTION HAZARD: large file (~141 KB); head sampled for metadata. No standalone filing deadline on this reference chapter; charge-filing deadline (6 months from knowledge) is in the companion ULP procedures chapter.",
+  "related": ["labor-rights/01-ma-dlr", "labor-rights/sub-01-dlr-ulp-procedures"],
+  "tags": ["DLR", "prohibited-practices", "unfair-labor-practice", "collective-bargaining", "c.150E", "public-employees", "case-law"]
+}

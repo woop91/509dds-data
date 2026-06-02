@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-06-csc-self-represented-guide",
+  "title": "A Guide for Self-Represented Individuals — Civil Service Commission",
+  "description": "Practical CSC guide for appellants representing themselves (pro se) in a G.L. c.31 civil-service appeal — every stage from filing through decision, including pre-hearing preparation, hearing conduct, cross-examination technique, exhibit redaction/bates-numbering, discovery, and an FAQ.",
+  "path": "data/labor-rights/sub-06-csc-self-represented-guide.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Civil Service Commission", "url": "https://www.mass.gov/info-details/a-guide-for-self-represented-individuals", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "Large file (~42 KB). DEADLINES mirror the appeals-process page: continuance target within 30 days; exhibits/participant list ≥ 2 weeks before full hearing; reconsideration 10 days; Superior Court appeal 30 days. File online at ara.anf.mass.gov.",
+  "related": ["labor-rights/06-ma-csc", "labor-rights/sub-06-csc-appeals-process"],
+  "tags": ["civil-service", "pro-se", "self-represented", "appeals", "c.31", "csc", "hearing-procedure"]
+}

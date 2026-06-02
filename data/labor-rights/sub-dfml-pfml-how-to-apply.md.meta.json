@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-dfml-pfml-how-to-apply",
+  "title": "How to Apply for Paid Family and Medical Leave (PFML) — Massachusetts DFML",
+  "description": "MA DFML how-to page walking applicants through the PFML application: employer notification (30 days recommended), documents to gather (government ID, SSN/ITIN, employer EIN, bank info, provider certification), application methods (online at paidleave.mass.gov or by phone), and the employer-review timeline (notified within 5 days; 10 business days to respond). Also covers appeals and intermittent leave.",
+  "path": "data/labor-rights/sub-dfml-pfml-how-to-apply.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Department of Family and Medical Leave (DFML)", "url": "https://www.mass.gov/how-to/how-to-apply-for-paid-family-and-medical-leave-pfml", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "DEADLINES: employer notice ≥ 30 days before leave start (or as soon as practicable); appeals within 10 days of the DFML decision; extension requests within 30 days after the current leave ends. Portal paidleave.mass.gov; Contact Center (833) 344-7365.",
+  "related": ["labor-rights/sub-dfml-org", "labor-rights/sub-dfml-pfml-overview"],
+  "tags": ["dfml", "pfml", "paid-family-leave", "application-process", "c.175M", "medical-leave", "massachusetts"]
+}

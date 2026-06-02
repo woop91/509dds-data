@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-11-nlrb-employee-rights",
+  "title": "Employee Rights — NLRB",
+  "description": "NLRB page summarizing Section 7 rights under the NLRA: to form, join, or assist a union; to engage in concerted activity for mutual aid or protection (with or without a union); and to refrain from such activity. Identifies workers excluded from NLRA coverage (government employees, agricultural and domestic workers, supervisors, independent contractors, and others).",
+  "path": "data/labor-rights/sub-11-nlrb-employee-rights.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "National Labor Relations Board (NLRB)", "url": "https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/employee-rights", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "Public domain (federal)",
+  "notes": "DDS context: state/local government employees (incl. MassAbility/DDS staff) are explicitly EXCLUDED from NLRA coverage; their bargaining rights are governed by M.G.L. c.150E and enforced by the DLR, not the NLRB.",
+  "related": ["labor-rights/11-nlrb", "labor-rights/sub-11-nlrb-employer-union-obligations", "labor-rights/sub-11-nlrb-protected-concerted-activity", "labor-rights/sub-11-nlrb-investigate-charges"],
+  "tags": ["nlrb", "nlra", "section-7", "employee-rights", "union", "concerted-activity", "federal"]
+}

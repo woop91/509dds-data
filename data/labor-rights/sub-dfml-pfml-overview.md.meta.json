@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-dfml-pfml-overview",
+  "title": "Paid Family and Medical Leave (PFML) Overview and Benefits — Massachusetts DFML",
+  "description": "Comprehensive DFML overview of Massachusetts PFML under G.L. c.175M: eligibility/earnings requirements, qualifying reasons (own serious health condition, family-member care, bonding, military), duration limits (up to 20 weeks medical / 12 weeks family / 26 weeks military caregiver per benefit year), weekly-benefit calculation, the 7-day waiting period, retroactive-leave rules, appeals, and tax withholding.",
+  "path": "data/labor-rights/sub-dfml-pfml-overview.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Department of Family and Medical Leave (DFML)", "url": "https://www.mass.gov/info-details/paid-family-and-medical-leave-pfml-overview-and-benefits", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained; benefit rates updated annually)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "Large file (~28 KB). KEY FIGURES/DEADLINES (per file): apply up to 60 days before leave; employer notice ≥ 30 days prior; 7-day waiting period; appeals within 10 days; reduced benefits if applying >90 days after leave began. Max weekly benefit per file: 2025 $1,170.64; 2026 $1,230.39. Statute M.G.L. c.175M. Page last updated Dec 29 2025 (in-file).",
+  "related": ["labor-rights/sub-dfml-org", "labor-rights/sub-dfml-pfml-how-to-apply", "labor-rights/sub-ago-earned-sick-time", "labor-rights/sub-ma-sick-leave-overview"],
+  "tags": ["dfml", "pfml", "paid-family-leave", "medical-leave", "benefits", "eligibility", "c.175M", "massachusetts"]
+}

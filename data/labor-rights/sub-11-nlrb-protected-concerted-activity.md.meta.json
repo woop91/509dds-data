@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-11-nlrb-protected-concerted-activity",
+  "title": "Protected Concerted Activity — NLRB Case Examples",
+  "description": "NLRB interactive, case-by-case compendium of enforcement outcomes involving employees' Section 7 right to engage in protected concerted activity (PCA) under the NLRA — cases across construction, hospitality, retail, and social media, illustrating when employee actions (group complaints, workplace discussions, social-media posts, work stoppages) do and do not qualify for protection.",
+  "path": "data/labor-rights/sub-11-nlrb-protected-concerted-activity.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "National Labor Relations Board (NLRB)", "url": "https://www.nlrb.gov/about-nlrb/rights-we-protect/our-enforcement-activity/protected-concerted-activity", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained; cases added over time)",
+  "license": "Public domain (federal)",
+  "notes": "CONSUMPTION HAZARD: large file (~50 KB); head sampled. Contains an interactive map of case locations; outcomes vary (settlements and ALJ/Board decisions). Useful as precedent illustration, not a definitive legal index.",
+  "related": ["labor-rights/11-nlrb", "labor-rights/sub-11-nlrb-employee-rights", "labor-rights/sub-11-nlrb-investigate-charges"],
+  "tags": ["nlrb", "nlra", "section-7", "protected-concerted-activity", "case-examples", "federal", "enforcement"]
+}

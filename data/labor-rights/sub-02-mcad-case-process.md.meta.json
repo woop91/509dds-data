@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-02-mcad-case-process",
+  "title": "MCAD: Guide to the MCAD Case Process",
+  "description": "MCAD guide describing the lifecycle of a discrimination complaint from filing to public hearing: complaint authorization and service, position-statement/rebuttal exchange, investigative conferences, early mediation, probable-cause determination, appeals, mandatory conciliation, discovery and certification of issues, pre-hearing, and the public hearing (M.G.L. c.151B §5, c.30A, 804 CMR 1.12). Representation is not required; no cost to file.",
+  "path": "data/labor-rights/sub-02-mcad-case-process.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Commission Against Discrimination (MCAD)", "url": "https://www.mass.gov/info-details/guide-to-the-mcad-case-process", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "Appeal of an investigative disposition (LOPC/LOJ) must be filed within 10 days. Conciliation is mandatory after a probable-cause finding (c.151B). Initial 300-day complaint deadline is in sub-02-mcad-deadline.",
+  "related": ["labor-rights/02-ma-mcad", "labor-rights/sub-02-mcad-adr", "labor-rights/sub-02-mcad-deadline", "labor-rights/sub-02-mcad-file-complaint"],
+  "tags": ["MCAD", "case-process", "discrimination-complaint", "probable-cause", "public-hearing", "c.151B", "804-CMR-1.00"]
+}

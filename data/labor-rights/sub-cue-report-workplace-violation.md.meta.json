@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/sub-cue-report-workplace-violation",
+  "title": "CUE: Report a Suspected Workplace Violation (Underground Economy Tip Line)",
+  "description": "MA Council on the Underground Economy (CUE) page for anonymous tips about businesses concealing or misrepresenting information to avoid employer responsibilities — wages, taxes, labor laws, insurance, licensing, safety. CUE coordinates cross-agency enforcement on wage theft, misclassification, prevailing-wage violations, tax evasion, cash-wage fraud, child labor, and safety. Tips submitted via a six-step online form and may be shared with other agencies and law enforcement.",
+  "path": "data/labor-rights/sub-cue-report-workplace-violation.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Council on the Underground Economy (CUE)", "url": "https://www.mass.gov/how-to/report-a-suspected-workplace-violation", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc (agency-maintained page)",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "CUE does not represent individuals or give legal advice; submissions may be anonymous. Tip line (877) 96-LABOR (52267); email CUETIPS@Mass.gov. A cross-agency referral mechanism, not a direct enforcement body — relevant for DDS members aware of employer-side violations.",
+  "related": ["labor-rights/03-ma-ago-fairlabor", "labor-rights/04-ma-dls"],
+  "tags": ["CUE", "underground-economy", "misclassification", "wage-theft", "tip-line", "cross-agency-enforcement", "prevailing-wage"]
+}

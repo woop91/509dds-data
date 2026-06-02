@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ssa/periodic-cdr-backlog-fy14-fy18",
+  "title": "SSA Periodic CDR Case Backlog, FY2014–FY2018",
+  "description": "National year-end backlog of periodic Continuing Disability Reviews (CDRs) by program, fiscal years 2014–2018. One row per fiscal year; counts are dollars-free case counts. The data series was effectively zeroed out by FY2018 (the backlog-clearance initiative completed).",
+  "path": "data/ssa/periodic-cdr-backlog-fy14-fy18.csv",
+  "format": "csv",
+  "unit_of_observation": "fiscal year (national total)",
+  "row_count": 5,
+  "columns": [
+    { "name": "FISCAL YEAR", "type": "integer", "description": "Federal fiscal year (Oct–Sep)." },
+    { "name": "OASDI-TITLE II", "type": "integer", "unit": "cases", "description": "Backlogged Title II (OASDI) periodic CDR cases." },
+    { "name": "SSI-TITLE XVI ADULT", "type": "integer", "unit": "cases", "description": "Backlogged Title XVI (SSI) adult periodic CDR cases." },
+    { "name": "SSI-TITLE XVI LOW BIRTH WEIGHT", "type": "integer", "unit": "cases", "description": "Backlogged Title XVI low-birth-weight infant CDR cases." },
+    { "name": "SSI-TITLE XVI OTHER CHILDREN", "type": "integer", "unit": "cases", "description": "Backlogged Title XVI other-children CDR cases." },
+    { "name": "TOTAL BACKLOG", "type": "integer", "unit": "cases", "description": "Sum of the four program columns for the fiscal year." }
+  ],
+  "temporal_coverage": { "start": "FY2014", "end": "FY2018" },
+  "geographic_coverage": "United States (national total)",
+  "source": {
+    "publisher": "Social Security Administration (SSA)",
+    "title": "Periodic Continuing Disability Review Case Backlog",
+    "url": "https://www.ssa.gov/data/Periodic-CDR-Case-Backlog.csv",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Static (series frozen at FY2018)",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Numeric cells are thousands-separated and quoted in the raw CSV (e.g. \"199,240\"). The FY2018 row uses '0*' where the asterisk is an SSA footnote indicating the backlog was cleared/not separately reported; parse '0*' as 0.",
+  "related": ["ssa/periodic-cdr-fy13-fy22"],
+  "tags": ["ssa", "cdr", "backlog", "disability", "national"]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ssa/periodic-cdr-fy13-fy22",
+  "title": "SSA Periodic Continuing Disability Reviews Processed, FY2013–FY2022",
+  "description": "National counts of periodic CDRs processed each fiscal year, broken down by a hierarchical program-involvement taxonomy (Title II, Title XVI, concurrent; disabled workers vs auxiliaries; SSI adult vs child categories) plus processing channel (mailers, full medical reviews) and outcomes (initial cessations).",
+  "path": "data/ssa/periodic-cdr-fy13-fy22.csv",
+  "format": "csv",
+  "unit_of_observation": "fiscal year × program-involvement category (national)",
+  "columns": [
+    { "name": "FISCAL YEAR", "type": "integer", "description": "Federal fiscal year." },
+    { "name": "PROGRAM INVOLVEMENT", "type": "string", "description": "Hierarchical category label. Includes section headers (I. Periodic CDRs initiated centrally; II. Other Periodic CDRs; III. Administrative Closures), roll-up rows (Total Title II, Total Title XVI Only, TOTAL) and leaf rows (Disabled workers, Auxiliaries and survivors, Disabled adults/children, Low birth weight, Age 18 redeterminations, Other SSI children). DO NOT sum leaf + roll-up rows together." },
+    { "name": "TOTAL CDRS PROCESSED", "type": "integer", "unit": "cases", "description": "Total periodic CDRs processed for the category." },
+    { "name": "MAILERS ONLY", "type": "integer", "unit": "cases", "description": "CDRs resolved via mailer questionnaire only (no full medical review)." },
+    { "name": "INITIAL FIELD OFFICE FTC TERMINATIONS *", "type": "integer", "unit": "cases", "description": "Failure-to-cooperate terminations initiated by the field office (* SSA footnote)." },
+    { "name": "FULL MEDICAL REVIEWS (FMRS)", "type": "integer", "unit": "cases", "description": "CDRs decided via full medical review." },
+    { "name": "INITIAL CESSATIONS (FMRS)", "type": "integer", "unit": "cases", "description": "Initial benefit cessations resulting from full medical reviews." }
+  ],
+  "temporal_coverage": { "start": "FY2013", "end": "FY2022" },
+  "geographic_coverage": "United States (national)",
+  "source": {
+    "publisher": "Social Security Administration (SSA)",
+    "title": "Periodic Continuing Disability Reviews",
+    "url": "https://www.ssa.gov/data/Periodic-Continuing-Disability-Reviews.csv",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Annual (last source update 2023-05-22)",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Footnotes in column/section names: * field-office FTC terminations; ** Other Periodic CDRs not initiated centrally; *** Administrative Closures. Section-header rows (e.g. 'I. Periodic CDRs (initiated centrally)') carry blank metric cells. Numeric cells are thousands-separated and quoted.",
+  "related": ["ssa/periodic-cdr-backlog-fy14-fy18"],
+  "tags": ["ssa", "cdr", "disability", "national", "hierarchical"]
+}

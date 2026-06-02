@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ssa/cdp-time-monthly-fy08-fy15",
+  "title": "SSA Combined Disability Processing Time, Monthly, FY2008–FY2015",
+  "description": "Historical national average combined disability processing (elapsed) time in days, reported monthly, FY2008 through FY2015. Same schema as the FY2016-onwards series; kept separate because SSA publishes the historical span as a frozen file.",
+  "path": "data/ssa/cdp-time-monthly-fy08-fy15.csv",
+  "format": "csv",
+  "unit_of_observation": "fiscal-year month (national)",
+  "columns": [
+    { "name": "Fiscal Year", "type": "string", "description": "Fiscal year label (e.g. 'FY - 2008'); subtotal rows use the 'Total Average' suffix." },
+    { "name": "Month", "type": "string", "description": "Three-letter calendar month; blank on fiscal-year average rows." },
+    { "name": "Average Processing (elapsed) Time (in Days)", "type": "integer", "unit": "days", "description": "Average elapsed processing time that month (or FY average on subtotal rows)." }
+  ],
+  "temporal_coverage": { "start": "FY2008", "end": "FY2015" },
+  "geographic_coverage": "United States (national)",
+  "source": {
+    "publisher": "Social Security Administration (SSA)",
+    "title": "Combined Disability Processing Time (historical)",
+    "url": "https://www.ssa.gov/data/Combined-Disability-Processing-Time.csv",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Static (historical)",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Exclude 'Total Average' subtotal rows from monthly statistics. Concatenate with ssa/cdp-time-monthly-fy16-fy26 for a continuous FY2008–present series.",
+  "related": ["ssa/cdp-time-monthly-fy16-fy26"],
+  "tags": ["ssa", "processing-time", "monthly", "disability", "national", "historical"]
+}

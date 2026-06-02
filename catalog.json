@@ -1,0 +1,14 @@
+{
+  "$comment": "Repo-wide machine-readable dataset index for 509dds-data. SEED produced by the AI-normalization pilot (data/ssa). Regenerate from all <file>.meta.json sidecars during rollout. Validate with scripts/validate_catalog.py.",
+  "repo": "Woop91/509dds-data",
+  "schema": "schemas/dataset.meta.schema.json",
+  "generated_from": "data/ssa/*.meta.json (pilot)",
+  "datasets": [
+    { "id": "ssa/periodic-cdr-backlog-fy14-fy18", "title": "SSA Periodic CDR Case Backlog, FY2014–FY2018", "path": "data/ssa/periodic-cdr-backlog-fy14-fy18.csv", "meta": "data/ssa/periodic-cdr-backlog-fy14-fy18.csv.meta.json", "format": "csv", "confidence_tier": "Authoritative", "temporal_coverage": { "start": "FY2014", "end": "FY2018" } },
+    { "id": "ssa/periodic-cdr-fy13-fy22", "title": "SSA Periodic Continuing Disability Reviews Processed, FY2013–FY2022", "path": "data/ssa/periodic-cdr-fy13-fy22.csv", "meta": "data/ssa/periodic-cdr-fy13-fy22.csv.meta.json", "format": "csv", "confidence_tier": "Authoritative", "temporal_coverage": { "start": "FY2013", "end": "FY2022" } },
+    { "id": "ssa/cdp-time-monthly-fy16-fy26", "title": "SSA Combined Disability Processing Time, Monthly, FY2016–FY2026", "path": "data/ssa/cdp-time-monthly-fy16-fy26.csv", "meta": "data/ssa/cdp-time-monthly-fy16-fy26.csv.meta.json", "format": "csv", "confidence_tier": "Authoritative", "temporal_coverage": { "start": "FY2016", "end": "FY2026" } },
+    { "id": "ssa/cdp-time-monthly-fy08-fy15", "title": "SSA Combined Disability Processing Time, Monthly, FY2008–FY2015", "path": "data/ssa/cdp-time-monthly-fy08-fy15.csv", "meta": "data/ssa/cdp-time-monthly-fy08-fy15.csv.meta.json", "format": "csv", "confidence_tier": "Authoritative", "temporal_coverage": { "start": "FY2008", "end": "FY2015" } },
+    { "id": "ssa/dds-net-accuracy-by-state-2007-2022", "title": "DDS Net Accuracy Rate by State, FY2007–FY2022", "path": "data/ssa/dds-net-accuracy-by-state-2007-2022.csv", "meta": "data/ssa/dds-net-accuracy-by-state-2007-2022.csv.meta.json", "format": "csv", "confidence_tier": "Authoritative", "temporal_coverage": { "start": "FY2007", "end": "FY2022" } },
+    { "id": "ssa/peer-states-timeseries-2010-2024", "title": "Peer-State Disability Determination Time Series, 2010–2024", "path": "data/ssa/peer-states-timeseries-2010-2024.json", "meta": "data/ssa/peer-states-timeseries-2010-2024.json.meta.json", "format": "json", "confidence_tier": "Computed", "temporal_coverage": { "start": "2010", "end": "2024" } }
+  ]
+}

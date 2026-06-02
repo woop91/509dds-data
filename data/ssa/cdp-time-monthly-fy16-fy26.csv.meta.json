@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ssa/cdp-time-monthly-fy16-fy26",
+  "title": "SSA Combined Disability Processing Time, Monthly, FY2016–FY2026",
+  "description": "National average combined disability processing (elapsed) time in days, reported monthly, from FY2016 through the latest available month of FY2026. Each fiscal year is followed by a fiscal-year average row.",
+  "path": "data/ssa/cdp-time-monthly-fy16-fy26.csv",
+  "format": "csv",
+  "unit_of_observation": "fiscal-year month (national)",
+  "columns": [
+    { "name": "Fiscal Year", "type": "string", "description": "Fiscal year label formatted 'FY - YYYY'. Subtotal rows use 'FY - YYYY Total Average'." },
+    { "name": "Month", "type": "string", "description": "Three-letter calendar month (Oct–Sep ordering). BLANK on the fiscal-year average subtotal rows." },
+    { "name": "Average Processing (elapsed) Time (in Days)", "type": "integer", "unit": "days", "description": "Average elapsed processing time for combined disability claims that month (or the FY average on subtotal rows)." }
+  ],
+  "temporal_coverage": { "start": "FY2016-Oct", "end": "FY2026 (partial, latest published month)" },
+  "geographic_coverage": "United States (national)",
+  "source": {
+    "publisher": "Social Security Administration (SSA)",
+    "title": "Combined Disability Processing Time (FY2016 onwards), Monthly",
+    "url": "https://www.ssa.gov/data/fy16-onwards-CDP-Time-Monthly.csv",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Monthly",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Rows where Month is blank and Fiscal Year ends in 'Total Average' are per-FY summary rows — exclude them when computing monthly statistics to avoid double counting. The trailing fiscal year (FY2026) is incomplete.",
+  "related": ["ssa/cdp-time-monthly-fy08-fy15"],
+  "tags": ["ssa", "processing-time", "monthly", "disability", "national"]
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ssa/peer-states-timeseries-2010-2024",
+  "title": "Peer-State Disability Determination Time Series, 2010–2024",
+  "description": "Per-year disability determination volumes and favorable-decision rates for Massachusetts and eight population-peer states (AZ, IN, MD, MO, TN, VA, WA, WI), 2010–2024. Used to benchmark MA's favorable-rate decline against comparable states. Nested object keyed by state, then year.",
+  "path": "data/ssa/peer-states-timeseries-2010-2024.json",
+  "format": "json",
+  "unit_of_observation": "state × calendar year",
+  "columns": [
+    { "name": "<state>", "type": "string", "description": "Top-level key: two-letter state code (MA, AZ, IN, MD, MO, TN, VA, WA, WI)." },
+    { "name": "<year>", "type": "string", "description": "Second-level key: calendar year 2010–2024." },
+    { "name": "adult_receipts", "type": "integer", "unit": "claims", "description": "Adult initial disability claim receipts." },
+    { "name": "all_det", "type": "integer", "unit": "determinations", "description": "All initial determinations completed." },
+    { "name": "all_fav", "type": "integer", "unit": "determinations", "description": "Favorable (allowance) determinations." },
+    { "name": "fav_rate", "type": "number", "unit": "percent", "description": "All-determinations favorable rate = all_fav / all_det × 100." },
+    { "name": "adult_fav_rate", "type": "number", "unit": "percent", "description": "Adult-only favorable rate." },
+    { "name": "beneficiaries", "type": "integer", "unit": "people", "description": "Disabled beneficiaries in payment status for the state-year." }
+  ],
+  "temporal_coverage": { "start": "2010", "end": "2024" },
+  "geographic_coverage": "Massachusetts + 8 population-peer states (AZ, IN, MD, MO, TN, VA, WA, WI)",
+  "source": {
+    "publisher": "509dds-data (computed from SSA primary series)",
+    "title": "Peer-state benchmark time series",
+    "url": "https://www.ssa.gov/disability/data/SSA-SA-FYWL.csv",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Computed",
+  "update_cadence": "Annual (rebuild when SSA-SA-FYWL refreshes)",
+  "license": "Derived from U.S. public-domain SSA data",
+  "notes": "Computed/aggregated dataset, not a raw SSA file: fav_rate and adult_fav_rate are derived ratios. Peer set chosen for population comparability with MA. See docs/methodology.md and docs/peer-states-comparison.json.",
+  "derived_from": ["ssa/ssa-sa-fywl-all-states-2001-2024"],
+  "related": ["ssa/dds-net-accuracy-by-state-2007-2022"],
+  "tags": ["ssa", "peer-states", "favorable-rate", "benchmark", "computed"]
+}

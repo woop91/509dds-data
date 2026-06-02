@@ -1,0 +1,33 @@
+# 509dds-data
+
+> Open data, source documents, and analysis for SEIU Local 509's Disability
+> Determination Services (DDS) chapter in Massachusetts. DDS = Disability
+> Determination Services (adjudicates SSI/SSDI claims), NOT the Department of
+> Developmental Services. Audience: union stewards, bargaining-team negotiators,
+> 509dds.com developers, and researchers.
+
+Every dataset has a `<file>.meta.json` data card (schema: `schemas/dataset.meta.schema.json`).
+The full machine index is `catalog.json`. Confidence tiers: Authoritative,
+Computed, Browser-fetch pending, PRR-pending, Structurally unavailable.
+
+## SSA datasets (data/ssa) — normalized
+
+- [Periodic CDR Case Backlog FY14–FY18](data/ssa/periodic-cdr-backlog-fy14-fy18.csv): national CDR backlog by program. Authoritative.
+- [Periodic CDRs Processed FY13–FY22](data/ssa/periodic-cdr-fy13-fy22.csv): CDRs processed, hierarchical program taxonomy. Authoritative.
+- [Combined Disability Processing Time, Monthly FY16–FY26](data/ssa/cdp-time-monthly-fy16-fy26.csv): national avg processing days. Authoritative.
+- [Combined Disability Processing Time, Monthly FY08–FY15](data/ssa/cdp-time-monthly-fy08-fy15.csv): historical processing days. Authoritative.
+- [DDS Net Accuracy by State FY07–FY22](data/ssa/dds-net-accuracy-by-state-2007-2022.csv): per-state QA accuracy. Authoritative.
+- [Peer-State Determination Time Series 2010–2024](data/ssa/peer-states-timeseries-2010-2024.json): MA + 8 peer states, computed favorable rates. Computed.
+
+## Other collections (rollout pending)
+
+- data/contract — SEIU Local 509 Units 8 & 10 CBA 2024–2026 (full text)
+- data/pay-scales — Unit 8 salary charts + per-employee VDE salary/OT 2010–2023
+- data/cthru-staffing — MA Comptroller (CTHRU) payroll headcount
+- data/labor-rights — enforcement agencies, filing deadlines, member/steward guides
+- data/ma-annual-reports — MassAbility/MRC annual + State Rehab Council reports
+- data/ra-process — reasonable-accommodation process references
+- data/workload — anonymized overtime + intake-cap evidence
+- data/oversight, data/external, data/prr-responses, data/screenshots
+- docs — methodology, data dictionary, agency disambiguation
+- prr-templates — Public Records / FOIA request templates

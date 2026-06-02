@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/03-ma-ago-fairlabor",
+  "title": "Massachusetts Attorney General's Fair Labor Division (FLD) — Agency Landing Page",
+  "description": "Scrape of the MA Attorney General's Fair Labor Division landing page. The FLD enforces wage-and-hour, prevailing-wage, and child-labor laws under M.G.L. c.149, investigating wage theft, minimum-wage violations, earned-sick-time non-compliance, and worker misclassification; enforcement yields restitution and civil penalties. Also highlights multilingual outreach and pay-transparency guidance.",
+  "path": "data/labor-rights/03-ma-ago-fairlabor.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Office of the Attorney General — Fair Labor Division", "url": "https://www.mass.gov/orgs/the-attorney-generals-fair-labor-division", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As published by agency",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "No statute-of-limitations on this landing page; c.149 wage claims are generally subject to a 3-year limitations period. File ~9.9 KB.",
+  "related": ["labor-rights/04-ma-dls", "labor-rights/09-dol-whd", "labor-rights/sub-03-ago-file-workplace-complaint"],
+  "tags": ["wages", "wage-theft", "earned-sick-time", "child-labor", "prevailing-wage", "c.149", "attorney-general", "mass.gov"]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/08-eeoc",
+  "title": "EEOC — Filing a Charge of Discrimination",
+  "description": "Scrape of the EEOC charge-filing guidance page covering discrimination based on race, color, religion, sex (incl. pregnancy, transgender status, sexual orientation), national origin, age (40+), disability, and genetic information under Title VII, the ADA, the ADEA, and GINA. Explains intake via the EEOC Public Portal, the pre-suit requirement, dual-filing with state FEPAs such as MCAD, and the distinct federal-sector process.",
+  "path": "data/labor-rights/08-eeoc.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "U.S. Equal Employment Opportunity Commission", "url": "https://www.eeoc.gov/filing-charge-discrimination", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As published by agency",
+  "license": "Public domain (federal)",
+  "notes": "DEADLINE: 180 days from the discriminatory act, or 300 days where a state/local FEPA (such as MCAD) also has jurisdiction — Massachusetts qualifies, so 300 days for most MA workers. Federal-agency charges use a different process. File ~7.3 KB.",
+  "related": ["labor-rights/02-ma-mcad", "labor-rights/sub-08-eeoc-how-to-file", "labor-rights/09-dol-whd"],
+  "tags": ["discrimination", "Title-VII", "ADA", "ADEA", "GINA", "charge-filing", "EEOC", "federal"]
+}

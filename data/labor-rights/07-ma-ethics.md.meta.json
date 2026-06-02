@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/07-ma-ethics",
+  "title": "Massachusetts State Ethics Commission — Agency Landing Page",
+  "description": "Scrape of the MA State Ethics Commission landing page. The Commission administers and civilly enforces the conflict-of-interest law (M.G.L. c.268A) and the financial-disclosure law, provides free advice to public employees, conducts mandatory ethics training, accepts public complaints, and publishes Statements of Financial Interests.",
+  "path": "data/labor-rights/07-ma-ethics.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts State Ethics Commission", "url": "https://www.mass.gov/orgs/state-ethics-commission", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As published by agency",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "No filing deadline on this landing page; c.268A complaint limitations period is generally 3 years. All MA public employees (including DDS state employees) are subject to c.268A and must complete periodic ethics training. File ~12.5 KB.",
+  "related": ["labor-rights/01-ma-dlr", "labor-rights/06-ma-csc"],
+  "tags": ["ethics", "conflict-of-interest", "financial-disclosure", "c.268A", "public-employees", "training", "mass.gov"]
+}

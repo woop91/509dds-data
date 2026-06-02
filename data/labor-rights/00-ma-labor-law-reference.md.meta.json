@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/00-ma-labor-law-reference",
+  "title": "Massachusetts Labor Rights Reference — Statute Index for 509dds Stewards",
+  "description": "Statute and doctrine index compiled for SEIU Local 509 DDS chapter steward/grievance use. ~20 sections covering M.G.L. c.150E (public-sector bargaining), c.149 (wages, earned sick time, Wage Act triple damages, whistleblower §185, personnel records §52C, equal pay §105A), c.151 (minimum wage/OT), c.151B (anti-discrimination/accommodation), c.152 (workers' comp), c.175M (PFML), c.31 (civil service), plus FMLA, ADA, PWFA and pay-transparency law; and union doctrines (Weingarten, Loudermill, Duty of Fair Representation, past practice, management rights, mandatory subjects of bargaining).",
+  "path": "data/labor-rights/00-ma-labor-law-reference.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts; federal statutes where applicable to MA public-sector workers",
+  "source": {
+    "publisher": "SEIU Local 509 / DDS chapter (synthesized from MA & federal agency scrapes)",
+    "url": "https://github.com/Woop91/509dds-data/tree/main/data/labor-rights"
+  },
+  "confidence_tier": "Computed",
+  "license": "© SEIU Local 509 / DDS chapter; free to redistribute with attribution (per folder README)",
+  "notes": "Synthesized statute cross-reference — not legal advice; companion to the agency landing pages and sub-*.md primary scrapes. Sections are numbered and cross-referenced by the cheat sheet and member guide.",
+  "related": ["labor-rights/00-CHEATSHEET", "labor-rights/00-INDEX", "labor-rights/00-MEMBER-GUIDE", "labor-rights/agencies"],
+  "tags": ["labor-rights", "statute-index", "MA-public-sector", "c.150E", "c.151B", "c.149", "PFML", "civil-service", "Weingarten", "Loudermill", "steward-tools"]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/10-osha",
+  "title": "Federal OSHA — File a Complaint (Safety, Health & Whistleblower)",
+  "description": "Scrape of OSHA's complaint-filing hub covering two pathways: (1) Safety and Health complaints for unsafe conditions, filed confidentially online/phone/fax/mail/in person; and (2) Whistleblower complaints for retaliation, enforceable under 20+ whistleblower-protection statutes. Explains the distinction, filing methods, anonymous filing, and multilingual submission.",
+  "path": "data/labor-rights/10-osha.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "U.S. Department of Labor — Occupational Safety and Health Administration", "url": "https://www.osha.gov/workers/file-complaint", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As published by agency",
+  "license": "Public domain (federal)",
+  "notes": "DEADLINES (stated on page): safety/health — OSHA cannot cite violations more than 6 months old; whistleblower — 30 to 180 days depending on statute. NOTE: MA public-sector worksites are primarily covered by MA DLS (see 04-ma-dls), not federal OSHA. File ~7.5 KB.",
+  "related": ["labor-rights/04-ma-dls", "labor-rights/09-dol-whd"],
+  "tags": ["workplace-safety", "OSHA", "whistleblower", "federal", "retaliation", "complaint-filing"]
+}

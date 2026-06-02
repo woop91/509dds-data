@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/11-nlrb",
+  "title": "National Labor Relations Board (NLRB) — Agency Landing Page",
+  "description": "Scrape of the NLRB landing page. The NLRB protects private-sector employees' rights to organize, bargain collectively, and engage in concerted activity under the NLRA. Provides the My Account Portal for case management/e-filing, regional-office locators, board decisions with a lookup tool, and news. Note: MA public-sector employees (incl. DDS staff) fall under the DLR (see 01-ma-dlr), not the NLRB — included for private-sector analogue reference.",
+  "path": "data/labor-rights/11-nlrb.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "National Labor Relations Board", "url": "https://www.nlrb.gov/", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As published by agency",
+  "license": "Public domain (federal)",
+  "notes": "ULP charges under the NLRA must be filed within 6 months of the alleged violation (29 U.S.C. §160(b)). DDS chapter members are MA public employees, outside NLRB jurisdiction; this file supports private-sector/cross-sector research. File ~9.1 KB.",
+  "related": ["labor-rights/01-ma-dlr", "labor-rights/sub-11-nlrb-employee-rights"],
+  "tags": ["labor-relations", "private-sector", "NLRA", "unfair-labor-practice", "collective-bargaining", "federal", "NLRB"]
+}

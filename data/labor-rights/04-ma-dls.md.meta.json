@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/04-ma-dls",
+  "title": "Massachusetts Department of Labor Standards (DLS) — Agency Landing Page",
+  "description": "Scrape of the MA Department of Labor Standards landing page. DLS administers public- and private-sector workplace-safety programs, prevailing-wage schedules, and labor standards — including SafetyWorks consultation, the Workplace Safety and Health Program (WSHP), lead/asbestos/mine safety, and prevailing-wage requests. DLS is the state's primary state-plan-equivalent occupational-safety agency for public-sector workplaces where federal OSHA jurisdiction is limited.",
+  "path": "data/labor-rights/04-ma-dls.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Department of Labor Standards", "url": "https://www.mass.gov/orgs/department-of-labor-standards", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As published by agency",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "No filing deadline on this landing page. For public-sector worksites the DLS WSHP is the operative safety program (distinct from federal OSHA, see 10-osha). File ~5.3 KB.",
+  "related": ["labor-rights/10-osha", "labor-rights/sub-04-dls-wshp-main"],
+  "tags": ["workplace-safety", "occupational-health", "prevailing-wage", "minimum-wage", "public-sector", "SafetyWorks", "mass.gov"]
+}

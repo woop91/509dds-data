@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/06-ma-csc",
+  "title": "Massachusetts Civil Service Commission (CSC) — Agency Landing Page",
+  "description": "Scrape of the MA Civil Service Commission landing page. The CSC is an independent appellate tribunal that hears civil-service-covered state/municipal employee appeals under M.G.L. c.31 — discipline, layoff, bypass, examination, and classification — and investigates alleged civil-service-law violations. Provides online appeal filing, hearing dockets, searchable decisions, and a self-represented-individuals guide. The forum for civil-service-covered DDS employees contesting adverse actions.",
+  "path": "data/labor-rights/06-ma-csc.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Civil Service Commission", "url": "https://www.mass.gov/orgs/civil-service-commission", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As published by agency",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "No filing deadline on this landing page; c.31 appeal deadlines vary by type (often 10 days from notice for disciplinary appeals). Online filing at ara.anf.mass.gov. File ~7.9 KB.",
+  "related": ["labor-rights/sub-06-csc-appeals-process", "labor-rights/sub-06-csc-self-represented-guide", "labor-rights/01-ma-dlr"],
+  "tags": ["civil-service", "appeals", "discipline", "layoff", "bypass", "c.31", "public-sector", "mass.gov"]
+}

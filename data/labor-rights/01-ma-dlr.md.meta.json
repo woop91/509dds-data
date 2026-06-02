@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/01-ma-dlr",
+  "title": "Massachusetts Department of Labor Relations (DLR) — Agency Landing Page",
+  "description": "Scrape of the MA Department of Labor Relations landing page. DLR administers and enforces public-sector collective-bargaining law under M.G.L. c.150E: investigating/adjudicating unfair-labor-practice (prohibited-practice) charges, conducting bargaining-unit elections, and providing mediation and fact-finding. The most critical agency for SEIU Local 509 DDS-chapter matters. Also notes DLR's new role administering rideshare-driver unionization after the Nov 2024 ballot measure.",
+  "path": "data/labor-rights/01-ma-dlr.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Department of Labor Relations", "url": "https://www.mass.gov/orgs/department-of-labor-relations", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As published by agency",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "No filing deadline on this landing page; prohibited-practice charge deadlines are 6 months from knowledge (see sub-01-dlr-ulp-procedures). File ~7.5 KB.",
+  "related": ["labor-rights/sub-01-dlr-ulp-procedures", "labor-rights/sub-01-dlr-prohibited-practices", "labor-rights/06-ma-csc"],
+  "tags": ["labor-relations", "public-sector", "collective-bargaining", "unfair-labor-practice", "c.150E", "union", "mass.gov"]
+}

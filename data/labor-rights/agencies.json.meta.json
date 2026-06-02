@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/agencies",
+  "title": "Labor Rights Agencies — Structured Extract of Contacts, Jurisdictions, Statutes, and Filing Deadlines",
+  "description": "Machine-readable JSON extract of 12 enforcement agencies relevant to SEIU Local 509 DDS members (MA DLR, MCAD, AGO Fair Labor, DLS, DIA, CSC, State Ethics, EEOC, DOL WHD, OSHA, NLRB, DFML). Each agency record carries contacts, jurisdictional scope, applicable statutes, and per-deadline objects (deadlineDays, trigger, citation back to a source file + line). The file also includes a 'scenarios' array (10 member use-case entries) and a 'crossCuttingConcepts' array (Weingarten, Loudermill, DFR, past practice, anti-retaliation). The queryable, app-integration-ready subset of the folder.",
+  "path": "data/labor-rights/agencies.json",
+  "format": "json",
+  "unit_of_observation": "agency",
+  "row_count": 12,
+  "columns": [
+    { "name": "id", "type": "string", "description": "Slug identifier for the agency (e.g. 'ma-dlr', 'ma-mcad')." },
+    { "name": "name", "type": "string", "description": "Full official agency name." },
+    { "name": "abbreviation", "type": "string", "description": "Common abbreviation." },
+    { "name": "jurisdiction", "type": "string", "description": "'ma' or 'federal'." },
+    { "name": "category", "type": "string", "description": "Functional category: labor-relations | discrimination | wages | safety | workers-comp | civil-service | ethics | leave." },
+    { "name": "primaryFor509dds", "type": "boolean", "description": "True if high-priority for the 509 DDS chapter." },
+    { "name": "useFor", "type": "string", "description": "Array of claim types this agency handles (JSON array of strings)." },
+    { "name": "primaryStatute", "type": "string", "description": "Primary governing statute/authority." },
+    { "name": "additionalStatutes", "type": "string", "description": "Array of secondary statutes (JSON array, where present)." },
+    { "name": "contact", "type": "string", "description": "Object: phones[], email(s), url, filingPortal, addresses[], agency-specific fields." },
+    { "name": "filingDeadlines", "type": "string", "description": "Array of deadline objects: id, claim, statute, deadline (human), deadlineDays (integer), trigger, extensionGrounds, source (file+line)." },
+    { "name": "sourceFiles", "type": "string", "description": "Object with landing + subpages arrays pointing to markdown files in this folder." }
+  ],
+  "geographic_coverage": "Massachusetts; federal agencies (EEOC, DOL WHD, OSHA, NLRB) with national jurisdiction",
+  "update_cadence": "Ad hoc, aligned with periodic agency scrape refreshes",
+  "source": {
+    "publisher": "SEIU Local 509 / DDS chapter (synthesized from MA & federal agency scrapes)",
+    "url": "https://github.com/Woop91/509dds-data/tree/main/data/labor-rights"
+  },
+  "confidence_tier": "Computed",
+  "license": "© SEIU Local 509 / DDS chapter; free to redistribute with attribution (per folder README)",
+  "notes": "Top-level object keys: version, lastUpdated (2026-05-04), scrapedFrom, audience, disclaimer, agencies (12), scenarios (10), crossCuttingConcepts (5). Each filing deadline cites a source file + line traceable to the primary scrapes. column.type is constrained to the schema enum, so array/object-valued fields are typed 'string' with the real shape described in each column's description. Not legal advice.",
+  "derived_from": ["labor-rights/00-CHEATSHEET", "labor-rights/00-ma-labor-law-reference"],
+  "related": ["labor-rights/00-INDEX", "labor-rights/00-MEMBER-GUIDE"],
+  "tags": ["labor-rights", "agencies", "structured-data", "filing-deadlines", "contacts", "MA-public-sector", "app-integration"]
+}

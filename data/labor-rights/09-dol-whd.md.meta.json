@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/09-dol-whd",
+  "title": "U.S. DOL Wage and Hour Division (WHD) — Agency Landing Page",
+  "description": "Scrape of the U.S. DOL Wage and Hour Division landing page. WHD enforces the Fair Labor Standards Act (FLSA), the Family and Medical Leave Act (FMLA), the Migrant and Seasonal Agricultural Worker Protection Act, and related statutes. Highlights current rulemaking on joint-employer and independent-contractor status, the PAID self-audit program, and the complaint-filing process (online, phone, or local office).",
+  "path": "data/labor-rights/09-dol-whd.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "United States",
+  "source": { "publisher": "U.S. Department of Labor — Wage and Hour Division", "url": "https://www.dol.gov/agencies/whd", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As published by agency",
+  "license": "Public domain (federal)",
+  "notes": "No filing deadline on this landing page; FLSA wage claims have a 2-year limitations period (3 years if willful); FMLA retaliation claims within 2 years. File ~3.1 KB.",
+  "related": ["labor-rights/03-ma-ago-fairlabor", "labor-rights/sub-09-dol-whd-complaints", "labor-rights/10-osha"],
+  "tags": ["wages", "FLSA", "FMLA", "federal", "DOL", "wage-and-hour", "family-leave"]
+}

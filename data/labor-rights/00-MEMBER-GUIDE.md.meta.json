@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/00-MEMBER-GUIDE",
+  "title": "Know Your Rights — A Member's Guide to MA Labor Rights and Workplace Claims",
+  "description": "Plain-language member-facing guide organized by workplace scenario (investigation/discipline, discrimination, wages, safety, injury, leave, unilateral change, retaliation, civil service, duty of fair representation). Each section gives practical steps, key filing deadlines, agency contacts, and collapsible 'Show me the actual law' panels citing statutes and source-file lines. Covers Weingarten/Loudermill rights, the 300-day MCAD deadline incl. CBA tolling, Wage Act triple damages, PFML benefits, and short cross-statute retaliation deadlines. Explicitly not legal advice; directs members to contact their steward first.",
+  "path": "data/labor-rights/00-MEMBER-GUIDE.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts; federal agencies where dual-jurisdiction applies",
+  "source": {
+    "publisher": "SEIU Local 509 / DDS chapter (synthesized from MA & federal agency scrapes)",
+    "url": "https://github.com/Woop91/509dds-data/tree/main/data/labor-rights"
+  },
+  "confidence_tier": "Computed",
+  "license": "© SEIU Local 509 / DDS chapter; free to redistribute with attribution (per folder README)",
+  "notes": "Synthesized reference compilation — not legal advice; authority traces to cited primary scrapes and statute sections. Designed for member self-service; steward review recommended before acting.",
+  "related": ["labor-rights/00-CHEATSHEET", "labor-rights/00-INDEX", "labor-rights/00-ma-labor-law-reference", "labor-rights/agencies"],
+  "tags": ["labor-rights", "member-guide", "plain-language", "MA-public-sector", "Weingarten", "PFML", "discrimination", "wages", "retaliation", "civil-service"]
+}

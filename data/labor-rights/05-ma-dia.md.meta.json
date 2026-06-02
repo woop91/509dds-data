@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/05-ma-dia",
+  "title": "Massachusetts Department of Industrial Accidents (DIA) — Agency Landing Page",
+  "description": "Scrape of the MA Department of Industrial Accidents landing page. DIA oversees the Massachusetts workers' compensation system under M.G.L. c.152, assisting injured workers, employers, insurers, attorneys, and providers. Functions include impartial medical exams, utilization review, stop-work orders, the Safety Grant Program, and DIA online case-management services.",
+  "path": "data/labor-rights/05-ma-dia.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": { "publisher": "Massachusetts Department of Industrial Accidents", "url": "https://www.mass.gov/orgs/department-of-industrial-accidents", "retrieved_at": "2026-05" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As published by agency",
+  "license": "mass.gov terms / public records (Massachusetts)",
+  "notes": "CONSUMPTION HAZARD: large file (~214 KB), likely bundling multiple DIA subpages. Workers'-comp claims under c.152 must generally be filed within 4 years of injury or last compensation payment.",
+  "related": ["labor-rights/10-osha", "labor-rights/04-ma-dls"],
+  "tags": ["workers-compensation", "industrial-accidents", "c.152", "workplace-injury", "insurance", "mass.gov"]
+}

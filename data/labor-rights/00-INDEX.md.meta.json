@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/00-INDEX",
+  "title": "Labor Rights Reference Index — Topic-Organized Navigation for 509dds Stewards",
+  "description": "Topic-organized navigation index mapping steward/member use-cases to specific source files in the labor-rights folder. Covers 11 enforcement agencies (DLR, MCAD, AGO Fair Labor, DLS, DIA, CSC, State Ethics, EEOC, DOL WHD, OSHA, NLRB) plus DFML/PFML and earned-sick-time cross-cuts, with per-use-case file lookups (discipline, discrimination, wages, safety, civil-service, retaliation, family/medical leave). Also documents four known scrape gaps (personnel records, PWFA dedicated page, DLR charge-form PDFs, NLRB Boston regional detail).",
+  "path": "data/labor-rights/00-INDEX.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts; federal agencies where dual-jurisdiction applies",
+  "source": {
+    "publisher": "SEIU Local 509 / DDS chapter (synthesized from MA & federal agency scrapes)",
+    "url": "https://github.com/Woop91/509dds-data/tree/main/data/labor-rights"
+  },
+  "confidence_tier": "Computed",
+  "license": "© SEIU Local 509 / DDS chapter; free to redistribute with attribution (per folder README)",
+  "notes": "Synthesized navigation index — not legal advice. Human-readable table of contents for the folder; read alongside agencies.json for app integrations. Scrape gaps are flagged at the end of the document.",
+  "related": ["labor-rights/00-CHEATSHEET", "labor-rights/00-MEMBER-GUIDE", "labor-rights/00-ma-labor-law-reference", "labor-rights/agencies"],
+  "tags": ["labor-rights", "index", "navigation", "steward-tools", "MA-public-sector", "use-case-lookup"]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "labor-rights/00-CHEATSHEET",
+  "title": "Steward Cheat Sheet — Massachusetts Labor Rights & Filing Quick Reference",
+  "description": "Synthesized quick-reference for SEIU Local 509 stewards covering MA public-sector employees (DDS focus): an issue-to-agency decision tree across 12 enforcement agencies, a filing-deadline table (15 days to 3 years) with citations to specific source-file lines, per-agency contacts, cross-cutting steward reminders (Weingarten, Loudermill, Duty of Fair Representation, past practice, dual-filing), an intake checklist, and a phone-tree section. Authority traces to the numbered agency landings and sub-*.md primary scrapes it cites.",
+  "path": "data/labor-rights/00-CHEATSHEET.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts; federal agencies where dual-jurisdiction applies",
+  "source": {
+    "publisher": "SEIU Local 509 / DDS chapter (synthesized from MA & federal agency scrapes)",
+    "url": "https://github.com/Woop91/509dds-data/tree/main/data/labor-rights"
+  },
+  "confidence_tier": "Computed",
+  "license": "© SEIU Local 509 / DDS chapter; free to redistribute with attribution (per folder README)",
+  "notes": "Synthesized reference compilation — not legal advice; authority traces to the cited primary agency scrapes (01-*.md..11-*.md and sub-*.md). Verify deadlines against current agency sites before acting.",
+  "related": ["labor-rights/00-INDEX", "labor-rights/00-MEMBER-GUIDE", "labor-rights/00-ma-labor-law-reference", "labor-rights/agencies"],
+  "tags": ["labor-rights", "steward-tools", "filing-deadlines", "MA-public-sector", "DLR", "MCAD", "CSC", "EEOC", "NLRB"]
+}

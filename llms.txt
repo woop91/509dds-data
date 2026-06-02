@@ -19,14 +19,35 @@ Computed, Browser-fetch pending, PRR-pending, Structurally unavailable.
 - [DDS Net Accuracy by State FY07–FY22](data/ssa/dds-net-accuracy-by-state-2007-2022.csv): per-state QA accuracy. Authoritative.
 - [Peer-State Determination Time Series 2010–2024](data/ssa/peer-states-timeseries-2010-2024.json): MA + 8 peer states, computed favorable rates. Computed.
 
+## Contract (data/contract) — normalized
+
+- [SEIU 509 Units 8 & 10 CBA 2024–2026](data/contract/seiu-509-cba-2024-2026.md): full collective-bargaining-agreement text, incl. DDS Supplemental Agreement O. Authoritative. (Hazard: readable text ends ~384,600 chars; binary PDF tail follows.)
+
+## MassAbility / MRC / SRC annual reports (data/ma-annual-reports) — normalized
+
+- [MassAbility Annual Report FY24](data/ma-annual-reports/massability-fy24.md): agency-wide report (Career Services, Home & Community Life, DDS). Authoritative.
+- [MassAbility Annual Report FY25](data/ma-annual-reports/massability-fy25.md): first full FY under the MassAbility name; DDS staffing. Authoritative.
+- [MRC Annual Report FY23](data/ma-annual-reports/mrc-fy23.md): last report under the MRC name, pre-rebrand. Authoritative.
+- [SRC Annual Report FY22](data/ma-annual-reports/src-fy22.md): Statewide Rehabilitation Council advisory report. Authoritative.
+- [SRC Annual Report FY23](data/ma-annual-reports/src-fy23.md): Statewide Rehabilitation Council advisory report. Authoritative.
+- [SRC FY24 (unavailable)](data/ma-annual-reports/src-fy24.md): mislabeled duplicate of the MassAbility FY24 report — genuine SRC FY24 not present. Structurally unavailable.
+
+## Reasonable-accommodation process (data/ra-process) — normalized
+
+- [ADA Coordinator Listing 2026-03-10](data/ra-process/ada-coordinator-listing-2026-03-10.csv): MA Executive Branch ADA coordinators (93 rows). Authoritative.
+- [RA/HR Contacts](data/ra-process/contacts.md): compiled MassAbility DDS RA/HR contact directory. Computed.
+- [Disability Rights in Employment](data/ra-process/disability-rights-in-employment.md): MOD reference on workplace disability rights + RA process. Authoritative.
+- [DLC Self-Advocacy Guide (Oct 2023)](data/ra-process/dlc-self-advocacy-guide-oct-2023.pdf): Disability Law Center self-advocacy guide (PDF). Authoritative.
+- [MassAbility DDS Info](data/ra-process/massability-dds-info.md): employer profile for MassAbility DDS. Authoritative.
+- [RA Application Page](data/ra-process/ra-application-page.md): HRD reasonable-accommodation request landing page. Authoritative.
+- [RA Process — State Executive Branch](data/ra-process/ra-process-state-exec-branch.md): MOD procedural guide for EO 592 RA process + appeals. Authoritative.
+- [SEIU 509 Units 8 & 10](data/ra-process/seiu-509-units-8-10.md): HRD page for SEIU 509 Units 8 & 10 (training fund). Authoritative.
+
 ## Other collections (rollout pending)
 
-- data/contract — SEIU Local 509 Units 8 & 10 CBA 2024–2026 (full text)
 - data/pay-scales — Unit 8 salary charts + per-employee VDE salary/OT 2010–2023
 - data/cthru-staffing — MA Comptroller (CTHRU) payroll headcount
 - data/labor-rights — enforcement agencies, filing deadlines, member/steward guides
-- data/ma-annual-reports — MassAbility/MRC annual + State Rehab Council reports
-- data/ra-process — reasonable-accommodation process references
 - data/workload — anonymized overtime + intake-cap evidence
 - data/oversight, data/external, data/prr-responses, data/screenshots
 - docs — methodology, data dictionary, agency disambiguation

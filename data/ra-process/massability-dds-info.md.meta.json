@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ra-process/massability-dds-info",
+  "title": "MassAbility Disability Determination Services (DDS) — mass.gov capture",
+  "description": "Capture of the official mass.gov page for MassAbility Disability Determination Services (DDS). DDS is 100% federally funded by the Social Security Administration (SSA) and determines eligibility for SSDI and SSI for Massachusetts applicants. The page describes the claim types processed (initial, reconsideration, continuing disability review, disability hearings), the examiner/medical-consultant workforce, and Boston (Everett) and Worcester office contacts. Provides employer context for SEIU 509 DDS-chapter members. Prose page converted to Markdown.",
+  "path": "data/ra-process/massability-dds-info.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "source": {
+    "publisher": "MassAbility (Commonwealth of Massachusetts)",
+    "title": "MassAbility Disability Determination Services (DDS)",
+    "url": "https://www.mass.gov/info-details/massability-disability-determination-services-dds",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Page capture includes mass.gov chrome that is not substantive content. MassAbility was formerly the Massachusetts Rehabilitation Commission (MRC); rebranded September 2024. DDS = Disability Determination Services (SSI/SSDI adjudication), not the Department of Developmental Services.",
+  "related": ["ra-process/contacts", "ra-process/ra-application-page"],
+  "tags": ["massability", "dds", "disability-determination", "ssdi", "ssi", "ssa", "massachusetts", "employer-profile"]
+}

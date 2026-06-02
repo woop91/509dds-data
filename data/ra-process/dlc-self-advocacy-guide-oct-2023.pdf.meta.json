@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ra-process/dlc-self-advocacy-guide-oct-2023",
+  "title": "Disability Law Center Self-Advocacy Guide (October 2023)",
+  "description": "Self-advocacy guide published by the Disability Law Center (DLC), Massachusetts's federally designated Protection & Advocacy organization, dated October 2023. Provides free-legal-advocacy-oriented guidance for Massachusetts residents with disabilities on asserting rights and navigating accommodation and benefits processes. Serves as a complementary reference to the mass.gov RA-process materials in this folder.",
+  "path": "data/ra-process/dlc-self-advocacy-guide-oct-2023.pdf",
+  "format": "pdf",
+  "unit_of_observation": "document",
+  "source": {
+    "publisher": "Disability Law Center (DLC)",
+    "title": "Self-Advocacy Guide",
+    "url": "https://www.dlc-ma.org",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Binary PDF (~257 KB); not text-extracted, so contents are summarized from title/publisher rather than parsed. The DLC is the federally designated Protection & Advocacy (P&A) organization for Massachusetts.",
+  "related": ["ra-process/disability-rights-in-employment", "ra-process/ra-process-state-exec-branch"],
+  "tags": ["disability-rights", "self-advocacy", "dlc", "legal-aid", "massachusetts", "pdf", "reasonable-accommodation"]
+}

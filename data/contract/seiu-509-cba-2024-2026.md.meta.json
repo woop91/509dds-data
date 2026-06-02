@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "contract/seiu-509-cba-2024-2026",
+  "title": "SEIU Local 509 Units 8 & 10 Collective Bargaining Agreement, 2024–2026",
+  "description": "Full text of the executed Collective Bargaining Agreement between the Commonwealth of Massachusetts (Human Resources Division) and the Alliance, AFSCME/SEIU, AFL-CIO (AFSCME Council 93 and SEIU Locals 509 and 888), covering Units 8 and 10 state employees — including DDS examiners and related titles at MassAbility. The term runs January 1, 2024 through December 31, 2026. The document contains the standard CBA articles (recognition, managerial rights, union security, anti-discrimination, hours/scheduling, leave, salary, health insurance, seniority/transfer, grievance/arbitration, duration, etc.), salary-schedule and job-title appendices, and a set of department-specific Supplemental Agreements and Memoranda of Understanding — including Supplemental Agreement O, which covers DDS. Converted from the bundled source PDF (dds-cba-2024-2026.source.pdf).",
+  "path": "data/contract/seiu-509-cba-2024-2026.md",
+  "format": "md",
+  "unit_of_observation": "document (articles, appendices, supplemental agreements, MOUs)",
+  "temporal_coverage": { "start": "2024", "end": "2026" },
+  "geographic_coverage": "Commonwealth of Massachusetts",
+  "source": {
+    "publisher": "SEIU Local 509 / Commonwealth of Massachusetts (Human Resources Division)",
+    "title": "Collective Bargaining Agreement — Alliance AFSCME-SEIU Local 509, Units 8 & 10, 2024–2026",
+    "url": "https://www.seiu509.org"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Executed public-sector labor contract (Commonwealth of Massachusetts)",
+  "notes": "CONSUMPTION HAZARD: the .md is 408,770 bytes but readable CBA text ends at approximately character 384,600; everything after that is an inline PNG/base64 binary tail appended by the PDF-to-markdown conversion. Truncate at ~384,600 chars; do not ingest the binary tail. No standalone public URL is known — the canonical source is the bundled dds-cba-2024-2026.source.pdf in this folder; source.url points to the SEIU Local 509 site as authoritative publisher. Supplemental Agreement O covers DDS specifically and is of primary interest to the 509dds chapter.",
+  "derived_from": ["contract/dds-cba-2024-2026.source.pdf"],
+  "tags": ["contract", "cba", "seiu-509", "units-8-10", "collective-bargaining", "dds", "massachusetts", "afscme", "supplemental-agreement-o"]
+}

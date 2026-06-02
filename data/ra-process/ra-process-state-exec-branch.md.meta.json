@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ra-process/ra-process-state-exec-branch",
+  "title": "Reasonable Accommodation Process for State Executive Branch Employees — mass.gov capture",
+  "description": "Capture of the Massachusetts Office on Disability (MOD) guidance page detailing the full reasonable-accommodation (RA) process for Executive Branch state employees under Executive Order 592. Covers employee rights, voluntary disability self-identification, step-by-step request submission, the decision timeline and progress-update expectations for complex cases, what to expect on approval, and the three-level internal appeal path (Agency → Secretariat → ODEO), plus external complaint options (MCAD, EEOC). The most detailed procedural reference in this folder. Prose page converted to Markdown.",
+  "path": "data/ra-process/ra-process-state-exec-branch.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "source": {
+    "publisher": "Massachusetts Office on Disability (MOD)",
+    "title": "Reasonable Accommodation Process for State Executive Branch Employees",
+    "url": "https://www.mass.gov/info-details/reasonable-accommodation-process-for-state-executive-branch-employees",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Page capture includes mass.gov chrome that is not substantive content. Pairs with ra-application-page.md (the submission landing page) and disability-rights-in-employment.md (the legal framework).",
+  "related": ["ra-process/ra-application-page", "ra-process/disability-rights-in-employment", "ra-process/contacts", "ra-process/ada-coordinator-listing-2026-03-10"],
+  "tags": ["reasonable-accommodation", "ada", "executive-order-592", "state-employees", "mod", "odeo", "massachusetts", "executive-branch", "appeals", "interactive-process"]
+}

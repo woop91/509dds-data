@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ma-annual-reports/src-fy24",
+  "title": "SRC FY2024 (UNAVAILABLE — file is a mislabeled duplicate of the MassAbility FY24 report)",
+  "description": "The genuine State Rehabilitation Council FY2024 annual report is NOT present in this file. The bytes of src-fy24.md are identical to massability-fy24.md (both resolve to git blob 1184fab3a5790b07f5bf7294503c988cfb234227 — proof of identical content). The file contains the MassAbility agency-wide FY2024 annual report, not an SRC-standalone report. Any analysis sourced from this file must be attributed to the MassAbility FY24 report; see ma-annual-reports/massability-fy24.",
+  "path": "data/ma-annual-reports/src-fy24.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "geographic_coverage": "Massachusetts",
+  "source": {
+    "publisher": "Unknown — file content does not match filename",
+    "url": "https://www.mass.gov/mrc"
+  },
+  "confidence_tier": "Structurally unavailable",
+  "notes": "DATA-QUALITY ISSUE: byte-identical to massability-fy24.md (blob 1184fab3…). Filename/content mismatch — the real SRC FY24 report still needs to be sourced. Do not treat as a distinct SRC FY2024 document.",
+  "related": ["ma-annual-reports/massability-fy24"],
+  "tags": ["src", "statewide-rehabilitation-council", "mislabeled", "duplicate", "data-quality-issue", "massachusetts", "fy2024"]
+}

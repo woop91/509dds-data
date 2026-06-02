@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ra-process/contacts",
+  "title": "MassAbility DDS — HR & Reasonable-Accommodation Contacts (Compiled)",
+  "description": "Compiled contact directory for MassAbility DDS employees navigating a reasonable-accommodation (RA) request, MassHR issue, or HR escalation. Documents the MassAbility Agency ADA Coordinator, DEIA manager, MassHR Employee Service Center, EOHHS-level fallback coordinators, the Office of Diversity and Equal Opportunity (ODEO) for appeals, the Massachusetts Office on Disability (MOD) for guidance, and external enforcement options (MCAD, EEOC). Assembled from official sources with an update history; not a single primary-source file.",
+  "path": "data/ra-process/contacts.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "source": {
+    "publisher": "509dds research (compiled from MOD listing + EOHHS communications)",
+    "title": "MassAbility DDS HR & RA contacts",
+    "url": "https://www.mass.gov/info-details/find-the-ada-coordinator-for-a-state-agency"
+  },
+  "confidence_tier": "Computed",
+  "notes": "Compiled/assembled, not a raw source file. Coordinator assignments rotate — verify against the live MOD listing before any formal filing. MassAbility is still absent from the official MOD listing as of the March 2026 snapshot; its coordinator appears there under 'Department of Public Health' (EOHHS).",
+  "related": ["ra-process/ada-coordinator-listing-2026-03-10", "ra-process/ra-application-page", "ra-process/ra-process-state-exec-branch"],
+  "tags": ["ada", "reasonable-accommodation", "contacts", "massability", "dds", "eohhs", "state-employees", "massachusetts"]
+}

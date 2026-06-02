@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ra-process/disability-rights-in-employment",
+  "title": "Disability Rights in Employment — Massachusetts Office on Disability (mass.gov capture)",
+  "description": "Capture of the Massachusetts Office on Disability (MOD) reference page on disability rights in the workplace. Covers the governing federal and state laws (ADA Title I, Rehabilitation Act, FMLA; M.G.L. c. 151B, Executive Order 592), the legal definition of disability, disability discrimination and harassment, the reasonable-accommodation interactive process and undue-hardship standard, a step-by-step employee guide to requesting an accommodation, and internal/external recourse options (MCAD, EEOC). Prose page converted to Markdown.",
+  "path": "data/ra-process/disability-rights-in-employment.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "source": {
+    "publisher": "Massachusetts Office on Disability (MOD)",
+    "title": "Disability Rights in Employment",
+    "url": "https://www.mass.gov/info-details/disability-rights-in-employment",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Page capture includes mass.gov chrome (state seal, feedback widgets, translate notice) that is not substantive content. MOD provides individualized guidance and technical assistance but is not itself an enforcement agency.",
+  "related": ["ra-process/ra-process-state-exec-branch", "ra-process/ra-application-page", "ra-process/dlc-self-advocacy-guide-oct-2023"],
+  "tags": ["ada", "disability-rights", "reasonable-accommodation", "employment-law", "mod", "massachusetts", "mcad", "eeoc", "executive-order-592"]
+}

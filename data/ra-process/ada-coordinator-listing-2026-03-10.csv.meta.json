@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ra-process/ada-coordinator-listing-2026-03-10",
+  "title": "Massachusetts Executive Branch ADA Coordinator Listing (March 10, 2026)",
+  "description": "Official listing of Americans with Disabilities Act (ADA) coordinators for Massachusetts Executive Branch agencies, published by the Massachusetts Office on Disability (MOD). Each row identifies an agency, its secretariat, the population served (employees only, the public, both, or incarcerated people), and the coordinator's name, email, and phone. Multiple rows can exist for one agency when different coordinators serve different populations. As of this snapshot MassAbility does not appear under its current name (post-2024 rebrand not yet reflected); Stacy Hart is listed under Department of Public Health (EOHHS).",
+  "path": "data/ra-process/ada-coordinator-listing-2026-03-10.csv",
+  "format": "csv",
+  "unit_of_observation": "agency × population served × ADA coordinator",
+  "row_count": 93,
+  "columns": [
+    { "name": "Agency", "type": "string", "description": "Massachusetts Executive Branch agency or office." },
+    { "name": "Secretariat", "type": "string", "description": "Executive Office (secretariat) the agency reports under." },
+    { "name": "Population served", "type": "string", "description": "Population this coordinator handles ADA matters for: 'Employees and the public', 'Employees only', 'The public', or 'Incarcerated people'." },
+    { "name": "ADA Coordinator", "type": "string", "description": "Full name of the designated ADA Coordinator for this agency/population." },
+    { "name": "Email", "type": "string", "description": "Coordinator email. Mix of @mass.gov, @massmail.state.ma.us, and agency-specific domains." },
+    { "name": "Phone", "type": "string", "description": "Coordinator phone. Stored as string; formatting is inconsistent and some cells are blank." }
+  ],
+  "temporal_coverage": { "start": "2026-03-10", "end": "2026-03-10" },
+  "geographic_coverage": "Massachusetts (Executive Branch agencies statewide)",
+  "source": {
+    "publisher": "Massachusetts Office on Disability (MOD)",
+    "title": "Find the ADA Coordinator for a state agency",
+    "url": "https://www.mass.gov/info-details/find-the-ada-coordinator-for-a-state-agency",
+    "retrieved_at": "2026-03-10"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Ad hoc; MOD republishes when coordinator assignments change.",
+  "notes": "CONSUMPTION HAZARDS: file begins with a UTF-8 BOM; the Phone column is inconsistently formatted and sometimes blank; a few rows have stray leading/trailing whitespace in Agency or Email; some coordinators appear in multiple rows (multiple agencies or populations). MassAbility DDS members: the relevant ADA coordinator (Stacy Hart) is listed under 'Department of Public Health' (EOHHS) in this snapshot — see contacts.md.",
+  "related": ["ra-process/contacts"],
+  "tags": ["ada", "reasonable-accommodation", "disability-rights", "state-employees", "massachusetts", "executive-branch", "contacts"]
+}

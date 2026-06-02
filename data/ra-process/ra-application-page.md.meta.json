@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ra-process/ra-application-page",
+  "title": "Reasonable Accommodations for Executive Department Employees — mass.gov capture",
+  "description": "Capture of the Massachusetts Human Resources Division (HRD) landing page for reasonable-accommodation (RA) requests by Executive Branch employees. Defines reasonable accommodation, links to the online RA request form and MOD guidance, lists downloadable forms (medical inquiry, medical release, paper RA form, RA poster/job aid) and the ADA Coordinator lookup, and provides Office of Diversity and Equal Opportunity (ODEO) contact details. Prose page converted to Markdown.",
+  "path": "data/ra-process/ra-application-page.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "source": {
+    "publisher": "Massachusetts Human Resources Division (HRD)",
+    "title": "Reasonable Accommodations for Executive Department Employees",
+    "url": "https://www.mass.gov/reasonable-accommodations-for-executive-department-employees",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Page capture includes mass.gov chrome that is not substantive content. The page is the live submission entry point (online RA request form) for Executive Branch employees, offered by HRD under the Executive Office for Administration and Finance.",
+  "related": ["ra-process/ra-process-state-exec-branch", "ra-process/ada-coordinator-listing-2026-03-10", "ra-process/contacts"],
+  "tags": ["reasonable-accommodation", "ada", "state-employees", "hrd", "odeo", "massachusetts", "executive-branch"]
+}

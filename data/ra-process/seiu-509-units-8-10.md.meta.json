@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ra-process/seiu-509-units-8-10",
+  "title": "SEIU Local 509 Units 8 and 10 — mass.gov capture",
+  "description": "Capture of the Massachusetts Human Resources Division (HRD) page for SEIU Local 509 Units 8 and 10, the bargaining units covering Commonwealth human-service workers and educators (DDS members fall under Unit 8 or Unit 10). The captured page is brief — it identifies the SEIU 509 Training and Professional Development Fund and links to its site; it contains no contract text, unit-scope language, or membership figures. Prose page converted to Markdown.",
+  "path": "data/ra-process/seiu-509-units-8-10.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "source": {
+    "publisher": "Massachusetts Human Resources Division (HRD)",
+    "title": "SEIU Local 509 Units 8 and 10",
+    "url": "https://www.mass.gov/info-details/seiu-local-509-units-8-and-10",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Page capture includes mass.gov chrome that is not substantive content. The page body is a short stub (training-fund description + external link). For full contract terms see data/contract/seiu-509-cba-2024-2026.md.",
+  "related": ["ra-process/contacts", "contract/seiu-509-cba-2024-2026"],
+  "tags": ["seiu-509", "unit-8", "unit-10", "bargaining-unit", "training", "massachusetts", "state-employees", "union"]
+}

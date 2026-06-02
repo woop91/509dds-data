@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "cthru-staffing/dds-staff-totals",
+  "title": "DDS Division Staff Totals by Year (CTHRU-derived)",
+  "description": "Annual headcount totals for the DDS-Determination (DDS-Det) division within MassAbility/MRC, aggregated from Massachusetts CTHRU public payroll data (department filter MRC). Covers calendar years 2010–2023. Tracks per year: total Vocational Disability Examiners (VDE, all grades), Medical Consultants, the full DDS division headcount, and the broader MRC agency total. A disambiguation record for the separate Department of Developmental Services is present but out of 509 scope.",
+  "path": "data/cthru-staffing/dds-staff-totals.json",
+  "format": "json",
+  "unit_of_observation": "DDS division (MassAbility/MRC), one record per calendar year",
+  "row_count": 14,
+  "columns": [
+    { "name": "year", "type": "integer", "description": "Calendar year (top-level key in 'data')." },
+    { "name": "vde_total", "type": "integer", "unit": "persons", "description": "Total VDEs (all grades) in CTHRU payroll for the year." },
+    { "name": "medical_consultants", "type": "integer", "unit": "persons", "description": "Medical Consultant positions in CTHRU for the year." },
+    { "name": "dds_division_total", "type": "integer", "unit": "persons", "description": "Total DDS-Det division headcount (all DDS titles incl. VDEs, Medical Consultants, leadership) for the year." },
+    { "name": "mrc_agency_total", "type": "integer", "unit": "persons", "description": "Total MassAbility/MRC agency-wide headcount in CTHRU for the year." }
+  ],
+  "temporal_coverage": { "start": "2010", "end": "2023" },
+  "source": {
+    "publisher": "Massachusetts Office of the Comptroller (CTHRU)",
+    "url": "https://cthru.data.mass.gov/"
+  },
+  "confidence_tier": "Computed",
+  "notes": "Aggregated from CTHRU public payroll by the repo maintainer (CTHRU is the authoritative upstream). 2016 counts are inflated by a VDE title reclassification (old A/B/C/D and new I/II/III concurrent). CY2024 not yet in CTHRU as of 2026-05; CTHRU lag ~6+ months after year end.",
+  "tags": ["staffing", "headcount", "cthru", "vde", "dds", "massability", "mrc", "payroll", "509dds"]
+}

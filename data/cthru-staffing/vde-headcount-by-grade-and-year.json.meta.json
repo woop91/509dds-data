@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "cthru-staffing/vde-headcount-by-grade-and-year",
+  "title": "VDE Headcount by Grade and Calendar Year (CTHRU-derived)",
+  "description": "Annual Vocational Disability Examiner (VDE) headcount by pay grade, aggregated from Massachusetts CTHRU public payroll (MRC; title ILIKE '%DISAB EXAMINER%'). Covers calendar years 2010–2023. The grade scheme changed in 2016 from alpha (A/B, C, D) to roman-numeral (I, II, III, IV). Headline trend: VDE total fell from 232 (2019) to 129 (2023); Grade III collapsed from 44 to 7 over the same period.",
+  "path": "data/cthru-staffing/vde-headcount-by-grade-and-year.json",
+  "format": "json",
+  "unit_of_observation": "VDE pay grade within DDS-Det (MassAbility/MRC), one grade-breakdown record per calendar year",
+  "row_count": 14,
+  "columns": [
+    { "name": "year", "type": "integer", "description": "Calendar year (top-level key in 'by_grade')." },
+    { "name": "A_B", "type": "integer", "unit": "persons", "description": "VDE Grade A/B (entry, pre-2016); null under the roman scheme." },
+    { "name": "C", "type": "integer", "unit": "persons", "description": "VDE Grade C (mid, pre-2016); null under the roman scheme." },
+    { "name": "D", "type": "integer", "unit": "persons", "description": "VDE Grade D (senior, pre-2016); null under the roman scheme." },
+    { "name": "I", "type": "integer", "unit": "persons", "description": "VDE Grade I (entry, post-2016); null under the alpha scheme." },
+    { "name": "II", "type": "integer", "unit": "persons", "description": "VDE Grade II (mid, post-2016); null under the alpha scheme." },
+    { "name": "III", "type": "integer", "unit": "persons", "description": "VDE Grade III (senior, post-2016); null under the alpha scheme." },
+    { "name": "IV", "type": "integer", "unit": "persons", "description": "VDE Grade IV (specialist/lead, post-2016, first seen 2019); null earlier." },
+    { "name": "total", "type": "integer", "unit": "persons", "description": "Total VDE headcount for the year. For 2016 the source provides total_raw (385, inflated) and total_corrected_estimate (~200) — use the corrected estimate." }
+  ],
+  "temporal_coverage": { "start": "2010", "end": "2023" },
+  "source": {
+    "publisher": "Massachusetts Office of the Comptroller (CTHRU)",
+    "url": "https://cthru.data.mass.gov/"
+  },
+  "confidence_tier": "Computed",
+  "notes": "CONSUMPTION HAZARD: 2016 row carries both old and new grade columns (mid-year reclassification); raw total 385 is inflated, corrected ~200. Aggregated from CTHRU (dataset rxhc-k6iz) by the repo maintainer; counts payroll records per year (may differ from SSA SAOR FTE-authorized counts). CY2024 not yet in CTHRU as of 2026-05.",
+  "tags": ["staffing", "headcount", "vde", "grade", "cthru", "dds", "massability", "mrc", "payroll", "509dds"]
+}

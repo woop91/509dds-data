@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "prr-responses/2025-06-06-vizcaino-responsive-materials",
+  "title": "Vizcaino PRR — Responsive Materials (2025-06-06)",
+  "description": "Official Massachusetts Public Records Request (PRR) production dated 2025-06-06, comprising materials responsive to the Vizcaino matter, produced by MassAbility (Massachusetts Rehabilitation Commission) as custodial state agency. Binary PDF; not text-extracted. Records released in response to a formal public-records request under M.G.L. c.66 §10.",
+  "path": "data/prr-responses/2025-06-06-vizcaino-responsive-materials.pdf",
+  "format": "pdf",
+  "temporal_coverage": { "start": "2025-06-06", "end": "2025-06-06" },
+  "source": {
+    "publisher": "MassAbility (Massachusetts Rehabilitation Commission), Commonwealth of Massachusetts",
+    "url": "https://github.com/Woop91/509dds-data/tree/main/data/prr-responses"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Binary PDF (~220 KB); not text-extracted, so no machine-readable column structure. No standalone public URL for this production; the repo tree URL is a locator. Custodian is MassAbility/MRC. temporal_coverage is the production date (internal data period not determinable from the binary).",
+  "tags": ["prr", "public-records", "vizcaino", "massability", "mrc", "509dds"]
+}

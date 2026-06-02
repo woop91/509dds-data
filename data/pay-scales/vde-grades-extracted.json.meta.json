@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/vde-grades-extracted",
+  "title": "VDE Pay Grade Rates Extracted from Salary Charts, 2024–2026 (Derived)",
+  "description": "Extracted bi-weekly pay rates for VDE grades 20, 21, 23 at key steps (1, 5, 10, 12) for each of the five CBA effective dates 2024-07-14 through 2026-07-12, plus CY2023 actual CTHRU annual-pay statistics by VDE title. Derived by extracting the relevant grade rows from the five effective-*.md salary-chart captures. VDE I = Grade 20, VDE II = Grade 21, VDE III = Grade 23.",
+  "path": "data/pay-scales/vde-grades-extracted.json",
+  "format": "json",
+  "unit_of_observation": "effective_date × grade",
+  "columns": [
+    { "name": "effective_date", "type": "date", "description": "Chart effective date (key under salary_charts)." },
+    { "name": "grade", "type": "string", "description": "Pay grade (grade_20, grade_21, grade_23)." },
+    { "name": "step_1", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_5", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_10", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_12", "type": "number", "unit": "USD bi-weekly", "description": "Maximum step." },
+    { "name": "annual_est_max", "type": "number", "unit": "USD", "description": "Estimated annual maximum (step_12 × 26)." },
+    { "name": "cthru_actual_paid_2023.avg", "type": "number", "unit": "USD", "description": "Average actual annual pay from CTHRU CY2023 (block also has n/min/max)." }
+  ],
+  "temporal_coverage": { "start": "2024-07-14", "end": "2026-07-12" },
+  "source": { "publisher": "SEIU Local 509 / Commonwealth of Massachusetts (Unit 8 & 10 CBA) and Massachusetts Office of the Comptroller (CTHRU)", "url": "https://www.seiu509.org/" },
+  "confidence_tier": "Computed",
+  "notes": "Derived from the five effective-*.md salary-chart files in this folder. cthru_actual_paid_2023 reflects pre-2024-07 pay rates. Annual estimate = bi-weekly × 26.",
+  "tags": ["pay-scales", "salary", "vde", "grade", "derived", "cba", "cthru", "public-record"]
+}

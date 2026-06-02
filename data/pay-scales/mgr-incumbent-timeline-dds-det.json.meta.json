@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/mgr-incumbent-timeline-dds-det",
+  "title": "DDS-Det Manager Incumbency Timeline, 2010–2023 (Derived)",
+  "description": "Derived incumbency timeline for DDS-Det leadership roles (Assistant Commissioner DDS, Director QA DDS, Fiscal Director DDS, Regional Director DDS, Training Director, Hearings Director, MRC Commissioner, Deputy Commissioner MRC), 2010–2023. Each role lists every person who held it per year with annual_rate, actual_paid, and CTHRU snapshot date; multiple incumbents in a year indicate a mid-year transition. Derived from the raw CTHRU MRC manager pull (excluded internal file _raw_cthru_mrc_managers.json).",
+  "path": "data/pay-scales/mgr-incumbent-timeline-dds-det.json",
+  "format": "json",
+  "unit_of_observation": "role × year × incumbent",
+  "columns": [
+    { "name": "role", "type": "string", "description": "Normalized role label (top-level key under by_role)." },
+    { "name": "year", "type": "integer", "description": "Calendar year." },
+    { "name": "name", "type": "string", "description": "Incumbent full name." },
+    { "name": "raw_title", "type": "string", "description": "Original CTHRU position_title." },
+    { "name": "bargaining_group_no", "type": "string", "description": "Bargaining group (M99 = management/exempt)." },
+    { "name": "annual_rate", "type": "number", "unit": "USD", "description": "Annualized scheduled salary rate." },
+    { "name": "actual_paid", "type": "number", "unit": "USD", "description": "Compensation paid year-to-date at snapshot." },
+    { "name": "overtime_paid", "type": "number", "unit": "USD" },
+    { "name": "snapshot_through", "type": "date", "description": "CTHRU snapshot date." }
+  ],
+  "temporal_coverage": { "start": "2010", "end": "2023" },
+  "source": { "publisher": "Massachusetts Office of the Comptroller (CTHRU)", "url": "https://cthru.data.mass.gov/" },
+  "confidence_tier": "Computed",
+  "notes": "Derived from _raw_cthru_mrc_managers.json (excluded internal raw file, ~2,555 rows). 2023 actual_paid is partial (~2 weeks). Massachusetts public-record payroll data.",
+  "tags": ["pay-scales", "leadership", "incumbency", "cthru", "dds", "mrc", "timeline", "public-record"]
+}

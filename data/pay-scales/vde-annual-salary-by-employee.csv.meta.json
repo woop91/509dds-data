@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/vde-annual-salary-by-employee",
+  "title": "VDE Annual Salary by Employee, 2010–2023 (CTHRU)",
+  "description": "Per-employee, per-year salary and pay records for Massachusetts DDS-Det Vocational Disability Examiners (CTHRU title LIKE '%DISAB EXAMINER%', MRC). CY2010–2023 (pre-2010 CTHRU data unavailable). Source: Massachusetts CTHRU public payroll (dataset rxhc-k6iz), pulled 2026-05-04. ~2,609 data rows. Includes VDE I–IV title variants and pay grades 20, 21, 23. Massachusetts public-record payroll, not confidential.",
+  "path": "data/pay-scales/vde-annual-salary-by-employee.csv",
+  "format": "csv",
+  "unit_of_observation": "employee × calendar year",
+  "row_count": 2609,
+  "columns": [
+    { "name": "year", "type": "integer", "description": "Calendar year of payroll snapshot." },
+    { "name": "name_last", "type": "string", "description": "Employee last name." },
+    { "name": "name_first", "type": "string", "description": "Employee first name." },
+    { "name": "position_title", "type": "string", "description": "Raw CTHRU position title (e.g. VOCATIONAL DISAB EXAMINER I)." },
+    { "name": "grade", "type": "string", "description": "Pay grade (20 = VDE I, 21 = VDE II, 23 = VDE III per CBA)." },
+    { "name": "position_type", "type": "string", "description": "Position type code from CTHRU." },
+    { "name": "annual_rate", "type": "number", "unit": "USD", "description": "Annualized scheduled salary rate at snapshot." },
+    { "name": "regular_pay_paid", "type": "number", "unit": "USD", "description": "Regular base pay paid year-to-date." },
+    { "name": "overtime_pay_paid", "type": "number", "unit": "USD", "description": "Overtime pay year-to-date." },
+    { "name": "other_pay_paid", "type": "number", "unit": "USD", "description": "Other pay year-to-date." },
+    { "name": "buyout_pay_paid", "type": "number", "unit": "USD", "description": "Buyout/accrued-leave payout year-to-date." },
+    { "name": "total_paid", "type": "number", "unit": "USD", "description": "Total compensation paid year-to-date." },
+    { "name": "snapshot_through", "type": "date", "description": "Date through which pay data is captured." },
+    { "name": "bargaining_unit", "type": "string", "description": "Bargaining unit code (Unit 8 = Social/Rehabilitative, SEIU 509)." }
+  ],
+  "temporal_coverage": { "start": "2010", "end": "2023" },
+  "source": { "publisher": "Massachusetts Office of the Comptroller (CTHRU)", "url": "https://cthru.data.mass.gov/" },
+  "confidence_tier": "Authoritative",
+  "notes": "2023 totals incomplete — latest CTHRU snapshot only through ~2023-01-14 (~2 weeks); annual_rate reliable for all years. Pre-2010 (2001–2009) not available in CTHRU. Massachusetts public-record payroll data.",
+  "tags": ["pay-scales", "salary", "cthru", "vde", "payroll", "dds", "mrc", "public-record"]
+}

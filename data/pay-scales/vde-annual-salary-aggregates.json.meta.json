@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/vde-annual-salary-aggregates",
+  "title": "VDE Annual Salary Aggregates by Year and Grade, 2010–2023 (Derived)",
+  "description": "Per-year and per-(year, grade) aggregate statistics — count, min, p25, median, mean, p75, max, stdev, sum — for annual_rate and actual_paid of Massachusetts DDS-Det Vocational Disability Examiners (CTHRU title LIKE '%DISAB EXAMINER%', MRC). Includes a by_year_and_grade breakdown and headline findings. Derived from vde-annual-salary-by-employee.csv via the (excluded) _build_vde_pay.py. Pre-2010 CTHRU data unavailable; 2023 actual_paid incomplete. Massachusetts public-record payroll.",
+  "path": "data/pay-scales/vde-annual-salary-aggregates.json",
+  "format": "json",
+  "unit_of_observation": "calendar year (and year × grade)",
+  "columns": [
+    { "name": "year", "type": "integer", "description": "Calendar year (key under by_year / by_year_and_grade)." },
+    { "name": "grade", "type": "string", "description": "Pay grade (key under by_year_and_grade; absent in by_year)." },
+    { "name": "n", "type": "integer", "description": "Number of employee-year records in the aggregate." },
+    { "name": "annual_rate.median", "type": "number", "unit": "USD", "description": "Median annual_rate (the annual_rate stat block also has min/p25/mean/p75/max/stdev/sum)." },
+    { "name": "annual_rate.mean", "type": "number", "unit": "USD" },
+    { "name": "actual_paid.median", "type": "number", "unit": "USD", "description": "Median actual_paid (block also has min/mean/max/sum)." },
+    { "name": "actual_paid.mean", "type": "number", "unit": "USD" },
+    { "name": "overtime_paid_among_payers.n", "type": "integer", "description": "Count of employees with any overtime." },
+    { "name": "overtime_paid_among_payers.mean", "type": "number", "unit": "USD" }
+  ],
+  "temporal_coverage": { "start": "2010", "end": "2023" },
+  "source": { "publisher": "Massachusetts Office of the Comptroller (CTHRU)", "url": "https://cthru.data.mass.gov/" },
+  "confidence_tier": "Computed",
+  "notes": "Large file (~286 KB). Derived from vde-annual-salary-by-employee.csv (deduped to latest snapshot per year/employee). Top-level keys include $comment, source, grade_legend, outlier_methodology, year_data_completeness, by_year, by_year_and_grade, headline_findings, and a !!_DATA_GAP_2001_2009 block. 2023 actual_paid flagged INCOMPLETE. Column names use dot-paths to denote nested stat fields.",
+  "tags": ["pay-scales", "salary", "aggregates", "statistics", "cthru", "vde", "dds", "public-record"]
+}

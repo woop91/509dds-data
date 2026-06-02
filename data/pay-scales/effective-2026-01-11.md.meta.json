@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/effective-2026-01-11",
+  "title": "Unit 8 & 10 Salary Chart — Effective 2026-01-11",
+  "description": "SEIU Local 509 / Unit 8 & 10 salary chart effective January 11, 2026 (2% across-the-board increase). Bi-weekly pay rates for all grades and steps. DDS-Det VDE grades: 20 (VDE I), 21 (VDE II), 23 (VDE III).",
+  "path": "data/pay-scales/effective-2026-01-11.md",
+  "format": "md",
+  "unit_of_observation": "pay grade × step",
+  "columns": [
+    { "name": "grade", "type": "string", "description": "Pay grade." },
+    { "name": "step_1", "type": "number", "unit": "USD bi-weekly", "description": "Step 1 bi-weekly rate." },
+    { "name": "step_2", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_3", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_4", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_5", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_6", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_7", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_8", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_9", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_10", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_11", "type": "number", "unit": "USD bi-weekly" },
+    { "name": "step_12", "type": "number", "unit": "USD bi-weekly", "description": "Maximum step." }
+  ],
+  "temporal_coverage": { "start": "2026-01-11", "end": "2026-07-11" },
+  "source": { "publisher": "SEIU Local 509 / Commonwealth of Massachusetts (Unit 8 & 10 CBA)", "url": "https://www.seiu509.org/" },
+  "confidence_tier": "Authoritative",
+  "notes": "2% increase effective 2026-01-11. Markdown capture of the official salary schedule. Annual estimate = bi-weekly × 26.",
+  "tags": ["pay-scales", "salary-chart", "seiu-509", "unit-8", "vde", "cba", "massachusetts"]
+}

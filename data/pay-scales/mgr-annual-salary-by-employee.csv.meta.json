@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/mgr-annual-salary-by-employee",
+  "title": "DDS-Det Manager Annual Salary by Employee, 2010–2023 (CTHRU)",
+  "description": "Per-employee, per-year salary and pay records for MRC manager-tier staff (bargaining group M99 and commissioner/director titles) at the Massachusetts Rehabilitation Commission, which administers DDS-Det. Source: Massachusetts CTHRU public payroll (dataset rxhc-k6iz), filtered to MRC manager-class titles, pulled 2026-05-08. ~2,543 data rows, CY2010–2023. Massachusetts public-record payroll, not confidential.",
+  "path": "data/pay-scales/mgr-annual-salary-by-employee.csv",
+  "format": "csv",
+  "unit_of_observation": "employee × calendar year",
+  "row_count": 2543,
+  "columns": [
+    { "name": "year", "type": "integer", "description": "Calendar year of payroll snapshot." },
+    { "name": "name_last", "type": "string", "description": "Employee last name." },
+    { "name": "name_first", "type": "string", "description": "Employee first name." },
+    { "name": "position_title", "type": "string", "description": "Raw position title from CTHRU." },
+    { "name": "canonical_role", "type": "string", "description": "Normalized role label." },
+    { "name": "bargaining_group_no", "type": "string", "description": "Bargaining group code (M99 = management/exempt)." },
+    { "name": "annual_rate", "type": "number", "unit": "USD", "description": "Annualized scheduled salary rate at snapshot." },
+    { "name": "actual_paid", "type": "number", "unit": "USD", "description": "Total compensation paid year-to-date at snapshot." },
+    { "name": "overtime_paid", "type": "number", "unit": "USD", "description": "Overtime pay year-to-date." },
+    { "name": "other_paid", "type": "number", "unit": "USD", "description": "Other pay (non-base, non-overtime) year-to-date." },
+    { "name": "buyout_paid", "type": "number", "unit": "USD", "description": "Buyout or accrued-leave payout year-to-date." },
+    { "name": "snapshot_through", "type": "date", "description": "Date through which pay data is captured." },
+    { "name": "department_division", "type": "string", "description": "Department/division label from CTHRU." }
+  ],
+  "temporal_coverage": { "start": "2010", "end": "2023" },
+  "source": { "publisher": "Massachusetts Office of the Comptroller (CTHRU)", "url": "https://cthru.data.mass.gov/" },
+  "confidence_tier": "Authoritative",
+  "notes": "2023 actual_paid is incomplete — the latest CTHRU 2023 snapshot covers only through ~2023-01-14 (~2 weeks); annual_rate is reliable for all years. Massachusetts public-record payroll data.",
+  "tags": ["pay-scales", "salary", "cthru", "manager", "payroll", "dds", "mrc", "public-record"]
+}

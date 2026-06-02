@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/VA/scheduled-rates",
+  "title": "Virginia DDS Analyst Pay Bands + DDS-Internal Starting Salaries (DHRM Structure, eff 2025-06-10)",
+  "description": "Machine-readable Virginia classified pay-band structure (min/max only — VA uses wide pay-band ranges, not stepped grids) for both Statewide (SW) and Northern Virginia (NoVA) areas, bands 1–9. Includes a role-to-band crosswalk for the DDS Analyst series (Trainee 1 #ARSD0134, Journey #ARSD0315, Junior #ARSD0436 → Band 4; Supervisor — Line Unit #ARSD0252 → Band 5) and the more informative DARS DDS-internal FY26 starting salaries ($54,106 Trainee 1 → $69,479 Junior; $105,212 Supervisor). Extracted from the DHRM FY26 salary-structure PDF (extraction_status complete).",
+  "path": "data/pay-scales/peer-states/VA/scheduled-rates.json",
+  "format": "json",
+  "unit_of_observation": "pay band × area (SW / NoVA)",
+  "columns": [
+    { "name": "pay_bands.<area>.<band>.min", "type": "number", "unit": "USD", "description": "Pay-band annual minimum for the area (SW or NoVA), bands 1–9." },
+    { "name": "pay_bands.<area>.<band>.max", "type": "number", "unit": "USD", "description": "Pay-band annual maximum (band 9 max is the string 'Market', not a number)." },
+    { "name": "role_band_assignments", "type": "string", "description": "Crosswalk from DDS Analyst / Supervisor role code to pay band." },
+    { "name": "dds_internal_starting_salaries_fy26", "type": "number", "unit": "USD", "description": "DARS DDS-internal FY26 starting salary by role — the realistic hiring rate, narrower than the band range." }
+  ],
+  "temporal_coverage": { "start": "2025-06-10", "end": "2026-06-30" },
+  "geographic_coverage": "Virginia (Statewide and Northern Virginia areas)",
+  "source": { "publisher": "Virginia Department of Human Resource Management (DHRM); DARS Disability Determination Services Division", "title": "Virginia Classified Salary Structure effective 2025-06-10 (FY26) + DARS DDS internal salary model", "url": "https://www.dhrm.virginia.gov/docs/default-source/compensationdocuments/fy26salarystructure.pdf", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "annual (fiscal-year salary structure; FY26 applied a 3% increase)",
+  "notes": "Authoritative: pay-band min/max parsed from the official DHRM FY26 salary-structure PDF for both SW and NoVA areas. CAVEAT: VA pay bands are extremely wide so the band 'max' figures are misleading on their own — use dds_internal_starting_salaries_fy26 as the realistic comparator. Band 9 max is the literal string 'Market' (no numeric ceiling). No collective bargaining for VA state employees.",
+  "related": ["pay-scales/peer-states/VA/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "VA", "virginia", "dds", "dds-analyst", "salary", "scheduled-rates", "pay-bands", "dhrm", "authoritative"]
+}

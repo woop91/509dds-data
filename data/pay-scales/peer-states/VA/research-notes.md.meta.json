@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/VA/research-notes",
+  "title": "Virginia DDS Pay-Scale Research Notes",
+  "description": "Narrative research notes for Virginia DDS examiner and supervisor pay: administering agency (DARS DDS Division), DDS Analyst role codes (Trainee 1 #ARSD0134, Journey #ARSD0315, Junior #ARSD0436, Supervisor — Line Unit #ARSD0252), pay-band assignments (Band 4 examiner / Band 5 supervisor) and FY26 DARS-internal starting salaries ($54,106 → $69,479; $105,212 supervisor), the DHRM Classified Salary Structure (eff 2025-06-10), the separate VA DDS salary model, and no-collective-bargaining status. Companion to VA/scheduled-rates.json.",
+  "path": "data/pay-scales/peer-states/VA/research-notes.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2025-06-10", "end": "2026-06-30" },
+  "geographic_coverage": "Virginia (Statewide and Northern Virginia areas)",
+  "source": { "publisher": "Virginia Department of Human Resource Management (DHRM); DARS Disability Determination Services Division", "title": "VA DDS salary research notes (jobs.virginia.gov role codes + DHRM FY26 structure + DARS salary model)", "url": "https://www.dhrm.virginia.gov/hr-partners/compensation-and-classification", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "annual (fiscal-year salary structure)",
+  "notes": "Authoritative: official DARS role codes (ARSD0134/0315/0436/0252) and pay-band assignments cited from jobs.virginia.gov, with real FY26 DARS-internal starting salaries and the DHRM Classified Salary Structure (eff 2025-06-10, 3% increase). CAVEAT: VA pay bands are very wide, so starting salaries (not band maxes) are the realistic comparator; the legacy DDS salary-model F1–F4 supervisor figures may differ from the current DHRM NV 5 band. No collective bargaining for VA state employees.",
+  "related": ["pay-scales/peer-states/VA/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "VA", "virginia", "dds", "dds-analyst", "research-notes", "pay-bands", "dhrm", "authoritative"]
+}

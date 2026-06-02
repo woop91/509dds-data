@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/WI/research-notes",
+  "title": "Wisconsin DDS Pay-Scale Research Notes",
+  "description": "Narrative research notes for Wisconsin DDS examiner and supervisor pay: administering agency (WI DHS Disability Determination Bureau), official class codes and DPM class-spec URLs (Disability Determination Specialist = 49201, Disability Determination Supervisor = 49220, Program Manager = 49240), the 2025-27 Compensation Plan with pay-progression differentials and GWAs (3.0% 2025, 2.0% 2026), a ZipRecruiter market estimate (~$60,202; $48,400–$65,600), non-represented post-Act-10 status, and why the encoded Comp Plan PDFs could not be extracted. Companion to WI/scheduled-rates.json.",
+  "path": "data/pay-scales/peer-states/WI/research-notes.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2025-08-10", "end": "2027-06-30" },
+  "geographic_coverage": "Wisconsin",
+  "source": { "publisher": "Wisconsin Division of Personnel Management (DPM); WI DHS Disability Determination Bureau", "title": "WI DDS salary research notes (DPM class specs 49201/49220/49240 + 2025-27 Comp Plan; ZipRecruiter estimate)", "url": "https://dpm.wi.gov/Specs/49201SPC.pdf", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Computed",
+  "update_cadence": "biennium (2025-27 comp plan; GWA 3.0% 2025, 2.0% 2026)",
+  "notes": "Computed: class codes (49201/49220/49240) and DPM class-spec URLs are confirmed, but the code-to-pay-range crosswalk could not be read — the DPM Comp Plan and class-spec PDFs are digitally encoded/compressed and text extraction failed, so the only quantitative figure is a ZipRecruiter market estimate (~$60,202; $48,400–$65,600). Non-represented post-Wisconsin Act 10 (2011); pay set legislatively with $1.00 service-anniversary differentials at 5/7/10 yrs.",
+  "related": ["pay-scales/peer-states/WI/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "WI", "wisconsin", "dds", "disability-determination-specialist", "research-notes", "estimate", "act-10", "computed"]
+}

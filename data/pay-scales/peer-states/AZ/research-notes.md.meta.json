@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/AZ/research-notes",
+  "title": "Arizona DDS Pay-Scale Research Notes",
+  "description": "Narrative research notes for Arizona DDS examiner and supervisor pay: administering agency (AZ DES Disability Determination Services Administration), examiner class title (Disability Determination Specialist, confirmed via job postings) with class code NOT located, ADOA HR class-spec / salary-schedule URLs, a third-party estimated salary range ($53,152–$82,282; one confirmed $65,885 data point), non-union ASPS merit-system status, and documented gaps (no AZ has no sibling scheduled-rates.json). Markdown-only state.",
+  "path": "data/pay-scales/peer-states/AZ/research-notes.md",
+  "format": "md",
+  "geographic_coverage": "Arizona",
+  "source": { "publisher": "Arizona Department of Administration (ADOA) Human Resources; AZ Dept of Economic Security (DES) Disability Determination Services Administration", "title": "AZ DDS salary research notes (ADOA HR class specs; Glassdoor estimates)", "url": "https://hr.az.gov/resources/job-titles-pay-ranges-and-class-specs", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Computed",
+  "update_cadence": "ad hoc (estimates)",
+  "notes": "Computed: agency and examiner class title are confirmed via job postings, but class codes, pay-grade assignment, and the official AZ salary schedule were not located — the only quantitative figures are Glassdoor/aggregate estimates ($53,152–$82,282; one $65,885 point). Supervisor title not identified. No collective bargaining (ASPS merit system). effective_date/fiscal_year not stated in the notes so temporal_coverage is omitted. No sibling scheduled-rates.json for AZ.",
+  "related": ["pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "AZ", "arizona", "dds", "disability-determination-specialist", "research-notes", "estimate", "non-union", "computed"]
+}

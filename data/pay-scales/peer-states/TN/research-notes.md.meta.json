@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/TN/research-notes",
+  "title": "Tennessee DDS Pay-Scale Research Notes",
+  "description": "Narrative research notes for Tennessee DDS examiner and supervisor pay: administering agency (TDHS Division of Rehabilitation Services DDS), examiner classification (Disability Claims Examiner) with class code not publicly accessible, estimated total compensation ($75,813–$79,699; ~$26.17/hr) from Glassdoor/Salary.com, supervisor estimate (~$74,705), right-to-work non-bargaining status, blocked AlphaCompPlan PDF, the state salary-search tool, and gaps. Markdown-only state (no sibling scheduled-rates.json).",
+  "path": "data/pay-scales/peer-states/TN/research-notes.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2024-12", "end": "2024-12" },
+  "geographic_coverage": "Tennessee",
+  "source": { "publisher": "Tennessee Department of Human Resources (TDHR); TN Dept of Human Services (TDHS) Division of Rehabilitation Services DDS", "title": "TN DDS salary research notes (AlphaCompPlan PDF blocked; Glassdoor/Salary.com estimates)", "url": "https://www.tn.gov/hr/hr-business-partners/classification-compensation/redirect-classification-compensation-plan.html", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Computed",
+  "update_cadence": "ad hoc (estimates); state comp plan published periodically",
+  "notes": "Computed: agency and examiner title (Disability Claims Examiner) confirmed, but class codes and pay grades are not publicly published; salary figures are Glassdoor/Salary.com estimates ($75,813–$79,699 examiner; ~$74,705 supervisor). The AlphaCompPlan PDF and class-spec PDFs were blocked from extraction; an interactive salary-search tool exists. Right-to-work — no collective bargaining. Market data currency ~Dec 2024 → temporal_coverage. No sibling scheduled-rates.json for TN.",
+  "related": ["pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "TN", "tennessee", "dds", "disability-claims-examiner", "research-notes", "estimate", "right-to-work", "computed"]
+}

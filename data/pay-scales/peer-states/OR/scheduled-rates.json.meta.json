@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/OR/scheduled-rates",
+  "title": "Oregon Disability Analyst Rates — Confirmed Class Codes, Estimated Salaries",
+  "description": "Oregon DDS classifications with confirmed Job Profile codes (Disability Analyst 1 = 5926, Disability Analyst 2 = 5927, Disability Analysis and Adjudication Manager 3 = 7193) but ESTIMATED salary ranges only — the OR DAS Classification & Compensation portal is interactive and does not publish static machine-readable pay bands. Estimates: DA1 ~$50k–$65k, DA2 ~$60k–$75k, Manager 3 ~$85k–$110k, with a 2025 ZipRecruiter market average of ~$77,458. SEIU 503 / OPEU DHS Coalition CBA.",
+  "path": "data/pay-scales/peer-states/OR/scheduled-rates.json",
+  "format": "json",
+  "unit_of_observation": "classification",
+  "columns": [
+    { "name": "classes.<class>.class_code", "type": "string", "description": "Oregon Job Profile code (5926 / 5927 / 7193) — confirmed." },
+    { "name": "classes.<class>.estimated_min_annual", "type": "number", "unit": "USD", "description": "Estimated annual minimum (market data, not scheduled)." },
+    { "name": "classes.<class>.estimated_max_annual", "type": "number", "unit": "USD", "description": "Estimated annual maximum (market data, not scheduled)." },
+    { "name": "classes.Disability Analyst 1.market_average_2025", "type": "number", "unit": "USD", "description": "2025 ZipRecruiter market-average salary." },
+    { "name": "classes.<class>.step_count", "type": "string", "description": "Step count (unknown; typical 10–12 for OPEU)." }
+  ],
+  "temporal_coverage": { "start": "2025-01-01", "end": "2026-12-31" },
+  "geographic_coverage": "Oregon",
+  "source": { "publisher": "Oregon Department of Administrative Services (DAS) / SEIU 503 (OPEU); OR DHS Disability Determination Services", "title": "Oregon DAS Classification & Compensation (class codes confirmed; salaries estimated via ZipRecruiter)", "url": "https://apps.oregon.gov/DAS/Classification-Compensation/", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Computed",
+  "update_cadence": "ad hoc (estimates); DAS schedule updates with COLA (2.5% 2026-02-01, 4% 2027-01-01)",
+  "notes": "Computed (≈ estimate): class codes 5926/5927/7193 are confirmed against the OR DAS portal, but all salary figures are ZipRecruiter market estimates — the DAS portal is interactive-only with no static PDF, so scheduled pay-band ranges and step progressions were not extracted. Do not treat min/max as bargaining-grade. SEIU Local 503 / OPEU DHS Coalition CBA (2023-2025; 2025-2027 in negotiation).",
+  "related": ["pay-scales/peer-states/OR/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "OR", "oregon", "dds", "disability-analyst", "salary", "estimate", "seiu-503", "computed"]
+}

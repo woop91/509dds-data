@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/MN/scheduled-rates",
+  "title": "Minnesota Disability Examiner Scheduled Salary Rates (MMB MAPE Plan, eff 2025-07-01)",
+  "description": "Machine-readable Minnesota MAPE salary data for the Disability Examiner classification (class 0871, compensation grid 14G / code 07L, MAPE Unit 214). Gives hourly and annual (× 2080) min/max for three contract windows: 2023-2025 ($50,530–$73,081), the 2025-2027 year-1 step (+1.5%, $51,140–$74,174), and year-2 (+1.75%, $52,039–$75,502), plus a wage-increase history. Source is the MMB class spec + MAPE 2025-2027 contract. The supervisor classification is unconfirmed (no verified MAPE class code).",
+  "path": "data/pay-scales/peer-states/MN/scheduled-rates.json",
+  "format": "json",
+  "unit_of_observation": "classification × contract period",
+  "columns": [
+    { "name": "classes.Disability Examiner (0871).class_code", "type": "string", "description": "MN class code (0871)." },
+    { "name": "classes.Disability Examiner (0871).compensation_grid", "type": "string", "description": "Compensation grid (14G) and code (07L)." },
+    { "name": "salary_range_<period>.min_hourly", "type": "number", "unit": "USD/hour", "description": "Hourly minimum for the contract period." },
+    { "name": "salary_range_<period>.max_hourly", "type": "number", "unit": "USD/hour", "description": "Hourly maximum for the contract period." },
+    { "name": "salary_range_<period>.min_annual", "type": "number", "unit": "USD", "description": "Annual minimum (hourly × 2080 FTE)." },
+    { "name": "salary_range_<period>.max_annual", "type": "number", "unit": "USD", "description": "Annual maximum (hourly × 2080 FTE)." },
+    { "name": "salary_range_<period>.wage_increase_percent", "type": "percent", "description": "Across-the-board wage increase applied at the effective date (1.5% 2025, 1.75% 2026)." }
+  ],
+  "temporal_coverage": { "start": "2023-07-01", "end": "2027-06-30" },
+  "geographic_coverage": "Minnesota",
+  "source": { "publisher": "Minnesota Management and Budget (MMB) / MAPE; MN DEED Disability Determination Services Division", "title": "MMB MAPE Salary Plan — class 0871 Disability Examiner, MAPE 2025-2027 contract (eff 2025-07-01)", "url": "https://mn.gov/mmb-stat/hr-toolbox/002-class-and-compensation/001-classification/class-specs/d/0871-disability-examiner.pdf", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "biennium (MAPE contract cycle, 2025-27)",
+  "notes": "Authoritative for the examiner: class code 0871 and grid 14G confirmed against the MMB class spec, and min/max hourly rates with documented MAPE 2025-27 wage adjustments (+1.5% 2025-07-01, +1.75% 2026-07-01). Annual = hourly × 2080 FTE. Exact intra-grade step count is not exposed (step increases estimated ~3.55%). SUPERVISOR is UNCONFIRMED — no verified MAPE class code; may fall under AFSCME Council 5 or MMA, needs DEED HR confirmation.",
+  "related": ["pay-scales/peer-states/MN/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "MN", "minnesota", "dds", "disability-examiner", "salary", "scheduled-rates", "mmb", "mape", "authoritative"]
+}

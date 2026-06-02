@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/CA/research-notes",
+  "title": "California DDS Pay-Scale Research Notes (Blocked — CalHR fetch pending)",
+  "description": "Narrative research notes for California DDS pay: administering agency (CDSS Disability Determination Service Division), the expected Disability Evaluation Analyst (DEA I/II/III) examiner series and supervisor classification, SEIU Local 1000 BU 4 (Office and Allied) 2024-2027 CBA context, and a record of blocked CalHR sources (class-spec database 403/404, pay-scale PDFs redirect to HTML errors, eServices 403). No class codes or salary figures were retrieved. Companion to CA/scheduled-rates.json.",
+  "path": "data/pay-scales/peer-states/CA/research-notes.md",
+  "format": "md",
+  "geographic_coverage": "California",
+  "source": { "publisher": "California Department of Human Resources (CalHR); CA Dept of Social Services (CDSS) Disability Determination Service Division", "title": "CA DDS salary research notes (CalHR class-spec + pay-scale PDFs inaccessible 2026-05-08)", "url": "https://hrnet.calhr.ca.gov/CalHRNet/SpecCrossReference.aspx", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Browser-fetch pending",
+  "update_cadence": "unknown (pending retrieval)",
+  "notes": "Browser-fetch pending: confidence LOW, research incomplete — CalHR class-spec database (403/404), pay-scale PDFs (HTML-error redirect), and eServices (403) all blocked automated fetch, so DEA class codes and monthly/annual salary schedules were not retrieved. effective_date not available so temporal_coverage is omitted. Only confirmed item: SEIU Local 1000 BU 4 2024-2027 CBA exists. Manual fetch: calhr.ca.gov Pay Scales, seiu1000.org contract, or publicpay.ca.gov.",
+  "related": ["pay-scales/peer-states/CA/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "CA", "california", "dds", "disability-evaluation-analyst", "research-notes", "blocked", "browser-fetch-pending", "seiu-1000"]
+}

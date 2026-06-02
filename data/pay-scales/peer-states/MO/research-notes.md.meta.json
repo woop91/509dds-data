@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/MO/research-notes",
+  "title": "Missouri DDS Pay-Scale Research Notes",
+  "description": "Narrative research notes for Missouri DDS pay: administering agency (DESE Office of Adult Learning and Rehabilitation Services — NOT the Dept of Social Services), examiner class title NOT located in public OA classification records, two related-but-distinct OA classes (#0866 Disability Program Representative Grade 06 $36,360–$57,792; #0868 Disability Program Specialist Grade 07 $41,208–$65,544, both serving the Governor's Council on Disability, not DESE DDS), the OA Uniform Classification and Pay System, limited bargaining, and large data gaps. Markdown-only state (no sibling scheduled-rates.json).",
+  "path": "data/pay-scales/peer-states/MO/research-notes.md",
+  "format": "md",
+  "geographic_coverage": "Missouri",
+  "source": { "publisher": "Missouri Office of Administration (OA) Division of Personnel; MO Dept of Elementary and Secondary Education (DESE) Office of Adult Learning and Rehabilitation Services", "title": "MO DDS salary research notes (OA Uniform Classification and Pay System; DESE DDS class title not located)", "url": "https://dese.mo.gov/adult-learning-rehabilitation-services/disability-determination", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Computed",
+  "update_cadence": "ad hoc (DESE DDS class title not located in public records)",
+  "notes": "Computed: agency (DESE, not DSS) is confirmed, but the DESE DDS examiner/supervisor class titles and pay grades are NOT located in public OA records — data_quality is very low. The cited dollar figures (#0866 $36,360–$57,792; #0868 $41,208–$65,544) are for related Governor's-Council-on-Disability classes, explicitly NOT the DESE DDS roles. DESE DDS may use an internal classification not publicly indexed. effective_date not stated so temporal_coverage is omitted. No sibling scheduled-rates.json for MO.",
+  "related": ["pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "MO", "missouri", "dds", "research-notes", "class-not-located", "estimate", "computed"]
+}

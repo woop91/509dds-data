@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/NJ/scheduled-rates",
+  "title": "New Jersey Claims Adjudicator Rates — CBA Context Confirmed, Salaries Estimated",
+  "description": "New Jersey DDS examiner/supervisor classifications (Claims Adjudicator; Senior Claims Adjudicator CSC Job Spec #64947; Claims Adjudicator Supervisor) with confirmed CWA/IFPTE 2023-2027 CBA context (3.5% annual, new Step 11) but ESTIMATED salary ranges from Glassdoor/ZipRecruiter — the official CWA Local 1036 / IFPTE 195 salary-schedule PDFs were not web-fetchable. Estimates: Claims Adjudicator $53,560–$68,777; Senior Claims Adjudicator $67,000–$93,909; Supervisor null (aligned with Senior, unextracted).",
+  "path": "data/pay-scales/peer-states/NJ/scheduled-rates.json",
+  "format": "json",
+  "unit_of_observation": "classification",
+  "columns": [
+    { "name": "classes.<class>.job_spec_code", "type": "string", "description": "NJ CSC job-spec code (e.g. 64947 / 64947C for Senior Claims Adjudicator)." },
+    { "name": "classes.<class>.min", "type": "number", "unit": "USD", "description": "Estimated annual minimum (Glassdoor/ZipRecruiter; null where not extracted)." },
+    { "name": "classes.<class>.max", "type": "number", "unit": "USD", "description": "Estimated annual maximum (null where not extracted)." },
+    { "name": "classes.<class>.step_count", "type": "string", "description": "Step count (10 standard / 11 post-2023 contract)." },
+    { "name": "cba_terms.annual_wage_increase_percent", "type": "percent", "description": "Annual CWA/IFPTE wage increase (3.5%)." }
+  ],
+  "temporal_coverage": { "start": "2023-07-01", "end": "2027-06-30" },
+  "geographic_coverage": "New Jersey",
+  "source": { "publisher": "CWA Local 1036 (likely; IFPTE Local 195 possible) / NJ Civil Service Commission; NJ DOL Division of Disability Determination Services", "title": "CWA NJ State Salary Schedules 2023-2027 (estimates only; official PDF not extracted)", "url": "https://cwa1031.org/wp-content/uploads/2023/10/2023-2027-CWA-NJ-State-Salary-Schedules-1.pdf", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Computed",
+  "update_cadence": "CBA cycle (2023-2027, 3.5%/yr)",
+  "notes": "Computed (≈ estimate): examiner/supervisor titles and the CWA/IFPTE 2023-2027 CBA terms (3.5% annual, Step 11 added, Range 9 Step 2 hire floor) are confirmed, but min/max are Glassdoor/ZipRecruiter aggregates — the official CWA Local 1036 / IFPTE 195 salary-schedule PDFs were inaccessible via web-fetch and exact Range/Step assignment is unverified. Union jurisdiction (CWA 1036 vs IFPTE 195) for DDS Claims Adjudicators is unconfirmed. Supervisor min/max are null.",
+  "related": ["pay-scales/peer-states/NJ/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "NJ", "new-jersey", "dds", "claims-adjudicator", "salary", "estimate", "cwa", "ifpte", "computed"]
+}

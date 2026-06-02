@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/HI/research-notes",
+  "title": "Hawaii DDS Pay-Scale Research Notes (Blocked — DHRD fetch pending)",
+  "description": "Narrative research notes for Hawaii DDS pay: administering agency (HI DHS Disability Determination Branch), unverified expected examiner/supervisor class titles, the HI Salary Range (SR) system (min/midpoint/max with steps, likely SR-22+), HGEA / AFSCME Unit 13 (Professional and Scientific) bargaining context with biennial-cycle currency unverified, and a record of blocked DHRD class-spec / BU 13 salary-schedule sources. No class codes, SR codes, or dollar values retrieved. Companion to HI/scheduled-rates.json.",
+  "path": "data/pay-scales/peer-states/HI/research-notes.md",
+  "format": "md",
+  "geographic_coverage": "Hawaii",
+  "source": { "publisher": "Hawaii Department of Human Resources Development (DHRD) / HGEA; HI Dept of Human Services (DHS) Disability Determination Branch", "title": "HI DDS salary research notes (DHRD class spec + BU 13 schedule not yet accessed 2026-05-08)", "url": "https://dhrd.hawaii.gov/state-personnel-system/classes-and-pay/", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Browser-fetch pending",
+  "update_cadence": "unknown (biennial HGEA cycle; pending retrieval)",
+  "notes": "Browser-fetch pending: confidence VERY LOW — DHRD class-spec lookup and the BU 13 salary-schedule PDF were not located/accessed, so class titles, class codes, SR codes, and annual min/midpoint/max are all unverified/null. CBA context (HGEA / AFSCME Unit 13) is confirmed but contract currency (2023-25 vs 2025-27) is unverified. effective_date not available so temporal_coverage is omitted. Manual fetch: dhrd.hawaii.gov classes-and-pay or hgea.org contracts.",
+  "related": ["pay-scales/peer-states/HI/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "HI", "hawaii", "dds", "disability-determination-examiner", "research-notes", "blocked", "browser-fetch-pending", "hgea", "unit-13"]
+}

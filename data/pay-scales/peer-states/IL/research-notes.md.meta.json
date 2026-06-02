@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/IL/research-notes",
+  "title": "Illinois DDS Pay-Scale Research Notes (Blocked — IL CMS / AFSCME fetch pending)",
+  "description": "Narrative research notes for Illinois DDS pay: administering agency (IDHS Bureau of Disability Determination Services), expected examiner titles (Disability Adjudicator I/II/III) and supervisor pending IL CMS classification verification, AFSCME Council 31 Master Contract 2023-2027 with likely RC-62 (Human Services Professional) unit, monthly × 12 pay basis with typical 5-8 AFSCME steps, and a table of attempted-but-failed sources (council31.org timeout, CMS 404/partial, IDHS network failure). No dollar values retrieved. Companion to IL/scheduled-rates.json.",
+  "path": "data/pay-scales/peer-states/IL/research-notes.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2023", "end": "2027" },
+  "geographic_coverage": "Illinois",
+  "source": { "publisher": "Illinois Department of Central Management Services (CMS) / AFSCME Council 31; IL Dept of Human Services (IDHS) Bureau of Disability Determination Services", "title": "IL DDS salary research notes (CMS pay plan + AFSCME Council 31 contract; network failures 2026-05-08)", "url": "https://cms.illinois.gov/personnel/employeeresources/personnelpayplan.html", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Browser-fetch pending",
+  "update_cadence": "CBA cycle (2023-2027); IL pay plan by fiscal year",
+  "notes": "Browser-fetch pending: data incomplete due to network barriers — council31.org timed out, IL CMS detailed pay PDFs not extracted, IDHS DDS page network-failed. Examiner/supervisor titles and RC-62 are expected/likely but unverified; no dollar values. Bargaining context (AFSCME Council 31 Master Contract 2023-2027) confirmed → temporal_coverage. Manual fetch: council31.org/contracts/state, IL CMS classification lookup, or archive.org.",
+  "related": ["pay-scales/peer-states/IL/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "IL", "illinois", "dds", "disability-adjudicator", "research-notes", "blocked", "browser-fetch-pending", "afscme", "rc-62"]
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/NY/scheduled-rates",
+  "title": "New York Disability Analyst Rates (BLOCKED — cs.ny.gov / PEF schedule pending)",
+  "description": "New York DDS examiner/supervisor classification stubs for the Disability Analyst series (Trainee, 1, 2) and a supervisory tier, each with 9 steps but all SG numbers and min/max salaries 'TBD'. salary_grade_numbers / min_max_salaries / step_progression are PENDING — cs.ny.gov and pef.org rejected automated fetch (HTML paywall / network) this session. Classification titles, the PEF Bargaining Unit 5 (PS&T) unit, and CBA dates (Apr-2023 → Apr-2026, 4% raise eff Apr-2025) ARE verified.",
+  "path": "data/pay-scales/peer-states/NY/scheduled-rates.json",
+  "format": "json",
+  "unit_of_observation": "classification / salary grade (placeholder; SG + rates pending)",
+  "columns": [
+    { "name": "grades.<key>.title", "type": "string", "description": "Disability Analyst title (Trainee / 1 / 2 / Supervisor) — verified." },
+    { "name": "grades.<key>.min", "type": "string", "description": "Grade minimum — 'TBD' (SG number pending)." },
+    { "name": "grades.<key>.max", "type": "string", "description": "Grade maximum — 'TBD'." },
+    { "name": "grades.<key>.steps", "type": "integer", "description": "Step count (9, per PS&T convention)." }
+  ],
+  "temporal_coverage": { "start": "2025-07-01", "end": "2026-04-01" },
+  "geographic_coverage": "New York",
+  "source": { "publisher": "NY Department of Civil Service / PEF (Public Employees Federation); NY Office of Temporary and Disability Assistance (OTDA) Division of Disability Determinations", "title": "PS&T Unit Salary Schedule (eff 2025-07-01) — gateway sites blocked automated fetch 2026-05-08", "url": "https://www.cs.ny.gov/content/salary-schedules", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Browser-fetch pending",
+  "update_cadence": "annual (PS&T schedule; 4% raise eff 2025-04)",
+  "notes": "Browser-fetch pending: classification titles, PEF Bargaining Unit 5 (PS&T), and CBA dates (2023-04 → 2026-04, 4% raise eff 2025-04) are VERIFIED, but salary_grade_numbers, min_max_salaries, and step_progression are all PENDING — cs.ny.gov has an HTML paywall and pef.org/openbook.ny.gov failed to fetch. SG numbers and all min/max are the string 'TBD' (likely SG-14 to SG-23). Schedule eff 2025-07-01, CBA through 2026-04-01 → temporal_coverage. Manual fetch: cs.ny.gov salary schedules or pef.org salary charts.",
+  "related": ["pay-scales/peer-states/NY/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "NY", "new-york", "dds", "disability-analyst", "blocked", "browser-fetch-pending", "pef", "ps-t"]
+}

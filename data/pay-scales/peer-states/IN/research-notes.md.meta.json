@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/IN/research-notes",
+  "title": "Indiana DDS Pay-Scale Research Notes",
+  "description": "Narrative research notes for Indiana DDS examiner and supervisor pay: administering agency (IN FSSA Disability Determination Bureau), examiner class title (Disability Claims Adjudicator, from WorkforIndiana postings) with class code not publicly identified, an Indiana broadband estimated grade (~28-29), estimated salary ranges ($53,559–$68,777; ~$57,945 avg) from private aggregators, non-union status (collective bargaining ended 2005, EO 15-13), and documented gaps. Markdown-only state (no sibling scheduled-rates.json).",
+  "path": "data/pay-scales/peer-states/IN/research-notes.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2025-08", "end": "2025-08" },
+  "geographic_coverage": "Indiana",
+  "source": { "publisher": "Indiana State Personnel Department (SPD); IN Family and Social Services Administration (FSSA) Disability Determination Bureau", "title": "IN DDS salary research notes (WorkforIndiana postings + SPD salary grades; private-aggregator estimates)", "url": "https://www.in.gov/spd/files/State-of-Indiana-civil-service-salary-grades.pdf", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Computed",
+  "update_cadence": "ad hoc (estimates); IN salary grades published ~Aug",
+  "notes": "Computed: agency and examiner class title (Disability Claims Adjudicator) confirmed via job postings, but the official IN salary schedule does not map the title to a grade, so the Grade 28-29 broadband and all salary figures are estimates from private databases ($53,559–$68,777; ~$57,945 avg). No formal supervisor classification found ('Lead Workers' informal). Non-union since 2005 (EO 15-13). Data currency Aug 2025 → temporal_coverage. No sibling scheduled-rates.json for IN.",
+  "related": ["pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "IN", "indiana", "dds", "disability-claims-adjudicator", "research-notes", "estimate", "non-union", "computed"]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/NJ/research-notes",
+  "title": "New Jersey DDS Pay-Scale Research Notes",
+  "description": "Narrative research notes for New Jersey DDS examiner and supervisor pay: administering agency (NJDOL Division of DDS), verified class titles (Claims Adjudicator; Senior Claims Adjudicator CSC Job Spec #64947/64947C; Claims Adjudicator Supervisor), NJ Range+Step pay structure, Glassdoor estimated ranges ($53,560–$68,777), the CWA Local 1036 / IFPTE Local 195 2023-2027 CBA highlights (3.5%/yr, new Step 11), and gaps (official salary-schedule PDFs unreadable; union jurisdiction unconfirmed). Companion to NJ/scheduled-rates.json.",
+  "path": "data/pay-scales/peer-states/NJ/research-notes.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2023-07-01", "end": "2027-06-30" },
+  "geographic_coverage": "New Jersey",
+  "source": { "publisher": "CWA Local 1036 (likely; IFPTE Local 195 possible) / NJ Civil Service Commission; NJ DOL Division of Disability Determination Services", "title": "NJ DDS salary research notes (CSC Job Spec #64947 + CWA/IFPTE 2023-2027 CBA; Glassdoor estimates)", "url": "https://info.csc.nj.gov/jobspec/64947.htm", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Computed",
+  "update_cadence": "CBA cycle (2023-2027, 3.5%/yr)",
+  "notes": "Computed: examiner/supervisor titles (CSC Job Spec #64947) and the CWA/IFPTE 2023-2027 CBA terms are confirmed, but salary figures are Glassdoor/ZipRecruiter aggregates — the official CWA 1036 / IFPTE 195 salary-schedule PDFs were unreadable via web tools and exact Range/Step is unverified. Union jurisdiction (CWA vs IFPTE) for DDS Claims Adjudicators unconfirmed.",
+  "related": ["pay-scales/peer-states/NJ/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "NJ", "new-jersey", "dds", "claims-adjudicator", "research-notes", "estimate", "cwa", "ifpte", "computed"]
+}

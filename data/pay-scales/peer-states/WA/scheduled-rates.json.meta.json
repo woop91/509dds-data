@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/WA/scheduled-rates",
+  "title": "Washington DDS Adjudicator Scheduled Salary Rates (OFM GS Schedule, eff 2025-07-01)",
+  "description": "Machine-readable Washington State General Service salary schedule (represented), giving full A–M step values (annual, monthly, hourly) for salary ranges 46, 52, 56, 62, 66, and 70, plus a class-code-to-range crosswalk for the DDS Adjudicator series (956 Adj 1 → Range 46, 955 Adj 2 → Range 52, 954 Adj 3 → Range 56, 953 Adj 5 → range TBD). Extracted from the OFM GS_2025Jul1_Represented PDF (extraction_status complete). The supervisory class 953 range is the only unresolved mapping (Range 62 candidate, manual OFM lookup noted).",
+  "path": "data/pay-scales/peer-states/WA/scheduled-rates.json",
+  "format": "json",
+  "unit_of_observation": "salary range × step",
+  "columns": [
+    { "name": "ranges.<range>.annual.<step>", "type": "number", "unit": "USD", "description": "Annual salary at the given step (A–M) for the salary range." },
+    { "name": "ranges.<range>.monthly.<step>", "type": "number", "unit": "USD", "description": "Monthly salary at the given step." },
+    { "name": "ranges.<range>.hourly.<step>", "type": "number", "unit": "USD/hour", "description": "Hourly rate at the given step." },
+    { "name": "ranges.<range>.min_annual", "type": "number", "unit": "USD", "description": "Range minimum (step A annual)." },
+    { "name": "ranges.<range>.max_annual", "type": "number", "unit": "USD", "description": "Range maximum (step M annual)." },
+    { "name": "class_code_to_range", "type": "string", "description": "Crosswalk from DDS Adjudicator class code to salary range." }
+  ],
+  "temporal_coverage": { "start": "2025-07-01", "end": "2027-06-30" },
+  "geographic_coverage": "Washington State",
+  "source": { "publisher": "Washington Office of Financial Management (OFM); WA DSHS Division of Disability Determination Services", "title": "General Service Salary Schedule (Represented) effective 2025-07-01", "url": "https://ofm.wa.gov/wp-content/uploads/sites/default/files/public/shr/CompensationAndJobClasses/Salary%20Schedules/2025SalarSchedules/2025SalarySchedules/GS_2025Jul1_Represented.pdf", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "biennium (CBA cycle, 2025-27)",
+  "notes": "Authoritative: scheduled rates parsed from the official OFM GS schedule PDF with full A–M step grids; WFSE GG CBA 2025-27 (3% 2025, 2% 2026). Step M is a premium step. Class 953 (DDS Adjudicator 5, supervisor/expert) range is unconfirmed — Range 62 is the candidate but the OFM class-spec mapping URL has rotted; treat the 953→62 row as TBD pending manual lookup. Monthly × 12 = annual per the schedule.",
+  "related": ["pay-scales/peer-states/WA/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "WA", "washington", "dds", "adjudicator", "salary", "scheduled-rates", "ofm", "wfse", "authoritative"]
+}

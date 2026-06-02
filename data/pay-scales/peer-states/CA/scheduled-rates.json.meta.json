@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/CA/scheduled-rates",
+  "title": "California Disability Evaluation Analyst Rates (BLOCKED — CalHR fetch pending)",
+  "description": "California DDS examiner classification stub for the Disability Evaluation Analyst (DEA I/II/III) series plus DEA Supervisor / Staff Services Manager I. All class codes and monthly/annual salary fields are null/BLOCKED — CalHR pay-scale PDFs and the class-spec lookup returned 404/403/HTML errors and could not be retrieved this session (research_status INCOMPLETE). Only the bargaining context is confirmed: SEIU Local 1000 Bargaining Unit 4 (Office and Allied), CBA 2024-2027.",
+  "path": "data/pay-scales/peer-states/CA/scheduled-rates.json",
+  "format": "json",
+  "unit_of_observation": "classification (placeholder; rates not retrieved)",
+  "columns": [
+    { "name": "classes.<class>.class_code", "type": "string", "description": "CalHR class code — BLOCKED (lookup unavailable)." },
+    { "name": "classes.<class>.monthly_min", "type": "number", "unit": "USD", "description": "Monthly minimum — null (not retrieved)." },
+    { "name": "classes.<class>.monthly_max", "type": "number", "unit": "USD", "description": "Monthly maximum — null." },
+    { "name": "classes.<class>.annual_min", "type": "number", "unit": "USD", "description": "Annual minimum — null." },
+    { "name": "classes.<class>.annual_max", "type": "number", "unit": "USD", "description": "Annual maximum — null." }
+  ],
+  "geographic_coverage": "California",
+  "source": { "publisher": "California Department of Human Resources (CalHR); CA Dept of Social Services (CDSS) Disability Determination Service Division", "title": "CalHR Pay Scales / SEIU Local 1000 contract appendix (INACCESSIBLE as of 2026-05-08)", "url": "https://www.calhr.ca.gov/Pages/Pay-Scales.aspx", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Browser-fetch pending",
+  "update_cadence": "unknown (pending retrieval)",
+  "notes": "Browser-fetch pending: research_status INCOMPLETE — CalHR pay-scale PDFs (404/HTML redirect), eServices (403), and class-spec lookup (404) all blocked automated fetch; step_basis assumed monthly × 12 per CA civil-service convention; effective_date/fiscal_year UNKNOWN so temporal_coverage is omitted. All class codes and monthly/annual values are null/BLOCKED. CBA context (SEIU Local 1000 Unit 4, 2024-2027) is confirmed. Recommended manual fetch: calhr.ca.gov Pay Scales, seiu1000.org contract, or publicpay.ca.gov.",
+  "related": ["pay-scales/peer-states/CA/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "CA", "california", "dds", "disability-evaluation-analyst", "blocked", "browser-fetch-pending", "seiu-1000"]
+}

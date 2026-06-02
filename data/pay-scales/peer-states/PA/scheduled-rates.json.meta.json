@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/PA/scheduled-rates",
+  "title": "Pennsylvania Disability Examiner Rates (INCOMPLETE — agent-inferred grades, OA schedule pending)",
+  "description": "Pennsylvania DDS examiner/supervisor classifications (Disability Examiner I/II, Medical-Vocational Supervisor) on the PA Standard Compensation (SC) scale, with AGENT-INFERRED, UNVERIFIED pay grades (SC-09 / SC-10 / SC-11–12) and estimated min/max derived from job postings + BLS OEWS. status INCOMPLETE — estimates only: PA OA salary-schedule PDFs require login and the SEIU 668 contract appendix is not directly downloadable. Bargaining context confirmed: SEIU Local 668 Master Agreement 2023-2027.",
+  "path": "data/pay-scales/peer-states/PA/scheduled-rates.json",
+  "format": "json",
+  "unit_of_observation": "classification",
+  "columns": [
+    { "name": "classes.<class>.class_code", "type": "string", "description": "PA class code — approximate (≈ 2800/3100 series, not verified)." },
+    { "name": "classes.<class>.pay_grade", "type": "string", "description": "PA Standard Compensation grade — agent-inferred (SC-09/SC-10/SC-11–12), NOT verified." },
+    { "name": "classes.<class>.min_estimated", "type": "number", "unit": "USD", "description": "Estimated annual minimum (job postings + BLS OEWS)." },
+    { "name": "classes.<class>.max_estimated", "type": "number", "unit": "USD", "description": "Estimated annual maximum." },
+    { "name": "classes.<class>.step_count", "type": "string", "description": "Step count (≈ 10, estimated)." }
+  ],
+  "temporal_coverage": { "start": "2023", "end": "2027" },
+  "geographic_coverage": "Pennsylvania",
+  "source": { "publisher": "Pennsylvania Office of Administration (OA) / SEIU Local 668; PA Dept of Labor & Industry (DLI) Bureau of Disability Determination", "title": "PA OA Standard Pay Schedule 2023-2027 (behind login; estimates + agent-inferred grades, 2026-05-08)", "url": "https://www.oa.pa.gov/Business/PCOMP/Documents/2023-2027%20State%20Salary%20Schedule.pdf", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Browser-fetch pending",
+  "update_cadence": "CBA cycle (SEIU 668 Master Agreement 2023-2027)",
+  "notes": "Browser-fetch pending (file status INCOMPLETE — estimates only; README marks PA with the ◌ agent-inferred glyph): pay grades SC-09/SC-10/SC-11–12 are agent-INFERRED and explicitly unverified against the PA OA schedule, and min/max are job-posting + BLS estimates. PA OA pay-schedule PDFs require login (fetch redirected to HTML) and the SEIU 668 contract appendix is not directly downloadable. SEIU Local 668 Master Agreement 2023-2027 → temporal_coverage. Manual fetch: oa.pa.gov PCOMP (login) or seiu668.org contracts.",
+  "related": ["pay-scales/peer-states/PA/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "PA", "pennsylvania", "dds", "disability-examiner", "estimate", "agent-inferred", "browser-fetch-pending", "seiu-668"]
+}

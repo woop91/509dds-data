@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/MD/research-notes",
+  "title": "Maryland DDS Pay-Scale Research Notes",
+  "description": "Narrative research notes for Maryland DDS examiner and supervisor pay: administering agency (MSDE/DORS DDS Branch), official class codes and grades (Disability Claims Examiner I = 5260, Grade 14/ASTD; Disability Claims Examiner Supervisor = 5263, Grade 19), salary ranges from JobAps class specs/postings, AFSCME representation (supervisor in Unit S), the DBM Standard Salary Schedule (eff 2025-07-01), and data gaps. Companion to MD/scheduled-rates.json.",
+  "path": "data/pay-scales/peer-states/MD/research-notes.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2025-07-01", "end": "2026-06-30" },
+  "geographic_coverage": "Maryland",
+  "source": { "publisher": "Maryland Department of Budget and Management (DBM); MSDE/DORS Disability Determination Services Branch", "title": "MD DDS salary research notes (JobAps class specs + DBM Standard Salary Schedule)", "url": "https://dbm.maryland.gov/employees/pages/salaryinformation.aspx", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "annual (fiscal-year salary schedule)",
+  "notes": "Authoritative: official class codes (5260, 5263) and grades (14/ASTD, 19) cited from MD JobAps class specifications with salary ranges, mapped to the DBM Standard Salary Schedule (eff 2025-07-01). Note the salary ranges cited in the notes ($58,428–$90,709 examiner; $80,541–$125,564 supervisor) come from a job posting and differ slightly from the sibling JSON's exact step grid ($62,220–$96,790; $85,963–$133,951). Open gaps: full intermediate steps, exact AFSCME unit (C vs other), Examiner II salary, Grade 14 vs 19 confirmation.",
+  "related": ["pay-scales/peer-states/MD/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "MD", "maryland", "dds", "disability-claims-examiner", "research-notes", "dbm", "afscme", "authoritative"]
+}

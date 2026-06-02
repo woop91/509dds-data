@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/MD/scheduled-rates",
+  "title": "Maryland Disability Claims Examiner Scheduled Salary Rates (DBM Standard Salary Schedule, eff 2025-07-01)",
+  "description": "Machine-readable Maryland DBM Standard Salary Schedule grades 14 and 19, giving the full 24-step (steps 5–28) annual progression for each. Grade 14 maps to class 5260 Disability Claims Examiner I ($62,220–$96,790); Grade 19 maps to class 5263 Disability Claims Examiner Supervisor ($85,963–$133,951). Extracted from the DBM standard-scale PDF (extraction_status complete).",
+  "path": "data/pay-scales/peer-states/MD/scheduled-rates.json",
+  "format": "json",
+  "unit_of_observation": "salary grade × step",
+  "columns": [
+    { "name": "grades.<grade>.steps.<step>", "type": "number", "unit": "USD", "description": "Annual salary at the given step (5–28) within the grade." },
+    { "name": "grades.<grade>.min", "type": "number", "unit": "USD", "description": "Grade minimum (step 5 annual)." },
+    { "name": "grades.<grade>.max", "type": "number", "unit": "USD", "description": "Grade maximum (step 28 annual)." },
+    { "name": "grades.<grade>.maps_to_class", "type": "string", "description": "Class code and title the grade maps to (5260 Examiner I / 5263 Examiner Supervisor)." }
+  ],
+  "temporal_coverage": { "start": "2025-07-01", "end": "2026-06-30" },
+  "geographic_coverage": "Maryland",
+  "source": { "publisher": "Maryland Department of Budget and Management (DBM); MSDE/DORS Disability Determination Services Branch", "title": "Maryland Standard Salary Schedule effective 2025-07-01 (FY2026)", "url": "https://dbm.maryland.gov/employees/Documents/SalaryStandardScale.pdf", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "annual (fiscal-year salary schedule)",
+  "notes": "Authoritative: full 24-step annual step grids for grades 14 and 19 parsed from the official DBM Standard Salary Schedule PDF; step basis is annual. AFSCME representation; the supervisor (5263) is in AFSCME Maryland Supervisors Union (Unit S). FY2026 schedule (eff 2025-07-01).",
+  "related": ["pay-scales/peer-states/MD/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "MD", "maryland", "dds", "disability-claims-examiner", "salary", "scheduled-rates", "dbm", "afscme", "authoritative"]
+}

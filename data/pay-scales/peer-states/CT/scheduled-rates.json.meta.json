@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/CT/scheduled-rates",
+  "title": "Connecticut Disability Determination Examiner Rates (BLOCKED — CT DAS fetch pending)",
+  "description": "Connecticut DDS examiner and supervisor classification stubs using the CT Salary Group (SG) system with 9-step progression. Class codes are PENDING_VERIFICATION and salary grids are PENDING_CT_DAS_SALARY_PLANS — the CT DAS Salary Plans PDF returned HTML on direct fetch (research_status INCOMPLETE). Estimated salary groups only: examiner SG-21 to SG-23, supervisor SG-24 to SG-26. Bargaining context confirmed: AFSCME Local 714 / SEBAC P-2, CBA 2017-2027.",
+  "path": "data/pay-scales/peer-states/CT/scheduled-rates.json",
+  "format": "json",
+  "unit_of_observation": "classification (placeholder; SG estimated, grid pending)",
+  "columns": [
+    { "name": "classes.<class>.class_code", "type": "string", "description": "CT class code — PENDING_VERIFICATION." },
+    { "name": "classes.<class>.salary_group", "type": "string", "description": "Estimated CT Salary Group (SG-21–23 examiner / SG-24–26 supervisor) — not confirmed." },
+    { "name": "classes.<class>.step_count", "type": "integer", "description": "Step count (9, typical CT progression)." },
+    { "name": "classes.<class>.salary_grid", "type": "string", "description": "Salary grid — PENDING_CT_DAS_SALARY_PLANS (no dollar values)." }
+  ],
+  "temporal_coverage": { "start": "2024-07-01", "end": "2025" },
+  "geographic_coverage": "Connecticut",
+  "source": { "publisher": "Connecticut Department of Administrative Services (DAS); CT Dept of Social Services (DSS) Disability Determination Services Unit", "title": "CT DAS Statewide HR Compensation / Salary Plans (direct PDF fetch returned HTML, 2026-05-08)", "url": "https://portal.ct.gov/das/statewide-hr/compensation", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Browser-fetch pending",
+  "update_cadence": "annual (CT DAS salary plans, July 1 effective)",
+  "notes": "Browser-fetch pending: research_status INCOMPLETE — CT DAS Salary Plans direct PDF fetch returned HTML, so no dollar amounts. Class codes are PENDING_VERIFICATION and SG assignments (SG-21–23 examiner, SG-24–26 supervisor) are estimates only. effective_date 2024-07-01 / FY2025 noted in the file → used for temporal_coverage. Bargaining context confirmed: AFSCME Local 714 / SEBAC P-2, CBA 2017-2027. Manual fetch: portal.ct.gov/das salary plans or council4.org contracts.",
+  "related": ["pay-scales/peer-states/CT/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "CT", "connecticut", "dds", "disability-determination-examiner", "blocked", "browser-fetch-pending", "afscme", "sebac"]
+}

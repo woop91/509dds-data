@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/NV/research-notes",
+  "title": "Nevada DDS Pay-Scale Research Notes (Blocked — NV HR JS-only page pending)",
+  "description": "Narrative research notes for Nevada DDS pay: administering agency (NV DETR Bureau of Disability Adjudication), unverified likely examiner/supervisor titles (Disability Adjudicator/Examiner; Disability Adjudication Supervisor) with grade/range TBD, the notable AFSCME Local 4041 (NSEA) Unit C CBA ratified August 2024 (newest US DDS CBA, enabled by AB 271/2019), and a record of blocked sources (hr.nv.gov JS-only, Firecrawl exhausted, AFSCME 4041 behind member login). Zero quantitative data retrieved. Companion to NV/scheduled-rates.json.",
+  "path": "data/pay-scales/peer-states/NV/research-notes.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2025", "end": "2027" },
+  "geographic_coverage": "Nevada",
+  "source": { "publisher": "Nevada Division of Human Resource Management / AFSCME Local 4041 (NSEA); NV Dept of Employment, Training and Rehabilitation (DETR) Bureau of Disability Adjudication", "title": "NV DDS salary research notes (hr.nv.gov JS-only; AFSCME 4041 Aug-2024 CBA not accessed)", "url": "https://hr.nv.gov/Resources/SalarySchedule/", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Browser-fetch pending",
+  "update_cadence": "biennium 2025-2027 (pending retrieval)",
+  "notes": "Browser-fetch pending: research quality LOW, zero quantitative data — hr.nv.gov salary schedule is JavaScript-rendered (curl insufficient, Firecrawl out of credits) and the AFSCME 4041 contract is behind a member portal. Class titles, grades, and salaries all UNVERIFIED. Notable confirmed context: AFSCME Local 4041 Unit C CBA ratified Aug 2024 (newest US DDS CBA, post-AB 271/2019). biennium 2025-2027 → temporal_coverage. Manual fetch: hr.nv.gov, afscme4041.org/nvsea.com, or NPRA request.",
+  "related": ["pay-scales/peer-states/NV/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "NV", "nevada", "dds", "disability-adjudicator", "research-notes", "blocked", "browser-fetch-pending", "afscme-4041"]
+}

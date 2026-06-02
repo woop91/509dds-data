@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/IL/scheduled-rates",
+  "title": "Illinois Disability Adjudicator Rates (BLOCKED — IL CMS / AFSCME fetch pending)",
+  "description": "Illinois DDS examiner/supervisor classification stubs (Disability Adjudicator I/II/III multi-level series + Disability Determination Supervisor), all with class_code PENDING_VERIFICATION and an estimated RC-62 pay grade — no dollar amounts. data_status INCOMPLETE: council31.org timed out and IL CMS pay-plan PDFs / IDHS pages returned network failures this session. Bargaining context confirmed: AFSCME Council 31 Master Contract 2023-2027, likely RC-62 (Human Services Professional).",
+  "path": "data/pay-scales/peer-states/IL/scheduled-rates.json",
+  "format": "json",
+  "unit_of_observation": "classification (placeholder; rates not retrieved)",
+  "columns": [
+    { "name": "classes.<class>.class_code", "type": "string", "description": "IL CMS class code — PENDING_VERIFICATION." },
+    { "name": "classes.<class>.pay_grade", "type": "string", "description": "Pay grade — RC-62 (estimated, not confirmed)." }
+  ],
+  "temporal_coverage": { "start": "2023", "end": "2027" },
+  "geographic_coverage": "Illinois",
+  "source": { "publisher": "Illinois Department of Central Management Services (CMS) / AFSCME Council 31; IL Dept of Human Services (IDHS) Bureau of Disability Determination Services", "title": "IL CMS Personnel Pay Plan / AFSCME Council 31 Master Contract 2023-2027 (network failures, 2026-05-08)", "url": "https://cms.illinois.gov/personnel/employeeresources/personnelpayplan.html", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Browser-fetch pending",
+  "update_cadence": "CBA cycle (2023-2027); IL pay plan by fiscal year",
+  "notes": "Browser-fetch pending: data_status INCOMPLETE — council31.org timed out (also Firecrawl out of credits), IL CMS detailed pay-schedule PDFs not extracted, IDHS DDS page network-failed. All class codes are PENDING_VERIFICATION and the RC-62 pay grade is estimated; no dollar amounts. step_basis monthly × 12. CBA dates (2023-2027) used for temporal_coverage. Bargaining context (AFSCME Council 31, likely RC-62) confirmed. Manual fetch: council31.org/contracts/state or archive.org for CMS PDFs.",
+  "related": ["pay-scales/peer-states/IL/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "IL", "illinois", "dds", "disability-adjudicator", "blocked", "browser-fetch-pending", "afscme", "rc-62"]
+}

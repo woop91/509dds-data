@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/OR/research-notes",
+  "title": "Oregon DDS Pay-Scale Research Notes",
+  "description": "Narrative research notes for Oregon DDS examiner and supervisor pay: administering agency (OR DHS DDS), confirmed Job Profile codes (Disability Analyst 1 = 5926, Disability Analyst 2 = 5927, Disability Analysis and Adjudication Manager 3 = 7193) with official DAS class-page URLs, ESTIMATED salary ranges (the DAS portal is interactive with no machine-readable schedule), SEIU 503 / OPEU DHS Coalition CBA context, and data gaps. Companion to OR/scheduled-rates.json.",
+  "path": "data/pay-scales/peer-states/OR/research-notes.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2025-01-01", "end": "2026-12-31" },
+  "geographic_coverage": "Oregon",
+  "source": { "publisher": "Oregon Department of Administrative Services (DAS) / SEIU 503 (OPEU); OR DHS Disability Determination Services", "title": "OR DDS salary research notes (DAS class codes confirmed; salaries estimated via ZipRecruiter)", "url": "https://apps.oregon.gov/DAS/Classification-Compensation/", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Computed",
+  "update_cadence": "ad hoc (estimates); DAS COLA 2.5% 2026-02-01, 4% 2027-01-01",
+  "notes": "Computed: class codes (5926/5927/7193) are confirmed against official OR DAS class-profile URLs, but the salary figures are ZipRecruiter market estimates — the DAS Classification & Compensation portal is interactive-only with no static machine-readable pay band, so scheduled ranges/steps were not retrieved. SEIU 503 / OPEU DHS Coalition CBA (2023-2025; 2025-2027 in negotiation).",
+  "related": ["pay-scales/peer-states/OR/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "OR", "oregon", "dds", "disability-analyst", "research-notes", "estimate", "seiu-503", "computed"]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/MN/research-notes",
+  "title": "Minnesota DDS Pay-Scale Research Notes",
+  "description": "Narrative research notes for Minnesota DDS examiner and supervisor pay: administering agency (DEED DDS Division), the Disability Examiner classification (class 0871, grid 14G, code 07L, MAPE Unit 214), confirmed 2023-2025 salary range ($24.20–$35.13/hr → $50,530–$73,081) and 2025-2027 wage adjustments (+1.5% 2025, +1.75% 2026), MAPE wage-increase history, official MMB class-spec + MAPE contract sources, and the unconfirmed supervisor classification. Companion to MN/scheduled-rates.json.",
+  "path": "data/pay-scales/peer-states/MN/research-notes.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2023-07-01", "end": "2027-06-30" },
+  "geographic_coverage": "Minnesota",
+  "source": { "publisher": "Minnesota Management and Budget (MMB) / MAPE; MN DEED Disability Determination Services Division", "title": "MN DDS salary research notes (MMB class 0871 spec + MAPE 2023-25 / 2025-27 contract)", "url": "https://mn.gov/mmb-stat/hr-toolbox/002-class-and-compensation/001-classification/class-specs/d/0871-disability-examiner.pdf", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "biennium (MAPE contract cycle, 2025-27)",
+  "notes": "Authoritative for the examiner: class code 0871 and grid 14G confirmed from the MMB class spec, with documented MAPE wage adjustments. Annual = hourly × 2080 FTE. Open gaps: supervisor class code/union (AFSCME C5 vs MMA) unconfirmed, exact step count not exposed, full 2025-27 pay grid would need direct MMB/MAPE PDF access.",
+  "related": ["pay-scales/peer-states/MN/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "MN", "minnesota", "dds", "disability-examiner", "research-notes", "mmb", "mape", "authoritative"]
+}

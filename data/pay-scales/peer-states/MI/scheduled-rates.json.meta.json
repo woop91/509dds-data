@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/MI/scheduled-rates",
+  "title": "Michigan Disability Examiner Rates (BLOCKED — MDCS / SEIU 517M fetch pending)",
+  "description": "Michigan DDS examiner/supervisor classification stubs (Disability Examiner, presumed P-grade; Supervisor, Disability Examination), all UNKNOWN/NOT FOUND — data_status INCOMPLETE. MDCS compensation pages returned 404/Gravity-Forms boilerplate and the SEIU 517M contracts page exposed no PDF links; Firecrawl out of credits. Class codes, pay grades, min/max, step counts, and effective date are all unverified. Bargaining context: SEIU Local 517M / HSS, CBA 2025-2027 (presumed, NOT verified).",
+  "path": "data/pay-scales/peer-states/MI/scheduled-rates.json",
+  "format": "json",
+  "unit_of_observation": "classification (placeholder; rates not retrieved)",
+  "columns": [
+    { "name": "classes.<class>.class_code", "type": "string", "description": "MDCS class code — UNKNOWN (not verified)." },
+    { "name": "classes.<class>.pay_grade", "type": "string", "description": "Pay grade — UNKNOWN (P-11/P-12 presumed)." },
+    { "name": "classes.<class>.min", "type": "number", "unit": "USD", "description": "Annual minimum — null." },
+    { "name": "classes.<class>.max", "type": "number", "unit": "USD", "description": "Annual maximum — null." }
+  ],
+  "geographic_coverage": "Michigan",
+  "source": { "publisher": "Michigan Civil Service Commission / MDCS, SEIU Local 517M; MI Dept of Health and Human Services (MDHHS) Disability Determination Services", "title": "MDCS Compensation / SEIU 517M HSS contract (access blocked, 2026-05-08)", "url": "https://www.michigan.gov/mdcs", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Browser-fetch pending",
+  "update_cadence": "unknown (presumed biennial; pending retrieval)",
+  "notes": "Browser-fetch pending: data_status INCOMPLETE — MDCS compensation page returns 404/Gravity-Forms boilerplate, SEIU 517M contracts page has no visible PDF links, Firecrawl credits exhausted. All class codes, pay grades (P-11/P-12 presumed), and min/max are UNKNOWN/null; step_basis biweekly × 26 presumed. effective_date/fiscal_year UNKNOWN so temporal_coverage is omitted. Bargaining status (SEIU 517M / HSS, 2025-2027) is presumed, not verified. Manual fetch: michigan.gov/mdcs class spec or seiu517m.org contracts.",
+  "related": ["pay-scales/peer-states/MI/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "MI", "michigan", "dds", "disability-examiner", "blocked", "browser-fetch-pending", "seiu-517m"]
+}

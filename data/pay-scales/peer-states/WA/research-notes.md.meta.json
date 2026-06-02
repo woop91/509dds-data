@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "pay-scales/peer-states/WA/research-notes",
+  "title": "Washington DDS Pay-Scale Research Notes",
+  "description": "Narrative research notes for Washington DDS examiner and supervisor pay: administering agency (DSHS DDDS), the numbered DDS Adjudicator series (Adj 1 = class 956/Range 46, Adj 2 = 955/Range 52, Adj 3 = 954/Range 56, Adj 5 = 953/Range 62 estimated), Step-L monthly/annual figures, WFSE GG 2025-27 CBA terms, OFM salary-schedule source URLs, and documented data gaps. Companion to WA/scheduled-rates.json.",
+  "path": "data/pay-scales/peer-states/WA/research-notes.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2025-07-01", "end": "2027-06-30" },
+  "geographic_coverage": "Washington State",
+  "source": { "publisher": "Washington Office of Financial Management (OFM); WA DSHS Division of Disability Determination Services", "title": "WA DDS salary research notes (OFM class specs + WFSE GG 2025-27 CBA)", "url": "https://ofm.wa.gov/state-human-resources/compensation-job-classes", "retrieved_at": "2026-05-08" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "biennium (CBA cycle, 2025-27)",
+  "notes": "Authoritative: cites official OFM class specifications and codes (956/955/954/953) mapped to salary ranges, with Step-L monthly figures and the WFSE GG 2025-27 CBA (3% 2025, 2% 2026). Open gaps: DDS Adjudicator 5 (953) range unconfirmed (Range 62 candidate), full A–L step grid not captured in the notes (the sibling JSON has it), supervisory WMS-exclusion inferred.",
+  "related": ["pay-scales/peer-states/WA/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["pay-scales", "peer-states", "WA", "washington", "dds", "adjudicator", "research-notes", "ofm", "wfse", "authoritative"]
+}

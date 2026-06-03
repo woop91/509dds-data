@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/rhode-island-const-bylaws",
+  "title": "Rhode Island Association of Disability Examiners (RIADE) — Constitution & By-Laws",
+  "description": "Constitution and by-laws of the Rhode Island Association of Disability Examiners (RIADE), a NADE chapter in the Northeast Region serving members within Rhode Island. The constitution covers preamble, name, purpose, membership, limitations, officers (President, President-elect, Secretary-Treasurer), board of directors, an annual meeting in May, by-laws, and amendments; the by-laws detail the board of directors, finances/dues, officer duties, committees (Membership, Publications, Program, Constitution & By-laws, Education and Training), amendments, and rules of order.",
+  "path": "data/external/nade/state-bylaws/rhode-island-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Rhode Island",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Rhode Island (RIADE) Chapter",
+    "title": "Rhode Island Association of Disability Examiners Constitution & By-Laws",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Rhode-Island-Const-Bylaws.doc. The conversion duplicates the by-laws Committees/Amendments/Rules-of-Order articles (Article V section 3 onward repeats Articles VI-VII), an artifact of the original document; content is otherwise intact. One line erroneously expands NADE as 'National Association of Medical Examiners' (an original-document error, preserved). No adoption/revision date is stated, so temporal_coverage is omitted. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "rhode-island", "riade", "northeast-region", "governance"]
+}

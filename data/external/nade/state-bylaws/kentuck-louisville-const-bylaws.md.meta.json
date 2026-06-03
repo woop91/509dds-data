@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/kentuck-louisville-const-bylaws",
+  "title": "Derby City Association of Disability Examiners (Louisville, KY) — Constitution and By-Laws",
+  "description": "Governing constitution and by-laws of the Derby City Association of Disability Examiners (DCADE), the Louisville, Kentucky chapter of the National Association of Disability Examiners (NADE). Covers chapter name, NADE affiliation, purpose, membership (employees of the Louisville Office of Disability Determinations and providers in the defined geographic region of Kentucky), four elected officers (President, Vice-President, Secretary, Treasurer), the Southeast Regional Executive Committee Member, Board of Directors, committees, and amendment procedures.",
+  "path": "data/external/nade/state-bylaws/kentuck-louisville-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Louisville, Kentucky (region bounded by I-65 / Western Kentucky Parkway / Purchase Parkway and parts of Jefferson County)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Derby City (Louisville, KY) Chapter",
+    "title": "Constitution and By-Laws of the Derby City Association of Disability Examiners (DCADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'Kentuck-Louisville-Const-Bylaws.doc' (in the same directory); markdown formatting (bold, heading levels, list numbering) was machine-derived and may not perfectly mirror the original .doc layout, but the legal text was preserved. The 'kentuck-louisville' filename refers to the Louisville KY chapter (NADE also has a separate Frankfort KY chapter, Kentuck-Frankfort-Const-Bylaws.doc). NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "constitution", "state", "kentucky", "louisville", "derby-city", "dcade", "disability-examiners", "chapter-governance"]
+}

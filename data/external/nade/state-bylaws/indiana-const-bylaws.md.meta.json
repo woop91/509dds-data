@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/indiana-const-bylaws",
+  "title": "Indiana Association of Disability Examiners — By-Laws",
+  "description": "By-Laws of the Indiana Association of Disability Examiners, a Great Lakes Region chapter of the National Association of Disability Examiners (NADE). Articles I-XII cover name, definitions, purposes, affiliation (functions as an independent affiliate of the Indiana Rehabilitation Association), membership (NADE members residing or employed in Indiana), fiscal year (no chapter dues), the Executive Board and one-year terms, officers (President/Vice-President/Immediate Past President/Secretary-Treasurer), an annual October meeting, committees (Membership Director, Program, Publications editor of the 'Hoosier Examiner'), amendments, and rules of order. Trailing dates July 1979, October 1980, and October 1981 record adoption/revision history.",
+  "path": "data/external/nade/state-bylaws/indiana-const-bylaws.md",
+  "format": "md",
+  "temporal_coverage": { "start": "1979", "end": "1981" },
+  "geographic_coverage": "Indiana",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Indiana Chapter",
+    "title": "By-Laws of the Indiana Association of Disability Examiners",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Indiana-Const-Bylaws.doc' in the same directory; expect minor conversion artifacts (e.g. 'Regio;.' for Region). Despite the source filename, the content is a By-Laws document (no separately titled Constitution section is present). The document closes with adoption/revision dates 'July 1979', 'October 1980', and 'October 1981', so temporal_coverage runs start=1979 to end=1981. The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "indiana", "disability-examiners", "great-lakes-region", "indiana-rehabilitation-association", "chapter-governance"]
+}

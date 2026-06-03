@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/oklahoma-const-bylaws",
+  "title": "Oklahoma Association of Disability Examiners (OKADE) — Constitution & By-Laws",
+  "description": "Constitution and by-laws of the Oklahoma Association of Disability Examiners (OKADE), a NADE-affiliated chapter. Articles cover name and affiliation, purpose, membership (no chapter dues beyond NADE), organization/officers (President, President-Elect, Secretary, Treasurer; annual business meeting the second Tuesday of August), meetings and electronic voting, nominations and elections, committees (including the OKADE Korral Newsletter and NDPW committees), parliamentary authority, and constitutional amendment procedure. Marked 'Updated 7/12/05'.",
+  "path": "data/external/nade/state-bylaws/oklahoma-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Oklahoma",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Oklahoma (OKADE) Chapter",
+    "title": "Oklahoma Association of Disability Examiners Constitution & By-Laws",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "temporal_coverage": { "start": "2005-07-12", "end": "2005-07-12" },
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Oklahoma-Const-Bylaws.doc. The document footer reads 'Updated 7/12/05' (12 July 2005), captured here as temporal_coverage. Inline page-number markers like '(1)'..'(5)' from the original pagination survive the conversion. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "oklahoma", "okade", "governance"]
+}

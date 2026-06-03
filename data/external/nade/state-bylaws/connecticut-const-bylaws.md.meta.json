@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/connecticut-const-bylaws",
+  "title": "Connecticut Association of Disability Examiners — Constitution",
+  "description": "Constitution of the Connecticut Association of Disability Examiners, a unit that is simultaneously part of the Connecticut Rehabilitation Association (a chapter of the National Rehabilitation Association) and organized under the Constitution and By-Laws of the National Association of Disability Examiners (NADE), described as a division of the National Rehabilitation Association. Articles I-XII cover name, the layered affiliation, definitions, purpose, membership, meetings, election and nomination, officers (President/Vice-President/Secretary/Treasurer for one-year terms), committees, parliamentary authority (Modern Rules of Order), constitutional amendments, and the convention of delegates.",
+  "path": "data/external/nade/state-bylaws/connecticut-const-bylaws.md",
+  "format": "md",
+  "temporal_coverage": { "start": "1975", "end": "1975" },
+  "geographic_coverage": "Connecticut",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Connecticut Chapter",
+    "title": "Constitution of the Connecticut Association of Disability Examiners",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Connecticut-Const-Bylaws.docx' in the same directory; expect conversion artifacts (article headings run inline with their first section). The closing line states 'This document was dated stamped 02/27/75', so temporal_coverage start/end are set to 1975. Note: despite the source filename, the content is the Constitution only (no separately titled By-Laws section is present); it also frames NADE as a division of the National Rehabilitation Association, reflecting NADE's earlier organizational structure. The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "connecticut", "disability-examiners", "national-rehabilitation-association", "chapter-governance"]
+}

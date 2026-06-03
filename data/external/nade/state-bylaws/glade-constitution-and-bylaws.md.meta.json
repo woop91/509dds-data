@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/glade-constitution-and-bylaws",
+  "title": "Government Liaison Association of Disability Examiners (GLADE) — Constitution and Bylaws",
+  "description": "Combined Constitution and Bylaws of the Government Liaison Association of Disability Examiners (GLADE), a chapter of the National Association of Disability Examiners (NADE) within the Mid-Atlantic Region whose membership is open to all persons working in the Federal Disability Determination Services (a federal/agency chapter rather than a single U.S. state). Articles I-XII cover name, affiliation, definitions (referencing the Mid-Atlantic Region MARADE), purpose, membership, finances and membership year (no chapter dues, rebates Feb 1-Mar 31), officers (President/President-elect/Secretary/Treasurer plus a two-year Regional Executive Board representative; May elections, June 1 terms), the Executive Board, committees (Membership, Program), general membership meetings, parliamentary authority, and amendments.",
+  "path": "data/external/nade/state-bylaws/glade-constitution-and-bylaws.md",
+  "format": "md",
+  "temporal_coverage": { "start": "1988", "end": "1989" },
+  "geographic_coverage": "United States — Federal Disability Determination Services (Mid-Atlantic Region, NADE)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Government Liaison (GLADE) Chapter",
+    "title": "Constitution and Bylaws of the Government Liaison Association of Disability Examiners (GLADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'GLADE-Constitution-and-Bylaws.doc' in the same directory; expect minor conversion artifacts (e.g. 'PARLIMENTARY' for Parliamentary). Content note: GLADE is NOT a U.S. state chapter despite living under 'state-bylaws' — it serves the Federal Disability Determination Services and is filed under the Mid-Atlantic Region. The document records 'Dated and completed: 11/17/1988' and 'Date of Approval: 03/20/1989', so temporal_coverage runs start=1988 to end=1989. The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "GLADE", "government-liaison", "federal-dds", "disability-examiners", "mid-atlantic-region", "chapter-governance"]
+}

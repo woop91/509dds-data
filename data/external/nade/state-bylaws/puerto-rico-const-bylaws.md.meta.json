@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/puerto-rico-const-bylaws",
+  "title": "Puerto Rico Association of Disability Examiners — Constitution & By-Laws",
+  "description": "Constitution and by-laws of the Puerto Rico Association of Disability Examiners, an affiliate of the National Association of Disability Examiners, Inc. The constitution covers preamble, name and affiliation, purpose, membership (Full and Associate classes), administration by a seven-member Board of Directors (President, President-Elect, Secretary, Treasurer, and three Vocals), meetings, officers, amendments, standing committees (including Historian and a Sere-Nade publication), convention of delegates, publications, and parliamentary authority; the by-laws add definitions, classes of membership, and the by-laws amendment process.",
+  "path": "data/external/nade/state-bylaws/puerto-rico-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Puerto Rico",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Puerto Rico Chapter",
+    "title": "Puerto Rico Association of Disability Examiners Constitution & By-Laws",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Puerto-Rico-Const-Bylaws.doc. The conversion has numerous OCR-style artifacts ('CONSTITIJTION', 'DISAB1LITY', 'arid', 'nay', 'elegible', 'far action', stray digits like 'session4'); treat exact wording as approximate. The by-laws reference a 'Full Member in good standing as of June 30, 1997' grandfather clause but state no overall adoption/revision date, so temporal_coverage is omitted. Distinctive 'Vocal' board positions and a 'Puerto Rico Sere-Nade' publication. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "puerto-rico", "governance"]
+}

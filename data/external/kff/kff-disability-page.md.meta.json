@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/kff/kff-disability-page",
+  "title": "Data on Disability Among the Total Population — KFF State Health Facts",
+  "description": "Index/landing page from KFF (Kaiser Family Foundation) State Health Facts for the 'Disability Among the Total Population' sub-topic within the Health Status category. The page describes the Health Status data category and lists KFF's disability-related state-level indicators, organized into two sub-topics: (1) Disability Among the Total Population and (2) Disability Among Adults Ages 19–64. Indicators include disability rates and population distributions broken out by age, sex, federal poverty level (FPL), race/ethnicity, type of disability, number of disabilities, and insurance coverage. Each indicator links to a KFF state-by-state data table covering all 50 states plus DC (KFF disability estimates are drawn primarily from the U.S. Census Bureau American Community Survey). Useful for contextualizing the prevalence and demographics of disability across states relevant to DDS disability-determination workload and policy.",
+  "path": "data/external/kff/kff-disability-page.md",
+  "format": "md",
+  "geographic_coverage": "United States (all 50 states + DC)",
+  "source": {
+    "publisher": "KFF (Kaiser Family Foundation)",
+    "title": "Data on Disability Among the Total Population | KFF State Health Facts",
+    "url": "https://www.kff.org/state-category/health-status/disability-among-total-population/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: KFF State Health Facts data-category page. This markdown is a normalized conversion of the sibling HTML capture kff-disability-page.html — the meaningful content (Health Status category description, page purpose, and the two disability indicator lists with their real indicator URLs) was extracted, and site chrome (mega-menu nav, search forms, the full unrelated subcategory checkbox tree, scripts/styles, footer) was stripped. The canonical URL was taken from the page's own rel=canonical / og:url (.../disability-among-total-population/); the sibling kff-disability-page.html.source.txt records the capture's request URL as https://www.kff.org/state-category/health-status/disability/ (a redirect to the canonical). This is a navigation/index page that links to data tables rather than containing the tabular data itself, so no columns/row_count are declared and temporal_coverage is omitted (it varies by underlying indicator). Source HTML referenced here, not declared via derived_from (the .html is not a separately carded dataset id).",
+  "tags": ["external", "kff", "kaiser-family-foundation", "state-health-facts", "disability", "disability-prevalence", "acs", "states", "dds", "html-conversion", "authoritative"]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/new-jersey-const-bylaws",
+  "title": "Jersey Association of Disability Examiners (JADE) — Constitution",
+  "description": "Governing constitution of the Jersey Association of Disability Examiners (JADE), the New Jersey chapter of the National Association of Disability Examiners (NADE). Includes a preamble and covers chapter name, purpose, composition/eligibility (persons involved in the New Jersey disability benefits program), membership, the Executive Board and officers (President, Vice President, Secretary, Treasurer, Member-at-Large), duties of officers and the board, meetings (monthly), standing committees (Awards, Constitution and By-Laws, Professional Relations, Program), parliamentary authority, and amendments.",
+  "path": "data/external/nade/state-bylaws/new-jersey-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "New Jersey",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — New Jersey Chapter (JADE)",
+    "title": "Constitution of the Jersey Association of Disability Examiners (JADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'NEW-JERSEY-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived and the source contains OCR-style artifacts (e.g. 'ASSOCIATTON', 'COMMITTFES', 'keen a record') preserved as-converted. The file is the chapter Constitution (by-laws are referenced via the Constitution & By-Laws committee but not separately reproduced). NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "constitution", "state", "new-jersey", "jade", "northeast-region", "disability-examiners", "chapter-governance"]
+}

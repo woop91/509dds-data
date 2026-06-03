@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/texas-const-bylaws",
+  "title": "Texas Association of Disability Examiners (TADE) — Constitution",
+  "description": "Constitution of the Texas Association of Disability Examiners (TADE), a chapter of NADE in the Southwest Region. Articles cover preamble, name, affiliation, eleven enumerated purposes, membership (June renewal month, twelve-month period), organization and officers (President, President-Elect, Secretary, Treasurer; elected in October, installed in January) with detailed standing-committee charters (By-Laws, Membership, Publicity/Public Relations, Nominations/Elections, Professional Standards, Program, Special Projects, Awards, Ways and Means, Legislative, Newsletter), nominations and elections, meetings, parliamentary authority and amendment procedure, and finances (dissolution gives residual funds to the National Education Enhancement Fund).",
+  "path": "data/external/nade/state-bylaws/texas-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Texas",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Texas (TADE) Chapter",
+    "title": "Texas Association of Disability Examiners Constitution",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Texas-Const-Bylaws.docx. The captured text is the Constitution (the By-Laws Committee is referenced but a separate by-laws section is not present in this conversion). No adoption/revision date is stated, so temporal_coverage is omitted. Several conversion/source typos ('Taxes Association', 'herby', 'of TADE may'). Note this is the Texas TADE, distinct from the Tennessee TADE chapter. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "texas", "tade", "southwest-region", "governance"]
+}

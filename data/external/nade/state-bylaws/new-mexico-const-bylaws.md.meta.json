@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/new-mexico-const-bylaws",
+  "title": "New Mexico Association of Disability Examiners (New MADE) — Constitution and By-Laws",
+  "description": "Governing constitution and by-laws of the New Mexico Association of Disability Examiners (New MADE), based in Albuquerque and a chapter of the National Association of Disability Examiners (NADE) in the Southwest Region. Covers name, NADE affiliation, definitions, purpose, membership (revised 8/03), detailed finances and conference-funding distribution rules, the Executive Board, officers, extensive per-office 'charges' (duties) for President, President-Elect, Secretary, Treasurer, Past President and Board Members at Large, meetings, standing committees, and amendments.",
+  "path": "data/external/nade/state-bylaws/new-mexico-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "New Mexico (chapter located in Albuquerque)",
+  "temporal_coverage": { "start": "2003", "end": "2003" },
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — New Mexico Chapter (New MADE)",
+    "title": "Constitution and By-Laws of the New Mexico Association of Disability Examiners (New MADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'New-Mexico-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived (the per-office 'Charges' sections render with restarting list numbering and stray heading markers as conversion artifacts). Article V (Membership) carries a '(Revised 8/03)' note, captured as temporal_coverage. NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "constitution", "state", "new-mexico", "new-made", "albuquerque", "southwest-region", "disability-examiners", "chapter-governance"]
+}

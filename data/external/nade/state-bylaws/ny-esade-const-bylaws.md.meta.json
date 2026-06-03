@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/ny-esade-const-bylaws",
+  "title": "Empire State Association of Disability Examiners (ESADE, New York) — Constitution and By-Laws",
+  "description": "Governing constitution and by-laws of the Empire State Association of Disability Examiners (ESADE), a New York State chapter of the National Association of Disability Examiners (NADE). Includes a preamble and covers chapter name, purpose, membership (persons involved in the New York State disability benefits program) and membership classes/rights, the Executive Board (President, President-Elect, Immediate Past-President, Secretary, Treasurer, Membership Chairman, ESADE News Editor) including recall procedure, meetings (bi-monthly), committees, conference voting procedure, parliamentary authority, and amendments; and in the by-laws: Executive Board duties, filling vacancies, duties of officers, standing committees, detailed election and absentee-balloting procedures, and amendments.",
+  "path": "data/external/nade/state-bylaws/ny-esade-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "New York State",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — New York / Empire State Chapter (ESADE)",
+    "title": "Constitution and By-Laws of the Empire State Association of Disability Examiners (ESADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'NY-ESADE-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived (Article numbering restarts at the by-laws section and some emphasis markers are conversion artifacts). 'ESADE' = Empire State Association of Disability Examiners (one of multiple NY chapters; a separate NY-West chapter, NY-West-Const-Bylaws.doc, also exists). NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "constitution", "state", "new-york", "esade", "empire-state", "northeast-region", "disability-examiners", "chapter-governance"]
+}

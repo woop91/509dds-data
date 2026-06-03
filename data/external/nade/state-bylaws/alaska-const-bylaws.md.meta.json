@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/alaska-const-bylaws",
+  "title": "Alaska Association of Disability Examiners — Constitution and By-Laws",
+  "description": "Governing document of the Alaska Association of Disability Examiners, a Pacific Region chapter of the National Association of Disability Examiners (NADE). Contains the chapter Constitution (Articles One-Nine: name, affiliation, purpose, territory coincident with the State of Alaska, membership, officers of President/Vice President/Secretary-Treasurer, board of directors, amendments, by-laws) and the By-Laws (meetings, officers and one-year terms beginning January 1, board of directors, amendments, dues limited to national dues, nominations and elections).",
+  "path": "data/external/nade/state-bylaws/alaska-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Alaska",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Alaska Chapter",
+    "title": "Constitution and By-Laws of the Alaska Association of Disability Examiners",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Alaska-Const-Bylaws.doc' in the same directory; expect conversion/OCR-style artifacts (the body is rendered entirely bold, and original text contains scanning errors such as 'Natural Association' for National, 'nights' for rights, 'membership gear' for year, 'unexpected team' for unexpired term). The source URL is the NADE organization site, not a deep link. No adoption/revision date is stated in the content, so temporal_coverage is omitted.",
+  "tags": ["nade", "bylaws", "constitution", "alaska", "disability-examiners", "pacific-region", "chapter-governance"]
+}

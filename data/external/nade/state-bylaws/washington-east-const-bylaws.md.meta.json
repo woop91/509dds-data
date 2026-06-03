@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/washington-east-const-bylaws",
+  "title": "Eastern Washington Association of Disability Examiners (EWADE) — Constitution & By-Laws",
+  "description": "Constitution and by-laws of the Eastern Washington Association of Disability Examiners (EWADE), a NADE chapter in the Pacific Region whose mission is to promote NADE's ideals in the Spokane, Washington DDS office. The constitution covers name, purpose (including a mission and vision statement), membership (Spokane DDS region employees and medical consultants), meetings, officers (President, Vice-President, Secretary, Treasurer), by-laws, and amendments; the by-laws detail the EWADE Board and its powers, officer duties, amendments, and rules of order.",
+  "path": "data/external/nade/state-bylaws/washington-east-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Eastern Washington (Spokane DDS region)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Eastern Washington (EWADE) Chapter",
+    "title": "Eastern Washington Association of Disability Examiners Constitution & By-Laws",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Washington-East-Const-Bylaws.doc. This is a regional Washington chapter (Spokane/Eastern Washington), distinct from the Renton-Seattle and Olympia (OlyWADE) Washington chapters also in this directory; chapter name taken from the document body. No adoption/revision date is stated, so temporal_coverage is omitted. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "washington", "eastern-washington", "spokane", "ewade", "pacific-region", "regional-chapter", "governance"]
+}

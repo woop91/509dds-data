@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/virginia-const-bylaws",
+  "title": "Virginia Association of Disability Examiners (VADE) — Constitution & By-Laws",
+  "description": "Constitution and by-laws of the Virginia Association of Disability Examiners (VADE), the Virginia chapter of NADE in the Mid-Atlantic Region, organized into four regions. The constitution covers name, definitions, purpose, membership, officers (President, President-Elect, Secretary/Treasurer, and a biennially elected Mid-Atlantic Regional Board Member) with mail-ballot elections, board of directors, amendments, and by-laws; the by-laws detail state and regional meetings (annual meeting the second Wednesday of April), state and regional officers, the board of directors, amendments, and finances (state and regional treasuries; 10% of regional activity proceeds remitted to the state).",
+  "path": "data/external/nade/state-bylaws/virginia-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Virginia",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Virginia (VADE) Chapter",
+    "title": "Virginia Association of Disability Examiners Constitution & By-Laws",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Virginia-Const-ByLaws.doc. The document is a complete constitution plus by-laws. The Finances article has two sections both numbered 'Section 4' in the source (preserved). No adoption/revision date is stated, so temporal_coverage is omitted. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "virginia", "vade", "mid-atlantic-region", "governance"]
+}

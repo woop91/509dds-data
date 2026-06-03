@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/missouri-const-bylaws",
+  "title": "Missouri Association of Disability Examiners — Constitution and Bylaws",
+  "description": "Combined constitution and bylaws of the Missouri Association of Disability Examiners, a chapter of the National Association of Disability Examiners (NADE); last revised 8/2005. Covers name, status under NADE, purpose, membership, officers (President, President-Elect, Secretary-Historian, Treasurer, Conference Manager), the Board of Directors and Executive Committee, committees, meetings, elections (including proxy procedure), membership year, formation of district chapters, awards/recognition, dues installment payment, amendments, and rules of order.",
+  "path": "data/external/nade/state-bylaws/missouri-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Missouri (statewide, with optional district chapters matching District Disability Offices)",
+  "temporal_coverage": { "start": "2005", "end": "2005" },
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Missouri Chapter",
+    "title": "Constitution and Bylaws of the Missouri Association of Disability Examiners",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'Missouri-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived. Document header states '(last revised 8/2005)', captured as temporal_coverage. NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "constitution", "state", "missouri", "disability-examiners", "chapter-governance"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/dc-const-bylaws",
+  "title": "Capital Association of Disability Examiners (CADE) — Bylaws (Washington, D.C.)",
+  "description": "Bylaws of the Capital Association of Disability Examiners (CADE), the Washington, D.C. (District of Columbia) chapter of the National Association of Disability Examiners (NADE), within the Mid-Atlantic Region. Articles I-IX cover name, purpose, composition (all persons working in the District of Columbia involved in administering/processing the Social Security disability program), membership, the Executive Committee (President/Vice-President/Secretary-Treasurer plus appointed Membership Chairman and NADE Advocate Reporter; President serves as Mid-Atlantic Region Board representative), monthly meetings, committees, parliamentary authority, and amendments. Includes an unfilled approval/signature block referencing the year 1988.",
+  "path": "data/external/nade/state-bylaws/dc-const-bylaws.md",
+  "format": "md",
+  "temporal_coverage": { "start": "1988", "end": "1988" },
+  "geographic_coverage": "District of Columbia (Washington, D.C.)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Capital (Washington, D.C.) Chapter",
+    "title": "Bylaws of the Capital Association of Disability Examiners (CADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'DC-Const-Bylaws.doc' in the same directory; expect conversion artifacts (e.g. the title typo 'EXAMIERS', and escaped fill-in blanks rendered as '\\_\\_\\_'). The document is a Bylaws document (no separately titled Constitution section) and carries an unexecuted approval block 'Approved this ___ day of ___, 1988', so temporal_coverage start/end are set to 1988. The chapter serves Washington, D.C. despite the file being grouped under 'state-bylaws'. The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "district-of-columbia", "washington-dc", "CADE", "disability-examiners", "mid-atlantic-region", "chapter-governance"]
+}

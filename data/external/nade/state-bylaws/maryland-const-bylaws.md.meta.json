@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/maryland-const-bylaws",
+  "title": "Maryland Association of Disability Examiners (MADE) — By-Laws",
+  "description": "Governing by-laws of the Maryland Association of Disability Examiners (MADE), the Maryland chapter of the National Association of Disability Examiners (NADE) within the Mid-Atlantic Region (MARADE). Covers chapter name, NADE affiliation, definitions, purpose, membership (persons living or working in Maryland other than SSA Headquarters staff), finances and membership year, officers (President, Vice-President, Secretary, Treasurer, Representative to the Regional Executive Board), the Executive Board, committees, meetings, parliamentary authority, and amendments. Dated/completed 03/09/1979, approved 1980, amended 11/15/1985 and 01/23/1998.",
+  "path": "data/external/nade/state-bylaws/maryland-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Maryland",
+  "temporal_coverage": { "start": "1979", "end": "1998" },
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Maryland Chapter (MADE)",
+    "title": "By-Laws of the Maryland Association of Disability Examiners (MADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'Maryland-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived. Document states it was 'Dated and completed 03/09/79, approved 1980' and 'Amended 11/15/85' and 'Amended 01/23/98', captured as temporal_coverage 1979-1998. NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "constitution", "state", "maryland", "made", "mid-atlantic-region", "marade", "disability-examiners", "chapter-governance"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/guam-no-const-bylaws",
+  "title": "Guam Chapter #61 (NADE) — No Constitution or Bylaws on File (Placeholder Note)",
+  "description": "Placeholder note, not a governing document. This file records that the Guam chapter (Chapter #61) of the National Association of Disability Examiners (NADE) has NO constitution or bylaws on file. Created during NADE's transition to electronic chapter/regional governing documents, the note is signed by Donnie Hayes, NADE National Constitution & Bylaws Chairperson (term 9/09 to 9/10), who confirms that no constitution and bylaws exist in paper or other form for this chapter and that the chapter has no members at that time. Guam holds a designated chapter number but no adopted governing instrument.",
+  "path": "data/external/nade/state-bylaws/guam-no-const-bylaws.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2009", "end": "2010" },
+  "geographic_coverage": "Guam",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Guam Chapter (Chapter #61)",
+    "title": "Guam (Chapter #61) Const & Bylaws — note confirming none on file",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Structurally unavailable",
+  "notes": "Structurally unavailable: the underlying constitution and bylaws DO NOT EXIST. Contrary to what a place-name reading of the filename might suggest, the '-no-' here is literal — this .md is a one-paragraph administrative note from the NADE National Constitution & Bylaws Chairperson stating that no constitution & bylaws are on file (paper or otherwise) for the Guam chapter and that the chapter had no members at the time. Tiered 'Structurally unavailable' rather than 'Authoritative' because there is no governing document to describe. This .md is the markitdown-normalized conversion of the sibling source file 'Guam-No-Const-Bylaws.doc' in the same directory. The signer's stated term (9/09 to 9/10) dates the note, so temporal_coverage runs start=2009 to end=2010. The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "guam", "chapter-61", "disability-examiners", "no-bylaws-on-file", "placeholder", "structurally-unavailable"]
+}

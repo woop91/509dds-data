@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/minnesota-const-bylaws",
+  "title": "Minnesota Association of Disability Examiners (MADE) — By-Laws",
+  "description": "Governing by-laws of the Minnesota Association of Disability Examiners (MADE), a chapter of the National Association of Disability Examiners (NADE) in the Great Lakes Region. Covers chapter name, NADE relationship, definitions, purposes, membership, meetings (spring and fall), elections, officers (President, President-Elect, Secretary-Treasurer), the Board of Directors, the five standing committees (By-Laws and Resolution, Nominating, Professional Standards, Conference and Program, Membership), parliamentary authority, amendments, and the Convention of Delegates.",
+  "path": "data/external/nade/state-bylaws/minnesota-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Minnesota",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Minnesota Chapter (MADE)",
+    "title": "By-Laws of the Minnesota Association of Disability Examiners (MADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'Minnesota-const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived. The document is titled 'By-Laws' (it references but does not separately reproduce a constitution). NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "constitution", "state", "minnesota", "made", "great-lakes-region", "disability-examiners", "chapter-governance"]
+}

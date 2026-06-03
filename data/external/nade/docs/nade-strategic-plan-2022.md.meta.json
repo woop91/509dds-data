@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/docs/nade-strategic-plan-2022",
+  "title": "NADE Strategic Plan (2022)",
+  "description": "The official strategic plan of the National Association of Disability Examiners (NADE), the professional association of state Disability Determination Services (DDS) examiners and disability-adjudication staff. The plan is a blueprint organized around five strategic goals — (1) Professionalism (education/training conferences, professional certification and recertification, voluntary Code of Professional Ethics); (2) Legislative, Regulatory and Judicial Monitoring and Advocacy (monitoring pending legislation/litigation/regulation, gathering and presenting membership positions, congressional testimony and position papers); (3) Organizational Continuity and Service to Members (records management, leadership guidelines/training, historical continuity, plan governance); (4) Membership Fraternity and Recognition (fraternity, membership directory, awards/recognition, National Disability Professional's Week); and (5) Chapter Development and Services (evaluating member services, funding, recruitment/retention including retirees, and chapter-to-chapter communication). Each goal lists objectives, strategies, and work plans assigning responsibility to specific NADE officers and committees (President, Past President, Regional Directors, Legislative Director, Secretary, Professional Development Committee, Council of Chapter Presidents, etc.). Provides authoritative context on how the examiner profession organizes training, certification, ethics, and SSA/DDS advocacy relevant to disability-determination work.",
+  "path": "data/external/nade/docs/nade-strategic-plan-2022.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2022", "end": "2022" },
+  "geographic_coverage": "United States (national DDS / SSA disability program)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "NADE Strategic Plan",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: NADE's official strategic plan (document footer states 'Updated February 8, 2022'), hence temporal_coverage start==end (2022). This markdown is a markitdown conversion of the source Word document nade-strategic-plan-2022.docx (present in the same directory); conversion may introduce minor artifacts (e.g. a stripped leading EMF logo image rendered as an empty data-URI image tag, and repeated 'NADE STRATEGIC PLAN' running headers/section breaks) but the goal/objective/strategy/work-plan text is preserved. Reference source document is nade-strategic-plan-2022.docx (not declared via derived_from since the .docx is not a separately carded dataset id). No exact source URL on the document; nade.org canonical domain used (deep link not invented). Narrative document — no tabular columns or row_count.",
+  "related": ["external/nade/docs/nade-top-issues-2025"],
+  "tags": ["external", "nade", "disability-examiners", "dds", "strategic-plan", "professionalism", "certification", "ethics", "advocacy", "chapter-development", "membership", "2022", "authoritative"]
+}

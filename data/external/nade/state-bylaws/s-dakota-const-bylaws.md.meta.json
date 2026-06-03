@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/s-dakota-const-bylaws",
+  "title": "South Dakota Association of Disability Examiners (SoDADE, Inc.) — Bylaws",
+  "description": "Corporate bylaws of SoDADE, Inc. (South Dakota Association of Disability Examiners), a South Dakota nonprofit corporation and chapter of NADE, with principal office in Sioux Falls (Minnehaha County). Articles cover offices/registered agent, relationship to NADE, members (Professional and Associate classes; meetings, notice, quorum, proxies, voting), officers (President, President-Elect, Secretary, Treasurer), board of directors, indemnification of directors and officers, contracts/loans/checks/deposits, transactions with the corporation, a September 1 to August 31 fiscal year, corporate seal, waiver of notice, and amendments. Includes a certification that the bylaws were adopted and filed March 3, 2005.",
+  "path": "data/external/nade/state-bylaws/s-dakota-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "South Dakota",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — South Dakota (SoDADE, Inc.) Chapter",
+    "title": "Bylaws of SoDADE, Inc. (South Dakota Association of Disability Examiners)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "temporal_coverage": { "start": "2005-03-03", "end": "2005-03-03" },
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document S-Dakota-Const-Bylaws.doc. The bylaws certification states they were adopted at the initial board meeting and filed on 3 March 2005 (Sioux Falls), captured as temporal_coverage. Although the filename says 'const-bylaws', the document body is corporate Bylaws of the incorporated chapter (no separate constitution section). Many heading typos from the conversion ('ASSOCAIATION', 'ARTILCE', 'SETION', 'INDEMNIFICAION'). Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "south-dakota", "sodade", "nonprofit-corporation", "governance"]
+}

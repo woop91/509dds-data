@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/louisiana-b-r-const-bylaws",
+  "title": "Baton Rouge Association of Disability Examiners (Louisiana) — By-Laws",
+  "description": "Governing by-laws of the Baton Rouge Association of Disability Examiners, the Baton Rouge, Louisiana chapter of the National Association of Disability Examiners (NADE). Covers chapter name, NADE affiliation, definitions, purpose, membership (association members working or residing in the Baton Rouge area), finances, the Executive Board, officers (President, President-Elect, Secretary, Treasurer, board members), meetings, committees, and amendment procedures.",
+  "path": "data/external/nade/state-bylaws/louisiana-b-r-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Baton Rouge, Louisiana",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Baton Rouge (Louisiana) Chapter",
+    "title": "By-Laws of the Baton Rouge Association of Disability Examiners",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'Louisiana-B-R-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived. 'B-R' = Baton Rouge, one of three Louisiana NADE chapters (B-R=Baton Rouge, NO=New Orleans, SHR=Shreveport). The document is titled 'By laws' and does not include a separately headed constitution section. NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "constitution", "state", "louisiana", "baton-rouge", "disability-examiners", "chapter-governance"]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/new-hampshire-const-bylaws",
+  "title": "New Hampshire Chapter of the National Association of Disability Examiners (NADE in NH) — Constitution and By-Laws",
+  "description": "Governing constitution and by-laws of the New Hampshire Chapter (NADE in NH) of the Northeast Region of the National Association of Disability Examiners. Includes a preamble and covers chapter name, geographic boundaries/purpose, membership, limitations, the Board of Directors, officers (President, President-Elect, Secretary-Treasurer), the annual meeting (first Tuesday in February), board duties and meetings, finances and fiscal year (7/1–6/30), duties of officers, standing committees (Membership, Publications, Program, Constitution and By-laws, Educational-Training), chapter meetings, amendments, and rules of order.",
+  "path": "data/external/nade/state-bylaws/new-hampshire-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "New Hampshire",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — New Hampshire Chapter (NADE in NH)",
+    "title": "Constitution and By-Laws of the New Hampshire Chapter of the National Association of Disability Examiners",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'New-Hampshire-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived (the constitution's Article numbering is slightly inconsistent and some words are run together, e.g. 'NADE in NHnewsletter', as conversion artifacts). NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "constitution", "state", "new-hampshire", "nade-in-nh", "northeast-region", "disability-examiners", "chapter-governance"]
+}

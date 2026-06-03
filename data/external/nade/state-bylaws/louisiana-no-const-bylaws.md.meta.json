@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/louisiana-no-const-bylaws",
+  "title": "Southeast Louisiana Association of Disability Examiners (New Orleans, SLADE) — Constitution and By-Laws",
+  "description": "Governing constitution and by-laws of the Southeast Louisiana Association of Disability Examiners (S.L.A.D.E.), the New Orleans-area chapter of the National Association of Disability Examiners (NADE), in the Southwest Region. Covers chapter name, NADE relationship, definitions, purposes, membership (NADE members in the southeastern section of Louisiana serviced by the New Orleans area office), meetings, elections, officers, Board of Directors, committees, parliamentary authority, amendments, and the Convention of Delegates.",
+  "path": "data/external/nade/state-bylaws/louisiana-no-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Southeastern Louisiana (New Orleans area office service region)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Southeast Louisiana / New Orleans (SLADE) Chapter",
+    "title": "Constitution and By-Laws of the Southeast Louisiana Association of Disability Examiners (S.L.A.D.E.)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'Louisiana-NO-const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived. Disambiguation of the '-no-' token: read of the content confirms 'NO' = New Orleans (the Southeast Louisiana / New Orleans area chapter, S.L.A.D.E.), NOT 'no constitution/bylaws'. Louisiana has three NADE chapters: B-R=Baton Rouge, NO=New Orleans, SHR=Shreveport. NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "constitution", "state", "louisiana", "new-orleans", "slade", "southwest-region", "disability-examiners", "chapter-governance"]
+}

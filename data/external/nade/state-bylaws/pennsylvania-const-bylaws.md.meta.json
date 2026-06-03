@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/pennsylvania-const-bylaws",
+  "title": "Pennsylvania Disability Examiners Division — Constitution & By-Laws",
+  "description": "Constitution and by-laws of the Pennsylvania Disability Examiners Division, a chapter of NADE that is also a division of the Pennsylvania Rehabilitation Association (itself a chapter of the National Rehabilitation Association). Articles cover the dual chapter-division identity and purpose, membership across the three parent organizations, a January 1 to December 31 membership/fiscal year, membership meetings (25% quorum, no proxy voting), officers (President, Vice-President, Secretary, Treasurer), standing committees (Membership, Professional Standards, Nominating, Program, By-Laws), election of officers, and the by-laws amendment method.",
+  "path": "data/external/nade/state-bylaws/pennsylvania-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Pennsylvania",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Pennsylvania Disability Examiners Division Chapter",
+    "title": "Pennsylvania Disability Examiners Division Constitution & By-Laws",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Pennsylvania-Const-Bylaws.docx. No adoption/revision date is stated in the text, so temporal_coverage is omitted. Inline original page markers ('-2-', '-3-', '-4-') survive the conversion. Distinctive feature: the chapter is jointly a NADE chapter and a division of the Pennsylvania Rehabilitation Association. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "pennsylvania", "rehabilitation-association", "governance"]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/wisconsin-const-bylaws",
+  "title": "Wisconsin Association of Disability Examiners (WADE) — By-Laws",
+  "description": "By-laws of the Wisconsin Association of Disability Examiners (WADE), a NADE chapter. Articles cover name, relationship to NADE, definitions, purpose, membership (current or former Wisconsin residents who are NADE members; no chapter dues), the Board of Directors and its powers (including a $50 spending authority), officers (President, President-Elect, Secretary, Treasurer) and their duties, elections (held at the May membership meeting), bimonthly meetings, five standing committees (Certification, Fund Raising, Hospitality, Publicity, plus Certification records), parliamentary authority (Robert's Rules, 75th Anniversary Edition), and the by-laws amendment procedure.",
+  "path": "data/external/nade/state-bylaws/wisconsin-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Wisconsin",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Wisconsin (WADE) Chapter",
+    "title": "Wisconsin Association of Disability Examiners By-Laws",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Wisconsin-Const-Bylaws.doc. The captured document is the chapter's By-Laws (no separate constitution section, though the text refers to itself as a constitution in places). Two articles are both numbered 'ARTICLE X' (Committees and Parliamentary Authority) in the source — preserved. The committees article lists 'five standing committees' but enumerates four named ones (Certification, Fund Raising, Hospitality, Publicity), an original-document inconsistency. No adoption/revision date is stated, so temporal_coverage is omitted. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "wisconsin", "wade", "governance"]
+}

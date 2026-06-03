@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/delaware-const-bylaws",
+  "title": "Delaware Association of Disability Examiners (DADE) — Bylaws",
+  "description": "Bylaws of the Delaware Association of Disability Examiners (DADE), a Mid-Atlantic Region state chapter of the National Association of Disability Examiners (NADE). Articles I-XIV cover name, affiliation, definitions, purpose, membership (NADE members residing or working in Delaware), finances and membership year (no chapter dues), membership meetings, election (officers elected by secret ballot before July 1), officers (President/historian/secretary/treasurer serving two-year terms), the regional board member, the executive board and its duties/quorum, standing committees (Membership, Program, Nominations), parliamentary authority, and amendment procedures.",
+  "path": "data/external/nade/state-bylaws/delaware-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Delaware",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Delaware Chapter",
+    "title": "Bylaws of the Delaware Association of Disability Examiners (DADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Delaware-Const-Bylaws.doc' in the same directory; expect minor conversion artifacts. Despite the source filename, the content is a Bylaws document (no separately titled Constitution section is present). No adoption/revision date is stated in the content, so temporal_coverage is omitted. The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "delaware", "DADE", "disability-examiners", "mid-atlantic-region", "chapter-governance"]
+}

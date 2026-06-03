@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/alabama-const-bylaws",
+  "title": "Alabama Association of Disability Examiners (AADE) — Constitution and By-Laws",
+  "description": "Governing document of the Alabama Association of Disability Examiners (AADE), a Southeast Region chapter of the National Association of Disability Examiners (NADE). Contains the chapter Constitution (Articles I-XI: name, relationship to NADE, definitions, purposes, membership, limitations, officers, board of directors, meetings, by-laws, amendments) followed by the By-Laws (election of officers, duties of officers, duties of the board, fiscal year of Aug 1-Jul 31, standing committees, regional representation, delegate-selection tracks, parliamentary authority, and amendment procedure).",
+  "path": "data/external/nade/state-bylaws/alabama-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Alabama",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Alabama Chapter",
+    "title": "Constitution and By-Laws of the Alabama Association of Disability Examiners (AADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Alabama-Const-Bylaws.doc' in the same directory; expect minor conversion artifacts (e.g. the original-document typos 'ARITCLE III', 'BOARD OF DIRECTCORS', and 'a;; deposits' that survive verbatim). The source URL is the NADE organization site, not a deep link to this specific document. No adoption/revision date is stated in the content, so temporal_coverage is omitted.",
+  "tags": ["nade", "bylaws", "constitution", "alabama", "AADE", "disability-examiners", "southeast-region", "chapter-governance"]
+}

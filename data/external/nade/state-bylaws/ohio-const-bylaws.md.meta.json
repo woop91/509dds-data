@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/ohio-const-bylaws",
+  "title": "Ohio Association of Disability Examiners (OADE) — Constitution",
+  "description": "Constitution of the Ohio Association of Disability Examiners (OADE), a subsidiary chapter of NADE in the Great Lakes Region. Articles cover name, relationship/definitions, purpose, membership (all members must be NADE members; chapter dues optional), officers (President, Vice-President, Secretary, Treasurer), executive board, nominations and elections, committees, meetings (annual business meeting in August/September; 15% quorum), parliamentary authority, and amendment procedure.",
+  "path": "data/external/nade/state-bylaws/ohio-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Ohio",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Ohio (OADE) Chapter",
+    "title": "Ohio Association of Disability Examiners Constitution",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Ohio-Const-Bylaws.doc. The text is a clean constitution; the closing amendment line leaves the 'as amended ... on ____' date blank, so no effective date is recorded and temporal_coverage is omitted. Document is titled a Constitution and references a Constitution-and-Bylaws committee; a separate by-laws section is not included in this conversion. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "ohio", "oade", "great-lakes-region", "governance"]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/cbpp/cbpp-ssdi-overview",
+  "title": "Social Security Disability Insurance — CBPP Policy Basics",
+  "description": "Center on Budget and Policy Priorities (CBPP) 'Policy Basics' overview of Social Security Disability Insurance (SSDI), explaining that SSDI provides earned benefits to workers who can no longer support themselves through work due to severe, long-lasting impairments. Covers how SSDI fits within Social Security and is administered by SSA; financing via the SSDI payroll tax and trust fund; the stringent three-part eligibility criteria (insured status, severe medically determinable impairment, inability to do substantial gainful work); the demographic profile of beneficiaries; the role of each state's Disability Determination Services (DDS) in medical/vocational evaluation and the fact that fewer than 1 in 3 applicants are awarded benefits; modest benefit levels and Medicare eligibility; built-in work incentives (trial work period, earnings thresholds); and trends in SSDI enrollment since 2010. Provides authoritative plain-language background useful for contextualizing DDS disability-determination work.",
+  "path": "data/external/cbpp/cbpp-ssdi-overview.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2024", "end": "2024" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "Center on Budget and Policy Priorities (CBPP)",
+    "title": "Social Security Disability Insurance (Policy Basics)",
+    "url": "https://www.cbpp.org/research/social-security/social-security-disability-insurance"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Center on Budget and Policy Priorities (reuse per CBPP terms)",
+  "notes": "Authoritative: published CBPP 'Policy Basics' explainer. This markdown is a normalized conversion of the sibling HTML capture cbpp-ssdi-overview.html — meaningful page content (title, byline, headings, paragraphs, the pull-quote aside, chart captions, footer, and 'More on this topic' links) was extracted and site chrome (nav, cookie banner, search forms, scripts/styles, social-share widgets) was stripped. Canonical URL captured from the page's rel=canonical / og:url. Page byline reads 'Updated August 6, 2024', so temporal_coverage start==end (2024); note a related newer CBPP chart book is dated February 28, 2025 (the separately carded cbpp-ssdi-explainer). Source HTML referenced here, not declared via derived_from (the .html is not a separately carded dataset id). Narrative document — no tabular columns or row_count.",
+  "related": ["external/cbpp/cbpp-ssdi-explainer", "external/cbpp/cbpp-ssi-basics"],
+  "tags": ["external", "cbpp", "ssdi", "social-security", "disability-insurance", "policy-basics", "dds", "eligibility", "html-conversion", "authoritative"]
+}

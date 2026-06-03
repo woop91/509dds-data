@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/ny-west-const-bylaws",
+  "title": "Western New York Association of Disability Examiners (WNYADE) — Constitution & By-Laws",
+  "description": "Full constitution and by-laws of the Western New York Association of Disability Examiners (WNYADE), a NADE chapter in the Northeast Region whose members serve the area covered by the Buffalo Regional Office of the New York State DDS (named counties from Alleghany through Yates plus the town of Waverly). Constitution covers name, purpose, membership, recall, meetings, committees, conference voting procedure, executive board, parliamentary authority, by-laws, and amendments; the by-laws detail executive-board duties, officer duties, standing committees, proxy voting, and amendment procedure.",
+  "path": "data/external/nade/state-bylaws/ny-west-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Western New York (Buffalo DDS region)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Western New York (WNYADE) Chapter",
+    "title": "Western New York Association of Disability Examiners Constitution & By-Laws",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document NY-West-Const-Bylaws.doc. Conversion artifacts are present (OCR-style typos such as 'MEMBERSTHIP', 'AR'I'ICLE', duplicated Article numbering for the Executive Board section, and garbled characters); treat wording as approximate to the original. No ratification/revision date is stated in the text, so temporal_coverage is omitted. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "new-york", "western-new-york", "wnyade", "northeast-region", "governance"]
+}

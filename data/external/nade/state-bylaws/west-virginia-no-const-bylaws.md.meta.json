@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/west-virginia-no-const-bylaws",
+  "title": "West Virginia (NADE Chapter #59) — No Constitution & Bylaws on File (Note)",
+  "description": "A short placeholder note, not a governing document. It records that West Virginia has a designated NADE chapter number (#59) but that, per the NADE National Constitution & Bylaws Chairperson, there are no constitution and bylaws on file (in paper or other form) for this chapter, though the chapter does contain a few members at this time. Signed by Donnie Hayes, NADE National Constitution & Bylaws Chairperson (9/09 to 9/10).",
+  "path": "data/external/nade/state-bylaws/west-virginia-no-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "West Virginia",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — West Virginia Chapter (#59)",
+    "title": "West Virginia (Chapter #59) — note: no Constitution & Bylaws on file",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Structurally unavailable",
+  "update_cadence": "n/a",
+  "temporal_coverage": { "start": "2009-09", "end": "2010-09" },
+  "notes": "Structurally unavailable: despite the filename pattern this file is NOT a constitution/bylaws document — it is a stub note (markitdown-normalized conversion of the sibling source document West-Virginia-No-Const-Bylaws.doc) created during NADE's transition to electronic chapter documents. The NADE National Constitution & Bylaws Chairperson confirms no constitution & bylaws exist on file for the West Virginia chapter (#59), which has a few members at this time, so there is no governing document to card as Authoritative. This is the statewide West Virginia (#59) chapter note; a separate Clarksburg West Virginia (CWVADE) chapter in this directory DOES have by-laws. temporal_coverage reflects the signer's stated chair term (9/09 to 9/10). Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "west-virginia", "chapter-59", "no-bylaws", "stub", "structurally-unavailable"]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/oregon-const-bylaws",
+  "title": "Oregon Association of Disability Employees (OrADE) — Constitution & By-Laws",
+  "description": "Constitution and by-laws of the Oregon Association of Disability Employees (OrADE), an affiliate of NADE (Pacific Region). The constitution covers name, purpose, qualification/classes of members (Full, Retired, Honorary), officers/executive board (President, President-elect, Secretary, Treasurer, Historian), meetings, and amendments; the by-laws detail accomplishment of purpose, quorum, officer duties, executive board, meetings, elections, and parliamentary authority. Marked 'Revised 4/8/2004'.",
+  "path": "data/external/nade/state-bylaws/oregon-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Oregon",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Oregon (OrADE) Chapter",
+    "title": "Oregon Association of Disability Employees Constitution & By-Laws",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "temporal_coverage": { "start": "2004-04-08", "end": "2004-04-08" },
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Oregon-const-Bylaws.doc. Note the chapter names itself the Oregon Association of Disability EMPLOYEES (not 'Examiners') in the document body — title reflects the content, not the filename. Both the constitution and by-laws carry 'Revised 4/8/2004' (8 April 2004), captured as temporal_coverage. Some list numbering/indentation is mangled by the conversion. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "oregon", "orade", "pacific-region", "governance"]
+}

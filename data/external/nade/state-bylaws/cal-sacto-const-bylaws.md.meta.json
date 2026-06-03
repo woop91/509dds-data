@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/cal-sacto-const-bylaws",
+  "title": "Sacramento Association of Disability Examiners (SACADE) — Constitution and By-Laws",
+  "description": "Combined Constitution and By-Laws of the Sacramento Association of Disability Examiners (SACADE), a California chapter of the National Association of Disability Examiners (NADE) covering members in the Sacramento DDS service area (including the Roseville office). The Constitution covers name, purpose, geographic composition, membership, the Executive Board (President/Vice-President/Secretary/Treasurer plus immediate past president and membership director), meetings, amendments, limitations, and adoption. The By-Laws define the disability examiner, full and associate membership classes, general meetings, elections by majority vote, powers of the Executive Board, officer duties, and committees (Membership, Nominations, Elections).",
+  "path": "data/external/nade/state-bylaws/cal-sacto-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "California — Sacramento (Sacramento DDS service area, including Roseville)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Sacramento (California) Chapter",
+    "title": "Constitution and By-Laws of the Sacramento Association of Disability Examiners (SACADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Cal-Sacto-Const-Bylaws.doc' in the same directory; expect conversion artifacts (the body is rendered entirely bold, the heading reads 'CONSTITTION', and the committees article is mislabeled 'Section 8' rather than 'Article 8'). No adoption/revision date is stated in the content, so temporal_coverage is omitted. The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "california", "sacramento", "SACADE", "disability-examiners", "chapter-governance"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/florida-const-bylaws",
+  "title": "Florida Association of Disability Examiners (FADE) — Constitution and By-Laws",
+  "description": "Combined Constitution and By-Laws of the Florida Association of Disability Examiners (FADE), a Southeast Region chapter of the National Association of Disability Examiners (NADE) composed of autonomous subchapters based on Florida Office of Disability Determination service areas. The Constitution (Articles I-XV) covers name, affiliation, purpose, definitions, membership and powers, meetings, officers, the Southeast Regional Committee member, the Board of Directors (statewide officers plus two directors per subchapter), limitations (501(c)(5) tax-exempt status), bylaws, amendments, service-area directors, candidacy rules, and subchapter structure. The By-Laws detail membership, dues, officer duties, executive board, standing committees, voting, amendments, and rules of order.",
+  "path": "data/external/nade/state-bylaws/florida-const-bylaws.md",
+  "format": "md",
+  "temporal_coverage": { "start": "1986", "end": "1986" },
+  "geographic_coverage": "Florida",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Florida Chapter",
+    "title": "Constitution and By-Laws of the Florida Association of Disability Examiners (FADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'FLorida-Const-Bylaws.doc' in the same directory; expect conversion artifacts (stray page-number lines such as bare '2', '3', '4', '5' appear between articles). The Constitution header reads 'Revised March, 1986', so temporal_coverage start/end are set to 1986. The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "florida", "FADE", "disability-examiners", "southeast-region", "subchapters", "chapter-governance"]
+}

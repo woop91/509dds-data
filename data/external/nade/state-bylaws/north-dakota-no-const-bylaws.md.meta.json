@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/north-dakota-no-const-bylaws",
+  "title": "North Dakota Chapter (NADE) — No Constitution or By-Laws on File (Stub Note)",
+  "description": "Not a governing document. This is a short administrative note recorded during NADE's transition to electronic chapter/regional documents, stating that the North Dakota chapter (which has a designated chapter number and a few members) has NO constitution and by-laws on file in any form. Signed by Donnie Hayes, NADE National Constitution & By-Laws Chairperson (term 9/09 to 9/10).",
+  "path": "data/external/nade/state-bylaws/north-dakota-no-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "North Dakota",
+  "temporal_coverage": { "start": "2009", "end": "2010" },
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — North Dakota Chapter",
+    "title": "North Dakota chapter — note confirming no constitution & by-laws on file (NADE National Constitution & By-Laws Chair)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Structurally unavailable",
+  "notes": "Structurally unavailable: the document does NOT contain a chapter constitution or by-laws. Resolution of the '-no-' token: read of the content confirms 'No' means there is NO constitution/by-laws (the body text reads 'there are no constitution & bylaws on file, in paper form or other, for this chapter'), authored by NADE National Constitution & By-Laws Chair Donnie Hayes (9/09–9/10) — this differs from 'louisiana-no-' where 'NO' = New Orleans. This is the markitdown-normalized markdown conversion of the sibling source file 'North-Dakota-No-Const-Bylaws.docx' (in the same directory). The 9/09–9/10 chair term is captured as temporal_coverage. NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "constitution", "state", "north-dakota", "stub", "structurally-unavailable", "no-bylaws-on-file", "disability-examiners"]
+}

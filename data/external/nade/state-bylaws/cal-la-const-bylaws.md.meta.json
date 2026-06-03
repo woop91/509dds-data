@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/cal-la-const-bylaws",
+  "title": "Los Angeles Chapter #65 (NADE) — Constitution and By-Laws",
+  "description": "Combined Constitution and By-Laws of the Los Angeles Chapter (#65) of the National Association of Disability Examiners (NADE), a California chapter. Covers name and affiliation, purpose, membership (NADE membership only, no chapter dues), organization with officers President/President-Elect/Secretary/Treasurer plus the immediate Past President on the Executive Board, monthly meetings on the second Tuesday with proxy/electronic voting, nominations and elections at the January annual business meeting, standing committees (Membership, Communications, Fundraising, Education, Constitution and By-Laws), parliamentary authority, and constitutional amendment by two-thirds vote.",
+  "path": "data/external/nade/state-bylaws/cal-la-const-bylaws.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2005", "end": "2005" },
+  "geographic_coverage": "California — Los Angeles",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Los Angeles (California) Chapter",
+    "title": "Constitution and By-Laws of the Los Angeles Chapter #65 of NADE",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Cal-LA-Const-Bylaws.doc' in the same directory. The document is footer-stamped 'Updated 7/12/05', so temporal_coverage start/end are set to 2005. Conversion/source artifact: Article VII Section 9 of the committees section refers to maintaining the 'OKADE Constitution and By-laws' (an Oklahoma-chapter reference apparently carried over when this LA document was adapted from a template); it does not change that the document otherwise governs the Los Angeles chapter. The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "california", "los-angeles", "chapter-65", "disability-examiners", "chapter-governance"]
+}

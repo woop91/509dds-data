@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/vermont-const-bylaws",
+  "title": "Green Mountain Association of Disability Examiners (Vermont) — Constitution",
+  "description": "Constitution of the Green Mountain Association of Disability Examiners, the Vermont chapter of NADE (Northeast Region). Articles cover name, purpose (advancing the disability adjudicative process and protecting applicants' rights), composition/membership (persons working in Vermont in the Social Security disability program), an Executive Committee (President, Vice President, Secretary, Treasurer, plus appointed Membership Chair and NADE Advocate Reporter) with its powers and officer duties, bimonthly meetings, committees, parliamentary authority, and amendments.",
+  "path": "data/external/nade/state-bylaws/vermont-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Vermont",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Vermont (Green Mountain) Chapter",
+    "title": "Green Mountain Association of Disability Examiners Constitution",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Vermont-Const-Bylaws.doc. The Vermont chapter is named the 'Green Mountain Association of Disability Examiners' in the document body — title reflects the content, not the filename. The captured text is the Constitution (by-laws are referenced as to-be-adopted but not included). No adoption/revision date is stated, so temporal_coverage is omitted. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "vermont", "green-mountain", "northeast-region", "governance"]
+}

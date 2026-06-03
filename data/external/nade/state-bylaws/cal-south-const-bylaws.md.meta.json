@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/cal-south-const-bylaws",
+  "title": "Southern California Association of Disability Examiners (SCADE) — Constitution and By-Laws",
+  "description": "Combined Constitution and By-Laws of the Southern California Association of Disability Examiners (SCADE), a California chapter of the National Association of Disability Examiners (NADE) covering members in the San Diego, Los Angeles East, and Los Angeles West state-agency service areas. The Constitution covers name, purpose, geographic composition, membership, the Executive Board (President/President-elect/Secretary/Treasurer plus the immediate past president, Monthly Update editor, and membership director), meetings, amendments, limitations, and adoption. The By-Laws define the disability examiner, eight categories of full membership plus associate membership, general meetings, elections, Executive Board powers, officer duties, and committees.",
+  "path": "data/external/nade/state-bylaws/cal-south-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "California — Southern California (San Diego, Los Angeles East, Los Angeles West service areas)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Southern California Chapter",
+    "title": "Constitution and By-Laws of the Southern California Association of Disability Examiners (SCADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Cal-South-Const-Bylaws.docx' in the same directory; expect conversion artifacts (body rendered bold; the by-laws heading reads 'SOUTHERN CALIFONIA'). Source-text inconsistency: the Constitution's Article 1 abbreviates the chapter as 'SACADE' while the By-Laws (Article 1) define the abbreviation as 'SCADE'; the canonical chapter acronym throughout the By-Laws is SCADE, used here. No adoption/revision date is stated (the document references a June 30, 1977 grandfather clause for legacy full members but states no overall adoption date), so temporal_coverage is omitted. The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "california", "southern-california", "SCADE", "disability-examiners", "chapter-governance"]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/virgin-island-no-const-bylaws",
+  "title": "Virgin Islands (NADE Chapter #63) — No Constitution & Bylaws on File (Note)",
+  "description": "A short placeholder note, not a governing document. It records that the Virgin Islands has a designated NADE chapter number (#63) but that, per the NADE National Constitution & Bylaws Chairperson, there are no constitution and bylaws on file (in paper or other form) for this chapter, and that the chapter contains no members at this time. Signed by Donnie Hayes, NADE National Constitution & Bylaws Chairperson (9/09 to 9/10).",
+  "path": "data/external/nade/state-bylaws/virgin-island-no-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "U.S. Virgin Islands",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Virgin Islands Chapter (#63)",
+    "title": "Virgin Islands (Chapter #63) — note: no Constitution & Bylaws on file",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Structurally unavailable",
+  "update_cadence": "n/a",
+  "temporal_coverage": { "start": "2009-09", "end": "2010-09" },
+  "notes": "Structurally unavailable: despite the filename pattern this file is NOT a constitution/bylaws document — it is a stub note (markitdown-normalized conversion of the sibling source document Virgin-Island-No-Const-Bylaws.doc) created during NADE's transition to electronic chapter documents. The NADE National Constitution & Bylaws Chairperson confirms no constitution & bylaws exist on file for the Virgin Islands chapter (#63), which has no members at this time, so there is no governing document to card as Authoritative. temporal_coverage reflects the signer's stated chair term (9/09 to 9/10). Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "virgin-islands", "chapter-63", "no-bylaws", "stub", "structurally-unavailable"]
+}

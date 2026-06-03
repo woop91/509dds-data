@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/cal-stock-const-bylaws",
+  "title": "Stockton Chapter #71 (NADE) — Constitution and By-Laws",
+  "description": "Combined Constitution and By-Laws of the Stockton Chapter (#71) of the National Association of Disability Examiners (NADE), a California chapter. Covers name and affiliation, purposes, membership (NADE membership only, no chapter dues), organization with officers President/Vice-President/Secretary/Treasurer plus the immediate Past President on the Executive Board, bi-monthly general membership meetings on the second Tuesday with proxy/electronic voting, nominations and elections at the January annual business meeting, standing committees (Membership and Fundraising, Communications, Education, Constitution and By-Laws), parliamentary authority, and constitutional amendment by two-thirds vote.",
+  "path": "data/external/nade/state-bylaws/cal-stock-const-bylaws.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2010", "end": "2010" },
+  "geographic_coverage": "California — Stockton",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Stockton (California) Chapter",
+    "title": "Constitution and By-Laws of the Stockton Chapter #71 of NADE",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Cal-Stock-Const-Bylaws.doc' in the same directory. The document is footer-stamped 'Drafted 1/22/2010', so temporal_coverage start/end are set to 2010. Conversion artifact: the very first line of the .md contains stray injected text 'Be Active Challenge [beactivechallenge@ncsports.org]' immediately before the real title — a spurious header/clipboard artifact from the markitdown conversion, not part of the governing document. The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "california", "stockton", "chapter-71", "disability-examiners", "chapter-governance"]
+}

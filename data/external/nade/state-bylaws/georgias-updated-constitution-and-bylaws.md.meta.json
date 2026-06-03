@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/georgias-updated-constitution-and-bylaws",
+  "title": "Georgia Association of Disability Examiners (GADE) — Constitution and Bylaws",
+  "description": "Combined Constitution and Bylaws of the Georgia Association of Disability Examiners (GADE), a Southeastern Region chapter of the National Association of Disability Examiners (NADE), amended October 2000. The Constitution (Articles I-XIV) covers name, definitions, affiliation, mission statement, membership and privileges, the Delegate Assembly, the Regional Executive Board, the Board of Directors (seven members), officers (President/President-Elect serving as Vice President in year one/Secretary/Treasurer), finances, dues, meetings, bylaws, and amendments. The Bylaws detail membership classes, the Delegate Assembly, regional representation, board powers, officer duties, standing committees, a 20%-of-DAS-employee meeting quorum, August elections, amendments, and parliamentary authority.",
+  "path": "data/external/nade/state-bylaws/georgias-updated-constitution-and-bylaws.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2000", "end": "2000" },
+  "geographic_coverage": "Georgia",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Georgia Chapter",
+    "title": "Constitution and Bylaws of the Georgia Association of Disability Examiners (GADE), Amended October 2000",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Georgias-updated-constitution-and-bylaws.doc' in the same directory; expect conversion artifacts (irregular Markdown heading levels carried from the original Word heading styles). The document is captioned 'AMENDED OCTOBER , 2000', so temporal_coverage start/end are set to 2000. The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "georgia", "GADE", "disability-examiners", "southeastern-region", "chapter-governance"]
+}

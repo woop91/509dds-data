@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/kentuck-frankfort-const-bylaws",
+  "title": "Kentucky Association of Disability Examiners (KADE), Frankfort — Constitution",
+  "description": "Constitution of the Kentucky Association of Disability Examiners (KADE), the Frankfort-area Kentucky chapter of the National Association of Disability Examiners (NADE) within the Southeast Region. Articles I-XIII cover name, relationships, definitions, purposes, membership (with geographic boundaries defined relative to I-65 to Elizabethtown, the Western Kentucky Parkway, and the Purchase Parkway; optional chapter dues), meetings (annual spring/summer business meeting before July 31), election and nominations, officers (President-elect/Secretary/Treasurer/Southeast Regional Board Member plus two at-large board members; terms begin August 1), the Board of Directors, the Regional Executive Committee member, standing committees (Constitution and Resolution, Nomination, Membership, Program), an Awards Board, parliamentary authority, and constitutional amendment by two-thirds vote.",
+  "path": "data/external/nade/state-bylaws/kentuck-frankfort-const-bylaws.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2001", "end": "2001" },
+  "geographic_coverage": "Kentucky — Frankfort (member workstations east of I-65 to Elizabethtown, Western Kentucky Parkway, and Purchase Parkway)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Kentucky (Frankfort) Chapter",
+    "title": "Constitution of the Kentucky Association of Disability Examiners (KADE) — Frankfort",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Kentuck-Frankfort-Const-Bylaws.doc' in the same directory; expect minor conversion artifacts (two articles are both numbered 'ARTICLE XIII' in the source, and 'PARLIMENTARY' is misspelled). The document closes 'Revised 3/01', so temporal_coverage start/end are set to 2001. This is the Frankfort Kentucky chapter; a sibling 'kentuck-louisville-const-bylaws.md' (Louisville) exists in the same directory but is out of scope for this card set. Despite the source filename, the content present is the Constitution (no separately titled By-Laws section). The source URL is the NADE organization site, not a deep link.",
+  "tags": ["nade", "bylaws", "constitution", "kentucky", "frankfort", "KADE", "disability-examiners", "southeast-region", "chapter-governance"]
+}

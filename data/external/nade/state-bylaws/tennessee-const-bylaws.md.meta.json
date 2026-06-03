@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/tennessee-const-bylaws",
+  "title": "Tennessee Association of Disability Examiners, Inc. (TADE) — Constitution & By-Laws",
+  "description": "Constitution and by-laws of the Tennessee Association of Disability Examiners, Inc. (TADE), a NADE state chapter in the Southeast Region. The constitution covers name, relationships, definitions, purposes, membership (July 1 to June 30 membership year), meetings (monthly business meetings), elections and nominations, officers (President, President-Elect, Secretary, Treasurer, Parliamentarian, and an even-year-elected Regional Board Member), board of directors, committees, parliamentary authority, by-laws, and amendments; the by-laws restate membership, administration, board of directors, committees, and amendment procedure. Ratified by the membership 26 July 2007.",
+  "path": "data/external/nade/state-bylaws/tennessee-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Tennessee",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Tennessee (TADE) Chapter",
+    "title": "Tennessee Association of Disability Examiners, Inc. Constitution & By-Laws",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "temporal_coverage": { "start": "2007-07-26", "end": "2007-07-26" },
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Tennessee-Const-Bylaws.docx. The document ends 'Ratified by the Membership: 7-26-2007' (26 July 2007), captured as temporal_coverage. TADE is an incorporated chapter ('Inc.') with a TADE Corporate Officer role and state annual-report filings. Minor heading typos from the conversion ('ARTICE', 'MICELLANEOUS'). Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "tennessee", "tade", "southeast-region", "governance"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/louisiana-shr-const-bylaws",
+  "title": "Louisiana Association of Disability Examiners — Shreveport (LADE-Shreveport) — Constitution and By-Laws",
+  "description": "Governing constitution and by-laws of the Louisiana Association of Disability Examiners – Shreveport (LADE-Shreveport), a chapter of the National Association of Disability Examiners (NADE) in the Southwest Region. Covers chapter name, NADE relationship, definitions, purpose, membership (association members employed by a public or private agency in Louisiana), meetings, elections, officers, Board of Directors, committees, parliamentary authority, amendments, and the Convention of Delegates. Signed by President Shawn Riddle and Secretary Phyllis Lockwood; revised 1991.",
+  "path": "data/external/nade/state-bylaws/louisiana-shr-const-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Shreveport, Louisiana (statewide membership eligibility)",
+  "temporal_coverage": { "start": "1991", "end": "1991" },
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Louisiana / Shreveport (LADE-Shreveport) Chapter",
+    "title": "Constitution and By-Laws of the Louisiana Association of Disability Examiners – Shreveport (LADE)",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'louisiana-Shr-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived. 'SHR' = Shreveport, one of three Louisiana NADE chapters (B-R=Baton Rouge, NO=New Orleans, SHR=Shreveport). The document text states it was revised and adopted by the LADE-Shreveport Board with a 'Revised 1991' date, captured in temporal_coverage. NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "constitution", "state", "louisiana", "shreveport", "lade", "southwest-region", "disability-examiners", "chapter-governance"]
+}

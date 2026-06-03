@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/mississippi-bylaws",
+  "title": "Mississippi Association of Disability Examiners (MADE) — By-Laws",
+  "description": "Governing by-laws of the Mississippi Association of Disability Examiners (MADE), a chapter of the National Association of Disability Examiners (NADE) in the Southeast Region; revised June 14, 2002. Covers definitions, elections (Southeast Region Board Member, vacated offices), additional permanent committees (Fund-Raising, Social, Hospitality, Legislative, Scrapbook) supplementing the standing committees named in the chapter's separate Constitution, financial guidelines, the chapter's five annual awards and their criteria (including the John Cook and Henry Klar awards), the delegate drawing system for national/regional training conferences, and amendments.",
+  "path": "data/external/nade/state-bylaws/mississippi-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "Mississippi",
+  "temporal_coverage": { "start": "2002", "end": "2002" },
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Mississippi Chapter (MADE)",
+    "title": "By-Laws of the Mississippi Association of Disability Examiners (MADE), revised June 14, 2002",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'Mississippi-Bylaws.doc' (in the same directory); markdown formatting was machine-derived and the source contains OCR-style artifacts (e.g. 'Fund-Rasing', 'staffat') preserved as-converted. This file is the By-Laws only (titled 'BYLAWS ... REVISED JUNE 14, 2002', captured as temporal_coverage); it explicitly references a separate MADE Constitution that is not part of this document, which is why the filename is 'mississippi-bylaws' (not 'const-bylaws'). NADE url is the organization site, not a deep link to this document.",
+  "tags": ["nade", "bylaws", "state", "mississippi", "made", "southeast-region", "disability-examiners", "chapter-governance"]
+}

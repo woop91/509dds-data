@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/state-bylaws/w-virginia-clarksburg-const-bylavs",
+  "title": "Clarksburg West Virginia Association of Disability Examiners (CWVADE) — By-Laws",
+  "description": "By-laws of the Clarksburg West Virginia Association of Disability Examiners (CWVADE), a NADE chapter for members working or residing in West Virginia. Articles cover name, affiliation, definitions, purpose, membership, finances (no dues beyond NADE; fiscal/membership years coincide with NADE), executive board (officers, immediate past president, regional board representative), officers (President, Vice-President, Secretary-Treasurer; one-year terms with one re-election), annual meetings governed by Robert's Rules, standing committees (Membership, Program, Nominations) and ad hoc committees, and the amendment procedure.",
+  "path": "data/external/nade/state-bylaws/w-virginia-clarksburg-const-bylavs.md",
+  "format": "md",
+  "geographic_coverage": "Clarksburg, West Virginia",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE) — Clarksburg West Virginia (CWVADE) Chapter",
+    "title": "Clarksburg West Virginia Association of Disability Examiners By-Laws",
+    "url": "https://www.nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws are revised",
+  "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document W.-Virginia-Clarksburg-Const-Bylavs.doc. The source filename contains a typo ('Bylavs' instead of 'Bylaws'); the real filename has been preserved exactly in this sidecar's name, id, and path (NOT corrected). The captured document is titled 'By Laws' and contains constitution-style articles (name, affiliation, purpose, membership, governance); no separate constitution section is present. No adoption/revision date is stated, so temporal_coverage is omitted. Distinct from the West Virginia (#59) no-bylaws note in this same directory. Related to the NADE regional constitutions/bylaws link index.",
+  "related": ["external/nade/members/regional-constitutions-bylaws"],
+  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "west-virginia", "clarksburg", "cwvade", "governance"]
+}

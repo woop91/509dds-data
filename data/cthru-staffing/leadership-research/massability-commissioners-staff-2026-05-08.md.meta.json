@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "cthru-staffing/leadership-research/massability-commissioners-staff-2026-05-08",
+  "title": "Commissioners & Staff — Permanent Commission on the Status of Persons with Disabilities (mass.gov capture, 2026-05-08)",
+  "description": "Captured text of the mass.gov 'Commissioners & Staff' page at /info-details/commissioners-staff-0, scraped 2026-05-08. Despite the filename, the page belongs to the Permanent Commission on the Status of Persons with Disabilities — a separate independent state agency of 23 volunteer commissioners — NOT MassAbility / the Massachusetts Rehabilitation Commission that operates DDS-Det. Its only relevance to DDS-Det leadership history is one biographical line confirming that Charlie (Charles) Carr 'was the commissioner of the Massachusetts Rehabilitation Commission until 2015,' corroborating the Carr entry in the synthesized leadership timeline. Retained as supporting evidence for the MRC Commissioner chain.",
+  "path": "data/cthru-staffing/leadership-research/massability-commissioners-staff-2026-05-08.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2026-05-08", "end": "2026-05-08" },
+  "geographic_coverage": "Massachusetts",
+  "source": {
+    "publisher": "Commonwealth of Massachusetts — Permanent Commission on the Status of Persons with Disabilities",
+    "title": "Commissioners & Staff",
+    "url": "https://www.mass.gov/info-details/commissioners-staff-0",
+    "retrieved_at": "2026-05-08"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative as a faithful firecrawl capture of a real, official mass.gov page (a snapshot, hence temporal_coverage = capture date 2026-05-08). IMPORTANT content/filename mismatch: the filename implies a MassAbility/MRC commissioner-staff roster, but the captured page is actually the Permanent Commission on the Status of Persons with Disabilities — a different body. It does NOT enumerate MRC/DDS-Det staff; its only DDS-Det-relevant datum is a single biographical sentence on Charlie Carr's tenure as MRC Commissioner through 2015. The parent aja-james-leadership-timeline.md flags this same caveat in its 'Captures in this folder' table. Boilerplate mass.gov header/footer chrome carried into the capture is not substantive. No columns/row_count — narrative markdown.",
+  "related": [
+    "cthru-staffing/leadership-research/aja-james-leadership-timeline"
+  ],
+  "tags": ["cthru-staffing", "leadership-research", "mass-gov", "permanent-commission-status-persons-disabilities", "charles-carr", "mrc", "snapshot", "2026", "filename-mismatch", "authoritative", "primary-source"]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "oversight/gao/gao-22-103815",
+  "title": "GAO-22-103815: SSA — Disability Medical Consultants Properly Screened and Trained (2021)",
+  "description": "Captured gao.gov product page for GAO-22-103815 (published and publicly released Nov 09, 2021): Fast Facts, Highlights (Why This Matters, Key Takeaways, How GAO Did This Study) and the two Recommendations for Executive Action with statuses. Found SSA cannot be sure DDS medical consultants are qualified/trained: of 52 surveyed agencies, 14 did not consistently perform required SAM/exclusion checks and 9 did not provide some required initial or refresher training; GAO's analysis of SSA quality data found no conclusive link between per-claim consultant pay (used by 19 agencies) and decision quality. Both recommendations (ensure DDS SAM checks; ensure compliance with consultant training policy) are Closed – Implemented. Relevant to 509 DDS consultant screening, training, and quality oversight.",
+  "path": "data/oversight/gao/gao-22-103815.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2021", "end": "2021" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "Social Security Administration: Actions Needed by SSA to Ensure Disability Medical Consultants Are Properly Screened and Trained (GAO-22-103815)",
+    "url": "https://www.gao.gov/products/gao-22-103815"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Authoritative: captured gao.gov product page for a published GAO report (GAO-22-103815; published and publicly released Nov 09, 2021), containing GAO's own Fast Facts, Highlights, and recommendation text (both Closed – Implemented). temporal_coverage uses publication year (2021). Capture retains gao.gov site chrome. Base record of the gao-22-103815 family (full text in -full; our condensation in -summary). A sibling raw capture data/oversight/gao/gao-22-103815-source.txt (a 5-line fetch-provenance note) was intentionally NOT carded; it is referenced here in notes rather than via derived_from to avoid a dangling id. Narrative recommendation table, no declared column schema.",
+  "related": ["oversight/gao/gao-22-103815-full", "oversight/gao/gao-22-103815-summary"],
+  "tags": ["oversight", "gao", "ssa", "dds", "medical-consultants", "screening", "sam-check", "training", "consultant-pay", "claims-processing", "authoritative"]
+}

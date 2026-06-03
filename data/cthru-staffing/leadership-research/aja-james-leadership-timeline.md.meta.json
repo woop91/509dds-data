@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "cthru-staffing/leadership-research/aja-james-leadership-timeline",
+  "title": "Aja James — DDS-Det Leadership Timeline (synthesized)",
+  "description": "Our synthesized career timeline for Aja James (current Assistant Commissioner, Disability Determination Services at MA MRC/MassAbility) and the surrounding DDS-Det leadership chain, CY2010–2023. Consolidates a CTHRU manager-tier payroll pull (rxhc-k6iz / rxhc) with mass.gov press releases, the MRC FY2012 annual report, and the 2018 state audit to reconstruct year-by-year incumbents for Asst Commissioner DDS, MRC Commissioner, Deputy Commissioner, QA Director, Fiscal Director, and Regional Directors. Establishes James's promotion path (VDE → Regional Director Boston 2016 → Director of Statewide Support 2020 → Asst Commissioner DDS 2021-03-07), the SEIU-509→Managers(M99) bargaining-unit flip in 2015, and the prior Asst-Commissioner incumbents (Barbara Kinney, then Patricia Roda). Primary background for DDS-Det leadership/staffing history and records-request planning (federal SSA vs state PRR systems).",
+  "path": "data/cthru-staffing/leadership-research/aja-james-leadership-timeline.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2010", "end": "2023" },
+  "geographic_coverage": "Massachusetts",
+  "source": {
+    "publisher": "509dds-data project (synthesized from CTHRU payroll + mass.gov / Office of the State Auditor primary sources)",
+    "title": "Aja James — DDS-Det Leadership Timeline",
+    "url": "https://cthru.data.socrata.com/",
+    "retrieved_at": "2026-05-08"
+  },
+  "confidence_tier": "Computed",
+  "notes": "Computed: this is our own synthesis/reconstruction, not a single primary document. It cross-references a CTHRU manager-tier payroll pull (raw rows in data/pay-scales/_raw_cthru_*.json) with the cited primary captures in this folder. Caveats stated in-document: 2022/2023 actual_paid figures are partial (latest 2023 CTHRU snapshot is only ~2 weeks of pay; annual_rate remains reliable); the Patricia Roda → Aja James Asst-Commissioner transition had no public press release and was inferred from CTHRU; Adelaide Osborne (interim MRC Commissioner 2015–2017) surfaced only via CTHRU; Training/Hearings Director chains are incomplete. temporal_coverage uses calendar years (CTHRU coverage stops at CY2023). 'url' is the canonical CTHRU portal (no stable deep link for the specific pull); raw CTHRU JSON lives under data/pay-scales/. No tabular columns/row_count — this is a narrative markdown document.",
+  "related": [
+    "cthru-staffing/leadership-research/aja-james-mass-gov-press-release-2021-02-25",
+    "cthru-staffing/leadership-research/mrc-annual-report-2012",
+    "cthru-staffing/leadership-research/state-audit-2018-0054-3s-mrc",
+    "cthru-staffing/leadership-research/massability-commissioners-staff-2026-05-08"
+  ],
+  "tags": ["cthru-staffing", "leadership-research", "dds-det", "disability-determination-services", "mrc", "massability", "aja-james", "leadership-timeline", "incumbents", "org-chart", "cthru", "payroll", "synthesis", "computed"]
+}

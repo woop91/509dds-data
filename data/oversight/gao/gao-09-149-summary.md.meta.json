@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "oversight/gao/gao-09-149-summary",
+  "title": "GAO-09-149 (Condensed Summary): Collection of Medical Evidence in DDS",
+  "description": "Short internal condensation of GAO-09-149 ('Social Security Disability: Collection of Medical Evidence'), capturing title, date, source URL, focus area (medical-evidence collection processes in DDS), and key recommendation areas (disability-determination process improvements, state DDS performance oversight, processing-time reductions). A few-line synthesis for quick reference, not GAO's own published Highlights.",
+  "path": "data/oversight/gao/gao-09-149-summary.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2008", "end": "2008" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "Social Security Disability: Collection of Medical Evidence Could Be Improved (GAO-09-149) — condensed summary",
+    "url": "https://www.gao.gov/products/gao-09-149"
+  },
+  "confidence_tier": "Computed",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Computed: this -summary file is OUR own brief condensation (templated 'Report:' card with Focus Area / Key Recommendation Areas), NOT GAO's published Highlights — so it is synthesis, tiered Computed rather than Authoritative. The 'Date: 2009' in the file reflects the fetch/restatement; the report was published Dec 17, 2008 (temporal_coverage uses the publication year, 2008). For authoritative content see the base (oversight/gao/gao-09-149) and full report (oversight/gao/gao-09-149-full). Narrative, no column schema.",
+  "related": ["oversight/gao/gao-09-149", "oversight/gao/gao-09-149-full"],
+  "tags": ["oversight", "gao", "ssa", "dds", "medical-evidence", "summary", "condensation", "claims-processing", "computed"]
+}

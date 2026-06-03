@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "oversight/gao/gao-22-103815-full",
+  "title": "GAO-22-103815 (Full Report): SSA — Disability Medical Consultants Screened and Trained (2021)",
+  "description": "Full text of GAO report GAO-22-103815 (31-page PDF, November 2021), 'Social Security Administration: Actions Needed by SSA to Ensure Disability Medical Consultants Are Properly Screened and Trained', a report to the Subcommittee on Social Security, House Committee on Ways and Means. Provides the complete findings on DDS screening of medical consultants against federal exclusion databases (SAM), gaps in required initial/refresher training, and the analysis of whether per-claim consultant payment affects decision quality; full scope/methodology (survey of disability agencies in 50 states, DC, and Puerto Rico; analysis of SSA quality-assurance data by state), the two recommendations, and SSA comments. Companion full-text representation of the gao-22-103815 base record.",
+  "path": "data/oversight/gao/gao-22-103815-full.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2021", "end": "2021" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "Social Security Administration: Actions Needed by SSA to Ensure Disability Medical Consultants Are Properly Screened and Trained (GAO-22-103815, Full Report)",
+    "url": "https://www.gao.gov/assets/d22103815.pdf"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Authoritative: extracted full text of the published 31-page GAO-22-103815 PDF. Full-report representation in the gao-22-103815 family (base = oversight/gao/gao-22-103815; our condensation = oversight/gao/gao-22-103815-summary). url points to GAO's full-report PDF asset. PDF-to-text extraction may contain layout artifacts. temporal_coverage uses publication year (2021). Narrative document, no declared column schema.",
+  "related": ["oversight/gao/gao-22-103815", "oversight/gao/gao-22-103815-summary"],
+  "tags": ["oversight", "gao", "ssa", "dds", "medical-consultants", "screening", "sam-check", "training", "consultant-pay", "full-report", "authoritative"]
+}

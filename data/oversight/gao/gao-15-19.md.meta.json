@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "oversight/gao/gao-15-19",
+  "title": "GAO-15-19: SSA Disability Benefits — Physician-Assisted Fraud (2014)",
+  "description": "Captured gao.gov product page for GAO-15-19 (published Nov 10, 2014; publicly released Dec 10, 2014): What GAO Found, Why GAO Did This Study, and the five Recommendations for Executive Action with their statuses. Found that SSA is vulnerable to physician-assisted fraud because front-line DDS staff struggle to spot suspicious cross-claim patterns, prompt-processing performance measures disincentivize fraud referrals, anti-fraud training is limited/inconsistent, and SSA had not fully evaluated risk from sanctioned physicians' evidence; new analytics initiatives lacked planning, data, and coordination. Of the five recommendations, four are Closed – Implemented and one (review DDS performance standards / promising practices) is Closed – Not Implemented. Highly relevant to 509 DDS fraud-referral workflow and the processing-time-vs-quality tension.",
+  "path": "data/oversight/gao/gao-15-19.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2014", "end": "2014" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "SSA Disability Benefits: Enhanced Policies and Management Focus Needed to Address Potential Physician-Assisted Fraud (GAO-15-19)",
+    "url": "https://www.gao.gov/products/gao-15-19"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Authoritative: captured gao.gov product page for a published GAO report (GAO-15-19; published Nov 10, 2014, publicly released Dec 10, 2014), containing GAO's own findings and recommendation text. temporal_coverage uses publication year (2014); page lists 5 recommendations (4 Closed – Implemented, 1 Closed – Not Implemented). Capture retains gao.gov site chrome. Base record of the gao-15-19 family (full text in -full); this family has no -summary file. Narrative recommendation table, no declared column schema.",
+  "related": ["oversight/gao/gao-15-19-full"],
+  "tags": ["oversight", "gao", "ssa", "dds", "fraud", "physician-assisted-fraud", "fraud-referral", "anti-fraud-training", "performance-measures", "claims-processing", "authoritative"]
+}

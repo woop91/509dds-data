@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "oversight/oig-other/072309-Multiple-summary",
+  "title": "SSA OIG Audit 072309 (Condensed Summary): DDS Staffing, Productivity, and Processing Times (Multiple States)",
+  "description": "Short internal condensation of SSA Office of the Inspector General audit work referenced as 072309, covering multiple states. Records the topic (staffing, productivity, and processing times) and the key finding that critical staffing and productivity levels at state disability agencies directly affect claim processing times, and that inadequate resources contribute to backlogs. A few-line synthesis for quick reference, not the OIG's own published report text.",
+  "path": "data/oversight/oig-other/072309-Multiple-summary.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2015", "end": "2021" },
+  "geographic_coverage": "United States (multiple states)",
+  "source": {
+    "publisher": "U.S. Social Security Administration, Office of the Inspector General (SSA OIG)",
+    "title": "SSA OIG audit 072309 — DDS staffing, productivity, and processing times (condensed summary)",
+    "url": "https://oig.ssa.gov/"
+  },
+  "confidence_tier": "Computed",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Computed: this is OUR brief condensation (templated 'OIG Audit:' card with Key Finding), NOT the OIG's published report text — synthesis, tiered Computed rather than Authoritative. Underlying SSA OIG audit is a primary oversight document, but only a few-line summary is held here. temporal_coverage uses the stated Period Covered (2015–2021). url is the SSA OIG canonical domain (oig.ssa.gov) because no deep report link is given in the source file; no deep link was invented. State scope is 'Multiple' per the file. Narrative, no column schema.",
+  "tags": ["oversight", "oig", "ssa-oig", "dds", "staffing", "productivity", "processing-times", "backlog", "summary", "condensation", "computed"]
+}

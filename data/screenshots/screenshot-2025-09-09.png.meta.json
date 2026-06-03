@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "screenshots/screenshot-2025-09-09",
+  "title": "SSA Initial Disability Decision Overall Average Wait Times by State (choropleth map screenshot)",
+  "description": "Screenshot of a chart titled 'Overall Average Wait Times By State for SSA Initial Disability Decisions'. It shows a US choropleth map shaded by 'Overall Average Wait Time' on a 90 (green) to 375 (red) color scale, with a per-state wait-time number on each state, plus a side table listing 'State/Territory' and 'Overall Average Wait Time' (in days). The footnote reads 'Average wait times in days; updated as of Friday, May 31, 2024.' Side-table values: NH 224, VT 137, MA 291, CT 172, RI 137, NJ 144, PR 133, DE 234, MD 361, DC 221, HI 240. Selected map values include CA 317, OR 329, NV 239, AZ 213, NM 187, TX 310, AK 333 (lower-left), FL 333, GA 389, AL 298, MS 342, LA 245, NC 370, SC ~228, TN 143, KY 157, WV 225, VA 232, OH 154, MI 184, IL 244, WI 261, MN 260, IA 159, MO 257, AR 186, OK 167, KS 214, NE 253, SD 296, CO 189, UT 202, MT 265, WA 174, ID 182(approx), ND/WY region 167-179, IN 213, PA 197, NY 144, ME 174.",
+  "path": "data/screenshots/screenshot-2025-09-09.png",
+  "format": "png",
+  "geographic_coverage": "United States (50 states, DC, Puerto Rico)",
+  "temporal_coverage": { "start": "2024-05-31", "end": "2024-05-31" },
+  "source": { "publisher": "Social Security Administration (SSA) initial disability decision wait-time data, visualized (publisher/visualization tool not identified in image)", "title": "Overall Average Wait Times By State for SSA Initial Disability Decisions (choropleth map + table)", "url": "https://www.ssa.gov" },
+  "confidence_tier": "Authoritative",
+  "notes": "Transcribed from the image. Side-table (days): NH 224, VT 137, MA 291, CT 172, RI 137, NJ 144, PR 133, DE 234, MD 361, DC 221, HI 240. Map per-state numbers were also re-keyed (see description) and some, especially small/cluttered states, are approximate and should be reconciled against the underlying SSA data (e.g. ssa/ssa-sa-fywl-all-states-2001-2024) before authoritative use. Underlying data is SSA initial-disability-decision wait times 'updated as of Friday, May 31, 2024', so temporal_coverage reflects that as-of date (NOT the 2025-09-09 filename, which is the screenshot capture date). Tier=Authoritative because the underlying figures are SSA-sourced, but this is a re-keyed image capture (transcription risk) and the specific publisher/visualization platform and exact source URL are not visible in the screenshot.",
+  "related": ["ssa/ssa-sa-fywl-all-states-2001-2024", "ssa/oho/hearing-office-wait-time-LATEST", "external/waiting-times/advocacy-sources-LATEST"],
+  "tags": ["screenshot", "ssa", "wait-times", "initial-disability-decisions", "choropleth", "by-state", "2024", "massachusetts", "transcribed-from-image"]
+}

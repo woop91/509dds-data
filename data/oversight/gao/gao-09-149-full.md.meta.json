@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "oversight/gao/gao-09-149-full",
+  "title": "GAO-09-149 (Full Report): Social Security Disability — Collection of Medical Evidence (2008)",
+  "description": "Full text of GAO report GAO-09-149 (64-page PDF, December 2008), 'Social Security Disability: Collection of Medical Evidence Could Be Improved with Evaluations to Identify Promising Collection Practices', a report to the Subcommittee on Social Security, House Committee on Ways and Means. Examines challenges DDSs face collecting medical records from claimants' providers, obtaining high-quality consultative exams, and SSA's transition to electronic evidence collection, with detailed findings, scope/methodology, and SSA agency comments. Companion full-text representation of the gao-09-149 base record.",
+  "path": "data/oversight/gao/gao-09-149-full.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2008", "end": "2008" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "Social Security Disability: Collection of Medical Evidence Could Be Improved with Evaluations to Identify Promising Collection Practices (GAO-09-149, Full Report)",
+    "url": "https://www.gao.gov/assets/gao-09-149.pdf"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Authoritative: extracted full text of the published 64-page GAO-09-149 PDF. This is the full-report representation in the gao-09-149 family (base = oversight/gao/gao-09-149, summary = oversight/gao/gao-09-149-summary). url points to GAO's full-report PDF asset. PDF-to-text extraction may contain layout artifacts (split headings, hyphenation). Single publication year so temporal_coverage start==end (2008). Narrative document, no declared column schema.",
+  "related": ["oversight/gao/gao-09-149", "oversight/gao/gao-09-149-summary"],
+  "tags": ["oversight", "gao", "ssa", "dds", "medical-evidence", "consultative-exams", "electronic-records", "claims-processing", "full-report", "authoritative"]
+}

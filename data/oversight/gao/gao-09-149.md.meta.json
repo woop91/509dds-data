@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "oversight/gao/gao-09-149",
+  "title": "GAO-09-149: Social Security Disability — Collection of Medical Evidence Could Be Improved (2008)",
+  "description": "Captured gao.gov product page for GAO-09-149 (published/released Dec 17, 2008): Highlights and the two Recommendations for Executive Action. GAO evaluated DDS challenges in collecting medical records from claimants' own providers, in obtaining high-quality consultative exams, and SSA's progress moving from paper to electronic medical-evidence collection. Method: surveyed 51 DDS directors, visited 5 state DDSs, reviewed sample case files, interviewed SSA/DDS/association officials. Both recommendations (identify and evaluate promising DDS evidence-collection practices; evaluate low uptake of online submission) are recorded as Closed – Implemented. Directly relevant to 509 DDS medical-evidence workflow and processing timeliness.",
+  "path": "data/oversight/gao/gao-09-149.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2008", "end": "2008" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "Social Security Disability: Collection of Medical Evidence Could Be Improved with Evaluations to Identify Promising Collection Practices (GAO-09-149)",
+    "url": "https://www.gao.gov/products/gao-09-149"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Authoritative: this is a captured gao.gov product page for a published GAO report (GAO-09-149; published and publicly released Dec 17, 2008), containing GAO's own Highlights and Recommendations text. Single publication year so temporal_coverage start==end (2008). Capture retains gao.gov site chrome (nav/footer) around the report content. Base record of the gao-09-149 family; -full is the full PDF text and -summary is our condensation. Recommendation table is narrative, not a declared column schema.",
+  "related": ["oversight/gao/gao-09-149-full", "oversight/gao/gao-09-149-summary"],
+  "tags": ["oversight", "gao", "ssa", "dds", "medical-evidence", "consultative-exams", "electronic-records", "claims-processing", "disability-determination", "authoritative"]
+}

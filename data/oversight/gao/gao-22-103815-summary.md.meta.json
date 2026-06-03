@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "oversight/gao/gao-22-103815-summary",
+  "title": "GAO-22-103815 (Condensed Summary): Disability Medical Consultant Oversight",
+  "description": "Short internal condensation of GAO-22-103815 ('Actions Needed by SSA to Ensure Disability Medical Consultants Are Properly Screened and Trained'), capturing title, date, source URL, focus area (medical-consultant performance and oversight in disability determination), and key recommendation areas (disability-determination process improvements, state DDS performance oversight, processing-time reductions). A few-line synthesis for quick reference, not GAO's own published Highlights.",
+  "path": "data/oversight/gao/gao-22-103815-summary.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2021", "end": "2021" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "Actions Needed by SSA to Ensure Disability Medical Consultants Are Properly Screened and Trained (GAO-22-103815) — condensed summary",
+    "url": "https://www.gao.gov/products/gao-22-103815"
+  },
+  "confidence_tier": "Computed",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Computed: this -summary file is OUR own brief condensation (templated 'Report:' card with Focus Area / Key Recommendation Areas), NOT GAO's published Highlights — so it is synthesis, tiered Computed rather than Authoritative. The file states 'Date: 2022' (the GAO product number prefix), but the report was published/released Nov 09, 2021; temporal_coverage uses the publication year (2021). For authoritative content see the base (oversight/gao/gao-22-103815) and full report (oversight/gao/gao-22-103815-full). A sibling raw capture gao-22-103815-source.txt exists but is intentionally uncarded (provenance only). Narrative, no column schema.",
+  "related": ["oversight/gao/gao-22-103815", "oversight/gao/gao-22-103815-full"],
+  "tags": ["oversight", "gao", "ssa", "dds", "medical-consultants", "oversight", "summary", "condensation", "computed"]
+}

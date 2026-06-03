@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "oversight/gao/gao-15-19-full",
+  "title": "GAO-15-19 (Full Report): SSA Disability Benefits — Physician-Assisted Fraud (2014)",
+  "description": "Full text of GAO report GAO-15-19 (46-page PDF, November 2014), 'SSA Disability Benefits: Enhanced Policies and Management Focus Needed to Address Potential Physician-Assisted Fraud', a report to congressional requesters. Provides the complete findings on SSA/DDS fraud-detection vulnerabilities (staff detection challenges, processing-time disincentives, limited anti-fraud training, sanctioned-physician evidence risk, under-planned analytics initiatives), scope and methodology (visited 5 of 54 DDS offices; analyzed DDS data on federally sanctioned physicians), the full set of five recommendations, and SSA's responses. Companion full-text representation of the gao-15-19 base record.",
+  "path": "data/oversight/gao/gao-15-19-full.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2014", "end": "2014" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "SSA Disability Benefits: Enhanced Policies and Management Focus Needed to Address Potential Physician-Assisted Fraud (GAO-15-19, Full Report)",
+    "url": "https://www.gao.gov/assets/gao-15-19.pdf"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Authoritative: extracted full text of the published 46-page GAO-15-19 PDF. Full-report representation in the gao-15-19 family (base = oversight/gao/gao-15-19; this family has no -summary). url points to GAO's full-report PDF asset. PDF-to-text extraction may contain layout artifacts. temporal_coverage uses publication year (2014). Narrative document, no declared column schema.",
+  "related": ["oversight/gao/gao-15-19"],
+  "tags": ["oversight", "gao", "ssa", "dds", "fraud", "physician-assisted-fraud", "fraud-referral", "anti-fraud-training", "performance-measures", "full-report", "authoritative"]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "oversight/gao/gao-17-625",
+  "title": "GAO-17-625: SSA's Compassionate Allowance Initiative — Expedited Processing (2017)",
+  "description": "Captured gao.gov product page for GAO-17-625 (published Aug 11, 2017; publicly released Sep 06, 2017): What GAO Found, Why GAO Did This Study, and the eight Recommendations for Executive Action with statuses. Found SSA lacked a formal/systematic approach for designating Compassionate Allowance (CAL) conditions (relying on disease advocates and lacking clear selection criteria), that keyword-search software for flagging CAL claims is hindered by claim errors and DDS manual-correction guidance was unclear on timing, and that nearly a third of CAL impairment summaries were 5+ years old while SSA did not leverage data to assess CAL adjudication accuracy/consistency. All eight recommendations are recorded Closed – Implemented. Relevant to 509 DDS expedited-claims processing, examiner guidance, and quality oversight.",
+  "path": "data/oversight/gao/gao-17-625.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2009", "end": "2016" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "SSA's Compassionate Allowance Initiative: Improvements Needed to Make Expedited Processing of Disability Claims More Consistent and Accurate (GAO-17-625)",
+    "url": "https://www.gao.gov/products/gao-17-625"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Authoritative: captured gao.gov product page for a published GAO report (GAO-17-625; published Aug 11, 2017, publicly released Sep 06, 2017), containing GAO's own findings and the eight recommendations (all Closed – Implemented). temporal_coverage reflects the analyzed data years stated in scope (SSA CAL disability decisions fiscal years 2009 through 2016), not the 2017 publication date. Capture retains gao.gov site chrome. Base record of the gao-17-625 family (full text in -full); this family has no -summary file. Narrative recommendation table, no declared column schema.",
+  "related": ["oversight/gao/gao-17-625-full"],
+  "tags": ["oversight", "gao", "ssa", "dds", "compassionate-allowance", "cal", "expedited-processing", "impairment-summaries", "claims-processing", "internal-controls", "authoritative"]
+}

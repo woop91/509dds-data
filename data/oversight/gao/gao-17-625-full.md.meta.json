@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "oversight/gao/gao-17-625-full",
+  "title": "GAO-17-625 (Full Report): SSA's Compassionate Allowance Initiative (2017)",
+  "description": "Full text of GAO report GAO-17-625 (60-page PDF, August 2017), 'SSA's Compassionate Allowance Initiative: Improvements Needed to Make Expedited Processing of Disability Claims More Consistent and Accurate', a report to the Chairman, Subcommittee on Social Security, House Committee on Ways and Means. Provides the complete findings on CAL condition designation, claim-identification software and DDS manual corrections, and the staleness of impairment summaries plus underused adjudication data; full scope/methodology (analysis of FY2009–FY2016 CAL decisions and FY2016 manual actions, 74-file nongeneralizable sample, interviews in six DDS offices), all eight recommendations, and SSA comments. Companion full-text representation of the gao-17-625 base record.",
+  "path": "data/oversight/gao/gao-17-625-full.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2009", "end": "2016" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "SSA's Compassionate Allowance Initiative: Improvements Needed to Make Expedited Processing of Disability Claims More Consistent and Accurate (GAO-17-625, Full Report)",
+    "url": "https://www.gao.gov/assets/gao-17-625.pdf"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Authoritative: extracted full text of the published 60-page GAO-17-625 PDF. Full-report representation in the gao-17-625 family (base = oversight/gao/gao-17-625; this family has no -summary). url points to GAO's full-report PDF asset. PDF-to-text extraction may contain layout artifacts. temporal_coverage reflects analyzed data years (FY2009–FY2016) per the report scope, not the 2017 publication date. Narrative document, no declared column schema.",
+  "related": ["oversight/gao/gao-17-625"],
+  "tags": ["oversight", "gao", "ssa", "dds", "compassionate-allowance", "cal", "expedited-processing", "impairment-summaries", "internal-controls", "full-report", "authoritative"]
+}

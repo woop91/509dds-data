@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "oversight/oig-other/a-15-21-51117-FL-summary",
+  "title": "SSA OIG Audit A-15-21-51117 (Condensed Summary): Florida DDS Operations",
+  "description": "Short internal condensation of SSA Office of the Inspector General audit A-15-21-51117 on Florida DDS operations. Records the topic (DDS operations) and the key finding that state DDS administrative process inefficiencies delayed benefit payments and increased case processing times. A few-line synthesis for quick reference, not the OIG's own published report text.",
+  "path": "data/oversight/oig-other/a-15-21-51117-FL-summary.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2015", "end": "2021" },
+  "geographic_coverage": "Florida",
+  "source": {
+    "publisher": "U.S. Social Security Administration, Office of the Inspector General (SSA OIG)",
+    "title": "SSA OIG audit A-15-21-51117 — Florida DDS operations (condensed summary)",
+    "url": "https://oig.ssa.gov/"
+  },
+  "confidence_tier": "Computed",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Computed: this is OUR brief condensation (templated 'OIG Audit:' card with Key Finding), NOT the OIG's published report text — synthesis, tiered Computed rather than Authoritative. Underlying SSA OIG audit A-15-21-51117 is a primary oversight document, but only a few-line summary is held here. temporal_coverage uses the stated Period Covered (2015–2021). url is the SSA OIG canonical domain (oig.ssa.gov) because no deep report link is given in the source file; no deep link was invented. State scope is Florida (FL) per the file. Narrative, no column schema.",
+  "tags": ["oversight", "oig", "ssa-oig", "dds", "florida", "fl", "dds-operations", "processing-times", "benefit-payments", "summary", "condensation", "computed"]
+}

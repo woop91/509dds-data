@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "cthru-staffing/leadership-research/aja-james-mass-gov-press-release-2021-02-25",
+  "title": "Aja James Named Assistant Commissioner, DDS — mass.gov press release (2021-02-25)",
+  "description": "Captured text of the official Commonwealth of Massachusetts (MassAbility / Massachusetts Rehabilitation Commission) news release dated 2021-02-25 announcing Aja James as Assistant Commissioner, Disability Determination Services, effective 2021-03-07. Primary source establishing James's appointment date, her prior role (Director of Statewide Support Operations), her ~two-decade DDS tenure (joined ~2002 as a vocational disability examiner), her SEIU Local 509 steward / Chapter Board / Joint Executive Board service, Co-Chair of the Black Managers Committee, Suffolk University MPA, and a corroborating quote from MRC Commissioner Toni Wolf. Anchors the top of the DDS-Det Asst-Commissioner incumbent chain.",
+  "path": "data/cthru-staffing/leadership-research/aja-james-mass-gov-press-release-2021-02-25.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2021-02-25", "end": "2021-02-25" },
+  "geographic_coverage": "Massachusetts",
+  "source": {
+    "publisher": "Commonwealth of Massachusetts — MassAbility (Massachusetts Rehabilitation Commission)",
+    "title": "Aja James Named Assistant Commissioner, Disability Determination Services",
+    "url": "https://www.mass.gov/news/aja-james-named-assistant-commissioner-disability-determination-services",
+    "retrieved_at": "2026-05-08"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: a faithful firecrawl capture of the official mass.gov news release (primary government source). temporal_coverage = the publication date (2021-02-25); the announced effective date of the appointment is 2021-03-07 (stated in body). Boilerplate mass.gov header/footer/feedback chrome was carried into the capture and is not substantive. No columns/row_count — narrative markdown.",
+  "related": [
+    "cthru-staffing/leadership-research/aja-james-leadership-timeline"
+  ],
+  "tags": ["cthru-staffing", "leadership-research", "dds-det", "disability-determination-services", "mrc", "massability", "aja-james", "press-release", "mass-gov", "appointment", "2021", "authoritative", "primary-source"]
+}

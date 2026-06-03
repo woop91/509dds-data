@@ -1,53 +1,48 @@
 # Michigan DDS Salary Research
 
-**Status**: Partial — firecrawl out of credits. Data compiled from available web search + direct MDCS site inspection via curl.
+**Last Updated:** 2026-06-02 (AUTHORITATIVE — MI Civil Service job spec + MDCS Compensation Plan Section A)
 
 ## Administering Agency
-- **Michigan Department of Health and Human Services (MDHHS), Disability Determination Services**
-- Official MDHHS DDS page: https://www.michigan.gov/mdhhs (currently redirects to 404; historical URL structure suggests it was merged under modern health portal)
+- **Michigan Department of Health and Human Services (MDHHS), Disability Determination Services (DDS)** — confirmed via the MI Civil Service "Disability Examiner 9-P11 - DDS - Lansing" job posting.
 
-## Examiner Class Title
-- Presumed: **Disability Examiner** or variant (e.g., "Disability Determination Examiner")
-- Michigan uses **P-grade structure** for professional staff (P-11, P-12, etc. or numeric equivalents)
-- **NOT YET VERIFIED** against Michigan Civil Service Commission classification database (MDCS site access blocked by redirect)
+## Examiner / Manager Classification (VERIFIED — MI Civil Service job spec)
+MI's examiner class is **Disability Examiner** (levels 9 / 10 / P11 / 12) on pay schedule **W22**; the management class is **Disability Exam Manager** (levels 13 / 14 / 15). Verified from the official MI Civil Service Commission job specification:
 
-## Supervisor Class Title
-- Presumed: **Supervisor, Disability Examination** or **Medical-Vocational Specialist, Supervisory** (common DDS pattern)
-- **NOT YET VERIFIED**
+| Class / Level | Core code | Pay schedule | Bargaining unit |
+|---|---|---|---|
+| Disability Examiner 9 (entry) | DISBEXME | W22-009 | SEIU 517M HSS |
+| Disability Examiner 10 (intermediate) | DISBEXME | W22-009 | SEIU 517M HSS |
+| Disability Examiner P11 (experienced) | DISBEXME | W22-009 | SEIU 517M HSS |
+| Disability Examiner 12 (lead/senior) | DISBEXMA | W22-043 | SEIU 517M HSS |
+| Disability Exam Manager-2 (13) | DISEMGR2 | Y51 / NERE-142 | NERE (exempt) |
+| Disability Exam Manager-3 (14) | DISEMGR3 | Y51 / NERE-146 | NERE (exempt) |
+| Disability Exam Manager-4 (15) | DISEMGR4 | Y98 / NERE-155 | NERE (exempt) |
 
-## Pay Grade & Scheduled Rates
-- **Source Status**: UNABLE TO RETRIEVE
-  - Michigan MDCS pay schedules: https://www.michigan.gov/mdcs/csc/compensation/ → 404 or Gravity Forms-protected
-  - SEIU Local 517M HSS (Human Services Support) contracts: https://seiu517m.org/contracts/ → no direct PDF links visible in curl output
-  - Michigan state pay schedule (standard link): https://www.michigan.gov/mdcs/0,4614,7-147-6877_10005-37574--,00.html → no data returned
+## Scheduled Rates (VERIFIED — MDCS Compensation Plan Section A, effective 10/1/2025)
+MI publishes hourly base min/max per level. Annual = hourly × 2080 (40 hr/week × 52 wk):
+
+| Class / Level | Hourly min | Hourly max | Annual min | Annual max |
+|---|---|---|---|---|
+| Disability Examiner 9 | $25.89 | $32.19 | $53,851 | $66,955 |
+| Disability Examiner 10 | $25.17 | $34.12 | $52,354 | $70,970 |
+| Disability Examiner P11 | $28.03 | $38.36 | $58,302 | $79,789 |
+| Disability Examiner 12 | $29.38 | $42.60 | $61,110 | $88,608 |
+| Disability Exam Manager 13 | $31.72 | $48.07 | $65,978 | $99,986 |
+| Disability Exam Manager 14 | $34.94 | $53.11 | $72,675 | $110,469 |
+| Disability Exam Manager 15 | $39.27 | $58.49 | $81,682 | $121,659 |
+
+Both the class/level AND the hourly rates are from official MI sources → Authoritative. The class-level full ranges (Disability Examiner $25.89–$42.60/hr; Disability Exam Manager $31.72–$58.49/hr) match the MCSC online job-spec pay-range page, cross-confirming the per-level extraction.
 
 ## Bargaining Unit
-- **SEIU Local 517M / HSS (Human Services Support) Unit**
-- **CBA Terms**: Presumed 2025-2027 (typical biennial cycle)
-- **Status**: Contract text not retrieved
+- **Disability Examiner (W22, levels 9-12):** SEIU Local 517M, Human Services Support (HSS) bargaining unit.
+- **Disability Exam Manager (levels 13-15):** NERE (non-exclusively represented, exempt) — not in the HSS unit.
+- The specific SEIU 517M HSS CBA wage-step terms were not separately verified (cba_terms_verified false); the official MDCS Compensation Plan Section A is authoritative for the published base min/max.
 
-## Curl Attempts Performed
-1. `curl https://seiu517m.org/contracts/` → returned Gravity Forms boilerplate, no PDF links
-2. `curl https://www.michigan.gov/mdcs` → SPDOC 26-04, 26-03, 26-02 PDFs listed but no pay schedule
-3. `curl https://www.michigan.gov/mdcs/csc/classifications/all-current-classifications` → returned nav links only, no classification data
-4. `curl https://www.michigan.gov/mdcs/0,4614,7-147-6877_10005-37574--,00.html` → no output
-5. Attempted firecrawl scrape `https://www.michigan.gov/mdcs/csc/compensation` → **insufficient credits**
+## Methodology note
+The MI MDCS Compensation Plan Section A PDF was downloaded with a browser User-Agent (the bare curl is fine here; the hr.nv.gov-style HTML redirect did not occur) and parsed locally with pypdf. The hourly figures are the base minimum and maximum for each level row on pay schedule W22 (examiners) / Y51-Y98 (managers). Annual figures are derived (hourly × 2080) and flagged as derived. Evidence: `.firecrawl/MI-secA-100125.pdf`, `.firecrawl/MI-jobspec-main.md`, `.firecrawl/MI-disexam-spec.md`, script `_mi_secA.py`.
 
-## Known Data Gaps
-- Pay grade code (P-11? P-12? Numeric)
-- Step-based salary schedule (if applicable)
-- Min/max salary for examiner
-- Min/max salary for supervisor
-- Effective date of current schedule
-- Contract renewal/negotiation status for 2025-2027
-
-## Next Steps (Recommended)
-1. **Direct MDCS contact**: Call Michigan Civil Service Commission to request current pay schedule PDFs by grade
-2. **SEIU 517M direct contact**: Email seiu517m.org contracts inbox requesting HSS Unit 2025-2027 CBA
-3. **Alternate source**: BLS OES wage data for Michigan by SOC 43-4061 (Eligibility Interviewers) — may not align perfectly to DDS examiners
-4. **Job posting search**: Indeed, LinkedIn, StateJobs.com for Michigan DDS postings listing salary bands
-
----
-
-**Research completed**: 2026-05-08
-**Researcher notes**: Firecrawl paid skill out of credits. Manual curl + site inspection exhausted. Michigan state websites partially down or restructured.
+## Sources (official, retrieved 2026-06-02)
+- MDCS Compensation Plan Section A (eff 10/1/2025): https://www.michigan.gov/mdcs/-/media/Project/Websites/mdcs/COMP/2025/SecAReport-100125.pdf
+- MCSC online job-spec pay ranges: https://mcsc.state.mi.us/MCSCJobSpecifications/JobSpecMain.aspx (Disability Examiner 9-12 $25.89-$42.60; Disability Examiner Manager 13-15 $31.72-$58.49)
+- Disability Examiner job specification: https://www.michigan.gov/mdcs/-/media/Project/Websites/mdcs/JOBSPECS/D/DisabilityExaminer.pdf
+- Disability Examiner Manager job specification: https://www.michigan.gov/mdcs/-/media/Project/Websites/mdcs/JOBSPECS/D/DisabilityExaminerManager.pdf

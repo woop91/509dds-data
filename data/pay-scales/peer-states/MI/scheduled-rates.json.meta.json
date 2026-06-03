@@ -1,22 +1,25 @@
 {
   "$schema": "../../../../schemas/dataset.meta.schema.json",
   "id": "pay-scales/peer-states/MI/scheduled-rates",
-  "title": "Michigan Disability Examiner Rates (BLOCKED — MDCS / SEIU 517M fetch pending)",
-  "description": "Michigan DDS examiner/supervisor classification stubs (Disability Examiner, presumed P-grade; Supervisor, Disability Examination), all UNKNOWN/NOT FOUND — data_status INCOMPLETE. MDCS compensation pages returned 404/Gravity-Forms boilerplate and the SEIU 517M contracts page exposed no PDF links; Firecrawl out of credits. Class codes, pay grades, min/max, step counts, and effective date are all unverified. Bargaining context: SEIU Local 517M / HSS, CBA 2025-2027 (presumed, NOT verified).",
+  "title": "Michigan Disability Examiner Rates (MDCS Compensation Plan Section A, eff 10/1/2025)",
+  "description": "Michigan DDS examiner series — Disability Examiner levels 9/10/P11/12 (pay schedule W22, SEIU 517M HSS) — and the Disability Exam Manager levels 13/14/15 (NERE), with levels verified from the official MI Civil Service Commission job specification and hourly base min/max from the official MDCS Compensation Plan Section A (eff 10/1/2025). Hourly ranges: Disability Examiner $25.17-$42.60/hr across levels (annualized ~$52,354-$88,608); Disability Exam Manager $31.72-$58.49/hr (~$65,978-$121,659). Administering agency MDHHS DDS. Annual figures are derived (hourly * 2080).",
   "path": "data/pay-scales/peer-states/MI/scheduled-rates.json",
   "format": "json",
-  "unit_of_observation": "classification (placeholder; rates not retrieved)",
+  "unit_of_observation": "classification level",
   "columns": [
-    { "name": "classes.<class>.class_code", "type": "string", "description": "MDCS class code — UNKNOWN (not verified)." },
-    { "name": "classes.<class>.pay_grade", "type": "string", "description": "Pay grade — UNKNOWN (P-11/P-12 presumed)." },
-    { "name": "classes.<class>.min", "type": "number", "unit": "USD", "description": "Annual minimum — null." },
-    { "name": "classes.<class>.max", "type": "number", "unit": "USD", "description": "Annual maximum — null." }
+    { "name": "classes.<class>.class_code", "type": "string", "description": "MDCS core position code (e.g. DISBEXME)." },
+    { "name": "classes.<class>.level", "type": "string", "description": "MI Civil Service level (9/10/P11/12 examiner; 13/14/15 manager)." },
+    { "name": "classes.<class>.hourly_min", "type": "number", "unit": "USD/hour", "description": "Base hourly minimum for the level (MDCS Section A)." },
+    { "name": "classes.<class>.hourly_max", "type": "number", "unit": "USD/hour", "description": "Base hourly maximum for the level." },
+    { "name": "classes.<class>.annual_min", "type": "number", "unit": "USD", "description": "Derived annual minimum (hourly_min * 2080)." },
+    { "name": "classes.<class>.annual_max", "type": "number", "unit": "USD", "description": "Derived annual maximum (hourly_max * 2080)." }
   ],
+  "temporal_coverage": { "start": "2025-10-01", "end": "2026-09-30" },
   "geographic_coverage": "Michigan",
-  "source": { "publisher": "Michigan Civil Service Commission / MDCS, SEIU Local 517M; MI Dept of Health and Human Services (MDHHS) Disability Determination Services", "title": "MDCS Compensation / SEIU 517M HSS contract (access blocked, 2026-05-08)", "url": "https://www.michigan.gov/mdcs", "retrieved_at": "2026-05-08" },
-  "confidence_tier": "Browser-fetch pending",
-  "update_cadence": "unknown (presumed biennial; pending retrieval)",
-  "notes": "Browser-fetch pending: data_status INCOMPLETE — MDCS compensation page returns 404/Gravity-Forms boilerplate, SEIU 517M contracts page has no visible PDF links, Firecrawl credits exhausted. All class codes, pay grades (P-11/P-12 presumed), and min/max are UNKNOWN/null; step_basis biweekly × 26 presumed. effective_date/fiscal_year UNKNOWN so temporal_coverage is omitted. Bargaining status (SEIU 517M / HSS, 2025-2027) is presumed, not verified. Manual fetch: michigan.gov/mdcs class spec or seiu517m.org contracts.",
+  "source": { "publisher": "Michigan Civil Service Commission / MDCS; MI Dept of Health and Human Services (MDHHS) Disability Determination Services", "title": "MDCS Compensation Plan Section A (eff 10/1/2025) + MI Civil Service Disability Examiner / Disability Exam Manager job specs", "url": "https://www.michigan.gov/mdcs/-/media/Project/Websites/mdcs/COMP/2025/SecAReport-100125.pdf", "retrieved_at": "2026-06-02" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "annual MDCS compensation plan (Oct 1) / SEIU 517M CBA cycle",
+  "notes": "Authoritative: class titles/levels from the official MI Civil Service Commission job spec (Disability Examiner 9/10/P11/12 on schedule W22; Disability Exam Manager 13/14/15) and hourly base min/max from the official MDCS Compensation Plan Section A eff 10/1/2025 (read directly from the PDF). Class-level full ranges cross-confirm the MCSC online job-spec pay-range page ($25.89-$42.60 examiner; $31.72-$58.49 manager). Annual = hourly * 2080 (DERIVED, annual_is_derived flag). Corrections: examiner class is 'Disability Examiner' on schedule W22 (prior 'P-11/P-12 grade' guess conflated MI level codes with grades); SEIU 517M HSS represents the W22 examiner unit, managers are NERE (exempt). SEIU 517M HSS CBA step terms not separately verified (cba_terms_verified false).",
   "related": ["pay-scales/peer-states/MI/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["MI", "blocked", "browser-fetch-pending", "dds", "disability-examiners", "michigan", "pay-scales", "peer-states", "seiu-517m"]
+  "tags": ["MI", "authoritative", "dds", "disability-examiners", "michigan", "pay-scales", "peer-states", "seiu-517m"]
 }

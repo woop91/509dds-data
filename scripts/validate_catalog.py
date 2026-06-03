@@ -44,6 +44,12 @@ def is_dataset_file(p: Path) -> bool:
         return False
     if p.suffix.lower() not in DATASET_EXTS:
         return False
+    # skip raw source/provenance companions (e.g. foo.source.xlsx) — these are
+    # the raw downloads behind a normalized sibling, described via that sibling's
+    # derived_from/notes, and are not carded directly (matches the .source.pdf
+    # convention used elsewhere in the repo).
+    if ".source." in p.name:
+        return False
     # skip internal / raw / build artifacts (underscore-prefixed path part)
     if any(part.startswith("_") for part in p.relative_to(REPO).parts):
         return False

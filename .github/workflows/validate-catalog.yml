@@ -1,0 +1,45 @@
+name: Validate data catalog
+
+# Guards the AI-consumption layer: every dataset has a valid <file>.meta.json
+# data card, and catalog.json + llms.txt are regenerated from all sidecars.
+# Runs on every push and PR. Read-only (no commits).
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'prr-templates/**'
+      - 'schemas/**'
+      - 'catalog.json'
+      - 'llms.txt'
+      - 'scripts/validate_catalog.py'
+      - 'scripts/build_catalog.py'
+      - '.github/workflows/validate-catalog.yml'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install jsonschema (full Draft-07 validation)
+        run: pip install jsonschema
+
+      - name: catalog.json + llms.txt are up to date with sidecars
+        run: python scripts/build_catalog.py --check
+
+      - name: Validate all sidecars + catalog (strict)
+        run: python scripts/validate_catalog.py --strict

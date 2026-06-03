@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+"""search.py — semantic search over the 509dds-data card index.
+
+Usage:
+  python scripts/search.py "examiner burnout evidence"
+  python scripts/search.py -k 5 --json "peer state pay scales"
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+import numpy as np
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import build_embeddings as be  # noqa: E402
+
+
+def search(query, vectors, manifest, embedder=be.embed_query, k=8):
+    q = embedder(query)
+    scores = vectors @ q  # cosine == dot on normalized vectors
+    top = np.argsort(-scores)[:k]
+    hits = []
+    for rank, idx in enumerate(top, start=1):
+        v = manifest["vectors"][int(idx)]
+        hits.append({"rank": rank, "score": float(scores[idx]),
+                     "id": v["id"], "path": v["path"], "title": v["title"]})
+    return hits

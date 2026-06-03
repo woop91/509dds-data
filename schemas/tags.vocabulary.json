@@ -1,0 +1,37 @@
+{
+  "$comment": "Controlled tag vocabulary for 509dds-data. 'aliases' canonicalize duplicate tag variants (frequency-wins, cleaner-form tie-break). 'facets' group canonical tags for faceted retrieval. Card tags stay FLAT; normalize_tags.py applies aliases only and preserves unmapped tags. Regenerate downstream with build_catalog.py + build_embeddings.py.",
+  "aliases": {
+    "ADA": "ada",
+    "chapters": "chapter",
+    "compassionate-allowances": "compassionate-allowance",
+    "constitutions": "constitution",
+    "CSC": "csc",
+    "disability-examiner": "disability-examiners",
+    "DOL": "dol",
+    "EEOC": "eeoc",
+    "filing-deadline": "filing-deadlines",
+    "FLSA": "flsa",
+    "FMLA": "fmla",
+    "mcad": "MCAD",
+    "NLRA": "nlra",
+    "NLRB": "nlrb",
+    "PFML": "pfml",
+    "position-papers": "position-paper",
+    "processing-times": "processing-time",
+    "public-records": "public-record",
+    "region": "regions",
+    "SCADE": "scade",
+    "seiu-509": "seiu509",
+    "states": "state",
+    "wait-times": "wait-time",
+    "weingarten": "Weingarten"
+  },
+  "facets": {
+    "agency": ["ssa", "dds", "mrc", "massability", "nade", "eeoc", "MCAD", "nlrb", "ssa-oig", "gao", "dol"],
+    "geo": ["massachusetts", "national", "peer-states", "northeast-region", "southeast-region", "pacific-region", "southwest-region", "mid-atlantic-region", "great-lakes-region", "by-state", "state", "california", "washington"],
+    "topic": ["pay-scales", "salary", "processing-time", "backlog", "wait-time", "staffing", "governance", "chapter-governance", "oversight", "disability-determination", "claims-processing", "reasonable-accommodation", "collective-bargaining", "labor-rights", "discrimination", "workload", "hearings", "allowance-rate", "payroll", "civil-service", "vocational-rehabilitation", "training", "advocacy"],
+    "doc-type": ["bylaws", "constitution", "cba", "research-notes", "annual-report", "salary-chart", "position-paper", "public-record", "summary", "index", "stub", "leadership-research", "contacts"],
+    "tier": ["authoritative", "computed", "browser-fetch-pending", "structurally-unavailable", "estimate", "blocked"],
+    "entity": ["seiu509", "afscme", "vde", "dds-det", "unit-8", "union", "members", "disability-examiners", "public-sector", "MA-public-sector", "state-employees"]
+  }
+}

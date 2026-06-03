@@ -29,6 +29,10 @@ SAMPLE_CAP = 5
 
 
 def _num(v):
+    if isinstance(v, str):
+        v = v.strip()
+        if v.endswith("%"):
+            v = v[:-1].strip()
     try:
         f = float(v)
         return int(f) if f.is_integer() else f

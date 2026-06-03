@@ -12,6 +12,13 @@ def test_numeric_column_stats():
     assert s["sample_values"] == [2010, 2015, 2023]  # numeric samples, sorted, <=5, non-numeric dropped from samples
 
 
+def test_percent_column_strips_trailing_percent():
+    s = column_stats(["98.10%", "97.5%", "99%", ""], "percent")
+    assert s["min"] == 97.5
+    assert s["max"] == 99
+    assert s["distinct_count"] == 3
+
+
 def test_string_column_stats_caps_samples():
     s = column_stats(["a", "b", "c", "d", "e", "f", "a"], "string")
     assert s["distinct_count"] == 6

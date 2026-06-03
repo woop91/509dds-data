@@ -57,12 +57,23 @@ def column_stats(values, declared_type: str) -> dict:
     return stats
 
 
+def _csv_data_lines(text: str) -> list[str]:
+    """Drop leading #-comment preamble lines (some repo CSVs carry a comment
+    block before the real header); the first non-comment line is the header."""
+    lines = text.splitlines(keepends=True)
+    i = 0
+    while i < len(lines) and lines[i].lstrip().startswith(("#", '"#')):
+        i += 1
+    return lines[i:]
+
+
 def stats_from_csv(path: Path, columns):
     try:
-        with path.open(encoding="utf-8", newline="") as fh:
-            rows = list(csvmod.DictReader(fh))
+        # utf-8-sig strips a leading BOM so the first column name is not mangled.
+        text = path.read_text(encoding="utf-8-sig")
     except (OSError, UnicodeDecodeError):
         return None
+    rows = list(csvmod.DictReader(_csv_data_lines(text)))
     by_col = {c["name"]: column_stats([r.get(c["name"], "") for r in rows], c.get("type", "string"))
               for c in columns if c.get("name")}
     return by_col, len(rows)

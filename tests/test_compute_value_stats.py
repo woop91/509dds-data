@@ -32,6 +32,28 @@ def test_stats_from_csv(tmp_path):
     assert stats["state"]["distinct_count"] == 2
 
 
+def test_stats_from_csv_skips_comment_preamble(tmp_path):
+    # Real repo CSVs (mgr/vde salary) carry leading #-comment lines before the header.
+    p = tmp_path / "d.csv"
+    p.write_text("# note line one\n\"# note line two\"\nyear,state\n2010,MA\n2011,CA\n", encoding="utf-8")
+    cols = [{"name": "year", "type": "integer"}, {"name": "state", "type": "string"}]
+    stats, n = stats_from_csv(p, cols)
+    assert n == 2  # comment lines are NOT counted as data rows
+    assert stats["year"]["min"] == 2010 and stats["year"]["max"] == 2011
+    assert stats["state"]["distinct_count"] == 2  # column names align with the real header
+
+
+def test_stats_from_csv_strips_utf8_bom(tmp_path):
+    # Real repo CSV (ada-coordinator) has a UTF-8 BOM; first column must still align.
+    p = tmp_path / "d.csv"
+    p.write_bytes("year,state\n2010,MA\n2011,CA\n".encode("utf-8-sig"))
+    cols = [{"name": "year", "type": "integer"}, {"name": "state", "type": "string"}]
+    stats, n = stats_from_csv(p, cols)
+    assert n == 2
+    assert stats["year"]["min"] == 2010  # first column name not mangled by BOM
+    assert stats["year"]["distinct_count"] == 2
+
+
 def test_stats_from_json_flat_records(tmp_path):
     p = tmp_path / "d.json"
     p.write_text('[{"year":2010,"v":1},{"year":2011,"v":2}]', encoding="utf-8")

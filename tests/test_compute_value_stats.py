@@ -69,3 +69,22 @@ def test_update_card_text_replaces_only_columns_and_rowcount():
     assert '{ "name": "a", "type": "integer", "min": 1, "max": 9 }' in new
     assert '"tags": ["t"]' in new  # untouched
     assert '"id": "x"' in new
+
+
+import json as _json
+from compute_value_stats import run  # noqa: E402
+
+
+def test_run_writes_csv_card_and_skips_nontabular(tmp_path):
+    (tmp_path / "data").mkdir()
+    (tmp_path / "data" / "d.csv").write_text("year\n2010\n2011\n", encoding="utf-8")
+    (tmp_path / "data" / "d.csv.meta.json").write_text(
+        '{\n  "id": "d",\n  "path": "data/d.csv",\n  "format": "csv",\n'
+        '  "columns": [\n    { "name": "year", "type": "integer" }\n  ]\n}\n', encoding="utf-8")
+    res = run(tmp_path, write=True)
+    assert "data/d.csv.meta.json" in res["changed"]
+    card = _json.loads((tmp_path / "data" / "d.csv.meta.json").read_text(encoding="utf-8"))
+    assert card["row_count"] == 2
+    assert card["columns"][0]["max"] == 2011
+    # idempotent
+    assert run(tmp_path, write=False)["changed"] == []

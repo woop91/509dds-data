@@ -117,3 +117,46 @@ def update_card_text(text: str, new_columns, row_count) -> str:
             # insert row_count immediately before the columns block
             new_text = new_text.replace('  "columns": [', f'  "row_count": {row_count},\n  "columns": [', 1)
     return new_text
+
+
+def run(repo: Path, write: bool) -> dict:
+    changed, skipped = [], []
+    for rel_meta, card in load_cards(repo):
+        if card.get("format") not in ("csv", "json") or not card.get("columns"):
+            continue
+        data_path = repo / card["path"]
+        if card["format"] == "csv":
+            result = stats_from_csv(data_path, card["columns"])
+        else:
+            result = stats_from_json(data_path, card["columns"])
+        if result is None:
+            skipped.append((card.get("id"), f"non-tabular or unreadable {card['format']}"))
+            continue
+        col_stats, row_count = result
+        new_columns = merge_columns(card["columns"], col_stats)
+        if new_columns == card["columns"] and card.get("row_count") == row_count:
+            continue
+        changed.append(rel_meta)
+        if write:
+            path = repo / rel_meta
+            path.write_text(update_card_text(path.read_text(encoding="utf-8"), new_columns, row_count),
+                            encoding="utf-8")
+    return {"changed": changed, "skipped": skipped}
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--check", action="store_true")
+    args = ap.parse_args()
+    res = run(REPO, write=not args.check)
+    if args.check:
+        if res["changed"]:
+            print(f"OUT OF DATE: {len(res['changed'])} tabular cards missing/stale value-stats — run scripts/compute_value_stats.py")
+            sys.exit(1)
+        print(f"value-stats current ({len(res['skipped'])} non-tabular cards skipped)")
+        return
+    print(f"wrote value-stats into {len(res['changed'])} cards; skipped {len(res['skipped'])} non-tabular")
+
+
+if __name__ == "__main__":
+    main()

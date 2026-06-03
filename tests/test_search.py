@@ -29,3 +29,16 @@ def test_search_ranks_by_cosine():
     assert hits[0]["rank"] == 1
     assert abs(hits[0]["score"] - 1.0) < 1e-5
     assert len(hits) == 2
+
+
+import pytest
+
+
+@pytest.mark.integration
+def test_real_search_finds_payscale_card():
+    pytest.importorskip("fastembed")
+    repo = Path(__file__).resolve().parents[1]
+    vectors, manifest = be.load_artifact(repo / "embeddings")
+    hits = srch.search("disability examiner salary pay scale", vectors, manifest, k=10)
+    paths = " ".join(h["path"] for h in hits)
+    assert "pay-scales" in paths  # a pay-scale dataset surfaces in top-10

@@ -28,3 +28,22 @@ def search(query, vectors, manifest, embedder=be.embed_query, k=8):
         hits.append({"rank": rank, "score": float(scores[idx]),
                      "id": v["id"], "path": v["path"], "title": v["title"]})
     return hits
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("query", help="natural-language search query")
+    ap.add_argument("-k", type=int, default=8, help="number of results")
+    ap.add_argument("--json", action="store_true", help="emit JSON")
+    args = ap.parse_args()
+    vectors, manifest = be.load_artifact(be.OUT_DIR)
+    hits = search(args.query, vectors, manifest, k=args.k)
+    if args.json:
+        print(json.dumps(hits, ensure_ascii=False, indent=2))
+        return
+    for h in hits:
+        print(f"{h['rank']:2d}. {h['score']:.3f}  {h['path']}\n    {h['title']}")
+
+
+if __name__ == "__main__":
+    main()

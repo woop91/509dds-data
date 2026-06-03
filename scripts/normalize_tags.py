@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -51,14 +52,21 @@ def run(repo: Path, aliases: dict, write: bool) -> dict:
     changed = []
     unmapped_counts: dict[str, int] = {}
     for rel_meta, card in load_cards(repo):
-        new_card, unmapped = normalize_card(card, aliases)
+        _new_card, unmapped = normalize_card(card, aliases)
         for t in unmapped:
             unmapped_counts[t] = unmapped_counts.get(t, 0) + 1
-        if new_card.get("tags") != card.get("tags"):
+        new_tags = canonicalize(card.get("tags") or [], aliases) if card.get("tags") else None
+        if new_tags is not None and new_tags != card.get("tags"):
             changed.append(rel_meta)
             if write:
-                (repo / rel_meta).write_text(
-                    json.dumps(new_card, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                path = repo / rel_meta
+                text = path.read_text(encoding="utf-8")
+                new_arr = json.dumps(new_tags, ensure_ascii=False)
+                new_text, n = re.subn(r'("tags"\s*:\s*)\[[^\]]*\]',
+                                      lambda m: m.group(1) + new_arr, text, count=1)
+                if n != 1:
+                    raise SystemExit(f"could not locate a single tags array in {rel_meta}")
+                path.write_text(new_text, encoding="utf-8")
     return {"changed": changed, "unmapped": unmapped_counts}
 
 

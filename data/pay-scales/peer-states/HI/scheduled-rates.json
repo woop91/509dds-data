@@ -1,55 +1,64 @@
 {
   "state": "HI",
-  "administering_agency": "Hawaii Department of Human Services (DHS), Disability Determination Branch (DDB)",
-  "salary_schedule_url": "https://dhrd.hawaii.gov/state-personnel-system/classes-and-pay/pay-plan-salary-schedules/ [NOT YET ACCESSED as of 2026-05-08]",
-  "effective_date": "[UNKNOWN — DHRD BU 13 salary schedule PDF not yet retrieved]",
-  "fiscal_year": "[UNKNOWN]",
-  "bargaining_status": "HGEA / AFSCME Unit 13 (Professional and Scientific); CBA biennial cycle — 2023–2025 or 2025–2027 contract current (status unclear; contract terms not yet retrieved)",
-  "pay_structure": "Annual salary, Hawaii uses Salary Range (SR) system with steps (e.g., SR-22 min/midpoint/max)",
-  "research_status": "INCOMPLETE — DHRD salary schedule and HGEA contract documents not yet accessible",
-  "research_date": "2026-05-08",
-  "notes": [
-    "Hawaii DHS Disability Determination Branch is the administering agency",
-    "Examiner class title likely: 'Disability Determination Examiner' or 'Disability Claims Examiner' [unverified]",
-    "Supervisors assumed excluded from Unit 13; likely fall under management or at-will status",
-    "DHRD website (https://dhrd.hawaii.gov/) is the authoritative source for class codes and pay schedules",
-    "HGEA (https://www.hgea.org/) union website; specific 2025–2027 CBA document not yet accessed",
-    "Hawaii state employee payroll uses SR (Salary Range) system; each SR has min/midpoint/max with step progression",
-    "CBA term status: biennial cycle — verify whether 2023–2025 or 2025–2027 contract is current",
-    "AFSCME affiliation: HGEA is an AFSCME-affiliated union in Hawaii"
-  ],
+  "status": "AUTHORITATIVE (DCS II + III) — HI class spec series + official BU13 salary schedule (eff 2025-07-01); supervisor flagged",
+  "administering_agency": "Hawaii Department of Human Services (DHS) — Disability Determination Branch (within the Division of Vocational Rehabilitation, DVR)",
+  "salary_schedule_url": "https://dhrd.hawaii.gov/wp-content/uploads/2025/06/BU13_SalarySchedules_07012025.pdf",
+  "salary_schedule_title": "State of Hawaii DHRD Salary Schedule, Bargaining Unit 13 (Professional and Scientific Employees), Effective 07/01/2025",
+  "class_spec_source_url": "https://files.hawaii.gov/dhrd/main/eccd/Class%20Specifications%20and%20Minimum%20Qualification%20Requirements/Group_III/3386.pdf",
+  "effective_date": "2025-07-01",
+  "fiscal_year": "FY2026",
+  "bargaining_status": "HGEA (AFSCME-affiliated), Bargaining Unit 13 (Professional and Scientific). Unit 13 contract 2021-2025 (a successor was in progress); the BU13 salary schedule eff 2025-07-01 is the official published rate.",
+  "pay_structure": "Hawaii Salary Range (SR) system; each SR has steps. The BU13 (non-supervisory) schedule prints steps D through M. min = Step D (schedule minimum), max = Step M (schedule maximum). Annual figures used.",
+  "notes": "The HI DDS examiner series is the Disability Claims Specialist (DCS) series (class spec 3.386 covers DCS II/III/IV/V/VI; DCS IV is the working-supervisor level). SR assignments verified from official HI state job postings: DCS II = SR-18 (DHS posting confirms 'DVR Disability Determination Branch', SR-18) and DCS III = SR-20. Annual min/max from the official DHRD BU13 salary schedule (eff 2025-07-01). NOTE on hiring vs schedule range: HI postings quote a hiring sub-range (e.g. DCS II 'Steps C to I'); the full salary range here uses the official non-supervisory schedule's Step D (min) to Step M (max). The supervisor (DCS IV) SR was not authoritatively confirmed this session (SR-22 is the candidate by series pattern, schedule values shown but grade UNVERIFIED). Corrections to prior notes: examiner class is Disability Claims Specialist (not generic 'Disability Determination Examiner'); SR system confirmed.",
   "classes": {
-    "Disability Determination Examiner (or Disability Claims Examiner)": {
-      "class_code": "[BLOCKED: DHRD class spec lookup unavailable]",
-      "salary_range_code": "[BLOCKED: DHRD BU 13 pay table unavailable]",
-      "annual_min": null,
-      "annual_midpoint": null,
-      "annual_max": null,
-      "step_count": null
+    "Disability Claims Specialist II": {
+      "class_code": "3.386",
+      "salary_range_code": "SR-18",
+      "annual_min": 55080,
+      "annual_max": 78420,
+      "min_label": "Step D (schedule min)",
+      "max_label": "Step M (schedule max)",
+      "step_grid_annual": [55080, 57252, 59532, 61944, 64428, 67056, 69732, 72516, 75396, 78420],
+      "basis": "Authoritative — SR-18 verified from official HI DHS job posting (Disability Claims Specialist II, DVR Disability Determination Branch, SR-18); annual from the official DHRD BU13 salary schedule SR-18 row (eff 2025-07-01).",
+      "grade_source_url": "https://www.governmentjobs.com/careers/hawaii/jobs/4050540/disability-claims-specialist-ii",
+      "salary_source_url": "https://dhrd.hawaii.gov/wp-content/uploads/2025/06/BU13_SalarySchedules_07012025.pdf",
+      "effective_date": "2025-07-01"
     },
-    "Disability Determination Examiner Supervisor (or Supervising Disability Claims Examiner)": {
-      "class_code": "[BLOCKED: DHRD class spec lookup unavailable — likely excluded from Unit 13 bargaining]",
-      "salary_range_code": "[BLOCKED: DHRD BU 13 pay table unavailable]",
-      "bargaining_unit": "Excluded (management or at-will status — unverified)",
-      "annual_min": null,
-      "annual_midpoint": null,
-      "annual_max": null,
-      "step_count": null
+    "Disability Claims Specialist III": {
+      "class_code": "3.387",
+      "salary_range_code": "SR-20",
+      "annual_min": 59532,
+      "annual_max": 84828,
+      "min_label": "Step D (schedule min)",
+      "max_label": "Step M (schedule max)",
+      "step_grid_annual": [59532, 61944, 64428, 67056, 69732, 72516, 75396, 78420, 81564, 84828],
+      "basis": "Authoritative — SR-20 verified from official HI state job posting (Disability Claims Specialist III, SR-20); annual from the official DHRD BU13 salary schedule SR-20 row (eff 2025-07-01).",
+      "grade_source_url": "https://www.governmentjobs.com/careers/hawaii/jobs/newprint/4582444",
+      "salary_source_url": "https://dhrd.hawaii.gov/wp-content/uploads/2025/06/BU13_SalarySchedules_07012025.pdf",
+      "effective_date": "2025-07-01"
+    },
+    "Disability Claims Specialist IV (working supervisor)": {
+      "class_code": "3.388",
+      "salary_range_code": "SR-22 (CANDIDATE — UNVERIFIED)",
+      "annual_min": 64428,
+      "annual_max": 91728,
+      "min_label": "Step D (schedule min)",
+      "max_label": "Step M (schedule max)",
+      "step_grid_annual": [64428, 67056, 69732, 72516, 75396, 78420, 81564, 84828, 88212, 91728],
+      "basis": "grade assignment UNVERIFIED — DCS IV is the working-supervisor level (class spec 3.388). SR-22 is the candidate by the series' +2-SR pattern (II=SR-18, III=SR-20), and the SR-22 schedule row is shown, but an official SR-22 confirmation for DCS IV was not located this session. Treat the SR-22 mapping (and thus these figures) as a candidate, NOT authoritative.",
+      "grade_source_url": "https://files.hawaii.gov/dhrd/main/eccd/Class%20Specifications%20and%20Minimum%20Qualification%20Requirements/Group_III/3386.pdf",
+      "salary_source_url": "https://dhrd.hawaii.gov/wp-content/uploads/2025/06/BU13_SalarySchedules_07012025.pdf",
+      "effective_date": "2025-07-01"
     }
   },
   "data_quality_flags": {
-    "class_codes_verified": false,
-    "pay_grades_verified": false,
-    "class_titles_verified": false,
+    "class_titles_verified": true,
+    "dcs2_dcs3_sr_verified": true,
+    "dcs2_dcs3_salary_verified": true,
+    "supervisor_sr_verified": false,
     "cba_terms_verified": false,
-    "cba_current_year_verified": false,
-    "confidence": "very_low"
+    "confidence": "high (DCS II + III); candidate (DCS IV supervisor)"
   },
-  "access_blockers": [
-    "DHRD BU 13 salary schedule PDF — not yet located or accessed",
-    "DHRD class specification database — access method not yet determined",
-    "HGEA 2025–2027 CBA document — contract language and wage tables not yet accessed",
-    "Hawaii state payroll eServices — access requirements and availability unknown",
-    "Firecrawl search results — searches for 'Hawaii DHS disability examiner salary' did not return relevant DHRD/HGEA documents"
-  ]
+  "access_blockers": [],
+  "research_date": "2026-06-02"
 }

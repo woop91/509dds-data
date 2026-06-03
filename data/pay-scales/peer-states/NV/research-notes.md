@@ -1,58 +1,48 @@
 # Nevada DDS Examiner Salary Research
 
-## Research Status: PARTIAL
+**Last Updated:** 2026-06-02 (AUTHORITATIVE — NV class spec + NV Pay Policy 01 Classified schedule)
 
-**Data as of:** 2026-05-08
+## Administering Agency
+- **Nevada Department of Employment, Training and Rehabilitation (DETR)**, Rehabilitation Division / Bureau of Disability Adjudication.
 
-### Administering Agency
-- **Nevada Department of Employment, Training and Rehabilitation (DETR)**
-- **Bureau:** Disability Adjudication (Division of Disability Services)
-- Website: https://detr.nv.gov
+## Examiner / Supervisor Classification (VERIFIED — official NV class spec 12.457)
+The NV Disability Adjudicator series and grades, verified from the official State of Nevada class specification (series doc 12.457):
 
-### Bargaining Unit & CBA Status
-- **Union:** AFSCME Local 4041 (Nevada State Employees Association / NSEA)
-- **Latest CBA:** Formally negotiated and ratified August 2024 (newest DDS CBA in US)
-- **Legislative Basis:** Nevada Assembly Bill 271 (2019) — opened public-sector collective bargaining
-- **Coverage:** Unit C (or similar) for DETR examiners and professional staff
+| Class Title | Class Code | Grade | Level |
+|---|---|---|---|
+| Disability Adjudicator Trainee | 12.425 | 30 | trainee |
+| Disability Adjudicator I | 12.426 | 31 | continuing trainee |
+| Disability Adjudicator II | 12.428 | 32 | (advanced trainee/working) |
+| Disability Adjudicator III | 12.456 | 33 | journey level |
+| Disability Adjudication Supervisor | 12.457 | 35 | supervisory |
 
-### Examiner & Supervisor Class Titles
-**Status:** UNVERIFIED — NV State HR website access limited without full page scrape
+## Scheduled Rates (VERIFIED — NV Pay Policy 01 Classified EE/ER, effective July 7, 2025)
+min = step 1, max = step 10 (annual):
 
-Likely classifications (typical NV DETR DDS structures):
-- **Examiner:** Disability Adjudicator or Disability Examiner (grade/range TBD)
-- **Supervisor:** Disability Adjudication Supervisor or Manager (grade/range TBD)
+| Class | Grade | Min (step 1) | Max (step 10) |
+|---|---|---|---|
+| Disability Adjudicator Trainee (12.425) | 30 | $52,200.00 | $76,608.72 |
+| Disability Adjudicator I (12.426) | 31 | $54,434.16 | $80,053.92 |
+| Disability Adjudicator II (12.428) | 32 | $56,689.20 | $83,666.16 |
+| Disability Adjudicator III (12.456) | 33 | $59,257.44 | $87,570.72 |
+| Disability Adjudication Supervisor (12.457) | 35 | $64,414.80 | $95,630.40 |
 
-### Pay Grade & Scheduled Rates
-**Status:** UNABLE TO RETRIEVE — Firecrawl credits exhausted
+Both the grade assignment AND the dollar figures are from official NV sources → Authoritative.
 
-Sources attempted but not accessed:
-- https://hr.nv.gov/Resources/SalarySchedule/ (canonical NV state salary schedules)
-- DETR job postings (likely contain pay ranges)
+## Pay-plan caveat (important)
+NV publishes MULTIPLE compensation schedules by retirement-contribution election:
+- **Pay Policy 01 — Employee/Employer Contribution (EE/ER)** — the standard/higher base, used here.
+- **Pay Policy 02 — Employer Paid Contribution (EPC)** — lower base salaries.
+- Several CBU-specific variants (01A/E/F/I, 01C/L/M/N/O, 01G, 01H/K) with slightly different rates.
+The base statewide Pay Policy 01 EE/ER schedule was used. The grade-32 min/max here ($56,689.20–$83,666.16) **exactly matches** an official NEATS Disability Adjudicator 3 job announcement, confirming the plan choice and the extraction.
 
-### AFSCME Local 4041 Contract Terms (August 2024)
-**Status:** UNVERIFIED — contract text not accessed
+## Methodology note (anti-fabrication)
+The NV schedule is a "diagonal" matrix where one row holds many grade-step cells sharing the same Annual. A naive parser ("last number in the row = this grade's annual") mis-assigned values; an early run gave grade-32 max = $86,944 which was WRONG. The correct figures were read by locating the exact 'GG-01' and 'GG-10' tokens and taking that row's Annual, then cross-checked against the official job announcement. Curl initially returned an HTML error page; the PDF was obtained with a browser User-Agent and parsed locally with pypdf. Evidence: `.firecrawl/NV-classified-fy26-v2.pdf`, `.firecrawl/NV-adjudicator-spec.md`, scripts `_nv_exact.py`.
 
-Known context:
-- August 2024 ratification marked first formal public-sector DDS union agreement in Nevada
-- AB 271 (2019) was the enabling legislation
-- Typical modern DDS contracts include: 5-10 step pay progression, annual step increments, COL adjustments
+## Bargaining Unit
+- **AFSCME Local 4041 (NSEA)** — first formal NV public-sector DDS CBA ratified Aug 2024 (enabled by AB 271, 2019). The exact CBA wage effect vs the statewide schedule was not separately verified (cba_terms_verified false); the official NV classified schedule is authoritative for the posted ranges.
 
-### Research Limitations
-1. **Firecrawl credits exhausted** — cannot scrape state HR or DETR websites
-2. **NV state HR website** — heavily JavaScript-dependent; curl alone cannot extract PDF links or schedule tables
-3. **AFSCME Local 4041 documentation** — contract PDFs likely behind member portal or news archives not directly accessible via curl
-
-### Sources Tried
-- https://hr.nv.gov/Resources/SalarySchedule/ (failed to extract PDF links)
-- https://detr.nv.gov (homepage loaded; job posting search requires browser navigation)
-- https://nvsea.com (NSEA/Local 4041 union site — requires member login for contract text)
-
-### Recommended Next Steps
-1. Contact DETR HR directly for salary schedule and examiner class specifications
-2. Request AFSCME Local 4041 / NSEA for published contract summary or press release from August 2024
-3. Use institutional access (university library, legal database) to retrieve NV state salary schedules
-4. Check Nevada Public Records Act (NPRA) for CBA filing with Secretary of State
-
----
-
-**Research Quality:** Low — zero quantitative data retrieved. Institutional knowledge only.
+## Sources (official, retrieved 2026-06-02)
+- Class spec (grade mapping): https://hr.nv.gov/uploadedFiles/hrnvgov/Content/Resources/ClassSpecs/12/12-457spc(2).pdf
+- Compensation schedules (Pay Policy 01, eff 2025-07-07): https://hr.nv.gov/Sections/Compensation/Compensation_Schedules/ → `Classified FY26 - 7.7.2025.pdf`
+- Cross-check: official NEATS Disability Adjudicator 3 announcement (grade 32 = $56,689.20–$83,666.16).

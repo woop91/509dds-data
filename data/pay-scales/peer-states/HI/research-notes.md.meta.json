@@ -1,15 +1,16 @@
 {
   "$schema": "../../../../schemas/dataset.meta.schema.json",
   "id": "pay-scales/peer-states/HI/research-notes",
-  "title": "Hawaii DDS Pay-Scale Research Notes (Blocked — DHRD fetch pending)",
-  "description": "Narrative research notes for Hawaii DDS pay: administering agency (HI DHS Disability Determination Branch), unverified expected examiner/supervisor class titles, the HI Salary Range (SR) system (min/midpoint/max with steps, likely SR-22+), HGEA / AFSCME Unit 13 (Professional and Scientific) bargaining context with biennial-cycle currency unverified, and a record of blocked DHRD class-spec / BU 13 salary-schedule sources. No class codes, SR codes, or dollar values retrieved. Companion to HI/scheduled-rates.json.",
+  "title": "Hawaii DDS Pay-Scale Research Notes (Authoritative — DCS series + BU13 schedule)",
+  "description": "Narrative research notes for Hawaii DDS pay: administering agency (HI DHS Disability Determination Branch, within DVR), the verified Disability Claims Specialist examiner series — DCS II (3.386, SR-18) and III (3.387, SR-20) with SR assignments from official HI state job postings and annual figures from the official DHRD Bargaining Unit 13 salary schedule (eff 2025-07-01), the working-supervisor DCS IV (3.388, candidate SR-22, unverified), a hiring-range vs schedule-range note, and HGEA Unit 13 (Professional and Scientific) context. Companion to HI/scheduled-rates.json.",
   "path": "data/pay-scales/peer-states/HI/research-notes.md",
   "format": "md",
+  "temporal_coverage": { "start": "2025-07-01", "end": "2026-06-30" },
   "geographic_coverage": "Hawaii",
-  "source": { "publisher": "Hawaii Department of Human Resources Development (DHRD) / HGEA; HI Dept of Human Services (DHS) Disability Determination Branch", "title": "HI DDS salary research notes (DHRD class spec + BU 13 schedule not yet accessed 2026-05-08)", "url": "https://dhrd.hawaii.gov/state-personnel-system/classes-and-pay/", "retrieved_at": "2026-05-08" },
-  "confidence_tier": "Browser-fetch pending",
-  "update_cadence": "unknown (biennial HGEA cycle; pending retrieval)",
-  "notes": "Browser-fetch pending: confidence VERY LOW — DHRD class-spec lookup and the BU 13 salary-schedule PDF were not located/accessed, so class titles, class codes, SR codes, and annual min/midpoint/max are all unverified/null. CBA context (HGEA / AFSCME Unit 13) is confirmed but contract currency (2023-25 vs 2025-27) is unverified. effective_date not available so temporal_coverage is omitted. Manual fetch: dhrd.hawaii.gov classes-and-pay or hgea.org contracts.",
+  "source": { "publisher": "Hawaii Department of Human Resources Development (DHRD) / HGEA; HI Dept of Human Services (DHS) Disability Determination Branch", "title": "HI DDS salary research notes (Disability Claims Specialist class spec + DHRD BU13 schedule eff 2025-07-01, retrieved 2026-06-02)", "url": "https://dhrd.hawaii.gov/wp-content/uploads/2025/06/BU13_SalarySchedules_07012025.pdf", "retrieved_at": "2026-06-02" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "biennial HGEA cycle / annual BU13 schedule",
+  "notes": "Authoritative for DCS II (SR-18) and III (SR-20): SR assignments verified from official HI state job postings and annual min/max from the official DHRD BU13 salary schedule eff 2025-07-01. Working-supervisor DCS IV (3.388) recorded with a candidate SR-22 mapping (unverified). Hiring-range caveat: postings quote a hiring sub-range (e.g. 'Steps C to I'); full range uses the schedule's Step D-M. Corrections: examiner class is Disability Claims Specialist; SR system confirmed. HGEA Unit 13 (Professional and Scientific).",
   "related": ["pay-scales/peer-states/HI/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["HI", "blocked", "browser-fetch-pending", "dds", "disability-determination-examiner", "hawaii", "hgea", "pay-scales", "peer-states", "research-notes", "unit-13"]
+  "tags": ["HI", "authoritative", "dds", "disability-claims-specialist", "hawaii", "hgea", "pay-scales", "peer-states", "research-notes", "unit-13"]
 }

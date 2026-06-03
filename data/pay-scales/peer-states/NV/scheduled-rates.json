@@ -1,85 +1,86 @@
 {
   "state": "NV",
+  "status": "AUTHORITATIVE — NV class spec (grade mapping) + NV Pay Policy 01 Classified schedule (eff 2025-07-07)",
   "administering_agency": "Nevada Department of Employment, Training and Rehabilitation (DETR)",
-  "bureau": "Division of Disability Services / Bureau of Disability Adjudication",
-  "salary_schedule_url": "https://hr.nv.gov/Resources/SalarySchedule/",
-  "detr_jobs_url": "https://detr.nv.gov/",
-  "effective_date": "UNKNOWN — requires state HR confirmation",
-  "fiscal_year": "biennium 2025-2027",
-  "bargaining_status": "AFSCME Local 4041 (NSEA) — CBA ratified August 2024 (newest DDS CBA in US)",
-  "bargaining_unit": "Unit C (professional staff)",
-  "cba_legislative_basis": "Nevada Assembly Bill 271 (2019) — enabled public-sector collective bargaining",
-  "step_basis": "annual",
-  "research_quality": "LOW — no salary schedule or class specifications retrieved",
-  "retrieval_status": {
-    "salary_schedule_pdf": "FAILED — Firecrawl credits exhausted; NV HR website requires JavaScript rendering",
-    "detr_job_postings": "NOT ACCESSED — interactive search required",
-    "afscme_4041_contract_text": "NOT ACCESSED — likely behind member portal or news archive",
-    "class_specifications": "NOT RETRIEVED"
-  },
+  "bureau": "Rehabilitation Division / Bureau of Disability Adjudication",
+  "salary_schedule_url": "https://hr.nv.gov/Sections/Compensation/Compensation_Schedules/",
+  "salary_schedule_title": "Nevada Compensation Schedule, Pay Policy 01 (Classified; Employee/Employer Contribution Plan EE/ER), Effective July 7, 2025",
+  "class_spec_source_url": "https://hr.nv.gov/uploadedFiles/hrnvgov/Content/Resources/ClassSpecs/12/12-457spc(2).pdf",
+  "effective_date": "2025-07-07",
+  "fiscal_year": "FY2026",
+  "bargaining_status": "AFSCME Local 4041 (NSEA); first formal NV public-sector DDS CBA ratified Aug 2024 (per AB 271, 2019). NV publishes statewide classified compensation schedules; the figures here are the standard Pay Policy 01 EE/ER schedule.",
+  "step_basis": "annual (NV publishes biweekly/monthly/semimonthly/annual per grade-step; min = step 1, max = step 10). Figures = Annual column.",
+  "pay_plan_note": "NV has multiple compensation plans by retirement-contribution election: Pay Policy 01 'Employee/Employer Contribution' (EE/ER, used here, the standard/higher base) and Pay Policy 02 'Employer Paid Contribution' (EPC, lower base). Several CBU-specific variants (01A/E/F/I, 01C/L/M/N/O, 01G, 01H/K) also exist. The base statewide Pay Policy 01 EE/ER schedule was used; the grade-32 min/max here exactly matches an official NEATS Disability Adjudicator 3 job announcement ($56,689.20-$83,666.16), confirming the plan choice.",
   "classes": {
-    "Disability_Adjudicator_or_Examiner": {
-      "status": "UNVERIFIED",
-      "class_code": "UNKNOWN",
-      "pay_grade": "UNKNOWN",
-      "min_salary_annual": "UNKNOWN",
-      "max_salary_annual": "UNKNOWN",
-      "step_count": "UNKNOWN — typically 5-10 steps in modern DDS contracts",
-      "notes": "Likely title; exact grade and salary require confirmation from DETR HR"
+    "Disability Adjudicator Trainee": {
+      "class_code": "12.425",
+      "pay_grade": "30",
+      "annual_min": 52200.00,
+      "annual_max": 76608.72,
+      "min_label": "step 1",
+      "max_label": "step 10",
+      "basis": "Authoritative — grade 30 from official NV class spec; min/max are grade-30 step1/step10 Annual on NV Pay Policy 01 (Classified EE/ER) eff 2025-07-07, read directly from the schedule PDF.",
+      "grade_source_url": "https://hr.nv.gov/uploadedFiles/hrnvgov/Content/Resources/ClassSpecs/12/12-457spc(2).pdf",
+      "salary_source_url": "https://hr.nv.gov/Sections/Compensation/Compensation_Schedules/",
+      "effective_date": "2025-07-07"
     },
-    "Disability_Adjudication_Supervisor": {
-      "status": "UNVERIFIED",
-      "class_code": "UNKNOWN",
-      "pay_grade": "UNKNOWN",
-      "min_salary_annual": "UNKNOWN",
-      "max_salary_annual": "UNKNOWN",
-      "step_count": "UNKNOWN",
-      "notes": "First-line supervisor; exact title and grade TBD"
+    "Disability Adjudicator I": {
+      "class_code": "12.426",
+      "pay_grade": "31",
+      "annual_min": 54434.16,
+      "annual_max": 80053.92,
+      "min_label": "step 1",
+      "max_label": "step 10",
+      "basis": "Authoritative — grade 31 from official NV class spec; grade-31 step1/step10 on NV Pay Policy 01 (Classified EE/ER) eff 2025-07-07.",
+      "grade_source_url": "https://hr.nv.gov/uploadedFiles/hrnvgov/Content/Resources/ClassSpecs/12/12-457spc(2).pdf",
+      "salary_source_url": "https://hr.nv.gov/Sections/Compensation/Compensation_Schedules/",
+      "effective_date": "2025-07-07"
+    },
+    "Disability Adjudicator II": {
+      "class_code": "12.428",
+      "pay_grade": "32",
+      "annual_min": 56689.20,
+      "annual_max": 83666.16,
+      "min_label": "step 1",
+      "max_label": "step 10",
+      "basis": "Authoritative — grade 32 from official NV class spec; grade-32 step1/step10 on NV Pay Policy 01 (Classified EE/ER) eff 2025-07-07. Cross-checked against an official NEATS Disability Adjudicator 3 job announcement showing $56,689.20-$83,666.16 for grade 32.",
+      "grade_source_url": "https://hr.nv.gov/uploadedFiles/hrnvgov/Content/Resources/ClassSpecs/12/12-457spc(2).pdf",
+      "salary_source_url": "https://hr.nv.gov/Sections/Compensation/Compensation_Schedules/",
+      "effective_date": "2025-07-07"
+    },
+    "Disability Adjudicator III": {
+      "class_code": "12.456",
+      "pay_grade": "33",
+      "annual_min": 59257.44,
+      "annual_max": 87570.72,
+      "min_label": "step 1",
+      "max_label": "step 10",
+      "basis": "Authoritative — grade 33 (journey level) from official NV class spec; grade-33 step1/step10 on NV Pay Policy 01 (Classified EE/ER) eff 2025-07-07.",
+      "grade_source_url": "https://hr.nv.gov/uploadedFiles/hrnvgov/Content/Resources/ClassSpecs/12/12-457spc(2).pdf",
+      "salary_source_url": "https://hr.nv.gov/Sections/Compensation/Compensation_Schedules/",
+      "effective_date": "2025-07-07"
+    },
+    "Disability Adjudication Supervisor": {
+      "class_code": "12.457",
+      "pay_grade": "35",
+      "annual_min": 64414.80,
+      "annual_max": 95630.40,
+      "min_label": "step 1",
+      "max_label": "step 10",
+      "basis": "Authoritative — grade 35 (supervisory level) from official NV class spec; grade-35 step1/step10 on NV Pay Policy 01 (Classified EE/ER) eff 2025-07-07.",
+      "grade_source_url": "https://hr.nv.gov/uploadedFiles/hrnvgov/Content/Resources/ClassSpecs/12/12-457spc(2).pdf",
+      "salary_source_url": "https://hr.nv.gov/Sections/Compensation/Compensation_Schedules/",
+      "effective_date": "2025-07-07"
     }
   },
-  "sources": [
-    {
-      "name": "Nevada HR Salary Schedules",
-      "url": "https://hr.nv.gov/Resources/SalarySchedule/",
-      "status": "NOT RETRIEVED",
-      "reason": "Firecrawl credits exhausted; website requires JS rendering and PDF extraction"
-    },
-    {
-      "name": "DETR Job Postings",
-      "url": "https://detr.nv.gov/",
-      "status": "HOMEPAGE ONLY",
-      "reason": "Interactive job search requires browser automation"
-    },
-    {
-      "name": "AFSCME Local 4041 / NSEA",
-      "url": "https://nvsea.com",
-      "status": "NOT ACCESSED",
-      "reason": "Contract text likely behind member login; no public summary found"
-    },
-    {
-      "name": "Nevada Public Records Act (NPRA)",
-      "url": "https://sos.nv.gov/",
-      "status": "NOT ACCESSED",
-      "reason": "CBA filing available through NPRA; requires formal request"
-    }
-  ],
-  "notes": {
-    "metadata_only": true,
-    "cba_significance": "AFSCME Local 4041 ratification in August 2024 was the first formal public-sector DDS union agreement in Nevada, following 2019 AB 271 enabling legislation. This CBA is the newest DDS-specific union agreement in the United States and provides an important precedent for Nevada's public-sector labor organizing.",
-    "context": "Unit C covers DETR professional staff including examiners. Modern DDS CBAs typically include 5-10 step pay progressions, annual step increments, and cost-of-living adjustments.",
-    "next_steps": [
-      "Contact DETR HR (https://detr.nv.gov) for current salary schedule and class specifications",
-      "Request AFSCME Local 4041 for published contract summary or August 2024 press release",
-      "File Nevada Public Records Act (NPRA) request for CBA filing with Nevada Secretary of State",
-      "Check NSEA website (https://nvsea.com) for member-accessible contract documents"
-    ]
+  "data_quality_flags": {
+    "class_codes_verified": true,
+    "pay_grades_verified": true,
+    "salary_figures_verified": true,
+    "pay_plan_variant_note": "Pay Policy 01 EE/ER used; EPC and CBU-specific variants differ",
+    "cba_terms_verified": false,
+    "confidence": "high"
   },
-  "data_quality_assessment": {
-    "completeness": "INCOMPLETE — quantitative data (salaries, grades, steps) not retrieved",
-    "accuracy": "N/A — no rates to verify",
-    "timeliness": "CURRENT — research date 2026-05-08; references August 2024 CBA ratification",
-    "sources_count": 4,
-    "primary_sources_accessed": 0,
-    "research_effort": "Firecrawl credits exhausted; manual curl/grep insufficient for JS-rendered sites and PDFs"
-  }
+  "access_blockers": [],
+  "research_date": "2026-06-02"
 }

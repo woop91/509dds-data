@@ -1,23 +1,23 @@
 {
   "$schema": "../../../../schemas/dataset.meta.schema.json",
   "id": "pay-scales/peer-states/NV/scheduled-rates",
-  "title": "Nevada Disability Adjudicator Rates (BLOCKED — NV HR JS-only page pending)",
-  "description": "Nevada DDS examiner/supervisor classification stubs (Disability Adjudicator/Examiner; Disability Adjudication Supervisor), all status UNVERIFIED with class code, pay grade, and annual salaries UNKNOWN. research_quality LOW: hr.nv.gov salary schedule is JavaScript-only (Firecrawl credits exhausted) and the AFSCME 4041 contract is behind a member portal. Notable context: AFSCME Local 4041 (NSEA) Unit C CBA was ratified August 2024 — the newest DDS CBA in the country, enabled by NV AB 271 (2019).",
+  "title": "Nevada Disability Adjudicator Rates (NV Pay Policy 01 Classified schedule, eff 2025-07-07)",
+  "description": "Nevada DETR Disability Adjudicator series with verified grade assignments and annual salary ranges: Disability Adjudicator Trainee (12.425, grade 30, $52,200-$76,609), Adjudicator I (12.426, grade 31, $54,434-$80,054), Adjudicator II (12.428, grade 32, $56,689-$83,666), Adjudicator III (12.456, grade 33, $59,257-$87,571), and Disability Adjudication Supervisor (12.457, grade 35, $64,415-$95,630). Grade assignments are from the official NV class specification; annual min(step 1)/max(step 10) figures are from the official NV Pay Policy 01 (Classified, EE/ER) compensation schedule effective July 7, 2025. The grade-32 range exactly matches an official NEATS Disability Adjudicator 3 job announcement.",
   "path": "data/pay-scales/peer-states/NV/scheduled-rates.json",
   "format": "json",
-  "unit_of_observation": "classification (placeholder; rates not retrieved)",
+  "unit_of_observation": "classification",
   "columns": [
-    { "name": "classes.<class>.class_code", "type": "string", "description": "NV class code — UNKNOWN." },
-    { "name": "classes.<class>.pay_grade", "type": "string", "description": "NV pay grade — UNKNOWN." },
-    { "name": "classes.<class>.min_salary_annual", "type": "string", "description": "Annual minimum — UNKNOWN (string placeholder)." },
-    { "name": "classes.<class>.max_salary_annual", "type": "string", "description": "Annual maximum — UNKNOWN (string placeholder)." }
+    { "name": "classes.<class>.class_code", "type": "string", "description": "NV class code (e.g. 12.428)." },
+    { "name": "classes.<class>.pay_grade", "type": "string", "description": "NV pay grade (30-35), verified from the class spec." },
+    { "name": "classes.<class>.annual_min", "type": "number", "unit": "USD", "description": "Annual minimum (grade step 1) on Pay Policy 01 EE/ER." },
+    { "name": "classes.<class>.annual_max", "type": "number", "unit": "USD", "description": "Annual maximum (grade step 10) on Pay Policy 01 EE/ER." }
   ],
-  "temporal_coverage": { "start": "2025", "end": "2027" },
+  "temporal_coverage": { "start": "2025-07-07", "end": "2026-06-30" },
   "geographic_coverage": "Nevada",
-  "source": { "publisher": "Nevada Division of Human Resource Management / AFSCME Local 4041 (NSEA); NV Dept of Employment, Training and Rehabilitation (DETR) Bureau of Disability Adjudication", "title": "Nevada State HR Salary Schedule (JS-only page; not retrieved 2026-05-08)", "url": "https://hr.nv.gov/Resources/SalarySchedule/", "retrieved_at": "2026-05-08" },
-  "confidence_tier": "Browser-fetch pending",
-  "update_cadence": "biennium 2025-2027 (pending retrieval)",
-  "notes": "Browser-fetch pending: research_quality LOW, zero quantitative data — hr.nv.gov salary schedule is JavaScript-rendered (curl insufficient, Firecrawl out of credits) and the AFSCME 4041 Aug-2024 contract is behind a member portal. All class codes, pay grades, and salaries are UNKNOWN (stored as string placeholders). biennium 2025-2027 noted in file → temporal_coverage. Bargaining context confirmed and notable: AFSCME Local 4041 Unit C, ratified Aug 2024 (newest US DDS CBA, post-AB 271/2019). Manual fetch: hr.nv.gov, afscme4041.org, or NPRA request.",
+  "source": { "publisher": "Nevada Division of Human Resource Management; NV Dept of Employment, Training and Rehabilitation (DETR) Bureau of Disability Adjudication", "title": "NV class spec 12.457 (grade mapping) + NV Pay Policy 01 Classified Compensation Schedule (EE/ER), effective 2025-07-07", "url": "https://hr.nv.gov/Sections/Compensation/Compensation_Schedules/", "retrieved_at": "2026-06-02" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "biennium 2025-2027 / annual NV compensation schedule",
+  "notes": "Authoritative: grade assignments (12.425->30, 12.426->31, 12.428->32, 12.456->33, 12.457->35) from the official NV class spec; annual min(step 1)/max(step 10) from the official NV Pay Policy 01 (Classified EE/ER) schedule eff 2025-07-07, read directly from the PDF (a naive diagonal-matrix parser mis-assigned values and was rejected; values were confirmed by direct GG-01/GG-10 row reads and cross-checked against an official NEATS grade-32 announcement = $56,689.20-$83,666.16). PAY-PLAN CAVEAT: NV also publishes EPC (lower) and CBU-specific variant schedules; Pay Policy 01 EE/ER is the standard base used here. AFSCME Local 4041 Unit C CBA (Aug 2024) exact wage effect not separately verified (cba_terms_verified false).",
   "related": ["pay-scales/peer-states/NV/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["NV", "afscme-4041", "blocked", "browser-fetch-pending", "dds", "disability-adjudicator", "nevada", "pay-scales", "peer-states"]
+  "tags": ["NV", "afscme-4041", "authoritative", "dds", "disability-adjudicator", "nevada", "pay-scales", "peer-states"]
 }

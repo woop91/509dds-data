@@ -1,0 +1,25 @@
+{
+  "$schema": "../schemas/dataset.meta.schema.json",
+  "id": "prr-templates/ssa-foia",
+  "title": "Federal FOIA Request Template — SSA State-Level DDS Workload & Staffing",
+  "description": "Ready-to-file Freedom of Information Act (5 U.S.C. § 552) request template addressed to the SSA FOIA Office. Requests, for FY2019–2024 and each state DDS agency: State Agency Operations Report (SAOR) workload data (initial/recon/CDR/hearings receipts and dispositions, allowance rates, federal accuracy results, processing time), state-level staffing (authorized VDE FTE, total DDS workforce, vacancy/attrition), Massachusetts-specific detail (federal SSA reimbursement, MA-specific audit/QA findings, prepared FY24 workload publications), and OIG audit reports (072309 and successors). Includes pre-drafted submission address, subject/body, format request (native CSV/PDF), a §552(a)(4)(A)(iii) public-interest fee-waiver argument, the 20-working-day statutory deadline, and a public-interest background section. Targets the federally STRUCTURALLY-UNAVAILABLE cells (per-state DDS budget/SAOR data) that a state PRR cannot reach.",
+  "path": "prr-templates/ssa-foia.md",
+  "format": "md",
+  "geographic_coverage": "United States (all state DDS agencies; Massachusetts-specific detail in Section 3)",
+  "temporal_coverage": { "start": "2019", "end": "2024" },
+  "source": {
+    "publisher": "U.S. Social Security Administration — FOIA Office, Office of the General Counsel (request target)",
+    "title": "SSA FOIA — Freedom of Information Act (5 U.S.C. § 552)",
+    "url": "https://www.ssa.gov/foia/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As needed (revise FY ranges and audit report numbers before each filing).",
+  "notes": "Confidence tier = Authoritative because this file IS the canonical, repo-maintained FOIA request template/form — it is the authoritative artifact for this request workflow, not a derived data observation. It is a blank/parameterized request (no fetched dataset values). Use this rather than the MassAbility state PRR for the cells docs/methodology.md flags 'structurally unavailable' (SSA/ODD per-state DDS budget and SAOR allocations are not published at state level and are unreachable via Chapter 66 PRR). The submission email in the file is intentionally written with a leading sentinel character and must be corrected to the real SSA FOIA address before sending. References OIG audit 072309 (carded as ssa/oig-audit-staffing-productivity-072309).",
+  "related": [
+    "prr-templates/massability-prr",
+    "dds-statistics-master-table",
+    "ssa/oig-audit-staffing-productivity-072309",
+    "ssa/ssa-sa-fywl-all-states-2001-2024"
+  ],
+  "tags": ["prr-template", "foia", "ssa", "federal", "saor", "workload", "staffing", "request-template", "authoritative", "structurally-unavailable"]
+}

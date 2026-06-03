@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/dataset.meta.schema.json",
+  "id": "fetch-manifest-2026-05-05",
+  "title": "Source Fetch Manifest — 2026-05-05 Playwright Crawl Run",
+  "description": "Provenance manifest recording one automated source-fetch run on 2026-05-05 (tool: playwright-1.59.1). Logs 22 attempted source downloads from SSA, BLS, CBPP, and GAO with per-result url, HTTP status, ok flag, byte count, latency (ms), local output path, and (for parsed HTML) a table count. Summary: targetCount 22, okCount 14, failCount 8, totalBytes 744516. This is a process/provenance artifact documenting how the repository's external/SSA datasets were retrieved (and which fetches 403'd), not primary subject-matter data.",
+  "path": "data/fetch-manifest-2026-05-05.json",
+  "format": "json",
+  "unit_of_observation": "fetch attempt (one HTTP request to a source URL)",
+  "row_count": 22,
+  "columns": [
+    { "name": "fetchedAt", "type": "date", "description": "ISO-8601 timestamp the crawl run started (2026-05-05T15:27:29.457Z)." },
+    { "name": "tool", "type": "string", "description": "Fetch tool + version ('playwright-1.59.1')." },
+    { "name": "targetCount", "type": "integer", "description": "Number of URLs attempted in the run (22)." },
+    { "name": "okCount", "type": "integer", "description": "Number flagged ok:true (14)." },
+    { "name": "failCount", "type": "integer", "description": "Number flagged ok:false (8)." },
+    { "name": "totalBytes", "type": "integer", "unit": "bytes", "description": "Sum of bytes downloaded across the run (744516)." },
+    { "name": "results[].url", "type": "string", "description": "Source URL fetched." },
+    { "name": "results[].status", "type": "integer", "description": "HTTP status code returned (200, 403, or 404)." },
+    { "name": "results[].ok", "type": "boolean", "description": "Run-level success flag. NOTE: ok can be true even when status is 403/404 (the fetcher still wrote a small body / index page), so status is the authoritative signal of whether real content was retrieved." },
+    { "name": "results[].bytes", "type": "integer", "unit": "bytes", "description": "Bytes written for this result (0 when blocked)." },
+    { "name": "results[].ms", "type": "integer", "unit": "milliseconds", "description": "Request latency." },
+    { "name": "results[].out", "type": "string", "description": "Absolute local output path the fetched content was written to (paths under the non-worktree repo root C:\\Users\\deskc\\Documents\\509dds-data)." },
+    { "name": "results[].tables", "type": "integer", "description": "For HTML pages parsed into *.tables.json, the number of tables extracted (0–1 observed)." }
+  ],
+  "temporal_coverage": { "start": "2026-05-05", "end": "2026-05-05" },
+  "source": {
+    "publisher": "509dds-data repository (internal crawl tooling)",
+    "title": "Playwright fetch run manifest, 2026-05-05",
+    "url": "https://github.com/Woop91/509dds-data"
+  },
+  "confidence_tier": "Computed",
+  "update_cadence": "Per fetch run (dated filename; a new manifest is emitted each crawl).",
+  "notes": "Provenance/process artifact — a log of one fetch run, NOT primary subject data. Of 22 attempts, 8 hard-failed (status 403, bytes 0 — SSA statcomps .xlsx, BLS OEWS .zip) and several others returned ok:true despite 403/404 (small index/error bodies written), so okCount (14) overstates genuinely-retrieved sources; gate on status==200 and bytes>0 for real content. Output paths are absolute and point at the main repo checkout (C:\\Users\\deskc\\Documents\\509dds-data), not this worktree. Companion status notes live in data/MANUAL-FETCH-NEEDED.md (a status doc, not carded per repo convention). Successful 200 fetches feed the parsed JSON/HTML under data/ssa/oho and data/external.",
+  "tags": ["provenance", "manifest", "fetch-log", "playwright", "crawl", "ssa", "bls", "cbpp", "gao", "process-artifact", "computed"]
+}

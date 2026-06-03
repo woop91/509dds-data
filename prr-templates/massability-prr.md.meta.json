@@ -1,0 +1,25 @@
+{
+  "$schema": "../schemas/dataset.meta.schema.json",
+  "id": "prr-templates/massability-prr",
+  "title": "Massachusetts Public Records Request Template — MassAbility DDS Operational Data",
+  "description": "Ready-to-file Massachusetts Public Records Law (M.G.L. c. 66) request template addressed to MassAbility (formerly the Massachusetts Rehabilitation Commission). Requests, for fiscal years 2002–2024, operational records for the Disability Determination Services (DDS) division: unpublished Annual/Section 9F reports (FY2002–2022); per-FY operational metrics (total receipts/dispositions, initial claims filed/disposed, CDR receipts/dispositions, CE purchased and rate, MER purchased and rate, DDS accuracy, federal accuracy standard, % allowed, cost per case); workforce metrics (authorized VDE FTE by grade, medical/psychological consultants, clerks/supervisors/support, total DDS FTE, overtime hours offered/used); special-population case counts (homeless, HIV, other breakouts); and budget (annual DDS operating budget / federal SSA reimbursement, category breakdown). Includes the mass.gov submission URL, subject/body, native-electronic-format-in-a-single-ZIP request, and the 10-business-day statutory response window. Designed to fill the ~30+ 'PRR' sentinel cells in the master DDS statistics table.",
+  "path": "prr-templates/massability-prr.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts (DDS division of MassAbility / former MRC)",
+  "temporal_coverage": { "start": "2002", "end": "2024" },
+  "source": {
+    "publisher": "MassAbility (formerly Massachusetts Rehabilitation Commission) — public-records unit (request target)",
+    "title": "Massachusetts Public Records Request — M.G.L. c. 66",
+    "url": "https://www.mass.gov/forms/submit-a-massability-public-records-request"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As needed (revise FY ranges and metric list before each filing).",
+  "notes": "Confidence tier = Authoritative because this file IS the canonical, repo-maintained state public-records request template/form — the authoritative artifact for the request workflow, not a derived data observation. It is a blank/parameterized request carrying no fetched dataset values. This template fills the 'PRR'-sentinel cells in dds-statistics-master-table (operational/workforce/special-population/budget metrics that MassAbility tracks but has not published). It does NOT reach the per-state DDS budget cells docs/methodology.md flags 'structurally unavailable' — those (SSA/ODD allocations) require the federal FOIA in prr-templates/ssa-foia, a stronger gate than a Chapter 66 state PRR.",
+  "related": [
+    "prr-templates/ssa-foia",
+    "dds-statistics-master-table",
+    "ma-annual-reports/massability-fy24",
+    "ma-annual-reports/mrc-fy23"
+  ],
+  "tags": ["prr-template", "public-records", "massability", "mrc", "massachusetts", "dds", "section-9f", "workforce", "budget", "request-template", "authoritative", "chapter-66"]
+}

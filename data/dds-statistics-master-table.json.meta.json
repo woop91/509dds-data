@@ -1,0 +1,42 @@
+{
+  "$schema": "../schemas/dataset.meta.schema.json",
+  "id": "dds-statistics-master-table",
+  "title": "Massachusetts DDS-Det Operational Statistics Master Table, FY2013–FY2025 (Reconciled)",
+  "description": "Compiled, multi-source master table of operational statistics for the Massachusetts Disability Determination Services division (DDS-Det, a unit of MassAbility/MRC — NOT the Department of Developmental Services). Organized as 17 metrics, each a year-keyed series across federal fiscal years 2013–2025: total receipts, total dispositions, initial claims filed/disposed, % allowed (favorable determination rate), CDR receipts/dispositions, consultative-exam (CE) purchased and rate, medical-evidence-of-record (MER) purchased and rate, DDS state accuracy, federal accuracy standard, cost per case, DDS-Det operating budget, % federal funding, and homeless-population case counts. Values are numeric where known, or the sentinel strings 'PRR' (retrievable only via a MassAbility public-records request) and 'TBD' (future data release). Reconciled per docs/methodology.md from SSA federal-FY workload data (SSA-SA-FYWL.csv), federal DDS QA accuracy reviews (DDS-Net-Accuracy.csv), and MA/MassAbility/MRC Section 9F and annual reports; CE Rate and MER Rate are computed (purchased ÷ total dispositions).",
+  "path": "data/dds-statistics-master-table.json",
+  "format": "json",
+  "unit_of_observation": "metric × federal fiscal year",
+  "row_count": 17,
+  "columns": [
+    { "name": "metrics.<metric>.label", "type": "string", "description": "Human-readable name of the metric (e.g. 'Total Claim Receipts'). 17 metric keys: total_receipts, total_dispositions, initial_claims_filed, initial_claims_disposed, pct_allowed, cdr_receipts, cdr_dispositions, ce_purchased, ce_rate, mer_purchased, mer_rate, dds_accuracy, federal_accuracy_standard, cost_per_case, dds_total_budget, pct_federal_funding, homeless_cases." },
+    { "name": "metrics.<metric>.unit", "type": "string", "description": "Unit of the metric's values: one of 'cases', 'percent', 'usd', 'count'." },
+    { "name": "metrics.<metric>.values.<year>", "type": "number", "description": "Value for that federal FY (2013–2025). May instead be the sentinel string 'PRR' (needs a MassAbility public-records request) or 'TBD' (future release); a few CE/MER cells carry annotated 'PRR (need total_dispositions)'. Do NOT coerce these sentinels to null or 0." },
+    { "name": "metrics.<metric>.source", "type": "string", "description": "Per-metric provenance string where present (e.g. 'MassAbility/MRC Section 9F reports', 'SSA-SA-FYWL.csv (federal FY)'). dds_accuracy splits source_2007_2022 (federal QA) vs source_2023_2025 (MA reports)." },
+    { "name": "metrics.<metric>._note / _note_2022", "type": "string", "description": "Optional caveats: ce_rate/mer_rate carry a computation note; pct_allowed carries a 2022 divergence note (MA 57% vs SSA FYWL 46.76%); homeless_cases notes it is a count not the published 22% rate; federal_accuracy_standard notes the 2023 raise to 95%." },
+    { "name": "schema", "type": "string", "description": "Top-level self-describing schema block: documents the conceptual year/metric/value/unit/source/confidence fields used per cell." }
+  ],
+  "temporal_coverage": { "start": "2013", "end": "2025" },
+  "geographic_coverage": "Massachusetts (DDS-Det division of MassAbility/MRC)",
+  "source": {
+    "publisher": "MassAbility (formerly Massachusetts Rehabilitation Commission) — Disability Determination Services division; reconciled with U.S. Social Security Administration data",
+    "title": "MassAbility/MRC Section 9F & Annual Reports; SSA State Agency FY Workload (SSA-SA-FYWL); DDS Net Accuracy",
+    "url": "https://www.mass.gov/orgs/massability"
+  },
+  "confidence_tier": "Computed",
+  "update_cadence": "Annual (MA reports drop Sep–Nov; SSA FYWL ~Nov). Refresh metric series as new FY data is published or PRR/FOIA fills missing cells.",
+  "notes": "Computed/synthesis artifact: not a single primary source but a reconciliation of several. Year column is federal FY (Oct–Sep), verified by exact match between SSA FYWL and the source spreadsheet for 2013–2020 initial-claim counts; MA-report-sourced cells reflect MA state FY (~75% overlap, small variance expected). CE Rate = ce_purchased ÷ total_dispositions and MER Rate = mer_purchased ÷ total_dispositions are derived (verified for 2013). Compiled from the provenance spreadsheet data/dds-statistics-master-table.source.xlsx (kept as raw provenance, no data card of its own per repo convention). Known caveats from docs/methodology.md: (1) 2022 pct_allowed 57% diverges sharply from SSA FYWL 46.76% — verify against original Section 9F before charting; (2) 2014 dds_accuracy 96.7% (MA) vs 98.1% (federal QA) — different sampling; (3) 2024 cost_per_case uses MA's published $1,071 over the $840 arithmetic estimate (methodology divergence); (4) homeless_cases should be a count, but only a 22% rate was published in 2023. 'PRR' cells are fillable via the prr-templates/massability-prr request; however per-state DDS operating-budget cells with no MA Annual Report figure are STRUCTURALLY UNAVAILABLE (SSA/ODD per-state allocations are unpublished) and would need a federal FOIA (prr-templates/ssa-foia), a stronger gate than a state PRR.",
+  "derived_from": [
+    "ssa/ssa-sa-fywl-all-states-2001-2024",
+    "ssa/dds-net-accuracy-by-state-2007-LATEST",
+    "ma-annual-reports/massability-fy24",
+    "ma-annual-reports/mrc-fy23"
+  ],
+  "related": [
+    "ma-annual-reports/massability-fy25",
+    "cthru-staffing/dds-staff-totals",
+    "pay-scales/vde-annual-salary-aggregates",
+    "prr-templates/massability-prr",
+    "prr-templates/ssa-foia"
+  ],
+  "tags": ["dds", "dds-det", "massability", "mrc", "disability-determination", "operational-statistics", "master-table", "computed", "reconciled", "section-9f", "ssa", "federal-fy", "prr", "foia"]
+}

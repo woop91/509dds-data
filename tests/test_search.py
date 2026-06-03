@@ -1,6 +1,7 @@
 import sys
 from pathlib import Path
 import numpy as np
+import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import build_embeddings as be  # noqa: E402
 import search as srch  # noqa: E402
@@ -29,9 +30,6 @@ def test_search_ranks_by_cosine():
     assert hits[0]["rank"] == 1
     assert abs(hits[0]["score"] - 1.0) < 1e-5
     assert len(hits) == 2
-
-
-import pytest
 
 
 @pytest.mark.integration

@@ -1,6 +1,7 @@
 import sys
 from pathlib import Path
 import numpy as np
+import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import build_embeddings as be  # noqa: E402
 
@@ -74,9 +75,6 @@ def test_check_detects_manifest_only_drift(tmp_path):
     # 'id' is in the manifest but NOT part of embedding_document -> vectors unchanged
     cards[0][1]["id"] = "a-renamed"
     assert be.check(cards, tmp_path, embedder=_stub) == ["manifest.json"]
-
-
-import pytest
 
 
 @pytest.mark.integration

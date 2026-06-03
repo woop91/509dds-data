@@ -31,7 +31,7 @@ const scored = meta.map((m, i) => {
   return { ...m, score: dot };
 });
 scored.sort((a, b) => b.score - a.score);
-const topK = scored.slice(0, 8); // -> [{ id, path, title, score }]
+const topK = scored.slice(0, 8); // -> [{ id, path, title, tags, score }]
 ```
 > Note: the in-browser model is ~30 MB (cached after first load). To avoid
 > shipping it to every visitor, run the query embedding in a Vercel edge function.

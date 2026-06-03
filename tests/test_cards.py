@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from _cards import embedding_document  # noqa: E402
+from _cards import embedding_document, load_cards  # noqa: E402
 
 
 def test_embedding_document_composes_fields_in_order():
@@ -29,7 +29,14 @@ def test_embedding_document_omits_absent_optional_fields():
     assert embedding_document(card) == "T\nD"
 
 
-from _cards import load_cards  # noqa: E402
+def test_embedding_document_present_but_empty_lists_omit_lines():
+    assert embedding_document({"title": "T", "tags": [], "columns": []}) == "T"
+
+
+def test_embedding_document_coverage_with_only_start():
+    card = {"title": "T", "description": "D",
+            "temporal_coverage": {"start": "FY2008"}}
+    assert embedding_document(card) == "T\nD\nCoverage: FY2008–"
 
 
 def test_load_cards_sweeps_and_sorts(tmp_path):

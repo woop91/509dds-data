@@ -18,7 +18,7 @@ def embedding_document(card: dict) -> str:
     tags = card.get("tags") or []
     if tags:
         parts.append("Tags: " + ", ".join(tags))
-    cols = [c.get("name", "") for c in (card.get("columns") or []) if c.get("name")]
+    cols = [c.get("name") for c in (card.get("columns") or []) if c.get("name")]
     if cols:
         parts.append("Columns: " + ", ".join(cols))
     geo = card.get("geographic_coverage")

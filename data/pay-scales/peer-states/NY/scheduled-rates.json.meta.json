@@ -1,23 +1,23 @@
 {
   "$schema": "../../../../schemas/dataset.meta.schema.json",
   "id": "pay-scales/peer-states/NY/scheduled-rates",
-  "title": "New York Disability Analyst Rates (BLOCKED — cs.ny.gov / PEF schedule pending)",
-  "description": "New York DDS examiner/supervisor classification stubs for the Disability Analyst series (Trainee, 1, 2) and a supervisory tier, each with 9 steps but all SG numbers and min/max salaries 'TBD'. salary_grade_numbers / min_max_salaries / step_progression are PENDING — cs.ny.gov and pef.org rejected automated fetch (HTML paywall / network) this session. Classification titles, the PEF Bargaining Unit 5 (PS&T) unit, and CBA dates (Apr-2023 → Apr-2026, 4% raise eff Apr-2025) ARE verified.",
+  "title": "New York Disability Analyst Rates (PS&T schedule eff 2025-03-27; Authoritative examiner classes)",
+  "description": "New York DDS Disability Analyst series with verified Salary Grade (SG) assignments and salary figures: Disability Analyst 2 (title 6884200, SG 20, PEF), Disability Analyst 3 (6884300, SG 23, PEF), Disability Analyst 4 (6884400, SG 25, PEF), and the supervisory Disability Analyst 5 (6884500, SG 62, Management/Confidential). SG assignments are from the official NY Title and Salary Listing (Open Data NY t3vp-5tka); examiner dollar figures (Hiring/Job rate) are from the official OER PS&T salary schedule eff 2025-03-27 (Admin). The DA-5 (SG 62, M/C) supervisor row uses the M/C M-1 band as a documented candidate (schedule-row crosswalk flagged unverified). Corrects prior notes: the current NY plan has no 'Disability Analyst 1' or 'Trainee'.",
   "path": "data/pay-scales/peer-states/NY/scheduled-rates.json",
   "format": "json",
-  "unit_of_observation": "classification / salary grade (placeholder; SG + rates pending)",
+  "unit_of_observation": "classification / salary grade",
   "columns": [
-    { "name": "grades.<key>.title", "type": "string", "description": "Disability Analyst title (Trainee / 1 / 2 / Supervisor) — verified." },
-    { "name": "grades.<key>.min", "type": "string", "description": "Grade minimum — 'TBD' (SG number pending)." },
-    { "name": "grades.<key>.max", "type": "string", "description": "Grade maximum — 'TBD'." },
-    { "name": "grades.<key>.steps", "type": "integer", "description": "Step count (9, per PS&T convention)." }
+    { "name": "classes.<class>.title_code", "type": "string", "description": "Official NY civil-service title code." },
+    { "name": "classes.<class>.salary_grade", "type": "string", "description": "NY Salary Grade (SG), verified from the Title and Salary Listing." },
+    { "name": "classes.<class>.annual_min", "type": "number", "unit": "USD", "description": "Grade Hiring Rate (step 1 / minimum)." },
+    { "name": "classes.<class>.annual_max", "type": "number", "unit": "USD", "description": "Grade Job Rate (top step / maximum)." }
   ],
-  "temporal_coverage": { "start": "2025-07-01", "end": "2026-04-01" },
+  "temporal_coverage": { "start": "2025-03-27", "end": "2026-04-01" },
   "geographic_coverage": "New York",
-  "source": { "publisher": "NY Department of Civil Service / PEF (Public Employees Federation); NY Office of Temporary and Disability Assistance (OTDA) Division of Disability Determinations", "title": "PS&T Unit Salary Schedule (eff 2025-07-01) — gateway sites blocked automated fetch 2026-05-08", "url": "https://www.cs.ny.gov/content/salary-schedules", "retrieved_at": "2026-05-08" },
-  "confidence_tier": "Browser-fetch pending",
-  "update_cadence": "annual (PS&T schedule; 4% raise eff 2025-04)",
-  "notes": "Browser-fetch pending: classification titles, PEF Bargaining Unit 5 (PS&T), and CBA dates (2023-04 → 2026-04, 4% raise eff 2025-04) are VERIFIED, but salary_grade_numbers, min_max_salaries, and step_progression are all PENDING — cs.ny.gov has an HTML paywall and pef.org/openbook.ny.gov failed to fetch. SG numbers and all min/max are the string 'TBD' (likely SG-14 to SG-23). Schedule eff 2025-07-01, CBA through 2026-04-01 → temporal_coverage. Manual fetch: cs.ny.gov salary schedules or pef.org salary charts.",
+  "source": { "publisher": "NY Office of Employee Relations (OER) / NY Dept of Civil Service / PEF; NY Office of Temporary and Disability Assistance (OTDA) Division of Disability Determinations", "title": "PS&T Unit Salary Schedule (eff 2025-03-27 Admin) + NY Title and Salary Listing (Open Data NY t3vp-5tka)", "url": "https://oer.ny.gov/system/files/documents/2024/01/pef-salary-schedules-2023-2026-final_0.pdf", "retrieved_at": "2026-06-02" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "annual (PS&T schedule; CBA 2023-04 → 2026-04)",
+  "notes": "Authoritative for the PEF examiner classes (Disability Analyst 2/3/4 = SG 20/23/25): SG assignments verified from the official NY Title and Salary Listing and Hiring/Job-rate dollar figures from the official OER PS&T schedule eff 2025-03-27 (3% / 103% factor per the 2023-2026 PEF CBA). The Disability Analyst 5 supervisor (SG 62, Management/Confidential) sits on the M/C schedule, not PS&T; SG 62 maps to the M/C 'M-1' band ($93,659/$118,388 eff 2025-04) per NY convention but an explicit published SG-62-to-M-1 crosswalk was not located, so supervisor_schedule_row_verified is false (candidate figures recorded). Corrects prior 'Trainee/Analyst 1' guess — no such current titles.",
   "related": ["pay-scales/peer-states/NY/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["NY", "blocked", "browser-fetch-pending", "dds", "disability-analyst", "new-york", "pay-scales", "peer-states", "pef", "ps-t"]
+  "tags": ["NY", "authoritative", "dds", "disability-analyst", "new-york", "pay-scales", "peer-states", "pef", "ps-t"]
 }

@@ -1,8 +1,8 @@
 {
   "$schema": "../../../../schemas/dataset.meta.schema.json",
   "id": "pay-scales/peer-states/CA/scheduled-rates",
-  "title": "California Disability Evaluation Analyst Rates (BLOCKED — CalHR fetch pending)",
-  "description": "California DDS examiner classification stub for the Disability Evaluation Analyst (DEA I/II/III) series plus DEA Supervisor / Staff Services Manager I. All class codes and monthly/annual salary fields are null/BLOCKED — CalHR pay-scale PDFs and the class-spec lookup returned 404/403/HTML errors and could not be retrieved this session (research_status INCOMPLETE). Only the bargaining context is confirmed: SEIU Local 1000 Bargaining Unit 4 (Office and Allied), CBA 2024-2027.",
+  "title": "California Disability Evaluation Analyst Rates (CalCareers; base DEA + DEA III Authoritative)",
+  "description": "California DDS Disability Evaluation Analyst (DEA) series, with current monthly salary ranges verified from the official CalCareers classification details: base Disability Evaluation Analyst (class 5365, entry/training/first-working level, $3,861-$6,276/mo) and Disability Evaluation Analyst III (class 5367, advanced journey, $6,031-$7,547/mo). DEA II (journey) and the first-line supervisor (generic Staff Services Manager I, Specialist) are NOT filled — the CalHR hrnet class-spec crossref pages are JS/session-gated and the CalHR alpha pay-scale PDF extracted with dropped salary columns. Bargaining: SEIU Local 1000 Bargaining Unit 4 (Office and Allied), CBA 2024-2027.",
   "path": "data/pay-scales/peer-states/CA/scheduled-rates.json",
   "format": "json",
   "unit_of_observation": "classification (placeholder; rates not retrieved)",
@@ -14,10 +14,10 @@
     { "name": "classes.<class>.annual_max", "type": "number", "unit": "USD", "description": "Annual maximum — null." }
   ],
   "geographic_coverage": "California",
-  "source": { "publisher": "California Department of Human Resources (CalHR); CA Dept of Social Services (CDSS) Disability Determination Service Division", "title": "CalHR Pay Scales / SEIU Local 1000 contract appendix (INACCESSIBLE as of 2026-05-08)", "url": "https://www.calhr.ca.gov/Pages/Pay-Scales.aspx", "retrieved_at": "2026-05-08" },
-  "confidence_tier": "Browser-fetch pending",
-  "update_cadence": "unknown (pending retrieval)",
-  "notes": "Browser-fetch pending: research_status INCOMPLETE — CalHR pay-scale PDFs (404/HTML redirect), eServices (403), and class-spec lookup (404) all blocked automated fetch; step_basis assumed monthly × 12 per CA civil-service convention; effective_date/fiscal_year UNKNOWN so temporal_coverage is omitted. All class codes and monthly/annual values are null/BLOCKED. CBA context (SEIU Local 1000 Unit 4, 2024-2027) is confirmed. Recommended manual fetch: calhr.ca.gov Pay Scales, seiu1000.org contract, or publicpay.ca.gov.",
+  "source": { "publisher": "California Department of Human Resources (CalHR) / CalCareers; CA Dept of Social Services (CDSS) Disability Determination Service Division", "title": "CalCareers official classification details — Disability Evaluation Analyst series (current monthly ranges)", "url": "https://calcareers.ca.gov/CalHrPublic/Exams/ExamBulletin.aspx?ExamControlId=4840", "retrieved_at": "2026-06-02" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "CalHR pay-scale revisions / CBA cycle (SEIU 1000, 2024-2027)",
+  "notes": "Authoritative for the base Disability Evaluation Analyst (class 5365, $3,861-$6,276/mo) and Disability Evaluation Analyst III (class 5367, $6,031-$7,547/mo), whose current monthly ranges come from the official CalCareers classification details (live ExamBulletin pages). annual = monthly * 12. The base DEA is a deep class with alternate Ranges A/B/C; the recorded range is the current overall. PARTIAL GAPS (flagged in data_quality_flags): DEA II (journey) current standalone range was not retrievable (CalHR hrnet crossref JS-gated, returned empty) and the supervisor is the generic Staff Services Manager I (Specialist) class (figure not filled — CalHR alpha pay-scale PDF table extraction dropped the salary columns). 2023 spec-PDF per-range figures are retained as historical/supplementary only. CBA: SEIU Local 1000 Unit 4, 2024-2027.",
   "related": ["pay-scales/peer-states/CA/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["CA", "blocked", "browser-fetch-pending", "california", "dds", "disability-evaluation-analyst", "pay-scales", "peer-states", "seiu-1000"]
+  "tags": ["CA", "authoritative", "california", "calcareers", "dds", "disability-evaluation-analyst", "pay-scales", "peer-states", "seiu-1000"]
 }

@@ -1,60 +1,42 @@
 # California DDS Salary Research — Notes
 
+**Last Updated:** 2026-06-02 (AUTHORITATIVE for base DEA + DEA III; DEA II and supervisor flagged)
+
 ## Administering Agency
 - **California Department of Social Services (CDSS)**
 - **Division:** Disability Determination Service Division (DDSD)
 - Official info: https://www.cdss.ca.gov/inforesources/disability-determination-service-division
 
-## Examiner Classification: Disability Evaluation Analyst (DEA)
+## Examiner Classification: Disability Evaluation Analyst (DEA) series (VERIFIED)
+Verified from the official CalCareers classification details (live ExamBulletin pages) and the CalCareers classification-spec PDFs:
 
-### Class Titles (expected series)
-- Disability Evaluation Analyst I (DEA I)
-- Disability Evaluation Analyst II (DEA II)
-- Disability Evaluation Analyst III (DEA III)
+| Class | CalHR Class ID | Level | Monthly Salary Range (current) | Annual (× 12) |
+|---|---|---|---|---|
+| Disability Evaluation Analyst (base) | 5365 (00105365) | entry / training / first working level (deep class, Ranges A/B/C) | $3,861 – $6,276 | $46,332 – $75,312 |
+| Disability Evaluation Analyst II | 5366 (unverified) | journey level | NOT RETRIEVED | — |
+| Disability Evaluation Analyst III | 5367 (00105367) | advanced journey level | $6,031 – $7,547 | $72,372 – $90,564 |
 
-**Status:** Class codes NOT YET RETRIEVED — CalHR website returned access errors during research (2026-05-08).
+The series progression is confirmed by the DEA III spec, which requires prior experience as a DEA II, which in turn requires experience as a base Disability Evaluation Analyst, Range C.
 
-**Intended CalHR sources:**
-- CalHR Class Spec database: https://hrnet.calhr.ca.gov/CalHRNet/SpecCrossReference.aspx — returned 403/404
-- CalHR Pay Scale Alphabetic Listing (Section 15): https://www.calhr.ca.gov/Documents/pay-scale-alphabetic.pdf — redirects to HTML error page
-- CalHR eServices Pay Scale Search (BETA): https://eservices.calhr.ca.gov/ — access denied (403)
+**Base DEA per-range breakdown (2023 spec PDF — historical, superseded):** Range A $3,534–$4,428; Range B $3,826–$4,789; Range C $4,588–$5,744 (calcareers.ca.gov/JOBSGEN/8BP25.PDF, cut-off dates Aug–Dec 2023). The current overall range ($3,861–$6,276) from the live ExamBulletin supersedes these.
 
 ## Supervisor Classification
-**Expected title:** Disability Evaluation Analyst Supervisor or Staff Services Manager I/II  
-**Bargaining status:** Supervisors in California are typically excluded from SEIU bargaining units and fall under CASE (California Association of Supervisory Excellence) or unrepresented/at-will status.
+DDSD job postings (e.g., jcid=389392) show first-line supervision via the **generic Staff Services Manager I (Specialist)** class — NOT a DDS-specific examiner-supervisor class. SSM-I is excluded from SEIU bargaining (managerial). The SSM-I monthly range was not filled because the only source (the CalHR alpha pay-scale PDF) extracted with garbled/dropped salary columns; figure left null.
 
 ## Union Representation & Bargaining
+- **Union:** SEIU Local 1000, **Bargaining Unit 4 (Office and Allied)**; CBA 2024–2027 (confirmed).
+- Note: a recent CA analyst reclassification (per CAStateWorkers community discussion) maps Analyst I to the SSA pay scale and Analyst II to the AGPA pay scale; this did not change incumbents' pay. This is context only, not used for figures.
 
-### Rank-and-File Examiners
-- **Union:** SEIU Local 1000 (Service Employees International Union Local 1000)
-- **Bargaining Unit:** BU 4 (Office and Allied)
-- **CBA Term:** 2024–2027 contract (per SEIU Local 1000 website, current priorities include 2026 contract negotiations)
-- **Representation:** Covers state civil service classifications in clerical, administrative, and technical roles including DDS examiners
+## Sources (official, retrieved 2026-06-02)
+- Base DEA classification details (current): https://calcareers.ca.gov/CalHrPublic/Exams/ExamBulletin.aspx?ExamControlId=4840 — $3,861–$6,276/mo. Evidence `.firecrawl/CA-exam-deabase.md`.
+- DEA III classification details (current): https://calcareers.ca.gov/CalHrPublic/Exams/ExamBulletin.aspx?ExamControlId=4637 — $6,031–$7,547/mo. Evidence `.firecrawl/CA-exam-dea3.md`.
+- DEA III spec PDF: https://calcareers.ca.gov/JOBSGEN/2BPAK.PDF — evidence `.firecrawl/CA-dea3-spec.md` ($5,684–$7,114, older effective date).
+- Base DEA spec PDF (2023): https://calcareers.ca.gov/JOBSGEN/8BP25.PDF — evidence `.firecrawl/CA-deabase-spec.md` (Range A/B/C).
+- DDSD supervisor (SSM-I) posting: https://calcareers.ca.gov/CalHrPublic/Jobs/JobPostingPrint.aspx?jcid=389392 — evidence `.firecrawl/CA-supervisor-search.json`.
 
-### Sources Consulted
-- SEIU Local 1000 website (seiu1000.org): https://www.seiu1000.org/  
-  — Confirmed ~96,000 CA state workers; BU 4 (Office and Allied) as active unit; 2024–2027 contract documented
+## Remaining gaps / blockers (date 2026-06-02)
+- **DEA II** current standalone monthly range: NOT retrieved. The CalHR hrnet class-spec crossref pages (hrnet.calhr.ca.gov/CalHRNet/SpecCrossReference.aspx) are JS/session-gated and returned empty content; the CalHR alpha pay-scale PDF (PS_Sec_15.pdf) scraped but its table-to-markdown conversion dropped the salary columns. Manual lookup needed.
+- **Supervisor (SSM-I)** monthly range: NOT filled (same alpha-PDF extraction blocker).
 
-## Scheduled Rates (Monthly & Annual)
-
-**STATUS:** DATA NOT YET RETRIEVED — CalHR pay scale documents are inaccessible via web and require direct download or eServices tool access.
-
-### Next Steps (Research Blockers)
-1. **CalHR Direct Access:** Try contacting CalHR directly (https://www.calhr.ca.gov/contact-CalHR/) or downloading pay scale PDFs via alternative method
-2. **Alternate Source:** CA State Controller payroll database (GCC — https://gcc.sco.ca.gov/) requires interactive queries; status 403 during initial fetch
-3. **SEIU Local 1000 Contract:** Contact union directly (seiu1000.org) for 2024–2027 contract terms specific to DEA classifications if CalHR data unavailable
-
-## Research Timeline
-- **Date:** 2026-05-08
-- **Researcher:** Claude Code Agent
-- **Scope:** California Disability Evaluation Analyst (DEA) series — examiner class codes, pay grades, and bargaining unit info
-
----
-
-## Summary of Data Gaps
-- DEA I/II/III class codes (CalHR lookup blocked)
-- Monthly and annual salary schedules (CalHR pay scale PDFs inaccessible)
-- SEIU 2024–2027 contract wage scales for BU 4 (not yet pulled; contract exists but specific DEA rates not accessed)
-- Supervisor class code and pay grade (assumed excluded; verification pending)
-
-**Confidence Level:** LOW — research incomplete due to CalHR website access errors. Data quality cannot be assured without primary source verification.
+## Confidence
+Base DEA and DEA III monthly ranges are AUTHORITATIVE (official CalCareers current classification details). DEA II and supervisor remain unfilled and clearly flagged.

@@ -1,24 +1,25 @@
 {
   "$schema": "../../../../schemas/dataset.meta.schema.json",
   "id": "pay-scales/peer-states/PA/scheduled-rates",
-  "title": "Pennsylvania Disability Examiner Rates (INCOMPLETE — agent-inferred grades, OA schedule pending)",
-  "description": "Pennsylvania DDS examiner/supervisor classifications (Disability Examiner I/II, Medical-Vocational Supervisor) on the PA Standard Compensation (SC) scale, with AGENT-INFERRED, UNVERIFIED pay grades (SC-09 / SC-10 / SC-11–12) and estimated min/max derived from job postings + BLS OEWS. status INCOMPLETE — estimates only: PA OA salary-schedule PDFs require login and the SEIU 668 contract appendix is not directly downloadable. Bargaining context confirmed: SEIU Local 668 Master Agreement 2023-2027.",
+  "title": "Pennsylvania Disability Claims Adjudicator Rates (ST Pay Schedule, eff 2025-07-01)",
+  "description": "Pennsylvania DDS examiner series — Disability Claims Adjudicator Trainee (job code 45070, Pay Scale Group ST06), Disability Claims Adjudicator (45080, ST07), and Disability Claims Adjudicator Supervisor (45140, ST08) — on the PA Standard Pay Schedule (Pay Scale Type ST). Pay-grade assignments and min/max annual salaries (75-hour and 80-hour bases) are verified from the official PA Commonwealth Careers job specifications and expanded pay-information (PayExp) pages. Adjudicators are SEIU Local 668 bargaining unit F4; the supervisor is F5. Dollar figures reflect the current ST schedule effective 2025-07-01.",
   "path": "data/pay-scales/peer-states/PA/scheduled-rates.json",
   "format": "json",
   "unit_of_observation": "classification",
   "columns": [
-    { "name": "classes.<class>.class_code", "type": "string", "description": "PA class code — approximate (≈ 2800/3100 series, not verified)." },
-    { "name": "classes.<class>.pay_grade", "type": "string", "description": "PA Standard Compensation grade — agent-inferred (SC-09/SC-10/SC-11–12), NOT verified." },
-    { "name": "classes.<class>.min_estimated", "type": "number", "unit": "USD", "description": "Estimated annual minimum (job postings + BLS OEWS)." },
-    { "name": "classes.<class>.max_estimated", "type": "number", "unit": "USD", "description": "Estimated annual maximum." },
-    { "name": "classes.<class>.step_count", "type": "string", "description": "Step count (≈ 10, estimated)." }
+    { "name": "classes.<class>.job_code", "type": "string", "description": "Official PA job code (45070/45080/45140)." },
+    { "name": "classes.<class>.pay_scale_group", "type": "string", "description": "PA ST pay scale group (ST06/ST07/ST08), verified from the official job spec." },
+    { "name": "classes.<class>.annual_min", "type": "number", "unit": "USD", "description": "Annual minimum (75-hour basis) for the assigned ST group." },
+    { "name": "classes.<class>.annual_max", "type": "number", "unit": "USD", "description": "Annual maximum (75-hour basis) for the assigned ST group." },
+    { "name": "classes.<class>.annual_min_80hr", "type": "number", "unit": "USD", "description": "Annual minimum at the 80-hour biweekly basis." },
+    { "name": "classes.<class>.annual_max_80hr", "type": "number", "unit": "USD", "description": "Annual maximum at the 80-hour biweekly basis." }
   ],
-  "temporal_coverage": { "start": "2023", "end": "2027" },
+  "temporal_coverage": { "start": "2025-07-01", "end": "2026-06-30" },
   "geographic_coverage": "Pennsylvania",
-  "source": { "publisher": "Pennsylvania Office of Administration (OA) / SEIU Local 668; PA Dept of Labor & Industry (DLI) Bureau of Disability Determination", "title": "PA OA Standard Pay Schedule 2023-2027 (behind login; estimates + agent-inferred grades, 2026-05-08)", "url": "https://www.oa.pa.gov/Business/PCOMP/Documents/2023-2027%20State%20Salary%20Schedule.pdf", "retrieved_at": "2026-05-08" },
-  "confidence_tier": "Browser-fetch pending",
-  "update_cadence": "CBA cycle (SEIU 668 Master Agreement 2023-2027)",
-  "notes": "Browser-fetch pending (file status INCOMPLETE — estimates only; README marks PA with the ◌ agent-inferred glyph): pay grades SC-09/SC-10/SC-11–12 are agent-INFERRED and explicitly unverified against the PA OA schedule, and min/max are job-posting + BLS estimates. PA OA pay-schedule PDFs require login (fetch redirected to HTML) and the SEIU 668 contract appendix is not directly downloadable. SEIU Local 668 Master Agreement 2023-2027 → temporal_coverage. Manual fetch: oa.pa.gov PCOMP (login) or seiu668.org contracts.",
+  "source": { "publisher": "Commonwealth of Pennsylvania (Commonwealth Careers / Office of Administration); PA Dept of Labor & Industry (DLI) Bureau of Disability Determination", "title": "PA Standard Pay Schedule (Pay Scale Type ST) + Disability Claims Adjudicator job specifications, effective 2025-07-01", "url": "https://careers.employment.pa.gov/Schedules/current_ST.pdf", "retrieved_at": "2026-06-02" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "annual ST schedule revision / CBA cycle (SEIU 668)",
+  "notes": "Authoritative: pay-grade assignments (job code → ST pay scale group) and min/max annual salaries verified from the official PA Commonwealth Careers job-spec and PayExp pages (45070 → ST06, 45080 → ST07, 45140 → ST08). Both conditions met (official schedule dollar figures + verified grade mapping from the same official source). 75-hour basis is the standard 37.5 hr/week work week for these F4/F5 classes; 80-hour figures also recorded. Replaces prior agent-inferred SC-grade estimates, which were wrong on the classification system. cba_terms_verified is false (SEIU 668 wage-grid appendix not separately retrieved — not needed, the official ST schedule is authoritative).",
   "related": ["pay-scales/peer-states/PA/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["PA", "agent-inferred", "browser-fetch-pending", "dds", "disability-examiners", "estimate", "pay-scales", "peer-states", "pennsylvania", "seiu-668"]
+  "tags": ["PA", "authoritative", "dds", "disability-claims-adjudicator", "disability-examiners", "pay-scales", "peer-states", "pennsylvania", "seiu-668", "st-schedule"]
 }

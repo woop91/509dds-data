@@ -1,16 +1,16 @@
 {
   "$schema": "../../../../schemas/dataset.meta.schema.json",
   "id": "pay-scales/peer-states/NY/research-notes",
-  "title": "New York DDS Pay-Scale Research Notes (Blocked — cs.ny.gov / PEF schedule pending)",
-  "description": "Narrative research notes for New York DDS pay: administering agency (NY OTDA Division of Disability Determinations), verified Disability Analyst series (Trainee, 1, 2) and supervisor classification, the NY Salary Grade (SG) system (SG 8–27+, ~9 steps), PEF Bargaining Unit 5 (PS&T) CBA (Apr-2023 → Apr-2026, 4% raise eff Apr-2025), and documented data gaps (SG numbers, min/max, step amounts all require cs.ny.gov / PEF schedule access that was paywalled/network-blocked). Companion to NY/scheduled-rates.json.",
+  "title": "New York DDS Pay-Scale Research Notes (Authoritative — Title & Salary Listing + PS&T schedule)",
+  "description": "Narrative research notes for New York DDS pay: administering agency (NY OTDA Division of Disability Determinations), the verified Disability Analyst examiner series (Disability Analyst 2 = SG 20, 3 = SG 23, 4 = SG 25, all PEF/PS&T) and the supervisory Disability Analyst 5 (SG 62, Management/Confidential), with SG assignments from the official NY Title and Salary Listing and Hiring/Job-rate figures from the OER PS&T salary schedule eff 2025-03-27. PEF Bargaining Unit 5 (PS&T) CBA Apr-2023 → Apr-2026. Corrects the prior 'Trainee/Analyst 1' guess (no such current titles). Companion to NY/scheduled-rates.json.",
   "path": "data/pay-scales/peer-states/NY/research-notes.md",
   "format": "md",
-  "temporal_coverage": { "start": "2025-07-01", "end": "2026-04-01" },
+  "temporal_coverage": { "start": "2025-03-27", "end": "2026-04-01" },
   "geographic_coverage": "New York",
-  "source": { "publisher": "NY Department of Civil Service / PEF (Public Employees Federation); NY Office of Temporary and Disability Assistance (OTDA) Division of Disability Determinations", "title": "NY DDS salary research notes (cs.ny.gov + PEF salary schedule access-restricted 2026-05-08)", "url": "https://www.cs.ny.gov/content/salary-schedules", "retrieved_at": "2026-05-08" },
-  "confidence_tier": "Browser-fetch pending",
-  "update_cadence": "annual (PS&T schedule; 4% raise eff 2025-04)",
-  "notes": "Browser-fetch pending: classification titles (Disability Analyst Trainee/1/2), PEF Bargaining Unit 5 (PS&T), and CBA dates are VERIFIED, but SG numbers, min/max salaries, and step amounts are PENDING — cs.ny.gov has an HTML paywall and pef.org/openbook.ny.gov failed to fetch. Schedule eff 2025-07-01, CBA through 2026-04-01 → temporal_coverage. Manual fetch: cs.ny.gov salary schedules or pef.org salary charts.",
+  "source": { "publisher": "NY Office of Employee Relations (OER) / NY Dept of Civil Service / PEF; NY Office of Temporary and Disability Assistance (OTDA) Division of Disability Determinations", "title": "NY DDS salary research notes (Title and Salary Listing t3vp-5tka + OER PS&T salary schedule, retrieved 2026-06-02)", "url": "https://data.ny.gov/es/es/Government-Finance/Title-and-Salary-Listing/t3vp-5tka", "retrieved_at": "2026-06-02" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "annual (PS&T schedule; CBA 2023-04 → 2026-04)",
+  "notes": "Authoritative for the examiner classes: Disability Analyst 2/3/4 SG assignments (SG 20/23/25, PEF) verified from the NY Title and Salary Listing (Open Data NY t3vp-5tka) and Hiring/Job-rate figures from the OER PS&T schedule eff 2025-03-27. Supervisory Disability Analyst 5 is SG 62 (M/C) — M-1 band candidate figures recorded with the SG-62-to-M-1 schedule-row crosswalk flagged unverified. Corrects prior notes: the current NY plan has no Disability Analyst Trainee or Analyst 1.",
   "related": ["pay-scales/peer-states/NY/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["NY", "blocked", "browser-fetch-pending", "dds", "disability-analyst", "new-york", "pay-scales", "peer-states", "pef", "ps-t", "research-notes"]
+  "tags": ["NY", "authoritative", "dds", "disability-analyst", "new-york", "pay-scales", "peer-states", "pef", "ps-t", "research-notes"]
 }

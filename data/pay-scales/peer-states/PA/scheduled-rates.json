@@ -1,56 +1,72 @@
 {
   "state": "PA",
-  "status": "INCOMPLETE — estimates only",
-  "salary_schedule_url": "https://www.oa.pa.gov/Business/PCOMP/Documents/2023-2027%20State%20Salary%20Schedule.pdf",
-  "effective_date": "2026-05-08",
-  "fiscal_year": 2026,
-  "bargaining_status": "SEIU Local 668 (Pennsylvania Social Services Union) — Master Agreement 2023-2027",
-  "step_basis": "annual",
-  "notes": "PA OA salary schedule PDFs are behind authentication barriers; estimates derived from public job postings and BLS OEWS data. Requires official verification against PA OA PCOMP salary schedules and SEIU 668 contract appendix.",
+  "status": "AUTHORITATIVE — official PA Commonwealth Careers job specs + ST pay schedule",
+  "administering_agency": "Pennsylvania Department of Labor & Industry (DLI), Bureau of Disability Determination",
+  "salary_schedule_url": "https://careers.employment.pa.gov/Schedules/current_ST.pdf",
+  "salary_schedule_title": "Commonwealth of Pennsylvania Standard Pay Schedule (Pay Scale Type ST), effective July 1, 2025",
+  "effective_date": "2025-07-01",
+  "fiscal_year": "FY2025-26 (ST schedule eff 2025-07-01)",
+  "bargaining_status": "SEIU Local 668 (Pennsylvania Social Services Union); adjudicators in bargaining unit F4, supervisor in F5",
+  "pay_scale_type": "ST",
+  "step_basis": "annual (PA publishes Minimum/Maximum Annual at 75-hour and 80-hour biweekly bases; 75-hour = 37.5 hr/week standard work week for these classes)",
+  "notes": "All three classes verified against the official PA Commonwealth Careers expanded job specifications (PayExp endpoint), which report the assigned Pay Scale Group and the Minimum/Maximum Annual salary for that group on the ST schedule. Grade assignment (job code -> pay scale group) and the dollar figures both come from the same official source page, so both conditions for Authoritative are met. Dollar figures reflect the ST schedule the PayExp pages currently resolve to (current_ST.pdf, effective 2025-07-01). The Job Specification Effective Date (07/15/2023) is the date the classification/grade assignment last changed, not the salary effective date. PA reports 75-hour and 80-hour annual figures; 75-hour is the standard work week for the F4/F5 bargaining-unit adjudicator series.",
   "classes": {
-    "Disability Examiner I": {
-      "class_code": "≈ PA State Class 2800 series",
-      "pay_grade": "SC-09",
-      "min_estimated": 52000,
-      "max_estimated": 67000,
-      "step_count": "≈ 10",
-      "source": "BLS OEWS SOC 43-4061 + public job postings"
+    "Disability Claims Adjudicator Trainee": {
+      "job_code": "45070",
+      "pay_scale_group": "ST06",
+      "pay_scale_type": "ST",
+      "bargaining_unit": "F4",
+      "annual_min_75hr": 51971,
+      "annual_max_75hr": 79062,
+      "annual_min_80hr": 55436,
+      "annual_max_80hr": 84332,
+      "annual_min": 51971,
+      "annual_max": 79062,
+      "basis": "Authoritative — official PA job spec PayExp page reports Pay Scale Group 06 and the ST06 min/max annual; 75-hour basis used for annual_min/annual_max",
+      "source_url": "https://careers.employment.pa.gov/Home/PayExp?jobCode=45070",
+      "grade_source_url": "https://careers.employment.pa.gov/Home/GetJobNameInfo?jobCode=45070",
+      "effective_date": "2025-07-01"
     },
-    "Disability Examiner II": {
-      "class_code": "≈ PA State Class 2800 series (advanced)",
-      "pay_grade": "SC-10",
-      "min_estimated": 59000,
-      "max_estimated": 76000,
-      "step_count": "≈ 10",
-      "source": "BLS OEWS SOC 43-4061 + peer state scaling"
+    "Disability Claims Adjudicator": {
+      "job_code": "45080",
+      "pay_scale_group": "ST07",
+      "pay_scale_type": "ST",
+      "bargaining_unit": "F4",
+      "annual_min_75hr": 59345,
+      "annual_max_75hr": 90211,
+      "annual_min_80hr": 63301,
+      "annual_max_80hr": 96225,
+      "annual_min": 59345,
+      "annual_max": 90211,
+      "basis": "Authoritative — official PA job spec PayExp page reports Pay Scale Group 07 and the ST07 min/max annual; 75-hour basis used for annual_min/annual_max",
+      "source_url": "https://careers.employment.pa.gov/Home/PayExp?jobCode=45080",
+      "grade_source_url": "https://careers.employment.pa.gov/Home/GetJobNameInfo?jobCode=45080",
+      "effective_date": "2025-07-01"
     },
-    "Medical-Vocational Supervisor": {
-      "class_code": "≈ PA State Class 3100 series",
-      "pay_grade": "SC-11 to SC-12",
-      "min_estimated": 68000,
-      "max_estimated": 88000,
-      "step_count": "≈ 10",
-      "source": "Supervisor-level estimates from peer states (NY, NJ, CT)"
+    "Disability Claims Adjudicator Supervisor": {
+      "job_code": "45140",
+      "pay_scale_group": "ST08",
+      "pay_scale_type": "ST",
+      "bargaining_unit": "F5",
+      "annual_min_75hr": 67736,
+      "annual_max_75hr": 102905,
+      "annual_min_80hr": 72252,
+      "annual_max_80hr": 109766,
+      "annual_min": 67736,
+      "annual_max": 102905,
+      "basis": "Authoritative — official PA job spec PayExp page reports Pay Scale Group 08 and the ST08 min/max annual; 75-hour basis used for annual_min/annual_max",
+      "source_url": "https://careers.employment.pa.gov/Home/PayExp?jobCode=45140",
+      "grade_source_url": "https://careers.employment.pa.gov/Home/GetJobNameInfo?jobCode=45140",
+      "effective_date": "2025-07-01"
     }
   },
-  "fetch_log": [
-    {
-      "url": "https://seiu668.org/contracts-and-constitution/",
-      "timestamp": "2026-05-08T12:00:00Z",
-      "result": "HTML contract page found; no direct downloadable PDF link",
-      "status": "200 OK"
-    },
-    {
-      "url": "https://www.oa.pa.gov/Business/PCOMP/Documents/2023-2027%20State%20Salary%20Schedule.pdf",
-      "timestamp": "2026-05-08T12:00:00Z",
-      "result": "Redirects to HTML error/login page",
-      "status": "200 HTML redirect"
-    }
-  ],
-  "todo": [
-    "Contact PA DLI HR for official Disability Examiner classification + salary schedule",
-    "Request SEIU 668 Master Agreement 2023–2027 appendix (compensation schedule)",
-    "Verify PA OA SC-09 through SC-12 salary ranges via PCOMP or CTHRU system",
-    "Update min/max salary columns with verified amounts"
-  ]
+  "data_quality_flags": {
+    "class_codes_verified": true,
+    "pay_grades_verified": true,
+    "salary_figures_verified": true,
+    "cba_terms_verified": false,
+    "confidence": "high"
+  },
+  "access_blockers": [],
+  "research_date": "2026-06-02"
 }

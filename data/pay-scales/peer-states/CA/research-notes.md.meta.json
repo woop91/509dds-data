@@ -1,15 +1,15 @@
 {
   "$schema": "../../../../schemas/dataset.meta.schema.json",
   "id": "pay-scales/peer-states/CA/research-notes",
-  "title": "California DDS Pay-Scale Research Notes (Blocked — CalHR fetch pending)",
-  "description": "Narrative research notes for California DDS pay: administering agency (CDSS Disability Determination Service Division), the expected Disability Evaluation Analyst (DEA I/II/III) examiner series and supervisor classification, SEIU Local 1000 BU 4 (Office and Allied) 2024-2027 CBA context, and a record of blocked CalHR sources (class-spec database 403/404, pay-scale PDFs redirect to HTML errors, eServices 403). No class codes or salary figures were retrieved. Companion to CA/scheduled-rates.json.",
+  "title": "California DDS Pay-Scale Research Notes (CalCareers; base DEA + DEA III Authoritative)",
+  "description": "Narrative research notes for California DDS pay: administering agency (CDSS Disability Determination Service Division), the Disability Evaluation Analyst (DEA) examiner series with current monthly ranges verified from the official CalCareers classification details (base DEA class 5365 $3,861-$6,276/mo; DEA III class 5367 $6,031-$7,547/mo), the DEA II/supervisor gaps and their blockers (CalHR hrnet crossref JS-gated; alpha pay-scale PDF salary columns dropped), and SEIU Local 1000 BU 4 (Office and Allied) 2024-2027 CBA context. Companion to CA/scheduled-rates.json.",
   "path": "data/pay-scales/peer-states/CA/research-notes.md",
   "format": "md",
   "geographic_coverage": "California",
-  "source": { "publisher": "California Department of Human Resources (CalHR); CA Dept of Social Services (CDSS) Disability Determination Service Division", "title": "CA DDS salary research notes (CalHR class-spec + pay-scale PDFs inaccessible 2026-05-08)", "url": "https://hrnet.calhr.ca.gov/CalHRNet/SpecCrossReference.aspx", "retrieved_at": "2026-05-08" },
-  "confidence_tier": "Browser-fetch pending",
-  "update_cadence": "unknown (pending retrieval)",
-  "notes": "Browser-fetch pending: confidence LOW, research incomplete — CalHR class-spec database (403/404), pay-scale PDFs (HTML-error redirect), and eServices (403) all blocked automated fetch, so DEA class codes and monthly/annual salary schedules were not retrieved. effective_date not available so temporal_coverage is omitted. Only confirmed item: SEIU Local 1000 BU 4 2024-2027 CBA exists. Manual fetch: calhr.ca.gov Pay Scales, seiu1000.org contract, or publicpay.ca.gov.",
+  "source": { "publisher": "California Department of Human Resources (CalHR) / CalCareers; CA Dept of Social Services (CDSS) Disability Determination Service Division", "title": "CA DDS salary research notes (CalCareers DEA classification details, retrieved 2026-06-02)", "url": "https://calcareers.ca.gov/CalHrPublic/Exams/ExamBulletin.aspx?ExamControlId=4840", "retrieved_at": "2026-06-02" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "CalHR pay-scale revisions / CBA cycle (SEIU 1000, 2024-2027)",
+  "notes": "Authoritative for base Disability Evaluation Analyst (class 5365, $3,861-$6,276/mo) and Disability Evaluation Analyst III (class 5367, $6,031-$7,547/mo), from the official CalCareers classification details. PARTIAL: DEA II (journey) current standalone range not retrieved (CalHR hrnet class-spec crossref JS-gated, empty) and the supervisor is the generic Staff Services Manager I (Specialist) class (figure not filled — alpha pay-scale PDF salary columns dropped in extraction). SEIU Local 1000 BU 4 (Office and Allied) 2024-2027.",
   "related": ["pay-scales/peer-states/CA/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["CA", "blocked", "browser-fetch-pending", "california", "dds", "disability-evaluation-analyst", "pay-scales", "peer-states", "research-notes", "seiu-1000"]
+  "tags": ["CA", "authoritative", "california", "calcareers", "dds", "disability-evaluation-analyst", "pay-scales", "peer-states", "research-notes", "seiu-1000"]
 }

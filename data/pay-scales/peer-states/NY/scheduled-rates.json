@@ -1,52 +1,86 @@
 {
   "state": "NY",
-  "salary_schedule_url": "https://www.cs.ny.gov/content/salary-schedules",
-  "schedule_notes": "Official PS&T Unit salary schedule effective July 1, 2025. Data pending direct access to NY Department of Civil Service and PEF salary tables.",
-  "effective_date": "2025-07-01",
-  "fiscal_year": "2025-2026",
-  "bargaining_unit": "PEF Bargaining Unit 5 — Professional, Scientific & Technical (PS&T)",
-  "bargaining_status": "Collective Bargaining Agreement April 2, 2023 – April 1, 2026 (4% annual raise effective April 2025)",
-  "step_basis": "annual",
-  "step_count": 9,
-  "pef_contract_url": "https://pef.org/",
-  "grades": {
-    "SG_TBD_Trainee": {
-      "title": "Disability Analyst (Trainee)",
-      "min": "TBD",
-      "max": "TBD",
-      "steps": 9,
-      "notes": "Entry-level classification; exact SG number pending access to official salary schedule"
+  "status": "AUTHORITATIVE (examiner classes) — NY Title & Salary Listing + OER PS&T salary schedule",
+  "administering_agency": "New York Office of Temporary and Disability Assistance (OTDA), Division of Disability Determinations (DDD)",
+  "salary_schedule_url": "https://oer.ny.gov/system/files/documents/2024/01/pef-salary-schedules-2023-2026-final_0.pdf",
+  "salary_schedule_title": "PS&T (Professional, Scientific & Technical) Unit Salary Schedule, effective March 27, 2025 (Admin)",
+  "title_plan_source_url": "https://data.ny.gov/resource/t3vp-5tka.json (NY Title and Salary Listing, Open Data NY)",
+  "effective_date": "2025-03-27",
+  "fiscal_year": "FY2025-26 (PS&T schedule eff 2025-03-27 Admin / 2025-04-03 Inst)",
+  "bargaining_status": "PEF Bargaining Unit 5 — Professional, Scientific & Technical (PS&T); CBA April 2, 2023 – April 1, 2026. Examiner titles (Disability Analyst 2/3/4) are PEF/PS&T; the supervisory title (Disability Analyst 5) is Management/Confidential (M/C), not PEF.",
+  "step_basis": "annual (NY publishes Hiring Rate (step 1) and Job Rate (top step); ~7 steps between)",
+  "notes": "Title-to-salary-grade (SG) assignments verified from the official NY Title and Salary Listing (Open Data NY dataset t3vp-5tka). Dollar figures for the PEF examiner titles (SG 20/23/25) come from the official OER PS&T salary schedule effective 2025-03-27. IMPORTANT CORRECTIONS to prior notes: the current NY plan has NO 'Disability Analyst 1' or 'Disability Analyst Trainee' title; the examiner series is Disability Analyst 2 (entry), 3, and 4. The first-line supervisory class is Disability Analyst 5 (SG 62, M/C group). Hiring Rate = step 1 (minimum), Job Rate = top step (maximum).",
+  "classes": {
+    "Disability Analyst 2": {
+      "title_code": "6884200",
+      "salary_grade": "SG 20",
+      "bargaining_unit": "PEF / PS&T (Unit 05)",
+      "annual_min": 74193,
+      "annual_max": 94121,
+      "min_label": "Hiring Rate",
+      "max_label": "Job Rate",
+      "basis": "Authoritative — SG 20 verified from NY Title & Salary Listing; min/max are SG 20 Hiring/Job rates on the PS&T schedule eff 2025-03-27",
+      "grade_source_url": "https://data.ny.gov/resource/t3vp-5tka.json?$where=upper(title_name)%20like%20%27%25DISABILITY%20ANALYST%25%27",
+      "salary_source_url": "https://oer.ny.gov/system/files/documents/2024/01/pef-salary-schedules-2023-2026-final_0.pdf",
+      "effective_date": "2025-03-27"
     },
-    "SG_TBD_Level1": {
-      "title": "Disability Analyst 1",
-      "min": "TBD",
-      "max": "TBD",
-      "steps": 9,
-      "notes": "Permanent competitive class; typically 1-2 years experience required"
+    "Disability Analyst 3": {
+      "title_code": "6884300",
+      "salary_grade": "SG 23",
+      "bargaining_unit": "PEF / PS&T (Unit 05)",
+      "annual_min": 86681,
+      "annual_max": 109650,
+      "min_label": "Hiring Rate",
+      "max_label": "Job Rate",
+      "basis": "Authoritative — SG 23 verified from NY Title & Salary Listing; min/max are SG 23 Hiring/Job rates on the PS&T schedule eff 2025-03-27",
+      "grade_source_url": "https://data.ny.gov/resource/t3vp-5tka.json?$where=upper(title_name)%20like%20%27%25DISABILITY%20ANALYST%25%27",
+      "salary_source_url": "https://oer.ny.gov/system/files/documents/2024/01/pef-salary-schedules-2023-2026-final_0.pdf",
+      "effective_date": "2025-03-27"
     },
-    "SG_TBD_Level2": {
-      "title": "Disability Analyst 2",
-      "min": "TBD",
-      "max": "TBD",
-      "steps": 9,
-      "notes": "Advanced responsibility tier"
+    "Disability Analyst 4": {
+      "title_code": "6884400",
+      "salary_grade": "SG 25",
+      "bargaining_unit": "PEF / PS&T (Unit 05)",
+      "annual_min": 96336,
+      "annual_max": 121413,
+      "min_label": "Hiring Rate",
+      "max_label": "Job Rate",
+      "basis": "Authoritative — SG 25 verified from NY Title & Salary Listing; min/max are SG 25 Hiring/Job rates on the PS&T schedule eff 2025-03-27",
+      "grade_source_url": "https://data.ny.gov/resource/t3vp-5tka.json?$where=upper(title_name)%20like%20%27%25DISABILITY%20ANALYST%25%27",
+      "salary_source_url": "https://oer.ny.gov/system/files/documents/2024/01/pef-salary-schedules-2023-2026-final_0.pdf",
+      "effective_date": "2025-03-27"
     },
-    "SG_TBD_Supervisor": {
-      "title": "Disability Analyst Supervisor / Supervising Disability Analyst",
-      "min": "TBD",
-      "max": "TBD",
-      "steps": 9,
-      "notes": "First-line supervisory classification; exact title and SG number pending verification"
+    "Disability Analyst 5 (supervisor)": {
+      "title_code": "6884500",
+      "salary_grade": "SG 62 (Management/Confidential group)",
+      "bargaining_unit": "Management/Confidential (M/C) — NOT PEF",
+      "annual_min": 93659,
+      "annual_max": 118388,
+      "min_label": "Hiring Rate (M-1 candidate row)",
+      "max_label": "Job Rate (M-1 candidate row)",
+      "basis": "grade assignment VERIFIED (Disability Analyst 5 = SG 62, M/C, per NY Title & Salary Listing); M/C SCHEDULE ROW PARTIALLY UNVERIFIED — the published M/C schedule lists rows 'M/C 3'..'M/C 23' then 'M 1'..'M 8' and does not print a row literally labeled '62'. Per NY's documented M/C convention SG 62 maps to the M-1 band (OSC PayServ manual: 'M/C grades 661 (M1) and higher'), so the M-1 Hiring/Job rates ($93,659/$118,388 eff 2025-04) are the candidate figures, but an explicit published SG-62-to-M-1 crosswalk was not located. Treat this row as a candidate, not fully authoritative.",
+      "grade_source_url": "https://data.ny.gov/resource/t3vp-5tka.json?$where=upper(title_name)%20like%20%27%25DISABILITY%20ANALYST%25%27",
+      "salary_source_url": "https://www.osc.ny.gov/files/state-agencies/payroll-bulletins/pdf/2349-april-2025-mc-salary-schedule-attachment.pdf",
+      "effective_date": "2025-04 (M/C schedule)"
     }
   },
-  "data_collection_status": {
-    "classification_titles": "VERIFIED",
-    "bargaining_unit": "VERIFIED",
-    "cba_dates": "VERIFIED",
-    "salary_grade_numbers": "PENDING",
-    "min_max_salaries": "PENDING",
-    "step_progression": "PENDING"
+  "pst_salary_schedule_2025": {
+    "effective_date": "2025-03-27 (Admin) / 2025-04-03 (Inst)",
+    "source_url": "https://oer.ny.gov/system/files/documents/2024/01/pef-salary-schedules-2023-2026-final_0.pdf",
+    "grades_used": {
+      "SG20": { "hiring_rate": 74193, "job_rate": 94121 },
+      "SG23": { "hiring_rate": 86681, "job_rate": 109650 },
+      "SG25": { "hiring_rate": 96336, "job_rate": 121413 }
+    }
   },
-  "research_date": "2026-05-08",
-  "research_notes": "Salary data collection was attempted via NY Department of Civil Service and PEF salary schedule repositories but encountered access restrictions (HTML paywall, network connectivity). Job title, bargaining unit, and CBA information verified from public civil service records and PEF contract documentation. Complete salary schedules must be obtained directly from NY Department of Civil Service (cs.ny.gov) or PEF (pef.org)."
+  "data_quality_flags": {
+    "classification_titles_verified": true,
+    "salary_grade_numbers_verified": true,
+    "examiner_salary_figures_verified": true,
+    "supervisor_schedule_row_verified": false,
+    "cba_terms_verified": true,
+    "confidence": "high"
+  },
+  "access_blockers": [],
+  "research_date": "2026-06-02"
 }

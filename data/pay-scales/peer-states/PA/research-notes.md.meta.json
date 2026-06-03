@@ -1,16 +1,16 @@
 {
   "$schema": "../../../../schemas/dataset.meta.schema.json",
   "id": "pay-scales/peer-states/PA/research-notes",
-  "title": "Pennsylvania DDS Pay-Scale Research Notes (Blocked — OA schedule / SEIU 668 appendix pending)",
-  "description": "Narrative research notes for Pennsylvania DDS pay: administering agency (PA DLI Bureau of Disability Determination), examiner classes on the Standard Compensation (SC) scale (Disability Examiner Trainee SC-08 / I SC-09 / II SC-09–10) and supervisor (Medical-Vocational Supervisor SC-11–12), all pay grades AGENT-INFERRED/unverified, estimated ranges from job postings + BLS OEWS, SEIU Local 668 Master Agreement 2023-2027 context, a fetch-attempt log (OA PDFs login-walled, SEIU 668 no direct PDF), and next steps. Companion to PA/scheduled-rates.json.",
+  "title": "Pennsylvania DDS Pay-Scale Research Notes (Authoritative — ST schedule + official job specs)",
+  "description": "Narrative research notes for Pennsylvania DDS pay: administering agency (PA DLI Bureau of Disability Determination), the verified Disability Claims Adjudicator examiner series on the PA Standard Pay Schedule (Pay Scale Type ST) — Trainee (job code 45070, ST06), Adjudicator (45080, ST07), Supervisor (45140, ST08) — with the official job-code-to-pay-group mapping and the min/max annual salaries (75-hour and 80-hour bases) retrieved from the PA Commonwealth Careers job-spec and PayExp pages. SEIU Local 668 (units F4/F5) bargaining context. Companion to PA/scheduled-rates.json.",
   "path": "data/pay-scales/peer-states/PA/research-notes.md",
   "format": "md",
-  "temporal_coverage": { "start": "2023", "end": "2027" },
+  "temporal_coverage": { "start": "2025-07-01", "end": "2026-06-30" },
   "geographic_coverage": "Pennsylvania",
-  "source": { "publisher": "Pennsylvania Office of Administration (OA) / SEIU Local 668; PA Dept of Labor & Industry (DLI) Bureau of Disability Determination", "title": "PA DDS salary research notes (OA Standard Pay Schedule login-walled; SC grades agent-inferred 2026-05-08)", "url": "https://www.oa.pa.gov/Business/PCOMP/Documents/2023-2027%20State%20Salary%20Schedule.pdf", "retrieved_at": "2026-05-08" },
-  "confidence_tier": "Browser-fetch pending",
-  "update_cadence": "CBA cycle (SEIU 668 Master Agreement 2023-2027)",
-  "notes": "Browser-fetch pending (README marks PA with the ◌ agent-inferred glyph): pay grades SC-08/SC-09/SC-10/SC-11–12 are agent-INFERRED and explicitly flagged INCOMPLETE/unverified against the PA OA Standard Pay Schedule, and the ranges are job-posting + BLS estimates. PA OA pay-schedule PDFs require login and the SEIU 668 contract appendix had no direct download. SEIU Local 668 Master Agreement 2023-2027 → temporal_coverage. Manual fetch: oa.pa.gov PCOMP (login), seiu668.org, or PA SCMS.",
+  "source": { "publisher": "Commonwealth of Pennsylvania (Commonwealth Careers / Office of Administration); PA Dept of Labor & Industry (DLI) Bureau of Disability Determination", "title": "PA DDS salary research notes (ST pay schedule + Disability Claims Adjudicator job specs, retrieved 2026-06-02)", "url": "https://careers.employment.pa.gov/Schedules/current_ST.pdf", "retrieved_at": "2026-06-02" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "annual ST schedule revision / CBA cycle (SEIU 668)",
+  "notes": "Authoritative: the Disability Claims Adjudicator series job codes (45070/45080/45140), their ST pay-scale-group assignments (ST06/ST07/ST08), and the min/max annual salaries were retrieved from the official PA Commonwealth Careers job-spec and PayExp pages on 2026-06-02. ST schedule effective 2025-07-01. Replaces prior agent-inferred SC-grade estimates (which were wrong on the classification system). SEIU Local 668 units F4 (adjudicators) / F5 (supervisor).",
   "related": ["pay-scales/peer-states/PA/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["PA", "agent-inferred", "browser-fetch-pending", "dds", "disability-examiners", "pay-scales", "peer-states", "pennsylvania", "research-notes", "seiu-668"]
+  "tags": ["PA", "authoritative", "dds", "disability-claims-adjudicator", "disability-examiners", "pay-scales", "peer-states", "pennsylvania", "research-notes", "seiu-668", "st-schedule"]
 }

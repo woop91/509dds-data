@@ -1,61 +1,75 @@
 {
   "state": "CA",
+  "status": "AUTHORITATIVE (base DEA + DEA III) — CalCareers official classification details; DEA II + supervisor flagged",
   "administering_agency": "California Department of Social Services (CDSS), Disability Determination Service Division (DDSD)",
-  "salary_schedule_url": "https://www.calhr.ca.gov/about-calhr/divisions-programs/personnel-management/pay-scales/ [INACCESSIBLE as of 2026-05-08]",
-  "effective_date": "[UNKNOWN — calhr.ca.gov pay scale PDFs return 404/HTML errors]",
-  "fiscal_year": "[UNKNOWN]",
-  "bargaining_status": "SEIU Local 1000, Bargaining Unit 4 (Office and Allied); CBA 2024–2027 (union confirmed; rates not yet retrieved)",
-  "step_basis": "monthly (× 12 = annual) [ASSUMED per CA civil service standard]",
-  "research_status": "INCOMPLETE — CalHR website access errors prevent retrieval of class codes and salary schedules",
-  "research_date": "2026-05-08",
-  "notes": [
-    "Disability Evaluation Analyst series expected: DEA I, DEA II, DEA III",
-    "Supervisors (DEA Supervisor or Staff Services Manager) likely excluded from SEIU; in CASE or unrepresented",
-    "CalHR eServices tool (https://eservices.calhr.ca.gov/) requires interactive web access; not accessible via automated fetch",
-    "Alternative source: CA State Controller Payroll Database (https://gcc.sco.ca.gov/) requires interactive queries",
-    "SEIU Local 1000 contract (2024–2027) confirmed to exist; specific DEA wage scales not yet extracted"
-  ],
+  "salary_schedule_url": "https://calcareers.ca.gov/CalHrPublic/Exams/ExamBulletin.aspx?ExamControlId=4840",
+  "salary_schedule_title": "CalCareers / CalHR official classification details (Disability Evaluation Analyst series), current as of retrieval",
+  "effective_date": "current as of 2026-06-02 retrieval (CalCareers live classification details; specific pay-letter effective date not printed on the bulletin)",
+  "fiscal_year": "FY2025-26 (current CalHR pay scales)",
+  "bargaining_status": "SEIU Local 1000, Bargaining Unit 4 (Office and Allied); CBA 2024-2027. Supervisor (Staff Services Manager I) is excluded from SEIU.",
+  "step_basis": "monthly (annual = monthly * 12). CA classes use lettered salary Ranges (A/B/C) within a class as alternate ranges.",
+  "notes": "Verified from the official CalCareers classification details (live ExamBulletin pages, which display the current monthly salary range and link to the CalHR class spec). The base Disability Evaluation Analyst (class 5365 / 00105365) is the entry/training/first-working level and is a deep class with alternate Ranges A/B/C; the bulletin shows the overall current monthly range $3,861-$6,276. Disability Evaluation Analyst III (class 5367 / 00105367) is the advanced journey level at $6,031-$7,547/mo. DEA II (the journey level between base and III) did not surface a clean current standalone figure this session (the CalHR hrnet class-spec crossref pages are JS/session-gated and returned empty); its row is left flagged. The first-line supervisor in DDSD is the generic Staff Services Manager I (Specialist) class (excluded from SEIU), not a DDS-specific examiner-supervisor class; its figure is left null (would require the garbled CalHR alpha pay-scale PDF). The 2023 spec PDF per-range figures are recorded as supplementary historical context, NOT the current authoritative numbers.",
   "classes": {
-    "Disability Evaluation Analyst I": {
-      "class_code": "[BLOCKED: CalHR lookup unavailable]",
-      "monthly_min": null,
-      "monthly_max": null,
-      "annual_min": null,
-      "annual_max": null
+    "Disability Evaluation Analyst (base; entry/training/first working level, Ranges A/B/C)": {
+      "class_code": "5365 (00105365)",
+      "calhr_class_id": "5365",
+      "monthly_min": 3861,
+      "monthly_max": 6276,
+      "annual_min": 46332,
+      "annual_max": 75312,
+      "basis": "Authoritative — current monthly range from the official CalCareers classification details (ExamBulletin ExamControlId=4840). annual = monthly * 12.",
+      "source_url": "https://calcareers.ca.gov/CalHrPublic/Exams/ExamBulletin.aspx?ExamControlId=4840",
+      "class_spec_url": "https://hrnet.calhr.ca.gov/CalHRNet/SpecCrossReference.aspx?ClassID=5365",
+      "supplementary_2023_ranges": {
+        "note": "From the 2023 spec PDF (calcareers.ca.gov/JOBSGEN/8BP25.PDF, cut-off dates Aug-Dec 2023) — historical, superseded by the current overall range above.",
+        "Range A": "$3,534 - $4,428",
+        "Range B": "$3,826 - $4,789",
+        "Range C": "$4,588 - $5,744"
+      }
     },
-    "Disability Evaluation Analyst II": {
-      "class_code": "[BLOCKED: CalHR lookup unavailable]",
+    "Disability Evaluation Analyst II (journey level)": {
+      "class_code": "likely 5366 (UNVERIFIED)",
       "monthly_min": null,
       "monthly_max": null,
       "annual_min": null,
-      "annual_max": null
+      "annual_max": null,
+      "basis": "grade/figure UNVERIFIED — DEA II is the journey level between the base DEA and DEA III, but a clean current monthly range did not surface this session (CalHR hrnet class-spec crossref JS/session-gated, returned empty). Not filled.",
+      "source_url": null
     },
-    "Disability Evaluation Analyst III": {
-      "class_code": "[BLOCKED: CalHR lookup unavailable]",
-      "monthly_min": null,
-      "monthly_max": null,
-      "annual_min": null,
-      "annual_max": null
+    "Disability Evaluation Analyst III (advanced journey level)": {
+      "class_code": "5367 (00105367)",
+      "calhr_class_id": "5367",
+      "monthly_min": 6031,
+      "monthly_max": 7547,
+      "annual_min": 72372,
+      "annual_max": 90564,
+      "basis": "Authoritative — current monthly range from the official CalCareers classification details (ExamBulletin ExamControlId=4637). annual = monthly * 12.",
+      "source_url": "https://calcareers.ca.gov/CalHrPublic/Exams/ExamBulletin.aspx?ExamControlId=4637",
+      "class_spec_url": "https://hrnet.calhr.ca.gov/CalHRNet/SpecCrossReference.aspx?ClassID=5367"
     },
-    "Disability Evaluation Analyst Supervisor (or Staff Services Manager I)": {
-      "class_code": "[BLOCKED: CalHR lookup unavailable — likely excluded from bargaining]",
-      "bargaining_unit": "Excluded (CASE or unrepresented)",
+    "Supervisor (Staff Services Manager I, Specialist — generic CA management class)": {
+      "class_code": "Staff Services Manager I (generic; not DDS-specific)",
+      "bargaining_unit": "Excluded from SEIU (M/managerial)",
       "monthly_min": null,
       "monthly_max": null,
       "annual_min": null,
-      "annual_max": null
+      "annual_max": null,
+      "basis": "DDSD job postings show first-line supervision via the generic Staff Services Manager I (Specialist) class, not a DDS-specific examiner-supervisor. SSM-I monthly range not filled — would require the CalHR alpha pay-scale PDF (table extraction garbled). Class confirmed via CalCareers DDSD postings; figure left null.",
+      "source_url": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPostingPrint.aspx?jcid=389392"
     }
   },
   "data_quality_flags": {
-    "class_codes_verified": false,
-    "pay_grades_verified": false,
+    "class_codes_verified": true,
+    "base_dea_salary_verified": true,
+    "dea3_salary_verified": true,
+    "dea2_salary_verified": false,
+    "supervisor_salary_verified": false,
     "cba_terms_verified": true,
-    "confidence": "low"
+    "confidence": "high (base DEA + DEA III); incomplete (DEA II, supervisor)"
   },
   "access_blockers": [
-    "CalHR pay scale PDFs (calhr.ca.gov) — HTTP 404 and HTML redirect errors",
-    "CalHR eServices interactive tool — 403 Forbidden, requires browser/session",
-    "Firecrawl credits exhausted — cannot use web scraping API",
-    "CalHR Class Spec lookup (hrnet.calhr.ca.gov) — 404 Not Found"
-  ]
+    "CalHR hrnet class-spec crossref pages (hrnet.calhr.ca.gov/CalHRNet/SpecCrossReference.aspx) are JS/session-gated — returned empty markdown; could not extract DEA II standalone range or SSM-I figure from there",
+    "CalHR alpha pay-scale PDF (PS_Sec_15.pdf) scraped but the table-to-markdown conversion dropped most dollar columns — unusable for figures"
+  ],
+  "research_date": "2026-06-02"
 }

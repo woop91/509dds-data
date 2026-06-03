@@ -86,3 +86,40 @@ def load_artifact(out_dir: Path):
     manifest = json.loads((out_dir / "manifest.json").read_text(encoding="utf-8"))
     vecs = unpack((out_dir / "index.bin").read_bytes(), manifest["dim"])
     return vecs, manifest
+
+
+def check(cards, out_dir=OUT_DIR, embedder=embed_texts, atol=1e-5):
+    """Return list of artifact files that a rebuild would change ([] = up to date)."""
+    new_vecs, new_manifest = build(cards, embedder=embedder)
+    changed = []
+    if not (out_dir / "index.bin").exists() or not (out_dir / "manifest.json").exists():
+        return ["index.bin", "manifest.json"]
+    old_vecs, old_manifest = load_artifact(out_dir)
+    if old_vecs.shape != new_vecs.shape or not np.allclose(old_vecs, new_vecs, atol=atol):
+        changed.append("index.bin")
+    # compare manifest ignoring the float vectors (compared above)
+    if json.dumps(old_manifest, sort_keys=True) != json.dumps(new_manifest, sort_keys=True):
+        if "manifest.json" not in changed:
+            changed.append("manifest.json")
+    return changed
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--check", action="store_true", help="exit 1 if the artifact would change")
+    args = ap.parse_args()
+    cards = load_cards()
+    if args.check:
+        changed = check(cards, OUT_DIR)
+        if changed:
+            print(f"OUT OF DATE: {', '.join(changed)} — run scripts/build_embeddings.py")
+            sys.exit(1)
+        print(f"up to date ({len(cards)} cards embedded)")
+        return
+    vecs, manifest = build(cards)
+    write_artifact(vecs, manifest, OUT_DIR)
+    print(f"wrote embeddings/index.bin + manifest.json ({manifest['count']} vectors, dim {DIM})")
+
+
+if __name__ == "__main__":
+    main()

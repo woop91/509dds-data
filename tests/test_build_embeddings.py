@@ -53,3 +53,15 @@ def test_write_then_load_artifact_roundtrips(tmp_path):
     assert np.array_equal(loaded_vecs, vecs)
     assert loaded_manifest["count"] == 2
     assert loaded_manifest["vectors"][1]["id"] == "b"
+
+
+def test_check_clean_then_detects_drift(tmp_path):
+    cards = _cards()
+    vecs, manifest = be.build(cards, embedder=_stub)
+    be.write_artifact(vecs, manifest, tmp_path)
+    # clean: rebuild matches committed artifact
+    assert be.check(cards, tmp_path, embedder=_stub) == []
+    # drift: a card's text changes -> stub yields a different axis -> changed
+    cards[0][1]["description"] = "first edited longer description text"
+    changed = be.check(cards, tmp_path, embedder=_stub)
+    assert "index.bin" in changed

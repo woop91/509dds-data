@@ -8,9 +8,9 @@
   "unit_of_observation": "hearing office (current-period snapshot)",
   "row_count": 165,
   "columns": [
-    { "name": "Site Code", "type": "string", "description": "Internal SSA office identifier / hearing-site unique ID (e.g. 'T1P' = Akron OH; OHO field HO_CODE)." },
-    { "name": "Hearing Office", "type": "string", "description": "Hearing office name." },
-    { "name": "Hearing Office Times in Months", "type": "number", "unit": "months", "description": "Average wait from request-for-hearing to hearing held, current period (HO_TIMES, days/30)." }
+    { "name": "Site Code", "type": "string", "description": "Internal SSA office identifier / hearing-site unique ID (e.g. 'T1P' = Akron OH; OHO field HO_CODE).", "distinct_count": 165, "sample_values": ["T1P", "X37", "X12", "X14", "Y13"] },
+    { "name": "Hearing Office", "type": "string", "description": "Hearing office name.", "distinct_count": 165, "sample_values": ["AKRON OH", "ALBANY", "ALBUQUERQUE", "ALEXANDRIA", "ATLANTA DOWNTOWN"] },
+    { "name": "Hearing Office Times in Months", "type": "number", "unit": "months", "description": "Average wait from request-for-hearing to hearing held, current period (HO_TIMES, days/30).", "distinct_count": 13, "min": 6, "max": 21, "sample_values": [6, 6.5, 7, 7.5, 8] }
   ],
   "temporal_coverage": { "start": "2024", "end": "2025" },
   "geographic_coverage": "United States (hearing offices nationwide)",

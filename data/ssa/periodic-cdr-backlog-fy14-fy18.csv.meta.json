@@ -8,12 +8,12 @@
   "unit_of_observation": "fiscal year (national total)",
   "row_count": 5,
   "columns": [
-    { "name": "FISCAL YEAR", "type": "integer", "description": "Federal fiscal year (Oct–Sep)." },
-    { "name": "OASDI-TITLE II", "type": "integer", "unit": "cases", "description": "Backlogged Title II (OASDI) periodic CDR cases." },
-    { "name": "SSI-TITLE XVI ADULT", "type": "integer", "unit": "cases", "description": "Backlogged Title XVI (SSI) adult periodic CDR cases." },
-    { "name": "SSI-TITLE XVI LOW BIRTH WEIGHT", "type": "integer", "unit": "cases", "description": "Backlogged Title XVI low-birth-weight infant CDR cases." },
-    { "name": "SSI-TITLE XVI OTHER CHILDREN", "type": "integer", "unit": "cases", "description": "Backlogged Title XVI other-children CDR cases." },
-    { "name": "TOTAL BACKLOG", "type": "integer", "unit": "cases", "description": "Sum of the four program columns for the fiscal year." }
+    { "name": "FISCAL YEAR", "type": "integer", "description": "Federal fiscal year (Oct–Sep).", "distinct_count": 5, "min": 2014, "max": 2018, "sample_values": [2014, 2015, 2016, 2017, 2018] },
+    { "name": "OASDI-TITLE II", "type": "integer", "unit": "cases", "description": "Backlogged Title II (OASDI) periodic CDR cases.", "distinct_count": 5, "sample_values": [] },
+    { "name": "SSI-TITLE XVI ADULT", "type": "integer", "unit": "cases", "description": "Backlogged Title XVI (SSI) adult periodic CDR cases.", "distinct_count": 5, "sample_values": [] },
+    { "name": "SSI-TITLE XVI LOW BIRTH WEIGHT", "type": "integer", "unit": "cases", "description": "Backlogged Title XVI low-birth-weight infant CDR cases.", "distinct_count": 4, "min": 0, "max": 508, "sample_values": [0, 508] },
+    { "name": "SSI-TITLE XVI OTHER CHILDREN", "type": "integer", "unit": "cases", "description": "Backlogged Title XVI other-children CDR cases.", "distinct_count": 5, "sample_values": [] },
+    { "name": "TOTAL BACKLOG", "type": "integer", "unit": "cases", "description": "Sum of the four program columns for the fiscal year.", "distinct_count": 5, "sample_values": [] }
   ],
   "temporal_coverage": { "start": "FY2014", "end": "FY2018" },
   "geographic_coverage": "United States (national total)",

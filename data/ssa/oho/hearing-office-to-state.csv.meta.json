@@ -8,8 +8,8 @@
   "unit_of_observation": "hearing office",
   "row_count": 167,
   "columns": [
-    { "name": "Office", "type": "string", "description": "OHO hearing office name (e.g. 'AKRON OH'). Includes NHC = National Hearing Center (virtual) and SPECIAL = Special Review Cadre (virtual workgroup)." },
-    { "name": "State", "type": "string", "description": "Two-letter state code of the office's physical site (NHC/SPECIAL have no geographic home)." }
+    { "name": "Office", "type": "string", "description": "OHO hearing office name (e.g. 'AKRON OH'). Includes NHC = National Hearing Center (virtual) and SPECIAL = Special Review Cadre (virtual workgroup).", "distinct_count": 167, "sample_values": ["AKRON OH", "ALBANY", "ALBUQUERQUE", "ALEXANDRIA", "ATLANTA DOWNTOWN"] },
+    { "name": "State", "type": "string", "description": "Two-letter state code of the office's physical site (NHC/SPECIAL have no geographic home).", "distinct_count": 49, "sample_values": ["OH", "NY", "NM", "VA", "GA"] }
   ],
   "geographic_coverage": "United States (hearing offices nationwide)",
   "source": {

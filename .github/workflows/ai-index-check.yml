@@ -15,3 +15,4 @@ jobs:
       - run: python scripts/validate_catalog.py --strict
       - run: python scripts/build_catalog.py --check
       - run: python scripts/build_embeddings.py --check
+      - run: python scripts/compute_value_stats.py --check

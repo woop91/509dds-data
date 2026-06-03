@@ -6,14 +6,15 @@
   "path": "data/ssa/periodic-cdr-fy13-fy22.csv",
   "format": "csv",
   "unit_of_observation": "fiscal year × program-involvement category (national)",
+  "row_count": 180,
   "columns": [
-    { "name": "FISCAL YEAR", "type": "integer", "description": "Federal fiscal year." },
-    { "name": "PROGRAM INVOLVEMENT", "type": "string", "description": "Hierarchical category label. Includes section headers (I. Periodic CDRs initiated centrally; II. Other Periodic CDRs; III. Administrative Closures), roll-up rows (Total Title II, Total Title XVI Only, TOTAL) and leaf rows (Disabled workers, Auxiliaries and survivors, Disabled adults/children, Low birth weight, Age 18 redeterminations, Other SSI children). DO NOT sum leaf + roll-up rows together." },
-    { "name": "TOTAL CDRS PROCESSED", "type": "integer", "unit": "cases", "description": "Total periodic CDRs processed for the category." },
-    { "name": "MAILERS ONLY", "type": "integer", "unit": "cases", "description": "CDRs resolved via mailer questionnaire only (no full medical review)." },
-    { "name": "INITIAL FIELD OFFICE FTC TERMINATIONS *", "type": "integer", "unit": "cases", "description": "Failure-to-cooperate terminations initiated by the field office (* SSA footnote)." },
-    { "name": "FULL MEDICAL REVIEWS (FMRS)", "type": "integer", "unit": "cases", "description": "CDRs decided via full medical review." },
-    { "name": "INITIAL CESSATIONS (FMRS)", "type": "integer", "unit": "cases", "description": "Initial benefit cessations resulting from full medical reviews." }
+    { "name": "FISCAL YEAR", "type": "integer", "description": "Federal fiscal year.", "distinct_count": 10, "min": 2013, "max": 2022, "sample_values": [2013, 2014, 2015, 2016, 2017] },
+    { "name": "PROGRAM INVOLVEMENT", "type": "string", "description": "Hierarchical category label. Includes section headers (I. Periodic CDRs initiated centrally; II. Other Periodic CDRs; III. Administrative Closures), roll-up rows (Total Title II, Total Title XVI Only, TOTAL) and leaf rows (Disabled workers, Auxiliaries and survivors, Disabled adults/children, Low birth weight, Age 18 redeterminations, Other SSI children). DO NOT sum leaf + roll-up rows together.", "distinct_count": 16, "sample_values": ["I. Periodic CDRs (initiated centrally)", "Total Title II", "Title II Only", "Disabled workers", "Auxiliaries and survivors"] },
+    { "name": "TOTAL CDRS PROCESSED", "type": "integer", "unit": "cases", "description": "Total periodic CDRs processed for the category.", "distinct_count": 170, "sample_values": [] },
+    { "name": "MAILERS ONLY", "type": "integer", "unit": "cases", "description": "CDRs resolved via mailer questionnaire only (no full medical review).", "distinct_count": 91, "min": 0, "max": 0, "sample_values": [0] },
+    { "name": "INITIAL FIELD OFFICE FTC TERMINATIONS *", "type": "integer", "unit": "cases", "description": "Failure-to-cooperate terminations initiated by the field office (* SSA footnote).", "distinct_count": 160, "min": 0, "max": 985, "sample_values": [0, 50, 56, 78, 79] },
+    { "name": "FULL MEDICAL REVIEWS (FMRS)", "type": "integer", "unit": "cases", "description": "CDRs decided via full medical review.", "distinct_count": 170, "sample_values": [] },
+    { "name": "INITIAL CESSATIONS (FMRS)", "type": "integer", "unit": "cases", "description": "Initial benefit cessations resulting from full medical reviews.", "distinct_count": 158, "min": 0, "max": 852, "sample_values": [0, 852] }
   ],
   "temporal_coverage": { "start": "FY2013", "end": "FY2022" },
   "geographic_coverage": "United States (national)",

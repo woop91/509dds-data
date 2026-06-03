@@ -6,10 +6,11 @@
   "path": "data/ssa/cdp-time-monthly-fy08-fy15.csv",
   "format": "csv",
   "unit_of_observation": "fiscal-year month (national)",
+  "row_count": 104,
   "columns": [
-    { "name": "Fiscal Year", "type": "string", "description": "Fiscal year label (e.g. 'FY - 2008'); subtotal rows use the 'Total Average' suffix." },
-    { "name": "Month", "type": "string", "description": "Three-letter calendar month; blank on fiscal-year average rows." },
-    { "name": "Average Processing (elapsed) Time (in Days)", "type": "integer", "unit": "days", "description": "Average elapsed processing time that month (or FY average on subtotal rows)." }
+    { "name": "Fiscal Year", "type": "string", "description": "Fiscal year label (e.g. 'FY - 2008'); subtotal rows use the 'Total Average' suffix.", "distinct_count": 0, "sample_values": [] },
+    { "name": "Month", "type": "string", "description": "Three-letter calendar month; blank on fiscal-year average rows.", "distinct_count": 0, "sample_values": [] },
+    { "name": "Average Processing (elapsed) Time (in Days)", "type": "integer", "unit": "days", "description": "Average elapsed processing time that month (or FY average on subtotal rows).", "distinct_count": 0, "sample_values": [] }
   ],
   "temporal_coverage": { "start": "FY2008", "end": "FY2015" },
   "geographic_coverage": "United States (national)",

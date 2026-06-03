@@ -6,10 +6,11 @@
   "path": "data/ssa/cdp-time-monthly-fy16-fy26.csv",
   "format": "csv",
   "unit_of_observation": "fiscal-year month (national)",
+  "row_count": 138,
   "columns": [
-    { "name": "Fiscal Year", "type": "string", "description": "Fiscal year label formatted 'FY - YYYY'. Subtotal rows use 'FY - YYYY Total Average'." },
-    { "name": "Month", "type": "string", "description": "Three-letter calendar month (Oct–Sep ordering). BLANK on the fiscal-year average subtotal rows." },
-    { "name": "Average Processing (elapsed) Time (in Days)", "type": "integer", "unit": "days", "description": "Average elapsed processing time for combined disability claims that month (or the FY average on subtotal rows)." }
+    { "name": "Fiscal Year", "type": "string", "description": "Fiscal year label formatted 'FY - YYYY'. Subtotal rows use 'FY - YYYY Total Average'.", "distinct_count": 22, "sample_values": ["FY - 2016", "FY - 2016 Total Average", "FY - 2017", "FY - 2017 Total Average", "FY - 2018"] },
+    { "name": "Month", "type": "string", "description": "Three-letter calendar month (Oct–Sep ordering). BLANK on the fiscal-year average subtotal rows.", "distinct_count": 12, "sample_values": ["Oct", "Nov", "Dec", "Jan", "Feb"] },
+    { "name": "Average Processing (elapsed) Time (in Days)", "type": "integer", "unit": "days", "description": "Average elapsed processing time for combined disability claims that month (or the FY average on subtotal rows).", "distinct_count": 65, "min": 107, "max": 240, "sample_values": [107, 108, 109, 110, 111] }
   ],
   "temporal_coverage": { "start": "FY2016-Oct", "end": "FY2026 (partial, latest published month)" },
   "geographic_coverage": "United States (national)",

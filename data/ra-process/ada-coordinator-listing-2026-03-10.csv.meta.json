@@ -8,12 +8,12 @@
   "unit_of_observation": "agency × population served × ADA coordinator",
   "row_count": 93,
   "columns": [
-    { "name": "Agency", "type": "string", "description": "Massachusetts Executive Branch agency or office." },
-    { "name": "Secretariat", "type": "string", "description": "Executive Office (secretariat) the agency reports under." },
-    { "name": "Population served", "type": "string", "description": "Population this coordinator handles ADA matters for: 'Employees and the public', 'Employees only', 'The public', or 'Incarcerated people'." },
-    { "name": "ADA Coordinator", "type": "string", "description": "Full name of the designated ADA Coordinator for this agency/population." },
-    { "name": "Email", "type": "string", "description": "Coordinator email. Mix of @mass.gov, @massmail.state.ma.us, and agency-specific domains." },
-    { "name": "Phone", "type": "string", "description": "Coordinator phone. Stored as string; formatting is inconsistent and some cells are blank." }
+    { "name": "Agency", "type": "string", "description": "Massachusetts Executive Branch agency or office.", "distinct_count": 80, "sample_values": ["Appellate Tax Board", "Bureau of the State House", "Civil Service Commission", "Department of Revenue", "Developmental Disabilities Council"] },
+    { "name": "Secretariat", "type": "string", "description": "Executive Office (secretariat) the agency reports under.", "distinct_count": 12, "sample_values": ["Executive Office for Administration and Finance", "Executive Office of Economic Development", "Executive Office of Education", "Executive Office of Energy and Environmental Affairs", "Executive Office of Health and Human Services"] },
+    { "name": "Population served", "type": "string", "description": "Population this coordinator handles ADA matters for: 'Employees and the public', 'Employees only', 'The public', or 'Incarcerated people'.", "distinct_count": 4, "sample_values": ["Employees and the public", "The public", "Employees only", "Incarcerated people"] },
+    { "name": "ADA Coordinator", "type": "string", "description": "Full name of the designated ADA Coordinator for this agency/population.", "distinct_count": 63, "sample_values": ["Stephanie Miller", "Carl Richardson", "Shawn Dooley", "Gabriella Knight", "Cathy Jackson"] },
+    { "name": "Email", "type": "string", "description": "Coordinator email. Mix of @mass.gov, @massmail.state.ma.us, and agency-specific domains.", "distinct_count": 64, "sample_values": ["Stephanie.B.Miller@mass.gov", "Carl.Richardson@massmail.state.ma.us", "Shawn.C.Dooley@mass.gov", "knightg@dor.state.ma.us", "Cathy.Jackson@state.ma.us"] },
+    { "name": "Phone", "type": "string", "description": "Coordinator phone. Stored as string; formatting is inconsistent and some cells are blank.", "distinct_count": 58, "sample_values": ["617-336-0309", "617-727-1100 x35502", "617-979-1908", "857-286-1554", "617-770-7676 x120"] }
   ],
   "temporal_coverage": { "start": "2026-03-10", "end": "2026-03-10" },
   "geographic_coverage": "Massachusetts (Executive Branch agencies statewide)",

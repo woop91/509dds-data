@@ -3147,12 +3147,12 @@
     {
       "id": "pay-scales/peer-states/CA/research-notes",
       "path": "data/pay-scales/peer-states/CA/research-notes.md",
-      "title": "California DDS Pay-Scale Research Notes (Blocked — CalHR fetch pending)",
+      "title": "California DDS Pay-Scale Research Notes (CalCareers; base DEA + DEA III Authoritative)",
       "tags": [
         "CA",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "california",
+        "calcareers",
         "dds",
         "disability-evaluation-analyst",
         "pay-scales",
@@ -3164,12 +3164,12 @@
     {
       "id": "pay-scales/peer-states/CA/scheduled-rates",
       "path": "data/pay-scales/peer-states/CA/scheduled-rates.json",
-      "title": "California Disability Evaluation Analyst Rates (BLOCKED — CalHR fetch pending)",
+      "title": "California Disability Evaluation Analyst Rates (CalCareers; base DEA + DEA III Authoritative)",
       "tags": [
         "CA",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "california",
+        "calcareers",
         "dds",
         "disability-evaluation-analyst",
         "pay-scales",
@@ -3180,48 +3180,43 @@
     {
       "id": "pay-scales/peer-states/CT/research-notes",
       "path": "data/pay-scales/peer-states/CT/research-notes.md",
-      "title": "Connecticut DDS Pay-Scale Research Notes (Blocked — CT DAS fetch pending)",
+      "title": "Connecticut DDS Pay-Scale Research Notes (Authoritative — CT DAS class specs + P-3B pay plans)",
       "tags": [
         "CT",
-        "afscme",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "connecticut",
         "dds",
-        "disability-determination-examiner",
+        "disability-claims-examiner",
+        "p-3b",
         "pay-scales",
         "peer-states",
-        "research-notes",
-        "sebac"
+        "research-notes"
       ]
     },
     {
       "id": "pay-scales/peer-states/CT/scheduled-rates",
       "path": "data/pay-scales/peer-states/CT/scheduled-rates.json",
-      "title": "Connecticut Disability Determination Examiner Rates (BLOCKED — CT DAS fetch pending)",
+      "title": "Connecticut Disability Claims Examiner Rates (CT DAS P-3B pay plans, eff 2025-07-01)",
       "tags": [
         "CT",
-        "afscme",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "connecticut",
         "dds",
-        "disability-determination-examiner",
+        "disability-claims-examiner",
+        "p-3b",
         "pay-scales",
-        "peer-states",
-        "sebac"
+        "peer-states"
       ]
     },
     {
       "id": "pay-scales/peer-states/HI/research-notes",
       "path": "data/pay-scales/peer-states/HI/research-notes.md",
-      "title": "Hawaii DDS Pay-Scale Research Notes (Blocked — DHRD fetch pending)",
+      "title": "Hawaii DDS Pay-Scale Research Notes (Authoritative — DCS series + BU13 schedule)",
       "tags": [
         "HI",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "dds",
-        "disability-determination-examiner",
+        "disability-claims-specialist",
         "hawaii",
         "hgea",
         "pay-scales",
@@ -3233,13 +3228,12 @@
     {
       "id": "pay-scales/peer-states/HI/scheduled-rates",
       "path": "data/pay-scales/peer-states/HI/scheduled-rates.json",
-      "title": "Hawaii Disability Determination Examiner Rates (BLOCKED — DHRD fetch pending)",
+      "title": "Hawaii Disability Claims Specialist Rates (BU13 salary schedule, eff 2025-07-01)",
       "tags": [
         "HI",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "dds",
-        "disability-determination-examiner",
+        "disability-claims-specialist",
         "hawaii",
         "hgea",
         "pay-scales",
@@ -3250,14 +3244,13 @@
     {
       "id": "pay-scales/peer-states/IL/research-notes",
       "path": "data/pay-scales/peer-states/IL/research-notes.md",
-      "title": "Illinois DDS Pay-Scale Research Notes (Blocked — IL CMS / AFSCME fetch pending)",
+      "title": "Illinois DDS Pay-Scale Research Notes (Authoritative — RC-062 Admin Code table + CMS rates)",
       "tags": [
         "IL",
         "afscme",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "dds",
-        "disability-adjudicator",
+        "disability-claims-adjudicator",
         "illinois",
         "pay-scales",
         "peer-states",
@@ -3268,14 +3261,13 @@
     {
       "id": "pay-scales/peer-states/IL/scheduled-rates",
       "path": "data/pay-scales/peer-states/IL/scheduled-rates.json",
-      "title": "Illinois Disability Adjudicator Rates (BLOCKED — IL CMS / AFSCME fetch pending)",
+      "title": "Illinois Disability Claims Adjudicator Rates (RC-062, CMS rates eff 2025-07-01)",
       "tags": [
         "IL",
         "afscme",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "dds",
-        "disability-adjudicator",
+        "disability-claims-adjudicator",
         "illinois",
         "pay-scales",
         "peer-states",
@@ -3337,11 +3329,10 @@
     {
       "id": "pay-scales/peer-states/MI/research-notes",
       "path": "data/pay-scales/peer-states/MI/research-notes.md",
-      "title": "Michigan DDS Pay-Scale Research Notes (Blocked — MDCS / SEIU 517M fetch pending)",
+      "title": "Michigan DDS Pay-Scale Research Notes (Authoritative — MI Civil Service job spec + MDCS Section A)",
       "tags": [
         "MI",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "dds",
         "disability-examiners",
         "michigan",
@@ -3354,11 +3345,10 @@
     {
       "id": "pay-scales/peer-states/MI/scheduled-rates",
       "path": "data/pay-scales/peer-states/MI/scheduled-rates.json",
-      "title": "Michigan Disability Examiner Rates (BLOCKED — MDCS / SEIU 517M fetch pending)",
+      "title": "Michigan Disability Examiner Rates (MDCS Compensation Plan Section A, eff 10/1/2025)",
       "tags": [
         "MI",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "dds",
         "disability-examiners",
         "michigan",
@@ -3457,12 +3447,11 @@
     {
       "id": "pay-scales/peer-states/NV/research-notes",
       "path": "data/pay-scales/peer-states/NV/research-notes.md",
-      "title": "Nevada DDS Pay-Scale Research Notes (Blocked — NV HR JS-only page pending)",
+      "title": "Nevada DDS Pay-Scale Research Notes (Authoritative — NV class spec + Pay Policy 01 schedule)",
       "tags": [
         "NV",
         "afscme-4041",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "dds",
         "disability-adjudicator",
         "nevada",
@@ -3474,12 +3463,11 @@
     {
       "id": "pay-scales/peer-states/NV/scheduled-rates",
       "path": "data/pay-scales/peer-states/NV/scheduled-rates.json",
-      "title": "Nevada Disability Adjudicator Rates (BLOCKED — NV HR JS-only page pending)",
+      "title": "Nevada Disability Adjudicator Rates (NV Pay Policy 01 Classified schedule, eff 2025-07-07)",
       "tags": [
         "NV",
         "afscme-4041",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "dds",
         "disability-adjudicator",
         "nevada",
@@ -3490,11 +3478,10 @@
     {
       "id": "pay-scales/peer-states/NY/research-notes",
       "path": "data/pay-scales/peer-states/NY/research-notes.md",
-      "title": "New York DDS Pay-Scale Research Notes (Blocked — cs.ny.gov / PEF schedule pending)",
+      "title": "New York DDS Pay-Scale Research Notes (Authoritative — Title & Salary Listing + PS&T schedule)",
       "tags": [
         "NY",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "dds",
         "disability-analyst",
         "new-york",
@@ -3508,11 +3495,10 @@
     {
       "id": "pay-scales/peer-states/NY/scheduled-rates",
       "path": "data/pay-scales/peer-states/NY/scheduled-rates.json",
-      "title": "New York Disability Analyst Rates (BLOCKED — cs.ny.gov / PEF schedule pending)",
+      "title": "New York Disability Analyst Rates (PS&T schedule eff 2025-03-27; Authoritative examiner classes)",
       "tags": [
         "NY",
-        "blocked",
-        "browser-fetch-pending",
+        "authoritative",
         "dds",
         "disability-analyst",
         "new-york",
@@ -3559,35 +3545,36 @@
     {
       "id": "pay-scales/peer-states/PA/research-notes",
       "path": "data/pay-scales/peer-states/PA/research-notes.md",
-      "title": "Pennsylvania DDS Pay-Scale Research Notes (Blocked — OA schedule / SEIU 668 appendix pending)",
+      "title": "Pennsylvania DDS Pay-Scale Research Notes (Authoritative — ST schedule + official job specs)",
       "tags": [
         "PA",
-        "agent-inferred",
-        "browser-fetch-pending",
+        "authoritative",
         "dds",
+        "disability-claims-adjudicator",
         "disability-examiners",
         "pay-scales",
         "peer-states",
         "pennsylvania",
         "research-notes",
-        "seiu-668"
+        "seiu-668",
+        "st-schedule"
       ]
     },
     {
       "id": "pay-scales/peer-states/PA/scheduled-rates",
       "path": "data/pay-scales/peer-states/PA/scheduled-rates.json",
-      "title": "Pennsylvania Disability Examiner Rates (INCOMPLETE — agent-inferred grades, OA schedule pending)",
+      "title": "Pennsylvania Disability Claims Adjudicator Rates (ST Pay Schedule, eff 2025-07-01)",
       "tags": [
         "PA",
-        "agent-inferred",
-        "browser-fetch-pending",
+        "authoritative",
         "dds",
+        "disability-claims-adjudicator",
         "disability-examiners",
-        "estimate",
         "pay-scales",
         "peer-states",
         "pennsylvania",
-        "seiu-668"
+        "seiu-668",
+        "st-schedule"
       ]
     },
     {

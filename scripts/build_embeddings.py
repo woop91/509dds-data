@@ -73,3 +73,16 @@ def pack(vecs: np.ndarray) -> bytes:
 
 def unpack(blob: bytes, dim: int) -> np.ndarray:
     return np.frombuffer(blob, dtype="<f4").reshape(-1, dim).copy()
+
+
+def write_artifact(vecs: np.ndarray, manifest: dict, out_dir: Path) -> None:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "index.bin").write_bytes(pack(vecs))
+    (out_dir / "manifest.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def load_artifact(out_dir: Path):
+    manifest = json.loads((out_dir / "manifest.json").read_text(encoding="utf-8"))
+    vecs = unpack((out_dir / "index.bin").read_bytes(), manifest["dim"])
+    return vecs, manifest

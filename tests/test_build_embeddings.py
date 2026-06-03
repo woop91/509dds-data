@@ -42,3 +42,14 @@ def test_pack_unpack_roundtrip():
     assert len(blob) == 2 * DIM * 4  # float32
     back = be.unpack(blob, DIM)
     assert np.array_equal(back, vecs)
+
+
+def test_write_then_load_artifact_roundtrips(tmp_path):
+    vecs, manifest = be.build(_cards(), embedder=_stub)
+    be.write_artifact(vecs, manifest, tmp_path)
+    assert (tmp_path / "index.bin").exists()
+    assert (tmp_path / "manifest.json").exists()
+    loaded_vecs, loaded_manifest = be.load_artifact(tmp_path)
+    assert np.array_equal(loaded_vecs, vecs)
+    assert loaded_manifest["count"] == 2
+    assert loaded_manifest["vectors"][1]["id"] == "b"

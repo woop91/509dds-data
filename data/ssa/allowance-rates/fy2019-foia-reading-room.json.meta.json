@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/allowance-rates/fy2019-foia-reading-room",
+  "title": "DDS Initial & Reconsideration Allowance Rates by State, FY2019 (SSA FOIA Reading Room)",
+  "description": "Long-format (tidy) table of SSA disability allowance rates by geographic scope (national, SSA region, and state) for federal fiscal year 2019 only, sourced from the SSA FOIA Reading Room. Two metrics: initial-level allowance rate and reconsideration-level allowance rate, both as percents. Provides an independently-sourced FY2019 cross-check for the main 2018–2024 allowance-rate series.",
+  "path": "data/ssa/allowance-rates/fy2019-foia-reading-room.json",
+  "format": "json",
+  "unit_of_observation": "scope (national/region/state) × metric",
+  "row_count": 150,
+  "columns": [
+    { "name": "rows[].scope", "type": "string", "description": "Geographic scope: 'national', 'region', or 'state'." },
+    { "name": "rows[].code", "type": "string", "description": "Scope code: 'NATIONAL', SSA region code, or state code/name." },
+    { "name": "rows[].year", "type": "integer", "description": "Federal fiscal year, constant 2019." },
+    { "name": "rows[].metric", "type": "string", "description": "Metric key: 'allowance_rate_initial_pct' or 'allowance_rate_recon_pct'." },
+    { "name": "rows[].value", "type": "number", "unit": "percent", "description": "Allowance rate as a percent." }
+  ],
+  "temporal_coverage": { "start": "2019", "end": "2019" },
+  "geographic_coverage": "National, SSA regions, and individual states",
+  "source": {
+    "publisher": "U.S. Social Security Administration",
+    "title": "SSA FOIA Reading Room — FY2019 allowance rates",
+    "url": "https://www.ssa.gov/foia/readingroom.html",
+    "retrieved_at": "2026-05-08"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Static (FY2019 snapshot)",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Authoritative: the file's own 'provenance' field records 'SSA FOIA Reading Room'; derived 1:1 (no recomputation) from fy2019-foia-reading-room.source.xlsx into tidy long format. Top-level keys: schema='long', metric_family='allowance_rates_by_state_foia', source_file, provenance, extracted_at (2026-05-08), fy_range=[2019,2019], rows. Column dot-paths denote fields of each rows[] object. Source URL is SSA's FOIA Reading Room landing page (canonical); exact deep link not recorded in the file.",
+  "related": ["ssa/allowance-rates/allowance-rates-by-state-2018-2024"],
+  "tags": ["ssa", "allowance-rate", "foia", "fy2019", "by-state", "long-format"]
+}

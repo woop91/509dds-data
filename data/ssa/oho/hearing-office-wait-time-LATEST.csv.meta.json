@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/oho/hearing-office-wait-time-LATEST",
+  "title": "OHO Hearing Office Average Wait Time (Months), FY2025 YTD (latest-vintage)",
+  "description": "Average wait time (in months) from request-for-hearing to hearing held, by SSA OHO hearing office, for the current period (FY2025 YTD). 165 hearing offices, each with its internal SSA site code. Extracted from SSA OHO's published '01_NetStat_Report'.",
+  "path": "data/ssa/oho/hearing-office-wait-time-LATEST.csv",
+  "format": "csv",
+  "unit_of_observation": "hearing office (current-period snapshot)",
+  "row_count": 165,
+  "columns": [
+    { "name": "Site Code", "type": "string", "description": "Internal SSA office identifier / hearing-site unique ID (e.g. 'T1P' = Akron OH; OHO field HO_CODE)." },
+    { "name": "Hearing Office", "type": "string", "description": "Hearing office name." },
+    { "name": "Hearing Office Times in Months", "type": "number", "unit": "months", "description": "Average wait from request-for-hearing to hearing held, current period (HO_TIMES, days/30)." }
+  ],
+  "temporal_coverage": { "start": "2024", "end": "2025" },
+  "geographic_coverage": "United States (hearing offices nationwide)",
+  "source": {
+    "publisher": "SSA Office of Hearings Operations (OHO)",
+    "title": "Average Wait Time Until Hearing Held Report (01_NetStat_Report)",
+    "url": "https://www.ssa.gov/appeals/DataSets/01_NetStat_Report.html",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Monthly",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Authoritative: official OHO published statistics (extracted to CSV by scripts/playwright-fetch.js + inline parser; values are SSA's). Current-period snapshot, not a time series — OHO publishes monthly archives back to FY2011. Period is FY2025 YTD (09/28/2024–09/26/2025), hence temporal_coverage 2024–2025. This '-LATEST' file has NO dated sibling in the directory (sole copy) and follows the LATEST naming convention. Upstream raw capture: 01-netstat-report.tables.json; field definitions: FIELD_DEFINITIONS.txt.",
+  "related": ["ssa/oho/01-netstat-report.tables", "ssa/oho/hearing-office-to-state", "ssa/oho/FIELD_DEFINITIONS"],
+  "tags": ["ssa", "oho", "hearings", "wait-time", "by-office", "latest-alias"]
+}

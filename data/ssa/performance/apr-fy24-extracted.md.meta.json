@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/performance/apr-fy24-extracted",
+  "title": "SSA FY2024 Annual Performance Report — Extracted Text (with DDS performance)",
+  "description": "Markdown text extracted from SSA's FY2024 Annual Performance Report (SSA_FY24_APR.pdf): strategic goals/objectives, performance measures, and disability-determination performance results — including state-by-state DDS metrics (processing times, quality-review rates, pending case backlogs) referenced in the FY24 APR.",
+  "path": "data/ssa/performance/apr-fy24-extracted.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2024", "end": "2024" },
+  "geographic_coverage": "National (United States), with state DDS performance detail",
+  "source": {
+    "publisher": "U.S. Social Security Administration",
+    "title": "Annual Performance Report for Fiscal Year 2024 (SSA_FY24_APR.pdf)",
+    "url": "https://www.ssa.gov/agency/performance/materials/2024/SSA_FY24_APR.pdf",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Computed",
+  "update_cadence": "Annual",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Computed: text extracted via Firecrawl from the published FY24 APR PDF (~144–147 KB markdown); narrative + performance tables, not a tidy machine table, so no per-column schema. Source URL is the exact PDF from apr-fy24.source.txt. FETCH_REPORT notes state performance tables can be parsed from this file into CSV as a follow-on.",
+  "related": ["ssa/performance/apr-fy25-extracted", "ssa/budget/cj-fy25-extracted", "ssa/FETCH_REPORT"],
+  "tags": ["ssa", "performance", "apr", "fy2024", "dds", "extracted"]
+}

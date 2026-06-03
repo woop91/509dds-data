@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/oho/03-alj-disposition.tables",
+  "title": "OHO ALJ Disposition Data (03) — Raw Rendered-HTML Capture (FY2025 YTD)",
+  "description": "Raw rendered-HTML capture of SSA OHO's '03_ALJ_Disposition_Data' page, fetched 2026-05-05 via Playwright. A JSON envelope recording the fetch URL, timestamp, HTTP status, page title, table count, the captured HTML table(s), and page body text. This is the upstream source from which alj-disposition-by-judge-LATEST.csv (1,439 ALJ rows) was extracted; it is not itself a tidy table.",
+  "path": "data/ssa/oho/03-alj-disposition.tables.json",
+  "format": "json",
+  "unit_of_observation": "single page capture",
+  "columns": [
+    { "name": "url", "type": "string", "description": "Fetched page URL." },
+    { "name": "fetchedAt", "type": "date", "description": "ISO-8601 fetch timestamp." },
+    { "name": "status", "type": "integer", "description": "HTTP status code (200)." },
+    { "name": "title", "type": "string", "description": "Page title." },
+    { "name": "tableCount", "type": "integer", "description": "Number of HTML tables captured (1)." },
+    { "name": "tables", "type": "string", "description": "Array of captured HTML table strings (one element: the rendered ALJ disposition table)." },
+    { "name": "bodyText", "type": "string", "description": "Page body text capture (truncated at ~50000 chars)." }
+  ],
+  "temporal_coverage": { "start": "2024", "end": "2025" },
+  "geographic_coverage": "United States (ALJs / hearing offices nationwide)",
+  "source": {
+    "publisher": "SSA Office of Hearings Operations (OHO)",
+    "title": "ALJ Disposition Data (03_ALJ_Disposition_Data)",
+    "url": "https://www.ssa.gov/appeals/DataSets/03_ALJ_Disposition_Data.html",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Computed",
+  "update_cadence": "Monthly (upstream)",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Computed: raw rendered-HTML capture (not the official published file format) saved by scripts/playwright-fetch.js; it is the extraction source for the tidy alj-disposition-by-judge-LATEST.csv. Period is FY2025 YTD (09/28/2024–09/26/2025), hence temporal_coverage 2024–2025. 'tables' holds a single HTML string (624 KB file), so no per-row schema applies; columns above describe the JSON envelope. Field meanings for the downstream table are documented in FIELD_DEFINITIONS.txt.",
+  "related": ["ssa/oho/alj-disposition-by-judge-LATEST", "ssa/oho/per-state-alj-allowance-LATEST", "ssa/oho/FIELD_DEFINITIONS", "ssa/oho/AVAILABILITY_SUMMARY"],
+  "tags": ["ssa", "oho", "hearings", "alj", "disposition", "raw-capture", "html", "source"]
+}

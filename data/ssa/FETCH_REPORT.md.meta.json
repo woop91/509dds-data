@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ssa/FETCH_REPORT",
+  "title": "SSA Document Fetch Report (2026-05-05) — Provenance Log",
+  "description": "Provenance/run log documenting the 2026-05-05 fetch of SSA documents (Annual Performance Reports, Congressional Justifications, and the extracted DDS budget section). Records which files were saved, extraction status (Firecrawl), the national-only DDS budget-allocation discovery, extraction blockers (Firecrawl credit exhaustion, ssa.gov CDN access denial), and next steps. This is a process/provenance document, not a primary dataset; it carries reusable provenance value for the SSA budget/performance extractions in this repo.",
+  "path": "data/ssa/FETCH_REPORT.md",
+  "format": "md",
+  "source": {
+    "publisher": "509dds-data project (internal provenance log)",
+    "title": "SSA Document Fetch Report — 2026-05-05",
+    "url": "https://github.com/Woop91/509dds-data"
+  },
+  "confidence_tier": "Computed",
+  "notes": "Process-doc, not a primary dataset: this is an internal provenance/run log for the 2026-05-05 SSA document fetch. Carded as reference metadata (tier Computed — internally authored, not an official SSA publication) so the folder is fully described, and related-linked to the extractions it documents. It does retain consumption value (records source PDFs, extraction tool, and the national-only DDS-budget discovery). ORCHESTRATOR NOTE: borderline keep — useful provenance, but ephemeral; safe to drop if the catalog should contain primary datasets only.",
+  "related": ["ssa/performance/apr-fy24-extracted", "ssa/performance/apr-fy25-extracted", "ssa/budget/cj-fy25-extracted", "ssa/budget/dds-section-fy25"],
+  "tags": ["ssa", "provenance", "fetch-log", "process-doc", "reference"]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/oho/per-state-alj-allowance-LATEST",
+  "title": "Per-State ALJ Allowance Rate at the Hearing Stage, FY2025 YTD (Computed)",
+  "description": "Computed per-state aggregation of ALJ hearing-stage outcomes for FY2025 YTD: for each of 49 states, the ALJ count, total dispositions, decisions, awards, denials, fully/partially favorable counts, and the derived allowance rate (awards ÷ decisions, percent). Built by joining alj-disposition-by-judge-LATEST.csv to hearing-office-to-state.csv. Rates are office-state, not claimant-state.",
+  "path": "data/ssa/oho/per-state-alj-allowance-LATEST.json",
+  "format": "json",
+  "unit_of_observation": "state (office-state) at the ALJ hearing stage",
+  "row_count": 49,
+  "columns": [
+    { "name": "by_state[].state", "type": "string", "description": "Two-letter state code (office location)." },
+    { "name": "by_state[].alj_count", "type": "integer", "description": "Number of ALJs attributed to the state." },
+    { "name": "by_state[].total_dispositions", "type": "integer" },
+    { "name": "by_state[].decisions", "type": "integer", "description": "Decisions = awards + denials (excludes dismissals)." },
+    { "name": "by_state[].awards", "type": "integer" },
+    { "name": "by_state[].denials", "type": "integer" },
+    { "name": "by_state[].fully_favorable", "type": "integer" },
+    { "name": "by_state[].partially_favorable", "type": "integer" },
+    { "name": "by_state[].allowance_rate_pct", "type": "number", "unit": "percent", "description": "Derived allowance rate = awards ÷ decisions × 100." }
+  ],
+  "temporal_coverage": { "start": "2024", "end": "2025" },
+  "geographic_coverage": "49 states with ALJ data (office-state attribution)",
+  "source": {
+    "publisher": "SSA Office of Hearings Operations (OHO)",
+    "title": "Per-state ALJ allowance rate (computed from OHO ALJ disposition + office-to-state mapping)",
+    "url": "https://www.ssa.gov/appeals/DataSets/03_ALJ_Disposition_Data.html",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Computed",
+  "update_cadence": "Monthly (upstream)",
+  "license": "U.S. public domain (SSA, with project-computed aggregation)",
+  "notes": "Computed: aggregated by scripts/build-oho-state-aggregates.js from alj-disposition-by-judge-LATEST.csv (1,439 ALJ rows processed) joined via hearing-office-to-state.csv. Top-level keys: source, joined_via, built_at (2026-05-05), alj_rows_processed=1439, states_with_data=49, unmapped_offices=[] (none unmapped), caveat, by_state. CAVEAT (from file): allowance_rate_pct = awards/decisions; decisions excludes dismissals; ALJs hearing remotely show their primary office so rates are office-state, not claimant-state; NHC (national hearing centers) and SPECIAL (review cadre) tracked separately. This '-LATEST' file has NO dated sibling in the directory (sole copy) and follows the LATEST naming convention; period is FY2025 YTD.",
+  "related": ["ssa/oho/alj-disposition-by-judge-LATEST", "ssa/oho/hearing-office-to-state", "ssa/oho/03-alj-disposition.tables"],
+  "tags": ["ssa", "oho", "alj", "allowance-rate", "by-state", "computed", "latest-alias"]
+}

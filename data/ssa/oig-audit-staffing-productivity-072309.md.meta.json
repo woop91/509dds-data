@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ssa/oig-audit-staffing-productivity-072309",
+  "title": "SSA OIG Audit 072309 — Staffing, Productivity, and Processing Times at State DDS (FY2019–FY2023)",
+  "description": "Full text (markdown) of SSA Office of the Inspector General audit report 072309, 'Staffing, Productivity, and Processing Times at State Disability Determination Services,' dated July 18, 2025. Objective: determine the extent to which DDS staffing, productivity, and processing times changed from FY2019 through FY2023. Contains the audit summary, findings, supporting tables, and recommendations on national and per-state DDS staffing and performance.",
+  "path": "data/ssa/oig-audit-staffing-productivity-072309.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2019", "end": "2023" },
+  "geographic_coverage": "United States (national, with state DDS detail)",
+  "source": {
+    "publisher": "U.S. Social Security Administration, Office of the Inspector General",
+    "title": "Staffing, Productivity, and Processing Times at State Disability Determination Services (Audit Report 072309)",
+    "url": "https://oig.ssa.gov/audits-and-investigations/audit-reports/072309/",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "U.S. public domain (SSA OIG)",
+  "notes": "Authoritative: verbatim text of an official, published SSA OIG audit report (number 072309, July 2025). Delivered as markdown extracted from the published PDF; the document is narrative/tabular prose rather than a tidy machine table, so no per-column schema is given. Source URL is the OIG report's canonical landing page (the audit number 072309 is from the document itself); the specific deep-link path is inferred from SSA OIG's standard report URL scheme — confirm against oig.ssa.gov if exactness matters.",
+  "related": ["ssa/staffing/dds-employees-by-state-fy2010-2023", "ssa/staffing/dds-examiners-by-state-fy2002-2018"],
+  "tags": ["ssa", "oig", "audit", "staffing", "productivity", "processing-time", "dds", "report"]
+}

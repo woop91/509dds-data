@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/oho/FIELD_DEFINITIONS",
+  "title": "OHO Data Fields Reference (Field Definitions)",
+  "description": "Field-by-field reference for the SSA OHO public datasets, based on the SSA Data Dictionary. Documents the raw OHO field codes and meanings for ALJ disposition data (ALJ_NM25, DSPN_CNT, DCN_CNT, TOTAW, FFVRBL_DCN_CNT, PFVRBL_DCN_CNT, UFDCN_CNT), hearing-office workload (RECEIPTS, PEND_END_CNT, DSPN_AVGPT), wait-time (HO_CODE, HO_TIMES, MONTH), disposition-per-day and processing-time rankings, plus SSA region codes (01 Boston … 10 Seattle) and data-availability notes. The authoritative column-meaning source for the OHO CSV/JSON files in this directory.",
+  "path": "data/ssa/oho/FIELD_DEFINITIONS.txt",
+  "format": "txt",
+  "geographic_coverage": "United States (OHO hearing offices nationwide)",
+  "source": {
+    "publisher": "SSA Office of Hearings Operations (OHO)",
+    "title": "OHO Data Fields Reference (based on SSA Data Dictionary)",
+    "url": "https://www.ssa.gov/appeals/DataSets/data_dictionary.html",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Reference doc (not a primary dataset): the field-definitions / data-dictionary reference for the OHO datasets in this directory, derived from SSA's published OHO Data Dictionary. Carded as reference metadata; tier Authoritative because it documents official OHO field structure. Related-linked to the OHO data files whose columns it defines.",
+  "related": ["ssa/oho/alj-disposition-by-judge-LATEST", "ssa/oho/hearing-office-wait-time-LATEST", "ssa/oho/per-state-alj-allowance-LATEST", "ssa/oho/01-netstat-report.tables", "ssa/oho/03-alj-disposition.tables", "ssa/oho/AVAILABILITY_SUMMARY"],
+  "tags": ["ssa", "oho", "reference", "field-definitions", "data-dictionary", "documentation"]
+}

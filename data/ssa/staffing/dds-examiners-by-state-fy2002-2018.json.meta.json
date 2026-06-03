@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/staffing/dds-examiners-by-state-fy2002-2018",
+  "title": "DDS Disability Examiners by State, FY2002–FY2018",
+  "description": "Long-format (tidy) table of Disability Determination Services (DDS) disability-examiner counts by geographic scope (national, SSA region, and state) and federal fiscal year, FY2002–FY2018. Single metric: dds_examiners_count. Extracted from the SSA source workbook into a tidy long format.",
+  "path": "data/ssa/staffing/dds-examiners-by-state-fy2002-2018.json",
+  "format": "json",
+  "unit_of_observation": "scope (national/region/state) × year",
+  "row_count": 1139,
+  "columns": [
+    { "name": "rows[].scope", "type": "string", "description": "Geographic scope: 'national', 'region', or 'state'." },
+    { "name": "rows[].code", "type": "string", "description": "Scope code: e.g. 'National', SSA region, or state code/name." },
+    { "name": "rows[].year", "type": "integer", "description": "Federal fiscal year (2002–2018)." },
+    { "name": "rows[].metric", "type": "string", "description": "Metric key: 'dds_examiners_count'." },
+    { "name": "rows[].value", "type": "number", "description": "Disability-examiner count for the scope/year." }
+  ],
+  "temporal_coverage": { "start": "2002", "end": "2018" },
+  "geographic_coverage": "National, SSA regions, and individual states",
+  "source": {
+    "publisher": "U.S. Social Security Administration",
+    "title": "DDS Disability Examiners by State",
+    "url": "https://www.ssa.gov/disability/data/",
+    "retrieved_at": "2026-05-08"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Annual",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Authoritative: derived 1:1 from dds-examiners-by-state-fy2002-2018.source.xlsx into tidy long format (SSA-published examiner counts, not recomputed). Top-level keys: schema='long', metric_family='dds_examiners_by_state', source_file, extracted_at (2026-05-08), fy_range=[2002,2018], rows. National 'code' value is 'National'. Column dot-paths denote fields of each rows[] object. Per methodology.md, SAOR FTE-authorized examiner counts differ in methodology from CTHRU payroll headcounts. Source URL is SSA's canonical disability-data page; exact source-workbook deep link not recorded in the file.",
+  "related": ["ssa/staffing/dds-employees-by-state-fy2010-2023", "ssa/oig-audit-staffing-productivity-072309"],
+  "tags": ["ssa", "staffing", "dds", "examiners", "by-state", "long-format"]
+}

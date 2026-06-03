@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/oho/alj-disposition-by-judge-LATEST",
+  "title": "OHO ALJ Disposition Data by Judge, FY2025 YTD (latest-vintage)",
+  "description": "Per-Administrative-Law-Judge hearing-stage disposition data for FY2025 YTD: 1,439 individual ALJs with their owning hearing office, total dispositions, dispositions across all offices, decisions, awards, denials, and fully/partially favorable counts. Extracted from SSA OHO's published '03_ALJ_Disposition_Data' report.",
+  "path": "data/ssa/oho/alj-disposition-by-judge-LATEST.csv",
+  "format": "csv",
+  "unit_of_observation": "Administrative Law Judge (ALJ)",
+  "row_count": 1439,
+  "columns": [
+    { "name": "Judge", "type": "string", "description": "ALJ name (OHO field ALJ_NM25)." },
+    { "name": "Office", "type": "string", "description": "Owning hearing office name." },
+    { "name": "Total Dispositions", "type": "integer", "description": "Disposition count at the ALJ's primary office (DSPN_CNT)." },
+    { "name": "Total ALJ Dispositions Across All Offices", "type": "integer", "description": "Disposition count across all offices the ALJ heard cases at." },
+    { "name": "Decisions", "type": "integer", "description": "Decision count = Awards + Denials (excludes dismissals; DCN_CNT)." },
+    { "name": "Awards", "type": "integer", "description": "Total awards = Fully Favorable + Partially Favorable (TOTAW)." },
+    { "name": "Denials", "type": "integer", "description": "Unfavorable decisions (UFDCN_CNT)." },
+    { "name": "Fully Favorable", "type": "integer", "description": "Fully favorable decision count (FFVRBL_DCN_CNT)." },
+    { "name": "Partially Favorable", "type": "integer", "description": "Partially favorable decision count (PFVRBL_DCN_CNT)." }
+  ],
+  "temporal_coverage": { "start": "2024", "end": "2025" },
+  "geographic_coverage": "United States (ALJs across hearing offices nationwide)",
+  "source": {
+    "publisher": "SSA Office of Hearings Operations (OHO)",
+    "title": "ALJ Disposition Data (03_ALJ_Disposition_Data)",
+    "url": "https://www.ssa.gov/appeals/DataSets/03_ALJ_Disposition_Data.html",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Monthly",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Authoritative: official OHO published statistics (extracted from the published report to CSV by scripts/extract-oho-alj-table.js; values are SSA's, not recomputed). Period is FY2025 YTD (09/28/2024–09/26/2025), hence temporal_coverage 2024–2025. This '-LATEST' file has NO dated sibling in the directory (sole copy) and follows the LATEST naming convention; OHO publishes monthly archives back to FY2011. Some ALJs have very low caseloads — filter Decisions >= 50 for stable allowance-rate comparisons. Upstream raw capture: 03-alj-disposition.tables.json; field definitions: FIELD_DEFINITIONS.txt.",
+  "related": ["ssa/oho/03-alj-disposition.tables", "ssa/oho/per-state-alj-allowance-LATEST", "ssa/oho/hearing-office-to-state", "ssa/oho/FIELD_DEFINITIONS"],
+  "tags": ["ssa", "oho", "alj", "disposition", "hearings", "by-judge", "latest-alias"]
+}

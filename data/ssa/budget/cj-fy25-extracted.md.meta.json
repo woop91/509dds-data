@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/budget/cj-fy25-extracted",
+  "title": "SSA FY2025 Congressional Justification — Extracted Text (DDS budget & work-years)",
+  "description": "Markdown text extracted from SSA's FY2025 Congressional Justification of Estimates for Appropriations Committees (FY25-JEAC.pdf): budget authority, LAE, program-integrity funding, agency-wide and DDS work-year allocations (DDS = 13,555 work-years in FY2025), and performance tables. The authoritative source establishing that DDS funding is published at the NATIONAL level only — no per-state DDS budget allocations appear in the CJ (a key 'structurally unavailable' finding for state-level DDS budgets).",
+  "path": "data/ssa/budget/cj-fy25-extracted.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2023", "end": "2025" },
+  "geographic_coverage": "National (United States); no per-state DDS budget breakdown",
+  "source": {
+    "publisher": "U.S. Social Security Administration",
+    "title": "FY 2025 Congressional Justification (Justification of Estimates for Appropriations Committees, FY25-JEAC.pdf)",
+    "url": "https://www.ssa.gov/budget/assets/materials/2025/FY25-JEAC.pdf",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Computed",
+  "update_cadence": "Annual",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Computed: text extracted via Firecrawl from the published FY25 CJ PDF (large, ~799–811 KB markdown); narrative + budget tables, not a tidy machine table, so no per-column schema. Source URL is the exact PDF from cj-fy25.source.txt. KEY FINDING (per methodology.md and FETCH_REPORT.md): SSA's CJ publishes DDS funding nationally only (FY25: 13,555 work-years, ~$2.6B); per-state DDS budget allocations are not in any public CJ/annual-report document — treat state-level DDS budget cells as 'Structurally unavailable' (would require a federal FOIA).",
+  "related": ["ssa/budget/dds-section-fy25", "ssa/FETCH_REPORT", "ssa/performance/apr-fy24-extracted"],
+  "tags": ["ssa", "budget", "congressional-justification", "work-years", "dds", "extracted", "national-only"]
+}

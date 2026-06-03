@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "ssa/dds-net-accuracy-by-state-2007-LATEST",
+  "title": "DDS Net Accuracy Rate by State, FY2007–FY2022 (latest-vintage alias)",
+  "description": "Latest-vintage pointer to the SSA federal quality-assurance net accuracy rate for state Disability Determination Services (DDS), by state and federal fiscal year, with a NATIONAL roll-up row per year. Net accuracy = share of sampled initial determinations with no documented deficiency affecting the decision. This `-LATEST` alias always reflects the newest published vintage; it currently equals the FY2007–FY2022 vintage.",
+  "path": "data/ssa/dds-net-accuracy-by-state-2007-LATEST.csv",
+  "format": "csv",
+  "unit_of_observation": "state × fiscal year (plus NATIONAL)",
+  "row_count": 848,
+  "columns": [
+    { "name": "FISCAL YEAR", "type": "integer", "description": "Federal fiscal year." },
+    { "name": "STATE", "type": "string", "description": "State/territory name in uppercase (includes DIST OF COLUMBIA, PUERTO RICO, and a NATIONAL roll-up row per year)." },
+    { "name": "NET ACCURACY RATE", "type": "percent", "description": "Net accuracy rate as a percent string, e.g. '98.10%'." },
+    { "name": "SAMPLING VARIABILITY (SV) PERCENT", "type": "string", "description": "Sampling variability. Usually a decimal percent (e.g. 1.15); occasionally a confidence-bound text like 'UL* 99.8 - LL** 98.1' or blank when not published." },
+    { "name": "COMMENTS", "type": "string", "description": "Optional note, e.g. 'SV manually computed'. Usually empty." }
+  ],
+  "temporal_coverage": { "start": "2007", "end": "2022" },
+  "geographic_coverage": "All U.S. states + DC + Puerto Rico, with NATIONAL roll-up",
+  "source": {
+    "publisher": "U.S. Social Security Administration",
+    "title": "DDS Net Accuracy",
+    "url": "https://www.ssa.gov/data/DDS-Net-Accuracy.csv",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Annual",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Authoritative: official SSA federal QA publication. This is the '-LATEST' latest-vintage pointer; it currently equals the dated sibling dds-net-accuracy-by-state-2007-2022.csv (same FY2007–FY2022 coverage, same 848 data rows, byte-for-byte values identical). It is NOT byte-identical to that sibling: the dated 2007-2022 vintage interleaves blank separator lines between data rows whereas this LATEST file is clean (no blank lines); after dropping blank lines the data is identical. NET ACCURACY RATE is a percent string ('98.10%') — strip '%' to compute. SV is mixed-type: parse a leading float where present, otherwise treat as text. Source provenance: dds-net-accuracy-by-state-2007-LATEST.csv.source.txt (latest FY: 2022).",
+  "related": ["ssa/dds-net-accuracy-by-state-2007-2022", "ssa/peer-states-timeseries-2010-2024"],
+  "tags": ["ssa", "accuracy", "quality", "dds", "by-state", "latest-alias"]
+}

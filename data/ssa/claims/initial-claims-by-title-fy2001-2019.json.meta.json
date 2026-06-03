@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/claims/initial-claims-by-title-fy2001-2019",
+  "title": "National Initial Disability Claims by Title, FY2001–FY2018",
+  "description": "Long-format (tidy) national time series of initial disability claim counts by program title — SSDI (Title II), SSI (Title XVI), concurrent, and total — by federal fiscal year. Extracted from the SSA source workbook into a tidy long format.",
+  "path": "data/ssa/claims/initial-claims-by-title-fy2001-2019.json",
+  "format": "json",
+  "unit_of_observation": "year × metric (national)",
+  "row_count": 72,
+  "columns": [
+    { "name": "rows[].scope", "type": "string", "description": "Geographic scope; constant 'national'." },
+    { "name": "rows[].code", "type": "string", "description": "Scope code; 'US'." },
+    { "name": "rows[].year", "type": "integer", "description": "Federal fiscal year (2001–2018 in the actual data)." },
+    { "name": "rows[].metric", "type": "string", "description": "Metric key: 'initial_claims_ssdi', 'initial_claims_ssi', 'initial_claims_concurrent', or 'initial_claims_total'." },
+    { "name": "rows[].value", "type": "number", "description": "Initial-claim count for the year/metric." }
+  ],
+  "temporal_coverage": { "start": "2001", "end": "2018" },
+  "geographic_coverage": "National (United States)",
+  "source": {
+    "publisher": "U.S. Social Security Administration",
+    "title": "Initial Disability Claims by Title",
+    "url": "https://www.ssa.gov/disability/data/",
+    "retrieved_at": "2026-05-08"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Annual",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Authoritative: derived 1:1 from initial-claims-by-title-fy2001-2019.source.xlsx into tidy long format. FILENAME-LABEL DISCREPANCY: the file name says fy2001-2019 but the actual rows only run FY2001–FY2018 (no FY2019 rows present); temporal_coverage reflects the real data range. Top-level keys: schema='long', metric_family='initial_claims_by_title', source_file, extracted_at (2026-05-08), rows (no fy_range key). All rows are scope='national'. Column dot-paths denote fields of each rows[] object. Source URL is SSA's canonical disability-data page; exact deep link to the source workbook not recorded in the file.",
+  "related": ["ssa/ssa-sa-fywl-all-states-2001-2024"],
+  "tags": ["ssa", "initial-claims", "ssdi", "ssi", "concurrent", "national", "long-format"]
+}

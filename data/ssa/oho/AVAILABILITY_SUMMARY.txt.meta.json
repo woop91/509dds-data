@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/oho/AVAILABILITY_SUMMARY",
+  "title": "OHO Datasets Availability Summary (Reference)",
+  "description": "Reference matrix (as of 2026-05-05) of the SSA OHO public data files: the five primary reports (ALJ disposition, hearing-office workload, average wait time, dispositions-per-day ranking, processing-time ranking), their field counts, archive availability (monthly FY2011–FY2025), export formats, state-aggregation support, and extraction status/blockers. Also lists additional OHO reports and the hearing-office-to-state mapping. Useful for consumers deciding which OHO dataset to use and how far back archives go.",
+  "path": "data/ssa/oho/AVAILABILITY_SUMMARY.txt",
+  "format": "txt",
+  "geographic_coverage": "United States (OHO hearing offices nationwide)",
+  "source": {
+    "publisher": "SSA Office of Hearings Operations (OHO)",
+    "title": "OHO Public Data Files — availability summary",
+    "url": "https://www.ssa.gov/appeals/DataSets/",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "U.S. public domain (SSA structure; project-authored summary)",
+  "notes": "Reference doc (not a primary dataset): an availability/coverage matrix documenting the official OHO public-data report structure and archive depth. Carded as reference metadata; tier Authoritative because it documents official OHO dataset structure and availability. Related-linked to the OHO datasets it describes. Source URL is the OHO datasets root.",
+  "related": ["ssa/oho/alj-disposition-by-judge-LATEST", "ssa/oho/hearing-office-wait-time-LATEST", "ssa/oho/hearing-office-to-state", "ssa/oho/FIELD_DEFINITIONS"],
+  "tags": ["ssa", "oho", "reference", "availability", "documentation"]
+}

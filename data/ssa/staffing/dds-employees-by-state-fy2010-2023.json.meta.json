@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/staffing/dds-employees-by-state-fy2010-2023",
+  "title": "Total DDS Employees by State, FY2010–FY2023",
+  "description": "Long-format (tidy) table of total Disability Determination Services (DDS) employee counts by geographic scope (national, SSA region, and state) and federal fiscal year, FY2010–FY2023. Single metric: total_dds_employees. Extracted from the SSA source workbook into a tidy long format.",
+  "path": "data/ssa/staffing/dds-employees-by-state-fy2010-2023.json",
+  "format": "json",
+  "unit_of_observation": "scope (national/region/state) × year",
+  "row_count": 924,
+  "columns": [
+    { "name": "rows[].scope", "type": "string", "description": "Geographic scope: 'national', 'region', or 'state'." },
+    { "name": "rows[].code", "type": "string", "description": "Scope code: e.g. 'Grand Total' (national), SSA region, or state code/name." },
+    { "name": "rows[].year", "type": "integer", "description": "Federal fiscal year (2010–2023)." },
+    { "name": "rows[].metric", "type": "string", "description": "Metric key: 'total_dds_employees'." },
+    { "name": "rows[].value", "type": "number", "description": "Total DDS employee count for the scope/year." }
+  ],
+  "temporal_coverage": { "start": "2010", "end": "2023" },
+  "geographic_coverage": "National, SSA regions, and individual states",
+  "source": {
+    "publisher": "U.S. Social Security Administration",
+    "title": "Total DDS Employees by State",
+    "url": "https://www.ssa.gov/disability/data/",
+    "retrieved_at": "2026-05-08"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Annual",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Authoritative: derived 1:1 from dds-employees-by-state-fy2010-2023.source.xlsx into tidy long format (SSA-published staffing counts, not recomputed). Top-level keys: schema='long', metric_family='total_dds_employees_by_state', source_file, extracted_at (2026-05-08), fy_range=[2010,2023], rows. National 'code' value is 'Grand Total'. Column dot-paths denote fields of each rows[] object. Per methodology.md, SSA SAOR-style FTE counts may differ from CTHRU payroll headcounts. Source URL is SSA's canonical disability-data page; exact source-workbook deep link not recorded in the file.",
+  "related": ["ssa/staffing/dds-examiners-by-state-fy2002-2018", "ssa/oig-audit-staffing-productivity-072309"],
+  "tags": ["ssa", "staffing", "dds", "employees", "by-state", "long-format"]
+}

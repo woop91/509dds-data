@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/budget/dds-section-fy25",
+  "title": "SSA FY2025 Budget — DDS Section (Extracted)",
+  "description": "The DDS-specific section extracted from SSA's FY2025 Congressional Justification: budget-authority and work-year tables (FY2023 enacted / FY2024 estimate / FY2025 President's Budget), including DDS work-years (13,554 / 13,364 / 13,555) and the note that SSA funds the full cost (including pay) of state DDS employees while each state sets its own pay rates. A focused companion to the full CJ extract.",
+  "path": "data/ssa/budget/dds-section-fy25.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2023", "end": "2025" },
+  "geographic_coverage": "National (United States); DDS funding national-only",
+  "source": {
+    "publisher": "U.S. Social Security Administration",
+    "title": "FY 2025 Congressional Justification — DDS section",
+    "url": "https://www.ssa.gov/budget/assets/materials/2025/FY25-JEAC.pdf",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Computed",
+  "update_cadence": "Annual",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Computed: DDS-specific budget section extracted from the FY25 CJ PDF (subset of cj-fy25-extracted.md). Contains budget-authority/work-year tables and narrative, not a tidy machine table, so no per-column schema. Reinforces the national-only DDS-funding finding. Source URL is the parent CJ PDF (the same FY25-JEAC.pdf).",
+  "related": ["ssa/budget/cj-fy25-extracted", "ssa/FETCH_REPORT"],
+  "tags": ["ssa", "budget", "dds", "work-years", "congressional-justification", "extracted", "national-only"]
+}

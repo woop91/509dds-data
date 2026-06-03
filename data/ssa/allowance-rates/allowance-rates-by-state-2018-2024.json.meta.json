@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/allowance-rates/allowance-rates-by-state-2018-2024",
+  "title": "DDS Initial & Reconsideration Allowance Rates by State, FY2018–FY2024",
+  "description": "Long-format (tidy) table of SSA disability allowance rates by geographic scope (national, SSA region, and state) and federal fiscal year, FY2018–FY2024. Two metrics: initial-level allowance rate and reconsideration-level allowance rate, both as percents. Extracted from SSA's published allowance-rate workbook (2018-2024.source.xlsx).",
+  "path": "data/ssa/allowance-rates/allowance-rates-by-state-2018-2024.json",
+  "format": "json",
+  "unit_of_observation": "scope (national/region/state) × year × metric",
+  "row_count": 1074,
+  "columns": [
+    { "name": "rows[].scope", "type": "string", "description": "Geographic scope: 'national', 'region', or 'state'." },
+    { "name": "rows[].code", "type": "string", "description": "Scope code: 'NATIONAL', SSA region code, or state code/name." },
+    { "name": "rows[].year", "type": "integer", "description": "Federal fiscal year (2018–2024)." },
+    { "name": "rows[].metric", "type": "string", "description": "Metric key: 'allowance_rate_initial_pct' or 'allowance_rate_recon_pct'." },
+    { "name": "rows[].value", "type": "number", "unit": "percent", "description": "Allowance rate as a percent." }
+  ],
+  "temporal_coverage": { "start": "2018", "end": "2024" },
+  "geographic_coverage": "National, SSA regions, and individual states",
+  "source": {
+    "publisher": "U.S. Social Security Administration",
+    "title": "SSA Disability Allowance Rates by State (initial and reconsideration)",
+    "url": "https://www.ssa.gov/disability/data/",
+    "retrieved_at": "2026-05-08"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Annual",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Authoritative: derived 1:1 (no recomputation) from SSA's published allowance-rate workbook 2018-2024.source.xlsx into a tidy long format. Top-level keys: schema='long', metric_family='allowance_rates_by_state', source_file, extracted_at (2026-05-08), fy_range=[2018,2024], rows. Column dot-paths denote fields of each object in the rows array. Precise source URL is SSA's canonical disability-data page; the exact deep link to the source workbook was not recorded in the file — confirm against ssa.gov if exactness matters.",
+  "related": ["ssa/allowance-rates/fy2019-foia-reading-room", "ssa/ssa-sa-fywl-all-states-2001-2024", "ssa/peer-states-timeseries-2010-2024"],
+  "tags": ["ssa", "allowance-rate", "initial", "reconsideration", "by-state", "long-format"]
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/oho/hearing-office-to-state",
+  "title": "OHO Hearing Office → State Mapping (Curated)",
+  "description": "Curated lookup mapping each SSA OHO hearing office name to its physical-site state code, used to aggregate ALJ-stage dispositions to the state level. 167 offices. Reflects each office's physical site location, not the claimant's state of residence (cases are routed by region, not strict state).",
+  "path": "data/ssa/oho/hearing-office-to-state.csv",
+  "format": "csv",
+  "unit_of_observation": "hearing office",
+  "row_count": 167,
+  "columns": [
+    { "name": "Office", "type": "string", "description": "OHO hearing office name (e.g. 'AKRON OH'). Includes NHC = National Hearing Center (virtual) and SPECIAL = Special Review Cadre (virtual workgroup)." },
+    { "name": "State", "type": "string", "description": "Two-letter state code of the office's physical site (NHC/SPECIAL have no geographic home)." }
+  ],
+  "geographic_coverage": "United States (hearing offices nationwide)",
+  "source": {
+    "publisher": "509dds-data project (curated from SSA OHO office list)",
+    "title": "OHO hearing-office-to-state curated mapping",
+    "url": "https://www.ssa.gov/appeals/DataSets/",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Computed",
+  "update_cadence": "As OHO office roster changes",
+  "license": "U.S. public domain (SSA office names; project-curated mapping)",
+  "notes": "Computed: a project-curated crosswalk (built by scripts/build-oho-state-aggregates.js) used as the join key for state-level ALJ aggregation; not an official published SSA table. Per the source.txt: NHC = National Hearing Center (virtual, nationwide), SPECIAL = Special Review Cadre (virtual, no geographic home). Mapping is by office physical site, not claimant residence. No temporal_coverage (it is a static lookup, not a time series). Source URL is the OHO datasets root.",
+  "related": ["ssa/oho/per-state-alj-allowance-LATEST", "ssa/oho/alj-disposition-by-judge-LATEST", "ssa/oho/hearing-office-wait-time-LATEST"],
+  "tags": ["ssa", "oho", "hearings", "office-to-state", "mapping", "crosswalk", "curated"]
+}

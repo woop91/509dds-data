@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "ssa/performance/apr-fy25-extracted",
+  "title": "SSA FY2025 Performance Results Overview — Extracted Text",
+  "description": "Markdown text extracted from SSA's 'Overview of Our Fiscal Year 2025 Performance Results' (the Agency Financial Report's management discussion of FY2025 results): three strategic focus areas (improve customer service; fight fraud and waste; optimize and empower the workforce), FY2025 operating expenses by focus area, and summary performance data. A summary document pending the final FY2025 APR expected March 2026.",
+  "path": "data/ssa/performance/apr-fy25-extracted.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2025", "end": "2025" },
+  "geographic_coverage": "National (United States)",
+  "source": {
+    "publisher": "U.S. Social Security Administration",
+    "title": "Overview of Our Fiscal Year 2025 Performance Results",
+    "url": "https://www.ssa.gov/finance/2025/Overview of Our Fiscal Year 2025 Performance Results.pdf",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Computed",
+  "update_cadence": "Annual",
+  "license": "U.S. public domain (SSA)",
+  "notes": "Computed: text extracted via Firecrawl from the published FY25 performance-results overview PDF (~22 KB markdown); narrative summary, not a tidy machine table, so no per-column schema. Source URL is the exact PDF from apr-fy25.source.txt (note the spaces in the SSA-published filename). Per the document, the final FY2025 APR with actual results is expected on SSA's website in March 2026.",
+  "related": ["ssa/performance/apr-fy24-extracted", "ssa/FETCH_REPORT"],
+  "tags": ["ssa", "performance", "apr", "fy2025", "extracted", "summary"]
+}

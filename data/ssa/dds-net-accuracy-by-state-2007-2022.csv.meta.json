@@ -10,7 +10,7 @@
   "columns": [
     { "name": "FISCAL YEAR", "type": "integer", "description": "Federal fiscal year.", "distinct_count": 16, "min": 2007, "max": 2022, "sample_values": [2007, 2008, 2009, 2010, 2011] },
     { "name": "STATE", "type": "string", "description": "State/territory name in uppercase (includes DIST OF COLUMBIA, PUERTO RICO, and a NATIONAL roll-up row per year).", "distinct_count": 53, "sample_values": ["ALABAMA", "ALASKA", "ARIZONA", "ARKANSAS", "CALIFORNIA"] },
-    { "name": "NET ACCURACY RATE", "type": "percent", "description": "Net accuracy rate as a percent string, e.g. '96.70%'.", "distinct_count": 57, "sample_values": [] },
+    { "name": "NET ACCURACY RATE", "type": "percent", "description": "Net accuracy rate as a percent string, e.g. '96.70%'.", "distinct_count": 57, "sample_values": [93.3, 93.7, 94, 94.1, 94.4], "min": 93.3, "max": 99.8 },
     { "name": "SAMPLING VARIABILITY (SV) PERCENT", "type": "string", "description": "Sampling variability. Usually a decimal percent (e.g. 1.43); occasionally a confidence-bound text like 'UL* 99.8 - LL** 98.1' or blank when not published.", "distinct_count": 138, "sample_values": ["1.15", "1.38", "1.65", "1.08", "0.88"] },
     { "name": "COMMENTS", "type": "string", "description": "Optional note, e.g. 'SV manually computed'. Usually empty.", "distinct_count": 2, "sample_values": ["SV manually computed", "SV manually computed "] }
   ],

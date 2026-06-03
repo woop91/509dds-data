@@ -13,6 +13,6 @@ jobs:
           python-version: "3.12"
       - run: pip install -r scripts/requirements.txt
       - run: python scripts/validate_catalog.py --strict
+      - run: python scripts/compute_value_stats.py --check
       - run: python scripts/build_catalog.py --check
       - run: python scripts/build_embeddings.py --check
-      - run: python scripts/compute_value_stats.py --check

@@ -1,16 +1,16 @@
 {
   "$schema": "../../../../schemas/dataset.meta.schema.json",
   "id": "pay-scales/peer-states/IL/research-notes",
-  "title": "Illinois DDS Pay-Scale Research Notes (Blocked — IL CMS / AFSCME fetch pending)",
-  "description": "Narrative research notes for Illinois DDS pay: administering agency (IDHS Bureau of Disability Determination Services), expected examiner titles (Disability Adjudicator I/II/III) and supervisor pending IL CMS classification verification, AFSCME Council 31 Master Contract 2023-2027 with likely RC-62 (Human Services Professional) unit, monthly × 12 pay basis with typical 5-8 AFSCME steps, and a table of attempted-but-failed sources (council31.org timeout, CMS 404/partial, IDHS network failure). No dollar values retrieved. Companion to IL/scheduled-rates.json.",
+  "title": "Illinois DDS Pay-Scale Research Notes (Authoritative — RC-062 Admin Code table + CMS rates)",
+  "description": "Narrative research notes for Illinois DDS pay: administering agency (IDHS Bureau of Disability Determination Services), the verified Disability Claims Adjudicator series (Trainee 12539 grade 13, I 12537 grade 16, II 12538 grade 18) plus Disability Claims Specialist (12558 grade 19) with RC-062 grade assignments from the official Illinois Administrative Code Table W and monthly/annual figures from the IL CMS AFSCME RC-062 Rates of Pay (Regular Formula Rate, eff July 1, 2025), an effective-date / anti-fabrication methodology note, and AFSCME Council 31 RC-062 (Technical) Master Contract 2023-2027 context. Companion to IL/scheduled-rates.json.",
   "path": "data/pay-scales/peer-states/IL/research-notes.md",
   "format": "md",
-  "temporal_coverage": { "start": "2023", "end": "2027" },
+  "temporal_coverage": { "start": "2025-07-01", "end": "2026-06-30" },
   "geographic_coverage": "Illinois",
-  "source": { "publisher": "Illinois Department of Central Management Services (CMS) / AFSCME Council 31; IL Dept of Human Services (IDHS) Bureau of Disability Determination Services", "title": "IL DDS salary research notes (CMS pay plan + AFSCME Council 31 contract; network failures 2026-05-08)", "url": "https://cms.illinois.gov/personnel/employeeresources/personnelpayplan.html", "retrieved_at": "2026-05-08" },
-  "confidence_tier": "Browser-fetch pending",
-  "update_cadence": "CBA cycle (2023-2027); IL pay plan by fiscal year",
-  "notes": "Browser-fetch pending: data incomplete due to network barriers — council31.org timed out, IL CMS detailed pay PDFs not extracted, IDHS DDS page network-failed. Examiner/supervisor titles and RC-62 are expected/likely but unverified; no dollar values. Bargaining context (AFSCME Council 31 Master Contract 2023-2027) confirmed → temporal_coverage. Manual fetch: council31.org/contracts/state, IL CMS classification lookup, or archive.org.",
+  "source": { "publisher": "Illinois Department of Central Management Services (CMS) / AFSCME Council 31; IL Dept of Human Services (IDHS) Bureau of Disability Determination Services", "title": "IL DDS salary research notes (IL Admin Code Table W RC-062 + CMS AFSCME RC-062 rates eff 2025-07-01, retrieved 2026-06-02)", "url": "https://cms.illinois.gov/content/dam/soi/en/web/cms/personnel/documents/AFSCME%20Rates%20of%20Pay%20-%20RC-062.pdf", "retrieved_at": "2026-06-02" },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "CBA cycle (2023-2027); IL CMS rates by effective date",
+  "notes": "Authoritative: RC-062 grade assignments verified from IL Admin Code Table W and monthly rates from the IL CMS AFSCME RC-062 Rates of Pay PDF (Regular Formula Rate), EFFECTIVE JULY 1, 2025 page (current; the future 7/1/2026 page in the same PDF was not used). Extracted locally with pypdf. Corrections: class is 'Disability Claims Adjudicator' (Trainee/I/II); lead is Disability Claims Specialist (grade 19); PSA first-line supervision not separately confirmed. AFSCME Council 31, RC-062 (Technical).",
   "related": ["pay-scales/peer-states/IL/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["IL", "afscme", "blocked", "browser-fetch-pending", "dds", "disability-adjudicator", "illinois", "pay-scales", "peer-states", "rc-62", "research-notes"]
+  "tags": ["IL", "afscme", "authoritative", "dds", "disability-claims-adjudicator", "illinois", "pay-scales", "peer-states", "rc-62", "research-notes"]
 }

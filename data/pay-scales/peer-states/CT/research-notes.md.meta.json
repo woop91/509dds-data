@@ -1,16 +1,16 @@
 {
   "$schema": "../../../../schemas/dataset.meta.schema.json",
   "id": "pay-scales/peer-states/CT/research-notes",
-  "title": "Connecticut DDS Pay-Scale Research Notes (Blocked — CT DAS fetch pending)",
-  "description": "Narrative research notes for Connecticut DDS pay: administering agency (CT DSS Disability Determination Services Unit), examiner/supervisor classifications on the CT Salary Group (SG) system with 9-step progression, estimated salary groups (examiner SG-21–23, supervisor SG-24–26), AFSCME Local 714 / SEBAC P-2 2017-2027 CBA context, key CT DAS / Comptroller resource URLs, and gaps. Exact class codes and SG-grid dollar values were not confirmed. Companion to CT/scheduled-rates.json.",
+  "title": "Connecticut DDS Pay-Scale Research Notes (Authoritative — CT DAS class specs + P-3B pay plans)",
+  "description": "Narrative research notes for Connecticut DDS pay: administering agency (CT Dept of Aging and Disability Services, Bureau of Disability Determination Services), the verified Disability Claims Examiner Assistant / Examiner / Specialist / Supervisor series with Salary Group assignments (EB 21 / EH 23 / EQ 25 / EH 28) from CT DAS JobAps class specs and step-grid dollar figures from the official CT DAS P-3B EB/EH/EQ pay plans (eff 2025-07-01), an anti-fabrication methodology note (Firecrawl table-conversion dropped groups and query-mode hallucinated EQ-25; figures taken from local pypdf extraction), and the P-3B / CSEA SEIU Local 2001 bargaining context. Companion to CT/scheduled-rates.json.",
   "path": "data/pay-scales/peer-states/CT/research-notes.md",
   "format": "md",
-  "temporal_coverage": { "start": "2017", "end": "2027" },
+  "temporal_coverage": { "start": "2025-07-01", "end": "2026-06-30" },
   "geographic_coverage": "Connecticut",
-  "source": { "publisher": "Connecticut Department of Administrative Services (DAS) / AFSCME Council 4; CT Dept of Social Services (DSS) Disability Determination Services Unit", "title": "CT DDS salary research notes (CT DAS Salary Plans pending; SG estimates)", "url": "https://portal.ct.gov/das/statewide-hr/compensation", "retrieved_at": "2026-05-08" },
-  "confidence_tier": "Browser-fetch pending",
+  "source": { "publisher": "Connecticut Department of Administrative Services (DAS); CT Dept of Aging and Disability Services (ADS) Bureau of Disability Determination Services", "title": "CT DDS salary research notes (CT DAS JobAps class specs + P-3B pay plans, retrieved 2026-06-02)", "url": "https://portal.ct.gov/das/services-for-state-employees/statewide-human-resources/compensation-plans", "retrieved_at": "2026-06-02" },
+  "confidence_tier": "Authoritative",
   "update_cadence": "annual (CT DAS salary plans, July 1 effective)",
-  "notes": "Browser-fetch pending: agency, the SG classification system, and the AFSCME Local 714 / SEBAC P-2 2017-2027 CBA are confirmed, but exact class codes are unverified and the SG assignments (SG-21–23 examiner, SG-24–26 supervisor) are estimates — the CT DAS Salary Plans PDF requires direct download verification and was not retrieved. SEBAC 2017-2027 term → temporal_coverage. Manual fetch: portal.ct.gov/das salary plans, council4.org, or data.ct.gov payroll.",
+  "notes": "Authoritative: Salary Group assignments verified from CT DAS JobAps class specs (7102EB->EB 21, 7103EH->EH 23, 7104EQ->EQ 25, 7105EH->EH 28) and dollar grids from the official CT DAS P-3B pay plans (eff 2025-07-01), extracted locally with pypdf after the Firecrawl markdown dropped groups and query-mode hallucinated EQ-25. Corrections: agency is ADS Bureau of Disability Determination Services (not DSS); plan classification P-3B (not P-2); union appears CSEA SEIU Local 2001 (not AFSCME 714, not deeply re-verified).",
   "related": ["pay-scales/peer-states/CT/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["CT", "afscme", "blocked", "browser-fetch-pending", "connecticut", "dds", "disability-determination-examiner", "pay-scales", "peer-states", "research-notes", "sebac"]
+  "tags": ["CT", "authoritative", "connecticut", "dds", "disability-claims-examiner", "p-3b", "pay-scales", "peer-states", "research-notes"]
 }

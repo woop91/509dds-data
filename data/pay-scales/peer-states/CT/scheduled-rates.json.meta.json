@@ -1,23 +1,24 @@
 {
   "$schema": "../../../../schemas/dataset.meta.schema.json",
   "id": "pay-scales/peer-states/CT/scheduled-rates",
-  "title": "Connecticut Disability Determination Examiner Rates (BLOCKED — CT DAS fetch pending)",
-  "description": "Connecticut DDS examiner and supervisor classification stubs using the CT Salary Group (SG) system with 9-step progression. Class codes are PENDING_VERIFICATION and salary grids are PENDING_CT_DAS_SALARY_PLANS — the CT DAS Salary Plans PDF returned HTML on direct fetch (research_status INCOMPLETE). Estimated salary groups only: examiner SG-21 to SG-23, supervisor SG-24 to SG-26. Bargaining context confirmed: AFSCME Local 714 / SEBAC P-2, CBA 2017-2027.",
+  "title": "Connecticut Disability Claims Examiner Rates (CT DAS P-3B pay plans, eff 2025-07-01)",
+  "description": "Connecticut DDS disability adjudication series with verified Salary Group assignments and step-grid dollar figures: Disability Claims Examiner Assistant (7102EB, EB 21, $65,190-$84,765), Disability Claims Examiner (7103EH, EH 23, $80,168-$106,733), Disability Claims Specialist (7104EQ, EQ 25, $88,127-$118,740), and Disability Claims Supervisor (7105EH, EH 28, $101,964-$135,709). Salary Group assignments are from the official CT DAS JobAps class specs; dollar grids are from the official CT DAS P-3B EB/EH/EQ pay plans (eff 2025-07-01), extracted from the PDFs locally with pypdf. Administering agency is the CT Dept of Aging and Disability Services, Bureau of Disability Determination Services.",
   "path": "data/pay-scales/peer-states/CT/scheduled-rates.json",
   "format": "json",
-  "unit_of_observation": "classification (placeholder; SG estimated, grid pending)",
+  "unit_of_observation": "classification",
   "columns": [
-    { "name": "classes.<class>.class_code", "type": "string", "description": "CT class code — PENDING_VERIFICATION." },
-    { "name": "classes.<class>.salary_group", "type": "string", "description": "Estimated CT Salary Group (SG-21–23 examiner / SG-24–26 supervisor) — not confirmed." },
-    { "name": "classes.<class>.step_count", "type": "integer", "description": "Step count (9, typical CT progression)." },
-    { "name": "classes.<class>.salary_grid", "type": "string", "description": "Salary grid — PENDING_CT_DAS_SALARY_PLANS (no dollar values)." }
+    { "name": "classes.<class>.class_code", "type": "string", "description": "CT DAS class number (e.g. 7103EH)." },
+    { "name": "classes.<class>.salary_group", "type": "string", "description": "CT Salary Group (e.g. EH 23), verified from the JobAps class spec." },
+    { "name": "classes.<class>.annual_min", "type": "number", "unit": "USD", "description": "Annual Step 1 (minimum) for the Salary Group." },
+    { "name": "classes.<class>.annual_max", "type": "number", "unit": "USD", "description": "Annual top step (maximum) for the Salary Group." },
+    { "name": "classes.<class>.step_grid_annual", "type": "string", "description": "Full annual step grid (array) from the P-3B pay plan." }
   ],
-  "temporal_coverage": { "start": "2024-07-01", "end": "2025" },
+  "temporal_coverage": { "start": "2025-07-01", "end": "2026-06-30" },
   "geographic_coverage": "Connecticut",
-  "source": { "publisher": "Connecticut Department of Administrative Services (DAS); CT Dept of Social Services (DSS) Disability Determination Services Unit", "title": "CT DAS Statewide HR Compensation / Salary Plans (direct PDF fetch returned HTML, 2026-05-08)", "url": "https://portal.ct.gov/das/statewide-hr/compensation", "retrieved_at": "2026-05-08" },
-  "confidence_tier": "Browser-fetch pending",
+  "source": { "publisher": "Connecticut Department of Administrative Services (DAS); CT Dept of Aging and Disability Services (ADS) Bureau of Disability Determination Services", "title": "CT DAS JobAps class specs + P-3B EB/EH/EQ Pay Plans, effective 2025-07-01", "url": "https://portal.ct.gov/das/services-for-state-employees/statewide-human-resources/compensation-plans", "retrieved_at": "2026-06-02" },
+  "confidence_tier": "Authoritative",
   "update_cadence": "annual (CT DAS salary plans, July 1 effective)",
-  "notes": "Browser-fetch pending: research_status INCOMPLETE — CT DAS Salary Plans direct PDF fetch returned HTML, so no dollar amounts. Class codes are PENDING_VERIFICATION and SG assignments (SG-21–23 examiner, SG-24–26 supervisor) are estimates only. effective_date 2024-07-01 / FY2025 noted in the file → used for temporal_coverage. Bargaining context confirmed: AFSCME Local 714 / SEBAC P-2, CBA 2017-2027. Manual fetch: portal.ct.gov/das salary plans or council4.org contracts.",
+  "notes": "Authoritative: Salary Group assignments (7102EB->EB 21, 7103EH->EH 23, 7104EQ->EQ 25, 7105EH->EH 28) verified from official CT DAS JobAps class specs, and the step-grid dollars from the official CT DAS P-3B EB/EH/EQ pay plans (eff 2025-07-01). Dollar figures were extracted from the downloaded PDFs locally with pypdf because the Firecrawl markdown/table conversion dropped middle groups and the page-query mode hallucinated EQ-25 (duplicated EQ-22) — both caught and rejected. Corrections to prior card: agency is ADS Bureau of Disability Determination Services (not DSS); plan classification is P-3B (not P-2); union appears to be CSEA SEIU Local 2001 (not AFSCME 714) — union identity not deeply re-verified (cba_union_identity_verified false), but it does not affect the pay figures.",
   "related": ["pay-scales/peer-states/CT/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["CT", "afscme", "blocked", "browser-fetch-pending", "connecticut", "dds", "disability-determination-examiner", "pay-scales", "peer-states", "sebac"]
+  "tags": ["CT", "authoritative", "connecticut", "dds", "disability-claims-examiner", "p-3b", "pay-scales", "peer-states"]
 }

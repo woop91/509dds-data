@@ -1,62 +1,80 @@
 {
   "state": "CT",
-  "notes": "Connecticut uses Salary Group (SG) classification system with 9-step progression. Exact rates pending verification against CT DAS Salary Plans (2024–2025).",
-  "salary_schedule_url": "https://portal.ct.gov/das/statewide-hr/compensation",
-  "effective_date": "2024-07-01",
-  "fiscal_year": 2025,
-  "bargaining_status": "AFSCME Local 714 / SEBAC P-2 (Social and Human Services), CBA 2017 → 2027",
-  "administering_agency": "Connecticut Department of Social Services (DSS), Disability Determination Services Unit",
+  "status": "AUTHORITATIVE — CT DAS JobAps class specs + official P-3B pay plans (eff 2025-07-01)",
+  "administering_agency": "Connecticut Department of Aging and Disability Services (ADS), Bureau of Disability Determination Services",
+  "salary_schedule_url": "https://portal.ct.gov/das/services-for-state-employees/statewide-human-resources/compensation-plans",
+  "salary_schedule_title": "CT DAS P-3B EB/EH/EQ Pay Plans, effective 07/01/2025",
+  "effective_date": "2025-07-01",
+  "fiscal_year": "FY2026",
+  "bargaining_status": "CT DAS pay-plan classification P-3B (the EB/EH/EQ plans are filed under P-3B). The P-3B unit contract is administered by CSEA SEIU Local 2001 (apparent representing union; union identity not deeply re-verified this session). Prior 'AFSCME Local 714 / P-2' note was incorrect.",
+  "step_basis": "annual, step progression (CT publishes Annual/Bi-Weekly/Daily/Hourly per step; 10-11 steps depending on group). min = Step 1, max = top step.",
+  "salary_group_system": "CT Salary Group (SG) system: the class number encodes the pay plan code (EB/EH/EQ) and the spec states the Salary Group number; the pay-plan PDF 'Group' column gives the dollar grid for that number.",
+  "notes": "All four classes verified: (a) class title -> Salary Group from the official CT DAS JobAps class specifications, and (b) the dollar grid for that Salary Group from the official CT DAS P-3B pay-plan PDFs (eff 2025-07-01), extracted from the PDFs locally with pypdf. IMPORTANT: the Firecrawl markdown/PDF-table conversion dropped several middle groups and the page-query mode returned a hallucinated EQ-25 (it duplicated EQ-22), so dollar figures were taken from local pypdf text extraction of the downloaded PDFs, not the markdown scrape. Corrections to prior notes: administering agency is ADS Bureau of Disability Determination Services (not DSS); the examiner series is the Disability Claims Examiner Assistant / Examiner / Specialist / Supervisor series; the plan classification is P-3B (not P-2).",
   "classes": {
-    "Disability Determination Examiner": {
-      "class_code": "PENDING_VERIFICATION",
-      "class_title_alt": "Adjudicator",
-      "salary_group": "SG-21 to SG-23 (estimated)",
-      "bargaining_unit": "AFSCME Local 714 / SEBAC P-2",
-      "step_count": 9,
-      "salary_grid": "PENDING_CT_DAS_SALARY_PLANS",
-      "notes": "Typical range for CT state DDS examiner roles; exact SG assignment requires CT DAS confirmation"
+    "Disability Claims Examiner Assistant (35 Hour)": {
+      "class_code": "7102EB",
+      "salary_group": "EB 21",
+      "pay_plan": "P-3B EB 35-hour, eff 2025-07-01",
+      "annual_min": 65190,
+      "annual_max": 84765,
+      "min_label": "Step 1",
+      "max_label": "Step 10",
+      "step_grid_annual": [65190, 67263, 69323, 71393, 73992, 76064, 78139, 80487, 82899, 84765],
+      "basis": "Authoritative — EB 21 grade from JobAps class spec 7102EB; dollars from the official P-3B EB 35-hour pay plan (local pypdf extraction).",
+      "grade_source_url": "https://www.jobapscloud.com/CT/specs/classspecdisplay.asp?ClassNumber=7102EB",
+      "salary_source_url": "https://portal.ct.gov/das/-/media/das/statewide-hr/comp-plans-pdfs/2025-comp-plans-pdf/2025-pay-plans-website/p-3b/eb-2025-07-01-updated.pdf",
+      "effective_date": "2025-07-01"
     },
-    "Disability Determination Examiner Supervisor": {
-      "class_code": "PENDING_VERIFICATION",
-      "class_title_alt": "Supervisor, Disability Determination",
-      "salary_group": "SG-24 to SG-26 (estimated)",
-      "bargaining_unit": "SEBAC P-3 (Supervisory) or separate supervisory unit",
-      "step_count": 9,
-      "salary_grid": "PENDING_CT_DAS_SALARY_PLANS",
-      "notes": "First-line supervisor level in CT pay structure; may be in separate supervisory bargaining unit"
+    "Disability Claims Examiner (40 Hour)": {
+      "class_code": "7103EH",
+      "salary_group": "EH 23",
+      "pay_plan": "P-3B EH 40-hour, eff 2025-07-01",
+      "annual_min": 80168,
+      "annual_max": 106733,
+      "min_label": "Step 1",
+      "max_label": "Step 10",
+      "step_grid_annual": [80168, 83088, 86006, 88931, 92513, 95447, 98393, 101343, 104384, 106733],
+      "basis": "Authoritative — EH 23 grade from JobAps class spec 7103EH; dollars from the official P-3B EH 40-hour pay plan (local pypdf extraction). This is the core DDS examiner class.",
+      "grade_source_url": "https://www.jobapscloud.com/CT/specs/classspecdisplay.asp?ClassNumber=7103EH",
+      "salary_source_url": "https://portal.ct.gov/das/-/media/das/statewide-hr/comp-plans-pdfs/2025-comp-plans-pdf/2025-pay-plans-website/p-3b/eh-2025-07-01.pdf",
+      "effective_date": "2025-07-01"
+    },
+    "Disability Claims Specialist (40 Hour)": {
+      "class_code": "7104EQ",
+      "salary_group": "EQ 25",
+      "pay_plan": "P-3B EQ 40-hour, eff 2025-07-01",
+      "annual_min": 88127,
+      "annual_max": 118740,
+      "min_label": "Step 1",
+      "max_label": "Step 11",
+      "step_grid_annual": [88127, 91291, 94437, 97599, 101473, 104650, 107833, 110529, 113294, 116127, 118740],
+      "basis": "Authoritative — EQ 25 grade from JobAps class spec 7104EQ; dollars from the official P-3B EQ 40-hour pay plan Group 25 (local pypdf extraction). NOTE: the Firecrawl page-query falsely returned EQ-22 values for 'EQ 25'; the correct EQ-25 row above was read directly from the PDF text.",
+      "grade_source_url": "https://www.jobapscloud.com/CT/specs/classspecdisplay.asp?ClassNumber=7104EQ",
+      "salary_source_url": "https://portal.ct.gov/das/-/media/das/statewide-hr/comp-plans-pdfs/2025-comp-plans-pdf/2025-pay-plans-website/p-3b/eq-2025-07-01.pdf",
+      "effective_date": "2025-07-01"
+    },
+    "Disability Claims Supervisor (40 Hour)": {
+      "class_code": "7105EH",
+      "salary_group": "EH 28",
+      "pay_plan": "P-3B EH 40-hour, eff 2025-07-01",
+      "annual_min": 101964,
+      "annual_max": 135709,
+      "min_label": "Step 1",
+      "max_label": "Step 11",
+      "step_grid_annual": [101964, 105460, 108976, 112480, 116802, 120338, 123864, 125100, 128855, 132722, 135709],
+      "basis": "Authoritative — EH 28 grade from JobAps class spec 7105EH; dollars from the official P-3B EH 40-hour pay plan Group 28 (local pypdf extraction; the EH** 28 row).",
+      "grade_source_url": "https://www.jobapscloud.com/CT/specs/classspecdisplay.asp?ClassNumber=7105EH",
+      "salary_source_url": "https://portal.ct.gov/das/-/media/das/statewide-hr/comp-plans-pdfs/2025-comp-plans-pdf/2025-pay-plans-website/p-3b/eh-2025-07-01.pdf",
+      "effective_date": "2025-07-01"
     }
   },
-  "research_status": "INCOMPLETE",
-  "data_sources": [
-    {
-      "source": "CT Department of Administrative Services",
-      "url": "https://portal.ct.gov/das/statewide-hr/compensation",
-      "type": "CT DAS Salary Plans (annual)",
-      "status": "pending_direct_access"
-    },
-    {
-      "source": "CT DAS Classification Specifications",
-      "url": "https://portal.ct.gov/das/statewide-hr/state-jobs",
-      "type": "Class code & title database",
-      "status": "pending_verification"
-    },
-    {
-      "source": "AFSCME Council 4",
-      "url": "https://www.council4.org/",
-      "type": "Union representation & CBA info",
-      "status": "confirmed_2017_2027_agreement"
-    },
-    {
-      "source": "CT Comptroller Payroll Data",
-      "url": "https://data.ct.gov/",
-      "type": "Open payroll database",
-      "status": "available_for_query"
-    }
-  ],
-  "next_steps": [
-    "Download CT DAS Salary Plans PDF (2024–2025 version) from portal.ct.gov/das",
-    "Cross-reference exact class codes and salary groups from CT DAS spec system",
-    "Query CT Comptroller payroll database for current position data",
-    "Contact AFSCME Council 4 for confirmed P-2 unit wage schedules under 2017–2027 CBA"
-  ]
+  "data_quality_flags": {
+    "class_codes_verified": true,
+    "salary_groups_verified": true,
+    "salary_figures_verified": true,
+    "cba_union_identity_verified": false,
+    "confidence": "high"
+  },
+  "access_blockers": [],
+  "research_date": "2026-06-02"
 }

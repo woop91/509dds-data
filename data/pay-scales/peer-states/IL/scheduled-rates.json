@@ -1,51 +1,77 @@
 {
   "state": "IL",
-  "salary_schedule_url": "https://cms.illinois.gov/personnel/employeeresources/personnelpayplan.html",
-  "contract_source": "https://council31.org/contracts/state/",
-  "effective_date": "2023-2027 (AFSCME Council 31 Master Contract)",
-  "fiscal_year": "FY26 (pending update to FY27)",
-  "bargaining_status": "AFSCME Council 31 / RC-62 (Human Services Professional) — Master Contract 2023-2027",
-  "step_basis": "monthly (multiply by 12 for annual)",
-  "data_status": "INCOMPLETE — network failures prevented PDF extraction",
-  "urls_attempted": [
-    {
-      "url": "https://council31.org/contracts/state/",
-      "status": "network timeout",
-      "reason": "Firecrawl: insufficient credits; curl: connection timeout"
-    },
-    {
-      "url": "https://cms.illinois.gov/personnel/employeeresources/personnelpayplan.html",
-      "status": "partial",
-      "reason": "Page reached; detailed pay schedules in linked PDFs (not extracted)"
-    },
-    {
-      "url": "https://www.dhs.state.il.us/page.aspx?item=29765",
-      "status": "network failure",
-      "reason": "HTTPS connection failed; curl: connection timeout"
-    }
-  ],
+  "status": "AUTHORITATIVE — IL Admin Code Table W (RC-062) class->grade + CMS AFSCME RC-062 rates (eff 2025-07-01)",
+  "administering_agency": "Illinois Department of Human Services (IDHS), Bureau of Disability Determination Services",
+  "salary_schedule_url": "https://cms.illinois.gov/content/dam/soi/en/web/cms/personnel/documents/AFSCME%20Rates%20of%20Pay%20-%20RC-062.pdf",
+  "salary_schedule_title": "Illinois CMS AFSCME Rates of Pay — RC-062 (Regular Formula Rate), effective July 1, 2025",
+  "grade_mapping_source_url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-80-310-app-A-Table-W",
+  "effective_date": "2025-07-01",
+  "fiscal_year": "FY2026",
+  "bargaining_status": "AFSCME Council 31, bargaining unit RC-062 (Technical); Master Contract 2023-2027 (scheduled raises: 7/1/2023, 1/1/2024, 7/1/2024, 7/1/2025, 7/1/2026). Examiner series and the Specialist are RC-062.",
+  "step_basis": "monthly (annual = monthly * 12). RC-062 Regular Formula Rate; steps 1b,1a,1,2..8 as of the 7/1/2025 schedule (step 1c was eliminated in the 4% increase).",
+  "notes": "Class title -> RC-062 pay grade verified from the official Illinois Administrative Code (Title 80, Part 310, Appendix A, Table W — RC-062). Monthly dollar amounts per grade verified from the official IL CMS 'AFSCME Rates of Pay - RC-062' PDF, Regular Formula Rate, EFFECTIVE JULY 1, 2025 page (the current schedule as of 2026-06-02; a future 7/1/2026 page also exists in the same PDF and was NOT used). Dollar figures extracted from the PDF locally with pypdf (the PDF has 5 effective-date pages). Corrections to prior card: the class is 'Disability Claims Adjudicator' (Trainee / I / II), not 'Disability Adjudicator'; the supervisory/lead class is Disability Claims Specialist (grade 19). min = step 1b (lowest step on the 2025 schedule), max = step 8.",
   "classes": {
-    "Disability Adjudicator I": {
-      "class_code": "PENDING_VERIFICATION",
-      "pay_grade": "RC-62 (estimated)",
-      "notes": "IL CMS classification system required to confirm; multi-level structure (I/II/III) typical for human services examiners"
+    "Disability Claims Adjudicator Trainee": {
+      "class_code": "12539",
+      "pay_grade": "RC-062 grade 13",
+      "monthly_min": 4756,
+      "monthly_max": 6533,
+      "annual_min": 57072,
+      "annual_max": 78396,
+      "monthly_step_grid": [4756, 4904, 4960, 5141, 5336, 5536, 5737, 5953, 6286, 6533],
+      "basis": "Authoritative — grade 13 from IL Admin Code Table W; monthly rates from CMS RC-062 Regular Formula Rate eff 2025-07-01. annual = monthly * 12.",
+      "grade_source_url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-80-310-app-A-Table-W",
+      "salary_source_url": "https://cms.illinois.gov/content/dam/soi/en/web/cms/personnel/documents/AFSCME%20Rates%20of%20Pay%20-%20RC-062.pdf",
+      "effective_date": "2025-07-01"
     },
-    "Disability Adjudicator II": {
-      "class_code": "PENDING_VERIFICATION",
-      "pay_grade": "RC-62 (estimated)",
-      "notes": "Mid-level examiner role"
+    "Disability Claims Adjudicator I": {
+      "class_code": "12537",
+      "pay_grade": "RC-062 grade 16",
+      "monthly_min": 5384,
+      "monthly_max": 7631,
+      "annual_min": 64608,
+      "annual_max": 91572,
+      "monthly_step_grid": [5384, 5552, 5629, 5879, 6139, 6394, 6660, 6926, 7337, 7631],
+      "basis": "Authoritative — grade 16 from IL Admin Code Table W; monthly rates from CMS RC-062 Regular Formula Rate eff 2025-07-01.",
+      "grade_source_url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-80-310-app-A-Table-W",
+      "salary_source_url": "https://cms.illinois.gov/content/dam/soi/en/web/cms/personnel/documents/AFSCME%20Rates%20of%20Pay%20-%20RC-062.pdf",
+      "effective_date": "2025-07-01"
     },
-    "Disability Adjudicator III": {
-      "class_code": "PENDING_VERIFICATION",
-      "pay_grade": "RC-62 (estimated)",
-      "notes": "Senior/supervisory examiner role"
+    "Disability Claims Adjudicator II": {
+      "class_code": "12538",
+      "pay_grade": "RC-062 grade 18",
+      "monthly_min": 5928,
+      "monthly_max": 8493,
+      "annual_min": 71136,
+      "annual_max": 101916,
+      "monthly_step_grid": [5928, 6113, 6207, 6505, 6806, 7120, 7406, 7705, 8163, 8493],
+      "basis": "Authoritative — grade 18 from IL Admin Code Table W; monthly rates from CMS RC-062 Regular Formula Rate eff 2025-07-01.",
+      "grade_source_url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-80-310-app-A-Table-W",
+      "salary_source_url": "https://cms.illinois.gov/content/dam/soi/en/web/cms/personnel/documents/AFSCME%20Rates%20of%20Pay%20-%20RC-062.pdf",
+      "effective_date": "2025-07-01"
     },
-    "Disability Determination Supervisor": {
-      "class_code": "PENDING_VERIFICATION",
-      "pay_grade": "RC-62 (estimated)",
-      "notes": "First-line supervisor; likely higher step or separate grade within RC-62"
+    "Disability Claims Specialist (lead / first-line)": {
+      "class_code": "12558",
+      "pay_grade": "RC-062 grade 19",
+      "monthly_min": 6242,
+      "monthly_max": 9021,
+      "annual_min": 74904,
+      "annual_max": 108252,
+      "monthly_step_grid": [6242, 6436, 6539, 6873, 7196, 7529, 7849, 8177, 8675, 9021],
+      "basis": "Authoritative figures — grade 19 from IL Admin Code Table W; monthly rates from CMS RC-062 Regular Formula Rate eff 2025-07-01. NOTE: this is the senior/lead RC-062 class; true first-line supervision in IDHS may instead be a Public Service Administrator (PSA, merit-comp) title not covered here. Recorded as the highest in-series RC-062 examiner-track class.",
+      "grade_source_url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-80-310-app-A-Table-W",
+      "salary_source_url": "https://cms.illinois.gov/content/dam/soi/en/web/cms/personnel/documents/AFSCME%20Rates%20of%20Pay%20-%20RC-062.pdf",
+      "effective_date": "2025-07-01"
     }
   },
-  "methodology": "Research halted due to network/credit barriers; documented sources for retry. AFSCME contracts typically publish full pay schedules including step progressions (5-8 steps) in appendix. Illinois maintains centralized state pay plan under CMS direction.",
-  "timestamp": "2026-05-08T00:00:00Z"
+  "data_quality_flags": {
+    "class_codes_verified": true,
+    "pay_grades_verified": true,
+    "salary_figures_verified": true,
+    "supervisor_class_identity_note": "Specialist (grade 19) used as in-series senior/lead; PSA supervisory title not separately confirmed",
+    "cba_terms_verified": true,
+    "confidence": "high"
+  },
+  "access_blockers": [],
+  "research_date": "2026-06-02"
 }

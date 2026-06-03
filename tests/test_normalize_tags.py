@@ -28,3 +28,23 @@ def test_normalize_card_no_tags_is_noop():
     new, unmapped = normalize_card(card, ALIASES)
     assert new == {"id": "y"}
     assert unmapped == []
+
+
+import json as _json
+from normalize_tags import run  # noqa: E402
+
+
+def _write_card(d, rel, tags):
+    p = d / rel
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(_json.dumps({"id": rel, "path": "data/" + rel.replace(".meta.json", ""),
+                              "title": "t", "tags": tags}), encoding="utf-8")
+
+
+def test_run_check_then_write(tmp_path):
+    _write_card(tmp_path, "data/a.csv.meta.json", ["ADA", "ssa"])
+    assert "data/a.csv.meta.json" in run(tmp_path, {"ADA": "ada"}, write=False)["changed"]
+    run(tmp_path, {"ADA": "ada"}, write=True)
+    card = _json.loads((tmp_path / "data/a.csv.meta.json").read_text(encoding="utf-8"))
+    assert card["tags"] == ["ada", "ssa"]
+    assert run(tmp_path, {"ADA": "ada"}, write=False)["changed"] == []

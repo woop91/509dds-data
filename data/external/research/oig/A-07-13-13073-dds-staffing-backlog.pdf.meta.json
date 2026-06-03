@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/oig/A-07-13-13073-dds-staffing-backlog",
+  "title": "The Social Security Administration's Progress in Reducing the Initial Disability Claims Backlog",
+  "description": "SSA Office of the Inspector General, Office of Audit, evaluation report A-07-13-13073 (April 2014) reviewing SSA's actions to reduce its initial disability claims backlog. Background: SSA's November 2010 Strategy to Address Increasing Initial Disability Claims Receipts set four objectives — increase DDS and federal disability-processing-unit staffing, improve efficiency through automation, expand screening tools for likely allowances, and refine policies/processes to expedite cases. Findings: SSA had projected FY2010 pending initial claims would exceed 1 million and set a goal of 525,000 pending by FY2014; it reduced the backlog from a high of about 842,000 claims at the end of FY2010 to 698,000 by the end of FY2013. Memorandum dated April 28, 2014, to the Commissioner from the Inspector General (Patrick P. O'Carroll, Jr.).",
+  "path": "data/external/research/oig/A-07-13-13073-dds-staffing-backlog.pdf",
+  "format": "pdf",
+  "temporal_coverage": { "start": "2010", "end": "2014" },
+  "geographic_coverage": "United States (federal — SSA, national DDS)",
+  "source": {
+    "publisher": "SSA Office of the Inspector General",
+    "title": "The Social Security Administration's Progress in Reducing the Initial Disability Claims Backlog (A-07-13-13073)",
+    "url": "https://oig.ssa.gov/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Primary published U.S. government evaluation report (SSA OIG, Office of Audit), hence Authoritative. Real metadata extracted from pages 1-3 of 18: report number A-07-13-13073, April 2014, the 2010 four-objective Strategy, backlog figures (842,000 FY2010 high to 698,000 FY2013), memorandum dated 2014-04-28. No sibling .source.txt; exact source URL unknown, so oig.ssa.gov canonical domain used (deep link not invented).",
+  "tags": ["ssa-oig", "initial-disability-claims", "backlog", "dds-staffing", "evaluation", "fy2010-fy2014", "oversight"]
+}

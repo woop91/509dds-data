@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/ssa-research/ssb-v72n1-fast-track-strategies",
+  "title": "Fast-Track Strategies in Long-Term Public Disability Programs Around the World (Social Security Bulletin v72n1)",
+  "description": "Social Security Bulletin article (David Rajnes, Vol. 72 No. 1) surveying fast-track (FT) procedures used in U.S. and international long-term public disability programs to accelerate applicants with severe disabilities, blindness, or terminal illness through the determination process. Compares FT program features, administrative components, and technology levels across countries and discusses how FT can improve claims processing and case management. Relevant to expedited-determination concepts such as Quick Disability Determination and Compassionate Allowances within DDS workflows.",
+  "path": "data/external/research/ssa-research/ssb-v72n1-fast-track-strategies.md",
+  "format": "md",
+  "geographic_coverage": "United States and international (cross-national comparison)",
+  "source": {
+    "publisher": "U.S. Social Security Administration (SSA), Office of Retirement and Disability Policy",
+    "title": "Social Security Bulletin, Vol. 72, No. 1 — Fast-Track Strategies in Long-Term Public Disability Programs (David Rajnes)",
+    "url": "https://www.ssa.gov/policy/docs/ssb/v72n1/"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Not copyrighted (U.S. SSA publication; citation requested)",
+  "notes": "Authoritative: a published, peer-style research article in SSA's Social Security Bulletin (Vol. 72, No. 1) by David Rajnes of SSA's Office of Research, Evaluation, and Statistics, mirrored from ssa.gov/policy. The source URL is the canonical SSB v72n1 issue directory (the article page is v72n1p?.html); deep article-page link not asserted. A Table 2 correction was posted 2016-02-23. Issue date is not stated cleanly in the scraped body (SSB v72n1 corresponds to 2012), so temporal_coverage is omitted rather than guessed. Large file (~152 KB). No tabular columns declared.",
+  "tags": ["external", "research", "ssa-research", "ssa", "social-security-bulletin", "fast-track", "quick-disability-determination", "compassionate-allowances", "disability-determination", "international", "authoritative"]
+}

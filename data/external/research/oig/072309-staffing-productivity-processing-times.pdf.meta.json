@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/oig/072309-staffing-productivity-processing-times",
+  "title": "Staffing, Productivity, and Processing Times at State Disability Determination Services",
+  "description": "SSA Office of the Inspector General, Office of Audit, final report 072309 (July 2025), determining the extent to which staffing, productivity, and processing times at state Disability Determination Services (DDS) changed from Fiscal Years 2019 through 2023. Background context in the report: DDSs operate in each of the 50 states, DC, and Puerto Rico; they are state-run and federally funded by SSA, develop medical evidence, and decide whether claimants are disabled under Titles II and XVI. Memorandum dated July 18, 2025, to Commissioner Frank Bisignano from Acting Inspector General Michelle L. Anderson. This report is a key source for the staffing/productivity decline narrative (e.g., drops in experienced examiners and medical consultants over FY19-FY24) cited by other documents in this catalog.",
+  "path": "data/external/research/oig/072309-staffing-productivity-processing-times.pdf",
+  "format": "pdf",
+  "temporal_coverage": { "start": "2019", "end": "2023" },
+  "geographic_coverage": "United States (50 states, DC, Puerto Rico — state DDS)",
+  "source": {
+    "publisher": "SSA Office of the Inspector General",
+    "title": "Staffing, Productivity, and Processing Times at State Disability Determination Services (072309)",
+    "url": "https://oig.ssa.gov/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Primary published U.S. government audit report (SSA OIG, Office of Audit), hence Authoritative. Real metadata extracted from pages 1-3 of 22: report number 072309, July 2025, objective covering FY2019-FY2023 DDS staffing/productivity/processing times, memorandum dated 2025-07-18. No sibling .source.txt; exact source URL unknown, so oig.ssa.gov canonical domain used (deep link not invented).",
+  "tags": ["ssa-oig", "dds-staffing", "productivity", "processing-times", "audit", "fy2019-fy2023", "disability-examiners", "oversight"]
+}

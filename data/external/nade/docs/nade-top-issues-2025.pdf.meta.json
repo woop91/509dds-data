@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/docs/nade-top-issues-2025",
+  "title": "NADE's Top Issues for 2025",
+  "description": "A 2-page advocacy position paper from the National Association of Disability Examiners (NADE) listing its top policy priorities for 2025 affecting the state Disability Determination Services (DDS). Issues raised include: Recruitment and Retention (continued funding to maintain adequate DDS staffing, more hiring-authority flexibility, telework, competitive salaries); Training (funding for new and ongoing examiner training and nationally uniform materials); Claimant Communication (email/text messaging, the emailer pilot, document uploading); Evaluation of Vocational Regulations and Processes; Disability Examiner Decision Authority (DEDA) expansion; Customer Service Improvements; IT Modernization (IMAGEN expansion, Electronic Records Express); Cooperative Disability Investigation (CDI) unit support; and re-examination of the Medical Improvement Review Standard (MIRS). Authored within NADE (PDF author metadata: Garcia, Marjorie E., DDS Salem).",
+  "path": "data/external/nade/docs/nade-top-issues-2025.pdf",
+  "format": "pdf",
+  "temporal_coverage": { "start": "2025", "end": "2025" },
+  "geographic_coverage": "United States (national DDS / SSA disability program)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "NADE's Top Issues for 2025",
+    "url": "https://nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Primary advocacy/position document published by NADE, hence Authoritative. Real metadata and full issue list extracted from both pages (PDF CreationDate 2025-04-02). No sibling .source.txt; exact source URL unknown, so nade.org canonical domain used (deep link not invented).",
+  "tags": ["nade", "advocacy", "policy", "2025", "dds-staffing", "deda", "cdi", "mirs", "disability-examiners", "dds"]
+}

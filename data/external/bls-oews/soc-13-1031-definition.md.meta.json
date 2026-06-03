@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/bls-oews/soc-13-1031-definition",
+  "title": "BLS SOC 13-1031 — Claims Adjusters, Examiners, and Investigators (Definition)",
+  "description": "The official U.S. Bureau of Labor Statistics Standard Occupational Classification (SOC 2010) definition for code 13-1031, Claims Adjusters, Examiners, and Investigators, captured as Markdown. Includes the occupation description, key duties, related SOC occupations, and project-specific data-quality notes explaining that BLS OEWS aggregate data for 13-1031 does not separate private-sector insurance adjusters from government claims examiners — so Massachusetts VDE (Vocational Disability Examiner) classification must be confirmed against MassCivil Service codes rather than assumed from BLS national aggregates. Notes the SOC 2010-to-2020 transition (BLS moved to SOC 2020 in 2023).",
+  "path": "data/external/bls-oews/soc-13-1031-definition.md",
+  "format": "md",
+  "geographic_coverage": "United States",
+  "temporal_coverage": { "start": "2010", "end": "2010" },
+  "source": {
+    "publisher": "U.S. Bureau of Labor Statistics (Standard Occupational Classification)",
+    "title": "SOC 13-1031: Claims Adjusters, Examiners, and Investigators",
+    "url": "https://www.bls.gov/soc/2010/soc_13-1031.htm",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: official BLS SOC occupational definition; source URL and 2026-05-05 fetch date confirmed from the sibling soc-13-1031-definition.md.source.txt provenance file (excluded from carding per scope). temporal_coverage reflects the SOC 2010 edition vintage of the definition itself. The 'Data Quality Notes' and SOC 2010-vs-2020 sections are project-added editorial framing, but the core definition and duties are verbatim BLS content, so the card remains Authoritative.",
+  "related": ["external/seiu509/public-sector"],
+  "tags": ["bls", "oews", "soc", "13-1031", "claims-examiner", "occupational-classification", "definition", "vde", "authoritative"]
+}

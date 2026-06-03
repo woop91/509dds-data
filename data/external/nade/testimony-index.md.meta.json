@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/testimony-index",
+  "title": "NADE Congressional Testimony Index (1998-2018)",
+  "description": "A markdown-table link index of NADE's congressional testimony and statements for the record from 1998 through 2018, each row pairing a date with a hearing title and a link to the testimony document (mostly .doc/.htm/.pdf files and NADE news permalinks). Subjects span disability backlogs, the 2009 ARRA, SSA administrative-cost funding, the disability determination/appeals process, SSI fraud/waste/abuse, the definition of disability, baby-boomer beneficiary readiness, CDRs, and commissioner confirmation hearings. Scraped from the official NADE site.",
+  "path": "data/external/nade/testimony-index.md",
+  "format": "md",
+  "temporal_coverage": { "start": "1998", "end": "2018" },
+  "geographic_coverage": "United States (national)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "NADE Testimony",
+    "url": "https://www.nade.org/nade-news/nade-testimony/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as new testimony is delivered",
+  "notes": "Authoritative: direct capture of NADE's Testimony index page (source URL preserved). Stored as a markdown table whose first two columns are empty (artifacts of the source HTML table). This is a link list, not the testimony texts; linked .doc/.htm/.pdf targets are NOT captured here. temporal_coverage spans the dated rows (1998-03-12 to 2018-07-25).",
+  "related": [
+    "external/nade/position-papers-index",
+    "external/nade/examiner-position-paper",
+    "external/nade/top-issues-2024"
+  ],
+  "tags": ["nade", "external", "testimony", "congressional", "index", "link-list", "ssa", "disability-policy", "advocacy"]
+}

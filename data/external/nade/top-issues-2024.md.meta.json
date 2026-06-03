@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/top-issues-2024",
+  "title": "NADE Top Issues for 2024",
+  "description": "NADE's 2024 legislative and policy priorities for the Disability Determination Services (DDS) program, presented as a bulleted advocacy agenda. Items include recruitment and retention (staffing, hiring-authority flexibility, telework, competitive salaries), training funding, claimant communication (email/text, document upload, secure messaging), evaluation of vocational regulations and the occupational database, customer-service improvements, IT modernization (IMAGEN, Electronic Records Express replacement), CDI unit expansion, re-examination of the Medical Improvement Review Standard (MIRS), CDR program-integrity funding, timely revision of the Listings of Impairments, and enhancements to the National Case Processing System (NCPS). Scraped from the official NADE site.",
+  "path": "data/external/nade/top-issues-2024.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2024", "end": "2024" },
+  "geographic_coverage": "United States (national)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "NADE's Top Issues for 2024",
+    "url": "https://www.nade.org/nades-top-issues-for-2024/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "annual (top-issues list refreshed each year)",
+  "notes": "Authoritative: direct capture of NADE's 'Top Issues for 2024' page (source URL preserved). temporal_coverage set to 2024 per the page title. Bulleted policy agenda; no tabular data. Acronyms referenced: DDS, OQR, ALJ, CDI, MIRS, CPD, CDR, NCPS, IMAGEN, ERE, VOIP.",
+  "related": [
+    "external/nade/examiner-position-paper",
+    "external/nade/position-papers-index",
+    "external/nade/testimony-index"
+  ],
+  "tags": ["nade", "external", "top-issues", "2024", "advocacy", "dds", "ssa", "policy-priorities", "cdr", "mirs", "cdi"]
+}

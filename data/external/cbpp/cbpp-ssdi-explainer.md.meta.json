@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/cbpp/cbpp-ssdi-explainer",
+  "title": "Social Security Disability Insurance (SSDI) — CBPP Policy Explainer",
+  "description": "Center on Budget and Policy Priorities policy explainer / chart book on Social Security Disability Insurance (SSDI), describing how the program provides benefits to workers with serious long-lasting impairments, who qualifies, benefit levels, financing, and program facts. Updated February 28, 2025. Provides authoritative plain-language background and summary statistics useful for contextualizing DDS disability-determination work.",
+  "path": "data/external/cbpp/cbpp-ssdi-explainer.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2025", "end": "2025" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "Center on Budget and Policy Priorities (CBPP)",
+    "title": "Social Security Disability Insurance (Policy Basics / Chart Book)",
+    "url": "https://www.cbpp.org/research/social-security/social-security-disability-insurance-0"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Center on Budget and Policy Priorities (reuse per CBPP terms)",
+  "notes": "Authoritative: a published CBPP policy explainer mirrored from cbpp.org; canonical URL captured from the page's main-content link. Page marked 'Updated February 28, 2025' so temporal_coverage start==end (2025). Markdown scrape retains a cookie-policy banner and site navigation. This directory also contains cbpp-ssdi-overview.html and cbpp-ss-research.source.txt, which are intentionally NOT carded per scope (md only). No tabular columns to declare.",
+  "tags": ["external", "cbpp", "ssdi", "social-security", "disability-insurance", "policy-basics", "explainer", "authoritative"]
+}

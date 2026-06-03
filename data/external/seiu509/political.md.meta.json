@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/seiu509/political",
+  "title": "SEIU Local 509 — Political Action",
+  "description": "Scraped Markdown of the SEIU Local 509 'Political Action' page describing the union's legislative and political program. Covers 2026 advocacy priorities (protecting essential services and the FY26 budget, Corporate Fair Share revenue, opposing tax cuts for the wealthy, immigrant rights, and Family Child Care provider support), candidate endorsements and GOTV, and the Committee On Political Education (COPE) voluntary political-action fund (funded by member contributions, not dues). Authoritative reference on Local 509 political priorities and structures.",
+  "path": "data/external/seiu509/political.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts",
+  "temporal_coverage": { "start": "2026", "end": "2026" },
+  "source": {
+    "publisher": "SEIU Local 509",
+    "title": "Political Action",
+    "url": "https://www.seiu509.org/political/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Stated legislative/political priorities are framed for 2026 (temporal_coverage set accordingly). Links to a 2025-26 legislative-priorities PDF (.docx-derived) hosted on seiu509.org and to external coalition/action pages, none of which are in this repo. Leading lines are cookie-consent chrome; trailing block is the gtranslate switcher.",
+  "related": ["external/seiu509/news", "external/seiu509/about"],
+  "tags": ["seiu509", "union", "political-action", "legislative", "cope", "advocacy", "endorsements", "massachusetts", "authoritative"]
+}

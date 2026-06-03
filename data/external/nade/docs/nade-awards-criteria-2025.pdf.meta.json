@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/docs/nade-awards-criteria-2025",
+  "title": "2025 NADE Awards Criteria",
+  "description": "The 2025 awards criteria of the National Association of Disability Examiners (NADE), specifying the nomination rules and eligibility criteria for NADE's annual member and chapter awards (e.g., the Lewis Buckingham Award, the Frank Barclay Award for professional development, and the President's Award / NADE Chapter of the Year). Nominations were due March 31, 2025, for the award period January 1, 2024 through December 31, 2024. The 14-page document describes each award and its eligibility requirements and the chapter-based nomination process. Authored within the NADE Awards Committee (PDF author metadata: Clark, Richard J., DDS Raleigh).",
+  "path": "data/external/nade/docs/nade-awards-criteria-2025.pdf",
+  "format": "pdf",
+  "temporal_coverage": { "start": "2024", "end": "2025" },
+  "geographic_coverage": "United States (NADE national organization and chapters)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "2025 NADE Awards Criteria",
+    "url": "https://nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Primary document published by NADE, hence Authoritative. Real metadata extracted from pages 1-3 of 14: nomination deadline March 31 2025, award period CY2024, and award definitions (Frank Barclay, President's Award/Chapter of the Year, Lewis Buckingham). PDF CreationDate 2025-03-12. No sibling .source.txt; exact source URL unknown, so nade.org canonical domain used (deep link not invented).",
+  "tags": ["nade", "awards", "criteria", "2025", "disability-examiners", "professional-association", "dds", "governance"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/oig/A-05-22-51159r-hearings-backlog",
+  "title": "The Social Security Administration's Hearings Backlog and Average Processing Times",
+  "description": "SSA Office of the Inspector General, Office of Audit, final report A-05-22-51159 (September 2023) determining whether the Office of Hearing Operations' (OHO) Compassionate And REsponsive Service (CARES) Plan initiatives reduced the hearings backlog and average processing times (APT). Background: SSA issued the CARES Plan in January 2016 to cut the pending hearings backlog toward an APT of 270 days, when over 1 million people awaited hearing decisions and APT was 543 days; the Plan was updated in 2017 (APT peaked at 605 days) and 2019, totaling 45 initiatives. Key finding: while the backlog and APT generally decreased FY2016-FY2022, OIG could not determine whether the CARES initiatives caused the reduction — 42 of 45 initiatives lacked sufficient measurements/metrics and SSA could not document a direct link, because SSA never established formal measurements. Memorandum dated September 7, 2023, to Acting Commissioner Kilolo Kijakazi from IG Gail S. Ennis.",
+  "path": "data/external/research/oig/A-05-22-51159r-hearings-backlog.pdf",
+  "format": "pdf",
+  "temporal_coverage": { "start": "2016", "end": "2022" },
+  "geographic_coverage": "United States (federal — SSA Office of Hearing Operations, national)",
+  "source": {
+    "publisher": "SSA Office of the Inspector General",
+    "title": "The Social Security Administration's Hearings Backlog and Average Processing Times (A-05-22-51159)",
+    "url": "https://oig.ssa.gov/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Primary published U.S. government audit report (SSA OIG, Office of Audit), hence Authoritative. Real metadata extracted from pages 1-3 of 30: report number A-05-22-51159, September 2023, CARES Plan objective, memorandum dated 2023-09-07 to Acting Commissioner Kijakazi, and the headline finding (42 of 45 initiatives lacked metrics). No sibling .source.txt; exact source URL unknown, so oig.ssa.gov canonical domain used (deep link not invented).",
+  "tags": ["ssa-oig", "hearings-backlog", "processing-times", "cares-plan", "oho", "audit", "fy2016-fy2022", "oversight"]
+}

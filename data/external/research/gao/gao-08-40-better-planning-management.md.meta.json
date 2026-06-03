@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/gao/gao-08-40-better-planning-management",
+  "title": "GAO-08-40: SSA Disability Claims Backlogs — Trends, Causes, and Better Planning/Management (2007)",
+  "description": "U.S. Government Accountability Office report GAO-08-40 (published Dec 2007) examining trends in SSA disability-claims backlogs and processing times, the key factors driving them, and the steps SSA was taking to reduce them (including the Disability Service Improvement initiative). Notes roughly 1.5 million claims pending at the end of FY2006, of which ~576,000 were backlogged. Relevant to understanding DDS/hearings-level backlog dynamics and target-pending monitoring.",
+  "path": "data/external/research/gao/gao-08-40-better-planning-management.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2007", "end": "2007" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "Social Security Disability: Better Planning, Management, and Evaluation Could Help Address Backlogs (GAO-08-40)",
+    "url": "https://www.gao.gov/products/gao-08-40"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Authoritative: a published GAO report (product GAO-08-40; published Dec 07, 2007, publicly released Jan 07, 2008) mirrored from gao.gov. Based on SSA administrative data, literature review, official interviews, and three-region site visits. The source 'title' approximates GAO's catalog title. Single publication year so temporal_coverage start==end (2007); report references FY2006 caseload figures. Recommendation table is narrative, not a declared column schema.",
+  "tags": ["external", "research", "gao", "ssa", "dds", "disability-determination", "claims-backlog", "processing-time", "disability-service-improvement", "oversight", "authoritative"]
+}

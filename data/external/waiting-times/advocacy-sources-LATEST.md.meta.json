@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/waiting-times/advocacy-sources-LATEST",
+  "title": "Disability Benefits Waiting Times — Advocacy Sources Summary (2025-2026)",
+  "description": "A compiled research summary of disability-benefits waiting-time findings drawn from advocacy and private-sector sources for 2024-2026: Allsup quarterly reports (800,000+ claimants awaiting hearings; 18-24 month average waits), NOSSCR (approaching 1 million awaiting initial decisions; declining SSDI approval rates), and Atticus (2025 hearing-wait data with some state-level segmentation). Concludes that no comprehensive 50-state waiting-time dataset exists in advocacy sources — all provide national aggregates — and recommends SSA OPCU statistics, SSA PAR reports, and state DDS annual reports for authentic state-level data.",
+  "path": "data/external/waiting-times/advocacy-sources-LATEST.md",
+  "format": "md",
+  "geographic_coverage": "United States (national aggregates)",
+  "temporal_coverage": { "start": "2024", "end": "2026" },
+  "source": {
+    "publisher": "509dds-data research compilation (Allsup, NOSSCR, Atticus)",
+    "title": "Disability Benefits Waiting Times Data - 2025-2026 (Data Sources Summary)",
+    "url": "https://www.allsup.com/",
+    "retrieved_at": "2026-05-05"
+  },
+  "confidence_tier": "Computed",
+  "notes": "Computed: this is a synthesized/compiled summary of multiple third-party advocacy sources (Allsup, NOSSCR, Atticus), not a single authoritative dataset — it paraphrases findings and offers an analysis/recommendation, so it is best treated as derived research notes. No primary source files are stored; figures are approximate national aggregates (e.g. '800K+ in hearings', '~1M awaiting initial decisions'). source.url uses Allsup's canonical domain as a representative publisher because the file lists several sources without a single canonical deep link; the other named sources are NOSSCR and Atticus. The file explicitly states authentic state-level DDS waiting-time data requires SSA OPCU access. temporal_coverage reflects the stated 2024-2026 coverage; fetched 2026-05-05.",
+  "tags": ["waiting-times", "disability-benefits", "ssdi", "backlog", "advocacy", "allsup", "nosscr", "atticus", "national", "computed"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/ssab/dds-staffing-policy-brief-2025-09",
+  "title": "Social Security: Improving Hiring Processes at State Disability Determination Services (SSAB Issue Brief, September 2025)",
+  "description": "Social Security Advisory Board (SSAB) issue brief (September 2025) examining recurrent staffing pressures and the impact of episodic hiring freezes and hiring-approval timing at the state Disability Determination Services (DDS), with recommendations to inform SSA hiring policy. Background in the brief: DDSs determine medical eligibility for Disability Insurance (DI) and Supplemental Security Income (SSI) at the initial and reconsideration levels and conduct continuing disability reviews; they are entirely SSA-funded but state-managed and -staffed, and must comply with SSA policy including when a DDS may hire. The brief cites the National Council of Disability Determination Directors (NCDDD) on hiring-freeze harms and an SSA OIG report finding that, FY2019-FY2024, case processing times and queue size rose while experienced examiners dropped 11% and medical consultants dropped 13%; and SSA Office of the Chief Actuary analysis attributing a ~20% drop in DDS determinations to a 21% drop in fully trained examiners diverted to train new hires. Board members listed: Bob Joondeph (Chair), Nancy J. Altman, Jagadeesh Gokhale, Amy Shuart.",
+  "path": "data/external/research/ssab/dds-staffing-policy-brief-2025-09.pdf",
+  "format": "pdf",
+  "temporal_coverage": { "start": "2018", "end": "2024" },
+  "geographic_coverage": "United States (federal — SSA, national state DDS)",
+  "source": {
+    "publisher": "Social Security Advisory Board",
+    "title": "Social Security: Improving Hiring Processes at State Disability Determination Services (Issue Brief)",
+    "url": "https://www.ssab.gov/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Primary published document from the Social Security Advisory Board (an independent federal agency), hence Authoritative. Real metadata extracted from pages 1-3 of 7: cover title 'Social Security: Improving Hiring Processes at State Disability Determination Services', SSAB Issue Brief, board-member list, and findings (FY19-24 examiner/consultant declines of 11%/13%, ~20% determination drop). Note: the PDF document-metadata title reads 'Recurrent Staffing Pressures at State Disability Determination Services' and subject 'Social Security Advisory Bo[ard]', differing slightly from the cover title; PDF CreationDate 2025-09-04 (matches the filename's 2025-09). No sibling .source.txt; exact source URL unknown, so ssab.gov canonical domain used (deep link not invented).",
+  "tags": ["ssab", "social-security-advisory-board", "dds-staffing", "hiring-freezes", "policy-brief", "2025", "ncddd", "disability-examiners"]
+}

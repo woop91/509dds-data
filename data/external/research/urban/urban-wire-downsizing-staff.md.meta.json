@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/urban/urban-wire-downsizing-staff",
+  "title": "Downsizing Staff Will Make It Harder to Receive Social Security Payments",
+  "description": "Urban Institute 'Urban Wire' commentary (captured as markdown) arguing that the federal workforce downsizing pursued by the Trump administration will worsen the SSA disability-claims backlog and lengthen wait times for SSDI and SSI applicants. Directly relevant to DDS staffing: it documents that the number of fully trained state Disability Determination Services examiners not occupied training others fell from 6,627 (2018) to 5,252 (2023), that a fully trained examiner resolved an average of 579 initial determinations per year in 2023, and that average initial-decision wait times have roughly doubled since the pandemic (now over six months, ranging from 61 days in Idaho to 370 in Georgia). It ties hiring freezes and turnover to growing backlogs (on track to exceed 2 million) and the resulting harm to beneficiaries.",
+  "path": "data/external/research/urban/urban-wire-downsizing-staff.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2018", "end": "2025" },
+  "geographic_coverage": "United States (federal SSA disability determination; state DDS examiners; state wait-time examples Idaho and Georgia)",
+  "source": {
+    "publisher": "Urban Institute",
+    "title": "Downsizing Staff Will Make It Harder to Receive Social Security Payments",
+    "url": "https://www.urban.org/urban-wire/downsizing-staff-will-make-it-harder-receive-social-security-payments"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: this is a primary published Urban Wire commentary piece from the Urban Institute, not a derived/computed artifact. The canonical URL is taken verbatim from the captured page (the 'Skip to main content' anchor and AddToAny share link both point to urban.org/urban-wire/downsizing-staff-will-make-it-harder-receive-social-security-payments), so it is a real source URL, not a fabricated deep link. temporal_coverage spans the data discussed in the piece: examiner-headcount comparison 2018 vs 2023, and the processing-time data the article cites as accessed February 2025 / labeled January 2025 (the page's hero image asset is dated 2025-02), so start=2018, end=2025. The piece reuses statistics it credits to SSA (note163.pdf, May 2024) and to Boyens & Smalligan's AARP report (July 2024); those underlying sources are external and not cataloged here, so no derived_from is asserted. Narrative markdown — no columns/row_count.",
+  "related": ["external/research/urban/improving-ssa-disability-determination-process"],
+  "tags": ["urban-institute", "urban-wire", "commentary", "ssa", "dds", "disability-determination", "disability-examiners", "staffing", "downsizing", "backlog", "wait-times", "ssdi", "ssi", "2025"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/seiu509/for-stewards",
+  "title": "SEIU Local 509 — For Stewards",
+  "description": "Scraped Markdown of the SEIU Local 509 'For Stewards' resource page for worksite leaders. Covers Weingarten rights, sector-specific editable grievance forms (state workers, private-sector human services, Guidewire, higher ed), expense-reimbursement and steward-handbook resources, and steward-training offerings (Intro to Stewarding 101, Intro to Union Leadership 101, Intro to the Organizing Conversation) with a virtual training schedule and the Member Action Resource Center phone line. Authoritative reference for Local 509 steward responsibilities and tools.",
+  "path": "data/external/seiu509/for-stewards.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts",
+  "source": {
+    "publisher": "SEIU Local 509",
+    "title": "For Stewards",
+    "url": "https://www.seiu509.org/for-stewards/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Substantial trailing content is the FastAction (NGP VAN) training-signup form markup and modal boilerplate plus the gtranslate switcher; the embedded training schedule lists Apr-Jul session dates from the scrape snapshot (year not stated in those rows). Leading lines are cookie-consent chrome. No single publication date so temporal_coverage is omitted.",
+  "related": ["external/seiu509/members", "external/seiu509/public-sector"],
+  "tags": ["seiu509", "union", "stewards", "grievance", "weingarten", "training", "organizing", "massachusetts", "authoritative"]
+}

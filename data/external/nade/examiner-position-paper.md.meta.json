@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/examiner-position-paper",
+  "title": "NADE Disability Examiner Position Paper (2004)",
+  "description": "NADE's full position paper articulating the unique knowledge, skills, and abilities of the state DDS disability examiner who makes the initial medical-legal-vocational determination for SSA's SSDI and SSI programs. It argues the examiner must interchangeably apply the 'logic' of a physician, attorney, and rehabilitation counselor; details the sequential evaluation process, evidence weighing, childhood-SSI functional domains, and required technological proficiency; and cites SSA Advisory Board and GAO reports plus program statistics (e.g., 2003 DI/SSI benefit dollars and 2.5M initial determinations). Concludes that technology cannot replace the highly trained examiner. Approved by the NADE Board 2004-02-13. Scraped from the official NADE site.",
+  "path": "data/external/nade/examiner-position-paper.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2004-02-13", "end": "2004-02-13" },
+  "geographic_coverage": "United States (national)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "NADE Board Approves Disability Examiner Position Paper",
+    "url": "https://www.nade.org/nade-board-approves-disability-examiner-position-paper/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "static (approved 2004; not periodically revised)",
+  "notes": "Authoritative: direct capture of NADE's published Disability Examiner Position Paper (source URL preserved). temporal_coverage set to the board approval date (2004-02-13) explicitly stated at the end of the document; embedded program statistics reference 2003. Quotes the Social Security Advisory Board's 'The Social Security Definition of Disability' (Oct 2003) and GAO-04-121. Long-form narrative; no tabular data.",
+  "related": [
+    "external/nade/position-papers-index",
+    "external/nade/testimony-index",
+    "external/nade/top-issues-2024"
+  ],
+  "tags": ["nade", "external", "position-paper", "disability-examiner", "ssdi", "ssi", "adjudication", "sequential-evaluation", "dds", "2004"]
+}

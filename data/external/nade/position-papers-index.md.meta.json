@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/position-papers-index",
+  "title": "NADE Position Papers Index (1999-2006)",
+  "description": "A dated link index of NADE position papers from 1999 through 2006, each entry pairing a date with a title and a link to the paper (many to .doc/.htm/.pdf documents on nade.org or to NADE news permalink pages). Topics include the IOM Interim Report response, the Disability Process Improvement Initiative, elimination of the five-month and 24-month Medicare waiting periods, the CDI and Medical Consultant position papers, in-line quality review, a 'New Approach to SSA Disability Determinations', MIRS exceptions, and SSA certification of disability examiners. Scraped from the official NADE site.",
+  "path": "data/external/nade/position-papers-index.md",
+  "format": "md",
+  "temporal_coverage": { "start": "1999", "end": "2006" },
+  "geographic_coverage": "United States (national)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "Position Papers",
+    "url": "https://www.nade.org/nade-news/position-papers/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as new position papers are published",
+  "notes": "Authoritative: direct capture of NADE's Position Papers index page (source URL preserved). This is a link list, not the papers themselves; the linked targets (.doc/.htm/.pdf and news permalinks) are NOT captured here. temporal_coverage spans the dated entries (1999-07-19 to 2006-03-27). The 2004 Disability Examiner Position Paper that appears in this index is separately captured as external/nade/examiner-position-paper.",
+  "related": [
+    "external/nade/examiner-position-paper",
+    "external/nade/testimony-index",
+    "external/nade/top-issues-2024"
+  ],
+  "tags": ["nade", "external", "position-papers", "index", "link-list", "ssa", "disability-policy", "advocacy"]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/seiu509/member-benefits",
+  "title": "SEIU Local 509 — Member Benefits",
+  "description": "Scraped Markdown of the SEIU Local 509 'Member Benefits' page. Describes SEIU Member Benefits discounts (insurance, health services, mortgages, travel, legal) via seiumb.com and details the 2026 Local 509 Scholarship Program: eligibility (Elder Services, FCC, Higher Ed, and Private Sector Human Services chapters and dependents), $1,000-$1,500 award range, key 2026 dates (Apr 10 deadline, May 4 enrollment verification, May 22 winners announced), and a full roster of 2024 scholarship winners with award names and institutions. Authoritative reference on Local 509 member benefits and scholarships.",
+  "path": "data/external/seiu509/member-benefits.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts",
+  "temporal_coverage": { "start": "2024", "end": "2026" },
+  "source": {
+    "publisher": "SEIU Local 509",
+    "title": "Member Benefits",
+    "url": "https://www.seiu509.org/member-benefits/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. temporal_coverage spans the listed 2024 winners through the 2026 scholarship cycle. Public-sector members are noted as awarded separately via the 509 Commonwealth Fund (509training.org). Contains named 2024 award winners and institutions (public union content). Leading lines are cookie-consent chrome; trailing block is the gtranslate switcher.",
+  "related": ["external/seiu509/members", "external/seiu509/public-sector"],
+  "tags": ["seiu509", "union", "member-benefits", "scholarships", "discounts", "insurance", "massachusetts", "authoritative"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/ssa-research/ssb-v83n2-workplace-accommodation",
+  "title": "Workplace Accommodations and Worker Functioning in Three Occupations (Social Security Bulletin v83n2)",
+  "description": "Social Security Bulletin article (Vol. 83 No. 2; authors at the University of New Hampshire Institute on Disability) examining how workplace accommodations help workers with disabilities maintain or return to employment, based on a survey of 802 cashiers, receptionists, and nurses. Measures self-assessed physical and mental functioning (via WD-FAB domains) for workers who use accommodations versus those who do not need them, and discusses how an accommodation-availability measure could inform SSA disability evaluation. Relevant to vocational/functional assessment in DDS determinations.",
+  "path": "data/external/research/ssa-research/ssb-v83n2-workplace-accommodation.md",
+  "format": "md",
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Social Security Administration (SSA), Office of Retirement and Disability Policy",
+    "title": "Social Security Bulletin, Vol. 83, No. 2 — Workplace Accommodations and Worker Functioning (University of New Hampshire Institute on Disability)",
+    "url": "https://www.ssa.gov/policy/docs/ssb/v83n2/"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Not copyrighted (U.S. SSA publication; citation requested)",
+  "notes": "Authoritative: a published research article in SSA's Social Security Bulletin (Vol. 83, No. 2), authored by University of New Hampshire Institute on Disability researchers under SSA grant RDR18000002, mirrored from ssa.gov/policy. The source URL is the canonical SSB v83n2 issue directory (article page is v83n2p17.html); deep article-page link not asserted. Survey reflects 2021 data with 2019 ACS comparison; issue date not stated cleanly in the scraped body so temporal_coverage is omitted. No tabular columns declared (the article includes survey tables, but the file is a narrative article).",
+  "tags": ["external", "research", "ssa-research", "ssa", "social-security-bulletin", "workplace-accommodation", "wd-fab", "functioning", "vocational", "disability-determination", "authoritative"]
+}

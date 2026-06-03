@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/members/state-chapter-contacts",
+  "title": "NADE State Chapter Contacts (Regional Directors)",
+  "description": "Contact directory for NADE's four Regional Directors, organized by region (Midwest, North, Pacific, South). Each entry lists the Regional Director's name, phone number, and @ssa.gov email: Patricia Chaplin (Midwest), Michelle Wade (North), Amber Barnes (Pacific), and Ebony Grissett (South). Serves as the top-level routing contact list for state/local chapter inquiries. Scraped from the official NADE site.",
+  "path": "data/external/nade/members/state-chapter-contacts.md",
+  "format": "md",
+  "geographic_coverage": "United States (national, by region)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "State Chapter Contacts",
+    "url": "https://www.nade.org/members/state-chapter-contacts/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as Regional Director assignments change",
+  "notes": "Authoritative: direct capture of NADE's State Chapter Contacts page (source URL preserved). Lists only the four Regional Directors (name/phone/email), not individual state chapter contacts despite the page title. RD assignments here (Chaplin=Midwest, Wade=North, Barnes=Pacific, Grissett=South) align with the region-chapter-numbers directory but differ from the Board of Directors roster snapshot. Contains personal contact details. No date stated; temporal_coverage omitted.",
+  "related": [
+    "external/nade/members/region-chapter-numbers",
+    "external/nade/members/regional-constitutions-bylaws",
+    "external/nade/board-of-directors"
+  ],
+  "tags": ["nade", "external", "members", "contacts", "regional-directors", "chapters", "directory", "ssa"]
+}

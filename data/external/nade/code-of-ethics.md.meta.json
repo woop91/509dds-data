@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/code-of-ethics",
+  "title": "NADE Code of Ethics",
+  "description": "The short, single-paragraph NADE Code of Ethics: a member's personal pledge to promote understanding in disability evaluation, strive for improved expertise in documenting and evaluating impairments and their vocational implications, pursue continued professional growth to better serve the disabled individual, and conduct professional service with the highest integrity while safeguarding the privacy and rights of the individual through responsible handling of confidential information. Scraped from the official NADE site.",
+  "path": "data/external/nade/code-of-ethics.md",
+  "format": "md",
+  "geographic_coverage": "United States (national)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "Code of Ethics",
+    "url": "https://www.nade.org/about-nade/code-of-ethics/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "rarely (foundational ethics statement)",
+  "notes": "Authoritative: direct capture of NADE's Code of Ethics page (source URL preserved). Very short page (one substantive paragraph plus the site's search/widgetbar footer boilerplate). No date stated; temporal_coverage omitted. Referenced by the certification criteria, which require members to subscribe to this Code.",
+  "related": [
+    "external/nade/certifications",
+    "external/nade/board-of-directors"
+  ],
+  "tags": ["nade", "external", "code-of-ethics", "disability-examiner", "professional-conduct", "confidentiality"]
+}

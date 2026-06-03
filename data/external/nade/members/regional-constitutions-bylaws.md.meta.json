@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/members/regional-constitutions-bylaws",
+  "title": "NADE Regional and State Chapter Constitutions & Bylaws (Link Index)",
+  "description": "A by-region (North, South, Midwest, Pacific) link index to the constitution-and-bylaws documents for NADE's state and local chapters, each entry pairing a chapter name and number with a link to its .doc/.docx bylaws file (most under nade.org/wp-content/uploads/2025/10/). Also links the Northeast Region constitution/bylaws. A few chapters (e.g., Mich Kalamazoo - 73, California Oak - 72) are listed without a document link. Scraped from the official NADE site.",
+  "path": "data/external/nade/members/regional-constitutions-bylaws.md",
+  "format": "md",
+  "geographic_coverage": "United States (all states, DC, PR, VI, Guam)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "Regional Constitutions & Bylaws",
+    "url": "https://www.nade.org/members/regional-constitutions-bylaws/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapter bylaws documents are revised/re-posted",
+  "notes": "Authoritative: direct capture of NADE's Regional Constitutions & Bylaws index page (source URL preserved). This is a link list of .doc/.docx bylaws documents (not in the format enum and NOT captured here as files). Most upload links are dated 2025-10, suggesting a late-2025 refresh, but no page-level date is stated so temporal_coverage is omitted. Mirrors the same region/chapter/number structure as the region-chapter-numbers directory.",
+  "related": [
+    "external/nade/members/region-chapter-numbers",
+    "external/nade/members/state-chapter-contacts"
+  ],
+  "tags": ["nade", "external", "members", "constitutions", "bylaws", "chapters", "regions", "link-list", "index"]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/gao/gao-09-398-performance-measures",
+  "title": "GAO-09-398: SSA Hearings-Backlog Plan — Performance Measures and Risk Assessment (2009)",
+  "description": "U.S. Government Accountability Office report GAO-09-398 (published Sep 2009) assessing SSA's plan to eliminate the hearings-level disability-claims backlog, the extent to which it reflected sound planning, and potential unintended effects on hearings operations and the broader disability process. Recommends developing performance goals/measures, cost estimates, and formal risk assessments for plan initiatives. Relevant to hearings-level backlog reduction downstream of DDS determinations.",
+  "path": "data/external/research/gao/gao-09-398-performance-measures.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2009", "end": "2009" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "Social Security Administration: Cases of Federal Employees and Transportation Drivers and Owners — Hearings Backlog Plan Performance Measures (GAO-09-398)",
+    "url": "https://www.gao.gov/products/gao-09-398"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Authoritative: a published GAO report (product GAO-09-398; published and publicly released Sep 09, 2009) mirrored from gao.gov, evaluating the May 2007 hearings-backlog plan and its May 2009 'Draft Appomattox Plan' update. The source 'title' is approximate — confirm exact GAO catalog title at gao.gov before relying on it (the slug 'performance-measures' reflects the report focus). Single publication year so temporal_coverage start==end (2009). Recommendation table is narrative, not a declared column schema.",
+  "tags": ["external", "research", "gao", "ssa", "disability-determination", "hearings-backlog", "performance-measures", "risk-assessment", "cost-estimates", "oversight", "authoritative"]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/certifications",
+  "title": "NADE Certification and Re-Certification Criteria",
+  "description": "NADE's professional certification program (in existence since 1971) and its eligibility criteria across three categories: Disability Professional (Examiner), Disability Support Professional, and Agency Medical Consultant. Specifies minimum years of practice, education, and required medical/vocational/technical training hours per category, NADE membership and Code of Ethics adherence, and the re-certification rules (certificates valid three years; 25 CE credits for Examiners/Medical Consultants and 15 for Support Professionals). References the NADE 101 application form and links to PDF certification/re-certification applications. Scraped from the official NADE site.",
+  "path": "data/external/nade/certifications.md",
+  "format": "md",
+  "geographic_coverage": "United States (national)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "Certifications",
+    "url": "https://www.nade.org/about-nade/certifications/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "rarely (criteria amended at national conferences; last noted update 2001)",
+  "notes": "Authoritative: direct capture of NADE's Certifications page (source URL preserved). Criteria histories cite specific conferences (1971 Chicago, 1978 Salt Lake City, 1984 Austin, 2000 San Juan, 2001 Austin re-certification). Linked certification_application.pdf and Recert_application.pdf are not captured here. Professional Development chair contact (Amber Barnes) is named. No tabular data.",
+  "related": [
+    "external/nade/code-of-ethics",
+    "external/nade/board-of-directors"
+  ],
+  "tags": ["nade", "external", "certification", "re-certification", "disability-examiner", "continuing-education", "professional-development", "criteria"]
+}

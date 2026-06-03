@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/cbpp/realities-of-work-disabilities",
+  "title": "The Realities of Work for Individuals with Disabilities: Impact of Age, Education, and Work Experience (CBPP, 2015)",
+  "description": "Center on Budget and Policy Priorities commentary (Paul N. Van de Water, Nov 20, 2015; remarks at the National Disability Forum) arguing for caution in revising how SSA weighs vocational factors — age, limited education, and lack of transferable skills — in disability determination. Explains why disability is not a purely medical concept and how vocational factors interact with the statutory definition of disability and substantial gainful activity. Directly relevant to the vocational-grid / Step-5 logic DDS examiners apply.",
+  "path": "data/external/research/cbpp/realities-of-work-disabilities.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2015", "end": "2015" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "Center on Budget and Policy Priorities (CBPP)",
+    "title": "The Realities of Work for Individuals with Disabilities: Impact of Age, Education, and Work Experience",
+    "url": "https://www.cbpp.org/the-realities-of-work-for-individuals-with-disabilities-impact-of-age-education-and-work-experience"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Center on Budget and Policy Priorities (reuse per CBPP terms)",
+  "notes": "Authoritative: a published CBPP commentary/explainer (dated Nov 20, 2015, by Paul N. Van de Water) mirrored from cbpp.org; the canonical article URL is captured from the page's main-content link. Markdown scrape retains a cookie-policy banner and footnote anchor links. Single publication year so temporal_coverage start==end (2015). No tabular columns to declare.",
+  "tags": ["external", "research", "cbpp", "ssdi", "disability-determination", "vocational-factors", "age", "education", "work-experience", "substantial-gainful-activity", "authoritative"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/seiu509/members",
+  "title": "SEIU Local 509 — For Members (Member Hub)",
+  "description": "Scraped Markdown of the SEIU Local 509 'For Members' hub page. Acts as a navigation landing page directing members to find their workplace/sector (Public Sector, Private Sector Human Services, Family Child Care, Higher Education), locate their current union contract, access steward resources and trainings, update their member information, and explore member benefits. Authoritative orientation page for Local 509 membership self-service.",
+  "path": "data/external/seiu509/members.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts",
+  "source": {
+    "publisher": "SEIU Local 509",
+    "title": "For Members",
+    "url": "https://www.seiu509.org/members/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. This is a thin hub/navigation page (mostly section links to workplace, contracts, for-stewards, update-info, and member-benefits pages) rather than substantive data. Leading lines are cookie-consent chrome; trailing block is the gtranslate switcher. No publication date so temporal_coverage is omitted.",
+  "related": ["external/seiu509/for-stewards", "external/seiu509/member-benefits", "external/seiu509/public-sector"],
+  "tags": ["seiu509", "union", "members", "hub", "navigation", "massachusetts", "authoritative"]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/academic/nbk305232-disability-evaluation-psychological-tests",
+  "title": "Disability Evaluation and the Use of Psychological Tests (IOM, NBK305232)",
+  "description": "Chapter 2 of the Institute of Medicine report 'Psychological Testing in the Service of Disability Determination' (National Academies Press, 2015), describing SSA's process for evaluating SSDI and SSI applications and the role of psychological and validity testing in disability evaluations. Covers application volumes, base rates of malingering, standardized data collection, and comparisons with non-SSA systems (military, VA). Relevant to DDS examiners and medical/psychological consultants weighing psychological-test evidence.",
+  "path": "data/external/research/academic/nbk305232-disability-evaluation-psychological-tests.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2015", "end": "2015" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "National Center for Biotechnology Information (NCBI) Bookshelf / Institute of Medicine, National Academies Press (US)",
+    "title": "Psychological Testing in the Service of Disability Determination — Chapter 2: Disability Evaluation and the Use of Psychological Tests",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK305232/"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public — National Academies Press / IOM consensus report",
+  "notes": "Authoritative: published IOM consensus-report chapter mirrored from NCBI Bookshelf (book record NBK305232 / NAP record 21704), released 2015 Jun 29. Cites 2013 SSA application volumes as illustrative data. Single publication year so temporal_coverage start==end (2015). Large file (~150 KB). Markdown scrape retaining NCBI links; no tabular columns to declare.",
+  "tags": ["external", "research", "academic", "ncbi", "iom", "ssa", "ssdi", "ssi", "disability-determination", "psychological-testing", "validity-testing", "malingering", "authoritative"]
+}

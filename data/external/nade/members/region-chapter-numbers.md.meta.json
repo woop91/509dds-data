@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/members/region-chapter-numbers",
+  "title": "NADE Region and Chapter Numbers Directory",
+  "description": "Directory mapping NADE's four regions (North, South, Midwest, Pacific) and their Regional Directors to the member chapters in each region, with each chapter's assigned numeric chapter ID. Covers all 50 states plus Washington DC, Puerto Rico, Virgin Islands, Guam, Government Liaisons (GLADE), and multiple sub-chapters within larger states (e.g., multiple New York, Louisiana, Washington, and California chapters). Chapter numbers range roughly 1-73. Scraped from the official NADE site.",
+  "path": "data/external/nade/members/region-chapter-numbers.md",
+  "format": "md",
+  "geographic_coverage": "United States (all states, DC, PR, VI, Guam)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "Region/Chapter Numbers",
+    "url": "https://www.nade.org/members/regionchapter-numbers/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as chapters/numbers/RD assignments change",
+  "notes": "Authoritative: direct capture of NADE's Region/Chapter Numbers page (source URL preserved). Region-to-chapter assignments and numeric IDs are point-in-time; the North region here lists Indiana/Michigan and the Pacific RD is shown as Amber Barnes, which can differ from the Board page snapshot (board roster lists different RD names) — directory pages on the site are maintained independently. No explicit date; temporal_coverage omitted. Largely a name/number list, not a wide data table.",
+  "related": [
+    "external/nade/members/state-chapter-contacts",
+    "external/nade/members/regional-constitutions-bylaws",
+    "external/nade/board-of-directors"
+  ],
+  "tags": ["nade", "external", "members", "chapters", "regions", "directory", "chapter-numbers", "regional-directors"]
+}

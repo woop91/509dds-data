@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/oig/2023-10-one-million-claims-and-growing",
+  "title": "One Million Claims and Growing: Improving Social Security's Disability Adjudication Process (IG Letter, October 2023)",
+  "description": "A 3-page letter dated October 26, 2023 from SSA Inspector General Gail S. Ennis to Chairman Drew Ferguson (Subcommittee on Social Security, House Committee on Ways and Means), submitted in anticipation of the Subcommittee hearing 'One Million Claims and Growing: Improving Social Security's Disability Adjudication Process.' The letter summarizes three recent OIG reviews of SSA's disability adjudication: (1) a September 2023 review finding OIG could not determine whether the Office of Hearing Operations' CARES Plan initiatives reduced the hearings backlog and average processing times (42 of 45 initiatives lacked sufficient metrics); (2) a December 2021 finding that DDS processing times and pending cases rose even as receipts fell; and (3) a June 2023 review of COVID-19's effect on DDS processing. It calls for SSA to maintain focus on reducing initial-claim, reconsideration, and CDR backlogs and to partner with DDSs on staffing shortages.",
+  "path": "data/external/research/oig/2023-10-one-million-claims-and-growing.pdf",
+  "format": "pdf",
+  "temporal_coverage": { "start": "2023", "end": "2023" },
+  "geographic_coverage": "United States (federal — SSA disability adjudication, national DDS)",
+  "source": {
+    "publisher": "SSA Office of the Inspector General",
+    "title": "One Million Claims and Growing: Improving Social Security's Disability Adjudication Process (IG letter to Subcommittee on Social Security)",
+    "url": "https://oig.ssa.gov/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Primary published U.S. government document (SSA OIG / Inspector General letter to Congress), hence Authoritative. Real metadata extracted from all 3 pages: dated 2023-10-26, signed Gail S. Ennis, addressed to Chairman Drew Ferguson, summarizing three OIG reviews. No sibling .source.txt; exact source URL unknown, so oig.ssa.gov canonical domain used (deep link not invented).",
+  "tags": ["ssa-oig", "inspector-general", "congressional-testimony", "hearings-backlog", "cares-plan", "dds-staffing", "2023", "oversight", "disability-adjudication"]
+}

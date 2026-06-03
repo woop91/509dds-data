@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/ssa-research/disability-research-index",
+  "title": "SSA Disability Research — Index of Demonstrations, Research, Data, and Employment Support",
+  "description": "Index/landing page mirrored from SSA's Disability Research site, listing SSA demonstrations (e.g., ICAP, PROMISE, RETAIN, SED), completed research projects (e.g., the cardiovascular and HIV listings updates, WD-FAB), data and surveys (NSCF, OIS, QDD), and employment-support resources, each with links back to ssa.gov. Serves as a navigational catalog of SSA disability-research resources rather than a primary dataset. Useful as an entry point to authoritative SSA studies relevant to disability determination.",
+  "path": "data/external/research/ssa-research/disability-research-index.md",
+  "format": "md",
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Social Security Administration (SSA)",
+    "title": "Disability Research (SSA Office of Retirement and Disability Policy)",
+    "url": "https://www.ssa.gov/disabilityresearch/"
+  },
+  "confidence_tier": "Computed",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Computed: this is an index/navigation page (a synthesis of links to SSA demonstrations, research, and data), not a primary published study, so it is tiered Computed per the authoring rules. Markdown scrape of the ssa.gov/disabilityresearch landing page. The page is undated and link contents change over time, so temporal_coverage is omitted. No tabular columns to declare.",
+  "tags": ["external", "research", "ssa-research", "ssa", "disability-research", "index", "demonstrations", "wd-fab", "qdd", "computed"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/oig/042513-jan-2026-audit",
+  "title": "The Social Security Administration's Major Management and Performance Challenges During Fiscal Year 2025",
+  "description": "SSA Office of the Inspector General Management Advisory Report 042513 (January 2026), required by the Reports Consolidation Act of 2000, summarizing the most serious management and performance challenges facing the Social Security Administration during Fiscal Year 2025 and SSA's progress addressing them. The report identifies challenges including Improve Service Delivery; Protect the Confidentiality, Integrity, and Availability of SSA's Information Systems and Data; Modernize Information Technology; Improve the Administration of Disability Programs; and Improve the Prevention, Detection, and Recovery of Improper Payments. For FY2025, given SSA's workforce restructuring and increased technology focus, OIG removed 'Manage Human Capital' as a stand-alone challenge and instead discusses human-capital issues within each challenge. Addressed to Commissioner Frank Bisignano; signed by Michelle L. Anderson.",
+  "path": "data/external/research/oig/042513-jan-2026-audit.pdf",
+  "format": "pdf",
+  "temporal_coverage": { "start": "2025", "end": "2025" },
+  "geographic_coverage": "United States (federal — SSA agency-wide)",
+  "source": {
+    "publisher": "SSA Office of the Inspector General",
+    "title": "The Social Security Administration's Major Management and Performance Challenges During Fiscal Year 2025 (042513)",
+    "url": "https://oig.ssa.gov/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Primary published U.S. government oversight report (SSA OIG), hence Authoritative. Real metadata extracted from pages 1-3 of 35: report number 042513, January 2026, memorandum dated 2026-01-06 to Commissioner Bisignano, and the enumerated FY2025 challenges. No sibling .source.txt; exact source URL unknown, so oig.ssa.gov canonical domain used (deep link not invented).",
+  "tags": ["ssa-oig", "management-challenges", "fy2025", "oversight", "disability-programs", "improper-payments", "service-delivery", "reports-consolidation-act"]
+}

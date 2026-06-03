@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/members/recruitment-grants-awards",
+  "title": "NADE Membership Recruitment Grants and Membership Awards",
+  "description": "Narrative description of NADE's membership recruitment grant and award program. The NADE Board budgets funds annually for recruitment grants; the Membership Director is authorized to grant $50 to individual local chapters to defray recruiting costs, applied for in writing with a stated use of funds. The page also describes membership-committee assistance (ideas, sample letters and posters) and monetary awards recognizing chapters (large/medium/small) that excel at recruiting, presented at Regional and National Conferences, with a link to the awards criteria. Scraped from the official NADE site.",
+  "path": "data/external/nade/members/recruitment-grants-awards.md",
+  "format": "md",
+  "geographic_coverage": "United States (national)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "Membership Recruitment Grants and Membership Awards",
+    "url": "https://www.nade.org/members/membership-recruitment-grants-and-membership-awards/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as program/amounts change",
+  "notes": "Authoritative: direct capture of NADE's members recruitment-grants/awards page (source URL preserved). Notes a specific $50 per-chapter grant amount and links to '2021 NADE Awards Criteria' (not captured here). No date stated on the page; temporal_coverage omitted. Narrative prose, no tabular data.",
+  "related": [
+    "external/nade/members/state-chapter-contacts",
+    "external/nade/board-of-directors"
+  ],
+  "tags": ["nade", "external", "members", "recruitment", "grants", "awards", "membership", "chapters"]
+}

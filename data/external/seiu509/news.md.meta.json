@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/seiu509/news",
+  "title": "SEIU Local 509 — News (Listing Snapshot)",
+  "description": "Scraped Markdown of the SEIU Local 509 'News' listing page, a snapshot of recent union news posts from January through May 2026. Headlines include AAPI Heritage Month, the Lesley University core-faculty strike-authorization vote, a statement on Tewksbury State Hospital incidents, April 2026 quarterly nominations, the 2026 Scholarship Program opening, Lobby Day, GIC (Group Insurance Commission) healthcare-cost advocacy updates, and the Tufts SMFA first-contract ratification. Includes media-inquiries contact info. Authoritative snapshot of Local 509 communications and campaigns.",
+  "path": "data/external/seiu509/news.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts",
+  "temporal_coverage": { "start": "2026-01", "end": "2026-05" },
+  "source": {
+    "publisher": "SEIU Local 509",
+    "title": "News",
+    "url": "https://www.seiu509.org/news/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. This is a point-in-time listing snapshot; the live page is continuously updated, so the captured posts (dated Jan 30 - May 4, 2026) reflect only the scrape moment and will drift from the live site. temporal_coverage bounds the captured post dates. Each entry links to a full article on seiu509.org not included in this repo. Leading lines are cookie-consent chrome; trailing block is the gtranslate switcher.",
+  "related": ["external/seiu509/political", "external/seiu509/public-sector"],
+  "tags": ["seiu509", "union", "news", "press", "campaigns", "snapshot", "massachusetts", "authoritative"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/seiu509/leadership",
+  "title": "SEIU Local 509 — Leadership",
+  "description": "Scraped Markdown of the SEIU Local 509 'Leadership' page. Names the three local-wide officers — David Foley (President), Kara Goodier (Treasurer), and Cynthia Davis (Recording Secretary) — and provides the scaffold (chapter headings and empty Role/Name tables) for the Current Elected Leaders directory across chapters such as DDS, DMH, DCF, DOR, MassHealth, Higher Ed, and others. Useful as authoritative context on Local 509 officer structure, though the per-chapter leader tables rendered empty in the scrape.",
+  "path": "data/external/seiu509/leadership.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts",
+  "source": {
+    "publisher": "SEIU Local 509",
+    "title": "Leadership",
+    "url": "https://www.seiu509.org/leadership/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Data-quality caveat: the per-chapter 'Current SEIU 509 Elected Leaders' and 'Chapter Leaders & Officers Directory' tables came through EMPTY (only Role/Name/Email headers, no rows) — likely JS-rendered tabs that the scraper did not capture; only the three top-level officers and their emails are present. Leading lines are cookie-consent chrome; trailing block is the gtranslate switcher. No publication date so temporal_coverage is omitted.",
+  "related": ["external/seiu509/committees", "external/seiu509/governance"],
+  "tags": ["seiu509", "union", "leadership", "officers", "directory", "chapters", "massachusetts", "authoritative"]
+}

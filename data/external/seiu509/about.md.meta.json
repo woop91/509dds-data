@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/seiu509/about",
+  "title": "SEIU Local 509 — About Local 509",
+  "description": "Scraped Markdown of the SEIU Local 509 'About' page. States that Local 509 represents over 23,000 human service workers and educators across Massachusetts (mental health clinicians, social workers, early childhood educators, university lecturers) and is part of the 2-million-member national SEIU. Includes the union's mission statement, solidarity principles (equity for marginalized communities, green future, equitable education, accessible healthcare, fair immigration, aging with dignity), and links to annual reports (2022-2025) and the June 2025 Constitution & Code of Ethics.",
+  "path": "data/external/seiu509/about.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts",
+  "source": {
+    "publisher": "SEIU Local 509",
+    "title": "About Local 509",
+    "url": "https://www.seiu509.org/about/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Leading lines are boilerplate cookie-consent text and the trailing block is the gtranslate language switcher; both are page chrome, not content. Inline images were stripped to <Base64-Image-Removed> placeholders. No explicit publication date so temporal_coverage is omitted (membership figure '23,000+' reflects the scrape snapshot).",
+  "related": ["external/seiu509/governance", "external/seiu509/members"],
+  "tags": ["seiu509", "union", "about", "mission", "solidarity-principles", "human-services", "massachusetts", "authoritative"]
+}

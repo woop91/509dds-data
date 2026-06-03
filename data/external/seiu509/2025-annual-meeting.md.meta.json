@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/seiu509/2025-annual-meeting",
+  "title": "SEIU Local 509 — 2025 Annual Meeting / Nominating Convention",
+  "description": "Scraped Markdown of the SEIU Local 509 '2025 Annual Meeting' page describing the union's Annual Meeting / Nominating Convention on Saturday, October 18, 2025 at the Hilton Boston Park Plaza. Documents the hybrid (in-person + virtual) format, accessibility & logistics (ASL/Spanish interpretation, childcare, parking voucher, fragrance-free policy), nomination guidelines, campaigning rules, candidate-statement word limits and deadlines, and the ballot mail/return/count/swear-in schedule. Useful as authoritative context on Local 509 internal governance and election procedures.",
+  "path": "data/external/seiu509/2025-annual-meeting.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts",
+  "temporal_coverage": { "start": "2025", "end": "2025" },
+  "source": {
+    "publisher": "SEIU Local 509",
+    "title": "2025 Annual Meeting",
+    "url": "https://www.seiu509.org/2025-annual-meeting/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Leading lines are boilerplate cookie-consent text and a trailing gtranslate language switcher (English/Haitian Creole/Portuguese/Spanish) that are page chrome, not dataset content. Dates (Oct 18 meeting; Oct 27 candidate-statement deadline; Nov 10 ballot mail; Dec 3 return; Dec 4 count; Dec 9 swearing-in) describe the 2025 election cycle.",
+  "related": ["external/seiu509/governance"],
+  "tags": ["seiu509", "union", "annual-meeting", "governance", "elections", "nominations", "massachusetts", "authoritative"]
+}

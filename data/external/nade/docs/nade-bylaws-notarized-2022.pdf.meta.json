@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/docs/nade-bylaws-notarized-2022",
+  "title": "NADE Bylaws (Notarized, 2022)",
+  "description": "The notarized 2022 bylaws of the National Association of Disability Examiners (NADE), the professional association of disability examiners and related professionals in the state Disability Determination Services (DDS) that adjudicate Social Security disability claims. The bylaws govern NADE's organizational structure, membership, officers, chapters, and procedures. The 18-page file is a scanned/notarized (image-only) PDF with no embedded text layer, so its precise article-by-article wording was not parsed; metadata here is derived from the filename, the PDF modification date (2022-10-11), and NADE organizational context.",
+  "path": "data/external/nade/docs/nade-bylaws-notarized-2022.pdf",
+  "format": "pdf",
+  "temporal_coverage": { "start": "2022", "end": "2022" },
+  "geographic_coverage": "United States (NADE national organization and chapters)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "NADE Bylaws (Notarized, 2022)",
+    "url": "https://nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Primary organizational/governance document published by NADE itself, hence Authoritative. Content NOT parsed: the 18-page PDF is a scanned/notarized image with no extractable text layer (pypdf and pdftotext both returned empty); metadata from filename + PDF metadata date (2022-10-11) + organizational context. No sibling .source.txt; exact source URL unknown, so nade.org canonical domain used (deep link not invented).",
+  "tags": ["nade", "bylaws", "governance", "2022", "notarized", "disability-examiners", "professional-association", "dds", "scanned-document"]
+}

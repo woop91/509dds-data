@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/seiu509/committees",
+  "title": "SEIU Local 509 — Committees",
+  "description": "Scraped Markdown of the SEIU Local 509 'Committees' page listing the union's social-justice committees and caucuses: Climate and Environmental Justice, Disability Justice, Housing Justice, Indigenous Peoples Caucus, LGBTQIA, Organizing, Racial Justice, and Women's committees. Documents each committee's purpose plus named chairs and staff contacts, several of whom are Massachusetts chapter presidents (including the DDS Chapter President as LGBTQIA chair). Authoritative context on Local 509 member-engagement structures.",
+  "path": "data/external/seiu509/committees.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts",
+  "source": {
+    "publisher": "SEIU Local 509",
+    "title": "Committees",
+    "url": "https://www.seiu509.org/committees/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Leading lines are boilerplate cookie-consent text; trailing block is the gtranslate language switcher. Contains personal names and mass.gov/state.ma.us contact emails for committee chairs (public union directory data). No publication date in the content so temporal_coverage is omitted.",
+  "related": ["external/seiu509/about", "external/seiu509/leadership"],
+  "tags": ["seiu509", "union", "committees", "social-justice", "disability-justice", "lgbtqia", "racial-justice", "massachusetts", "authoritative"]
+}

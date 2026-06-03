@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/members/activity",
+  "title": "NADE Members - Activity (Empty Capture)",
+  "description": "Sidecar for the NADE members 'Activity' page. The scrape captured no substantive content for this page: only the site's 'Type and Press enter to Search' boilerplate and the Widgetbar toggle link survived (the live page content is likely behind a member login or rendered client-side). Recorded for completeness so the empty capture is documented rather than silently dropped.",
+  "path": "data/external/nade/members/activity.md",
+  "format": "md",
+  "geographic_coverage": "United States (national)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "Members - Activity",
+    "url": "https://www.nade.org/members/activity/"
+  },
+  "confidence_tier": "Structurally unavailable",
+  "notes": "Structurally unavailable: the markdown file contains no real content (only the 'Type and Press enter to Search' footer and a Widgetbar toggle link, ~105 bytes). The substantive page content was not captured — likely member-gated or JS-rendered. Source URL is the canonical members/activity page. No date or data present; temporal_coverage omitted. Re-scrape (authenticated/browser-rendered) needed to obtain content.",
+  "related": [
+    "external/nade/members/state-chapter-contacts"
+  ],
+  "tags": ["nade", "external", "members", "activity", "empty-capture", "stub", "needs-rescrape"]
+}

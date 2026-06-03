@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/gao/gao-04-121-strategic-workforce-planning-dds",
+  "title": "GAO-04-121: SSA Disability — DDS Examiner Recruitment, Retention, and Strategic Workforce Planning (2004)",
+  "description": "U.S. Government Accountability Office report GAO-04-121 (published Jan 2004) examining the challenges state Disability Determination Services (DDS) face in retaining and recruiting disability examiners, the extent of DDS workforce planning, and SSA's handling of human-capital challenges. Recommends a nationwide DDS strategic workforce plan, uniform minimum examiner qualifications, and training-gap closure, with later implementation status. Directly relevant to 509 DDS examiner staffing, certification, and pay/retention issues.",
+  "path": "data/external/research/gao/gao-04-121-strategic-workforce-planning-dds.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2004", "end": "2004" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "SSA Disability: Improved Processes and Better Planning Could Strengthen DDS Examiner Recruitment and Retention (GAO-04-121)",
+    "url": "https://www.gao.gov/products/gao-04-121"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Authoritative: a published GAO report (product GAO-04-121; published and publicly released Jan 27, 2004) mirrored from gao.gov. The most directly DDS-workforce-relevant report in this set: it addresses examiner recruiting/retention, minimum qualifications, certification, and DDS parent-agency salary/hiring constraints. The source 'title' approximates GAO's catalog title; verify exact wording against gao.gov if needed. Single publication year so temporal_coverage start==end (2004). Recommendation table is narrative, not a declared column schema.",
+  "tags": ["external", "research", "gao", "ssa", "dds", "disability-examiner", "workforce-planning", "recruitment", "retention", "certification", "human-capital", "oversight", "authoritative"]
+}

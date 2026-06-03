@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/seiu509/public-sector",
+  "title": "SEIU Local 509 — Public Sector",
+  "description": "Scraped Markdown of the SEIU Local 509 'Public Sector' page covering the union's Massachusetts state-worker chapters: DCF, DTA/EOHLC, DDS, DMH, MassAbility, DESE, DOR/CSS, MassHealth, CCJ, IST, DPH, MCB/MCDHH, and DEEC. Describes the Local 509-Commonwealth Human Service Workers Training Fund (established 2020; training, grants, and $200,000+/year in scholarships) and links to state benefits (MPEF vision/dental), retirement information, the public-sector grievance form, and the state contract. Authoritative reference for Local 509 public-sector membership, including DDS examiners.",
+  "path": "data/external/seiu509/public-sector.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts",
+  "source": {
+    "publisher": "SEIU Local 509",
+    "title": "Public Sector",
+    "url": "https://www.seiu509.org/public-sector/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Directly relevant to the 509dds project because it enumerates the state-worker chapters including DDS (Department of Developmental Services). The Training Fund was 'established in 2020' but the page has no overall publication date, so temporal_coverage is omitted. Leading lines are cookie-consent chrome; trailing block is the gtranslate switcher.",
+  "related": ["external/seiu509/contracts-public-sector-commonwealth", "external/seiu509/members", "external/seiu509/for-stewards"],
+  "tags": ["seiu509", "union", "public-sector", "state-workers", "dds", "training-fund", "chapters", "massachusetts", "authoritative"]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/cbpp/cbpp-ssi-basics",
+  "title": "Supplemental Security Income (SSI) — CBPP Policy Basics",
+  "description": "Center on Budget and Policy Priorities 'Policy Basics' explainer on Supplemental Security Income (SSI), the federal program (created 1972) providing monthly cash assistance to disabled or older people with little income and few assets, administered by SSA. Updated May 1, 2026, noting 7.4 million SSI beneficiaries in January 2026. Provides authoritative plain-language background and summary statistics relevant to SSI disability determinations handled by DDS.",
+  "path": "data/external/cbpp/cbpp-ssi-basics.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2026", "end": "2026" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "Center on Budget and Policy Priorities (CBPP)",
+    "title": "Policy Basics: Supplemental Security Income",
+    "url": "https://www.cbpp.org/research/social-security/policy-basics-supplemental-security-income"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Center on Budget and Policy Priorities (reuse per CBPP terms)",
+  "notes": "Authoritative: a published CBPP 'Policy Basics' explainer mirrored from cbpp.org; canonical URL captured from the page's main-content link. Page marked 'Updated May 1, 2026' and cites Jan-2026 beneficiary counts, so temporal_coverage start==end (2026). Markdown scrape retains a cookie-policy banner and site navigation. This directory also contains cbpp-ssdi-overview.html and cbpp-ss-research.source.txt, which are intentionally NOT carded per scope (md only). No tabular columns to declare.",
+  "tags": ["external", "cbpp", "ssi", "supplemental-security-income", "social-security", "policy-basics", "explainer", "disability-determination", "authoritative"]
+}

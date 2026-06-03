@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/seiu509/governance",
+  "title": "SEIU Local 509 — Governance",
+  "description": "Scraped Markdown of the SEIU Local 509 'Governance' page. Links to the June 2025 Constitution & Code of Ethics (English and Spanish), an anti-discrimination resolution, and the July 2022 Election Policies & Procedures (English/Spanish/Haitian Creole). Documents nomination guidelines: quarterly nomination windows (January, April, July, plus October's annual meeting from the floor), the requirement that members be dues payers for six months before holding office, and the conditions under which a contested election is held. Authoritative reference on Local 509 election and officer-eligibility rules.",
+  "path": "data/external/seiu509/governance.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts",
+  "source": {
+    "publisher": "SEIU Local 509",
+    "title": "Governance",
+    "url": "https://www.seiu509.org/governance/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Linked governing documents (Constitution & Code of Ethics June 2025; Election Guide July 2022) are PDFs hosted on seiu509.org and are NOT in this repo. Leading lines are cookie-consent boilerplate; trailing block is the gtranslate switcher. No single page publication date so temporal_coverage is omitted.",
+  "related": ["external/seiu509/2025-annual-meeting", "external/seiu509/about"],
+  "tags": ["seiu509", "union", "governance", "constitution", "elections", "nominations", "code-of-ethics", "massachusetts", "authoritative"]
+}

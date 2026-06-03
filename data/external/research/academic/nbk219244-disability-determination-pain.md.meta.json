@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/academic/nbk219244-disability-determination-pain",
+  "title": "Disability Determination and the Role of Pain (IOM, Pain and Disability, NBK219244)",
+  "description": "Chapter 3 of the Institute of Medicine report 'Pain and Disability: Clinical, Behavioral, and Public Policy Perspectives' (National Academies Press, 1987), describing SSA's SSDI and SSI programs and how pain is weighed in disability determination. Provides historical context on program eligibility rules, beneficiary counts, and the clinical/behavioral challenges of adjudicating pain-based impairments. Relevant to DDS examiners assessing subjective-symptom and pain credibility in claims.",
+  "path": "data/external/research/academic/nbk219244-disability-determination-pain.md",
+  "format": "md",
+  "temporal_coverage": { "start": "1987", "end": "1987" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "National Center for Biotechnology Information (NCBI) Bookshelf / Institute of Medicine, National Academies Press (US)",
+    "title": "Pain and Disability: Clinical, Behavioral, and Public Policy Perspectives — Chapter 3: Disability Determination and the Role of Pain",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK219244/"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public — National Academies Press / IOM consensus report",
+  "notes": "Authoritative: published IOM consensus-report chapter mirrored from NCBI Bookshelf (book record NBK219244 / NAP record 991), editors Osterweis, Kleinman, Mechanic. 1987 figures (e.g. Dec-1985 beneficiary counts) are historical, not current. Single publication year so temporal_coverage start==end (1987). Markdown scrape retaining NCBI links; no tabular columns to declare.",
+  "tags": ["external", "research", "academic", "ncbi", "iom", "ssa", "ssdi", "ssi", "disability-determination", "pain", "subjective-symptoms", "historical", "authoritative"]
+}

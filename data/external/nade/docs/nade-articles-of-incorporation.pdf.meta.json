@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/docs/nade-articles-of-incorporation",
+  "title": "NADE Articles of Incorporation",
+  "description": "Articles of incorporation establishing the National Association of Disability Examiners (NADE), the professional association of disability examiners and other professionals who work in the state Disability Determination Services (DDS) that adjudicate Social Security disability claims. The document is the corporate-formation charter defining NADE's legal existence, purpose, and structure. The file is a scanned (image-only) PDF with no embedded text layer, so its precise wording, filing date, and state of incorporation were not parsed; metadata here is derived from the filename and NADE organizational context.",
+  "path": "data/external/nade/docs/nade-articles-of-incorporation.pdf",
+  "format": "pdf",
+  "geographic_coverage": "United States (NADE national organization)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "NADE Articles of Incorporation",
+    "url": "https://nade.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "notes": "Primary organizational/governance document published by NADE itself, hence Authoritative. Content NOT parsed: the 4-page PDF is a scanned image with no extractable text layer (pypdf and pdftotext both returned empty); metadata from filename + organizational context only. No sibling .source.txt exists, so the exact source URL is unknown; nade.org is the issuer's canonical domain and the deep link is not invented.",
+  "tags": ["nade", "disability-examiners", "governance", "articles-of-incorporation", "professional-association", "dds", "scanned-document"]
+}

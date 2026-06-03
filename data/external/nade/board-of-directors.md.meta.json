@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/nade/board-of-directors",
+  "title": "NADE National Board of Directors and Committee Chairpersons (Roster)",
+  "description": "Scraped roster of the National Association of Disability Examiners (NADE) leadership: National Officers (President Amber Barnes, Past President Ayanna Conley, President-Elect Michelle Wade, Secretary Molly Turnbull, Treasurer Julie Kujath), four Regional Directors (North/Midwest/Pacific/South), the Council of Chapter Presidents chair, three Appointed Directors (Legislative, Membership, Communications), and a long list of committee chairs (Awards, CDIU, Constitution & Bylaws, Elections, Medical Consultant, etc.) with mailing addresses, phone numbers, and email contacts. Many officers carry @ssa.gov addresses, reflecting NADE's membership of SSA/DDS disability-program staff. Markdown page captured from the official NADE site.",
+  "path": "data/external/nade/board-of-directors.md",
+  "format": "md",
+  "geographic_coverage": "United States (national)",
+  "source": {
+    "publisher": "National Association of Disability Examiners (NADE)",
+    "title": "Board of Directors",
+    "url": "https://www.nade.org/about-nade/board-of-directors/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "as officers/terms change (board turnover)",
+  "notes": "Authoritative: direct capture of NADE's own Board of Directors page (source URL preserved from page footer). Contact roster is a point-in-time snapshot; one Regional Director photo dated 2025-10 suggests a 2024-2025-era capture but no explicit term/date is stated, so temporal_coverage is omitted. CDIU and Hearings Officer chairs are listed VACANT. Several .doc/.html links (CCP bylaws, proxy instructions) are referenced but not captured here. Contains personal contact details (names, addresses, phones, emails).",
+  "related": [
+    "external/nade/certifications",
+    "external/nade/code-of-ethics",
+    "external/nade/members/state-chapter-contacts",
+    "external/nade/members/region-chapter-numbers"
+  ],
+  "tags": ["nade", "external", "disability-examiner", "board-of-directors", "officers", "committees", "roster", "contacts", "ssa", "dds"]
+}

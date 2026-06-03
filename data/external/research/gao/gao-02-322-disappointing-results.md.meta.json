@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/gao/gao-02-322-disappointing-results",
+  "title": "GAO-02-322: SSA Disability Claims-Process Initiatives — Disappointing Results (2002)",
+  "description": "U.S. Government Accountability Office report GAO-02-322 (published Feb 2002) reviewing the status and outcomes of five SSA initiatives intended to improve the disability claims process, finding the results disappointing amid growing DI/SSI backlogs. Documents SSA spending on caseload-management and automation initiatives and includes recommendations (with later implementation status) on hearings-backlog reduction and quality assurance. Relevant to understanding chronic DDS/SSA claims-processing backlog and reform history.",
+  "path": "data/external/research/gao/gao-02-322-disappointing-results.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2002", "end": "2002" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "U.S. Government Accountability Office (GAO)",
+    "title": "SSA Disability Decision Making: Additional Steps Needed to Ensure Accuracy and Fairness of Decisions over the Long Term (GAO-02-322)",
+    "url": "https://www.gao.gov/products/gao-02-322"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public domain (U.S. federal government work)",
+  "notes": "Authoritative: a published GAO report (product GAO-02-322; published Feb 04, 2002, publicly released Feb 27, 2002) mirrored from gao.gov. Markdown scrape captures Highlights plus the Recommendations table with agency-action implementation status. The source 'title' field uses GAO's catalog title; the filename slug ('disappointing-results') reflects the report's headline finding. Single publication year so temporal_coverage start==end (2002). Recommendation table is narrative, not a declared column schema.",
+  "tags": ["external", "research", "gao", "ssa", "dds", "disability-determination", "claims-backlog", "hearings", "quality-assurance", "oversight", "authoritative"]
+}

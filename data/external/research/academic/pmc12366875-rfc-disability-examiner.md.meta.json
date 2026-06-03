@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/academic/pmc12366875-rfc-disability-examiner",
+  "title": "Connecting Contemporary Paradigms to the SSA's Disability Evaluation Process (Brandt et al., 2011)",
+  "description": "Peer-reviewed article (Brandt DE et al., Journal of Disability Policy Studies, 2011) relating contemporary models of disability and functioning (e.g., the ICF framework) to SSA's disability evaluation process, including the assessment of residual functional capacity. Discusses how functional-assessment paradigms could inform and improve disability determination. Relevant to DDS examiners performing RFC assessments and to SSA evaluation-process modernization.",
+  "path": "data/external/research/academic/pmc12366875-rfc-disability-examiner.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2011", "end": "2011" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "National Center for Biotechnology Information (NCBI) PubMed Central (PMC); published in Journal of Disability Policy Studies",
+    "title": "Connecting Contemporary Paradigms to the Social Security Administration's Disability Evaluation Process (J Disabil Policy Stud. 2011 Feb 7;22(2):116-128; doi:10.1177/1044207310396509)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12366875/"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "NIH public-access author manuscript (PMC)",
+  "notes": "Authoritative: peer-reviewed journal article (Journal of Disability Policy Studies) mirrored as an NIH public-access author manuscript from PMC (PMC12366875; DOI 10.1177/1044207310396509). Published in final edited form 2011 Feb 7; available in PMC 2025 Aug 21. Single publication year so temporal_coverage start==end (2011). Filename references 'disability-examiner' / RFC; the article is about residual-functional-capacity and disability-evaluation paradigms. Markdown scrape retains PMC page chrome and reference list; no tabular columns to declare.",
+  "tags": ["external", "research", "academic", "pmc", "ssa", "disability-determination", "residual-functional-capacity", "rfc", "icf", "functioning", "disability-policy", "authoritative"]
+}

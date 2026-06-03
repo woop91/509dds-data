@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../schemas/dataset.meta.schema.json",
+  "id": "external/research/academic/nbk209972-ssa-disability-programs-procedures",
+  "title": "Social Security Disability Programs and Procedures (IOM, Cardiovascular Disability, NBK209972)",
+  "description": "Chapter 2 of the Institute of Medicine report 'Cardiovascular Disability: Updating the Social Security Listings' (National Academies Press, 2010), summarizing SSA's disability programs (SSDI/SSI), the statutory definition of disability, the five-step sequential evaluation process, and the role of the Listing of Impairments as an administrative expedient. Provides authoritative background on how DDS examiners adjudicate claims, including how Listings allowances versus Step-5 residual-functional-capacity decisions are made. Directly relevant to understanding the determination workflow that 509 DDS examiners follow.",
+  "path": "data/external/research/academic/nbk209972-ssa-disability-programs-procedures.md",
+  "format": "md",
+  "temporal_coverage": { "start": "2010", "end": "2010" },
+  "geographic_coverage": "United States",
+  "source": {
+    "publisher": "National Center for Biotechnology Information (NCBI) Bookshelf / Institute of Medicine, National Academies Press (US)",
+    "title": "Cardiovascular Disability: Updating the Social Security Listings — Chapter 2: Social Security Disability Programs and Procedures",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK209972/"
+  },
+  "confidence_tier": "Authoritative",
+  "license": "Public — National Academies Press / IOM consensus report",
+  "notes": "Authoritative: a published Institute of Medicine consensus-report chapter mirrored from NCBI Bookshelf (book record NBK209972 / NAP record 12940). Markdown scrape of a single chapter; retains NCBI navigation links and figure/table references that resolve back to ncbi.nlm.nih.gov. Single calendar-year publication so temporal_coverage start==end (2010). No tabular columns to declare.",
+  "tags": ["external", "research", "academic", "ncbi", "iom", "ssa", "ssdi", "ssi", "disability-determination", "sequential-evaluation", "listings", "cardiovascular", "authoritative"]
+}

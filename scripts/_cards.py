@@ -28,3 +28,17 @@ def embedding_document(card: dict) -> str:
     if isinstance(tc, dict) and (tc.get("start") or tc.get("end")):
         parts.append(f"Coverage: {tc.get('start', '')}–{tc.get('end', '')}")
     return "\n".join(p for p in parts if p)
+
+
+def load_cards(repo: Path = REPO) -> list[tuple[str, dict]]:
+    """Return sorted [(relative_meta_path, card_dict)] for every sidecar."""
+    cards: list[tuple[str, dict]] = []
+    for d in SOURCE_DIRS:
+        base = repo / d
+        if not base.exists():
+            continue
+        for meta in base.rglob("*.meta.json"):
+            data = json.loads(meta.read_text(encoding="utf-8"))
+            cards.append((meta.relative_to(repo).as_posix(), data))
+    cards.sort(key=lambda t: t[1].get("path") or t[0])
+    return cards

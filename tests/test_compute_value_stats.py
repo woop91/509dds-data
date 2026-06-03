@@ -44,3 +44,28 @@ def test_stats_from_json_non_tabular_returns_none(tmp_path):
     p = tmp_path / "d.json"
     p.write_text('{"metricA": {"2010": 1, "2011": 2}}', encoding="utf-8")
     assert stats_from_json(p, [{"name": "metricA", "type": "string"}]) is None
+
+
+from compute_value_stats import merge_columns, render_columns_block, update_card_text  # noqa: E402
+
+
+def test_merge_columns_appends_stats():
+    cols = [{"name": "year", "type": "integer", "description": "Y"}]
+    merged = merge_columns(cols, {"year": {"distinct_count": 2, "min": 2010, "max": 2011, "sample_values": [2010, 2011]}})
+    assert merged[0]["name"] == "year" and merged[0]["description"] == "Y"  # original keys kept + order
+    assert merged[0]["min"] == 2010 and merged[0]["distinct_count"] == 2
+
+
+def test_render_columns_block_inline_style():
+    block = render_columns_block([{"name": "a", "type": "integer", "min": 1}])
+    assert block == '  "columns": [\n    { "name": "a", "type": "integer", "min": 1 }\n  ]'
+
+
+def test_update_card_text_replaces_only_columns_and_rowcount():
+    text = ('{\n  "id": "x",\n  "row_count": 0,\n'
+            '  "columns": [\n    { "name": "a", "type": "integer" }\n  ],\n  "tags": ["t"]\n}\n')
+    new = update_card_text(text, [{"name": "a", "type": "integer", "min": 1, "max": 9}], 3)
+    assert '"row_count": 3' in new
+    assert '{ "name": "a", "type": "integer", "min": 1, "max": 9 }' in new
+    assert '"tags": ["t"]' in new  # untouched
+    assert '"id": "x"' in new

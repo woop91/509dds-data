@@ -81,3 +81,39 @@ def stats_from_json(path: Path, columns):
     by_col = {c["name"]: column_stats([cell(r, c["name"]) for r in data], c.get("type", "string"))
               for c in columns if c.get("name")}
     return by_col, len(data)
+
+
+def merge_columns(columns, col_stats):
+    out = []
+    for c in columns:
+        s = col_stats.get(c.get("name"), {})
+        out.append({**c, **s})
+    return out
+
+
+def _render_value(v):
+    return json.dumps(v, ensure_ascii=False)
+
+
+def render_columns_block(columns) -> str:
+    lines = ["  \"columns\": ["]
+    rendered = []
+    for c in columns:
+        inner = ", ".join(f"{json.dumps(k)}: {_render_value(v)}" for k, v in c.items())
+        rendered.append("    { " + inner + " }")
+    return lines[0] + "\n" + ",\n".join(rendered) + "\n  ]"
+
+
+def update_card_text(text: str, new_columns, row_count) -> str:
+    # replace the columns block (2-indent key, closes at "\n  ]")
+    block = render_columns_block(new_columns)
+    new_text, n = re.subn(r'  "columns": \[.*?\n  \]', lambda _m: block, text, count=1, flags=re.DOTALL)
+    if n != 1:
+        raise SystemExit("could not locate a single columns block")
+    if row_count is not None:
+        if re.search(r'  "row_count": [^,\n]*', new_text):
+            new_text = re.sub(r'  "row_count": [^,\n]*', f'  "row_count": {row_count}', new_text, count=1)
+        else:
+            # insert row_count immediately before the columns block
+            new_text = new_text.replace('  "columns": [', f'  "row_count": {row_count},\n  "columns": [', 1)
+    return new_text

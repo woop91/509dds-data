@@ -74,3 +74,19 @@ def test_check_detects_manifest_only_drift(tmp_path):
     # 'id' is in the manifest but NOT part of embedding_document -> vectors unchanged
     cards[0][1]["id"] = "a-renamed"
     assert be.check(cards, tmp_path, embedder=_stub) == ["manifest.json"]
+
+
+import pytest
+
+
+@pytest.mark.integration
+def test_real_embedder_shape_norm_determinism():
+    pytest.importorskip("fastembed")
+    texts = ["disability examiner pay scale", "ssa processing time"]
+    a = be.embed_texts(texts)
+    assert a.shape == (2, be.DIM)
+    assert np.allclose(np.linalg.norm(a, axis=1), 1.0, atol=1e-4)  # normalized
+    b = be.embed_texts(texts)
+    assert np.allclose(a, b, atol=1e-5)  # deterministic
+    q = be.embed_query("how much do examiners earn")
+    assert q.shape == (be.DIM,)

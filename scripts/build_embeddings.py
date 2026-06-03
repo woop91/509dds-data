@@ -46,6 +46,12 @@ def embed_texts(texts: list[str]) -> np.ndarray:
     return _normalize(vecs)
 
 
+def embed_query(query: str) -> np.ndarray:
+    """Embed a single search query (with the bge query instruction)."""
+    vec = embed_texts([QUERY_INSTRUCTION + query])
+    return vec[0]
+
+
 def build(cards, embedder=embed_texts):
     docs = [embedding_document(c) for _, c in cards]
     vecs = embedder(docs)

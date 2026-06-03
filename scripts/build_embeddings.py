@@ -97,10 +97,9 @@ def check(cards, out_dir=OUT_DIR, embedder=embed_texts, atol=1e-5):
     old_vecs, old_manifest = load_artifact(out_dir)
     if old_vecs.shape != new_vecs.shape or not np.allclose(old_vecs, new_vecs, atol=atol):
         changed.append("index.bin")
-    # compare manifest ignoring the float vectors (compared above)
+    # manifest holds only metadata (no float vectors — those are in index.bin); compare it whole
     if json.dumps(old_manifest, sort_keys=True) != json.dumps(new_manifest, sort_keys=True):
-        if "manifest.json" not in changed:
-            changed.append("manifest.json")
+        changed.append("manifest.json")
     return changed
 
 

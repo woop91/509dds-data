@@ -65,3 +65,12 @@ def test_check_clean_then_detects_drift(tmp_path):
     cards[0][1]["description"] = "first edited longer description text"
     changed = be.check(cards, tmp_path, embedder=_stub)
     assert "index.bin" in changed
+
+
+def test_check_detects_manifest_only_drift(tmp_path):
+    cards = _cards()
+    vecs, manifest = be.build(cards, embedder=_stub)
+    be.write_artifact(vecs, manifest, tmp_path)
+    # 'id' is in the manifest but NOT part of embedding_document -> vectors unchanged
+    cards[0][1]["id"] = "a-renamed"
+    assert be.check(cards, tmp_path, embedder=_stub) == ["manifest.json"]

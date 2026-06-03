@@ -55,3 +55,29 @@ def column_stats(values, declared_type: str) -> dict:
     else:
         stats["sample_values"] = distinct[:SAMPLE_CAP]
     return stats
+
+
+def stats_from_csv(path: Path, columns):
+    try:
+        with path.open(encoding="utf-8", newline="") as fh:
+            rows = list(csvmod.DictReader(fh))
+    except (OSError, UnicodeDecodeError):
+        return None
+    by_col = {c["name"]: column_stats([r.get(c["name"], "") for r in rows], c.get("type", "string"))
+              for c in columns if c.get("name")}
+    return by_col, len(rows)
+
+
+def stats_from_json(path: Path, columns):
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+    if not (isinstance(data, list) and data and all(isinstance(r, dict) for r in data)):
+        return None  # not a flat list-of-records -> not tabular
+    def cell(r, name):
+        v = r.get(name)
+        return "" if v is None else str(v)
+    by_col = {c["name"]: column_stats([cell(r, c["name"]) for r in data], c.get("type", "string"))
+              for c in columns if c.get("name")}
+    return by_col, len(data)

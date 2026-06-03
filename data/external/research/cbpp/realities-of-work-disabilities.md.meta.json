@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "license": "Center on Budget and Policy Priorities (reuse per CBPP terms)",
   "notes": "Authoritative: a published CBPP commentary/explainer (dated Nov 20, 2015, by Paul N. Van de Water) mirrored from cbpp.org; the canonical article URL is captured from the page's main-content link. Markdown scrape retains a cookie-policy banner and footnote anchor links. Single publication year so temporal_coverage start==end (2015). No tabular columns to declare.",
-  "tags": ["external", "research", "cbpp", "ssdi", "disability-determination", "vocational-factors", "age", "education", "work-experience", "substantial-gainful-activity", "authoritative"]
+  "tags": ["age", "authoritative", "cbpp", "disability-determination", "education", "external", "research", "ssdi", "substantial-gainful-activity", "vocational-factors", "work-experience"]
 }

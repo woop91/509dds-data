@@ -13,5 +13,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Delaware-Const-Bylaws.doc' in the same directory; expect minor conversion artifacts. Despite the source filename, the content is a Bylaws document (no separately titled Constitution section is present). No adoption/revision date is stated in the content, so temporal_coverage is omitted. The source URL is the NADE organization site, not a deep link.",
-  "tags": ["nade", "bylaws", "constitution", "delaware", "DADE", "disability-examiners", "mid-atlantic-region", "chapter-governance"]
+  "tags": ["DADE", "bylaws", "chapter-governance", "constitution", "delaware", "disability-examiners", "mid-atlantic-region", "nade"]
 }

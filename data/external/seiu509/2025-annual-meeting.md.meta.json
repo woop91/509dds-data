@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Leading lines are boilerplate cookie-consent text and a trailing gtranslate language switcher (English/Haitian Creole/Portuguese/Spanish) that are page chrome, not dataset content. Dates (Oct 18 meeting; Oct 27 candidate-statement deadline; Nov 10 ballot mail; Dec 3 return; Dec 4 count; Dec 9 swearing-in) describe the 2025 election cycle.",
   "related": ["external/seiu509/governance"],
-  "tags": ["seiu509", "union", "annual-meeting", "governance", "elections", "nominations", "massachusetts", "authoritative"]
+  "tags": ["annual-meeting", "authoritative", "elections", "governance", "massachusetts", "nominations", "seiu509", "union"]
 }

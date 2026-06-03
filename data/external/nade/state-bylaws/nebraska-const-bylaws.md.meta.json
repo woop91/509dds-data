@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'Nebraska-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived (continuous list numbering across officer sections is a conversion artifact). Document closes 'Amended and approved at Lincoln, Nebraska on March 29, 1988', captured as temporal_coverage. The file is the chapter Constitution; bylaws are referenced (Great Plains Region) but not separately reproduced. NADE url is the organization site, not a deep link to this document.",
-  "tags": ["nade", "bylaws", "constitution", "state", "nebraska", "great-plains-region", "disability-examiners", "chapter-governance"]
+  "tags": ["bylaws", "chapter-governance", "constitution", "disability-examiners", "great-plains-region", "nade", "nebraska", "state"]
 }

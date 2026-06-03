@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "No filing deadline on this landing page. For public-sector worksites the DLS WSHP is the operative safety program (distinct from federal OSHA, see 10-osha). File ~5.3 KB.",
   "related": ["labor-rights/10-osha", "labor-rights/sub-04-dls-wshp-main"],
-  "tags": ["workplace-safety", "occupational-health", "prevailing-wage", "minimum-wage", "public-sector", "SafetyWorks", "mass.gov"]
+  "tags": ["SafetyWorks", "mass.gov", "minimum-wage", "occupational-health", "prevailing-wage", "public-sector", "workplace-safety"]
 }

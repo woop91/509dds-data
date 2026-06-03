@@ -18,5 +18,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Computed: text extracted via Firecrawl from the published FY25 performance-results overview PDF (~22 KB markdown); narrative summary, not a tidy machine table, so no per-column schema. Source URL is the exact PDF from apr-fy25.source.txt (note the spaces in the SSA-published filename). Per the document, the final FY2025 APR with actual results is expected on SSA's website in March 2026.",
   "related": ["ssa/performance/apr-fy24-extracted", "ssa/FETCH_REPORT"],
-  "tags": ["ssa", "performance", "apr", "fy2025", "extracted", "summary"]
+  "tags": ["apr", "extracted", "fy2025", "performance", "ssa", "summary"]
 }

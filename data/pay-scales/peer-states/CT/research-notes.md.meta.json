@@ -12,5 +12,5 @@
   "update_cadence": "annual (CT DAS salary plans, July 1 effective)",
   "notes": "Browser-fetch pending: agency, the SG classification system, and the AFSCME Local 714 / SEBAC P-2 2017-2027 CBA are confirmed, but exact class codes are unverified and the SG assignments (SG-21–23 examiner, SG-24–26 supervisor) are estimates — the CT DAS Salary Plans PDF requires direct download verification and was not retrieved. SEBAC 2017-2027 term → temporal_coverage. Manual fetch: portal.ct.gov/das salary plans, council4.org, or data.ct.gov payroll.",
   "related": ["pay-scales/peer-states/CT/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "CT", "connecticut", "dds", "disability-determination-examiner", "research-notes", "blocked", "browser-fetch-pending", "afscme", "sebac"]
+  "tags": ["CT", "afscme", "blocked", "browser-fetch-pending", "connecticut", "dds", "disability-determination-examiner", "pay-scales", "peer-states", "research-notes", "sebac"]
 }

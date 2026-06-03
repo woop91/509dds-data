@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Stated legislative/political priorities are framed for 2026 (temporal_coverage set accordingly). Links to a 2025-26 legislative-priorities PDF (.docx-derived) hosted on seiu509.org and to external coalition/action pages, none of which are in this repo. Leading lines are cookie-consent chrome; trailing block is the gtranslate switcher.",
   "related": ["external/seiu509/news", "external/seiu509/about"],
-  "tags": ["seiu509", "union", "political-action", "legislative", "cope", "advocacy", "endorsements", "massachusetts", "authoritative"]
+  "tags": ["advocacy", "authoritative", "cope", "endorsements", "legislative", "massachusetts", "political-action", "seiu509", "union"]
 }

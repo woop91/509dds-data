@@ -12,5 +12,5 @@
   "update_cadence": "ad hoc (estimates); IN salary grades published ~Aug",
   "notes": "Computed: agency and examiner class title (Disability Claims Adjudicator) confirmed via job postings, but the official IN salary schedule does not map the title to a grade, so the Grade 28-29 broadband and all salary figures are estimates from private databases ($53,559–$68,777; ~$57,945 avg). No formal supervisor classification found ('Lead Workers' informal). Non-union since 2005 (EO 15-13). Data currency Aug 2025 → temporal_coverage. No sibling scheduled-rates.json for IN.",
   "related": ["pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "IN", "indiana", "dds", "disability-claims-adjudicator", "research-notes", "estimate", "non-union", "computed"]
+  "tags": ["IN", "computed", "dds", "disability-claims-adjudicator", "estimate", "indiana", "non-union", "pay-scales", "peer-states", "research-notes"]
 }

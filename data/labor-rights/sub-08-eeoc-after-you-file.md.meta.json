@@ -13,5 +13,5 @@
   "license": "Public domain (federal)",
   "notes": "Private-sector charges only (federal employees: see sub-08-eeoc-federal-sector). Employer notice within 10 days; respondent position-statement requested within 30 days; EEOC must be allowed 180 days before a Title VII/ADA Right-to-Sue request (60 days for ADEA suits; EPA suits within 2 years of last discriminatory paycheck).",
   "related": ["labor-rights/08-eeoc", "labor-rights/sub-08-eeoc-how-to-file", "labor-rights/sub-08-eeoc-federal-sector", "labor-rights/sub-08-eeoc-remedies"],
-  "tags": ["eeoc", "employment-discrimination", "charge-process", "federal", "mediation", "investigation"]
+  "tags": ["charge-process", "eeoc", "employment-discrimination", "federal", "investigation", "mediation"]
 }

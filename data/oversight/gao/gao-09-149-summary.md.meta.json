@@ -16,5 +16,5 @@
   "license": "Public domain (U.S. federal government work)",
   "notes": "Computed: this -summary file is OUR own brief condensation (templated 'Report:' card with Focus Area / Key Recommendation Areas), NOT GAO's published Highlights — so it is synthesis, tiered Computed rather than Authoritative. The 'Date: 2009' in the file reflects the fetch/restatement; the report was published Dec 17, 2008 (temporal_coverage uses the publication year, 2008). For authoritative content see the base (oversight/gao/gao-09-149) and full report (oversight/gao/gao-09-149-full). Narrative, no column schema.",
   "related": ["oversight/gao/gao-09-149", "oversight/gao/gao-09-149-full"],
-  "tags": ["oversight", "gao", "ssa", "dds", "medical-evidence", "summary", "condensation", "claims-processing", "computed"]
+  "tags": ["claims-processing", "computed", "condensation", "dds", "gao", "medical-evidence", "oversight", "ssa", "summary"]
 }

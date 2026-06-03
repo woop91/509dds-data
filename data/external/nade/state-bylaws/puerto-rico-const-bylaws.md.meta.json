@@ -15,5 +15,5 @@
   "update_cadence": "as chapter bylaws are revised",
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Puerto-Rico-Const-Bylaws.doc. The conversion has numerous OCR-style artifacts ('CONSTITIJTION', 'DISAB1LITY', 'arid', 'nay', 'elegible', 'far action', stray digits like 'session4'); treat exact wording as approximate. The by-laws reference a 'Full Member in good standing as of June 30, 1997' grandfather clause but state no overall adoption/revision date, so temporal_coverage is omitted. Distinctive 'Vocal' board positions and a 'Puerto Rico Sere-Nade' publication. Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "puerto-rico", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "external", "governance", "nade", "puerto-rico", "state-bylaws"]
 }

@@ -27,5 +27,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Authoritative: derived 1:1 from initial-claims-by-title-fy2001-2019.source.xlsx into tidy long format. FILENAME-LABEL DISCREPANCY: the file name says fy2001-2019 but the actual rows only run FY2001–FY2018 (no FY2019 rows present); temporal_coverage reflects the real data range. Top-level keys: schema='long', metric_family='initial_claims_by_title', source_file, extracted_at (2026-05-08), rows (no fy_range key). All rows are scope='national'. Column dot-paths denote fields of each rows[] object. Source URL is SSA's canonical disability-data page; exact deep link to the source workbook not recorded in the file.",
   "related": ["ssa/ssa-sa-fywl-all-states-2001-2024"],
-  "tags": ["ssa", "initial-claims", "ssdi", "ssi", "concurrent", "national", "long-format"]
+  "tags": ["concurrent", "initial-claims", "long-format", "national", "ssa", "ssdi", "ssi"]
 }

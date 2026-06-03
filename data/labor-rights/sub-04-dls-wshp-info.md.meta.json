@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "Civil citations carry penalties up to $1,000 per violation with a correction due date; extensions available for diligent progress with interim protections. No explicit complaint-filing deadline; complaints/referrals are one of six ranked inspection triggers.",
   "related": ["labor-rights/04-ma-dls", "labor-rights/sub-04-dls-wshp-main", "labor-rights/sub-04-dls-report-public-worksite-accident"],
-  "tags": ["DLS", "WSHP", "workplace-safety", "public-sector", "inspection", "civil-citation", "OSHA-state-plan"]
+  "tags": ["DLS", "OSHA-state-plan", "WSHP", "civil-citation", "inspection", "public-sector", "workplace-safety"]
 }

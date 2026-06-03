@@ -11,5 +11,5 @@
   "update_cadence": "unknown (biennial HGEA cycle; pending retrieval)",
   "notes": "Browser-fetch pending: confidence VERY LOW — DHRD class-spec lookup and the BU 13 salary-schedule PDF were not located/accessed, so class titles, class codes, SR codes, and annual min/midpoint/max are all unverified/null. CBA context (HGEA / AFSCME Unit 13) is confirmed but contract currency (2023-25 vs 2025-27) is unverified. effective_date not available so temporal_coverage is omitted. Manual fetch: dhrd.hawaii.gov classes-and-pay or hgea.org contracts.",
   "related": ["pay-scales/peer-states/HI/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "HI", "hawaii", "dds", "disability-determination-examiner", "research-notes", "blocked", "browser-fetch-pending", "hgea", "unit-13"]
+  "tags": ["HI", "blocked", "browser-fetch-pending", "dds", "disability-determination-examiner", "hawaii", "hgea", "pay-scales", "peer-states", "research-notes", "unit-13"]
 }

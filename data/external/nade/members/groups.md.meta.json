@@ -16,5 +16,5 @@
   "related": [
     "external/nade/members/state-chapter-contacts"
   ],
-  "tags": ["nade", "external", "members", "groups", "empty-capture", "stub", "needs-rescrape"]
+  "tags": ["empty-capture", "external", "groups", "members", "nade", "needs-rescrape", "stub"]
 }

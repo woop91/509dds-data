@@ -13,5 +13,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Alaska-Const-Bylaws.doc' in the same directory; expect conversion/OCR-style artifacts (the body is rendered entirely bold, and original text contains scanning errors such as 'Natural Association' for National, 'nights' for rights, 'membership gear' for year, 'unexpected team' for unexpired term). The source URL is the NADE organization site, not a deep link. No adoption/revision date is stated in the content, so temporal_coverage is omitted.",
-  "tags": ["nade", "bylaws", "constitution", "alaska", "disability-examiners", "pacific-region", "chapter-governance"]
+  "tags": ["alaska", "bylaws", "chapter-governance", "constitution", "disability-examiners", "nade", "pacific-region"]
 }

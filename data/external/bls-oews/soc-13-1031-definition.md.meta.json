@@ -16,5 +16,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Authoritative: official BLS SOC occupational definition; source URL and 2026-05-05 fetch date confirmed from the sibling soc-13-1031-definition.md.source.txt provenance file (excluded from carding per scope). temporal_coverage reflects the SOC 2010 edition vintage of the definition itself. The 'Data Quality Notes' and SOC 2010-vs-2020 sections are project-added editorial framing, but the core definition and duties are verbatim BLS content, so the card remains Authoritative.",
   "related": ["external/seiu509/public-sector"],
-  "tags": ["bls", "oews", "soc", "13-1031", "claims-examiner", "occupational-classification", "definition", "vde", "authoritative"]
+  "tags": ["13-1031", "authoritative", "bls", "claims-examiner", "definition", "occupational-classification", "oews", "soc", "vde"]
 }

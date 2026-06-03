@@ -15,5 +15,5 @@
   "update_cadence": "as chapter bylaws are revised",
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document W.-Virginia-Clarksburg-Const-Bylavs.doc. The source filename contains a typo ('Bylavs' instead of 'Bylaws'); the real filename has been preserved exactly in this sidecar's name, id, and path (NOT corrected). The captured document is titled 'By Laws' and contains constitution-style articles (name, affiliation, purpose, membership, governance); no separate constitution section is present. No adoption/revision date is stated, so temporal_coverage is omitted. Distinct from the West Virginia (#59) no-bylaws note in this same directory. Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "west-virginia", "clarksburg", "cwvade", "governance"]
+  "tags": ["bylaws", "chapter", "clarksburg", "constitution", "cwvade", "external", "governance", "nade", "state-bylaws", "west-virginia"]
 }

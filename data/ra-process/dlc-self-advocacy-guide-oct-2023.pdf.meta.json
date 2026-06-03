@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Binary PDF (~257 KB); not text-extracted, so contents are summarized from title/publisher rather than parsed. The DLC is the federally designated Protection & Advocacy (P&A) organization for Massachusetts.",
   "related": ["ra-process/disability-rights-in-employment", "ra-process/ra-process-state-exec-branch"],
-  "tags": ["disability-rights", "self-advocacy", "dlc", "legal-aid", "massachusetts", "pdf", "reasonable-accommodation"]
+  "tags": ["disability-rights", "dlc", "legal-aid", "massachusetts", "pdf", "reasonable-accommodation", "self-advocacy"]
 }

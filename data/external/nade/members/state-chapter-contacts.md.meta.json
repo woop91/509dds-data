@@ -19,5 +19,5 @@
     "external/nade/members/regional-constitutions-bylaws",
     "external/nade/board-of-directors"
   ],
-  "tags": ["nade", "external", "members", "contacts", "regional-directors", "chapters", "directory", "ssa"]
+  "tags": ["chapter", "contacts", "directory", "external", "members", "nade", "regional-directors", "ssa"]
 }

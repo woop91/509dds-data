@@ -21,5 +21,5 @@
   "source": { "publisher": "Massachusetts Office of the Comptroller (CTHRU)", "url": "https://cthru.data.mass.gov/" },
   "confidence_tier": "Computed",
   "notes": "Derived from _raw_cthru_mrc_managers.json (excluded internal raw file, ~2,555 rows). 2023 actual_paid is partial (~2 weeks). Massachusetts public-record payroll data.",
-  "tags": ["pay-scales", "leadership", "incumbency", "cthru", "dds", "mrc", "timeline", "public-record"]
+  "tags": ["cthru", "dds", "incumbency", "leadership", "mrc", "pay-scales", "public-record", "timeline"]
 }

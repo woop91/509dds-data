@@ -14,5 +14,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. This is a thin hub/navigation page (mostly section links to workplace, contracts, for-stewards, update-info, and member-benefits pages) rather than substantive data. Leading lines are cookie-consent chrome; trailing block is the gtranslate switcher. No publication date so temporal_coverage is omitted.",
   "related": ["external/seiu509/for-stewards", "external/seiu509/member-benefits", "external/seiu509/public-sector"],
-  "tags": ["seiu509", "union", "members", "hub", "navigation", "massachusetts", "authoritative"]
+  "tags": ["authoritative", "hub", "massachusetts", "members", "navigation", "seiu509", "union"]
 }

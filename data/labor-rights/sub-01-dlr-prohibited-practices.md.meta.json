@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "CONSUMPTION HAZARD: large file (~141 KB); head sampled for metadata. No standalone filing deadline on this reference chapter; charge-filing deadline (6 months from knowledge) is in the companion ULP procedures chapter.",
   "related": ["labor-rights/01-ma-dlr", "labor-rights/sub-01-dlr-ulp-procedures"],
-  "tags": ["DLR", "prohibited-practices", "unfair-labor-practice", "collective-bargaining", "c.150E", "public-employees", "case-law"]
+  "tags": ["DLR", "c.150E", "case-law", "collective-bargaining", "prohibited-practices", "public-employees", "unfair-labor-practice"]
 }

@@ -13,5 +13,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'Kentuck-Louisville-Const-Bylaws.doc' (in the same directory); markdown formatting (bold, heading levels, list numbering) was machine-derived and may not perfectly mirror the original .doc layout, but the legal text was preserved. The 'kentuck-louisville' filename refers to the Louisville KY chapter (NADE also has a separate Frankfort KY chapter, Kentuck-Frankfort-Const-Bylaws.doc). NADE url is the organization site, not a deep link to this document.",
-  "tags": ["nade", "bylaws", "constitution", "state", "kentucky", "louisville", "derby-city", "dcade", "disability-examiners", "chapter-governance"]
+  "tags": ["bylaws", "chapter-governance", "constitution", "dcade", "derby-city", "disability-examiners", "kentucky", "louisville", "nade", "state"]
 }

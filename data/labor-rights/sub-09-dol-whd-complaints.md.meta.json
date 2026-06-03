@@ -13,5 +13,5 @@
   "license": "Public domain (federal)",
   "notes": "Complaints are confidential by statute (identity, nature, and existence not disclosed to the employer). No filing deadline stated on the page; FLSA back-wage claims have a 2-year SOL (3 years if willful) under 29 U.S.C. §255; FMLA retaliation within 2 years (3 if willful).",
   "related": ["labor-rights/09-dol-whd"],
-  "tags": ["dol", "whd", "wage-and-hour", "flsa", "fmla", "complaint", "federal"]
+  "tags": ["complaint", "dol", "federal", "flsa", "fmla", "wage-and-hour", "whd"]
 }

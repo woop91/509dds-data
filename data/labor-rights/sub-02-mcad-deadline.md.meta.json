@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "KEY DEADLINE: 300 days from the last discriminatory act (c.151B). CBA-grievance exception (300 days from when the employee knew/should have known the grievance supports a discrimination claim) is directly relevant to unionized DDS/MassAbility employees. Missing the period may permanently bar the claim.",
   "related": ["labor-rights/02-ma-mcad", "labor-rights/sub-02-mcad-file-complaint", "labor-rights/sub-02-mcad-case-process"],
-  "tags": ["MCAD", "filing-deadline", "300-days", "statute-of-limitations", "discrimination", "c.151B", "CBA-tolling"]
+  "tags": ["300-days", "CBA-tolling", "MCAD", "c.151B", "discrimination", "filing-deadlines", "statute-of-limitations"]
 }

@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Primary published policy paper from the Committee for a Responsible Federal Budget (SSDI Solutions Initiative / Fiscal Institute), hence Authoritative. Real metadata extracted from pages 1-3 of 40: title, authors Gerald Ray and Glenn Sklar, June 2019, abstract, and introduction. PDF embedded title/author metadata empty; attribution taken from the cover and abstract pages. No sibling .source.txt; exact source URL unknown, so crfb.org canonical domain used (deep link not invented).",
-  "tags": ["crfb", "ssdi-solutions", "disability-backlogs", "operational", "policy-paper", "2019", "case-adjudication", "quality-assurance", "ai"]
+  "tags": ["2019", "ai", "case-adjudication", "crfb", "disability-backlogs", "operational", "policy-paper", "quality-assurance", "ssdi-solutions"]
 }

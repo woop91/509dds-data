@@ -17,5 +17,5 @@
   "license": "Executed public-sector labor contract (Commonwealth of Massachusetts)",
   "notes": "CONSUMPTION HAZARD: the .md is 408,770 bytes but readable CBA text ends at approximately character 384,600; everything after that is an inline PNG/base64 binary tail appended by the PDF-to-markdown conversion. Truncate at ~384,600 chars; do not ingest the binary tail. No standalone public URL is known — the canonical source is the bundled dds-cba-2024-2026.source.pdf in this folder; source.url points to the SEIU Local 509 site as authoritative publisher. Supplemental Agreement O covers DDS specifically and is of primary interest to the 509dds chapter.",
   "derived_from": ["contract/dds-cba-2024-2026.source.pdf"],
-  "tags": ["contract", "cba", "seiu-509", "units-8-10", "collective-bargaining", "dds", "massachusetts", "afscme", "supplemental-agreement-o"]
+  "tags": ["afscme", "cba", "collective-bargaining", "contract", "dds", "massachusetts", "seiu509", "supplemental-agreement-o", "units-8-10"]
 }

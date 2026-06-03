@@ -16,5 +16,5 @@
   "license": "Public domain (U.S. federal government work)",
   "notes": "Authoritative: captured gao.gov product page for a published GAO report (GAO-22-103815; published and publicly released Nov 09, 2021), containing GAO's own Fast Facts, Highlights, and recommendation text (both Closed – Implemented). temporal_coverage uses publication year (2021). Capture retains gao.gov site chrome. Base record of the gao-22-103815 family (full text in -full; our condensation in -summary). A sibling raw capture data/oversight/gao/gao-22-103815-source.txt (a 5-line fetch-provenance note) was intentionally NOT carded; it is referenced here in notes rather than via derived_from to avoid a dangling id. Narrative recommendation table, no declared column schema.",
   "related": ["oversight/gao/gao-22-103815-full", "oversight/gao/gao-22-103815-summary"],
-  "tags": ["oversight", "gao", "ssa", "dds", "medical-consultants", "screening", "sam-check", "training", "consultant-pay", "claims-processing", "authoritative"]
+  "tags": ["authoritative", "claims-processing", "consultant-pay", "dds", "gao", "medical-consultants", "oversight", "sam-check", "screening", "ssa", "training"]
 }

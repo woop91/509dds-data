@@ -15,5 +15,5 @@
   "update_cadence": "as chapter bylaws are revised",
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Vermont-Const-Bylaws.doc. The Vermont chapter is named the 'Green Mountain Association of Disability Examiners' in the document body — title reflects the content, not the filename. The captured text is the Constitution (by-laws are referenced as to-be-adopted but not included). No adoption/revision date is stated, so temporal_coverage is omitted. Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "vermont", "green-mountain", "northeast-region", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "external", "governance", "green-mountain", "nade", "northeast-region", "state-bylaws", "vermont"]
 }

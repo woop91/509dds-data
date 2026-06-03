@@ -19,5 +19,5 @@
   "update_cadence": "annual (fiscal-year salary structure; FY26 applied a 3% increase)",
   "notes": "Authoritative: pay-band min/max parsed from the official DHRM FY26 salary-structure PDF for both SW and NoVA areas. CAVEAT: VA pay bands are extremely wide so the band 'max' figures are misleading on their own — use dds_internal_starting_salaries_fy26 as the realistic comparator. Band 9 max is the literal string 'Market' (no numeric ceiling). No collective bargaining for VA state employees.",
   "related": ["pay-scales/peer-states/VA/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "VA", "virginia", "dds", "dds-analyst", "salary", "scheduled-rates", "pay-bands", "dhrm", "authoritative"]
+  "tags": ["VA", "authoritative", "dds", "dds-analyst", "dhrm", "pay-bands", "pay-scales", "peer-states", "salary", "scheduled-rates", "virginia"]
 }

@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "license": "NIH public-access author manuscript (PMC)",
   "notes": "Authoritative: peer-reviewed journal article (Psychiatric Services) mirrored as an NIH public-access author manuscript from PMC (PMC10501504; DOI 10.1176/appi.ps.202200056). Published in final edited form 2022 Jun 2; available in PMC 2024 Jan 1. Single publication year so temporal_coverage start==end (2022). Markdown scrape retains PMC page chrome and author/reference links; no tabular columns to declare.",
-  "tags": ["external", "research", "academic", "pmc", "ssa", "disability-determination", "mental-health", "informatics", "nlp", "decision-support", "functioning", "authoritative"]
+  "tags": ["academic", "authoritative", "decision-support", "disability-determination", "external", "functioning", "informatics", "mental-health", "nlp", "pmc", "research", "ssa"]
 }

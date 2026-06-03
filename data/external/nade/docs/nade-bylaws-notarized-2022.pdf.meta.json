@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Primary organizational/governance document published by NADE itself, hence Authoritative. Content NOT parsed: the 18-page PDF is a scanned/notarized image with no extractable text layer (pypdf and pdftotext both returned empty); metadata from filename + PDF metadata date (2022-10-11) + organizational context. No sibling .source.txt; exact source URL unknown, so nade.org canonical domain used (deep link not invented).",
-  "tags": ["nade", "bylaws", "governance", "2022", "notarized", "disability-examiners", "professional-association", "dds", "scanned-document"]
+  "tags": ["2022", "bylaws", "dds", "disability-examiners", "governance", "nade", "notarized", "professional-association", "scanned-document"]
 }

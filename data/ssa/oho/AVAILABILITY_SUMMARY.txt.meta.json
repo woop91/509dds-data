@@ -16,5 +16,5 @@
   "license": "U.S. public domain (SSA structure; project-authored summary)",
   "notes": "Reference doc (not a primary dataset): an availability/coverage matrix documenting the official OHO public-data report structure and archive depth. Carded as reference metadata; tier Authoritative because it documents official OHO dataset structure and availability. Related-linked to the OHO datasets it describes. Source URL is the OHO datasets root.",
   "related": ["ssa/oho/alj-disposition-by-judge-LATEST", "ssa/oho/hearing-office-wait-time-LATEST", "ssa/oho/hearing-office-to-state", "ssa/oho/FIELD_DEFINITIONS"],
-  "tags": ["ssa", "oho", "reference", "availability", "documentation"]
+  "tags": ["availability", "documentation", "oho", "reference", "ssa"]
 }

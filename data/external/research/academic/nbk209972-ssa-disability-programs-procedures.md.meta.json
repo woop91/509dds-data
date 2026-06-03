@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "license": "Public — National Academies Press / IOM consensus report",
   "notes": "Authoritative: a published Institute of Medicine consensus-report chapter mirrored from NCBI Bookshelf (book record NBK209972 / NAP record 12940). Markdown scrape of a single chapter; retains NCBI navigation links and figure/table references that resolve back to ncbi.nlm.nih.gov. Single calendar-year publication so temporal_coverage start==end (2010). No tabular columns to declare.",
-  "tags": ["external", "research", "academic", "ncbi", "iom", "ssa", "ssdi", "ssi", "disability-determination", "sequential-evaluation", "listings", "cardiovascular", "authoritative"]
+  "tags": ["academic", "authoritative", "cardiovascular", "disability-determination", "external", "iom", "listings", "ncbi", "research", "sequential-evaluation", "ssa", "ssdi", "ssi"]
 }

@@ -16,5 +16,5 @@
   "update_cadence": "biennium (compensation plan, 2025-27; GWA 3.0% 2025-08-10, 2.0% 2026-06-28)",
   "notes": "Computed (≈ estimate): class codes 49201/49220 confirmed by string-search in the official 2025-27 Comp Plan PDF, but the codes-to-pay-range crosswalk requires reading encoded multi-grid tables that could not be extracted — so no scheduled dollar amounts. The only quantitative figure is a ZipRecruiter market-rate estimate (mean ~$60,202; range $48,400–$65,600, Apr 2026). Non-represented post-Wisconsin Act 10 (2011); pay set legislatively with $1.00 service-anniversary differentials at 5/7/10 yrs. extraction_status is 'partial'.",
   "related": ["pay-scales/peer-states/WI/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "WI", "wisconsin", "dds", "disability-determination-specialist", "salary", "estimate", "act-10", "computed"]
+  "tags": ["WI", "act-10", "computed", "dds", "disability-determination-specialist", "estimate", "pay-scales", "peer-states", "salary", "wisconsin"]
 }

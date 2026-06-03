@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE governing document. NOTE: this is a REGIONAL constitution and by-laws (the Northeast Region tier), not an individual state chapter — it sits above the NE state chapters (e.g. Maine, New Hampshire, New Jersey) cataloged in this directory. This is the markitdown-normalized markdown conversion of the sibling source file 'Northeast-Region-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived and the source contains OCR-style artifacts (e.g. 'beet possible service', 'ad5udication', 'NADS member') preserved as-converted. The preamble is marked 'Revised 6/11/99, Columbia, Maryland', captured as temporal_coverage. NADE url is the organization site, not a deep link to this document.",
-  "tags": ["nade", "bylaws", "constitution", "region", "northeast-region", "delegate-assembly", "disability-examiners", "regional-governance"]
+  "tags": ["bylaws", "constitution", "delegate-assembly", "disability-examiners", "nade", "northeast-region", "regional-governance", "regions"]
 }

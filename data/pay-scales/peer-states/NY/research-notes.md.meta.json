@@ -12,5 +12,5 @@
   "update_cadence": "annual (PS&T schedule; 4% raise eff 2025-04)",
   "notes": "Browser-fetch pending: classification titles (Disability Analyst Trainee/1/2), PEF Bargaining Unit 5 (PS&T), and CBA dates are VERIFIED, but SG numbers, min/max salaries, and step amounts are PENDING — cs.ny.gov has an HTML paywall and pef.org/openbook.ny.gov failed to fetch. Schedule eff 2025-07-01, CBA through 2026-04-01 → temporal_coverage. Manual fetch: cs.ny.gov salary schedules or pef.org salary charts.",
   "related": ["pay-scales/peer-states/NY/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "NY", "new-york", "dds", "disability-analyst", "research-notes", "blocked", "browser-fetch-pending", "pef", "ps-t"]
+  "tags": ["NY", "blocked", "browser-fetch-pending", "dds", "disability-analyst", "new-york", "pay-scales", "peer-states", "pef", "ps-t", "research-notes"]
 }

@@ -13,5 +13,5 @@
   "license": "Public domain (federal)",
   "notes": "CONSUMPTION HAZARD: large file (~50 KB); head sampled. Contains an interactive map of case locations; outcomes vary (settlements and ALJ/Board decisions). Useful as precedent illustration, not a definitive legal index.",
   "related": ["labor-rights/11-nlrb", "labor-rights/sub-11-nlrb-employee-rights", "labor-rights/sub-11-nlrb-investigate-charges"],
-  "tags": ["nlrb", "nlra", "section-7", "protected-concerted-activity", "case-examples", "federal", "enforcement"]
+  "tags": ["case-examples", "enforcement", "federal", "nlra", "nlrb", "protected-concerted-activity", "section-7"]
 }

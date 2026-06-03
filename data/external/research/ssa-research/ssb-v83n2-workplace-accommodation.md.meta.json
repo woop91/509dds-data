@@ -14,5 +14,5 @@
   "confidence_tier": "Authoritative",
   "license": "Not copyrighted (U.S. SSA publication; citation requested)",
   "notes": "Authoritative: a published research article in SSA's Social Security Bulletin (Vol. 83, No. 2), authored by University of New Hampshire Institute on Disability researchers under SSA grant RDR18000002, mirrored from ssa.gov/policy. The source URL is the canonical SSB v83n2 issue directory (article page is v83n2p17.html); deep article-page link not asserted. Survey reflects 2021 data with 2019 ACS comparison; issue date not stated cleanly in the scraped body so temporal_coverage is omitted. No tabular columns declared (the article includes survey tables, but the file is a narrative article).",
-  "tags": ["external", "research", "ssa-research", "ssa", "social-security-bulletin", "workplace-accommodation", "wd-fab", "functioning", "vocational", "disability-determination", "authoritative"]
+  "tags": ["authoritative", "disability-determination", "external", "functioning", "research", "social-security-bulletin", "ssa", "ssa-research", "vocational", "wd-fab", "workplace-accommodation"]
 }

@@ -19,5 +19,5 @@
   "update_cadence": "unknown (pending retrieval)",
   "notes": "Browser-fetch pending: research_status INCOMPLETE — CalHR pay-scale PDFs (404/HTML redirect), eServices (403), and class-spec lookup (404) all blocked automated fetch; step_basis assumed monthly × 12 per CA civil-service convention; effective_date/fiscal_year UNKNOWN so temporal_coverage is omitted. All class codes and monthly/annual values are null/BLOCKED. CBA context (SEIU Local 1000 Unit 4, 2024-2027) is confirmed. Recommended manual fetch: calhr.ca.gov Pay Scales, seiu1000.org contract, or publicpay.ca.gov.",
   "related": ["pay-scales/peer-states/CA/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "CA", "california", "dds", "disability-evaluation-analyst", "blocked", "browser-fetch-pending", "seiu-1000"]
+  "tags": ["CA", "blocked", "browser-fetch-pending", "california", "dds", "disability-evaluation-analyst", "pay-scales", "peer-states", "seiu-1000"]
 }

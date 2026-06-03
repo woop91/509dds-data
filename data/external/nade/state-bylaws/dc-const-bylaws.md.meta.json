@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'DC-Const-Bylaws.doc' in the same directory; expect conversion artifacts (e.g. the title typo 'EXAMIERS', and escaped fill-in blanks rendered as '\\_\\_\\_'). The document is a Bylaws document (no separately titled Constitution section) and carries an unexecuted approval block 'Approved this ___ day of ___, 1988', so temporal_coverage start/end are set to 1988. The chapter serves Washington, D.C. despite the file being grouped under 'state-bylaws'. The source URL is the NADE organization site, not a deep link.",
-  "tags": ["nade", "bylaws", "constitution", "district-of-columbia", "washington-dc", "CADE", "disability-examiners", "mid-atlantic-region", "chapter-governance"]
+  "tags": ["CADE", "bylaws", "chapter-governance", "constitution", "disability-examiners", "district-of-columbia", "mid-atlantic-region", "nade", "washington-dc"]
 }

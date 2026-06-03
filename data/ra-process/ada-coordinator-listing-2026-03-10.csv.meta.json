@@ -27,5 +27,5 @@
   "update_cadence": "Ad hoc; MOD republishes when coordinator assignments change.",
   "notes": "CONSUMPTION HAZARDS: file begins with a UTF-8 BOM; the Phone column is inconsistently formatted and sometimes blank; a few rows have stray leading/trailing whitespace in Agency or Email; some coordinators appear in multiple rows (multiple agencies or populations). MassAbility DDS members: the relevant ADA coordinator (Stacy Hart) is listed under 'Department of Public Health' (EOHHS) in this snapshot — see contacts.md.",
   "related": ["ra-process/contacts"],
-  "tags": ["ada", "reasonable-accommodation", "disability-rights", "state-employees", "massachusetts", "executive-branch", "contacts"]
+  "tags": ["ada", "contacts", "disability-rights", "executive-branch", "massachusetts", "reasonable-accommodation", "state-employees"]
 }

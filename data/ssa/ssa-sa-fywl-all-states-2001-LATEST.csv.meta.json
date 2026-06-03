@@ -52,5 +52,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Authoritative: official SSA published workload file. This is the '-LATEST' latest-vintage pointer; it currently equals the dated sibling ssa-sa-fywl-all-states-2001-2024.csv (same FY2001–FY2024 coverage, same 1248 data rows, identical data values). It is NOT byte-identical to that sibling: the difference is confined to the header row only — in this LATEST vintage the header asterisks are backslash-escaped (e.g. 'Population age 18-64\\*') and double spaces are collapsed to single, whereas the dated 2001-2024 file uses raw '*' and retains some double spaces. All 1248 data rows are byte-for-byte identical between the two files. Source provenance: ssa-sa-fywl-all-states-2001-LATEST.csv.source.txt (latest FY: 2024).",
   "related": ["ssa/ssa-sa-fywl-all-states-2001-2024", "ssa/peer-states-timeseries-2010-2024"],
-  "tags": ["ssa", "workload", "fywl", "determinations", "allowance-rate", "by-state", "federal-fy", "latest-alias"]
+  "tags": ["allowance-rate", "by-state", "determinations", "federal-fy", "fywl", "latest-alias", "ssa", "workload"]
 }

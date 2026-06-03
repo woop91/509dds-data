@@ -31,5 +31,5 @@
   "license": "U.S. public domain (SSA, with project-computed aggregation)",
   "notes": "Computed: aggregated by scripts/build-oho-state-aggregates.js from alj-disposition-by-judge-LATEST.csv (1,439 ALJ rows processed) joined via hearing-office-to-state.csv. Top-level keys: source, joined_via, built_at (2026-05-05), alj_rows_processed=1439, states_with_data=49, unmapped_offices=[] (none unmapped), caveat, by_state. CAVEAT (from file): allowance_rate_pct = awards/decisions; decisions excludes dismissals; ALJs hearing remotely show their primary office so rates are office-state, not claimant-state; NHC (national hearing centers) and SPECIAL (review cadre) tracked separately. This '-LATEST' file has NO dated sibling in the directory (sole copy) and follows the LATEST naming convention; period is FY2025 YTD.",
   "related": ["ssa/oho/alj-disposition-by-judge-LATEST", "ssa/oho/hearing-office-to-state", "ssa/oho/03-alj-disposition.tables"],
-  "tags": ["ssa", "oho", "alj", "allowance-rate", "by-state", "computed", "latest-alias"]
+  "tags": ["alj", "allowance-rate", "by-state", "computed", "latest-alias", "oho", "ssa"]
 }

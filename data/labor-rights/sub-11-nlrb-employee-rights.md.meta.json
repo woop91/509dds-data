@@ -13,5 +13,5 @@
   "license": "Public domain (federal)",
   "notes": "DDS context: state/local government employees (incl. MassAbility/DDS staff) are explicitly EXCLUDED from NLRA coverage; their bargaining rights are governed by M.G.L. c.150E and enforced by the DLR, not the NLRB.",
   "related": ["labor-rights/11-nlrb", "labor-rights/sub-11-nlrb-employer-union-obligations", "labor-rights/sub-11-nlrb-protected-concerted-activity", "labor-rights/sub-11-nlrb-investigate-charges"],
-  "tags": ["nlrb", "nlra", "section-7", "employee-rights", "union", "concerted-activity", "federal"]
+  "tags": ["concerted-activity", "employee-rights", "federal", "nlra", "nlrb", "section-7", "union"]
 }

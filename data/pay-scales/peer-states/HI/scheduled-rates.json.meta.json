@@ -19,5 +19,5 @@
   "update_cadence": "unknown (biennial HGEA cycle; pending retrieval)",
   "notes": "Browser-fetch pending: research_status INCOMPLETE, confidence very_low — the DHRD BU 13 salary schedule PDF and class-spec lookup were not located/accessed, so all class codes, SR codes, and annual min/midpoint/max are null/BLOCKED. Class titles ('Disability Determination Examiner' or 'Disability Claims Examiner') are unverified. effective_date/fiscal_year UNKNOWN so temporal_coverage is omitted. CBA context (HGEA / AFSCME Unit 13) confirmed but contract currency (2023-25 vs 2025-27) unverified. Manual fetch: dhrd.hawaii.gov classes-and-pay or hgea.org contracts.",
   "related": ["pay-scales/peer-states/HI/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "HI", "hawaii", "dds", "disability-determination-examiner", "blocked", "browser-fetch-pending", "hgea", "unit-13"]
+  "tags": ["HI", "blocked", "browser-fetch-pending", "dds", "disability-determination-examiner", "hawaii", "hgea", "pay-scales", "peer-states", "unit-13"]
 }

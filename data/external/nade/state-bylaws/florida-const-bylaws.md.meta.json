@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'FLorida-Const-Bylaws.doc' in the same directory; expect conversion artifacts (stray page-number lines such as bare '2', '3', '4', '5' appear between articles). The Constitution header reads 'Revised March, 1986', so temporal_coverage start/end are set to 1986. The source URL is the NADE organization site, not a deep link.",
-  "tags": ["nade", "bylaws", "constitution", "florida", "FADE", "disability-examiners", "southeast-region", "subchapters", "chapter-governance"]
+  "tags": ["FADE", "bylaws", "chapter-governance", "constitution", "disability-examiners", "florida", "nade", "southeast-region", "subchapters"]
 }

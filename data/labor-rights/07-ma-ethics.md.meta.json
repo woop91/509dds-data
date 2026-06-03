@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "No filing deadline on this landing page; c.268A complaint limitations period is generally 3 years. All MA public employees (including DDS state employees) are subject to c.268A and must complete periodic ethics training. File ~12.5 KB.",
   "related": ["labor-rights/01-ma-dlr", "labor-rights/06-ma-csc"],
-  "tags": ["ethics", "conflict-of-interest", "financial-disclosure", "c.268A", "public-employees", "training", "mass.gov"]
+  "tags": ["c.268A", "conflict-of-interest", "ethics", "financial-disclosure", "mass.gov", "public-employees", "training"]
 }

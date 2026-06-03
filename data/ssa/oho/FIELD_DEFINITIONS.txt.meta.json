@@ -16,5 +16,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Reference doc (not a primary dataset): the field-definitions / data-dictionary reference for the OHO datasets in this directory, derived from SSA's published OHO Data Dictionary. Carded as reference metadata; tier Authoritative because it documents official OHO field structure. Related-linked to the OHO data files whose columns it defines.",
   "related": ["ssa/oho/alj-disposition-by-judge-LATEST", "ssa/oho/hearing-office-wait-time-LATEST", "ssa/oho/per-state-alj-allowance-LATEST", "ssa/oho/01-netstat-report.tables", "ssa/oho/03-alj-disposition.tables", "ssa/oho/AVAILABILITY_SUMMARY"],
-  "tags": ["ssa", "oho", "reference", "field-definitions", "data-dictionary", "documentation"]
+  "tags": ["data-dictionary", "documentation", "field-definitions", "oho", "reference", "ssa"]
 }

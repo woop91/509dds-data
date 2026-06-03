@@ -15,5 +15,5 @@
   "update_cadence": "as chapter bylaws are revised",
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Pennsylvania-Const-Bylaws.docx. No adoption/revision date is stated in the text, so temporal_coverage is omitted. Inline original page markers ('-2-', '-3-', '-4-') survive the conversion. Distinctive feature: the chapter is jointly a NADE chapter and a division of the Pennsylvania Rehabilitation Association. Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "pennsylvania", "rehabilitation-association", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "external", "governance", "nade", "pennsylvania", "rehabilitation-association", "state-bylaws"]
 }

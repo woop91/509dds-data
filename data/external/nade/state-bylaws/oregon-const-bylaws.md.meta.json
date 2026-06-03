@@ -16,5 +16,5 @@
   "temporal_coverage": { "start": "2004-04-08", "end": "2004-04-08" },
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Oregon-const-Bylaws.doc. Note the chapter names itself the Oregon Association of Disability EMPLOYEES (not 'Examiners') in the document body — title reflects the content, not the filename. Both the constitution and by-laws carry 'Revised 4/8/2004' (8 April 2004), captured as temporal_coverage. Some list numbering/indentation is mangled by the conversion. Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "oregon", "orade", "pacific-region", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "external", "governance", "nade", "orade", "oregon", "pacific-region", "state-bylaws"]
 }

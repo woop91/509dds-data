@@ -42,5 +42,5 @@
     "pay-scales/peer-states/WI/scheduled-rates",
     "pay-scales/vde-annual-salary-aggregates"
   ],
-  "tags": ["pay-scales", "peer-states", "dds", "ssdi", "ssi", "examiners", "supervisors", "salary", "bargaining", "cross-state", "summary", "derived"]
+  "tags": ["bargaining", "cross-state", "dds", "derived", "examiners", "pay-scales", "peer-states", "salary", "ssdi", "ssi", "summary", "supervisors"]
 }

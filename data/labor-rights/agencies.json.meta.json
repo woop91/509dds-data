@@ -32,5 +32,5 @@
   "notes": "Top-level object keys: version, lastUpdated (2026-05-04), scrapedFrom, audience, disclaimer, agencies (12), scenarios (10), crossCuttingConcepts (5). Each filing deadline cites a source file + line traceable to the primary scrapes. column.type is constrained to the schema enum, so array/object-valued fields are typed 'string' with the real shape described in each column's description. Not legal advice.",
   "derived_from": ["labor-rights/00-CHEATSHEET", "labor-rights/00-ma-labor-law-reference"],
   "related": ["labor-rights/00-INDEX", "labor-rights/00-MEMBER-GUIDE"],
-  "tags": ["labor-rights", "agencies", "structured-data", "filing-deadlines", "contacts", "MA-public-sector", "app-integration"]
+  "tags": ["MA-public-sector", "agencies", "app-integration", "contacts", "filing-deadlines", "labor-rights", "structured-data"]
 }

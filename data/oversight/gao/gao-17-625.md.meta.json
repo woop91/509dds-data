@@ -16,5 +16,5 @@
   "license": "Public domain (U.S. federal government work)",
   "notes": "Authoritative: captured gao.gov product page for a published GAO report (GAO-17-625; published Aug 11, 2017, publicly released Sep 06, 2017), containing GAO's own findings and the eight recommendations (all Closed – Implemented). temporal_coverage reflects the analyzed data years stated in scope (SSA CAL disability decisions fiscal years 2009 through 2016), not the 2017 publication date. Capture retains gao.gov site chrome. Base record of the gao-17-625 family (full text in -full); this family has no -summary file. Narrative recommendation table, no declared column schema.",
   "related": ["oversight/gao/gao-17-625-full"],
-  "tags": ["oversight", "gao", "ssa", "dds", "compassionate-allowance", "cal", "expedited-processing", "impairment-summaries", "claims-processing", "internal-controls", "authoritative"]
+  "tags": ["authoritative", "cal", "claims-processing", "compassionate-allowance", "dds", "expedited-processing", "gao", "impairment-summaries", "internal-controls", "oversight", "ssa"]
 }

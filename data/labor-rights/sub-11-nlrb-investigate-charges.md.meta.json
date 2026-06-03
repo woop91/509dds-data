@@ -13,5 +13,5 @@
   "license": "Public domain (federal)",
   "notes": "DEADLINE: a ULP charge must be filed within 6 months of the alleged violation (NLRA §10(b)); appeal of a dismissed charge to the Office of Appeals within 2 weeks of dismissal. The NLRB cannot assess monetary penalties; remedies are make-whole (reinstatement, backpay) and notice posting.",
   "related": ["labor-rights/11-nlrb", "labor-rights/sub-11-nlrb-employee-rights", "labor-rights/sub-11-nlrb-employer-union-obligations"],
-  "tags": ["nlrb", "nlra", "ulp", "unfair-labor-practice", "investigation", "charges", "federal"]
+  "tags": ["charges", "federal", "investigation", "nlra", "nlrb", "ulp", "unfair-labor-practice"]
 }

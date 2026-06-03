@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "CONSUMPTION HAZARD: large file (~214 KB), likely bundling multiple DIA subpages. Workers'-comp claims under c.152 must generally be filed within 4 years of injury or last compensation payment.",
   "related": ["labor-rights/10-osha", "labor-rights/04-ma-dls"],
-  "tags": ["workers-compensation", "industrial-accidents", "c.152", "workplace-injury", "insurance", "mass.gov"]
+  "tags": ["c.152", "industrial-accidents", "insurance", "mass.gov", "workers-compensation", "workplace-injury"]
 }

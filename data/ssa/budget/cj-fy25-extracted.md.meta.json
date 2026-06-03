@@ -18,5 +18,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Computed: text extracted via Firecrawl from the published FY25 CJ PDF (large, ~799–811 KB markdown); narrative + budget tables, not a tidy machine table, so no per-column schema. Source URL is the exact PDF from cj-fy25.source.txt. KEY FINDING (per methodology.md and FETCH_REPORT.md): SSA's CJ publishes DDS funding nationally only (FY25: 13,555 work-years, ~$2.6B); per-state DDS budget allocations are not in any public CJ/annual-report document — treat state-level DDS budget cells as 'Structurally unavailable' (would require a federal FOIA).",
   "related": ["ssa/budget/dds-section-fy25", "ssa/FETCH_REPORT", "ssa/performance/apr-fy24-extracted"],
-  "tags": ["ssa", "budget", "congressional-justification", "work-years", "dds", "extracted", "national-only"]
+  "tags": ["budget", "congressional-justification", "dds", "extracted", "national-only", "ssa", "work-years"]
 }

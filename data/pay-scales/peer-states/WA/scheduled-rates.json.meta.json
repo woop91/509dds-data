@@ -21,5 +21,5 @@
   "update_cadence": "biennium (CBA cycle, 2025-27)",
   "notes": "Authoritative: scheduled rates parsed from the official OFM GS schedule PDF with full A–M step grids; WFSE GG CBA 2025-27 (3% 2025, 2% 2026). Step M is a premium step. Class 953 (DDS Adjudicator 5, supervisor/expert) range is unconfirmed — Range 62 is the candidate but the OFM class-spec mapping URL has rotted; treat the 953→62 row as TBD pending manual lookup. Monthly × 12 = annual per the schedule.",
   "related": ["pay-scales/peer-states/WA/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "WA", "washington", "dds", "adjudicator", "salary", "scheduled-rates", "ofm", "wfse", "authoritative"]
+  "tags": ["WA", "adjudicator", "authoritative", "dds", "ofm", "pay-scales", "peer-states", "salary", "scheduled-rates", "washington", "wfse"]
 }

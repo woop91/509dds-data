@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Page capture includes mass.gov chrome that is not substantive content. The page is the live submission entry point (online RA request form) for Executive Branch employees, offered by HRD under the Executive Office for Administration and Finance.",
   "related": ["ra-process/ra-process-state-exec-branch", "ra-process/ada-coordinator-listing-2026-03-10", "ra-process/contacts"],
-  "tags": ["reasonable-accommodation", "ada", "state-employees", "hrd", "odeo", "massachusetts", "executive-branch"]
+  "tags": ["ada", "executive-branch", "hrd", "massachusetts", "odeo", "reasonable-accommodation", "state-employees"]
 }

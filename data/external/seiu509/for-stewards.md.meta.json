@@ -14,5 +14,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Substantial trailing content is the FastAction (NGP VAN) training-signup form markup and modal boilerplate plus the gtranslate switcher; the embedded training schedule lists Apr-Jul session dates from the scrape snapshot (year not stated in those rows). Leading lines are cookie-consent chrome. No single publication date so temporal_coverage is omitted.",
   "related": ["external/seiu509/members", "external/seiu509/public-sector"],
-  "tags": ["seiu509", "union", "stewards", "grievance", "weingarten", "training", "organizing", "massachusetts", "authoritative"]
+  "tags": ["Weingarten", "authoritative", "grievance", "massachusetts", "organizing", "seiu509", "stewards", "training", "union"]
 }

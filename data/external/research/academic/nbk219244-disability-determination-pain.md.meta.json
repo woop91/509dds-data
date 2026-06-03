@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "license": "Public — National Academies Press / IOM consensus report",
   "notes": "Authoritative: published IOM consensus-report chapter mirrored from NCBI Bookshelf (book record NBK219244 / NAP record 991), editors Osterweis, Kleinman, Mechanic. 1987 figures (e.g. Dec-1985 beneficiary counts) are historical, not current. Single publication year so temporal_coverage start==end (1987). Markdown scrape retaining NCBI links; no tabular columns to declare.",
-  "tags": ["external", "research", "academic", "ncbi", "iom", "ssa", "ssdi", "ssi", "disability-determination", "pain", "subjective-symptoms", "historical", "authoritative"]
+  "tags": ["academic", "authoritative", "disability-determination", "external", "historical", "iom", "ncbi", "pain", "research", "ssa", "ssdi", "ssi", "subjective-symptoms"]
 }

@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Primary published document from the Social Security Advisory Board (an independent federal agency), hence Authoritative. Real metadata extracted from pages 1-3 of 7: cover title 'Social Security: Improving Hiring Processes at State Disability Determination Services', SSAB Issue Brief, board-member list, and findings (FY19-24 examiner/consultant declines of 11%/13%, ~20% determination drop). Note: the PDF document-metadata title reads 'Recurrent Staffing Pressures at State Disability Determination Services' and subject 'Social Security Advisory Bo[ard]', differing slightly from the cover title; PDF CreationDate 2025-09-04 (matches the filename's 2025-09). No sibling .source.txt; exact source URL unknown, so ssab.gov canonical domain used (deep link not invented).",
-  "tags": ["ssab", "social-security-advisory-board", "dds-staffing", "hiring-freezes", "policy-brief", "2025", "ncddd", "disability-examiners"]
+  "tags": ["2025", "dds-staffing", "disability-examiners", "hiring-freezes", "ncddd", "policy-brief", "social-security-advisory-board", "ssab"]
 }

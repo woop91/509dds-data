@@ -16,5 +16,5 @@
   "temporal_coverage": { "start": "2005-07-12", "end": "2005-07-12" },
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Oklahoma-Const-Bylaws.doc. The document footer reads 'Updated 7/12/05' (12 July 2005), captured here as temporal_coverage. Inline page-number markers like '(1)'..'(5)' from the original pagination survive the conversion. Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "oklahoma", "okade", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "external", "governance", "nade", "okade", "oklahoma", "state-bylaws"]
 }

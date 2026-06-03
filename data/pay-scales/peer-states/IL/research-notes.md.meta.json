@@ -12,5 +12,5 @@
   "update_cadence": "CBA cycle (2023-2027); IL pay plan by fiscal year",
   "notes": "Browser-fetch pending: data incomplete due to network barriers — council31.org timed out, IL CMS detailed pay PDFs not extracted, IDHS DDS page network-failed. Examiner/supervisor titles and RC-62 are expected/likely but unverified; no dollar values. Bargaining context (AFSCME Council 31 Master Contract 2023-2027) confirmed → temporal_coverage. Manual fetch: council31.org/contracts/state, IL CMS classification lookup, or archive.org.",
   "related": ["pay-scales/peer-states/IL/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "IL", "illinois", "dds", "disability-adjudicator", "research-notes", "blocked", "browser-fetch-pending", "afscme", "rc-62"]
+  "tags": ["IL", "afscme", "blocked", "browser-fetch-pending", "dds", "disability-adjudicator", "illinois", "pay-scales", "peer-states", "rc-62", "research-notes"]
 }

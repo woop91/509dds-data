@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "No filing deadline on this landing page; prohibited-practice charge deadlines are 6 months from knowledge (see sub-01-dlr-ulp-procedures). File ~7.5 KB.",
   "related": ["labor-rights/sub-01-dlr-ulp-procedures", "labor-rights/sub-01-dlr-prohibited-practices", "labor-rights/06-ma-csc"],
-  "tags": ["labor-relations", "public-sector", "collective-bargaining", "unfair-labor-practice", "c.150E", "union", "mass.gov"]
+  "tags": ["c.150E", "collective-bargaining", "labor-relations", "mass.gov", "public-sector", "unfair-labor-practice", "union"]
 }

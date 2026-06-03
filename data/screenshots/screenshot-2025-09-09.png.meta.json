@@ -11,5 +11,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Transcribed from the image. Side-table (days): NH 224, VT 137, MA 291, CT 172, RI 137, NJ 144, PR 133, DE 234, MD 361, DC 221, HI 240. Map per-state numbers were also re-keyed (see description) and some, especially small/cluttered states, are approximate and should be reconciled against the underlying SSA data (e.g. ssa/ssa-sa-fywl-all-states-2001-2024) before authoritative use. Underlying data is SSA initial-disability-decision wait times 'updated as of Friday, May 31, 2024', so temporal_coverage reflects that as-of date (NOT the 2025-09-09 filename, which is the screenshot capture date). Tier=Authoritative because the underlying figures are SSA-sourced, but this is a re-keyed image capture (transcription risk) and the specific publisher/visualization platform and exact source URL are not visible in the screenshot.",
   "related": ["ssa/ssa-sa-fywl-all-states-2001-2024", "ssa/oho/hearing-office-wait-time-LATEST", "external/waiting-times/advocacy-sources-LATEST"],
-  "tags": ["screenshot", "ssa", "wait-times", "initial-disability-decisions", "choropleth", "by-state", "2024", "massachusetts", "transcribed-from-image"]
+  "tags": ["2024", "by-state", "choropleth", "initial-disability-decisions", "massachusetts", "screenshot", "ssa", "transcribed-from-image", "wait-time"]
 }

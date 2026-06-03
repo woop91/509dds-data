@@ -28,5 +28,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Footnotes in column/section names: * field-office FTC terminations; ** Other Periodic CDRs not initiated centrally; *** Administrative Closures. Section-header rows (e.g. 'I. Periodic CDRs (initiated centrally)') carry blank metric cells. Numeric cells are thousands-separated and quoted.",
   "related": ["ssa/periodic-cdr-backlog-fy14-fy18"],
-  "tags": ["ssa", "cdr", "disability", "national", "hierarchical"]
+  "tags": ["cdr", "disability", "hierarchical", "national", "ssa"]
 }

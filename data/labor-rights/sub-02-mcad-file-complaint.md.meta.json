@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "As of a March 2026 notice MCAD announced a forthcoming online case-management system and complaint portal. Filing deadline is 300 days from the last discriminatory act (see sub-02-mcad-deadline). May be filed without an attorney.",
   "related": ["labor-rights/02-ma-mcad", "labor-rights/sub-02-mcad-deadline", "labor-rights/sub-02-mcad-case-process"],
-  "tags": ["MCAD", "file-complaint", "discrimination", "how-to-file", "c.151B"]
+  "tags": ["MCAD", "c.151B", "discrimination", "file-complaint", "how-to-file"]
 }

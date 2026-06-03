@@ -11,5 +11,5 @@
   "update_cadence": "unknown (pending retrieval)",
   "notes": "Browser-fetch pending: confidence LOW, research incomplete — CalHR class-spec database (403/404), pay-scale PDFs (HTML-error redirect), and eServices (403) all blocked automated fetch, so DEA class codes and monthly/annual salary schedules were not retrieved. effective_date not available so temporal_coverage is omitted. Only confirmed item: SEIU Local 1000 BU 4 2024-2027 CBA exists. Manual fetch: calhr.ca.gov Pay Scales, seiu1000.org contract, or publicpay.ca.gov.",
   "related": ["pay-scales/peer-states/CA/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "CA", "california", "dds", "disability-evaluation-analyst", "research-notes", "blocked", "browser-fetch-pending", "seiu-1000"]
+  "tags": ["CA", "blocked", "browser-fetch-pending", "california", "dds", "disability-evaluation-analyst", "pay-scales", "peer-states", "research-notes", "seiu-1000"]
 }

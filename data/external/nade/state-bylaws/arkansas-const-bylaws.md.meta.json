@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Arkansas-Const-Bylaws.doc' in the same directory; expect minor conversion artifacts. Both the Constitution and the Bylaws carry 'RATIFIED BY THE MEMBERS Date: June 29, 1979', so temporal_coverage start/end are both set to 1979. The source URL is the NADE organization site, not a deep link to this specific document.",
-  "tags": ["nade", "bylaws", "constitution", "arkansas", "ARKADE", "disability-examiners", "southwest-region", "chapter-governance"]
+  "tags": ["ARKADE", "arkansas", "bylaws", "chapter-governance", "constitution", "disability-examiners", "nade", "southwest-region"]
 }

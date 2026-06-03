@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'GLADE-Constitution-and-Bylaws.doc' in the same directory; expect minor conversion artifacts (e.g. 'PARLIMENTARY' for Parliamentary). Content note: GLADE is NOT a U.S. state chapter despite living under 'state-bylaws' — it serves the Federal Disability Determination Services and is filed under the Mid-Atlantic Region. The document records 'Dated and completed: 11/17/1988' and 'Date of Approval: 03/20/1989', so temporal_coverage runs start=1988 to end=1989. The source URL is the NADE organization site, not a deep link.",
-  "tags": ["nade", "bylaws", "constitution", "GLADE", "government-liaison", "federal-dds", "disability-examiners", "mid-atlantic-region", "chapter-governance"]
+  "tags": ["GLADE", "bylaws", "chapter-governance", "constitution", "disability-examiners", "federal-dds", "government-liaison", "mid-atlantic-region", "nade"]
 }

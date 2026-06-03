@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Primary published U.S. government oversight report (SSA OIG), hence Authoritative. Real metadata extracted from pages 1-3 of 35: report number 042513, January 2026, memorandum dated 2026-01-06 to Commissioner Bisignano, and the enumerated FY2025 challenges. No sibling .source.txt; exact source URL unknown, so oig.ssa.gov canonical domain used (deep link not invented).",
-  "tags": ["ssa-oig", "management-challenges", "fy2025", "oversight", "disability-programs", "improper-payments", "service-delivery", "reports-consolidation-act"]
+  "tags": ["disability-programs", "fy2025", "improper-payments", "management-challenges", "oversight", "reports-consolidation-act", "service-delivery", "ssa-oig"]
 }

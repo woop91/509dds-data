@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "KEY DEADLINE: a prohibited-practice charge must be filed within SIX MONTHS from when the Charging Party knew or should have known of the alleged practice (M.G.L. c.150E), absent good cause. Large file (~67 KB); head sampled.",
   "related": ["labor-rights/01-ma-dlr", "labor-rights/sub-01-dlr-prohibited-practices"],
-  "tags": ["DLR", "unfair-labor-practice", "ulp-procedures", "charge-filing", "collective-bargaining", "c.150E", "six-month-deadline"]
+  "tags": ["DLR", "c.150E", "charge-filing", "collective-bargaining", "six-month-deadline", "ulp-procedures", "unfair-labor-practice"]
 }

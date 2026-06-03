@@ -26,5 +26,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "NET ACCURACY RATE is a percent string ('96.70%') — strip '%' to compute. SV is mixed-type: parse a leading float where present, otherwise treat as text. A -LATEST alias (dds-net-accuracy-by-state-2007-LATEST.csv) mirrors the newest published vintage.",
   "related": ["ssa/peer-states-timeseries-2010-2024"],
-  "tags": ["ssa", "accuracy", "quality", "dds", "by-state"]
+  "tags": ["accuracy", "by-state", "dds", "quality", "ssa"]
 }

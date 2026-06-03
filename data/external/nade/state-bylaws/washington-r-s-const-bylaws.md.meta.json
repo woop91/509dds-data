@@ -15,5 +15,5 @@
   "update_cadence": "as chapter bylaws are revised",
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Washington-R-S-Const-Bylaws.doc. The captured document is the chapter's By-Laws (it references but does not include a separate constitution). This is the Renton-Seattle Washington chapter, distinct from the Eastern Washington (EWADE) and Olympia (OlyWADE) Washington chapters in this directory; chapter name and region taken from the document body. The entire converted text is rendered bold (a conversion artifact). A 'Full Member in good standing as of June 30, 1977' grandfather clause is noted but no overall adoption/revision date is stated, so temporal_coverage is omitted. Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "washington", "renton-seattle", "pacific-region", "regional-chapter", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "external", "governance", "nade", "pacific-region", "regional-chapter", "renton-seattle", "state-bylaws", "washington"]
 }

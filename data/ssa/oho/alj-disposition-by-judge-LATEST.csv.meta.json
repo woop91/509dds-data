@@ -31,5 +31,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Authoritative: official OHO published statistics (extracted from the published report to CSV by scripts/extract-oho-alj-table.js; values are SSA's, not recomputed). Period is FY2025 YTD (09/28/2024–09/26/2025), hence temporal_coverage 2024–2025. This '-LATEST' file has NO dated sibling in the directory (sole copy) and follows the LATEST naming convention; OHO publishes monthly archives back to FY2011. Some ALJs have very low caseloads — filter Decisions >= 50 for stable allowance-rate comparisons. Upstream raw capture: 03-alj-disposition.tables.json; field definitions: FIELD_DEFINITIONS.txt.",
   "related": ["ssa/oho/03-alj-disposition.tables", "ssa/oho/per-state-alj-allowance-LATEST", "ssa/oho/hearing-office-to-state", "ssa/oho/FIELD_DEFINITIONS"],
-  "tags": ["ssa", "oho", "alj", "disposition", "hearings", "by-judge", "latest-alias"]
+  "tags": ["alj", "by-judge", "disposition", "hearings", "latest-alias", "oho", "ssa"]
 }

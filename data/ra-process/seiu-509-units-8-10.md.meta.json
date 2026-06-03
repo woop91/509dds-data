@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Page capture includes mass.gov chrome that is not substantive content. The page body is a short stub (training-fund description + external link). For full contract terms see data/contract/seiu-509-cba-2024-2026.md.",
   "related": ["ra-process/contacts", "contract/seiu-509-cba-2024-2026"],
-  "tags": ["seiu-509", "unit-8", "unit-10", "bargaining-unit", "training", "massachusetts", "state-employees", "union"]
+  "tags": ["bargaining-unit", "massachusetts", "seiu509", "state-employees", "training", "union", "unit-10", "unit-8"]
 }

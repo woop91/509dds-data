@@ -15,5 +15,5 @@
   "license": "© SEIU Local 509 / DDS chapter; free to redistribute with attribution (per folder README)",
   "notes": "Synthesized navigation index — not legal advice. Human-readable table of contents for the folder; read alongside agencies.json for app integrations. Scrape gaps are flagged at the end of the document.",
   "related": ["labor-rights/00-CHEATSHEET", "labor-rights/00-MEMBER-GUIDE", "labor-rights/00-ma-labor-law-reference", "labor-rights/agencies"],
-  "tags": ["labor-rights", "index", "navigation", "steward-tools", "MA-public-sector", "use-case-lookup"]
+  "tags": ["MA-public-sector", "index", "labor-rights", "navigation", "steward-tools", "use-case-lookup"]
 }

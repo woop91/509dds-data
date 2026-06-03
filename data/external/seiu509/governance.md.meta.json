@@ -14,5 +14,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Linked governing documents (Constitution & Code of Ethics June 2025; Election Guide July 2022) are PDFs hosted on seiu509.org and are NOT in this repo. Leading lines are cookie-consent boilerplate; trailing block is the gtranslate switcher. No single page publication date so temporal_coverage is omitted.",
   "related": ["external/seiu509/2025-annual-meeting", "external/seiu509/about"],
-  "tags": ["seiu509", "union", "governance", "constitution", "elections", "nominations", "code-of-ethics", "massachusetts", "authoritative"]
+  "tags": ["authoritative", "code-of-ethics", "constitution", "elections", "governance", "massachusetts", "nominations", "seiu509", "union"]
 }

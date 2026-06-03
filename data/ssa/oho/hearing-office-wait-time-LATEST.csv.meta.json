@@ -25,5 +25,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Authoritative: official OHO published statistics (extracted to CSV by scripts/playwright-fetch.js + inline parser; values are SSA's). Current-period snapshot, not a time series — OHO publishes monthly archives back to FY2011. Period is FY2025 YTD (09/28/2024–09/26/2025), hence temporal_coverage 2024–2025. This '-LATEST' file has NO dated sibling in the directory (sole copy) and follows the LATEST naming convention. Upstream raw capture: 01-netstat-report.tables.json; field definitions: FIELD_DEFINITIONS.txt.",
   "related": ["ssa/oho/01-netstat-report.tables", "ssa/oho/hearing-office-to-state", "ssa/oho/FIELD_DEFINITIONS"],
-  "tags": ["ssa", "oho", "hearings", "wait-time", "by-office", "latest-alias"]
+  "tags": ["by-office", "hearings", "latest-alias", "oho", "ssa", "wait-time"]
 }

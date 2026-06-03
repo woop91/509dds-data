@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Hawaii-Const-Bylaws.doc' in the same directory; expect conversion artifacts (stray page-marker lines '(1)'..'(5)' between sections). The document is footer-stamped 'Updated 7/12/05', so temporal_coverage start/end are set to 2005. This document closely follows the same template as the California Los Angeles/Stockton chapter documents. The source URL is the NADE organization site, not a deep link.",
-  "tags": ["nade", "bylaws", "constitution", "hawaii", "HI-ADE", "disability-examiners", "pacific-region", "chapter-governance"]
+  "tags": ["HI-ADE", "bylaws", "chapter-governance", "constitution", "disability-examiners", "hawaii", "nade", "pacific-region"]
 }

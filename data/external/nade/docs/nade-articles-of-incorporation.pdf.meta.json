@@ -13,5 +13,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Primary organizational/governance document published by NADE itself, hence Authoritative. Content NOT parsed: the 4-page PDF is a scanned image with no extractable text layer (pypdf and pdftotext both returned empty); metadata from filename + organizational context only. No sibling .source.txt exists, so the exact source URL is unknown; nade.org is the issuer's canonical domain and the deep link is not invented.",
-  "tags": ["nade", "disability-examiners", "governance", "articles-of-incorporation", "professional-association", "dds", "scanned-document"]
+  "tags": ["articles-of-incorporation", "dds", "disability-examiners", "governance", "nade", "professional-association", "scanned-document"]
 }

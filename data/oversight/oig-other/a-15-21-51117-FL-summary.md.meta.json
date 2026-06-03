@@ -15,5 +15,5 @@
   "confidence_tier": "Computed",
   "license": "Public domain (U.S. federal government work)",
   "notes": "Computed: this is OUR brief condensation (templated 'OIG Audit:' card with Key Finding), NOT the OIG's published report text — synthesis, tiered Computed rather than Authoritative. Underlying SSA OIG audit A-15-21-51117 is a primary oversight document, but only a few-line summary is held here. temporal_coverage uses the stated Period Covered (2015–2021). url is the SSA OIG canonical domain (oig.ssa.gov) because no deep report link is given in the source file; no deep link was invented. State scope is Florida (FL) per the file. Narrative, no column schema.",
-  "tags": ["oversight", "oig", "ssa-oig", "dds", "florida", "fl", "dds-operations", "processing-times", "benefit-payments", "summary", "condensation", "computed"]
+  "tags": ["benefit-payments", "computed", "condensation", "dds", "dds-operations", "fl", "florida", "oig", "oversight", "processing-time", "ssa-oig", "summary"]
 }

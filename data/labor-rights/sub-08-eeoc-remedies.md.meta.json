@@ -13,5 +13,5 @@
   "license": "Public domain (federal)",
   "notes": "Combined compensatory + punitive caps by employer size: 15–100 employees = $50,000; 101–200 = $100,000; 201–500 = $200,000; 500+ = $300,000. ADEA/EPA intentional violations yield liquidated damages (equal to back pay) instead of compensatory/punitive.",
   "related": ["labor-rights/08-eeoc", "labor-rights/sub-08-eeoc-after-you-file", "labor-rights/sub-08-eeoc-how-to-file"],
-  "tags": ["eeoc", "remedies", "employment-discrimination", "damages", "federal"]
+  "tags": ["damages", "eeoc", "employment-discrimination", "federal", "remedies"]
 }

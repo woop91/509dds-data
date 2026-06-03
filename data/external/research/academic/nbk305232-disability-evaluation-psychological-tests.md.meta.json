@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "license": "Public — National Academies Press / IOM consensus report",
   "notes": "Authoritative: published IOM consensus-report chapter mirrored from NCBI Bookshelf (book record NBK305232 / NAP record 21704), released 2015 Jun 29. Cites 2013 SSA application volumes as illustrative data. Single publication year so temporal_coverage start==end (2015). Large file (~150 KB). Markdown scrape retaining NCBI links; no tabular columns to declare.",
-  "tags": ["external", "research", "academic", "ncbi", "iom", "ssa", "ssdi", "ssi", "disability-determination", "psychological-testing", "validity-testing", "malingering", "authoritative"]
+  "tags": ["academic", "authoritative", "disability-determination", "external", "iom", "malingering", "ncbi", "psychological-testing", "research", "ssa", "ssdi", "ssi", "validity-testing"]
 }

@@ -15,5 +15,5 @@
   "update_cadence": "as chapter bylaws are revised",
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Washington-East-Const-Bylaws.doc. This is a regional Washington chapter (Spokane/Eastern Washington), distinct from the Renton-Seattle and Olympia (OlyWADE) Washington chapters also in this directory; chapter name taken from the document body. No adoption/revision date is stated, so temporal_coverage is omitted. Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "washington", "eastern-washington", "spokane", "ewade", "pacific-region", "regional-chapter", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "eastern-washington", "ewade", "external", "governance", "nade", "pacific-region", "regional-chapter", "spokane", "state-bylaws", "washington"]
 }

@@ -28,5 +28,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Numeric cells are thousands-separated and quoted in the raw CSV (e.g. \"199,240\"). The FY2018 row uses '0*' where the asterisk is an SSA footnote indicating the backlog was cleared/not separately reported; parse '0*' as 0.",
   "related": ["ssa/periodic-cdr-fy13-fy22"],
-  "tags": ["ssa", "cdr", "backlog", "disability", "national"]
+  "tags": ["backlog", "cdr", "disability", "national", "ssa"]
 }

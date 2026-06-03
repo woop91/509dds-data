@@ -14,5 +14,5 @@
   "confidence_tier": "Structurally unavailable",
   "notes": "DATA-QUALITY ISSUE: byte-identical to massability-fy24.md (blob 1184fab3…). Filename/content mismatch — the real SRC FY24 report still needs to be sourced. Do not treat as a distinct SRC FY2024 document.",
   "related": ["ma-annual-reports/massability-fy24"],
-  "tags": ["src", "statewide-rehabilitation-council", "mislabeled", "duplicate", "data-quality-issue", "massachusetts", "fy2024"]
+  "tags": ["data-quality-issue", "duplicate", "fy2024", "massachusetts", "mislabeled", "src", "statewide-rehabilitation-council"]
 }

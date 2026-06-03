@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Page capture includes mass.gov chrome that is not substantive content. Pairs with ra-application-page.md (the submission landing page) and disability-rights-in-employment.md (the legal framework).",
   "related": ["ra-process/ra-application-page", "ra-process/disability-rights-in-employment", "ra-process/contacts", "ra-process/ada-coordinator-listing-2026-03-10"],
-  "tags": ["reasonable-accommodation", "ada", "executive-order-592", "state-employees", "mod", "odeo", "massachusetts", "executive-branch", "appeals", "interactive-process"]
+  "tags": ["ada", "appeals", "executive-branch", "executive-order-592", "interactive-process", "massachusetts", "mod", "odeo", "reasonable-accommodation", "state-employees"]
 }

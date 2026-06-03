@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "DEADLINE: serious incidents (amputation, loss of eye, hospitalization, fatality) require IMMEDIATE reporting. Phone (508) 616-0461 ext. 9488; email safepublicworkplace@state.ma.us; or the SafetyWorks online form.",
   "related": ["labor-rights/04-ma-dls", "labor-rights/sub-04-dls-wshp-main", "labor-rights/sub-04-dls-wshp-info"],
-  "tags": ["DLS", "WSHP", "worksite-accident", "public-sector", "injury-reporting", "fatality", "SafetyWorks"]
+  "tags": ["DLS", "SafetyWorks", "WSHP", "fatality", "injury-reporting", "public-sector", "worksite-accident"]
 }

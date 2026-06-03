@@ -11,5 +11,5 @@
   "update_cadence": "unknown (presumed biennial; pending retrieval)",
   "notes": "Browser-fetch pending: status partial — MDCS compensation page returns 404/Gravity-Forms boilerplate, SEIU 517M contracts page has no visible PDF links, Firecrawl out of credits. Examiner title (Disability Examiner, P-11/P-12 presumed) and supervisor title are presumed, not verified; no class codes, pay grades, or salaries. Bargaining status (SEIU 517M / HSS, 2025-2027) presumed not verified; effective_date UNKNOWN so temporal_coverage is omitted. Manual fetch: michigan.gov/mdcs class spec or seiu517m.org contracts.",
   "related": ["pay-scales/peer-states/MI/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "MI", "michigan", "dds", "disability-examiner", "research-notes", "blocked", "browser-fetch-pending", "seiu-517m"]
+  "tags": ["MI", "blocked", "browser-fetch-pending", "dds", "disability-examiners", "michigan", "pay-scales", "peer-states", "research-notes", "seiu-517m"]
 }

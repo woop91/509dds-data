@@ -16,5 +16,5 @@
   "temporal_coverage": { "start": "2009-09", "end": "2010-09" },
   "notes": "Structurally unavailable: despite the filename pattern this file is NOT a constitution/bylaws document — it is a stub note (markitdown-normalized conversion of the sibling source document West-Virginia-No-Const-Bylaws.doc) created during NADE's transition to electronic chapter documents. The NADE National Constitution & Bylaws Chairperson confirms no constitution & bylaws exist on file for the West Virginia chapter (#59), which has a few members at this time, so there is no governing document to card as Authoritative. This is the statewide West Virginia (#59) chapter note; a separate Clarksburg West Virginia (CWVADE) chapter in this directory DOES have by-laws. temporal_coverage reflects the signer's stated chair term (9/09 to 9/10). Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "west-virginia", "chapter-59", "no-bylaws", "stub", "structurally-unavailable"]
+  "tags": ["chapter-59", "external", "nade", "no-bylaws", "state-bylaws", "structurally-unavailable", "stub", "west-virginia"]
 }

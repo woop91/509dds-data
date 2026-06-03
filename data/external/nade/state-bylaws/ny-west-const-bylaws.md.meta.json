@@ -15,5 +15,5 @@
   "update_cadence": "as chapter bylaws are revised",
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document NY-West-Const-Bylaws.doc. Conversion artifacts are present (OCR-style typos such as 'MEMBERSTHIP', 'AR'I'ICLE', duplicated Article numbering for the Executive Board section, and garbled characters); treat wording as approximate to the original. No ratification/revision date is stated in the text, so temporal_coverage is omitted. Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "new-york", "western-new-york", "wnyade", "northeast-region", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "external", "governance", "nade", "new-york", "northeast-region", "state-bylaws", "western-new-york", "wnyade"]
 }

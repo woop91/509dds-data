@@ -20,5 +20,5 @@
     "external/nade/members/state-chapter-contacts",
     "external/nade/members/region-chapter-numbers"
   ],
-  "tags": ["nade", "external", "disability-examiner", "board-of-directors", "officers", "committees", "roster", "contacts", "ssa", "dds"]
+  "tags": ["board-of-directors", "committees", "contacts", "dds", "disability-examiners", "external", "nade", "officers", "roster", "ssa"]
 }

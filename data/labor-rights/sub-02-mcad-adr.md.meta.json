@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "Conciliation is mandatory under c.151B after a probable-cause finding; all parties/counsel must attend. Continuance motions filed late (1–2 weeks prior) are likely denied. Initial complaint deadline is 300 days (see sub-02-mcad-deadline).",
   "related": ["labor-rights/02-ma-mcad", "labor-rights/sub-02-mcad-case-process", "labor-rights/sub-02-mcad-deadline"],
-  "tags": ["MCAD", "ADR", "mediation", "conciliation", "discrimination", "c.151B", "dispute-resolution"]
+  "tags": ["ADR", "MCAD", "c.151B", "conciliation", "discrimination", "dispute-resolution", "mediation"]
 }

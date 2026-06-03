@@ -27,5 +27,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Authoritative: the file's own 'provenance' field records 'SSA FOIA Reading Room'; derived 1:1 (no recomputation) from fy2019-foia-reading-room.source.xlsx into tidy long format. Top-level keys: schema='long', metric_family='allowance_rates_by_state_foia', source_file, provenance, extracted_at (2026-05-08), fy_range=[2019,2019], rows. Column dot-paths denote fields of each rows[] object. Source URL is SSA's FOIA Reading Room landing page (canonical); exact deep link not recorded in the file.",
   "related": ["ssa/allowance-rates/allowance-rates-by-state-2018-2024"],
-  "tags": ["ssa", "allowance-rate", "foia", "fy2019", "by-state", "long-format"]
+  "tags": ["allowance-rate", "by-state", "foia", "fy2019", "long-format", "ssa"]
 }

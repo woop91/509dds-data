@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. The page itself is a short contract index card; the actual CBA text lives in the linked PDF (2024-2026-state-cba-signed-08012024-searchable.pdf) which is NOT in this repo. temporal_coverage reflects the stated contract effective dates (2024-01-01 to 2026-12-31). Leading/trailing boilerplate are cookie-consent and gtranslate chrome.",
   "related": ["external/seiu509/public-sector"],
-  "tags": ["seiu509", "union", "contract", "cba", "public-sector", "commonwealth-of-massachusetts", "collective-bargaining", "massachusetts", "authoritative"]
+  "tags": ["authoritative", "cba", "collective-bargaining", "commonwealth-of-massachusetts", "contract", "massachusetts", "public-sector", "seiu509", "union"]
 }

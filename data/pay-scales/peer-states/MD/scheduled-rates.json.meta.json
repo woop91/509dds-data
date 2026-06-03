@@ -19,5 +19,5 @@
   "update_cadence": "annual (fiscal-year salary schedule)",
   "notes": "Authoritative: full 24-step annual step grids for grades 14 and 19 parsed from the official DBM Standard Salary Schedule PDF; step basis is annual. AFSCME representation; the supervisor (5263) is in AFSCME Maryland Supervisors Union (Unit S). FY2026 schedule (eff 2025-07-01).",
   "related": ["pay-scales/peer-states/MD/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "MD", "maryland", "dds", "disability-claims-examiner", "salary", "scheduled-rates", "dbm", "afscme", "authoritative"]
+  "tags": ["MD", "afscme", "authoritative", "dbm", "dds", "disability-claims-examiner", "maryland", "pay-scales", "peer-states", "salary", "scheduled-rates"]
 }

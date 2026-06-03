@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Primary published U.S. government audit report (SSA OIG, Office of Audit), hence Authoritative. Real metadata extracted from pages 1-3 of 30: report number A-05-22-51159, September 2023, CARES Plan objective, memorandum dated 2023-09-07 to Acting Commissioner Kijakazi, and the headline finding (42 of 45 initiatives lacked metrics). No sibling .source.txt; exact source URL unknown, so oig.ssa.gov canonical domain used (deep link not invented).",
-  "tags": ["ssa-oig", "hearings-backlog", "processing-times", "cares-plan", "oho", "audit", "fy2016-fy2022", "oversight"]
+  "tags": ["audit", "cares-plan", "fy2016-fy2022", "hearings-backlog", "oho", "oversight", "processing-time", "ssa-oig"]
 }

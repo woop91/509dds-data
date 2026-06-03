@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "Large file (~42 KB). DEADLINES mirror the appeals-process page: continuance target within 30 days; exhibits/participant list ≥ 2 weeks before full hearing; reconsideration 10 days; Superior Court appeal 30 days. File online at ara.anf.mass.gov.",
   "related": ["labor-rights/06-ma-csc", "labor-rights/sub-06-csc-appeals-process"],
-  "tags": ["civil-service", "pro-se", "self-represented", "appeals", "c.31", "csc", "hearing-procedure"]
+  "tags": ["appeals", "c.31", "civil-service", "csc", "hearing-procedure", "pro-se", "self-represented"]
 }

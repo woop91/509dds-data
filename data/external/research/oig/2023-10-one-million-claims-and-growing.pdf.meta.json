@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Primary published U.S. government document (SSA OIG / Inspector General letter to Congress), hence Authoritative. Real metadata extracted from all 3 pages: dated 2023-10-26, signed Gail S. Ennis, addressed to Chairman Drew Ferguson, summarizing three OIG reviews. No sibling .source.txt; exact source URL unknown, so oig.ssa.gov canonical domain used (deep link not invented).",
-  "tags": ["ssa-oig", "inspector-general", "congressional-testimony", "hearings-backlog", "cares-plan", "dds-staffing", "2023", "oversight", "disability-adjudication"]
+  "tags": ["2023", "cares-plan", "congressional-testimony", "dds-staffing", "disability-adjudication", "hearings-backlog", "inspector-general", "oversight", "ssa-oig"]
 }

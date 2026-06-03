@@ -19,5 +19,5 @@
   },
   "confidence_tier": "Computed",
   "notes": "No external public URL in the source file; the repo tree URL is a locator. Original records are internal DDS scheduling/guideline documents with personal identifiers removed. row_count counts all data rows across the document's tables.",
-  "tags": ["workload", "overtime", "intake-cap", "dds-boston", "staffing", "509dds"]
+  "tags": ["509dds", "dds-boston", "intake-cap", "overtime", "staffing", "workload"]
 }

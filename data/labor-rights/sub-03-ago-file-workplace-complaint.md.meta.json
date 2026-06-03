@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "No explicit SOL stated; AGO may issue warnings, civil citations, criminal charges, or a private-right-of-action letter. Fair Labor Hotline: (617) 727-3465, Mon–Fri 10am–4pm. AGO jurisdiction is primarily private-sector + certain public wage claims; DDS/public employees may have overlapping but distinct remedies.",
   "related": ["labor-rights/03-ma-ago-fairlabor", "labor-rights/sub-cue-report-workplace-violation"],
-  "tags": ["AGO", "fair-labor-division", "workplace-complaint", "wage-theft", "misclassification", "wage-and-hour", "minimum-wage", "overtime"]
+  "tags": ["AGO", "fair-labor-division", "minimum-wage", "misclassification", "overtime", "wage-and-hour", "wage-theft", "workplace-complaint"]
 }

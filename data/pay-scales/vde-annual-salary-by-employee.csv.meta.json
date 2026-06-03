@@ -27,5 +27,5 @@
   "source": { "publisher": "Massachusetts Office of the Comptroller (CTHRU)", "url": "https://cthru.data.mass.gov/" },
   "confidence_tier": "Authoritative",
   "notes": "2023 totals incomplete — latest CTHRU snapshot only through ~2023-01-14 (~2 weeks); annual_rate reliable for all years. Pre-2010 (2001–2009) not available in CTHRU. Massachusetts public-record payroll data.",
-  "tags": ["pay-scales", "salary", "cthru", "vde", "payroll", "dds", "mrc", "public-record"]
+  "tags": ["cthru", "dds", "mrc", "pay-scales", "payroll", "public-record", "salary", "vde"]
 }

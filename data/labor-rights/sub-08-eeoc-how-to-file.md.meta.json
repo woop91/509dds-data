@@ -13,5 +13,5 @@
   "license": "Public domain (federal)",
   "notes": "DEADLINE: 180 days from the act where no qualifying FEPA exists; 300 days where a state/local agency enforces a parallel law — Massachusetts qualifies via c.151B, so 300 days for most MA workers. Age-discrimination charges get 300 days only if a STATE (not merely local) agency enforces state age-discrimination law.",
   "related": ["labor-rights/08-eeoc", "labor-rights/sub-08-eeoc-after-you-file", "labor-rights/sub-08-eeoc-federal-sector", "labor-rights/sub-08-eeoc-remedies"],
-  "tags": ["eeoc", "employment-discrimination", "charge-filing", "federal", "fepa", "dual-filing", "massachusetts"]
+  "tags": ["charge-filing", "dual-filing", "eeoc", "employment-discrimination", "federal", "fepa", "massachusetts"]
 }

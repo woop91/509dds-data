@@ -13,5 +13,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Cal-South-Const-Bylaws.docx' in the same directory; expect conversion artifacts (body rendered bold; the by-laws heading reads 'SOUTHERN CALIFONIA'). Source-text inconsistency: the Constitution's Article 1 abbreviates the chapter as 'SACADE' while the By-Laws (Article 1) define the abbreviation as 'SCADE'; the canonical chapter acronym throughout the By-Laws is SCADE, used here. No adoption/revision date is stated (the document references a June 30, 1977 grandfather clause for legacy full members but states no overall adoption date), so temporal_coverage is omitted. The source URL is the NADE organization site, not a deep link.",
-  "tags": ["nade", "bylaws", "constitution", "california", "southern-california", "SCADE", "disability-examiners", "chapter-governance"]
+  "tags": ["bylaws", "california", "chapter-governance", "constitution", "disability-examiners", "nade", "scade", "southern-california"]
 }

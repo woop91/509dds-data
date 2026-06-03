@@ -14,5 +14,5 @@
   "confidence_tier": "Computed",
   "notes": "Compiled/assembled, not a raw source file. Coordinator assignments rotate — verify against the live MOD listing before any formal filing. MassAbility is still absent from the official MOD listing as of the March 2026 snapshot; its coordinator appears there under 'Department of Public Health' (EOHHS).",
   "related": ["ra-process/ada-coordinator-listing-2026-03-10", "ra-process/ra-application-page", "ra-process/ra-process-state-exec-branch"],
-  "tags": ["ada", "reasonable-accommodation", "contacts", "massability", "dds", "eohhs", "state-employees", "massachusetts"]
+  "tags": ["ada", "contacts", "dds", "eohhs", "massability", "massachusetts", "reasonable-accommodation", "state-employees"]
 }

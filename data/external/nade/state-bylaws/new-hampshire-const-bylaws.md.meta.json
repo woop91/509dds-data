@@ -13,5 +13,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'New-Hampshire-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived (the constitution's Article numbering is slightly inconsistent and some words are run together, e.g. 'NADE in NHnewsletter', as conversion artifacts). NADE url is the organization site, not a deep link to this document.",
-  "tags": ["nade", "bylaws", "constitution", "state", "new-hampshire", "nade-in-nh", "northeast-region", "disability-examiners", "chapter-governance"]
+  "tags": ["bylaws", "chapter-governance", "constitution", "disability-examiners", "nade", "nade-in-nh", "new-hampshire", "northeast-region", "state"]
 }

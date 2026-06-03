@@ -16,5 +16,5 @@
   "license": "Center on Budget and Policy Priorities (reuse per CBPP terms)",
   "notes": "Authoritative: published CBPP 'Policy Basics' explainer. This markdown is a normalized conversion of the sibling HTML capture cbpp-ssdi-overview.html — meaningful page content (title, byline, headings, paragraphs, the pull-quote aside, chart captions, footer, and 'More on this topic' links) was extracted and site chrome (nav, cookie banner, search forms, scripts/styles, social-share widgets) was stripped. Canonical URL captured from the page's rel=canonical / og:url. Page byline reads 'Updated August 6, 2024', so temporal_coverage start==end (2024); note a related newer CBPP chart book is dated February 28, 2025 (the separately carded cbpp-ssdi-explainer). Source HTML referenced here, not declared via derived_from (the .html is not a separately carded dataset id). Narrative document — no tabular columns or row_count.",
   "related": ["external/cbpp/cbpp-ssdi-explainer", "external/cbpp/cbpp-ssi-basics"],
-  "tags": ["external", "cbpp", "ssdi", "social-security", "disability-insurance", "policy-basics", "dds", "eligibility", "html-conversion", "authoritative"]
+  "tags": ["authoritative", "cbpp", "dds", "disability-insurance", "eligibility", "external", "html-conversion", "policy-basics", "social-security", "ssdi"]
 }

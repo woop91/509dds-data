@@ -18,5 +18,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Computed: text extracted via Firecrawl from the published FY24 APR PDF (~144–147 KB markdown); narrative + performance tables, not a tidy machine table, so no per-column schema. Source URL is the exact PDF from apr-fy24.source.txt. FETCH_REPORT notes state performance tables can be parsed from this file into CSV as a follow-on.",
   "related": ["ssa/performance/apr-fy25-extracted", "ssa/budget/cj-fy25-extracted", "ssa/FETCH_REPORT"],
-  "tags": ["ssa", "performance", "apr", "fy2024", "dds", "extracted"]
+  "tags": ["apr", "dds", "extracted", "fy2024", "performance", "ssa"]
 }

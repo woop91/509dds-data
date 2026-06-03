@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Primary advocacy/position document published by NADE, hence Authoritative. Real metadata and full issue list extracted from both pages (PDF CreationDate 2025-04-02). No sibling .source.txt; exact source URL unknown, so nade.org canonical domain used (deep link not invented).",
-  "tags": ["nade", "advocacy", "policy", "2025", "dds-staffing", "deda", "cdi", "mirs", "disability-examiners", "dds"]
+  "tags": ["2025", "advocacy", "cdi", "dds", "dds-staffing", "deda", "disability-examiners", "mirs", "nade", "policy"]
 }

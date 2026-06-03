@@ -16,5 +16,5 @@
   "license": "Public domain (U.S. federal government work)",
   "notes": "Authoritative: extracted full text of the published 60-page GAO-17-625 PDF. Full-report representation in the gao-17-625 family (base = oversight/gao/gao-17-625; this family has no -summary). url points to GAO's full-report PDF asset. PDF-to-text extraction may contain layout artifacts. temporal_coverage reflects analyzed data years (FY2009–FY2016) per the report scope, not the 2017 publication date. Narrative document, no declared column schema.",
   "related": ["oversight/gao/gao-17-625"],
-  "tags": ["oversight", "gao", "ssa", "dds", "compassionate-allowance", "cal", "expedited-processing", "impairment-summaries", "internal-controls", "full-report", "authoritative"]
+  "tags": ["authoritative", "cal", "compassionate-allowance", "dds", "expedited-processing", "full-report", "gao", "impairment-summaries", "internal-controls", "oversight", "ssa"]
 }

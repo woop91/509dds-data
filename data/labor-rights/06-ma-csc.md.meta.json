@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "No filing deadline on this landing page; c.31 appeal deadlines vary by type (often 10 days from notice for disciplinary appeals). Online filing at ara.anf.mass.gov. File ~7.9 KB.",
   "related": ["labor-rights/sub-06-csc-appeals-process", "labor-rights/sub-06-csc-self-represented-guide", "labor-rights/01-ma-dlr"],
-  "tags": ["civil-service", "appeals", "discipline", "layoff", "bypass", "c.31", "public-sector", "mass.gov"]
+  "tags": ["appeals", "bypass", "c.31", "civil-service", "discipline", "layoff", "mass.gov", "public-sector"]
 }

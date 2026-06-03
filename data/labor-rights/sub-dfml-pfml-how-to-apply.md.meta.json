@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "DEADLINES: employer notice ≥ 30 days before leave start (or as soon as practicable); appeals within 10 days of the DFML decision; extension requests within 30 days after the current leave ends. Portal paidleave.mass.gov; Contact Center (833) 344-7365.",
   "related": ["labor-rights/sub-dfml-org", "labor-rights/sub-dfml-pfml-overview"],
-  "tags": ["dfml", "pfml", "paid-family-leave", "application-process", "c.175M", "medical-leave", "massachusetts"]
+  "tags": ["application-process", "c.175M", "dfml", "massachusetts", "medical-leave", "paid-family-leave", "pfml"]
 }

@@ -12,5 +12,5 @@
   "update_cadence": "ad hoc (estimates); DAS COLA 2.5% 2026-02-01, 4% 2027-01-01",
   "notes": "Computed: class codes (5926/5927/7193) are confirmed against official OR DAS class-profile URLs, but the salary figures are ZipRecruiter market estimates — the DAS Classification & Compensation portal is interactive-only with no static machine-readable pay band, so scheduled ranges/steps were not retrieved. SEIU 503 / OPEU DHS Coalition CBA (2023-2025; 2025-2027 in negotiation).",
   "related": ["pay-scales/peer-states/OR/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "OR", "oregon", "dds", "disability-analyst", "research-notes", "estimate", "seiu-503", "computed"]
+  "tags": ["OR", "computed", "dds", "disability-analyst", "estimate", "oregon", "pay-scales", "peer-states", "research-notes", "seiu-503"]
 }

@@ -21,5 +21,5 @@
     "ssa/oig-audit-staffing-productivity-072309",
     "ssa/ssa-sa-fywl-all-states-2001-2024"
   ],
-  "tags": ["prr-template", "foia", "ssa", "federal", "saor", "workload", "staffing", "request-template", "authoritative", "structurally-unavailable"]
+  "tags": ["authoritative", "federal", "foia", "prr-template", "request-template", "saor", "ssa", "staffing", "structurally-unavailable", "workload"]
 }

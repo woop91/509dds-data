@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Authoritative: NADE's official strategic plan (document footer states 'Updated February 8, 2022'), hence temporal_coverage start==end (2022). This markdown is a markitdown conversion of the source Word document nade-strategic-plan-2022.docx (present in the same directory); conversion may introduce minor artifacts (e.g. a stripped leading EMF logo image rendered as an empty data-URI image tag, and repeated 'NADE STRATEGIC PLAN' running headers/section breaks) but the goal/objective/strategy/work-plan text is preserved. Reference source document is nade-strategic-plan-2022.docx (not declared via derived_from since the .docx is not a separately carded dataset id). No exact source URL on the document; nade.org canonical domain used (deep link not invented). Narrative document — no tabular columns or row_count.",
   "related": ["external/nade/docs/nade-top-issues-2025"],
-  "tags": ["external", "nade", "disability-examiners", "dds", "strategic-plan", "professionalism", "certification", "ethics", "advocacy", "chapter-development", "membership", "2022", "authoritative"]
+  "tags": ["2022", "advocacy", "authoritative", "certification", "chapter-development", "dds", "disability-examiners", "ethics", "external", "membership", "nade", "professionalism", "strategic-plan"]
 }

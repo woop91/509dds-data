@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "license": "NIH public-access author manuscript (PMC)",
   "notes": "Authoritative: peer-reviewed journal article (Journal of Disability Policy Studies) mirrored as an NIH public-access author manuscript from PMC (PMC12366875; DOI 10.1177/1044207310396509). Published in final edited form 2011 Feb 7; available in PMC 2025 Aug 21. Single publication year so temporal_coverage start==end (2011). Filename references 'disability-examiner' / RFC; the article is about residual-functional-capacity and disability-evaluation paradigms. Markdown scrape retains PMC page chrome and reference list; no tabular columns to declare.",
-  "tags": ["external", "research", "academic", "pmc", "ssa", "disability-determination", "residual-functional-capacity", "rfc", "icf", "functioning", "disability-policy", "authoritative"]
+  "tags": ["academic", "authoritative", "disability-determination", "disability-policy", "external", "functioning", "icf", "pmc", "research", "residual-functional-capacity", "rfc", "ssa"]
 }

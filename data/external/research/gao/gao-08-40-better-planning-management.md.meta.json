@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "license": "Public domain (U.S. federal government work)",
   "notes": "Authoritative: a published GAO report (product GAO-08-40; published Dec 07, 2007, publicly released Jan 07, 2008) mirrored from gao.gov. Based on SSA administrative data, literature review, official interviews, and three-region site visits. The source 'title' approximates GAO's catalog title. Single publication year so temporal_coverage start==end (2007); report references FY2006 caseload figures. Recommendation table is narrative, not a declared column schema.",
-  "tags": ["external", "research", "gao", "ssa", "dds", "disability-determination", "claims-backlog", "processing-time", "disability-service-improvement", "oversight", "authoritative"]
+  "tags": ["authoritative", "claims-backlog", "dds", "disability-determination", "disability-service-improvement", "external", "gao", "oversight", "processing-time", "research", "ssa"]
 }

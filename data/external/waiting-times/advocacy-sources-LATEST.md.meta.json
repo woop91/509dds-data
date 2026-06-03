@@ -15,5 +15,5 @@
   },
   "confidence_tier": "Computed",
   "notes": "Computed: this is a synthesized/compiled summary of multiple third-party advocacy sources (Allsup, NOSSCR, Atticus), not a single authoritative dataset — it paraphrases findings and offers an analysis/recommendation, so it is best treated as derived research notes. No primary source files are stored; figures are approximate national aggregates (e.g. '800K+ in hearings', '~1M awaiting initial decisions'). source.url uses Allsup's canonical domain as a representative publisher because the file lists several sources without a single canonical deep link; the other named sources are NOSSCR and Atticus. The file explicitly states authentic state-level DDS waiting-time data requires SSA OPCU access. temporal_coverage reflects the stated 2024-2026 coverage; fetched 2026-05-05.",
-  "tags": ["waiting-times", "disability-benefits", "ssdi", "backlog", "advocacy", "allsup", "nosscr", "atticus", "national", "computed"]
+  "tags": ["advocacy", "allsup", "atticus", "backlog", "computed", "disability-benefits", "national", "nosscr", "ssdi", "waiting-times"]
 }

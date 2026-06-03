@@ -23,5 +23,5 @@
   "license": "U.S. public domain (SSA office names; project-curated mapping)",
   "notes": "Computed: a project-curated crosswalk (built by scripts/build-oho-state-aggregates.js) used as the join key for state-level ALJ aggregation; not an official published SSA table. Per the source.txt: NHC = National Hearing Center (virtual, nationwide), SPECIAL = Special Review Cadre (virtual, no geographic home). Mapping is by office physical site, not claimant residence. No temporal_coverage (it is a static lookup, not a time series). Source URL is the OHO datasets root.",
   "related": ["ssa/oho/per-state-alj-allowance-LATEST", "ssa/oho/alj-disposition-by-judge-LATEST", "ssa/oho/hearing-office-wait-time-LATEST"],
-  "tags": ["ssa", "oho", "hearings", "office-to-state", "mapping", "crosswalk", "curated"]
+  "tags": ["crosswalk", "curated", "hearings", "mapping", "office-to-state", "oho", "ssa"]
 }

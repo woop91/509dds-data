@@ -25,5 +25,5 @@
   "source": { "publisher": "SEIU Local 509 / Commonwealth of Massachusetts (Unit 8 & 10 CBA)", "url": "https://www.seiu509.org/" },
   "confidence_tier": "Authoritative",
   "notes": "2% increase effective 2025-01-12. Markdown capture of the official salary schedule. Annual estimate = bi-weekly × 26.",
-  "tags": ["pay-scales", "salary-chart", "seiu-509", "unit-8", "vde", "cba", "massachusetts"]
+  "tags": ["cba", "massachusetts", "pay-scales", "salary-chart", "seiu509", "unit-8", "vde"]
 }

@@ -12,5 +12,5 @@
   "update_cadence": "ad hoc (estimates); state comp plan published periodically",
   "notes": "Computed: agency and examiner title (Disability Claims Examiner) confirmed, but class codes and pay grades are not publicly published; salary figures are Glassdoor/Salary.com estimates ($75,813–$79,699 examiner; ~$74,705 supervisor). The AlphaCompPlan PDF and class-spec PDFs were blocked from extraction; an interactive salary-search tool exists. Right-to-work — no collective bargaining. Market data currency ~Dec 2024 → temporal_coverage. No sibling scheduled-rates.json for TN.",
   "related": ["pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "TN", "tennessee", "dds", "disability-claims-examiner", "research-notes", "estimate", "right-to-work", "computed"]
+  "tags": ["TN", "computed", "dds", "disability-claims-examiner", "estimate", "pay-scales", "peer-states", "research-notes", "right-to-work", "tennessee"]
 }

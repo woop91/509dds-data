@@ -21,5 +21,5 @@
   },
   "confidence_tier": "Computed",
   "notes": "Aggregated from CTHRU public payroll by the repo maintainer (CTHRU is the authoritative upstream). 2016 counts are inflated by a VDE title reclassification (old A/B/C/D and new I/II/III concurrent). CY2024 not yet in CTHRU as of 2026-05; CTHRU lag ~6+ months after year end.",
-  "tags": ["staffing", "headcount", "cthru", "vde", "dds", "massability", "mrc", "payroll", "509dds"]
+  "tags": ["509dds", "cthru", "dds", "headcount", "massability", "mrc", "payroll", "staffing", "vde"]
 }

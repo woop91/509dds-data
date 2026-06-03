@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Indiana-Const-Bylaws.doc' in the same directory; expect minor conversion artifacts (e.g. 'Regio;.' for Region). Despite the source filename, the content is a By-Laws document (no separately titled Constitution section is present). The document closes with adoption/revision dates 'July 1979', 'October 1980', and 'October 1981', so temporal_coverage runs start=1979 to end=1981. The source URL is the NADE organization site, not a deep link.",
-  "tags": ["nade", "bylaws", "constitution", "indiana", "disability-examiners", "great-lakes-region", "indiana-rehabilitation-association", "chapter-governance"]
+  "tags": ["bylaws", "chapter-governance", "constitution", "disability-examiners", "great-lakes-region", "indiana", "indiana-rehabilitation-association", "nade"]
 }

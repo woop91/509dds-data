@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Page capture includes mass.gov chrome that is not substantive content. MassAbility was formerly the Massachusetts Rehabilitation Commission (MRC); rebranded September 2024. DDS = Disability Determination Services (SSI/SSDI adjudication), not the Department of Developmental Services.",
   "related": ["ra-process/contacts", "ra-process/ra-application-page"],
-  "tags": ["massability", "dds", "disability-determination", "ssdi", "ssi", "ssa", "massachusetts", "employer-profile"]
+  "tags": ["dds", "disability-determination", "employer-profile", "massability", "massachusetts", "ssa", "ssdi", "ssi"]
 }

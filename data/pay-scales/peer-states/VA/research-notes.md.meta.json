@@ -12,5 +12,5 @@
   "update_cadence": "annual (fiscal-year salary structure)",
   "notes": "Authoritative: official DARS role codes (ARSD0134/0315/0436/0252) and pay-band assignments cited from jobs.virginia.gov, with real FY26 DARS-internal starting salaries and the DHRM Classified Salary Structure (eff 2025-06-10, 3% increase). CAVEAT: VA pay bands are very wide, so starting salaries (not band maxes) are the realistic comparator; the legacy DDS salary-model F1–F4 supervisor figures may differ from the current DHRM NV 5 band. No collective bargaining for VA state employees.",
   "related": ["pay-scales/peer-states/VA/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "VA", "virginia", "dds", "dds-analyst", "research-notes", "pay-bands", "dhrm", "authoritative"]
+  "tags": ["VA", "authoritative", "dds", "dds-analyst", "dhrm", "pay-bands", "pay-scales", "peer-states", "research-notes", "virginia"]
 }

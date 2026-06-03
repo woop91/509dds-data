@@ -15,5 +15,5 @@
   "update_cadence": "as chapter bylaws are revised",
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document South-Carolina-Const-Bylaws.doc. The conversion is clean and includes lengthy appendices (Conference Attendee funding procedures, the Barry Cooper Leadership Award guidelines, and a sample award nomination, which duplicates a block of award text). The document uses both 'SCADE' and 'SCADES' (the latter expands as South Carolina Association of Disability Evaluation Specialists in the award sections). No overall adoption/revision date is stated, so temporal_coverage is omitted (the sample award text references fiscal years 2005-2006 illustratively, not as the document date). Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "south-carolina", "scade", "southeast-region", "barry-cooper-award", "governance"]
+  "tags": ["barry-cooper-award", "bylaws", "chapter", "constitution", "external", "governance", "nade", "scade", "south-carolina", "southeast-region", "state-bylaws"]
 }

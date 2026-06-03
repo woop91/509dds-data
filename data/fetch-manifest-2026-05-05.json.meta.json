@@ -31,5 +31,5 @@
   "confidence_tier": "Computed",
   "update_cadence": "Per fetch run (dated filename; a new manifest is emitted each crawl).",
   "notes": "Provenance/process artifact — a log of one fetch run, NOT primary subject data. Of 22 attempts, 8 hard-failed (status 403, bytes 0 — SSA statcomps .xlsx, BLS OEWS .zip) and several others returned ok:true despite 403/404 (small index/error bodies written), so okCount (14) overstates genuinely-retrieved sources; gate on status==200 and bytes>0 for real content. Output paths are absolute and point at the main repo checkout (C:\\Users\\deskc\\Documents\\509dds-data), not this worktree. Companion status notes live in data/MANUAL-FETCH-NEEDED.md (a status doc, not carded per repo convention). Successful 200 fetches feed the parsed JSON/HTML under data/ssa/oho and data/external.",
-  "tags": ["provenance", "manifest", "fetch-log", "playwright", "crawl", "ssa", "bls", "cbpp", "gao", "process-artifact", "computed"]
+  "tags": ["bls", "cbpp", "computed", "crawl", "fetch-log", "gao", "manifest", "playwright", "process-artifact", "provenance", "ssa"]
 }

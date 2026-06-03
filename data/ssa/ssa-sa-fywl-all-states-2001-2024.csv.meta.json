@@ -52,5 +52,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Authoritative: official SSA published workload file. 30 columns; rate columns are bare numbers, not percent strings. State Code values carry a trailing space in the raw file. 'Date' is the federal fiscal year. A '-LATEST' alias (ssa-sa-fywl-all-states-2001-LATEST.csv) mirrors the newest published vintage; this dated 2001-2024 file and the LATEST alias have identical data rows and differ only in the header row's asterisk/whitespace encoding (see the LATEST card).",
   "related": ["ssa/ssa-sa-fywl-all-states-2001-LATEST", "ssa/peer-states-timeseries-2010-2024", "ssa/claims/initial-claims-by-title-fy2001-2019"],
-  "tags": ["ssa", "workload", "fywl", "determinations", "allowance-rate", "by-state", "federal-fy"]
+  "tags": ["allowance-rate", "by-state", "determinations", "federal-fy", "fywl", "ssa", "workload"]
 }

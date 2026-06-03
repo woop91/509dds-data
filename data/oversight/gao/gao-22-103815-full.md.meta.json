@@ -16,5 +16,5 @@
   "license": "Public domain (U.S. federal government work)",
   "notes": "Authoritative: extracted full text of the published 31-page GAO-22-103815 PDF. Full-report representation in the gao-22-103815 family (base = oversight/gao/gao-22-103815; our condensation = oversight/gao/gao-22-103815-summary). url points to GAO's full-report PDF asset. PDF-to-text extraction may contain layout artifacts. temporal_coverage uses publication year (2021). Narrative document, no declared column schema.",
   "related": ["oversight/gao/gao-22-103815", "oversight/gao/gao-22-103815-summary"],
-  "tags": ["oversight", "gao", "ssa", "dds", "medical-consultants", "screening", "sam-check", "training", "consultant-pay", "full-report", "authoritative"]
+  "tags": ["authoritative", "consultant-pay", "dds", "full-report", "gao", "medical-consultants", "oversight", "sam-check", "screening", "ssa", "training"]
 }

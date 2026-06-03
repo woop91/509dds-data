@@ -14,5 +14,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Directly relevant to the 509dds project because it enumerates the state-worker chapters including DDS (Department of Developmental Services). The Training Fund was 'established in 2020' but the page has no overall publication date, so temporal_coverage is omitted. Leading lines are cookie-consent chrome; trailing block is the gtranslate switcher.",
   "related": ["external/seiu509/contracts-public-sector-commonwealth", "external/seiu509/members", "external/seiu509/for-stewards"],
-  "tags": ["seiu509", "union", "public-sector", "state-workers", "dds", "training-fund", "chapters", "massachusetts", "authoritative"]
+  "tags": ["authoritative", "chapter", "dds", "massachusetts", "public-sector", "seiu509", "state-workers", "training-fund", "union"]
 }

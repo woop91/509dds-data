@@ -22,5 +22,5 @@
   "update_cadence": "biennium (MAPE contract cycle, 2025-27)",
   "notes": "Authoritative for the examiner: class code 0871 and grid 14G confirmed against the MMB class spec, and min/max hourly rates with documented MAPE 2025-27 wage adjustments (+1.5% 2025-07-01, +1.75% 2026-07-01). Annual = hourly × 2080 FTE. Exact intra-grade step count is not exposed (step increases estimated ~3.55%). SUPERVISOR is UNCONFIRMED — no verified MAPE class code; may fall under AFSCME Council 5 or MMA, needs DEED HR confirmation.",
   "related": ["pay-scales/peer-states/MN/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "MN", "minnesota", "dds", "disability-examiner", "salary", "scheduled-rates", "mmb", "mape", "authoritative"]
+  "tags": ["MN", "authoritative", "dds", "disability-examiners", "mape", "minnesota", "mmb", "pay-scales", "peer-states", "salary", "scheduled-rates"]
 }

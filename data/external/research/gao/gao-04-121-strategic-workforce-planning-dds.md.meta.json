@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "license": "Public domain (U.S. federal government work)",
   "notes": "Authoritative: a published GAO report (product GAO-04-121; published and publicly released Jan 27, 2004) mirrored from gao.gov. The most directly DDS-workforce-relevant report in this set: it addresses examiner recruiting/retention, minimum qualifications, certification, and DDS parent-agency salary/hiring constraints. The source 'title' approximates GAO's catalog title; verify exact wording against gao.gov if needed. Single publication year so temporal_coverage start==end (2004). Recommendation table is narrative, not a declared column schema.",
-  "tags": ["external", "research", "gao", "ssa", "dds", "disability-examiner", "workforce-planning", "recruitment", "retention", "certification", "human-capital", "oversight", "authoritative"]
+  "tags": ["authoritative", "certification", "dds", "disability-examiners", "external", "gao", "human-capital", "oversight", "recruitment", "research", "retention", "ssa", "workforce-planning"]
 }

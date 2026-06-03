@@ -16,5 +16,5 @@
   "temporal_coverage": { "start": "2005-03-03", "end": "2005-03-03" },
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document S-Dakota-Const-Bylaws.doc. The bylaws certification states they were adopted at the initial board meeting and filed on 3 March 2005 (Sioux Falls), captured as temporal_coverage. Although the filename says 'const-bylaws', the document body is corporate Bylaws of the incorporated chapter (no separate constitution section). Many heading typos from the conversion ('ASSOCAIATION', 'ARTILCE', 'SETION', 'INDEMNIFICAION'). Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "south-dakota", "sodade", "nonprofit-corporation", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "external", "governance", "nade", "nonprofit-corporation", "sodade", "south-dakota", "state-bylaws"]
 }

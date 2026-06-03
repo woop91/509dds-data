@@ -17,5 +17,5 @@
   "update_cadence": "Annual",
   "license": "Public domain (Massachusetts state government publication)",
   "related": ["ma-annual-reports/src-fy23", "ma-annual-reports/mrc-fy23"],
-  "tags": ["src", "statewide-rehabilitation-council", "mrc", "annual-report", "vocational-rehabilitation", "massachusetts", "fy2022"]
+  "tags": ["annual-report", "fy2022", "massachusetts", "mrc", "src", "statewide-rehabilitation-council", "vocational-rehabilitation"]
 }

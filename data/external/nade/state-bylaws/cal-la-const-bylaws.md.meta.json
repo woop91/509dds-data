@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Cal-LA-Const-Bylaws.doc' in the same directory. The document is footer-stamped 'Updated 7/12/05', so temporal_coverage start/end are set to 2005. Conversion/source artifact: Article VII Section 9 of the committees section refers to maintaining the 'OKADE Constitution and By-laws' (an Oklahoma-chapter reference apparently carried over when this LA document was adapted from a template); it does not change that the document otherwise governs the Los Angeles chapter. The source URL is the NADE organization site, not a deep link.",
-  "tags": ["nade", "bylaws", "constitution", "california", "los-angeles", "chapter-65", "disability-examiners", "chapter-governance"]
+  "tags": ["bylaws", "california", "chapter-65", "chapter-governance", "constitution", "disability-examiners", "los-angeles", "nade"]
 }

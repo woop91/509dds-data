@@ -15,5 +15,5 @@
   "update_cadence": "as chapter bylaws are revised",
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Rhode-Island-Const-Bylaws.doc. The conversion duplicates the by-laws Committees/Amendments/Rules-of-Order articles (Article V section 3 onward repeats Articles VI-VII), an artifact of the original document; content is otherwise intact. One line erroneously expands NADE as 'National Association of Medical Examiners' (an original-document error, preserved). No adoption/revision date is stated, so temporal_coverage is omitted. Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "rhode-island", "riade", "northeast-region", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "external", "governance", "nade", "northeast-region", "rhode-island", "riade", "state-bylaws"]
 }

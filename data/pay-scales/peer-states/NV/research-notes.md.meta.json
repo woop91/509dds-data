@@ -12,5 +12,5 @@
   "update_cadence": "biennium 2025-2027 (pending retrieval)",
   "notes": "Browser-fetch pending: research quality LOW, zero quantitative data — hr.nv.gov salary schedule is JavaScript-rendered (curl insufficient, Firecrawl out of credits) and the AFSCME 4041 contract is behind a member portal. Class titles, grades, and salaries all UNVERIFIED. Notable confirmed context: AFSCME Local 4041 Unit C CBA ratified Aug 2024 (newest US DDS CBA, post-AB 271/2019). biennium 2025-2027 → temporal_coverage. Manual fetch: hr.nv.gov, afscme4041.org/nvsea.com, or NPRA request.",
   "related": ["pay-scales/peer-states/NV/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "NV", "nevada", "dds", "disability-adjudicator", "research-notes", "blocked", "browser-fetch-pending", "afscme-4041"]
+  "tags": ["NV", "afscme-4041", "blocked", "browser-fetch-pending", "dds", "disability-adjudicator", "nevada", "pay-scales", "peer-states", "research-notes"]
 }

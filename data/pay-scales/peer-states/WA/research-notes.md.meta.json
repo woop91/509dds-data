@@ -12,5 +12,5 @@
   "update_cadence": "biennium (CBA cycle, 2025-27)",
   "notes": "Authoritative: cites official OFM class specifications and codes (956/955/954/953) mapped to salary ranges, with Step-L monthly figures and the WFSE GG 2025-27 CBA (3% 2025, 2% 2026). Open gaps: DDS Adjudicator 5 (953) range unconfirmed (Range 62 candidate), full A–L step grid not captured in the notes (the sibling JSON has it), supervisory WMS-exclusion inferred.",
   "related": ["pay-scales/peer-states/WA/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "WA", "washington", "dds", "adjudicator", "research-notes", "ofm", "wfse", "authoritative"]
+  "tags": ["WA", "adjudicator", "authoritative", "dds", "ofm", "pay-scales", "peer-states", "research-notes", "washington", "wfse"]
 }

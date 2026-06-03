@@ -16,5 +16,5 @@
   "license": "Public domain (U.S. federal government work)",
   "notes": "Authoritative: this is a captured gao.gov product page for a published GAO report (GAO-09-149; published and publicly released Dec 17, 2008), containing GAO's own Highlights and Recommendations text. Single publication year so temporal_coverage start==end (2008). Capture retains gao.gov site chrome (nav/footer) around the report content. Base record of the gao-09-149 family; -full is the full PDF text and -summary is our condensation. Recommendation table is narrative, not a declared column schema.",
   "related": ["oversight/gao/gao-09-149-full", "oversight/gao/gao-09-149-summary"],
-  "tags": ["oversight", "gao", "ssa", "dds", "medical-evidence", "consultative-exams", "electronic-records", "claims-processing", "disability-determination", "authoritative"]
+  "tags": ["authoritative", "claims-processing", "consultative-exams", "dds", "disability-determination", "electronic-records", "gao", "medical-evidence", "oversight", "ssa"]
 }

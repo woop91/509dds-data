@@ -26,5 +26,5 @@
   "source": { "publisher": "Massachusetts Office of the Comptroller (CTHRU)", "url": "https://cthru.data.mass.gov/" },
   "confidence_tier": "Authoritative",
   "notes": "2023 actual_paid is incomplete — the latest CTHRU 2023 snapshot covers only through ~2023-01-14 (~2 weeks); annual_rate is reliable for all years. Massachusetts public-record payroll data.",
-  "tags": ["pay-scales", "salary", "cthru", "manager", "payroll", "dds", "mrc", "public-record"]
+  "tags": ["cthru", "dds", "manager", "mrc", "pay-scales", "payroll", "public-record", "salary"]
 }

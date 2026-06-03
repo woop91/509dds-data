@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Kentuck-Frankfort-Const-Bylaws.doc' in the same directory; expect minor conversion artifacts (two articles are both numbered 'ARTICLE XIII' in the source, and 'PARLIMENTARY' is misspelled). The document closes 'Revised 3/01', so temporal_coverage start/end are set to 2001. This is the Frankfort Kentucky chapter; a sibling 'kentuck-louisville-const-bylaws.md' (Louisville) exists in the same directory but is out of scope for this card set. Despite the source filename, the content present is the Constitution (no separately titled By-Laws section). The source URL is the NADE organization site, not a deep link.",
-  "tags": ["nade", "bylaws", "constitution", "kentucky", "frankfort", "KADE", "disability-examiners", "southeast-region", "chapter-governance"]
+  "tags": ["KADE", "bylaws", "chapter-governance", "constitution", "disability-examiners", "frankfort", "kentucky", "nade", "southeast-region"]
 }

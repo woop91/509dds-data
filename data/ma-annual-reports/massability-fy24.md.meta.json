@@ -17,5 +17,5 @@
   "update_cadence": "Annual",
   "license": "Public domain (Massachusetts state government publication)",
   "related": ["ma-annual-reports/massability-fy25", "ma-annual-reports/mrc-fy23", "ma-annual-reports/src-fy24"],
-  "tags": ["massability", "mrc", "annual-report", "vocational-rehabilitation", "dds", "career-services", "home-and-community-life", "massachusetts", "fy2024"]
+  "tags": ["annual-report", "career-services", "dds", "fy2024", "home-and-community-life", "massability", "massachusetts", "mrc", "vocational-rehabilitation"]
 }

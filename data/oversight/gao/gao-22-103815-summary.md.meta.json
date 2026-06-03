@@ -16,5 +16,5 @@
   "license": "Public domain (U.S. federal government work)",
   "notes": "Computed: this -summary file is OUR own brief condensation (templated 'Report:' card with Focus Area / Key Recommendation Areas), NOT GAO's published Highlights — so it is synthesis, tiered Computed rather than Authoritative. The file states 'Date: 2022' (the GAO product number prefix), but the report was published/released Nov 09, 2021; temporal_coverage uses the publication year (2021). For authoritative content see the base (oversight/gao/gao-22-103815) and full report (oversight/gao/gao-22-103815-full). A sibling raw capture gao-22-103815-source.txt exists but is intentionally uncarded (provenance only). Narrative, no column schema.",
   "related": ["oversight/gao/gao-22-103815", "oversight/gao/gao-22-103815-full"],
-  "tags": ["oversight", "gao", "ssa", "dds", "medical-consultants", "oversight", "summary", "condensation", "computed"]
+  "tags": ["computed", "condensation", "dds", "gao", "medical-consultants", "oversight", "ssa", "summary"]
 }

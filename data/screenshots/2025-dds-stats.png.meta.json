@@ -11,5 +11,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Transcribed numbers from the slide image: total workload 71,316 cases; 48,030 Initial Claims; 10,800 Reconsideration Claims; 9,500 Continuing Disability Reviews; 885 Pre-Hearing Claims; 422 Disability Hearings. Tier=Authoritative because this is a direct screenshot of an official MassAbility/MA DDS FY25 presentation; however the figures were re-keyed by reading the image, so transcription error is possible and values should be reconciled against the source presentation or the MassAbility FY25 annual report before authoritative use. Approximate capture year 2025 (from filename); 'FY 25' = state fiscal year 2025 (Jul 2024-Jun 2025). The exact source URL/deep link is not visible in the screenshot; publisher inferred from the MassAbility logo and slide content.",
   "related": ["ma-annual-reports/massability-fy25", "ma-annual-reports/massability-fy24"],
-  "tags": ["screenshot", "ma-dds", "massability", "case-processing", "workload", "fy25", "initial-claims", "reconsideration", "continuing-disability-review", "disability-hearings", "transcribed-from-image"]
+  "tags": ["case-processing", "continuing-disability-review", "disability-hearings", "fy25", "initial-claims", "ma-dds", "massability", "reconsideration", "screenshot", "transcribed-from-image", "workload"]
 }

@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "CONSUMPTION HAZARD: very large file (~1.06 MB / ~1,061,722 bytes) — a single Firecrawl scrape bundling many MCAD subpages. c.151B complaint deadline is 300 days from the discriminatory act (180 if no parallel federal claim). A new online complaint portal was announced as forthcoming (March 2026 notice).",
   "related": ["labor-rights/08-eeoc", "labor-rights/sub-02-mcad-deadline", "labor-rights/sub-02-mcad-file-complaint"],
-  "tags": ["discrimination", "anti-discrimination", "employment", "housing", "accommodation", "c.151B", "MCAD", "mass.gov"]
+  "tags": ["MCAD", "accommodation", "anti-discrimination", "c.151B", "discrimination", "employment", "housing", "mass.gov"]
 }

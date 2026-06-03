@@ -19,5 +19,5 @@
   "update_cadence": "annual (CT DAS salary plans, July 1 effective)",
   "notes": "Browser-fetch pending: research_status INCOMPLETE — CT DAS Salary Plans direct PDF fetch returned HTML, so no dollar amounts. Class codes are PENDING_VERIFICATION and SG assignments (SG-21–23 examiner, SG-24–26 supervisor) are estimates only. effective_date 2024-07-01 / FY2025 noted in the file → used for temporal_coverage. Bargaining context confirmed: AFSCME Local 714 / SEBAC P-2, CBA 2017-2027. Manual fetch: portal.ct.gov/das salary plans or council4.org contracts.",
   "related": ["pay-scales/peer-states/CT/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "CT", "connecticut", "dds", "disability-determination-examiner", "blocked", "browser-fetch-pending", "afscme", "sebac"]
+  "tags": ["CT", "afscme", "blocked", "browser-fetch-pending", "connecticut", "dds", "disability-determination-examiner", "pay-scales", "peer-states", "sebac"]
 }

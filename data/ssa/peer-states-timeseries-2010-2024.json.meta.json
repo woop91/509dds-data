@@ -30,5 +30,5 @@
   "notes": "Computed/aggregated dataset, not a raw SSA file: fav_rate and adult_fav_rate are derived ratios. Peer set chosen for population comparability with MA. See docs/methodology.md and docs/peer-states-comparison.json.",
   "derived_from": ["ssa/ssa-sa-fywl-all-states-2001-2024"],
   "related": ["ssa/dds-net-accuracy-by-state-2007-2022"],
-  "tags": ["ssa", "peer-states", "favorable-rate", "benchmark", "computed"]
+  "tags": ["benchmark", "computed", "favorable-rate", "peer-states", "ssa"]
 }

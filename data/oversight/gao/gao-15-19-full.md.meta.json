@@ -16,5 +16,5 @@
   "license": "Public domain (U.S. federal government work)",
   "notes": "Authoritative: extracted full text of the published 46-page GAO-15-19 PDF. Full-report representation in the gao-15-19 family (base = oversight/gao/gao-15-19; this family has no -summary). url points to GAO's full-report PDF asset. PDF-to-text extraction may contain layout artifacts. temporal_coverage uses publication year (2014). Narrative document, no declared column schema.",
   "related": ["oversight/gao/gao-15-19"],
-  "tags": ["oversight", "gao", "ssa", "dds", "fraud", "physician-assisted-fraud", "fraud-referral", "anti-fraud-training", "performance-measures", "full-report", "authoritative"]
+  "tags": ["anti-fraud-training", "authoritative", "dds", "fraud", "fraud-referral", "full-report", "gao", "oversight", "performance-measures", "physician-assisted-fraud", "ssa"]
 }

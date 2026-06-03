@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "No statute-of-limitations on this landing page; c.149 wage claims are generally subject to a 3-year limitations period. File ~9.9 KB.",
   "related": ["labor-rights/04-ma-dls", "labor-rights/09-dol-whd", "labor-rights/sub-03-ago-file-workplace-complaint"],
-  "tags": ["wages", "wage-theft", "earned-sick-time", "child-labor", "prevailing-wage", "c.149", "attorney-general", "mass.gov"]
+  "tags": ["attorney-general", "c.149", "child-labor", "earned-sick-time", "mass.gov", "prevailing-wage", "wage-theft", "wages"]
 }

@@ -24,5 +24,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Rows where Month is blank and Fiscal Year ends in 'Total Average' are per-FY summary rows — exclude them when computing monthly statistics to avoid double counting. The trailing fiscal year (FY2026) is incomplete.",
   "related": ["ssa/cdp-time-monthly-fy08-fy15"],
-  "tags": ["ssa", "processing-time", "monthly", "disability", "national"]
+  "tags": ["disability", "monthly", "national", "processing-time", "ssa"]
 }

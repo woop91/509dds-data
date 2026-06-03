@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "Statute G.L. c.149 §§148C–148D; regulations 940 CMR 33.00. Employers with <11 employees provide UNPAID sick time. Documentation may be requested only in limited circumstances (e.g. 3+ consecutive missed workdays). Complaints to the AG Fair Labor Division: (617) 727-3465.",
   "related": ["labor-rights/sub-ma-sick-leave-overview", "labor-rights/sub-dfml-pfml-overview", "labor-rights/03-ma-ago-fairlabor"],
-  "tags": ["earned-sick-time", "sick-leave", "c.149", "attorney-general", "fair-labor", "massachusetts"]
+  "tags": ["attorney-general", "c.149", "earned-sick-time", "fair-labor", "massachusetts", "sick-leave"]
 }

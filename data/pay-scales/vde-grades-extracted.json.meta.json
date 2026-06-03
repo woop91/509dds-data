@@ -20,5 +20,5 @@
   "source": { "publisher": "SEIU Local 509 / Commonwealth of Massachusetts (Unit 8 & 10 CBA) and Massachusetts Office of the Comptroller (CTHRU)", "url": "https://www.seiu509.org/" },
   "confidence_tier": "Computed",
   "notes": "Derived from the five effective-*.md salary-chart files in this folder. cthru_actual_paid_2023 reflects pre-2024-07 pay rates. Annual estimate = bi-weekly × 26.",
-  "tags": ["pay-scales", "salary", "vde", "grade", "derived", "cba", "cthru", "public-record"]
+  "tags": ["cba", "cthru", "derived", "grade", "pay-scales", "public-record", "salary", "vde"]
 }

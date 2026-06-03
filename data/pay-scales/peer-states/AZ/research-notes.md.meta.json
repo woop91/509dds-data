@@ -11,5 +11,5 @@
   "update_cadence": "ad hoc (estimates)",
   "notes": "Computed: agency and examiner class title are confirmed via job postings, but class codes, pay-grade assignment, and the official AZ salary schedule were not located — the only quantitative figures are Glassdoor/aggregate estimates ($53,152–$82,282; one $65,885 point). Supervisor title not identified. No collective bargaining (ASPS merit system). effective_date/fiscal_year not stated in the notes so temporal_coverage is omitted. No sibling scheduled-rates.json for AZ.",
   "related": ["pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "AZ", "arizona", "dds", "disability-determination-specialist", "research-notes", "estimate", "non-union", "computed"]
+  "tags": ["AZ", "arizona", "computed", "dds", "disability-determination-specialist", "estimate", "non-union", "pay-scales", "peer-states", "research-notes"]
 }

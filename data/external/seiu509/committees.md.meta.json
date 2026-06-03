@@ -14,5 +14,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. Leading lines are boilerplate cookie-consent text; trailing block is the gtranslate language switcher. Contains personal names and mass.gov/state.ma.us contact emails for committee chairs (public union directory data). No publication date in the content so temporal_coverage is omitted.",
   "related": ["external/seiu509/about", "external/seiu509/leadership"],
-  "tags": ["seiu509", "union", "committees", "social-justice", "disability-justice", "lgbtqia", "racial-justice", "massachusetts", "authoritative"]
+  "tags": ["authoritative", "committees", "disability-justice", "lgbtqia", "massachusetts", "racial-justice", "seiu509", "social-justice", "union"]
 }

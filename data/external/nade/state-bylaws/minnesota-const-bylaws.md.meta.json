@@ -13,5 +13,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'Minnesota-const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived. The document is titled 'By-Laws' (it references but does not separately reproduce a constitution). NADE url is the organization site, not a deep link to this document.",
-  "tags": ["nade", "bylaws", "constitution", "state", "minnesota", "made", "great-lakes-region", "disability-examiners", "chapter-governance"]
+  "tags": ["bylaws", "chapter-governance", "constitution", "disability-examiners", "great-lakes-region", "made", "minnesota", "nade", "state"]
 }

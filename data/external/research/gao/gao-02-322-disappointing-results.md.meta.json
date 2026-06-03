@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "license": "Public domain (U.S. federal government work)",
   "notes": "Authoritative: a published GAO report (product GAO-02-322; published Feb 04, 2002, publicly released Feb 27, 2002) mirrored from gao.gov. Markdown scrape captures Highlights plus the Recommendations table with agency-action implementation status. The source 'title' field uses GAO's catalog title; the filename slug ('disappointing-results') reflects the report's headline finding. Single publication year so temporal_coverage start==end (2002). Recommendation table is narrative, not a declared column schema.",
-  "tags": ["external", "research", "gao", "ssa", "dds", "disability-determination", "claims-backlog", "hearings", "quality-assurance", "oversight", "authoritative"]
+  "tags": ["authoritative", "claims-backlog", "dds", "disability-determination", "external", "gao", "hearings", "oversight", "quality-assurance", "research", "ssa"]
 }

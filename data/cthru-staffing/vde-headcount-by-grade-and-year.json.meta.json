@@ -25,5 +25,5 @@
   },
   "confidence_tier": "Computed",
   "notes": "CONSUMPTION HAZARD: 2016 row carries both old and new grade columns (mid-year reclassification); raw total 385 is inflated, corrected ~200. Aggregated from CTHRU (dataset rxhc-k6iz) by the repo maintainer; counts payroll records per year (may differ from SSA SAOR FTE-authorized counts). CY2024 not yet in CTHRU as of 2026-05.",
-  "tags": ["staffing", "headcount", "vde", "grade", "cthru", "dds", "massability", "mrc", "payroll", "509dds"]
+  "tags": ["509dds", "cthru", "dds", "grade", "headcount", "massability", "mrc", "payroll", "staffing", "vde"]
 }

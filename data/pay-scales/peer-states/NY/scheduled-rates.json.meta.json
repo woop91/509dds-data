@@ -19,5 +19,5 @@
   "update_cadence": "annual (PS&T schedule; 4% raise eff 2025-04)",
   "notes": "Browser-fetch pending: classification titles, PEF Bargaining Unit 5 (PS&T), and CBA dates (2023-04 → 2026-04, 4% raise eff 2025-04) are VERIFIED, but salary_grade_numbers, min_max_salaries, and step_progression are all PENDING — cs.ny.gov has an HTML paywall and pef.org/openbook.ny.gov failed to fetch. SG numbers and all min/max are the string 'TBD' (likely SG-14 to SG-23). Schedule eff 2025-07-01, CBA through 2026-04-01 → temporal_coverage. Manual fetch: cs.ny.gov salary schedules or pef.org salary charts.",
   "related": ["pay-scales/peer-states/NY/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "NY", "new-york", "dds", "disability-analyst", "blocked", "browser-fetch-pending", "pef", "ps-t"]
+  "tags": ["NY", "blocked", "browser-fetch-pending", "dds", "disability-analyst", "new-york", "pay-scales", "peer-states", "pef", "ps-t"]
 }

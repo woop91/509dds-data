@@ -13,5 +13,5 @@
   "confidence_tier": "Computed",
   "notes": "Process-doc, not a primary dataset: this is an internal provenance/run log for the 2026-05-05 SSA document fetch. Carded as reference metadata (tier Computed — internally authored, not an official SSA publication) so the folder is fully described, and related-linked to the extractions it documents. It does retain consumption value (records source PDFs, extraction tool, and the national-only DDS-budget discovery). ORCHESTRATOR NOTE: borderline keep — useful provenance, but ephemeral; safe to drop if the catalog should contain primary datasets only.",
   "related": ["ssa/performance/apr-fy24-extracted", "ssa/performance/apr-fy25-extracted", "ssa/budget/cj-fy25-extracted", "ssa/budget/dds-section-fy25"],
-  "tags": ["ssa", "provenance", "fetch-log", "process-doc", "reference"]
+  "tags": ["fetch-log", "process-doc", "provenance", "reference", "ssa"]
 }

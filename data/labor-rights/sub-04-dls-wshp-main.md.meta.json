@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "WSHP became a full OSHA State Plan in August 2022, applying to public-sector workers including DDS/MassAbility employees. Contact (508) 616-0461 ext. 1. Includes a public-employee whistleblower-protection program for safety retaliation.",
   "related": ["labor-rights/04-ma-dls", "labor-rights/sub-04-dls-wshp-info", "labor-rights/sub-04-dls-report-public-worksite-accident"],
-  "tags": ["DLS", "WSHP", "OSHA-state-plan", "workplace-safety", "public-sector", "whistleblower", "SafetyWorks"]
+  "tags": ["DLS", "OSHA-state-plan", "SafetyWorks", "WSHP", "public-sector", "whistleblower", "workplace-safety"]
 }

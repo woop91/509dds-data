@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Page capture includes mass.gov chrome (state seal, feedback widgets, translate notice) that is not substantive content. MOD provides individualized guidance and technical assistance but is not itself an enforcement agency.",
   "related": ["ra-process/ra-process-state-exec-branch", "ra-process/ra-application-page", "ra-process/dlc-self-advocacy-guide-oct-2023"],
-  "tags": ["ada", "disability-rights", "reasonable-accommodation", "employment-law", "mod", "massachusetts", "mcad", "eeoc", "executive-order-592"]
+  "tags": ["MCAD", "ada", "disability-rights", "eeoc", "employment-law", "executive-order-592", "massachusetts", "mod", "reasonable-accommodation"]
 }

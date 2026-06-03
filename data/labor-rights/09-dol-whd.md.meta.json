@@ -13,5 +13,5 @@
   "license": "Public domain (federal)",
   "notes": "No filing deadline on this landing page; FLSA wage claims have a 2-year limitations period (3 years if willful); FMLA retaliation claims within 2 years. File ~3.1 KB.",
   "related": ["labor-rights/03-ma-ago-fairlabor", "labor-rights/sub-09-dol-whd-complaints", "labor-rights/10-osha"],
-  "tags": ["wages", "FLSA", "FMLA", "federal", "DOL", "wage-and-hour", "family-leave"]
+  "tags": ["dol", "family-leave", "federal", "flsa", "fmla", "wage-and-hour", "wages"]
 }

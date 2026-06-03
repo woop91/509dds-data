@@ -13,5 +13,5 @@
   "license": "mass.gov terms / public records (Massachusetts)",
   "notes": "Publisher is the Trial Court Law Libraries (NOT the AGO). Notable cases: Bodge v. Commonwealth, 494 Mass. 623 (2024) — c.175M does not require employers to guarantee sick/vacation accrual during PFML leave; Mui v. Massport, 478 Mass. 710 (2018) — accrued unused sick time is not 'wages' under the Wage Act. Federal preemption for airline (ADA) and railroad (RUIA) employees. Page last updated Mar 4 2026 (in-file).",
   "related": ["labor-rights/sub-ago-earned-sick-time", "labor-rights/sub-dfml-pfml-overview"],
-  "tags": ["sick-leave", "c.149", "law-library", "case-law", "earned-sick-time", "legal-research", "massachusetts"]
+  "tags": ["c.149", "case-law", "earned-sick-time", "law-library", "legal-research", "massachusetts", "sick-leave"]
 }

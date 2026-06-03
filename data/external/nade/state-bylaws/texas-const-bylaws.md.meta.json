@@ -15,5 +15,5 @@
   "update_cadence": "as chapter bylaws are revised",
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Texas-Const-Bylaws.docx. The captured text is the Constitution (the By-Laws Committee is referenced but a separate by-laws section is not present in this conversion). No adoption/revision date is stated, so temporal_coverage is omitted. Several conversion/source typos ('Taxes Association', 'herby', 'of TADE may'). Note this is the Texas TADE, distinct from the Tennessee TADE chapter. Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "texas", "tade", "southwest-region", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "external", "governance", "nade", "southwest-region", "state-bylaws", "tade", "texas"]
 }

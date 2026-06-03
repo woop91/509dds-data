@@ -16,5 +16,5 @@
   "temporal_coverage": { "start": "2007-05", "end": "2013-01" },
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document OlyWADE-constitution-and-bylaws.doc. The governing document is marked 'Filed 5/07' with 'Rev 6/5/07'; an appended officer roster runs from January 2010 through January 2013, so temporal_coverage is set start 2007-05 (filing) to 2013-01 (latest officer list). 'WADE'/'OWADE' typos for OlyWADE appear in the converted text. Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "washington", "olympia", "olywade", "pacific-region", "regional-chapter", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "external", "governance", "nade", "olympia", "olywade", "pacific-region", "regional-chapter", "state-bylaws", "washington"]
 }

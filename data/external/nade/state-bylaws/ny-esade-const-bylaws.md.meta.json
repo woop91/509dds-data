@@ -13,5 +13,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'NY-ESADE-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived (Article numbering restarts at the by-laws section and some emphasis markers are conversion artifacts). 'ESADE' = Empire State Association of Disability Examiners (one of multiple NY chapters; a separate NY-West chapter, NY-West-Const-Bylaws.doc, also exists). NADE url is the organization site, not a deep link to this document.",
-  "tags": ["nade", "bylaws", "constitution", "state", "new-york", "esade", "empire-state", "northeast-region", "disability-examiners", "chapter-governance"]
+  "tags": ["bylaws", "chapter-governance", "constitution", "disability-examiners", "empire-state", "esade", "nade", "new-york", "northeast-region", "state"]
 }

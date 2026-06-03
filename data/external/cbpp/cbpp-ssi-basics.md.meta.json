@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "license": "Center on Budget and Policy Priorities (reuse per CBPP terms)",
   "notes": "Authoritative: a published CBPP 'Policy Basics' explainer mirrored from cbpp.org; canonical URL captured from the page's main-content link. Page marked 'Updated May 1, 2026' and cites Jan-2026 beneficiary counts, so temporal_coverage start==end (2026). Markdown scrape retains a cookie-policy banner and site navigation. This directory also contains cbpp-ssdi-overview.html and cbpp-ss-research.source.txt, which are intentionally NOT carded per scope (md only). No tabular columns to declare.",
-  "tags": ["external", "cbpp", "ssi", "supplemental-security-income", "social-security", "policy-basics", "explainer", "disability-determination", "authoritative"]
+  "tags": ["authoritative", "cbpp", "disability-determination", "explainer", "external", "policy-basics", "social-security", "ssi", "supplemental-security-income"]
 }

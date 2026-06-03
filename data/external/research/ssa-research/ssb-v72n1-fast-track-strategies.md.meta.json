@@ -14,5 +14,5 @@
   "confidence_tier": "Authoritative",
   "license": "Not copyrighted (U.S. SSA publication; citation requested)",
   "notes": "Authoritative: a published, peer-style research article in SSA's Social Security Bulletin (Vol. 72, No. 1) by David Rajnes of SSA's Office of Research, Evaluation, and Statistics, mirrored from ssa.gov/policy. The source URL is the canonical SSB v72n1 issue directory (the article page is v72n1p?.html); deep article-page link not asserted. A Table 2 correction was posted 2016-02-23. Issue date is not stated cleanly in the scraped body (SSB v72n1 corresponds to 2012), so temporal_coverage is omitted rather than guessed. Large file (~152 KB). No tabular columns declared.",
-  "tags": ["external", "research", "ssa-research", "ssa", "social-security-bulletin", "fast-track", "quick-disability-determination", "compassionate-allowances", "disability-determination", "international", "authoritative"]
+  "tags": ["authoritative", "compassionate-allowance", "disability-determination", "external", "fast-track", "international", "quick-disability-determination", "research", "social-security-bulletin", "ssa", "ssa-research"]
 }

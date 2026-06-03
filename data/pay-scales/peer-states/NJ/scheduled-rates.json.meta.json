@@ -20,5 +20,5 @@
   "update_cadence": "CBA cycle (2023-2027, 3.5%/yr)",
   "notes": "Computed (≈ estimate): examiner/supervisor titles and the CWA/IFPTE 2023-2027 CBA terms (3.5% annual, Step 11 added, Range 9 Step 2 hire floor) are confirmed, but min/max are Glassdoor/ZipRecruiter aggregates — the official CWA Local 1036 / IFPTE 195 salary-schedule PDFs were inaccessible via web-fetch and exact Range/Step assignment is unverified. Union jurisdiction (CWA 1036 vs IFPTE 195) for DDS Claims Adjudicators is unconfirmed. Supervisor min/max are null.",
   "related": ["pay-scales/peer-states/NJ/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "NJ", "new-jersey", "dds", "claims-adjudicator", "salary", "estimate", "cwa", "ifpte", "computed"]
+  "tags": ["NJ", "claims-adjudicator", "computed", "cwa", "dds", "estimate", "ifpte", "new-jersey", "pay-scales", "peer-states", "salary"]
 }

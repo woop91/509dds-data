@@ -16,5 +16,5 @@
   "license": "Public domain (U.S. federal government work)",
   "notes": "Authoritative: captured gao.gov product page for a published GAO report (GAO-15-19; published Nov 10, 2014, publicly released Dec 10, 2014), containing GAO's own findings and recommendation text. temporal_coverage uses publication year (2014); page lists 5 recommendations (4 Closed – Implemented, 1 Closed – Not Implemented). Capture retains gao.gov site chrome. Base record of the gao-15-19 family (full text in -full); this family has no -summary file. Narrative recommendation table, no declared column schema.",
   "related": ["oversight/gao/gao-15-19-full"],
-  "tags": ["oversight", "gao", "ssa", "dds", "fraud", "physician-assisted-fraud", "fraud-referral", "anti-fraud-training", "performance-measures", "claims-processing", "authoritative"]
+  "tags": ["anti-fraud-training", "authoritative", "claims-processing", "dds", "fraud", "fraud-referral", "gao", "oversight", "performance-measures", "physician-assisted-fraud", "ssa"]
 }

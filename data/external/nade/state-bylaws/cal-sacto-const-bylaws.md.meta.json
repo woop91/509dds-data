@@ -13,5 +13,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Cal-Sacto-Const-Bylaws.doc' in the same directory; expect conversion artifacts (the body is rendered entirely bold, the heading reads 'CONSTITTION', and the committees article is mislabeled 'Section 8' rather than 'Article 8'). No adoption/revision date is stated in the content, so temporal_coverage is omitted. The source URL is the NADE organization site, not a deep link.",
-  "tags": ["nade", "bylaws", "constitution", "california", "sacramento", "SACADE", "disability-examiners", "chapter-governance"]
+  "tags": ["SACADE", "bylaws", "california", "chapter-governance", "constitution", "disability-examiners", "nade", "sacramento"]
 }

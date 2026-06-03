@@ -38,5 +38,5 @@
     "prr-templates/massability-prr",
     "prr-templates/ssa-foia"
   ],
-  "tags": ["dds", "dds-det", "massability", "mrc", "disability-determination", "operational-statistics", "master-table", "computed", "reconciled", "section-9f", "ssa", "federal-fy", "prr", "foia"]
+  "tags": ["computed", "dds", "dds-det", "disability-determination", "federal-fy", "foia", "massability", "master-table", "mrc", "operational-statistics", "prr", "reconciled", "section-9f", "ssa"]
 }

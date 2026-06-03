@@ -12,5 +12,5 @@
   "update_cadence": "annual (fiscal-year salary schedule)",
   "notes": "Authoritative: official class codes (5260, 5263) and grades (14/ASTD, 19) cited from MD JobAps class specifications with salary ranges, mapped to the DBM Standard Salary Schedule (eff 2025-07-01). Note the salary ranges cited in the notes ($58,428–$90,709 examiner; $80,541–$125,564 supervisor) come from a job posting and differ slightly from the sibling JSON's exact step grid ($62,220–$96,790; $85,963–$133,951). Open gaps: full intermediate steps, exact AFSCME unit (C vs other), Examiner II salary, Grade 14 vs 19 confirmation.",
   "related": ["pay-scales/peer-states/MD/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "MD", "maryland", "dds", "disability-claims-examiner", "research-notes", "dbm", "afscme", "authoritative"]
+  "tags": ["MD", "afscme", "authoritative", "dbm", "dds", "disability-claims-examiner", "maryland", "pay-scales", "peer-states", "research-notes"]
 }

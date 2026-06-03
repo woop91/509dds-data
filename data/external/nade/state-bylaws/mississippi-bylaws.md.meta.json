@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'Mississippi-Bylaws.doc' (in the same directory); markdown formatting was machine-derived and the source contains OCR-style artifacts (e.g. 'Fund-Rasing', 'staffat') preserved as-converted. This file is the By-Laws only (titled 'BYLAWS ... REVISED JUNE 14, 2002', captured as temporal_coverage); it explicitly references a separate MADE Constitution that is not part of this document, which is why the filename is 'mississippi-bylaws' (not 'const-bylaws'). NADE url is the organization site, not a deep link to this document.",
-  "tags": ["nade", "bylaws", "state", "mississippi", "made", "southeast-region", "disability-examiners", "chapter-governance"]
+  "tags": ["bylaws", "chapter-governance", "disability-examiners", "made", "mississippi", "nade", "southeast-region", "state"]
 }

@@ -15,5 +15,5 @@
   "license": "© SEIU Local 509 / DDS chapter; free to redistribute with attribution (per folder README)",
   "notes": "Synthesized statute cross-reference — not legal advice; companion to the agency landing pages and sub-*.md primary scrapes. Sections are numbered and cross-referenced by the cheat sheet and member guide.",
   "related": ["labor-rights/00-CHEATSHEET", "labor-rights/00-INDEX", "labor-rights/00-MEMBER-GUIDE", "labor-rights/agencies"],
-  "tags": ["labor-rights", "statute-index", "MA-public-sector", "c.150E", "c.151B", "c.149", "PFML", "civil-service", "Weingarten", "Loudermill", "steward-tools"]
+  "tags": ["Loudermill", "MA-public-sector", "Weingarten", "c.149", "c.150E", "c.151B", "civil-service", "labor-rights", "pfml", "statute-index", "steward-tools"]
 }

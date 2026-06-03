@@ -20,5 +20,5 @@
   "update_cadence": "CBA cycle (SEIU 668 Master Agreement 2023-2027)",
   "notes": "Browser-fetch pending (file status INCOMPLETE — estimates only; README marks PA with the ◌ agent-inferred glyph): pay grades SC-09/SC-10/SC-11–12 are agent-INFERRED and explicitly unverified against the PA OA schedule, and min/max are job-posting + BLS estimates. PA OA pay-schedule PDFs require login (fetch redirected to HTML) and the SEIU 668 contract appendix is not directly downloadable. SEIU Local 668 Master Agreement 2023-2027 → temporal_coverage. Manual fetch: oa.pa.gov PCOMP (login) or seiu668.org contracts.",
   "related": ["pay-scales/peer-states/PA/research-notes", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "PA", "pennsylvania", "dds", "disability-examiner", "estimate", "agent-inferred", "browser-fetch-pending", "seiu-668"]
+  "tags": ["PA", "agent-inferred", "browser-fetch-pending", "dds", "disability-examiners", "estimate", "pay-scales", "peer-states", "pennsylvania", "seiu-668"]
 }

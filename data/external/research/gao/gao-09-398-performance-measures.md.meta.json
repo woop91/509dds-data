@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "license": "Public domain (U.S. federal government work)",
   "notes": "Authoritative: a published GAO report (product GAO-09-398; published and publicly released Sep 09, 2009) mirrored from gao.gov, evaluating the May 2007 hearings-backlog plan and its May 2009 'Draft Appomattox Plan' update. The source 'title' is approximate — confirm exact GAO catalog title at gao.gov before relying on it (the slug 'performance-measures' reflects the report focus). Single publication year so temporal_coverage start==end (2009). Recommendation table is narrative, not a declared column schema.",
-  "tags": ["external", "research", "gao", "ssa", "disability-determination", "hearings-backlog", "performance-measures", "risk-assessment", "cost-estimates", "oversight", "authoritative"]
+  "tags": ["authoritative", "cost-estimates", "disability-determination", "external", "gao", "hearings-backlog", "oversight", "performance-measures", "research", "risk-assessment", "ssa"]
 }

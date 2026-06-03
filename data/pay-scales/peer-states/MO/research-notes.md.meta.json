@@ -11,5 +11,5 @@
   "update_cadence": "ad hoc (DESE DDS class title not located in public records)",
   "notes": "Computed: agency (DESE, not DSS) is confirmed, but the DESE DDS examiner/supervisor class titles and pay grades are NOT located in public OA records — data_quality is very low. The cited dollar figures (#0866 $36,360–$57,792; #0868 $41,208–$65,544) are for related Governor's-Council-on-Disability classes, explicitly NOT the DESE DDS roles. DESE DDS may use an internal classification not publicly indexed. effective_date not stated so temporal_coverage is omitted. No sibling scheduled-rates.json for MO.",
   "related": ["pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "MO", "missouri", "dds", "research-notes", "class-not-located", "estimate", "computed"]
+  "tags": ["MO", "class-not-located", "computed", "dds", "estimate", "missouri", "pay-scales", "peer-states", "research-notes"]
 }

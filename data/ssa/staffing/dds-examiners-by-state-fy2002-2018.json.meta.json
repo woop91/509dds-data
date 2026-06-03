@@ -27,5 +27,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Authoritative: derived 1:1 from dds-examiners-by-state-fy2002-2018.source.xlsx into tidy long format (SSA-published examiner counts, not recomputed). Top-level keys: schema='long', metric_family='dds_examiners_by_state', source_file, extracted_at (2026-05-08), fy_range=[2002,2018], rows. National 'code' value is 'National'. Column dot-paths denote fields of each rows[] object. Per methodology.md, SAOR FTE-authorized examiner counts differ in methodology from CTHRU payroll headcounts. Source URL is SSA's canonical disability-data page; exact source-workbook deep link not recorded in the file.",
   "related": ["ssa/staffing/dds-employees-by-state-fy2010-2023", "ssa/oig-audit-staffing-productivity-072309"],
-  "tags": ["ssa", "staffing", "dds", "examiners", "by-state", "long-format"]
+  "tags": ["by-state", "dds", "examiners", "long-format", "ssa", "staffing"]
 }

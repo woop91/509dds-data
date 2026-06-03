@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This is the markitdown-normalized markdown conversion of the sibling source file 'Maryland-Const-Bylaws.doc' (in the same directory); markdown formatting was machine-derived. Document states it was 'Dated and completed 03/09/79, approved 1980' and 'Amended 11/15/85' and 'Amended 01/23/98', captured as temporal_coverage 1979-1998. NADE url is the organization site, not a deep link to this document.",
-  "tags": ["nade", "bylaws", "constitution", "state", "maryland", "made", "mid-atlantic-region", "marade", "disability-examiners", "chapter-governance"]
+  "tags": ["bylaws", "chapter-governance", "constitution", "disability-examiners", "made", "marade", "maryland", "mid-atlantic-region", "nade", "state"]
 }

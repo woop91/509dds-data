@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Cal-Stock-Const-Bylaws.doc' in the same directory. The document is footer-stamped 'Drafted 1/22/2010', so temporal_coverage start/end are set to 2010. Conversion artifact: the very first line of the .md contains stray injected text 'Be Active Challenge [beactivechallenge@ncsports.org]' immediately before the real title — a spurious header/clipboard artifact from the markitdown conversion, not part of the governing document. The source URL is the NADE organization site, not a deep link.",
-  "tags": ["nade", "bylaws", "constitution", "california", "stockton", "chapter-71", "disability-examiners", "chapter-governance"]
+  "tags": ["bylaws", "california", "chapter-71", "chapter-governance", "constitution", "disability-examiners", "nade", "stockton"]
 }

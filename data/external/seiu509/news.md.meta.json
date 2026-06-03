@@ -15,5 +15,5 @@
   "confidence_tier": "Authoritative",
   "notes": "Authoritative: official SEIU Local 509 union content scraped from seiu509.org. This is a point-in-time listing snapshot; the live page is continuously updated, so the captured posts (dated Jan 30 - May 4, 2026) reflect only the scrape moment and will drift from the live site. temporal_coverage bounds the captured post dates. Each entry links to a full article on seiu509.org not included in this repo. Leading lines are cookie-consent chrome; trailing block is the gtranslate switcher.",
   "related": ["external/seiu509/political", "external/seiu509/public-sector"],
-  "tags": ["seiu509", "union", "news", "press", "campaigns", "snapshot", "massachusetts", "authoritative"]
+  "tags": ["authoritative", "campaigns", "massachusetts", "news", "press", "seiu509", "snapshot", "union"]
 }

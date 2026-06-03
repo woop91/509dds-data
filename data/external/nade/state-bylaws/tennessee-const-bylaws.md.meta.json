@@ -16,5 +16,5 @@
   "temporal_coverage": { "start": "2007-07-26", "end": "2007-07-26" },
   "notes": "Authoritative: this is the markitdown-normalized markdown conversion of the sibling source document Tennessee-Const-Bylaws.docx. The document ends 'Ratified by the Membership: 7-26-2007' (26 July 2007), captured as temporal_coverage. TADE is an incorporated chapter ('Inc.') with a TADE Corporate Officer role and state annual-report filings. Minor heading typos from the conversion ('ARTICE', 'MICELLANEOUS'). Related to the NADE regional constitutions/bylaws link index.",
   "related": ["external/nade/members/regional-constitutions-bylaws"],
-  "tags": ["nade", "external", "state-bylaws", "constitution", "bylaws", "chapter", "tennessee", "tade", "southeast-region", "governance"]
+  "tags": ["bylaws", "chapter", "constitution", "external", "governance", "nade", "southeast-region", "state-bylaws", "tade", "tennessee"]
 }

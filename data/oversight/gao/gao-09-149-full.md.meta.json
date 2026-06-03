@@ -16,5 +16,5 @@
   "license": "Public domain (U.S. federal government work)",
   "notes": "Authoritative: extracted full text of the published 64-page GAO-09-149 PDF. This is the full-report representation in the gao-09-149 family (base = oversight/gao/gao-09-149, summary = oversight/gao/gao-09-149-summary). url points to GAO's full-report PDF asset. PDF-to-text extraction may contain layout artifacts (split headings, hyphenation). Single publication year so temporal_coverage start==end (2008). Narrative document, no declared column schema.",
   "related": ["oversight/gao/gao-09-149", "oversight/gao/gao-09-149-summary"],
-  "tags": ["oversight", "gao", "ssa", "dds", "medical-evidence", "consultative-exams", "electronic-records", "claims-processing", "full-report", "authoritative"]
+  "tags": ["authoritative", "claims-processing", "consultative-exams", "dds", "electronic-records", "full-report", "gao", "medical-evidence", "oversight", "ssa"]
 }

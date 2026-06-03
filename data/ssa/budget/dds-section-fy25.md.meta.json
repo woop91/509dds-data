@@ -18,5 +18,5 @@
   "license": "U.S. public domain (SSA)",
   "notes": "Computed: DDS-specific budget section extracted from the FY25 CJ PDF (subset of cj-fy25-extracted.md). Contains budget-authority/work-year tables and narrative, not a tidy machine table, so no per-column schema. Reinforces the national-only DDS-funding finding. Source URL is the parent CJ PDF (the same FY25-JEAC.pdf).",
   "related": ["ssa/budget/cj-fy25-extracted", "ssa/FETCH_REPORT"],
-  "tags": ["ssa", "budget", "dds", "work-years", "congressional-justification", "extracted", "national-only"]
+  "tags": ["budget", "congressional-justification", "dds", "extracted", "national-only", "ssa", "work-years"]
 }

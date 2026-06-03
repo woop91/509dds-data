@@ -14,5 +14,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Primary published research report from the Urban Institute, hence Authoritative. Real metadata extracted from pages 1-3 of 38: title, authors Jack Smalligan and Chantel Boyens, July 2019, the 'From Safety Net to Solid Ground' series, and the table of contents (process description, concerns, reform challenges, improvement options, strategies). No sibling .source.txt; the URL is the Urban Institute's standard publication-path form for this report on its canonical domain urban.org and is not a fabricated deep link to a specific PDF asset.",
-  "tags": ["urban-institute", "disability-determination", "policy-research", "ssa", "reform", "2019", "research-report"]
+  "tags": ["2019", "disability-determination", "policy-research", "reform", "research-report", "ssa", "urban-institute"]
 }

@@ -12,5 +12,5 @@
   "update_cadence": "biennium (MAPE contract cycle, 2025-27)",
   "notes": "Authoritative for the examiner: class code 0871 and grid 14G confirmed from the MMB class spec, with documented MAPE wage adjustments. Annual = hourly × 2080 FTE. Open gaps: supervisor class code/union (AFSCME C5 vs MMA) unconfirmed, exact step count not exposed, full 2025-27 pay grid would need direct MMB/MAPE PDF access.",
   "related": ["pay-scales/peer-states/MN/scheduled-rates", "pay-scales/peer-states/peer-states-pay-summary"],
-  "tags": ["pay-scales", "peer-states", "MN", "minnesota", "dds", "disability-examiner", "research-notes", "mmb", "mape", "authoritative"]
+  "tags": ["MN", "authoritative", "dds", "disability-examiners", "mape", "minnesota", "mmb", "pay-scales", "peer-states", "research-notes"]
 }

@@ -15,5 +15,5 @@
   "license": "© SEIU Local 509 / DDS chapter; free to redistribute with attribution (per folder README)",
   "notes": "Synthesized reference compilation — not legal advice; authority traces to the cited primary agency scrapes (01-*.md..11-*.md and sub-*.md). Verify deadlines against current agency sites before acting.",
   "related": ["labor-rights/00-INDEX", "labor-rights/00-MEMBER-GUIDE", "labor-rights/00-ma-labor-law-reference", "labor-rights/agencies"],
-  "tags": ["labor-rights", "steward-tools", "filing-deadlines", "MA-public-sector", "DLR", "MCAD", "CSC", "EEOC", "NLRB"]
+  "tags": ["DLR", "MA-public-sector", "MCAD", "csc", "eeoc", "filing-deadlines", "labor-rights", "nlrb", "steward-tools"]
 }

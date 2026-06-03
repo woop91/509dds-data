@@ -13,5 +13,5 @@
   },
   "confidence_tier": "Authoritative",
   "notes": "Authoritative NADE chapter governing document. This .md is the markitdown-normalized conversion of the sibling source file 'Iowa-Const-Bylaws.doc' in the same directory; expect conversion/OCR-style artifacts (e.g. 'lowa' for Iowa, 'Present' for President, 'COMMITTIES'/'AMMENDMENTS' misspellings, and a stray table-cell character '|'). Despite the source filename, the content is a By-Laws document (no separately titled Constitution section is present). No adoption/revision date is stated in the content, so temporal_coverage is omitted. The source URL is the NADE organization site, not a deep link.",
-  "tags": ["nade", "bylaws", "constitution", "iowa", "des-moines", "disability-examiners", "chapter-governance"]
+  "tags": ["bylaws", "chapter-governance", "constitution", "des-moines", "disability-examiners", "iowa", "nade"]
 }

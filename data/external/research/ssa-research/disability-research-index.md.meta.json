@@ -14,5 +14,5 @@
   "confidence_tier": "Computed",
   "license": "Public domain (U.S. federal government work)",
   "notes": "Computed: this is an index/navigation page (a synthesis of links to SSA demonstrations, research, and data), not a primary published study, so it is tiered Computed per the authoring rules. Markdown scrape of the ssa.gov/disabilityresearch landing page. The page is undated and link contents change over time, so temporal_coverage is omitted. No tabular columns to declare.",
-  "tags": ["external", "research", "ssa-research", "ssa", "disability-research", "index", "demonstrations", "wd-fab", "qdd", "computed"]
+  "tags": ["computed", "demonstrations", "disability-research", "external", "index", "qdd", "research", "ssa", "ssa-research", "wd-fab"]
 }

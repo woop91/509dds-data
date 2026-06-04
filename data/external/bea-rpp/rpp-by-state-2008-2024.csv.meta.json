@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/bea-rpp/rpp-by-state-2008-2024",
+  "title": "BEA Regional Price Parities by State (SARPP), 2008-2024 — Cost of Living, US=100",
+  "description": "Regional Price Parities (RPPs) by state from the U.S. Bureau of Economic Analysis, table SARPP, in tidy long form. RPPs measure the price level of goods and services across geographies relative to the national average (US=100); a value above 100 means a higher cost of living than the U.S. as a whole. Covers all 50 states + DC plus the US=100 baseline row, for All items, Goods, Services: Housing, and Services: Other, 2008-2024. Used to compare Massachusetts cost of living against peer states when benchmarking DDS examiner pay.",
+  "path": "data/external/bea-rpp/rpp-by-state-2008-2024.csv",
+  "format": "csv",
+  "unit_of_observation": "state-year (US baseline + 50 states + DC)",
+  "row_count": 884,
+  "columns": [
+    { "name": "geofips", "type": "string", "description": "BEA GeoFIPS code (5-digit, e.g. '25000' = Massachusetts, '00000' = United States baseline).", "distinct_count": 52, "sample_values": ["00000", "01000", "02000", "04000", "05000"] },
+    { "name": "state", "type": "string", "description": "Geography name (state, District of Columbia, or 'United States' for the baseline row).", "distinct_count": 52, "sample_values": ["United States", "Alabama", "Alaska", "Arizona", "Arkansas"] },
+    { "name": "year", "type": "integer", "description": "Calendar year of the RPP estimate.", "distinct_count": 17, "min": 2008, "max": 2024, "sample_values": [2008, 2009, 2010, 2011, 2012] },
+    { "name": "rpp_all_items", "type": "number", "description": "RPP for all items, US=100. Verbatim BEA. Blank if BEA suppressed the value (NA/NM).", "distinct_count": 841, "min": 85.018, "max": 114.242, "sample_values": [85.018, 85.583, 85.639, 85.891, 86.061] },
+    { "name": "rpp_goods", "type": "number", "description": "RPP for goods, US=100. Verbatim BEA. Blank if BEA suppressed the value.", "distinct_count": 840, "min": 84.318, "max": 116.577, "sample_values": [84.318, 84.975, 86.823, 87.385, 88.693] },
+    { "name": "rpp_housing", "type": "number", "description": "RPP for services: housing (rents), US=100. Verbatim BEA. Blank if BEA suppressed the value.", "distinct_count": 880, "min": 53.827, "max": 191.339, "sample_values": [53.827, 54.241, 54.923, 55.312, 55.388] },
+    { "name": "rpp_other_services", "type": "number", "description": "RPP for services: other (non-housing services), US=100. Verbatim BEA. Blank if BEA suppressed the value.", "distinct_count": 844, "min": 89.628, "max": 107.86, "sample_values": [89.628, 90.94, 90.992, 91.134, 91.158] },
+    { "name": "rpp_all_items_rank", "type": "integer", "description": "Computed per-year rank of rpp_all_items among the 50 states + DC (1 = most expensive). The US baseline row is excluded and left blank.", "distinct_count": 51, "min": 1, "max": 51, "sample_values": [1, 2, 3, 4, 5] }
+  ],
+  "temporal_coverage": { "start": "2008", "end": "2024" },
+  "geographic_coverage": "United States — 50 states + DC (+ US=100 baseline row)",
+  "source": {
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "title": "Regional Price Parities by State (SARPP)",
+    "url": "https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area",
+    "retrieved_at": "2026-06-03"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Annual (~December)",
+  "license": "U.S. public domain (BEA)",
+  "derived_from": ["data/external/bea-rpp/SARPP_STATE_2008_2024.source.csv"],
+  "notes": "All four RPP columns (rpp_all_items, rpp_goods, rpp_housing, rpp_other_services) are verbatim BEA values from table SARPP (US=100), downloaded by scripts/pull_bea_rpp.py from the key-free BEA bulk zip and kept verbatim in the sibling SARPP_STATE_2008_2024.source.csv provenance file. The card stays Authoritative because every RPP value is verbatim; only rpp_all_items_rank is computed in-repo (a per-year dense rank of rpp_all_items over the 50 states + DC, US baseline excluded, 1 = most expensive). BEA's 'Services: Utilities' RPP line exists in the source but is intentionally not carried in this tidy file (no column was invented for it). Massachusetts (geofips 25000) ranks 7th most expensive on all-items RPP in the latest year (2024, rpp_all_items 105.757). RPPs begin in 2008, which sets the temporal floor. Any value BEA suppresses (NA/NM) is left blank, never interpolated.",
+  "related": ["external/bls-cpi/cpi-u-boston-cambridge-newton-annual", "pay-scales/peer-states/peer-states-pay-summary"],
+  "tags": ["authoritative-source", "bea", "cost-of-living", "rpp", "states", "time-series"]
+}

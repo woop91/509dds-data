@@ -5,7 +5,7 @@
   "dim": 384,
   "normalized": true,
   "query_instruction": "Represent this sentence for searching relevant passages: ",
-  "count": 277,
+  "count": 280,
   "vectors": [
     {
       "id": "contract/seiu-509-cba-2024-2026",
@@ -174,6 +174,50 @@
         "reconciled",
         "section-9f",
         "ssa"
+      ]
+    },
+    {
+      "id": "external/bea-rpp/rpp-by-state-2008-2024",
+      "path": "data/external/bea-rpp/rpp-by-state-2008-2024.csv",
+      "title": "BEA Regional Price Parities by State (SARPP), 2008-2024 — Cost of Living, US=100",
+      "tags": [
+        "authoritative-source",
+        "bea",
+        "cost-of-living",
+        "rpp",
+        "states",
+        "time-series"
+      ]
+    },
+    {
+      "id": "external/bls-cpi/cpi-u-boston-cambridge-newton-annual",
+      "path": "data/external/bls-cpi/cpi-u-boston-cambridge-newton-annual.csv",
+      "title": "BLS CPI-U — Boston-Cambridge-Newton, MA-NH (Annual Average) — Massachusetts Inflation Proxy",
+      "tags": [
+        "authoritative-source",
+        "bls",
+        "boston",
+        "computed",
+        "cost-of-living",
+        "cpi",
+        "inflation",
+        "massachusetts",
+        "time-series"
+      ]
+    },
+    {
+      "id": "external/bls-cpi/cpi-u-us-city-average-annual",
+      "path": "data/external/bls-cpi/cpi-u-us-city-average-annual.csv",
+      "title": "BLS CPI-U — U.S. City Average, All Items (Annual Average) + Inflation Rate",
+      "tags": [
+        "authoritative-source",
+        "bls",
+        "computed",
+        "cost-of-living",
+        "cpi",
+        "inflation",
+        "national",
+        "time-series"
       ]
     },
     {

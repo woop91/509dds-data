@@ -16,7 +16,7 @@ model BAAI/bge-small-en-v1.5) enables meaning-based retrieval with no API key �
 see `embeddings/README.md`. Query it with `python scripts/search.py "<query>"`.
 
 
-_277 datasets indexed._
+_280 datasets indexed._
 
 
 ## SSA datasets (data/ssa)
@@ -203,6 +203,9 @@ _277 datasets indexed._
 
 ## External research & peer organizations (data/external)
 
+- [BEA Regional Price Parities by State (SARPP), 2008-2024 — Cost of Living, US=100](data/external/bea-rpp/rpp-by-state-2008-2024.csv): Regional Price Parities (RPPs) by state from the U.S. Authoritative.
+- [BLS CPI-U — Boston-Cambridge-Newton, MA-NH (Annual Average) — Massachusetts Inflation Proxy](data/external/bls-cpi/cpi-u-boston-cambridge-newton-annual.csv): Annual-average Consumer Price Index for All Urban Consumers (CPI-U) for the Boston-Cambridge-Newton, MA-NH metropolitan area, all items, not seasonally adjuste… Computed.
+- [BLS CPI-U — U.S. City Average, All Items (Annual Average) + Inflation Rate](data/external/bls-cpi/cpi-u-us-city-average-annual.csv): National annual-average Consumer Price Index for All Urban Consumers (CPI-U), U.S. Computed.
 - [BLS SOC 13-1031 — Claims Adjusters, Examiners, and Investigators (Definition)](data/external/bls-oews/soc-13-1031-definition.md): The official U.S. Authoritative.
 - [Social Security Disability Insurance (SSDI) — CBPP Policy Explainer](data/external/cbpp/cbpp-ssdi-explainer.md): Center on Budget and Policy Priorities policy explainer / chart book on Social Security Disability Insurance (SSDI), describing how the program provides benefi… Authoritative.
 - [Social Security Disability Insurance — CBPP Policy Basics](data/external/cbpp/cbpp-ssdi-overview.md): Center on Budget and Policy Priorities (CBPP) 'Policy Basics' overview of Social Security Disability Insurance (SSDI), explaining that SSDI provides earned ben… Authoritative.

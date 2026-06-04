@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../schemas/dataset.meta.schema.json",
+  "id": "external/bls-cpi/cpi-u-us-city-average-annual",
+  "title": "BLS CPI-U — U.S. City Average, All Items (Annual Average) + Inflation Rate",
+  "description": "National annual-average Consumer Price Index for All Urban Consumers (CPI-U), U.S. city average, all items, not seasonally adjusted (BLS series CUUR0000SA0, 1982-84=100). Carries the verbatim BLS annual-average index plus a computed year-over-year inflation rate and a deflator that converts a nominal dollar amount of a given year into latest-year dollars. Use for putting Massachusetts DDS examiner pay and SSA backlog dollars into real (inflation-adjusted) terms.",
+  "path": "data/external/bls-cpi/cpi-u-us-city-average-annual.csv",
+  "format": "csv",
+  "unit_of_observation": "calendar year (national)",
+  "row_count": 26,
+  "columns": [
+    { "name": "year", "type": "integer", "description": "Calendar year of the annual-average index.", "distinct_count": 26, "min": 2000, "max": 2025, "sample_values": [2000, 2001, 2002, 2003, 2004] },
+    { "name": "annual_avg_index", "type": "number", "description": "BLS annual-average CPI-U index (M13 annual average), U.S. city average, all items, NSA, 1982-84=100. Verbatim BLS.", "distinct_count": 26, "min": 172.2, "max": 321.943, "sample_values": [172.2, 177.1, 179.9, 184, 188.9] },
+    { "name": "inflation_rate_pct", "type": "number", "unit": "percent", "description": "Computed year-over-year percent change of annual_avg_index vs. the prior year. Blank if the prior year is unavailable.", "distinct_count": 25, "min": -0.36, "max": 8, "sample_values": [-0.36, 0.12, 1.23, 1.26, 1.46] },
+    { "name": "deflator_to_latest", "type": "number", "description": "Computed: latest-year annual_avg_index divided by this year's index. Multiply a nominal dollar amount of this year by the deflator to express it in latest-year dollars.", "distinct_count": 26, "min": 1, "max": 1.8696, "sample_values": [1, 1.0263, 1.0566, 1.1001, 1.1881] }
+  ],
+  "temporal_coverage": { "start": "2000", "end": "2025" },
+  "geographic_coverage": "United States (national, U.S. city average)",
+  "source": {
+    "publisher": "U.S. Bureau of Labor Statistics (CPI)",
+    "title": "CPI-U, U.S. City Average, All Items (CUUR0000SA0)",
+    "url": "https://data.bls.gov/timeseries/CUUR0000SA0",
+    "retrieved_at": "2026-06-03"
+  },
+  "confidence_tier": "Computed",
+  "update_cadence": "Annual (BLS publishes annual averages each January)",
+  "license": "U.S. public domain (BLS)",
+  "notes": "The annual_avg_index column is verbatim BLS (the M13 annual-average rows pulled via the BLS Public Data API v2 by scripts/pull_bls_cpi.py); inflation_rate_pct and deflator_to_latest are computed in-repo. inflation_rate_pct is the standard year-over-year percent change of the annual average. deflator_to_latest uses the latest available year as the base (latest-year deflator = 1.0). Worked example: a VDE step paid $60,000 nominal in 2020 is worth $60,000 x deflator_to_latest[2020] in latest-year dollars, so pay-scale dollars from different years can be compared in real terms. Any year lacking a published annual average is left blank, never interpolated.",
+  "related": ["pay-scales/vde-annual-salary-by-employee", "pay-scales/mgr-annual-salary-by-employee", "external/bls-cpi/cpi-u-boston-cambridge-newton-annual"],
+  "tags": ["authoritative-source", "bls", "computed", "cost-of-living", "cpi", "inflation", "national", "time-series"]
+}

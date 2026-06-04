@@ -16,6 +16,8 @@ Open data, source documents, and analysis for **SEIU Local 509's Disability Dete
 | [`data/ra-process/`](data/ra-process/) | Reasonable Accommodation: state Executive Branch process, application page, MassAbility DDS info, MOD guidance, DLC self-advocacy guide |
 | [`data/labor-rights/`](data/labor-rights/) | Labor rights filing & reference: 12 enforcement agencies (DLR, MCAD, AGO Fair Labor, DLS, DIA, CSC, Ethics, EEOC, DOL WHD, OSHA, NLRB, DFML), 24 filing deadlines, member guide + steward cheat sheet + statute index, queryable [`agencies.json`](data/labor-rights/agencies.json) extract |
 | [`data/workload/`](data/workload/) | Anonymized workload evidence derived from internal management/union memos — week-by-week overtime authorizations + 18-case weekly intake caps (Boston DDS, 2025–2026) |
+| [`data/external/bls-cpi/`](data/external/bls-cpi/) | BLS CPI-U annual-average inflation — national (U.S. city average, `CUUR0000SA0`) and Boston-Cambridge-Newton metro (MA proxy, `CUURS11ASA0`), 2000–2025, with computed YoY inflation rate + dollar deflator |
+| [`data/external/bea-rpp/`](data/external/bea-rpp/) | BEA Regional Price Parities by state (cost of living, US=100), 2008–2024 — all items / goods / housing / other services for 50 states + DC, with computed all-items rank |
 | [`data/dds-statistics-master-table.json`](data/dds-statistics-master-table.json) | The filled DDS Statistics master table (operational metrics 2013–2025, with PRR/TBD cells flagged) |
 | [`docs/`](docs/) | Methodology, data dictionary, agency disambiguation, peer-state comparison |
 | [`prr-templates/`](prr-templates/) | Public Records Request templates for filling remaining gaps |
@@ -64,6 +66,9 @@ Most sources are static (annual reports, CBAs). The auto-updating sources:
 | `periodic-cdr-fy13-fy22.csv` | Annual (last update 2023-05-22) | https://www.ssa.gov/data/Periodic-Continuing-Disability-Reviews.csv |
 | `periodic-cdr-backlog-fy14-fy18.csv` | Static (frozen 2018) | https://www.ssa.gov/data/Periodic-CDR-Case-Backlog.csv |
 | CTHRU payroll | Quarterly (CY+12mo lag) | https://cthru.data.socrata.com/resource/rxhc-k6iz.json?$where=chris='MRC' |
+| `cpi-u-us-city-average-annual.csv` | Annual (~Jan) | https://data.bls.gov/timeseries/CUUR0000SA0 |
+| `cpi-u-boston-cambridge-newton-annual.csv` | Semiannual (annual avg ~Jan) | https://data.bls.gov/timeseries/CUURS11ASA0 |
+| `rpp-by-state-2008-2024.csv` | Annual (~Dec) | https://apps.bea.gov/regional/zip/SARPP.zip |
 
 For 509dds.com integration: schedule the Vercel cron to re-fetch SSA CSVs annually each November and CTHRU quarterly. Both endpoints accept browser-UA requests via Firecrawl.
 

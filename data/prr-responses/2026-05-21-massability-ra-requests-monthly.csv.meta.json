@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/dataset.meta.schema.json",
+  "id": "prr-responses/2026-05-21-massability-ra-requests-monthly",
+  "title": "MassAbility Reasonable-Accommodation Requests by Month and Outcome (PRR Response, 2023-2026)",
+  "description": "Machine-readable normalization of an official PRR-produced Excel workbook titled 'EHS PRR 2026.05.13 - W Vizcaino - RA Requests Data- J.P.P. 5.21.26.xlsx'. The workbook reports monthly MassAbility reasonable-accommodation request counts by outcome (Approved, Denied, Pending, Withdrawn) from January 2023 through May 2026, with quarterly, yearly, and grand-total rollups. This CSV keeps only the monthly rows, fills blank outcome cells as 0, and verifies each row total against the workbook total column; the source workbook grand total is 371 requests.",
+  "path": "data/prr-responses/2026-05-21-massability-ra-requests-monthly.csv",
+  "format": "csv",
+  "unit_of_observation": "agency × calendar month",
+  "row_count": 41,
+  "columns": [
+    { "name": "agency", "type": "string", "description": "Agency named in the workbook; all rows are MassAbility.", "distinct_count": 1, "sample_values": ["MassAbility"] },
+    { "name": "year", "type": "integer", "unit": "calendar year", "description": "Calendar year from the workbook pivot table.", "distinct_count": 4, "min": 2023, "max": 2026, "sample_values": [2023, 2024, 2025, 2026] },
+    { "name": "quarter", "type": "string", "description": "Calendar quarter derived from the workbook's Qtr1-Qtr4 grouping.", "distinct_count": 4, "sample_values": ["Q1", "Q2", "Q3", "Q4"] },
+    { "name": "month", "type": "string", "description": "Three-letter month label from the workbook.", "distinct_count": 12, "sample_values": ["Jan", "Feb", "Mar", "Apr", "May"] },
+    { "name": "month_number", "type": "integer", "description": "Numeric month, 1-12.", "distinct_count": 12, "min": 1, "max": 12, "sample_values": [1, 2, 3, 4, 5] },
+    { "name": "month_start", "type": "date", "description": "ISO month-start date added during normalization for sorting and charting.", "distinct_count": 41, "sample_values": ["2023-01-01", "2023-02-01", "2023-03-01", "2023-04-01", "2023-05-01"] },
+    { "name": "approved", "type": "integer", "unit": "requests", "description": "Count of reasonable-accommodation requests marked Approved for the month.", "distinct_count": 11, "min": 0, "max": 11, "sample_values": [0, 2, 3, 4, 5] },
+    { "name": "denied", "type": "integer", "unit": "requests", "description": "Count of reasonable-accommodation requests marked Denied for the month.", "distinct_count": 7, "min": 0, "max": 8, "sample_values": [0, 1, 2, 3, 4] },
+    { "name": "pending", "type": "integer", "unit": "requests", "description": "Count of reasonable-accommodation requests marked Pending for the month.", "distinct_count": 3, "min": 0, "max": 5, "sample_values": [0, 3, 5] },
+    { "name": "withdrawn", "type": "integer", "unit": "requests", "description": "Count of reasonable-accommodation requests marked Withdrawn for the month.", "distinct_count": 7, "min": 0, "max": 6, "sample_values": [0, 1, 2, 3, 4] },
+    { "name": "total", "type": "integer", "unit": "requests", "description": "Monthly total; equals approved + denied + pending + withdrawn.", "distinct_count": 16, "min": 2, "max": 19, "sample_values": [2, 3, 4, 5, 6] }
+  ],
+  "temporal_coverage": { "start": "2023-01", "end": "2026-05" },
+  "geographic_coverage": "Massachusetts (MassAbility statewide; office-level split not provided)",
+  "source": {
+    "publisher": "MassAbility / Commonwealth of Massachusetts (PRR production)",
+    "title": "EHS PRR 2026.05.13 - W Vizcaino - RA Requests Data- J.P.P. 5.21.26.xlsx",
+    "url": "https://github.com/Woop91/509dds-data/tree/main/data/prr-responses",
+    "retrieved_at": "2026-06-04"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "One-time PRR response; refresh only if a later production supersedes or extends the workbook.",
+  "notes": "Source workbook preserved as data/prr-responses/2026-05-21-ehs-ra-requests-data.source.xlsx. The workbook is a pivot-style sheet ('Total MonthlyYearly RA') with monthly rows plus quarterly/yearly totals. This normalized CSV excludes total rows to avoid double-counting. Blank outcome cells are interpreted as 0. The source workbook appears to include May 2026 as of the PRR production date, so May 2026 should be treated as a production-date snapshot unless MassAbility confirms it is a full-month total. Reconciliation: monthly totals sum to Approved=202, Denied=69, Pending=8, Withdrawn=92, Grand Total=371, matching the workbook.",
+  "derived_from": ["data/prr-responses/2026-05-21-ehs-ra-requests-data.source.xlsx"],
+  "related": [
+    "ra-process/ra-process-state-exec-branch",
+    "ra-process/ra-application-page",
+    "ra-process/contacts",
+    "prr-templates/massability-dds-prr"
+  ],
+  "tags": ["authoritative", "massability", "massachusetts", "prr", "public-record", "reasonable-accommodation", "request-outcomes", "state-employees", "vizcaino"]
+}

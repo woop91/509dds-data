@@ -1,0 +1,25 @@
+{
+  "$schema": "../schemas/dataset.meta.schema.json",
+  "id": "prr-templates/ma-hrd-classification-prr",
+  "title": "Massachusetts Public Records Request — Human Resources Division (VDE Classification & Reclassification)",
+  "description": "Ready-to-file Massachusetts Public Records Law (M.G.L. c. 66, § 10) request to the Massachusetts Human Resources Division (HRD) for the statewide classification records of the Vocational Disability Examiner (VDE) series and related DDS titles: the current class specification(s) for all grades/levels and the DDS first-line supervisor title; the full documentation of the 2016 reclassification that converted A/B/C/D grade titles to I/II/III (request, determination, old-to-new crosswalk, effective date); the authorized establishment / position count (authorized FTE) by title and grade by fiscal year; and any classification or compensation studies of the DDS examiner series. HRD is the correct custodian for statewide class specs and reclassification approvals (agency-specific Form 30 position descriptions are requested in prr-templates/massability-dds-prr). Written in an individual capacity.",
+  "path": "prr-templates/ma-hrd-classification-prr.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts (statewide HRD classification system; SEIU Local 509 Units 8 & 10 DDS examiner series)",
+  "temporal_coverage": { "start": "2016", "end": "2026" },
+  "source": {
+    "publisher": "Massachusetts Human Resources Division (HRD), Executive Office for Administration and Finance — Records Access Officer (request target)",
+    "title": "Massachusetts Public Records Request — M.G.L. c. 66, § 10",
+    "url": "https://www.mass.gov/orgs/human-resources-division"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "As needed (refile if a later reclassification or compensation study occurs).",
+  "notes": "Confidence tier = Authoritative because this file IS the canonical, repo-maintained request template/form. Requester contact fields are filled for Wardis Vizcaino. Custodian is HRD (NOT MassAbility) for statewide class specifications, the 2016 reclassification crosswalk, and authorized establishment counts. The 2016 reclassification is the documented cause of inflated raw CTHRU headcounts that year (docs/methodology.md 'Known data quality flags'); obtaining the crosswalk lets the headcount series be corrected authoritatively. Temporal_coverage start is 2016 (the reclassification year) but item 3 requests the earliest establishment year HRD maintains.",
+  "related": [
+    "prr-templates/massability-dds-prr",
+    "cthru-staffing/vde-headcount-by-grade-and-year",
+    "pay-scales/vde-grades-extracted",
+    "contract/seiu-509-cba-2024-2026"
+  ],
+  "tags": ["authoritative", "chapter-66", "classification", "dds", "establishment", "hrd", "massachusetts", "prr-template", "public-record", "reclassification", "request-template", "vde", "workforce"]
+}

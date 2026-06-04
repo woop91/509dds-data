@@ -1,0 +1,25 @@
+{
+  "$schema": "../schemas/dataset.meta.schema.json",
+  "id": "prr-templates/ma-comptroller-payroll-prr",
+  "title": "Massachusetts Public Records Request — Office of the Comptroller (Pre-2010 DDS Examiner Payroll)",
+  "description": "Ready-to-file Massachusetts Public Records Law (M.G.L. c. 66, § 10) request to the Office of the Comptroller of the Commonwealth (CTR) for archival HRCMS per-employee payroll records for Massachusetts Rehabilitation Commission (MRC) employees whose position title matches the Disability Determination Services examiner series ('DISAB EXAMINER'), for calendar years 2001-2009. These years predate the public CTHRU portal (which begins CY2010) and are needed to complete the long-run examiner pay-and-overtime series. Requests the same column layout as the public CTHRU dataset rxhc-k6iz (name, title, grade, bargaining unit, annual rate, regular/overtime/other/buyout/total pay) so the older years append cleanly to data/pay-scales/vde-annual-salary-by-employee.csv. Written in an individual capacity.",
+  "path": "prr-templates/ma-comptroller-payroll-prr.md",
+  "format": "md",
+  "geographic_coverage": "Massachusetts (statewide HRCMS payroll; MRC departmental records, DDS examiner titles)",
+  "temporal_coverage": { "start": "2001", "end": "2009" },
+  "source": {
+    "publisher": "Office of the Comptroller of the Commonwealth (CTR) — Records Access Officer (request target)",
+    "title": "Massachusetts Public Records Request — M.G.L. c. 66, § 10",
+    "url": "https://www.macomptroller.org/"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "One-time gap fill (no cadence once 2001-2009 are obtained).",
+  "notes": "Confidence tier = Authoritative because this file IS the canonical, repo-maintained request template/form. Requester contact fields are filled for Wardis Vizcaino. Custodian is the Comptroller (NOT MassAbility) because the Comptroller operates the HRCMS payroll system that feeds CTHRU; CTHRU's public data starts CY2010, so 2001-2009 must come from archival HRCMS. This is option (a) of the three pre-2010-gap options in docs/methodology.md. If obtained, write into data/pay-scales/vde-annual-salary-by-employee-2001-2009.csv with a source column noting the PRR.",
+  "related": [
+    "prr-templates/massability-dds-prr",
+    "pay-scales/vde-annual-salary-by-employee",
+    "pay-scales/vde-annual-salary-aggregates",
+    "cthru-staffing/vde-headcount-by-grade-and-year"
+  ],
+  "tags": ["archival", "authoritative", "chapter-66", "comptroller", "cthru", "dds", "hrcms", "massachusetts", "payroll", "pre-2010", "prr-template", "public-record", "request-template", "vde"]
+}

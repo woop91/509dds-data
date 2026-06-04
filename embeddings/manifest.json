@@ -5,7 +5,7 @@
   "dim": 384,
   "normalized": true,
   "query_instruction": "Represent this sentence for searching relevant passages: ",
-  "count": 280,
+  "count": 285,
   "vectors": [
     {
       "id": "contract/seiu-509-cba-2024-2026",
@@ -3820,6 +3820,22 @@
       ]
     },
     {
+      "id": "prr-responses/2026-05-21-massability-ra-requests-monthly",
+      "path": "data/prr-responses/2026-05-21-massability-ra-requests-monthly.csv",
+      "title": "MassAbility Reasonable-Accommodation Requests by Month and Outcome (PRR Response, 2023-2026)",
+      "tags": [
+        "authoritative",
+        "massability",
+        "massachusetts",
+        "prr",
+        "public-record",
+        "reasonable-accommodation",
+        "request-outcomes",
+        "state-employees",
+        "vizcaino"
+      ]
+    },
+    {
       "id": "ra-process/ada-coordinator-listing-2026-03-10",
       "path": "data/ra-process/ada-coordinator-listing-2026-03-10.csv",
       "title": "Massachusetts Executive Branch ADA Coordinator Listing (March 10, 2026)",
@@ -4358,6 +4374,70 @@
       ]
     },
     {
+      "id": "prr-templates/ma-comptroller-payroll-prr",
+      "path": "prr-templates/ma-comptroller-payroll-prr.md",
+      "title": "Massachusetts Public Records Request — Office of the Comptroller (Pre-2010 DDS Examiner Payroll)",
+      "tags": [
+        "archival",
+        "authoritative",
+        "chapter-66",
+        "comptroller",
+        "cthru",
+        "dds",
+        "hrcms",
+        "massachusetts",
+        "payroll",
+        "pre-2010",
+        "prr-template",
+        "public-record",
+        "request-template",
+        "vde"
+      ]
+    },
+    {
+      "id": "prr-templates/ma-hrd-classification-prr",
+      "path": "prr-templates/ma-hrd-classification-prr.md",
+      "title": "Massachusetts Public Records Request — Human Resources Division (VDE Classification & Reclassification)",
+      "tags": [
+        "authoritative",
+        "chapter-66",
+        "classification",
+        "dds",
+        "establishment",
+        "hrd",
+        "massachusetts",
+        "prr-template",
+        "public-record",
+        "reclassification",
+        "request-template",
+        "vde",
+        "workforce"
+      ]
+    },
+    {
+      "id": "prr-templates/massability-dds-prr",
+      "path": "prr-templates/massability-dds-prr.md",
+      "title": "Massachusetts Public Records Request — MassAbility DDS (Consolidated)",
+      "tags": [
+        "authoritative",
+        "budget",
+        "chapter-66",
+        "dds",
+        "homeless-cases",
+        "massability",
+        "massachusetts",
+        "mrc",
+        "operational-defects",
+        "overtime",
+        "prr-template",
+        "public-record",
+        "request-template",
+        "section-9f",
+        "workforce",
+        "workload"
+      ]
+    },
+    {
       "id": "prr-templates/massability-prr",
       "path": "prr-templates/massability-prr.md",
       "title": "Massachusetts Public Records Request Template — MassAbility DDS Operational Data",
@@ -4374,6 +4454,28 @@
         "request-template",
         "section-9f",
         "workforce"
+      ]
+    },
+    {
+      "id": "prr-templates/ssa-foia-ma-dds",
+      "path": "prr-templates/ssa-foia-ma-dds.md",
+      "title": "Federal FOIA Request — SSA, Massachusetts DDS Records (Sharpened)",
+      "tags": [
+        "authoritative",
+        "budget-allocation",
+        "dds",
+        "federal",
+        "foia",
+        "massachusetts",
+        "odd",
+        "prr-template",
+        "qa-returns",
+        "request-template",
+        "saor",
+        "ssa",
+        "staffing",
+        "structurally-unavailable",
+        "workload"
       ]
     },
     {

@@ -16,7 +16,7 @@ model BAAI/bge-small-en-v1.5) enables meaning-based retrieval with no API key �
 see `embeddings/README.md`. Query it with `python scripts/search.py "<query>"`.
 
 
-_286 datasets indexed._
+_288 datasets indexed._
 
 
 ## SSA datasets (data/ssa)
@@ -29,6 +29,8 @@ _286 datasets indexed._
 - [SSA Combined Disability Processing Time, Monthly, FY2008–FY2015](data/ssa/cdp-time-monthly-fy08-fy15.csv): Historical national average combined disability processing (elapsed) time in days, reported monthly, FY2008 through FY2015. Authoritative.
 - [SSA Combined Disability Processing Time, Monthly, FY2016–FY2026](data/ssa/cdp-time-monthly-fy16-fy26.csv): National average combined disability processing (elapsed) time in days, reported monthly, from FY2016 through the latest available month of FY2026. Authoritative.
 - [National Initial Disability Claims by Title, FY2001–FY2018](data/ssa/claims/initial-claims-by-title-fy2001-2019.json): Long-format (tidy) national time series of initial disability claim counts by program title — SSDI (Title II), SSI (Title XVI), concurrent, and total — by fede… Authoritative.
+- [DDS COVID Telework Source-Record Manifest](data/ssa/covid-telework/dds-covid-telework-source-chain.json): Machine-readable manifest for the DDS COVID telework and climate-survey source chain. Computed.
+- [DDS COVID Telework and Climate-Survey Source Chain](data/ssa/covid-telework/dds-covid-telework-source-chain.md): Human-readable provenance chain linking each DDS COVID telework and climate-survey data point to stored source records, public URLs, and remaining MassAbility… Computed.
 - [DDS COVID Telework Start Evidence (March 2020)](data/ssa/covid-telework/dds-covid-telework-start-evidence.md): Computed evidence packet tracing when Massachusetts DDS likely began work-from-home/telework during the COVID-19 pandemic. Computed.
 - [DDS Net Accuracy Rate by State, FY2007–FY2022](data/ssa/dds-net-accuracy-by-state-2007-2022.csv): SSA federal quality-assurance net accuracy rate for state Disability Determination Services (DDS), by state and fiscal year, 2007–2022, with sampling variabili… Authoritative.
 - [DDS Net Accuracy Rate by State, FY2007–FY2022 (latest-vintage alias)](data/ssa/dds-net-accuracy-by-state-2007-LATEST.csv): Latest-vintage pointer to the SSA federal quality-assurance net accuracy rate for state Disability Determination Services (DDS), by state and federal fiscal ye… Authoritative.

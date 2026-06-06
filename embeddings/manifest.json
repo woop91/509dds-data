@@ -5,7 +5,7 @@
   "dim": 384,
   "normalized": true,
   "query_instruction": "Represent this sentence for searching relevant passages: ",
-  "count": 286,
+  "count": 288,
   "vectors": [
     {
       "id": "contract/seiu-509-cba-2024-2026",
@@ -4095,6 +4095,38 @@
       ]
     },
     {
+      "id": "ssa/covid-telework/dds-covid-telework-source-chain-manifest",
+      "path": "data/ssa/covid-telework/dds-covid-telework-source-chain.json",
+      "title": "DDS COVID Telework Source-Record Manifest",
+      "tags": [
+        "computed",
+        "covid-19",
+        "dds",
+        "manifest",
+        "provenance",
+        "source-records",
+        "telework",
+        "work-from-home"
+      ]
+    },
+    {
+      "id": "ssa/covid-telework/dds-covid-telework-source-chain",
+      "path": "data/ssa/covid-telework/dds-covid-telework-source-chain.md",
+      "title": "DDS COVID Telework and Climate-Survey Source Chain",
+      "tags": [
+        "computed",
+        "covid-19",
+        "dds",
+        "evidence-chain",
+        "massability",
+        "mrc",
+        "provenance",
+        "source-records",
+        "telework",
+        "work-from-home"
+      ]
+    },
+    {
       "id": "ssa/covid-telework/dds-covid-telework-start-evidence",
       "path": "data/ssa/covid-telework/dds-covid-telework-start-evidence.md",
       "title": "DDS COVID Telework Start Evidence (March 2020)",
@@ -4102,12 +4134,15 @@
         "computed",
         "covid-19",
         "dds",
+        "evidence-chain",
         "five-day-virtual",
         "hybrid-work",
         "massability",
         "massachusetts",
         "mrc",
+        "provenance",
         "remote-access",
+        "source-records",
         "ssa",
         "ssa-oig",
         "telework",
@@ -4447,6 +4482,7 @@
         "climate-survey",
         "covid-19",
         "dds",
+        "evidence-chain",
         "hybrid-work",
         "homeless-cases",
         "massability",
@@ -4454,11 +4490,13 @@
         "mrc",
         "operational-defects",
         "overtime",
+        "provenance",
         "prr-template",
         "public-record",
         "remote-access",
         "request-template",
         "section-9f",
+        "source-records",
         "staff-survey",
         "telework",
         "three-day-schedule",

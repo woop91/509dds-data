@@ -90,7 +90,7 @@ Section 9F worksheets, that is acceptable.*
     psychological consultants, consultative-exam purchases, IT/systems, fixed
     costs).
 
-### Section 5 — System & operational defects
+### Section 5 — System & operational defects / COVID remote operations
 
 12. Records sufficient to show the **incoming-fax failure rate** for DDS fax
     numbers, including: IT/helpdesk tickets, vendor or SSA/NCPS correspondence
@@ -110,16 +110,21 @@ Section 9F worksheets, that is acceptable.*
     requests, **2020–present**.
 16. **Decision-notice mailing:** records sufficient to show outgoing
     decision-notice print/mail delays and returned-mail rates, **2020–present**.
+17. Records sufficient to show the date on which MassAbility/MRC DDS employees
+    were first directed, authorized, or required to work from home or telework
+    because of COVID-19, including March 2020 emails, memoranda, telework
+    directives, remote-access/VPN rollout notices, equipment pickup
+    instructions, Remote Access Survey materials, and return-to-office plans.
 
 ### Section 6 — Caseload & assignment (the workload record)
 
-17. All **directives, memoranda, or policies** setting a weekly **case-assignment
+18. All **directives, memoranda, or policies** setting a weekly **case-assignment
     cap or intake target** for examiners (including any 18-case and any 20-case
     figure), and any record describing the **"case weight" methodology** used to
     count assignments, **2023–present**.
-18. Any **productivity-expectation** memoranda or standards issued to examiners,
+19. Any **productivity-expectation** memoranda or standards issued to examiners,
     **2023–present**.
-19. Records sufficient to show the **distribution of pending caseload per
+20. Records sufficient to show the **distribution of pending caseload per
     examiner** and the **count of aged cases** (e.g., pending beyond a defined
     threshold), by office (Boston, Worcester), **2023–present**. *(Aggregate or
     de-identified figures are acceptable; no individual claimant or employee
@@ -127,30 +132,30 @@ Section 9F worksheets, that is acceptable.*
 
 ### Section 7 — Overtime
 
-20. **Overtime authorization** records for DDS — the memoranda authorizing
+21. **Overtime authorization** records for DDS — the memoranda authorizing
     overtime, the stated justification, and any dollar or hour caps — by pay
     period or by authorization event, **2010–present**.
-21. Records sufficient to show **overtime hours offered and overtime hours used**
+22. Records sufficient to show **overtime hours offered and overtime hours used**
     (or overtime expenditures) for the DDS division, annually, **2010–present**.
 
 ### Section 8 — Workforce
 
-22. Records sufficient to show, by month or by year, the count of **authorized
+23. Records sufficient to show, by month or by year, the count of **authorized
     but unfilled** Vocational Disability Examiner positions, the **average
     time-to-fill**, and the count of **separations** with reason code
     (resignation / retirement / termination / transfer), **2015–present**.
-23. Records sufficient to show **examiner-training** class sizes, trainee
+24. Records sufficient to show **examiner-training** class sizes, trainee
     attrition, and time-to-certification (time for a new examiner to reach full
     casework), **2015–present**.
-24. The **Form 30 position descriptions** for the Vocational Disability Examiner
+25. The **Form 30 position descriptions** for the Vocational Disability Examiner
     series (all grades) and for DDS first-line supervisors.
-25. **Aggregate** counts (no PII) of **grievances** filed and their dispositions,
+26. **Aggregate** counts (no PII) of **grievances** filed and their dispositions,
     and of **reasonable-accommodation** requests and their outcomes/average
     processing time, within the DDS division, **2018–present**.
 
 ### Section 9 — Special populations (continued)
 
-26. Any **other special-population breakouts** (e.g., HIV/AIDS, veterans,
+27. Any **other special-population breakouts** (e.g., HIV/AIDS, veterans,
     compassionate-allowance, terminal-illness cases) disclosed in or compiled for
     DDS annual or Section 9F reporting, **2013–present**.
 

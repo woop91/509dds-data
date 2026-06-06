@@ -13,6 +13,12 @@
     "url": "https://securefoia.ssa.gov"
   },
   "confidence_tier": "Authoritative",
+  "request_status": {
+    "status": "Submitted",
+    "submitted_at": "2026-06-06",
+    "submission_channel": "SSA FOIA Public Access Link (PAL)",
+    "tracking_note": "Marked submitted per user instruction; confirmation/control number not recorded in repo."
+  },
   "update_cadence": "As needed (revise FY ranges and audit numbers before each filing).",
   "notes": "Confidence tier = Authoritative because this file IS the canonical, repo-maintained FOIA request template/form. Use this rather than a MA state PRR for the cells docs/methodology.md flags 'structurally unavailable' — the SSA/ODD per-state DDS budget ALLOCATION is not published at state level and is unreachable via Chapter 66. Supersedes the older prr-templates/ssa-foia (which had a deliberately broken sentinel email address); this version points to the official SSA FOIA portal, FOIA liaison email, and Baltimore mailing address. Requester contact fields are filled for Wardis Vizcaino using a personal, non-@ssa.gov email address. References OIG audit 072309 (carded as ssa/oig-audit-staffing-productivity-072309).",
   "related": [

@@ -5,7 +5,7 @@
   "dim": 384,
   "normalized": true,
   "query_instruction": "Represent this sentence for searching relevant passages: ",
-  "count": 285,
+  "count": 286,
   "vectors": [
     {
       "id": "contract/seiu-509-cba-2024-2026",
@@ -4095,6 +4095,25 @@
       ]
     },
     {
+      "id": "ssa/covid-telework/dds-covid-telework-start-evidence",
+      "path": "data/ssa/covid-telework/dds-covid-telework-start-evidence.md",
+      "title": "DDS COVID Telework Start Evidence (March 2020)",
+      "tags": [
+        "computed",
+        "covid-19",
+        "dds",
+        "massability",
+        "massachusetts",
+        "mrc",
+        "remote-access",
+        "ssa",
+        "ssa-oig",
+        "telework",
+        "work-from-home",
+        "prr-target"
+      ]
+    },
+    {
       "id": "ssa/dds-net-accuracy-by-state-2007-2022",
       "path": "data/ssa/dds-net-accuracy-by-state-2007-2022.csv",
       "title": "DDS Net Accuracy Rate by State, FY2007–FY2022",
@@ -4422,6 +4441,7 @@
         "authoritative",
         "budget",
         "chapter-66",
+        "covid-19",
         "dds",
         "homeless-cases",
         "massability",
@@ -4431,8 +4451,11 @@
         "overtime",
         "prr-template",
         "public-record",
+        "remote-access",
         "request-template",
         "section-9f",
+        "telework",
+        "work-from-home",
         "workforce",
         "workload"
       ]

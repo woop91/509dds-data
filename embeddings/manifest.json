@@ -5,7 +5,7 @@
   "dim": 384,
   "normalized": true,
   "query_instruction": "Represent this sentence for searching relevant passages: ",
-  "count": 288,
+  "count": 289,
   "vectors": [
     {
       "id": "contract/seiu-509-cba-2024-2026",
@@ -4472,9 +4472,31 @@
       ]
     },
     {
+      "id": "prr-templates/massability-dds-prr-2",
+      "path": "prr-templates/massability-dds-prr-2.md",
+      "title": "Massachusetts Public Records Request — MassAbility DDS Companion PRR for Operational Metrics, Workload, Overtime, and Special Populations",
+      "tags": [
+        "authoritative",
+        "chapter-66",
+        "dds",
+        "homeless-cases",
+        "massability",
+        "massachusetts",
+        "mrc",
+        "operational-metrics",
+        "overtime",
+        "prr-template",
+        "public-record",
+        "request-template",
+        "section-9f",
+        "special-populations",
+        "workload"
+      ]
+    },
+    {
       "id": "prr-templates/massability-dds-prr",
       "path": "prr-templates/massability-dds-prr.md",
-      "title": "Massachusetts Public Records Request — MassAbility DDS (Consolidated)",
+      "title": "Massachusetts Public Records Request — MassAbility DDS Core Reports, Budget, Systems, Telework, and Workforce",
       "tags": [
         "authoritative",
         "budget",
@@ -4484,25 +4506,21 @@
         "dds",
         "evidence-chain",
         "hybrid-work",
-        "homeless-cases",
         "massability",
         "massachusetts",
         "mrc",
         "operational-defects",
-        "overtime",
         "provenance",
         "prr-template",
         "public-record",
         "remote-access",
         "request-template",
         "section-9f",
-        "source-records",
         "staff-survey",
         "telework",
         "three-day-schedule",
         "work-from-home",
-        "workforce",
-        "workload"
+        "workforce"
       ]
     },
     {

@@ -16,7 +16,7 @@ model BAAI/bge-small-en-v1.5) enables meaning-based retrieval with no API key �
 see `embeddings/README.md`. Query it with `python scripts/search.py "<query>"`.
 
 
-_288 datasets indexed._
+_289 datasets indexed._
 
 
 ## SSA datasets (data/ssa)
@@ -339,7 +339,8 @@ _288 datasets indexed._
 
 - [Massachusetts Public Records Request — Office of the Comptroller (Pre-2010 DDS Examiner Payroll)](prr-templates/ma-comptroller-payroll-prr.md): Ready-to-file Massachusetts Public Records Law (M.G.L. Authoritative.
 - [Massachusetts Public Records Request — Human Resources Division (VDE Classification & Reclassification)](prr-templates/ma-hrd-classification-prr.md): Ready-to-file Massachusetts Public Records Law (M.G.L. Authoritative.
-- [Massachusetts Public Records Request — MassAbility DDS (Consolidated)](prr-templates/massability-dds-prr.md): Ready-to-file Massachusetts Public Records Law (M.G.L. Authoritative.
+- [Massachusetts Public Records Request — MassAbility DDS Companion PRR for Operational Metrics, Workload, Overtime, and Special Populations](prr-templates/massability-dds-prr-2.md): Ready-to-file Massachusetts Public Records Law (M.G.L. Authoritative.
+- [Massachusetts Public Records Request — MassAbility DDS Core Reports, Budget, Systems, Telework, and Workforce](prr-templates/massability-dds-prr.md): Ready-to-file Massachusetts Public Records Law (M.G.L. Authoritative.
 - [Massachusetts Public Records Request Template — MassAbility DDS Operational Data](prr-templates/massability-prr.md): Ready-to-file Massachusetts Public Records Law (M.G.L. Authoritative.
 - [Federal FOIA Request — SSA, Massachusetts DDS Records (Sharpened)](prr-templates/ssa-foia-ma-dds.md): Ready-to-file Freedom of Information Act (5 U.S.C. Authoritative.
 - [Federal FOIA Request Template — SSA State-Level DDS Workload & Staffing](prr-templates/ssa-foia.md): Ready-to-file Freedom of Information Act (5 U.S.C. Authoritative.

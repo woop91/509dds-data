@@ -9,6 +9,29 @@ Two unrelated Massachusetts agencies share the abbreviation "DDS." This is one o
 | **DDS-Det** | Disability Determination Services (a division of MassAbility, formerly MRC) | Adjudicates SSDI/SSI claims for SSA; 100% federally funded | ~200 (division) within ~805 agency total | ✅ **Yes — SEIU Local 509 organizes here** |
 | **DDS-Dev** | Department of Developmental Services (an EOHHS agency) | Serves people with intellectual/developmental disabilities (~40,000 MA residents) | 5,515 | ❌ No — separate agency, separate workforce |
 
+## The OTHER trap: VDE (us) vs VR (a different MassAbility program)
+
+Within MassAbility itself, a second collision matters just as much. Both share the
+word "Vocational," but they are different jobs in different divisions:
+
+| Term | Full Name | What they do | Division | In 509 DDS scope? |
+|---|---|---|---|---|
+| **VDE** | **Vocational Disability Examiner** | Adjudicate SSI/SSDI claims for SSA (medical/vocational determinations) | **DDS-Det** | ✅ **Yes — this repo is about VDEs** |
+| **VR** | **Vocational Rehabilitation** | Counsel/place people with disabilities into jobs (Career Services, NextGen Careers, pre-ETS, CAP) | VR Division | ❌ No — different program, different staff |
+
+Match on the **full term and the function**, never the "Vocational" prefix. A page
+about counseling, job placement, IPEs, or competitive employment outcomes is **VR**
+(umbrella → [`MassAbility-DB`](https://github.com/Woop91/MassAbility-DB)); a page
+about claims, allowance/accuracy rates, processing time, or examiner caseloads is
+**DDS-Det/VDE** (here).
+
+> **Where this bites:** the **State Rehabilitation Council (SRC)** is, by federal
+> statute, the advisory body to the **VR** Division only. SRC annual reports are VR
+> governance and carry no DDS-Det content — they belong in MassAbility-DB, not here.
+> (Two SRC reports were relocated out on 2026-06-17; see [`../SCOPE.md`](../SCOPE.md).)
+
+See [`../SCOPE.md`](../SCOPE.md) for the full keep-it-VDE-only routing rule.
+
 ## CTHRU department codes (cthru.data.socrata.com)
 
 | `chris` code | `department_division` (CTHRU label) | What it is |

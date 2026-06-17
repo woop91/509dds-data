@@ -2,14 +2,14 @@
 
 Open data, source documents, and analysis for **SEIU Local 509's Disability Determination Services (DDS) chapter** in Massachusetts. Backing dataset for [509dds.com](https://509dds.com).
 
-> ⚠ **Critical disambiguation:** "DDS" in this repo means **Disability Determination Services** — the division within MassAbility (formerly MRC) that adjudicates SSI/SSDI claims for the Social Security Administration. It is **NOT** the Department of Developmental Services (a separate MA agency that serves people with intellectual/developmental disabilities). See [`docs/dds-det-vs-dds-dev.md`](docs/dds-det-vs-dds-dev.md).
+> ⚠ **Critical disambiguation:** "DDS" in this repo means **Disability Determination Services** — the division within MassAbility (formerly MRC) that adjudicates SSI/SSDI claims for the Social Security Administration. It is **NOT** the Department of Developmental Services (a separate MA agency that serves people with intellectual/developmental disabilities), and **NOT** Vocational Rehabilitation (VR — a different MassAbility program). See [`docs/dds-det-vs-dds-dev.md`](docs/dds-det-vs-dds-dev.md) for the agency disambiguation and [`SCOPE.md`](SCOPE.md) for what belongs in this chapter repo vs. the umbrella [`MassAbility-DB`](https://github.com/Woop91/MassAbility-DB).
 
 ## What's here
 
 | Folder | Contents |
 |---|---|
 | [`data/ssa/`](data/ssa/) | SSA public datasets — all-state initial claims (2001–2024), federal QA accuracy review (2007–2022), processing time (FY08–FY26), national CDRs processed (FY13–FY22), CDR backlog (FY14–FY18), OIG staffing audit |
-| [`data/ma-annual-reports/`](data/ma-annual-reports/) | MassAbility / MRC annual reports as markdown — FY23, FY24, FY25 + State Rehabilitation Council reports FY22–FY24 |
+| [`data/ma-annual-reports/`](data/ma-annual-reports/) | MassAbility / MRC agency annual reports as markdown (MRC FY23, MassAbility FY24, FY25), kept for their DDS-Det division budget/headcount/operational sections |
 | [`data/contract/`](data/contract/) | SEIU Local 509 Units 8 & 10 Collective Bargaining Agreement 2024–2026 (full text) |
 | [`data/pay-scales/`](data/pay-scales/) | Unit 8 salary charts (5 effective dates 2024-07-14 → 2026-07-12), VDE-grade-extracted JSON, **per-employee VDE annual salary + overtime CY 2010–2023** (`vde-annual-salary-by-employee.csv`) with year/grade aggregates and outliers (`vde-annual-salary-aggregates.json`) |
 | [`data/cthru-staffing/`](data/cthru-staffing/) | MA Comptroller payroll headcount (CTHRU): VDE counts by grade by year, DDS division totals |

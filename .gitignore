@@ -1,6 +1,9 @@
 # Playwright helper install (data-fetch tooling, not part of the dataset)
 scripts/.npm/
 
+# Node deps for the JS data-fetch scripts (not part of the dataset)
+node_modules/
+
 # Firecrawl scratch outputs (raw API responses retained for debugging)
 .firecrawl/
 .firecrawl-scratch-*/

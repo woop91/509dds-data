@@ -5,7 +5,7 @@
   "dim": 384,
   "normalized": true,
   "query_instruction": "Represent this sentence for searching relevant passages: ",
-  "count": 289,
+  "count": 286,
   "vectors": [
     {
       "id": "contract/seiu-509-cba-2024-2026",
@@ -17,9 +17,11 @@
         "collective-bargaining",
         "contract",
         "dds",
+        "dds-det",
+        "vocational-disability-examiner",
+        "appendix-c",
         "massachusetts",
         "seiu509",
-        "supplemental-agreement-o",
         "units-8-10"
       ]
     },
@@ -2817,48 +2819,6 @@
         "massachusetts-rehabilitation-commission",
         "mrc",
         "vocational-rehabilitation"
-      ]
-    },
-    {
-      "id": "ma-annual-reports/src-fy22",
-      "path": "data/ma-annual-reports/src-fy22.md",
-      "title": "MRC Statewide Rehabilitation Council (SRC) Annual Report FY2022",
-      "tags": [
-        "annual-report",
-        "fy2022",
-        "massachusetts",
-        "mrc",
-        "src",
-        "statewide-rehabilitation-council",
-        "vocational-rehabilitation"
-      ]
-    },
-    {
-      "id": "ma-annual-reports/src-fy23",
-      "path": "data/ma-annual-reports/src-fy23.md",
-      "title": "MRC Statewide Rehabilitation Council (SRC) Annual Report FY2023",
-      "tags": [
-        "annual-report",
-        "fy2023",
-        "massachusetts",
-        "mrc",
-        "src",
-        "statewide-rehabilitation-council",
-        "vocational-rehabilitation"
-      ]
-    },
-    {
-      "id": "ma-annual-reports/src-fy24",
-      "path": "data/ma-annual-reports/src-fy24.md",
-      "title": "SRC FY2024 (UNAVAILABLE — file is a mislabeled duplicate of the MassAbility FY24 report)",
-      "tags": [
-        "data-quality-issue",
-        "duplicate",
-        "fy2024",
-        "massachusetts",
-        "mislabeled",
-        "src",
-        "statewide-rehabilitation-council"
       ]
     },
     {

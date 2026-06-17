@@ -127,14 +127,21 @@ Yes → here. No → MassAbility-DB.
 6. If you relocate something out to MassAbility-DB, update
    [`MassAbility-DB/docs/related-repos.md`](https://github.com/Woop91/MassAbility-DB/blob/main/docs/related-repos.md).
 
-## Known data-quality follow-ups (not leaks)
+## Known data-quality follow-ups
 
-- `data/contract/README.md` + `.meta.json` mislabel "Supplemental Agreement O" as
-  DDS — it actually covers **DDS-Dev** Human Service Coordinators. The real VDE
-  provisions are the examiner-caseload supplemental agreement + Appendix C VDE titles.
-  The combined statewide CBA is correctly in scope, but the DDS-Dev passages
-  (~lines 2969–2989 of `seiu-509-cba-2024-2026.md`) should not be treated by
-  retrieval as DDS-Det evidence.
+- **CBA supplemental-agreement labelling (corrected 2026-06-17).** The combined
+  statewide CBA is correctly in scope because it governs the VDE job class, but the
+  VDE terms live in the **master Units 8 & 10 articles + Appendix C job titles/grades**
+  (Vocational Disability Examiner I/II/III + Chief VDE, ~lines 2493–2525) — there is
+  **no DDS-Det-specific supplemental agreement**. The department-specific supplementals
+  cover other divisions and must not be read as DDS-Det evidence:
+  **Supplemental Agreement O** (~lines 2965–3053) is the **Department of Developmental
+  Services (DDS-Dev)** Human Service Coordinator agreement (the "DDS" in the contract's
+  TOC means *Developmental Services*; line 2981's "SEIU Local 509 DDS Chapter" is the
+  DDS-Dev chapter, not this one); **Supplemental Agreement U** (~lines 3279+) is MRC
+  but the **Vocational Rehabilitation (VR)** division. The CBA README and `.meta.json`
+  (description/notes/tags) have been corrected accordingly; chunk-level/RAG consumers
+  should exclude or distinctly tag the Supp. O and Supp. U regions.
 - `data/cthru-staffing/leadership-research/massability-commissioners-staff-2026-05-08.md`
   is actually the **Permanent Commission on the Status of Persons with Disabilities**
   (a different body); kept only for one corroborating MRC-commissioner line. Consider

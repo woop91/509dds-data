@@ -26,7 +26,7 @@ sidecar `notes` for detail.
 
 | File | Type | Sidecar | Notes |
 |---|---|---|---|
-| `seiu-509-cba-2024-2026.md` | MD | ✅ | Full CBA text, Jan 1 2024 – Dec 31 2026; articles + appendices + Supplemental Agreements + MOUs; ~384,600 chars readable. **VDE provisions** are the examiner-caseload supplemental agreement + Appendix C examiner titles. **Note:** "Supplemental Agreement O" (~lines 2969–2989) covers **DDS-Dev** (Dept. of Developmental Services) Human Service Coordinators — a *different* agency; do not treat those passages as DDS-Det/VDE evidence. |
+| `seiu-509-cba-2024-2026.md` | MD | ✅ | Full CBA text, Jan 1 2024 – Dec 31 2026; articles + appendices + Supplemental Agreements + MOUs; ~384,600 chars readable. **VDE provisions** = the master Units 8 & 10 articles + **Appendix C** job titles/grades (Vocational Disability Examiner I/II/III + Chief VDE, ~lines 2493–2525); there is **no DDS-Det-specific supplemental agreement**. **Do not** read the agency-specific supplementals as DDS-Det evidence: "Supplemental Agreement O" (~lines 2965–3053) is **DDS-Dev** (Dept. of Developmental Services) Human Service Coordinators, and "Supplemental Agreement U" (~lines 3279+) is MRC's **Vocational Rehabilitation** division — both other divisions/agencies. |
 | `dds-cba-2024-2026.source.pdf` | PDF | n/a | Raw source PDF (5.6 MB); excluded from normalization — the .md was converted from this file |
 
 ✅ sidecar present · n/a excluded raw source
